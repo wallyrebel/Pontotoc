@@ -1,0 +1,48 @@
+﻿# Pontotoc News RSS Feeds Configuration
+# Generated: 2026-01-17
+
+feeds:
+  - name: "Pontotoc News Feed 1"
+    url: "https://fetchrss.com/feed/1vcaujD2G3c21vh7i87AH0Kz.rss"
+    category: "Local News"
+    enabled: true
+
+  - name: "Pontotoc News Feed 2"
+    url: "https://fetchrss.com/feed/1vcaujD2G3c21vcdHO6AP1zO.rss"
+    category: "Local News"
+    enabled: true
+
+  - name: "Pontotoc News Feed 3"
+    url: "https://fetchrss.com/feed/1vcaujD2G3c21vdUpJ5VAA1j.rss"
+    category: "Local News"
+    enabled: true
+
+  - name: "Pontotoc News Feed 4"
+    url: "https://fetchrss.com/feed/1vcaujD2G3c21vh7jv1zDFal.rss"
+    category: "Local News"
+    enabled: true
+
+  - name: "Pontotoc News Feed 5"
+    url: "https://fetchrss.com/feed/1vcaujD2G3c21vh7kh8MV2fT.rss"
+    category: "Local News"
+    enabled: true
+
+  - name: "Pontotoc News Feed 6"
+    url: "https://fetchrss.com/feed/1vcaujD2G3c21vh7lo1260by.rss"
+    category: "Local News"
+    enabled: true
+
+  - name: "Pontotoc News Feed 7"
+    url: "https://fetchrss.com/feed/1vcaujD2G3c21vh7mX75E8w6.rss"
+    category: "Local News"
+    enabled: true
+
+  - name: "Pontotoc News Feed 8"
+    url: "https://fetchrss.com/feed/1vcaujD2G3c21vh7nECOb1qN.rss"
+    category: "Local News"
+    enabled: true
+
+  - name: "Pontotoc News Feed 9"
+    url: "https://fetchrss.com/feed/1vcaujD2G3c21vh7nt1zDFam.rss"
+    category: "Local News"
+    enabled: true
