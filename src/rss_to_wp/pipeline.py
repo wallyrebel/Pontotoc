@@ -175,7 +175,15 @@ def run_pipeline(
     try:
         if not sources:
             return report
-        groups = make_groups(editor.plan(sources), sources, policy)
+        plan = editor.plan(sources)
+        report["plan"] = plan.model_dump()
+        try:
+            groups = make_groups(plan, sources, policy)
+        except ValueError as error:
+            # A bad grouping suggestion must not stop every unrelated story.
+            # Single-source fallback still passes every evidence and fact gate.
+            report["planning_warning"] = str(error)
+            groups = [[source] for source in sources]
         day_start = (
             pendulum.now(settings.timezone)
             .start_of("day")
@@ -278,6 +286,8 @@ def run_pipeline(
     except Exception as error:
         report["errors"] += 1
         report["fatal_error"] = type(error).__name__
+        if type(error) is ValueError:
+            report["fatal_reason"] = str(error)[:300]
         logger.error("pipeline_error", error_type=type(error).__name__)
     finally:
         report["zero_publication_warning"] = report["published"] == 0 and not dry_run

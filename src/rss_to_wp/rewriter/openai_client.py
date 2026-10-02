@@ -74,8 +74,10 @@ class OpenAIRewriter:
             },
         )
         choice = response.choices[0]
-        if choice.finish_reason != "stop" or choice.message.refusal or not choice.message.content:
-            raise ValueError("Editorial response incomplete or refused")
+        if choice.finish_reason != "stop":
+            raise ValueError(f"Editorial response incomplete: {choice.finish_reason}")
+        if choice.message.refusal or not choice.message.content:
+            raise ValueError("Editorial response refused or empty")
         return schema.model_validate_json(choice.message.content)
 
     def plan(self, sources: list[Source]) -> StoryPlan:
@@ -89,6 +91,8 @@ public notice. A completed game belongs in one group including its final score.
 Do not group merely by shared publisher, county, a generic topic, or vague title.
 When uncertain, keep sources separate. Include every input ID exactly once.
 Single-source groups are valid. Put the most useful local developments first.
+No group may exceed 16 sources. Use the most informative updates in that group;
+leave additional updates as single-source groups for individual assessment.
 Do not drop short sources; several may together support a complete story.
 """,
             {"sources": [s.payload() for s in sources]},
