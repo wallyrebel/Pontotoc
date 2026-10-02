@@ -156,6 +156,16 @@ def test_untrusted_generated_html_is_rejected(article, source):
     assert "unsafe_or_unexpected_html" in validate_article(article, [source], EditorialPolicy())
 
 
+def test_quote_feedback_identifies_the_fact_to_repair(article, source):
+    article.facts[2].quote = "A fabricated combined quote"
+    problems = validate_article(article, [source], EditorialPolicy())
+    assert "unsupported_evidence:fact[2]" in problems
+    assert any(
+        "evidence_detail:fact[2]:source=s1" in p and "fabricated combined quote" in p
+        for p in problems
+    )
+
+
 def test_five_ws_missing_is_invalid(article):
     payload = article.model_dump()
     del payload["five_ws"]["why"]

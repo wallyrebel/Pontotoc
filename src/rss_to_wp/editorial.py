@@ -202,7 +202,9 @@ def validate_article(article: Article, sources: list[Source], policy: EditorialP
         problems.append("too_few_paragraphs")
     if len(set(map(normalize, paragraphs))) != len(paragraphs):
         problems.append("repeated_paragraphs")
-    evidence = list(article.five_ws.__dict__.items()) + [("fact", fact) for fact in article.facts]
+    evidence = list(article.five_ws.__dict__.items()) + [
+        (f"fact[{i}]", fact) for i, fact in enumerate(article.facts)
+    ]
     for label, item in evidence:
         source = source_map.get(item.source_id)
         if (
@@ -213,6 +215,10 @@ def validate_article(article: Article, sources: list[Source], policy: EditorialP
             or normalize(item.quote) not in normalize(source.evidence_text)
         ):
             problems.append("unsupported_evidence:" + label)
+            problems.append(
+                f"evidence_detail:{label}:source={item.source_id}:"
+                f"quote={item.quote!r}:copy a contiguous exact excerpt from this source"
+            )
     if len({normalize(f.answer) for f in article.facts}) < policy.min_facts:
         problems.append("insufficient_distinct_facts")
     return list(dict.fromkeys(problems))
