@@ -2,7 +2,9 @@
 
 from __future__ import annotations
 
+import hashlib
 import json
+import time
 from collections import Counter
 from pathlib import Path
 
@@ -176,8 +178,22 @@ def run_pipeline(
     }
     report_dir = Path(report_dir)
     report_dir.mkdir(parents=True, exist_ok=True)
+    fingerprint = hashlib.sha256(
+        json.dumps(
+            {
+                "editorial_version": 1,
+                "model": settings.openai_model,
+                "policy": policy.model_dump(),
+                "sources": [s.payload() for s in sources],
+            },
+            sort_keys=True,
+        ).encode()
+    ).hexdigest()
     try:
         if not sources:
+            return report
+        if not dry_run and not errors and store.recently_held(fingerprint, time.time()):
+            report["unchanged_sources"] = True
             return report
         plan = editor.plan(sources)
         report["plan"] = plan.model_dump()
@@ -235,6 +251,8 @@ def run_pipeline(
                         problems = ["verification_failed", *verification.issues]
                 if problems and article.decision == "publish":
                     row["initial_rejection"] = problems
+                    if "verification" in row:
+                        row["initial_verification"] = row.pop("verification")
                     article = editor.repair(article, group, policy, problems)
                     row.update(article=article.model_dump(), body_words=word_count(article.body))
                     problems = validate_article(article, group, policy)
@@ -322,6 +340,14 @@ def run_pipeline(
             report["fatal_reason"] = str(error)[:300]
         logger.error("pipeline_error", error_type=type(error).__name__)
     finally:
+        if (
+            not dry_run
+            and sources
+            and not report["errors"]
+            and not report["eligible"]
+            and not report.get("unchanged_sources")
+        ):
+            store.remember_held(fingerprint, time.time())
         report["zero_publication_warning"] = report["published"] == 0 and not dry_run
         (report_dir / "editorial-report.json").write_text(
             json.dumps(report, indent=2, ensure_ascii=False), encoding="utf-8"
@@ -329,6 +355,8 @@ def run_pipeline(
         summary = f"## Pontotoc editorial run\n\nCandidates: {len(sources)} · Eligible: {report['eligible']} · Published/saved: {report['published']} · Held: {report['held']} · Errors: {report['errors']}\n\n"
         if report["zero_publication_warning"]:
             summary += "No articles were published. Check source availability and hold reasons before adjusting the editorial policy. Do not fill the gap with invented details.\n\n"
+        if report.get("unchanged_sources"):
+            summary += "These unchanged sources were already held within six hours. Any new source or changed policy triggers fresh evaluation immediately.\n\n"
         for row in report["stories"]:
             title = row.get("article", {}).get("headline") or row["source_titles"][0]
             title = plain_text(title).replace("\n", " ")[:150]

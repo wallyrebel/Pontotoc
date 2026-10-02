@@ -52,6 +52,12 @@ class DedupeStore:
                 CREATE INDEX IF NOT EXISTS idx_feed_url
                 ON processed_entries(feed_url)
             """)
+            conn.execute("""
+                CREATE TABLE IF NOT EXISTS editorial_assessments (
+                    fingerprint TEXT PRIMARY KEY,
+                    assessed_at REAL NOT NULL
+                )
+            """)
             conn.commit()
 
         logger.debug("database_initialized", path=str(self.db_path))
@@ -114,6 +120,24 @@ class DedupeStore:
                 "SELECT COUNT(DISTINCT wp_post_id) FROM processed_entries WHERE wp_post_id>0 AND processed_at>=?",
                 (cutoff,),
             ).fetchone()[0]
+
+    def recently_held(self, fingerprint: str, now: float) -> bool:
+        with self._get_connection() as conn:
+            return (
+                conn.execute(
+                    "SELECT 1 FROM editorial_assessments WHERE fingerprint=? AND assessed_at>?",
+                    (fingerprint, now - 6 * 3600),
+                ).fetchone()
+                is not None
+            )
+
+    def remember_held(self, fingerprint: str, now: float) -> None:
+        with self._get_connection() as conn:
+            conn.execute("DELETE FROM editorial_assessments WHERE assessed_at<?", (now - 86400,))
+            conn.execute(
+                "INSERT OR REPLACE INTO editorial_assessments VALUES (?,?)", (fingerprint, now)
+            )
+            conn.commit()
 
     def mark_processed(
         self,

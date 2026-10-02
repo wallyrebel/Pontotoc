@@ -16,6 +16,9 @@ Serve readers in Pontotoc, Ecru, Thaxton, Toccopola and nearby communities.
 Regional coverage qualifies only when its relevance to these readers is concrete.
 Source publication timestamps are NOT event dates. Resolve relative dates only
 when unambiguous using the source's America/Chicago date. Prefer explicit dates.
+In published copy, replace today/tonight/tomorrow/yesterday/last week with the
+supported calendar date or dated attribution; do not carry stale relative timing
+from an older source into a new article.
 Do not mistake the feed publisher for the event's venue or participating entity.
 Unknown causes must remain unknown. 'Why' can mean documented purpose, outcome,
 consequences or practical significance; it must not be invented to fill the field.
@@ -44,10 +47,20 @@ Quotes must be contiguous verbatim substrings, not paraphrases, ellipses, or
 sentences assembled from separate parts. Copy short evidence spans exactly.
 Return decision=hold if the group lacks enough facts, is generic promotion,
 greetings, an image-only post, an isolated in-progress score, lacks local relevance,
-or contains unresolved factual conflicts. Use empty strings/lists for missing data.
+or contains essential unresolved factual conflicts. Use empty strings/lists for missing data.
+An optional disputed detail need not suppress a useful story: omit it, or explicitly
+describe the discrepancy with attribution and tell readers to confirm with the
+organizer. For event listings, report consistently supported individual showtimes;
+if a broad run-date range differs, disclose that difference instead of inventing
+a showtime or silently choosing a date. A disclosed discrepancy is not a resolved fact.
 For sports: combine the game's updates, require an explicit final result before
 a recap, distinguish each team from its nickname, and never infer a win from an
 interim lead. Do not assign an ambiguous record or next opponent to a team.
+Use the supported scoring chronology, named players and exact quarter/time labels
+when several updates are available. Build a substantive 200-350 word recap when
+those details support it; do not discard them to write only the final score.
+An end-of-third-quarter score is not a halftime score. A rescheduled game was
+not necessarily delayed; describe only the schedule change the source states.
 For combined stories: every source must concern the SAME event, game, notice or
 development, not merely the same town or organization. List the source IDs actually used. Never
 combine unrelated crime incidents, forecasts for different periods, or games.
@@ -163,9 +176,15 @@ silently choose a disputed date or reject all otherwise useful confirmed details
         """One bounded revision; the replacement must pass every gate again."""
         return self._structured(
             Article,
-            WRITER + "\nRevise the rejected draft using the feedback. Remove unsupported "
-            "claims. Copy exact short evidence spans. A complete 100-199 word local "
-            "story should be a justified brief. If facts are missing, hold; do not pad.",
+            WRITER + "\nRevise the rejected draft using the feedback. Fix the specific "
+            "errors while preserving supported reporting. Re-read ALL supplied sources "
+            "for useful details before declaring information missing. Do not strip a "
+            "rich combined story down to a few sentences. For example, correct a "
+            "quarter label and retain the documented scoring sequence. Include every "
+            "source ID used. Copy exact short evidence spans. Meet the supplied word "
+            "and source-information limits using actual facts, never filler. A complete "
+            "100-199 word local story should be a justified brief. If facts truly are "
+            "missing, hold. Disclose optional date discrepancies as described above.",
             {
                 "editorial_limits": policy.model_dump(),
                 "sources": [s.payload() for s in sources],

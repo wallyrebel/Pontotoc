@@ -17,6 +17,9 @@ There is no obligation to fill a publishing quota.
 - The verifier checks the headline, excerpt, body, source relationships, five Ws,
   local relevance, padding, and factual conflicts. Missing or failed checks hold
   the story. No generic filler, invented dates or fabricated context.
+- A rejected publishable draft gets one revision using the original evidence,
+  then must pass every check again. Optional disputed details can be omitted or
+  explicitly attributed as discrepancies; essential uncertainty still holds a story.
 - Game updates are grouped before writing. An interim lead is not a final win.
   Ambiguous records and next opponents must not be assigned to a team by guesswork.
 - HTML is restricted to basic article formatting. Named source links and an honest
@@ -35,6 +38,9 @@ publish up to six qualifying stories, with a cached daily limit of 18 posts and
 three per feed per run. These are ceilings, not targets. Feed scans look back 72
 hours so several short updates can accumulate. Publication history is not written
 for held, deferred or dry-run stories.
+If an entire source batch was held without errors, unchanged inputs wait six hours
+before another paid assessment. New source text, policy or model settings trigger
+assessment immediately. Dry runs always assess; held inputs are never marked published.
 
 All scheduled and manual runs share a concurrency group. History is restored from
 the newest cache (including the old cache during migration) and saved even when

@@ -373,6 +373,25 @@ def test_replay_cannot_publish():
     assert "--replay requires --dry-run" in unstyle(result.output)
 
 
+def test_unchanged_holds_save_model_calls_but_new_sources_are_reassessed(
+    tmp_path, cfg, settings, source, article, approved, monkeypatch
+):
+    article.decision = "hold"
+    editor = fake_editor(article, approved)
+    store = DedupeStore(tmp_path / "db")
+    monkeypatch.setattr("rss_to_wp.pipeline.collect_sources", lambda *a: ([source], [], 0))
+    run_pipeline(cfg, settings, store, editor, report_dir=tmp_path)
+    report = run_pipeline(cfg, settings, store, editor, report_dir=tmp_path)
+    assert report["unchanged_sources"] and editor.plan.call_count == 1
+    assert not store.is_published(source.key, source.url)
+    source.text += " The organizer added a new event detail."
+    run_pipeline(cfg, settings, store, editor, report_dir=tmp_path)
+    assert editor.plan.call_count == 2
+    # Dry runs always evaluate rather than using/writing a hold cache.
+    run_pipeline(cfg, settings, store, editor, dry_run=True, report_dir=tmp_path)
+    assert editor.plan.call_count == 3
+
+
 def test_invalid_plan_does_not_discard_valid_combined_story(
     tmp_path, cfg, settings, source, article, approved, monkeypatch
 ):
