@@ -52,7 +52,7 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           # A visible repository variable can override the editorial model.
-          OPENAI_MODEL: ${{ vars.EDITORIAL_MODEL || 'gpt-4.1' }}
+          OPENAI_MODEL: ${{ vars.EDITORIAL_MODEL || 'gpt-5.4-mini' }}
           WORDPRESS_BASE_URL: ${{ secrets.WORDPRESS_BASE_URL }}
           WORDPRESS_USERNAME: ${{ secrets.WORDPRESS_USERNAME }}
           WORDPRESS_APP_PASSWORD: ${{ secrets.WORDPRESS_APP_PASSWORD }}

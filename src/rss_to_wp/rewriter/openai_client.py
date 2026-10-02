@@ -37,7 +37,9 @@ article and then miss the article minimum. Briefs may cover completed local
 events as well as upcoming events. Never add promotional closing paragraphs.
 Every publish decision must answer who, what, where, when and why in the body and
 include distinct supported facts. Supply an EXACT source quote for every evidence
-field, from that source's title or text. An empty answer/quote means unavailable.
+field, from that source's evidence_text. Publisher metadata supports attribution,
+not the event venue. A notice's publication date may be reported as its publication
+date, never silently substituted for an event date. An empty answer/quote means unavailable.
 Quotes must be contiguous verbatim substrings, not paraphrases, ellipses, or
 sentences assembled from separate parts. Copy short evidence spans exactly.
 Return decision=hold if the group lacks enough facts, is generic promotion,
@@ -56,12 +58,13 @@ Report only supported details; a source timestamp is not proof of game date.
 
 
 class OpenAIRewriter:
-    def __init__(self, api_key: str, model: str = "gpt-4.1", max_tokens: int = 10000):
-        self.client = OpenAI(api_key=api_key, timeout=120, max_retries=2)
+    def __init__(self, api_key: str, model: str = "gpt-5.4-mini", max_tokens: int = 18000):
+        self.client = OpenAI(api_key=api_key, timeout=180, max_retries=2)
         self.model = model
         self.max_tokens = max_tokens
 
     def _structured(self, schema, system: str, payload: dict):
+        reasoning = {"reasoning_effort": "medium"} if self.model.startswith("gpt-5") else {}
         response = self.client.chat.completions.create(
             model=self.model,
             messages=[
@@ -69,6 +72,7 @@ class OpenAIRewriter:
                 {"role": "user", "content": json.dumps(payload, ensure_ascii=False)},
             ],
             max_completion_tokens=self.max_tokens,
+            **reasoning,
             response_format={
                 "type": "json_schema",
                 "json_schema": {
@@ -99,6 +103,8 @@ Single-source groups are valid. Put the most useful local developments first.
 No group may exceed 16 sources. Use the most informative updates in that group;
 leave additional updates as single-source groups for individual assessment.
 Do not drop short sources; several may together support a complete story.
+Include the game's schedule announcement in its recap group to establish the
+actual event date. For recurring classes, combine reminders of that exact class.
 Football and volleyball are separate events. A game recap, player selection,
 and a previous week's game are separate stories. A forecast, a monthly climate
 record and a weather training class are separate stories. A picnic, fundraiser
@@ -132,6 +138,10 @@ For a brief, verify immediate practical local utility and completeness.
 For combined sources, verify the same actual event and compatible event dates.
 Reject unqualified interim scores represented as final, ambiguous team records,
 invented event dates/locations, unsupported causes and unexplained contradictions.
+Check relative dates against each source's local publication date. A newer forecast
+supersedes an older one for the same period; do not present conflicting rainfall
+totals as simultaneous predictions. A regional forecast must stay regional unless
+it specifically names the county; do not narrow regional totals to one town.
 Conflicting optional details may be omitted; essential conflicts require a hold.
 Mark all applicable booleans false and list concrete issues when unsuitable.
 Approval requires all checks true and no issues.

@@ -70,12 +70,16 @@ class Source:
             "title": self.title,
             "text": self.text,
             "source_published_at": self.published,
+            "evidence_text": self.evidence_text,
         }
 
     @property
     def evidence_text(self) -> str:
-        # Publisher and timestamp are metadata, not proof of event place/date.
-        return f"{self.title} {self.text}"
+        # Metadata supports attribution/publication date, never an inferred venue/event date.
+        return (
+            f"Publisher: {self.feed.source_name or self.feed.name}. "
+            f"Source published: {self.published}. {self.title} {self.text}"
+        )
 
 
 class StrictModel(BaseModel):
