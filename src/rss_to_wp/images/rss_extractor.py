@@ -2,7 +2,6 @@
 
 from __future__ import annotations
 
-import re
 from typing import Any, Optional
 from urllib.parse import urljoin, urlparse
 

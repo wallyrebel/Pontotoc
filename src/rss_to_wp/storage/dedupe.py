@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import sqlite3
 from contextlib import contextmanager
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Optional
 
@@ -87,6 +87,34 @@ class DedupeStore:
 
         return result
 
+    def is_published(self, entry_key: str, source_url: str) -> bool:
+        """Ignore legacy dry-run rows and recognize tracking-URL variants."""
+        from rss_to_wp.editorial import canonical_url
+
+        with self._get_connection() as conn:
+            if conn.execute(
+                "SELECT 1 FROM processed_entries WHERE entry_key=? AND wp_post_id>0", (entry_key,)
+            ).fetchone():
+                return True
+            links = conn.execute(
+                "SELECT entry_link FROM processed_entries WHERE wp_post_id>0"
+            ).fetchall()
+        target = canonical_url(source_url)
+        for row in links:
+            try:
+                if canonical_url(row[0]) == target:
+                    return True
+            except (ValueError, TypeError):
+                continue
+        return False
+
+    def posts_since(self, cutoff: str) -> int:
+        with self._get_connection() as conn:
+            return conn.execute(
+                "SELECT COUNT(DISTINCT wp_post_id) FROM processed_entries WHERE wp_post_id>0 AND processed_at>=?",
+                (cutoff,),
+            ).fetchone()[0]
+
     def mark_processed(
         self,
         entry_key: str,
@@ -120,7 +148,7 @@ class DedupeStore:
                     entry_link,
                     wp_post_id,
                     wp_post_url,
-                    datetime.utcnow().isoformat(),
+                    datetime.now(timezone.utc).replace(tzinfo=None).isoformat(),
                 ),
             )
             conn.commit()

@@ -2,8 +2,6 @@
 
 from __future__ import annotations
 
-from typing import Optional
-
 import requests
 from requests.adapters import HTTPAdapter
 from tenacity import (
@@ -37,7 +35,7 @@ def create_http_session(
         total=max_retries,
         backoff_factor=backoff_factor,
         status_forcelist=[429, 500, 502, 503, 504],
-        allowed_methods=["HEAD", "GET", "POST", "PUT", "DELETE", "OPTIONS", "TRACE"],
+        allowed_methods=["HEAD", "GET", "OPTIONS"],
     )
 
     adapter = HTTPAdapter(max_retries=retry_strategy)
