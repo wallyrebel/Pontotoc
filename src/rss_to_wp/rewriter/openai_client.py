@@ -32,7 +32,7 @@ Aim for 250-450 words IF the sources support it. Never pad or repeat facts to
 reach a target; do not add generic community-benefit commentary. Complete useful
 briefs are welcome. A brief needs specific local utility (e.g. closure, school
 schedule, public safety notice, event logistics or final sports result).
-Use kind=brief for a complete useful story of 120-199 words; do not label it an
+Use kind=brief for a complete useful story of 100-199 words; do not label it an
 article and then miss the article minimum. Briefs may cover completed local
 events as well as upcoming events. Never add promotional closing paragraphs.
 Every publish decision must answer who, what, where, when and why in the body and
@@ -49,7 +49,7 @@ For sports: combine the game's updates, require an explicit final result before
 a recap, distinguish each team from its nickname, and never infer a win from an
 interim lead. Do not assign an ambiguous record or next opponent to a team.
 For combined stories: every source must concern the SAME event, game, notice or
-development, not merely the same town or organization. List all source IDs. Never
+development, not merely the same town or organization. List the source IDs actually used. Never
 combine unrelated crime incidents, forecasts for different periods, or games.
 For future events include available date, time, location, price and how to attend.
 Report only supported details; a source timestamp is not proof of game date.
@@ -132,6 +132,8 @@ by a publisher or broad topic. Double-check every ID before returning.
 Independently fact-check the proposed article against the source material.
 Do NOT trust the writer's evidence labels or its publish decision. Check headline,
 excerpt and EVERY body claim. Check whether all five Ws are actually in the body,
+Every claim must be supported by a source listed in article.source_ids. Other
+supplied sources are context for detecting conflicts, not uncredited evidence.
 whether the supporting quotes entail the answers, and whether the separate facts
 are meaningful and distinct. Reject filler and exaggerated certainty.
 For a brief, verify immediate practical local utility and completeness.
@@ -145,6 +147,12 @@ it specifically names the county; do not narrow regional totals to one town.
 Conflicting optional details may be omitted; essential conflicts require a hold.
 Mark all applicable booleans false and list concrete issues when unsuitable.
 Approval requires all checks true and no issues.
+The 'why' need not be a separately labelled sentence: a described event's purpose,
+a game's final outcome, or a notice's documented practical consequence can satisfy
+it. Do not demand invented motivations or generic community-benefit language.
+For event schedules, compare detailed showtimes with broad date ranges. If they
+conflict, report the discrepancy and direct readers to the organizer; do not
+silently choose a disputed date or reject all otherwise useful confirmed details.
 """,
             {"sources": [s.payload() for s in sources], "article": article.model_dump()},
         )
@@ -156,7 +164,7 @@ Approval requires all checks true and no issues.
         return self._structured(
             Article,
             WRITER + "\nRevise the rejected draft using the feedback. Remove unsupported "
-            "claims. Copy exact short evidence spans. A complete 120-199 word local "
+            "claims. Copy exact short evidence spans. A complete 100-199 word local "
             "story should be a justified brief. If facts are missing, hold; do not pad.",
             {
                 "editorial_limits": policy.model_dump(),

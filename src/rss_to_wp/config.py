@@ -41,7 +41,7 @@ class EditorialPolicy(BaseModel):
 
     model_config = ConfigDict(extra="forbid")
     min_article_words: int = Field(default=200, ge=120)
-    min_brief_words: int = Field(default=120, ge=100)
+    min_brief_words: int = Field(default=100, ge=100)
     max_article_words: int = Field(default=800, ge=200)
     min_source_words: int = Field(default=60, ge=30)
     min_facts: int = Field(default=5, ge=5)

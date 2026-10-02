@@ -65,7 +65,7 @@ feeds:
   max_candidates: 40
 editorial:
   min_article_words: 200
-  min_brief_words: 120
+  min_brief_words: 100
   max_article_words: 800
   min_source_words: 60
   min_facts: 5

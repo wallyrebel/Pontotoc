@@ -17,6 +17,7 @@ from rss_to_wp.editorial import (
     StoryPlan,
     Verification,
     canonical_url,
+    unavailable_source,
     validate_article,
 )
 from rss_to_wp.feeds.filter import is_within_window, parse_entry_date
@@ -160,6 +161,29 @@ def test_five_ws_missing_is_invalid(article):
     del payload["five_ws"]["why"]
     with pytest.raises(ValidationError):
         Article.model_validate(payload)
+
+
+def test_platform_error_templates_are_not_news():
+    assert unavailable_source("This content isn’t available right now", "")
+    assert unavailable_source(
+        "A post from Town of Ecru",
+        "When this happens, it's usually "
+        "because the owner only shared it with a small group of people.",
+    )
+    assert not unavailable_source(
+        "School website restored after outage",
+        "The district announced service returned Tuesday after repairs.",
+    )
+
+
+def test_unused_source_cannot_supply_missing_evidence(article, source):
+    from dataclasses import replace
+
+    other = replace(source, id="s2", text="", title="No facts")
+    article.source_ids = ["s2"]
+    problems = validate_article(article, [source, other], EditorialPolicy())
+    assert "insufficient_source_words:0" in problems
+    assert "unsupported_evidence:who" in problems
 
 
 def test_unknown_and_reused_group_sources_are_rejected(source):

@@ -14,6 +14,7 @@ from rss_to_wp.editorial import (
     canonical_url,
     plain_text,
     story_slug,
+    unavailable_source,
     unique_source_words,
     validate_article,
     validate_verification,
@@ -60,6 +61,9 @@ def collect_sources(config: FeedsConfig, settings: AppSettings, store, hours: in
         for entry in entries:
             title = plain_text(get_entry_title(entry))
             text = plain_text(get_entry_content(entry))
+            if unavailable_source(title, text):
+                observations.append({"title": title, "outcome": "unavailable_source"})
+                continue
             link = get_entry_link(entry)
             try:
                 url = canonical_url(link or "")
@@ -247,6 +251,8 @@ def run_pipeline(
                 if dry_run:
                     row.update(outcome="would_publish")
                     continue
+                # Only credit, illustrate and consume the sources actually used.
+                group = [s for s in group if s.id in article.source_ids]
                 if wp is None:
                     raise ValueError("WordPress client required to publish")
                 group_feeds = {s.feed.name: s.feed for s in group}

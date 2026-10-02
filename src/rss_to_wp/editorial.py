@@ -29,6 +29,20 @@ def normalize(value: str) -> str:
     return re.sub(r"\s+", " ", value).strip().casefold()
 
 
+def unavailable_source(title: str, text: str) -> bool:
+    """Recognize feed/platform error templates, not articles discussing an outage."""
+    title = normalize(title).replace("’", "'").rstrip(".! ")
+    text = normalize(text).replace("’", "'")
+    return title in {
+        "this content isn't available right now",
+        "this content isn't available",
+        "content not available",
+        "content unavailable",
+    } or text.startswith(
+        "when this happens, it's usually because the owner only shared it with a small group"
+    )
+
+
 def canonical_url(value: str) -> str:
     """Remove tracking only; preserve identifiers such as Facebook story_fbid."""
     parts = urlsplit(value)
@@ -149,8 +163,12 @@ def validate_article(article: Article, sources: list[Source], policy: EditorialP
     if article.decision != "publish":
         return ["editorial_hold: " + article.reason]
     source_map = {source.id: source for source in sources}
-    if set(article.source_ids) != set(source_map) or len(article.source_ids) != len(source_map):
-        problems.append("source_ids_must_match_group")
+    if (
+        not article.source_ids
+        or len(article.source_ids) != len(set(article.source_ids))
+        or not set(article.source_ids).issubset(source_map)
+    ):
+        problems.append("source_ids_must_be_known_and_unique")
     if not article.local_relevance.strip():
         problems.append("missing_local_relevance")
     if article.kind == "brief" and not article.brief_justification.strip():
@@ -170,7 +188,7 @@ def validate_article(article: Article, sources: list[Source], policy: EditorialP
         problems.append(
             f"body_word_count:{body_words}:required:{minimum}-{policy.max_article_words}"
         )
-    source_words = unique_source_words(sources)
+    source_words = unique_source_words([s for s in sources if s.id in article.source_ids])
     if source_words < policy.min_source_words:
         problems.append(f"insufficient_source_words:{source_words}")
     if body_words > source_words * 2 + 30:
@@ -180,7 +198,7 @@ def validate_article(article: Article, sources: list[Source], policy: EditorialP
     if any(tag.name not in allowed_tags or tag.attrs for tag in soup.find_all(True)):
         problems.append("unsafe_or_unexpected_html")
     paragraphs = [plain_text(str(p)) for p in soup.find_all("p") if plain_text(str(p))]
-    if len(paragraphs) < 3:
+    if len(paragraphs) < (2 if article.kind == "brief" else 3):
         problems.append("too_few_paragraphs")
     if len(set(map(normalize, paragraphs))) != len(paragraphs):
         problems.append("repeated_paragraphs")
@@ -191,6 +209,7 @@ def validate_article(article: Article, sources: list[Source], policy: EditorialP
             not item.answer.strip()
             or not item.quote.strip()
             or source is None
+            or item.source_id not in article.source_ids
             or normalize(item.quote) not in normalize(source.evidence_text)
         ):
             problems.append("unsupported_evidence:" + label)

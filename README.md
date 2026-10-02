@@ -8,7 +8,7 @@ There is no obligation to fill a publishing quota.
 ## Editorial balance
 
 - Aim for 250–450 words where the reporting supports them; standard articles need
-  at least 200 words. Complete, useful local briefs can qualify from **120 words**.
+  at least 200 words. Complete, useful local briefs can qualify from **100 words**.
 - Require who, what, where, when, and why (documented purpose, consequences or
   significance), at least five distinct facts, and exact supporting source excerpts.
 - Combined sources need at least 60 non-repeated source words. Briefs need a
