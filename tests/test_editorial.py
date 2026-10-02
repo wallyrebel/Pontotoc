@@ -342,4 +342,7 @@ def test_truncated_model_response_is_rejected():
 def test_replay_cannot_publish():
     result = CliRunner().invoke(app, ["run", "--replay"])
     assert result.exit_code != 0
-    assert "--replay requires --dry-run" in result.output
+    # Rich adds ANSI styling between option names on Linux CI terminals.
+    from click import unstyle
+
+    assert "--replay requires --dry-run" in unstyle(result.output)
