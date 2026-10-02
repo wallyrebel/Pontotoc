@@ -158,6 +158,22 @@ def unique_source_words(sources: list[Source]) -> int:
     return sum(word_count(s) for s in fragments)
 
 
+def apply_length_format(article: Article, policy: EditorialPolicy) -> Article:
+    """Route a short draft through brief review instead of trusting a model's label."""
+    if (
+        article.decision == "publish"
+        and article.kind == "article"
+        and policy.min_brief_words <= word_count(article.body) < policy.min_article_words
+    ):
+        return article.model_copy(
+            update={
+                "kind": "brief",
+                "brief_justification": article.brief_justification or article.local_relevance,
+            }
+        )
+    return article
+
+
 def validate_article(article: Article, sources: list[Source], policy: EditorialPolicy) -> list[str]:
     problems = []
     if article.decision != "publish":

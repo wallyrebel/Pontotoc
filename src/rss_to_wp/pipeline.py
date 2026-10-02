@@ -13,6 +13,7 @@ import pendulum
 from rss_to_wp.config import AppSettings, FeedsConfig
 from rss_to_wp.editorial import (
     Source,
+    apply_length_format,
     canonical_url,
     plain_text,
     story_slug,
@@ -241,7 +242,7 @@ def run_pipeline(
                 report["held"] += 1
                 continue
             try:
-                article = editor.rewrite_story(group, policy)
+                article = apply_length_format(editor.rewrite_story(group, policy), policy)
                 row.update(article=article.model_dump(), body_words=word_count(article.body))
                 problems = validate_article(article, group, policy)
                 if not problems:
@@ -253,7 +254,9 @@ def run_pipeline(
                     row["initial_rejection"] = problems
                     if "verification" in row:
                         row["initial_verification"] = row.pop("verification")
-                    article = editor.repair(article, group, policy, problems)
+                    article = apply_length_format(
+                        editor.repair(article, group, policy, problems), policy
+                    )
                     row.update(article=article.model_dump(), body_words=word_count(article.body))
                     problems = validate_article(article, group, policy)
                     if not problems:

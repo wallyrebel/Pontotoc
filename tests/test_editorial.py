@@ -431,7 +431,7 @@ def test_repaired_brief_must_pass_evidence_and_fact_check(
     tmp_path, cfg, settings, source, article, approved, monkeypatch
 ):
     draft = article.model_copy(deep=True)
-    draft.kind = "article"  # A complete brief was misclassified, below 200 words.
+    draft.excerpt = "Too short"  # A repairable formatting error, not missing reporting.
     editor = fake_editor(draft, approved)
     editor.repair.return_value = article
     monkeypatch.setattr("rss_to_wp.pipeline.collect_sources", lambda *a: ([source], [], 0))
@@ -441,3 +441,21 @@ def test_repaired_brief_must_pass_evidence_and_fact_check(
     assert report["eligible"] == 1
     editor.repair.assert_called_once()
     editor.verify.assert_called_once()
+
+
+def test_mislabelled_article_gets_full_brief_review_not_automatic_rejection(
+    tmp_path, cfg, settings, source, article, approved, monkeypatch
+):
+    article.kind = "article"
+    article.brief_justification = ""
+    editor = fake_editor(article, approved)
+    monkeypatch.setattr("rss_to_wp.pipeline.collect_sources", lambda *a: ([source], [], 0))
+    store = DedupeStore(tmp_path / "db")
+    report = run_pipeline(cfg, settings, store, editor, dry_run=True, report_dir=tmp_path)
+    assert report["eligible"] == 1
+    assert editor.verify.call_args.args[0].kind == "brief"
+    editor.repair.assert_not_called()
+    approved.locally_relevant = False
+    approved.issues = ["No practical local utility"]
+    report = run_pipeline(cfg, settings, store, editor, dry_run=True, report_dir=tmp_path)
+    assert report["eligible"] == 0 and report["held"] == 1
