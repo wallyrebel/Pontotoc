@@ -133,6 +133,7 @@ def fake_editor(article, approved):
         {"groups": [{"source_ids": ["s1"], "reason": "one event"}]}
     )
     editor.rewrite_story.return_value = article
+    editor.repair.return_value = article
     editor.verify.return_value = approved
     return editor
 
@@ -346,3 +347,44 @@ def test_replay_cannot_publish():
     from click import unstyle
 
     assert "--replay requires --dry-run" in unstyle(result.output)
+
+
+def test_invalid_plan_does_not_discard_valid_combined_story(
+    tmp_path, cfg, settings, source, article, approved, monkeypatch
+):
+    from dataclasses import replace
+
+    other = replace(source, id="s2", key="other", url="https://example.org/other")
+    article.source_ids = ["s1", "s2"]
+    editor = fake_editor(article, approved)
+    editor.plan.return_value = StoryPlan.model_validate(
+        {
+            "groups": [
+                {"source_ids": ["unknown"], "reason": "bad group"},
+                {"source_ids": ["s1", "s2"], "reason": "same event"},
+            ]
+        }
+    )
+    monkeypatch.setattr("rss_to_wp.pipeline.collect_sources", lambda *a: ([source, other], [], 0))
+    report = run_pipeline(
+        cfg, settings, DedupeStore(tmp_path / "db"), editor, dry_run=True, report_dir=tmp_path
+    )
+    assert report["eligible"] == 1 and report["errors"] == 0
+    assert len(report["stories"]) == 1
+    assert editor.plan.call_count == 2
+
+
+def test_repaired_brief_must_pass_evidence_and_fact_check(
+    tmp_path, cfg, settings, source, article, approved, monkeypatch
+):
+    draft = article.model_copy(deep=True)
+    draft.kind = "article"  # A complete brief was misclassified, below 200 words.
+    editor = fake_editor(draft, approved)
+    editor.repair.return_value = article
+    monkeypatch.setattr("rss_to_wp.pipeline.collect_sources", lambda *a: ([source], [], 0))
+    report = run_pipeline(
+        cfg, settings, DedupeStore(tmp_path / "db"), editor, dry_run=True, report_dir=tmp_path
+    )
+    assert report["eligible"] == 1
+    editor.repair.assert_called_once()
+    editor.verify.assert_called_once()

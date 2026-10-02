@@ -180,10 +180,26 @@ def run_pipeline(
         try:
             groups = make_groups(plan, sources, policy)
         except ValueError as error:
-            # A bad grouping suggestion must not stop every unrelated story.
-            # Single-source fallback still passes every evidence and fact gate.
             report["planning_warning"] = str(error)
-            groups = [[source] for source in sources]
+            plan = editor.plan(sources, feedback=str(error))
+            report["revised_plan"] = plan.model_dump()
+            try:
+                groups = make_groups(plan, sources, policy)
+            except ValueError as error:
+                # Salvage valid groups instead of losing all combined coverage.
+                report["planning_warning"] += "; revision: " + str(error)
+                groups, used = [], set()
+                for proposed in plan.groups:
+                    try:
+                        single_plan = type(plan)(groups=[proposed])
+                        members = make_groups(single_plan, sources, policy)[0]
+                        if any(s.id in used for s in members):
+                            continue
+                    except ValueError:
+                        continue
+                    groups.append(members)
+                    used.update(s.id for s in members)
+                groups.extend([[s] for s in sources if s.id not in used])
         day_start = (
             pendulum.now(settings.timezone)
             .start_of("day")
@@ -213,6 +229,16 @@ def run_pipeline(
                     row["verification"] = verification.model_dump()
                     if not validate_verification(verification):
                         problems = ["verification_failed", *verification.issues]
+                if problems and article.decision == "publish":
+                    row["initial_rejection"] = problems
+                    article = editor.repair(article, group, policy, problems)
+                    row.update(article=article.model_dump(), body_words=word_count(article.body))
+                    problems = validate_article(article, group, policy)
+                    if not problems:
+                        verification = editor.verify(article, group)
+                        row["verification"] = verification.model_dump()
+                        if not validate_verification(verification):
+                            problems = ["verification_failed", *verification.issues]
                 if problems:
                     row.update(outcome="hold", reasons=problems)
                     report["held"] += 1

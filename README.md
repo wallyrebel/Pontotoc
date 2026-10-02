@@ -56,7 +56,7 @@ cp .env.example .env
 Set `OPENAI_API_KEY`, `WORDPRESS_BASE_URL`, `WORDPRESS_USERNAME` and
 `WORDPRESS_APP_PASSWORD`. In GitHub, keep these in Actions secrets. Existing
 WordPress status and SMTP notification secrets are supported. The default model is
-`gpt-4.1-mini`; override it with the repository variable `EDITORIAL_MODEL` in
+`gpt-4.1`; override it with the repository variable `EDITORIAL_MODEL` in
 Actions, or `OPENAI_MODEL` locally. The model must support structured JSON outputs.
 This deliberately supersedes the old nano-model secret in the workflow.
 

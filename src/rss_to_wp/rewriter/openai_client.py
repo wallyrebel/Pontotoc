@@ -32,9 +32,14 @@ Aim for 250-450 words IF the sources support it. Never pad or repeat facts to
 reach a target; do not add generic community-benefit commentary. Complete useful
 briefs are welcome. A brief needs specific local utility (e.g. closure, school
 schedule, public safety notice, event logistics or final sports result).
+Use kind=brief for a complete useful story of 120-199 words; do not label it an
+article and then miss the article minimum. Briefs may cover completed local
+events as well as upcoming events. Never add promotional closing paragraphs.
 Every publish decision must answer who, what, where, when and why in the body and
 include distinct supported facts. Supply an EXACT source quote for every evidence
 field, from that source's title or text. An empty answer/quote means unavailable.
+Quotes must be contiguous verbatim substrings, not paraphrases, ellipses, or
+sentences assembled from separate parts. Copy short evidence spans exactly.
 Return decision=hold if the group lacks enough facts, is generic promotion,
 greetings, an image-only post, an isolated in-progress score, lacks local relevance,
 or contains unresolved factual conflicts. Use empty strings/lists for missing data.
@@ -51,7 +56,7 @@ Report only supported details; a source timestamp is not proof of game date.
 
 
 class OpenAIRewriter:
-    def __init__(self, api_key: str, model: str = "gpt-4.1-mini", max_tokens: int = 6000):
+    def __init__(self, api_key: str, model: str = "gpt-4.1", max_tokens: int = 10000):
         self.client = OpenAI(api_key=api_key, timeout=120, max_retries=2)
         self.model = model
         self.max_tokens = max_tokens
@@ -80,7 +85,7 @@ class OpenAIRewriter:
             raise ValueError("Editorial response refused or empty")
         return schema.model_validate_json(choice.message.content)
 
-    def plan(self, sources: list[Source]) -> StoryPlan:
+    def plan(self, sources: list[Source], feedback: str = "") -> StoryPlan:
         return self._structured(
             StoryPlan,
             EDITOR
@@ -94,8 +99,13 @@ Single-source groups are valid. Put the most useful local developments first.
 No group may exceed 16 sources. Use the most informative updates in that group;
 leave additional updates as single-source groups for individual assessment.
 Do not drop short sources; several may together support a complete story.
+Football and volleyball are separate events. A game recap, player selection,
+and a previous week's game are separate stories. A forecast, a monthly climate
+record and a weather training class are separate stories. A picnic, fundraiser
+and decorations are separate stories. Group by ONE identifiable event, never
+by a publisher or broad topic. Double-check every ID before returning.
 """,
-            {"sources": [s.payload() for s in sources]},
+            {"sources": [s.payload() for s in sources], "validation_feedback": feedback},
         )
 
     def rewrite_story(self, sources: list[Source], policy: EditorialPolicy) -> Article:
@@ -127,4 +137,21 @@ Mark all applicable booleans false and list concrete issues when unsuitable.
 Approval requires all checks true and no issues.
 """,
             {"sources": [s.payload() for s in sources], "article": article.model_dump()},
+        )
+
+    def repair(
+        self, article: Article, sources: list[Source], policy: EditorialPolicy, problems: list[str]
+    ) -> Article:
+        """One bounded revision; the replacement must pass every gate again."""
+        return self._structured(
+            Article,
+            WRITER + "\nRevise the rejected draft using the feedback. Remove unsupported "
+            "claims. Copy exact short evidence spans. A complete 120-199 word local "
+            "story should be a justified brief. If facts are missing, hold; do not pad.",
+            {
+                "editorial_limits": policy.model_dump(),
+                "sources": [s.payload() for s in sources],
+                "rejected_draft": article.model_dump(),
+                "problems": problems,
+            },
         )

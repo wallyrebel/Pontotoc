@@ -28,11 +28,11 @@ concurrency:
 
 jobs:
   process-feeds:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 40
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with:
           python-version: '3.11'
           cache: pip
@@ -41,7 +41,7 @@ jobs:
           python -m pip install -e '.[dev]'
           python -m pytest -q
       - name: Restore publication history
-        uses: actions/cache/restore@v4
+        uses: actions/cache/restore@v6
         with:
           path: data/processed.db
           key: pontotoc-published-v2-${{ github.run_id }}-${{ github.run_attempt }}
@@ -52,7 +52,7 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           # A visible repository variable can override the editorial model.
-          OPENAI_MODEL: ${{ vars.EDITORIAL_MODEL || 'gpt-4.1-mini' }}
+          OPENAI_MODEL: ${{ vars.EDITORIAL_MODEL || 'gpt-4.1' }}
           WORDPRESS_BASE_URL: ${{ secrets.WORDPRESS_BASE_URL }}
           WORDPRESS_USERNAME: ${{ secrets.WORDPRESS_USERNAME }}
           WORDPRESS_APP_PASSWORD: ${{ secrets.WORDPRESS_APP_PASSWORD }}
@@ -79,7 +79,7 @@ jobs:
           python -m rss_to_wp run "${args[@]}"
       - name: Save publication history even after partial failure
         if: ${{ always() && github.ref_name == github.event.repository.default_branch && !(github.event_name == 'workflow_dispatch' && inputs.dry_run) && hashFiles('data/processed.db') != '' }}
-        uses: actions/cache/save@v4
+        uses: actions/cache/save@v6
         with:
           path: data/processed.db
           key: pontotoc-published-v2-${{ github.run_id }}-${{ github.run_attempt }}
@@ -94,7 +94,7 @@ jobs:
           fi
       - name: Keep editorial decisions for review
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: editorial-report-${{ github.run_id }}-${{ github.run_attempt }}
           path: |
