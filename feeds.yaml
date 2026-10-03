@@ -1,48 +1,76 @@
-﻿# Pontotoc News RSS Feeds Configuration
-# Generated: 2026-01-17
-
+# Pontotoc editorial policy: complete useful stories, without padding.
 feeds:
-  - name: "Pontotoc News Feed 1"
-    url: "https://fetchrss.com/feed/1vcaujD2G3c21vh7i87AH0Kz.rss"
-    category: "Local News"
-    enabled: true
-
-  - name: "Pontotoc News Feed 2"
-    url: "https://fetchrss.com/feed/1vcaujD2G3c21vcdHO6AP1zO.rss"
-    category: "Local News"
-    enabled: true
-
-  - name: "Pontotoc News Feed 3"
-    url: "https://fetchrss.com/feed/1vcaujD2G3c21vdUpJ5VAA1j.rss"
-    category: "Local News"
-    enabled: true
-
-  - name: "Pontotoc News Feed 4"
-    url: "https://fetchrss.com/feed/1vcaujD2G3c21vh7jv1zDFal.rss"
-    category: "Local News"
-    enabled: true
-
-  - name: "Pontotoc News Feed 5"
-    url: "https://fetchrss.com/feed/1vcaujD2G3c21vh7kh8MV2fT.rss"
-    category: "Local News"
-    enabled: true
-
-  - name: "Pontotoc News Feed 6"
-    url: "https://fetchrss.com/feed/1vcaujD2G3c21vh7lo1260by.rss"
-    category: "Local News"
-    enabled: true
-
-  - name: "Pontotoc News Feed 7"
-    url: "https://fetchrss.com/feed/1vcaujD2G3c21vh7mX75E8w6.rss"
-    category: "Local News"
-    enabled: true
-
-  - name: "Pontotoc News Feed 8"
-    url: "https://fetchrss.com/feed/1vcaujD2G3c21vh7nECOb1qN.rss"
-    category: "Local News"
-    enabled: true
-
-  - name: "Pontotoc News Feed 9"
-    url: "https://fetchrss.com/feed/1vcaujD2G3c21vh7nt1zDFam.rss"
-    category: "Local News"
-    enabled: true
+- name: Pontotoc News Feed 1
+  url: https://fetchrss.com/feed/1vcaujD2G3c21vh7i87AH0Kz.rss
+  enabled: true
+  source_name: Pontotoc County Sheriff's Department
+  default_category: Pontotoc News
+  max_per_run: 3
+  max_candidates: 40
+- name: Pontotoc News Feed 2
+  url: https://fetchrss.com/feed/1vcaujD2G3c21vcdHO6AP1zO.rss
+  enabled: true
+  source_name: University of Mississippi Medical Center
+  default_category: Pontotoc News
+  max_per_run: 3
+  max_candidates: 40
+- name: Pontotoc News Feed 3
+  url: https://fetchrss.com/feed/1vcaujD2G3c21vdUpJ5VAA1j.rss
+  enabled: true
+  source_name: National Weather Service Memphis
+  default_category: Pontotoc News
+  max_per_run: 3
+  max_candidates: 40
+- name: Pontotoc News Feed 4
+  url: https://fetchrss.com/feed/1vcaujD2G3c21vh7jv1zDFal.rss
+  enabled: true
+  source_name: Pontotoc Community Theater
+  default_category: Pontotoc News
+  max_per_run: 3
+  max_candidates: 40
+- name: Pontotoc News Feed 5
+  url: https://fetchrss.com/feed/1vcaujD2G3c21vh7kh8MV2fT.rss
+  enabled: true
+  source_name: Pontotoc Athletics
+  default_category: Pontotoc News
+  max_per_run: 3
+  max_candidates: 40
+- name: Pontotoc News Feed 6
+  url: https://fetchrss.com/feed/1vcaujD2G3c21vh7lo1260by.rss
+  enabled: true
+  source_name: Pontotoc County Chamber Main Street
+  default_category: Pontotoc News
+  max_per_run: 3
+  max_candidates: 40
+- name: Pontotoc News Feed 7
+  url: https://fetchrss.com/feed/1vcaujD2G3c21vh7mX75E8w6.rss
+  enabled: true
+  source_name: Town of Ecru
+  default_category: Pontotoc News
+  max_per_run: 3
+  max_candidates: 40
+- name: Pontotoc News Feed 8
+  url: https://fetchrss.com/feed/1vcaujD2G3c21vh7nECOb1qN.rss
+  enabled: true
+  source_name: Pontotoc Electric Power Association
+  default_category: Pontotoc News
+  max_per_run: 3
+  max_candidates: 40
+- name: Pontotoc News Feed 9
+  url: https://fetchrss.com/feed/1vcaujD2G3c21vh7nt1zDFam.rss
+  enabled: true
+  source_name: Town of Ecru Police Department
+  default_category: Pontotoc News
+  max_per_run: 3
+  max_candidates: 40
+editorial:
+  min_article_words: 200
+  min_brief_words: 100
+  max_article_words: 800
+  min_source_words: 60
+  min_facts: 5
+  max_posts_per_run: 6
+  max_posts_per_day: 18
+  max_candidates: 100
+  max_group_sources: 16
+  cluster_hours: 72

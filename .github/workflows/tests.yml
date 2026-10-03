@@ -1,0 +1,19 @@
+name: Editorial regression tests
+on:
+  pull_request:
+  push:
+    branches: [main, 'fix/**']
+permissions:
+  contents: read
+jobs:
+  tests:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.11'
+          cache: pip
+      - run: python -m pip install -e '.[dev]'
+      - run: python -m pytest -q
+      - run: python -m ruff check src tests

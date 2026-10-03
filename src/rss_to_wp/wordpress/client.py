@@ -4,11 +4,13 @@ from __future__ import annotations
 
 import re
 import time
+from html import escape, unescape
 from typing import Optional
-from urllib.parse import quote
 
 import requests
+from bs4 import BeautifulSoup
 
+from rss_to_wp.editorial import canonical_url
 from rss_to_wp.utils import get_logger
 from rss_to_wp.wordpress.media import wp_upload_media
 
@@ -40,10 +42,12 @@ class WordPressClient:
 
         self.session = requests.Session()
         self.session.auth = (username, password)
-        self.session.headers.update({
-            "Content-Type": "application/json",
-            "Accept": "application/json",
-        })
+        self.session.headers.update(
+            {
+                "Content-Type": "application/json",
+                "Accept": "application/json",
+            }
+        )
 
         self._category_cache: dict[str, int] = {}
         self._tag_cache: dict[str, int] = {}
@@ -96,7 +100,7 @@ class WordPressClient:
 
         except Exception as e:
             logger.warning("duplicate_check_error", slug=slug, error=str(e))
-            return False  # Assume no duplicate on error
+            raise RuntimeError("Cannot verify WordPress duplicates") from e
 
     def check_duplicate_by_source_url(self, source_url: str) -> bool:
         """Check if a post containing this source URL already exists.
@@ -109,42 +113,42 @@ class WordPressClient:
         Returns:
             True if exists, False otherwise.
         """
-        if not source_url:
-            return False
+        return self.find_post_by_source(source_url) is not None
 
-        self._rate_limit()
-
-        try:
-            # Search for posts containing the source URL
+    def find_post_by_source(self, source_url: str) -> Optional[dict]:
+        """Exact link comparison, paginated; request failures must stop publishing."""
+        target = canonical_url(source_url)
+        # Exclude tracking queries from search; identity queries remain intact.
+        for page in range(1, 101):
+            self._rate_limit()
             response = self.session.get(
                 self._api_url("posts"),
                 params={
-                    "search": source_url,
+                    "search": target,
                     "status": "any",
-                    "per_page": 5,
+                    "per_page": 100,
+                    "page": page,
+                    "context": "edit",
+                    "_fields": "id,link,title,content,status",
                 },
                 timeout=(10, 30),
             )
             response.raise_for_status()
             posts = response.json()
-
-            # Check if any post actually contains this exact URL
             for post in posts:
-                content = post.get("content", {}).get("rendered", "")
-                if source_url in content:
-                    logger.info(
-                        "duplicate_found_by_source_url",
-                        source_url=source_url[:60],
-                        post_id=post.get("id"),
-                        post_title=post.get("title", {}).get("rendered", "")[:50],
-                    )
-                    return True
-
-            return False
-
-        except Exception as e:
-            logger.warning("source_url_check_error", source_url=source_url[:60], error=str(e))
-            return False  # Assume no duplicate on error
+                content = post.get("content", {}).get("raw") or post.get("content", {}).get(
+                    "rendered", ""
+                )
+                soup = BeautifulSoup(unescape(content), "html.parser")
+                for anchor in soup.find_all("a", href=True):
+                    try:
+                        if canonical_url(anchor["href"]) == target:
+                            return post
+                    except ValueError:
+                        continue
+            if page >= int(response.headers.get("X-WP-TotalPages", 1)):
+                return None
+        raise RuntimeError("Duplicate search exceeded pagination limit")
 
     def get_or_create_category(self, name: str) -> Optional[int]:
         """Get category ID, creating it if it doesn't exist.
@@ -319,6 +323,8 @@ class WordPressClient:
         featured_media_id: Optional[int] = None,
         source_url: Optional[str] = None,
         status: Optional[str] = None,
+        sources: Optional[list[dict]] = None,
+        slug: Optional[str] = None,
     ) -> Optional[dict]:
         """Create a new WordPress post.
 
@@ -336,20 +342,26 @@ class WordPressClient:
             Created post data or None.
         """
         # PRIMARY CHECK: Check for duplicate by source URL (most reliable - URL never changes)
-        if source_url and self.check_duplicate_by_source_url(source_url):
-            logger.warning(
-                "skipping_duplicate_post_by_source",
-                title=title[:50],
-                source_url=source_url[:60],
-            )
-            return None  # Return None to indicate skip
-        
+        sources = sources or (
+            [{"url": source_url, "name": "Original source"}] if source_url else []
+        )
+        for source in sources:
+            existing = self.find_post_by_source(source["url"])
+            if existing:
+                return {**existing, "already_exists": True}
+        if slug and self.check_duplicate_by_slug(slug):
+            raise RuntimeError("Story slug already exists; reconcile before retrying")
+
         self._rate_limit()
 
         # Add source attribution to content
-        if source_url:
-            source_html = f'\n\n<p><em>Source: <a href="{source_url}" target="_blank" rel="noopener">Original Article</a></em></p>'
-            content = content + source_html
+        if sources:
+            links = [
+                f'<a href="{escape(canonical_url(s["url"]), quote=True)}" rel="noopener">{escape(s["name"])}</a>'
+                for s in sources
+            ]
+            content += "<p><em>Sources: " + "; ".join(links) + "</em></p>"
+        content += '<p><small>This report was prepared with AI assistance from the sources linked above. Send corrections or additional information through our <a href="/contact-us/">contact page</a>.</small></p>'
 
         post_data = {
             "title": title,
@@ -359,6 +371,8 @@ class WordPressClient:
 
         if excerpt:
             post_data["excerpt"] = excerpt
+        if slug:
+            post_data["slug"] = slug
 
         if category_id:
             post_data["categories"] = [category_id]

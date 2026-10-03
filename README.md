@@ -1,250 +1,117 @@
-# RSS to WordPress Automation
+# Pontotoc News editorial publisher
 
-Automated RSS feed monitoring, AI-powered article rewriting, and WordPress publishing.
+Collects local RSS sources, combines updates about the **same event**, writes a
+source-backed article, verifies it in a separate model call, then publishes to
+WordPress. Sparse sources remain eligible for a later run as related details arrive.
+There is no obligation to fill a publishing quota.
 
-## Features
+## Editorial balance
 
-- **RSS Feed Monitoring**: Parse RSS/Atom feeds with robust error handling
-- **AI Rewriting**: Convert press releases to AP-style news articles using GPT-5 mini
-- **Smart Deduplication**: SQLite-based tracking ensures no duplicate posts
-- **Image Handling**: 
-  - Extract images from RSS (media:content, enclosures, HTML)
-  - Fallback to Pexels/Unsplash for stock photos
-  - Proper attribution in alt text
-- **WordPress Publishing**: Full REST API integration with categories and tags
-- **Scheduling**: GitHub Actions (every 15 min) or VPS cron/systemd
+- Aim for 250–450 words where the reporting supports them; standard articles need
+  at least 200 words. Complete, useful local briefs can qualify from **100 words**.
+- Require who, what, where, when, and why (documented purpose, consequences or
+  significance), at least five distinct facts, and exact supporting source excerpts.
+- Combined sources need at least 60 non-repeated source words. Briefs need a
+  specific local use, such as event logistics, school notices, public safety or a
+  final sports recap. Length alone never qualifies a story.
+- The verifier checks the headline, excerpt, body, source relationships, five Ws,
+  local relevance, padding, and factual conflicts. Missing or failed checks hold
+  the story. No generic filler, invented dates or fabricated context.
+- A rejected publishable draft gets one revision using the original evidence,
+  then must pass every check again. Optional disputed details can be omitted or
+  explicitly attributed as discrepancies; essential uncertainty still holds a story.
+- Game updates are grouped before writing. An interim lead is not a final win.
+  Ambiguous records and next opponents must not be assigned to a team by guesswork.
+- HTML is restricted to basic article formatting. Named source links and an honest
+  AI-assistance disclosure are appended by the publisher.
+- Use source images when available; do not substitute unrelated stock imagery.
+  A missing image does not prevent an otherwise useful story.
 
-## Quick Start
+These thresholds are editorial safeguards, not Google's ranking requirements.
+Google does not prescribe a preferred word count. Original reporting and complete,
+accurate answers matter more than length.
 
-### 1. Clone and Install
+## Schedule and capacity
+
+The scheduled GitHub Action runs every **two hours at :17 UTC**. Each run can
+publish up to six qualifying stories, with a cached daily limit of 18 posts and
+three per feed per run. These are ceilings, not targets. Feed scans look back 72
+hours so several short updates can accumulate. Publication history is not written
+for held, deferred or dry-run stories.
+If an entire source batch was held without errors, unchanged inputs wait six hours
+before another paid assessment. New source text, policy or model settings trigger
+assessment immediately. Dry runs always assess; held inputs are never marked published.
+
+All scheduled and manual runs share a concurrency group. History is restored from
+the newest cache (including the old cache during migration) and saved even when
+some stories fail. A separate WordPress source-link duplicate check survives
+cache eviction. The cached daily count can reset on cache loss; duplicate checking
+still applies. Non-default branches always run without publishing.
+
+## Setup
+
+Use Python 3.11 or newer:
 
 ```bash
-git clone https://github.com/yourusername/tippahnews-auto.git
-cd tippahnews-auto
-
-# Create virtual environment
 python -m venv .venv
-source .venv/bin/activate  # Linux/Mac
-# .venv\Scripts\activate   # Windows
-
-# Install dependencies
-pip install -r requirements.txt
-pip install -e .
-```
-
-### 2. Configure Environment
-
-```bash
+# Activate the environment for your operating system.
+python -m pip install -e '.[dev]'
 cp .env.example .env
-# Edit .env with your API keys
 ```
 
-**Required variables:**
-- `OPENAI_API_KEY` - Your OpenAI API key
-- `WORDPRESS_BASE_URL` - Your WordPress site URL
-- `WORDPRESS_USERNAME` - WordPress username
-- `WORDPRESS_APP_PASSWORD` - [Generate an Application Password](https://make.wordpress.org/core/2020/11/05/application-passwords-integration-guide/)
+Set `OPENAI_API_KEY`, `WORDPRESS_BASE_URL`, `WORDPRESS_USERNAME` and
+`WORDPRESS_APP_PASSWORD`. In GitHub, keep these in Actions secrets. Existing
+WordPress status and SMTP notification secrets are supported. The default model is
+`gpt-5.4-mini`; override it with the repository variable `EDITORIAL_MODEL` in
+Actions, or `OPENAI_MODEL` locally. The model must support structured JSON outputs.
+This deliberately supersedes the old nano-model secret in the workflow.
 
-**Optional variables:**
-- `PEXELS_API_KEY` - For fallback images ([Get key](https://www.pexels.com/api/))
-- `UNSPLASH_ACCESS_KEY` - For fallback images ([Get key](https://unsplash.com/developers))
+`feeds.yaml` contains documented, validated editorial settings and the original
+nine feeds with readable publisher names. Both `category` (legacy) and
+`default_category` work. `enabled: false` actually disables a feed. Unknown feed
+settings fail validation to catch typos.
 
-### 3. Configure Feeds
-
-Edit `feeds.yaml`:
-
-```yaml
-feeds:
-  - name: "Local News"
-    url: "https://example.com/rss"
-    default_category: "News"
-    default_tags:
-      - "Local"
-    max_per_run: 5
-```
-
-### 4. Run
+## Run and review
 
 ```bash
-# Full run
-python -m rss_to_wp run --config feeds.yaml
-
-# Dry run (no publishing)
-python -m rss_to_wp run --config feeds.yaml --dry-run
-
-# Single feed only
-python -m rss_to_wp run --config feeds.yaml --single-feed "Local News"
-
-# Check status
+python -m rss_to_wp run --dry-run
+python -m rss_to_wp run --dry-run --replay
+python -m rss_to_wp run --single-feed "Pontotoc News Feed 4" --dry-run
+python -m rss_to_wp run
 python -m rss_to_wp status
+python -m pytest -q
+python -m ruff check src tests
 ```
 
-## CLI Commands
+A dry run calls the editorial model but does not upload images, create categories,
+write posts or mark stories as published. `--replay` is permitted only in dry runs
+and ignores local publication history so recent material can be evaluated again.
+Dry-run eligibility is **before** remote duplicate checks and publishing ceilings;
+it is not a count of new posts that a live run will create.
 
-| Command | Description |
-|---------|-------------|
-| `run` | Process feeds and publish to WordPress |
-| `status` | Show processed entry count and recent entries |
-| `clear-db` | Clear the deduplication database |
+Actions defaults manual runs to dry-run. The workflow summary and 14-day artifact
+include eligibility, holds, reasons, source URLs, proposed articles and verification
+results. Any operational error fails the run even if other articles succeeded;
+successful posts retain their history. A zero-publication warning calls attention
+to weak or stale sources without automatically lowering quality standards.
 
-### Run Options
+Review repeated holds and add substantive official reporting when needed. Image
+only social posts cannot be interpreted by this text-only pipeline. It does not
+invent missing material, scrape arbitrary links or promise daily article volume.
+The sheriff and Ecru police feeds were stale at the October 2, 2026 audit; monitoring
+the availability of source material is necessary for sustained output.
 
-| Option | Description |
-|--------|-------------|
-| `--config`, `-c` | Path to feeds.yaml (default: feeds.yaml) |
-| `--dry-run`, `-n` | Process without publishing |
-| `--single-feed`, `-f` | Process only named feed |
-| `--hours`, `-h` | Time window in hours (default: 48) |
+## Deployment and recovery
 
-## Feed Configuration
+1. Run the regression suite and a manual dry run with replay on the candidate branch.
+2. Inspect the editorial artifact, especially combined stories and brief decisions.
+3. Merge the tested change into `main`; future scheduled runs use that code.
+4. If needed, revert the merge to restore the old workflow. Do not clear history
+   as a troubleshooting shortcut. No historic articles are bulk deleted by this code.
 
-```yaml
-feeds:
-  - name: "Feed Name"              # Required: Display name
-    url: "https://..."             # Required: RSS/Atom URL
-    default_category: "News"       # Optional: WordPress category
-    default_tags:                  # Optional: Tags to apply
-      - "Tag1"
-      - "Tag2"
-    max_per_run: 5                 # Optional: Max entries per run (default: 5)
-    use_original_title: false      # Optional: Keep original title (default: false)
-```
+Model verification reduces error risk but does not replace human editorial review.
+Prioritize review of public-safety, health and legal stories, and publish corrections
+when needed. Improving the publisher alone cannot guarantee indexing or AdSense revenue.
 
-## GitHub Actions Setup
-
-The workflow runs every 15 minutes automatically.
-
-### Required Secrets
-
-Go to **Settings > Secrets and variables > Actions** and add:
-
-| Secret | Required | Description |
-|--------|----------|-------------|
-| `OPENAI_API_KEY` | ✅ | OpenAI API key |
-| `WORDPRESS_BASE_URL` | ✅ | Site URL (e.g., `https://example.com`) |
-| `WORDPRESS_USERNAME` | ✅ | WordPress username |
-| `WORDPRESS_APP_PASSWORD` | ✅ | Application password |
-| `PEXELS_API_KEY` | ❌ | Pexels API key |
-| `UNSPLASH_ACCESS_KEY` | ❌ | Unsplash access key |
-| `TIMEZONE` | ❌ | Timezone (default: UTC) |
-
-### Manual Trigger
-
-You can manually trigger the workflow from the Actions tab with options for dry-run and single-feed.
-
-## VPS/Cron Deployment
-
-### Using Cron
-
-```bash
-# Edit crontab
-crontab -e
-
-# Add (runs every 15 minutes)
-*/15 * * * * cd /path/to/project && /path/to/.venv/bin/python -m rss_to_wp run --config feeds.yaml >> /var/log/rss-to-wp.log 2>&1
-```
-
-### Using Systemd
-
-Create `/etc/systemd/system/rss-to-wp.service`:
-
-```ini
-[Unit]
-Description=RSS to WordPress Automation
-After=network.target
-
-[Service]
-Type=oneshot
-User=www-data
-WorkingDirectory=/path/to/project
-EnvironmentFile=/path/to/project/.env
-ExecStart=/path/to/.venv/bin/python -m rss_to_wp run --config feeds.yaml
-
-[Install]
-WantedBy=multi-user.target
-```
-
-Create `/etc/systemd/system/rss-to-wp.timer`:
-
-```ini
-[Unit]
-Description=Run RSS to WordPress every 15 minutes
-
-[Timer]
-OnBootSec=5min
-OnUnitActiveSec=15min
-
-[Install]
-WantedBy=timers.target
-```
-
-Enable:
-
-```bash
-sudo systemctl enable rss-to-wp.timer
-sudo systemctl start rss-to-wp.timer
-```
-
-## Project Structure
-
-```
-.
-├── src/rss_to_wp/
-│   ├── __init__.py
-│   ├── __main__.py
-│   ├── cli.py              # CLI commands
-│   ├── config.py           # Configuration models
-│   ├── feeds/              # RSS parsing & filtering
-│   ├── images/             # Image extraction & fallbacks
-│   ├── rewriter/           # OpenAI AP-style rewriting
-│   ├── storage/            # SQLite deduplication
-│   ├── utils/              # Logging & HTTP utilities
-│   └── wordpress/          # WP REST API client
-├── data/                   # Runtime data (gitignored)
-│   └── processed.db
-├── .github/workflows/
-│   └── rss_to_wp.yml
-├── feeds.yaml
-├── .env.example
-├── pyproject.toml
-├── requirements.txt
-└── README.md
-```
-
-## Insufficient source text
-
-Entries with fewer than 50 characters of visible body text (including empty or
-photo-only items) are counted as skips before rewriting. This preserves the
-existing minimum-content guard. Skips never mark the entry GUID or URL as
-processed: each fetch checks the current text, so an item that later gains a
-caption can be processed while it remains within the configured time window.
-Generation, API and WordPress failures still count as errors.
-
-## Troubleshooting
-
-### Common Issues
-
-**"Config file not found"**
-- Ensure `feeds.yaml` exists in the working directory
-
-**"Error loading settings"**
-- Check `.env` file exists and has required variables
-- Verify no typos in environment variable names
-
-**"WordPress authentication failed"**
-- Verify Application Password is correct (no spaces in password)
-- Ensure user has publishing permissions
-
-**"No entries found"**
-- Check if RSS feed URL is accessible
-- Verify entries are within 48-hour window
-
-### Debug Mode
-
-```bash
-LOG_LEVEL=DEBUG python -m rss_to_wp run --config feeds.yaml
-```
-
-## License
-
-MIT License
+References: [Google's people-first content guidance](https://developers.google.com/search/docs/fundamentals/creating-helpful-content),
+[OpenAI structured outputs](https://developers.openai.com/api/docs/guides/structured-outputs).
