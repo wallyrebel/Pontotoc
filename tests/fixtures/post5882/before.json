@@ -1,0 +1,212 @@
+{
+  "id": 5882,
+  "date": "2026-10-04T10:05:12",
+  "date_gmt": "2026-10-04T15:05:12",
+  "guid": {
+    "rendered": "https://pontotocnews.com/pontotoc-news/phs-volleyball-seniors-celebrate-with-win-on-senior-night/",
+    "raw": "https://pontotocnews.com/pontotoc-news/phs-volleyball-seniors-celebrate-with-win-on-senior-night/"
+  },
+  "modified": "2026-10-04T10:05:12",
+  "modified_gmt": "2026-10-04T15:05:12",
+  "password": "",
+  "slug": "phs-volleyball-seniors-celebrate-with-win-on-senior-night",
+  "status": "publish",
+  "type": "post",
+  "link": "https://pontotocnews.com/pontotoc-news/phs-volleyball-seniors-celebrate-with-win-on-senior-night/",
+  "title": {
+    "raw": "PHS Volleyball seniors celebrate with win on senior night",
+    "rendered": "PHS Volleyball seniors celebrate with win on senior night"
+  },
+  "content": {
+    "raw": "<p>PHS Volleyball celebrated its seniors with a win during senior night, according to school officials. The event was characterized as a great time for the Warriors, with players and fans alike expressing pride in the team\u2019s performance.</p> <p>School representatives extended congratulations to all the seniors for their contributions to the team. The victory added to the celebratory atmosphere of the evening, which was marked by school spirit and community support.</p> <p>Social media posts from the team highlighted the event, using hashtags such as #beawarrior, #warriorpride, and #lifeisgood. The team\u2019s success and senior recognition underscore the importance of community and school pride in athletics.</p>\n\n<p><em>Source: <a href=\"https://www.facebook.com/1409956404473934/posts/1648087613994144\" target=\"_blank\" rel=\"noopener\">Original Article</a></em></p>",
+    "rendered": "<p>PHS Volleyball celebrated its seniors with a win during senior night, according to school officials. The event was characterized as a great time for the Warriors, with players and fans alike expressing pride in the team\u2019s performance.</p>\n<p>School representatives extended congratulations to all the seniors for their contributions to the team. The victory added to the celebratory atmosphere of the evening, which was marked by school spirit and community support.</p>\n<p>Social media posts from the team highlighted the event, using hashtags such as #beawarrior, #warriorpride, and #lifeisgood. The team\u2019s success and senior recognition underscore the importance of community and school pride in athletics.</p>\n<p><em>Source: <a href=\"https://www.facebook.com/1409956404473934/posts/1648087613994144\" target=\"_blank\" rel=\"noopener\">Original Article</a></em></p>\n",
+    "protected": false,
+    "block_version": 0
+  },
+  "excerpt": {
+    "raw": "PHS Volleyball honored its seniors with a victory during senior night, marking a memorable evening for the Warriors.",
+    "rendered": "<p>PHS Volleyball honored its seniors with a victory during senior night, marking a memorable evening for the Warriors.</p>\n",
+    "protected": false
+  },
+  "author": 2,
+  "featured_media": 5881,
+  "comment_status": "open",
+  "ping_status": "closed",
+  "sticky": false,
+  "template": "",
+  "format": "standard",
+  "meta": {
+    "_seopress_titles_title": "",
+    "_seopress_titles_desc": "",
+    "_seopress_robots_index": "",
+    "_seopress_robots_follow": "",
+    "_seopress_robots_imageindex": "",
+    "_seopress_robots_snippet": "",
+    "_seopress_robots_primary_cat": "",
+    "_seopress_robots_breadcrumbs": "",
+    "_seopress_robots_freeze_modified_date": "",
+    "_seopress_robots_custom_modified_date": "",
+    "_seopress_robots_canonical": "",
+    "_seopress_social_fb_title": "",
+    "_seopress_social_fb_desc": "",
+    "_seopress_social_fb_img": "",
+    "_seopress_social_fb_img_attachment_id": 0,
+    "_seopress_social_fb_img_width": 0,
+    "_seopress_social_fb_img_height": 0,
+    "_seopress_social_twitter_title": "",
+    "_seopress_social_twitter_desc": "",
+    "_seopress_social_twitter_img": "",
+    "_seopress_social_twitter_img_attachment_id": 0,
+    "_seopress_social_twitter_img_width": 0,
+    "_seopress_social_twitter_img_height": 0,
+    "_seopress_redirections_value": "",
+    "_seopress_redirections_enabled": "",
+    "_seopress_redirections_enabled_regex": "",
+    "_seopress_redirections_logged_status": "",
+    "_seopress_redirections_param": "",
+    "_seopress_redirections_type": 0,
+    "_seopress_analysis_target_kw": "",
+    "_seopress_news_disabled": "",
+    "_seopress_video_disabled": "",
+    "_seopress_video": [],
+    "_seopress_pro_schemas_manual": [],
+    "_seopress_pro_rich_snippets_disable_all": "",
+    "_seopress_pro_rich_snippets_disable": [],
+    "_seopress_pro_schemas": [],
+    "colormag_page_container_layout": "default_layout",
+    "colormag_page_sidebar_layout": "default_layout",
+    "footnotes": ""
+  },
+  "categories": [
+    3
+  ],
+  "tags": [],
+  "permalink_template": "https://pontotocnews.com/pontotoc-news/%postname%/",
+  "generated_slug": "phs-volleyball-seniors-celebrate-with-win-on-senior-night",
+  "class_list": [
+    "post-5882",
+    "post",
+    "type-post",
+    "status-publish",
+    "format-standard",
+    "has-post-thumbnail",
+    "hentry",
+    "category-pontotoc-news"
+  ],
+  "msnewsgroup_canonical": false,
+  "post_mailing_queue_ids": [],
+  "_links": {
+    "self": [
+      {
+        "href": "https://pontotocnews.com/wp-json/wp/v2/posts/5882",
+        "targetHints": {
+          "allow": [
+            "GET",
+            "POST",
+            "PUT",
+            "PATCH",
+            "DELETE"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://pontotocnews.com/wp-json/wp/v2/posts"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://pontotocnews.com/wp-json/wp/v2/types/post"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://pontotocnews.com/wp-json/wp/v2/users/2"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://pontotocnews.com/wp-json/wp/v2/comments?post=5882"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 0,
+        "href": "https://pontotocnews.com/wp-json/wp/v2/posts/5882/revisions"
+      }
+    ],
+    "wp:featuredmedia": [
+      {
+        "embeddable": true,
+        "href": "https://pontotocnews.com/wp-json/wp/v2/media/5881"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://pontotocnews.com/wp-json/wp/v2/media?parent=5882"
+      }
+    ],
+    "wp:term": [
+      {
+        "taxonomy": "category",
+        "embeddable": true,
+        "href": "https://pontotocnews.com/wp-json/wp/v2/categories?post=5882"
+      },
+      {
+        "taxonomy": "post_tag",
+        "embeddable": true,
+        "href": "https://pontotocnews.com/wp-json/wp/v2/tags?post=5882"
+      }
+    ],
+    "wp:action-publish": [
+      {
+        "href": "https://pontotocnews.com/wp-json/wp/v2/posts/5882"
+      }
+    ],
+    "wp:action-unfiltered-html": [
+      {
+        "href": "https://pontotocnews.com/wp-json/wp/v2/posts/5882"
+      }
+    ],
+    "wp:action-sticky": [
+      {
+        "href": "https://pontotocnews.com/wp-json/wp/v2/posts/5882"
+      }
+    ],
+    "wp:action-assign-author": [
+      {
+        "href": "https://pontotocnews.com/wp-json/wp/v2/posts/5882"
+      }
+    ],
+    "wp:action-create-categories": [
+      {
+        "href": "https://pontotocnews.com/wp-json/wp/v2/posts/5882"
+      }
+    ],
+    "wp:action-assign-categories": [
+      {
+        "href": "https://pontotocnews.com/wp-json/wp/v2/posts/5882"
+      }
+    ],
+    "wp:action-create-tags": [
+      {
+        "href": "https://pontotocnews.com/wp-json/wp/v2/posts/5882"
+      }
+    ],
+    "wp:action-assign-tags": [
+      {
+        "href": "https://pontotocnews.com/wp-json/wp/v2/posts/5882"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

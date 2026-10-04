@@ -1,4 +1,4 @@
-name: Audit exact Pontotoc post 5882
+name: Correct exact Pontotoc post 5882 source attribution
 on:
   push:
     branches: [main]
@@ -12,7 +12,7 @@ jobs:
   audit:
     if: >-
       github.ref == 'refs/heads/main' &&
-      github.event.head_commit.message == 'Snapshot Pontotoc post 5882 before bounded factual correction'
+      github.event.head_commit.message == 'Correct verified Pontotoc post 5882 source attribution'
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
@@ -20,8 +20,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - run: python -m pip install requests
-      - name: Preserve exact pre-correction body using existing managed credentials
+      - run: python -m pip install requests pytest
+      - run: python -m pytest tests/test_post5882_correction.py -q
+      - name: Apply exact content-only correction using existing managed credentials
         env:
           WORDPRESS_BASE_URL: ${{ secrets.WORDPRESS_BASE_URL }}
           WORDPRESS_USERNAME: ${{ secrets.WORDPRESS_USERNAME }}
