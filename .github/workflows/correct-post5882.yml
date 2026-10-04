@@ -1,0 +1,35 @@
+name: Audit exact Pontotoc post 5882
+on:
+  push:
+    branches: [main]
+    paths: [scripts/correct_post5882.py]
+permissions:
+  contents: read
+concurrency:
+  group: pontotoc-post5882-correction
+  cancel-in-progress: false
+jobs:
+  audit:
+    if: >-
+      github.ref == 'refs/heads/main' &&
+      github.event.head_commit.message == 'Snapshot Pontotoc post 5882 before bounded factual correction'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install requests
+      - name: Preserve exact pre-correction body using existing managed credentials
+        env:
+          WORDPRESS_BASE_URL: ${{ secrets.WORDPRESS_BASE_URL }}
+          WORDPRESS_USERNAME: ${{ secrets.WORDPRESS_USERNAME }}
+          WORDPRESS_APP_PASSWORD: ${{ secrets.WORDPRESS_APP_PASSWORD }}
+        run: python scripts/correct_post5882.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: post5882-audit
+          path: data/post5882-audit/
+          retention-days: 30
