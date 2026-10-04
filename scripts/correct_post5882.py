@@ -1,4 +1,4 @@
-"""One content-only correction, locked to verified source and exact post snapshots."""
+"""Read-only verification of the completed bounded post 5882 correction."""
 import hashlib
 import html
 import json
@@ -101,36 +101,15 @@ def verify_public(public_get):
     save('after-page.html', page_text)
 
 
-def correct(base, session, public_get=requests.get):
+def verify_correction(base, session, public_get=requests.get):
+    """Read-back only. The completed one-shot write path has been removed."""
     if base.rstrip('/') != BASE:
         raise ValueError('Unexpected WordPress site')
-    verify_source(public_get)
-    before = read(session)
-    validate_post(before)
-    save('before.json', before)
-    save('before-raw.html', before['content']['raw'])
-    save('before-rendered.html', before['content']['rendered'])
-    page = public_get(LINK, timeout=TIMEOUT, allow_redirects=False)
-    page.raise_for_status()
-    page_text = page.content.decode('utf-8')
-    if page.status_code != 200 or EXPECTED['content']['rendered'].strip() not in page_text:
-        raise ValueError('Current public page differs from exact snapshot')
-    save('before-page.html', page_text)
-    save('expected-after-raw.html', NEW_RAW)
-    save('expected-after-rendered.html', NEW_RENDERED)
-    # Exactly one content-only write. No retries, alternate posts, or publisher invocation.
-    r = session.post(BASE + f'/wp-json/wp/v2/posts/{POST_ID}', json={'content': NEW_RAW},
-                     timeout=TIMEOUT, allow_redirects=False)
-    r.raise_for_status()
-    if r.status_code != 200:
-        raise ValueError('Unexpected write status')
     after = read(session)
-    save('after.json', after)
     validate_post(after, corrected=True)
-    unchanged(before, after)
+    save('after.json', after)
     verify_public(public_get)
-    return {'post_id': POST_ID, 'url': LINK, 'verified': True, 'content_only': True,
-            'before_raw_sha256': digest(before['content']['raw']),
+    return {'post_id': POST_ID, 'url': LINK, 'verified': True, 'read_only': True,
             'after_raw_sha256': digest(NEW_RAW), 'after_rendered_sha256': digest(NEW_RENDERED),
             'source_sha256': SOURCE['source_sha256'], 'featured_media': after['featured_media']}
 
@@ -139,7 +118,7 @@ def main():
     try:
         with requests.Session() as s:
             s.auth = (os.environ['WORDPRESS_USERNAME'], os.environ['WORDPRESS_APP_PASSWORD'])
-            report = correct(os.environ['WORDPRESS_BASE_URL'], s)
+            report = verify_correction(os.environ['WORDPRESS_BASE_URL'], s)
     except Exception as exc:
         # Never emit requests, credentials, response objects, or sensitive error messages.
         report = {'post_id': POST_ID, 'verified': False, 'error_type': type(exc).__name__}
