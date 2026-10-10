@@ -1,4 +1,4 @@
-"""Preflight parent-approved site-page copy; this stage contains no write operations."""
+"""Bounded October 10 site-page request; preflight remains GET/OPTIONS only."""
 import json
 import os
 import re
@@ -170,15 +170,25 @@ def main():
     report = {'verified': False}
     try:
         request = json.loads(rp.scoped_path(REQUEST, 'reviewed/requests').read_text())
-        rp.fields(request, {'schema_version','operation','planned_pages','copy_review','copy_path','copy_sha256'})
-        rp.require(request == {'schema_version':1,'operation':'preflight-site-pages','planned_pages':PLANNED,
-                               'copy_review':'parent-approved-exact-copy', 'copy_path':COPY,
-                               'copy_sha256':rp.sha(rp.scoped_path(COPY, 'reviewed/site-pages').read_bytes())},
-                   'Site-page request differs from bounded reviewed preflight')
+        from site_pages_publish import Publisher, load_copy, COPY_SHA
+        package=load_copy()
+        common={'schema_version':1,'planned_pages':PLANNED,'copy_review':'parent-approved-exact-copy',
+                'copy_path':COPY,'copy_sha256':COPY_SHA}
+        operation=request.get('operation')
+        if operation=='preflight-site-pages':
+            rp.require(request==common|{'operation':operation},'Site-page preflight request differs')
+        else:
+            baseline_path='reviewed/receipts/site-pages-preflight-2026-10-10.json'
+            baseline_bytes=rp.scoped_path(baseline_path,'reviewed/receipts').read_bytes()
+            rp.require(operation in {'publish-site-pages','verify-site-pages'} and request==common|{
+                'operation':operation,'baseline_path':baseline_path,'baseline_sha256':rp.sha(baseline_bytes),
+                'publication_authorization':'jon-approved-exact-copy-publication'},'Site-page request exceeds exact approved package')
+            baseline=json.loads(baseline_bytes)
         rp.require(os.environ['WORDPRESS_BASE_URL'].rstrip('/') == rp.BASE, 'Unexpected managed WordPress site')
         with requests.Session() as session:
             session.auth = (os.environ['WORDPRESS_USERNAME'], os.environ['WORDPRESS_APP_PASSWORD'])
-            report = Preflight(session).run()
+            report = (Preflight(session).run() if operation=='preflight-site-pages' else
+                      Publisher(session,package,baseline).run(apply=operation=='publish-site-pages'))
     except Exception as exc:
         report = {'verified':False,'error_type':type(exc).__name__}
         if isinstance(exc,rp.Guard):
@@ -186,7 +196,7 @@ def main():
     out = rp.ROOT / 'data/reviewed-audit';out.mkdir(parents=True,exist_ok=True)
     (out/'report.json').write_text(json.dumps(report,indent=2))
     print(json.dumps(report))
-    return 0 if report.get('verified_preflight') else 1
+    return 0 if report.get('verified_preflight') or report.get('verified') else 1
 
 
 if __name__ == '__main__':

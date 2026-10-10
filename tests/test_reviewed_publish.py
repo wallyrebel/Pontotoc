@@ -752,3 +752,129 @@ def test_site_preflight_resolves_core_omitted_unassigned_menu_field(site_module)
     b.items.append({'id':99,'status':'auto-draft'})
     r=site_module.Preflight(b,b.public).run()
     assert r['all_status_menu_item_count']==2 and r['primary_navigation']['menu_item_count']==1
+
+@pytest.fixture
+def site_publisher(site_module):
+    import sys
+    sys.modules['site_pages_transport']=site_module
+    spec=importlib.util.spec_from_file_location('site_pages_publish',MODULE.with_name('site_pages_publish.py'))
+    mod=importlib.util.module_from_spec(spec);spec.loader.exec_module(mod)
+    return mod
+
+
+class SiteWriteBackend(SiteBackend):
+    def __init__(self,site):
+        super().__init__(site);self.bio='';self.fail_after=None;self.meta_partial=False;self.writes=[]
+        self.theme_bio=False;self.bad_canonical=False
+    def request(self,method,u,**kw):
+        kind=u.split('/wp/v2/')[1]
+        if method=='POST':
+            self.writes.append((kind,copy.deepcopy(kw['json'])))
+            payload=kw['json']
+            if kind=='pages':
+                row=copy.deepcopy(payload);row['id']=100+len(self.pages)
+                for k in ('title','content','excerpt'):row[k]={'raw':row[k],'rendered':row[k]}
+                row.update(featured_media=0,password='',link=rp.BASE+'/'+row['slug']+'/')
+                self.pages.append(row)
+                if self.meta_partial:row['meta']={};self.meta_partial=False
+            elif kind.startswith('pages/'):
+                row=next(r for r in self.pages if r['id']==int(kind.split('/')[1]));row.update(copy.deepcopy(payload))
+            elif kind=='users/me':self.bio=payload['description'];row={}
+            elif kind=='menu-items':
+                row=copy.deepcopy(payload);row['id']=200+len(self.items)
+                row['title']={'raw':row['title']};row['url']=next(p['link'] for p in self.pages if p['id']==row['object_id'])
+                self.items.append(row)
+            else:raise AssertionError('Unexpected write '+kind)
+            if self.fail_after==kind:
+                self.fail_after=None
+                raise requests.Timeout('Unknown committed outcome')
+            return self.response(row,status=201)
+        if kind=='users/me':return self.response({'id':3,'name':'Jon Myers','description':self.bio,'link':rp.BASE+'/author/editor/',
+                                                  'capabilities':{k:True for k in self.site.CAPS}})
+        if kind=='posts/6010':return self.response({'author':3,'link':rp.BASE+'/pontotoc-news/pepa-password-security-tips/'})
+        if kind=='menus/7':return self.response({'id':7,'name':'Main Menu','locations':['primary'],'auto_add':False,'count':len(self.items)})
+        if kind.startswith('pages/'):
+            return self.response(next(r for r in self.pages if r['id']==int(kind.split('/')[1])))
+        return super().request(method,u,**kw)
+    def public(self,u,**kw):
+        assert kw['allow_redirects'] is False
+        if '/wp-json/wp/v2/pages/' in u:
+            return self.response(next(r for r in self.pages if r['id']==int(u.rsplit('/',1)[1])))
+        if '/wp-json/wp/v2/users/' in u:return self.response({'description':self.bio})
+        if u==rp.BASE+'/':
+            roots=[i for i in self.items if i['parent']==0]
+            def node(i):
+                return '<li id="menu-item-'+str(i['id'])+'"><a href="'+i['url']+'">Menu</a><ul>'+''.join(node(c) for c in self.items if c['parent']==i['id'])+'</ul></li>'
+            return self.response(content=('<ul>'+''.join(node(i) for i in roots)+'</ul>').encode())
+        if u.endswith('/author/editor/') or u.endswith('/pepa-password-security-tips/'):
+            return self.response(content=(self.bio if self.theme_bio else 'Theme has no author box').encode())
+        row=next((p for p in self.pages if p.get('link')==u),None)
+        if row and row.get('meta') and row['status']=='publish':
+            from html import escape
+            html='<html><head><title>'+escape(row['meta']['_seopress_titles_title'])+'</title><link rel="canonical" href="'+('https://pontotocnews.com/wrong/' if self.bad_canonical else u)+'"><meta name="description" content="'+escape(row['meta']['_seopress_titles_desc'],quote=True)+'"></head><body><h1>'+row['title']['raw']+'</h1>'+row['content']['raw']+'</body></html>'
+            return self.response(content=html.encode())
+        if any(u==rp.BASE+'/'+p['slug']+'/' for p in self.site.PLANNED):return self.response(status=404)
+        return self.response(content=b'Available approved source or contact page')
+
+
+def test_exact_site_copy_pin_and_completed_publication(site_module,site_publisher):
+    package=site_publisher.load_copy();b=SiteWriteBackend(site_module)
+    baseline=site_module.Preflight(b,b.public).run()
+    publisher=site_publisher.Publisher(b,package,baseline,b.public)
+    report=publisher.run()
+    assert report['verified'] and len(report['pages'])==4 and report['navigation_verified']
+    assert report['author_bio']['saved_and_public_rest_verified']
+    assert not report['author_bio']['displayed_on_author_archive']
+    assert not report['author_bio']['displayed_on_pepa_article']
+    assert len(b.writes)==13 # four drafts, four publish updates, own bio, four new menu items
+    publisher.run();assert len(b.writes)==13
+    assert b.pages[0]['content']['raw']=='PRIVATE_EXISTING_BODY' and b.items[0]['id']==41
+
+
+@pytest.mark.parametrize('endpoint',['pages','pages/101','users/me','menu-items'])
+def test_site_unknown_committed_outcome_reconciles_without_recreation(site_module,site_publisher,endpoint):
+    b=SiteWriteBackend(site_module);baseline=site_module.Preflight(b,b.public).run()
+    b.fail_after=endpoint
+    p=site_publisher.Publisher(b,site_publisher.load_copy(),baseline,b.public)
+    with pytest.raises(requests.Timeout):p.run()
+    assert p.run()['verified'] and len(b.writes)==13
+    assert len(b.pages)==5 and len(b.items)==5
+
+
+def test_site_partial_draft_metadata_is_repaired_before_publish(site_module,site_publisher):
+    b=SiteWriteBackend(site_module);baseline=site_module.Preflight(b,b.public).run()
+    b.meta_partial=True;b.fail_after='pages'
+    p=site_publisher.Publisher(b,site_publisher.load_copy(),baseline,b.public)
+    with pytest.raises(requests.Timeout):p.run()
+    assert p.run()['verified'] and len(b.pages)==5
+    assert any(kind=='pages/101' and set(payload)=={'meta'} for kind,payload in b.writes)
+
+
+@pytest.mark.parametrize('drift',['page','menu','bio','conflict'])
+def test_site_snapshot_drift_fails_closed_before_write(site_module,site_publisher,drift):
+    b=SiteWriteBackend(site_module);baseline=site_module.Preflight(b,b.public).run()
+    if drift=='page':b.pages[0]['content']['raw']='Changed protected page'
+    if drift=='menu':b.items[0]['menu_order']=9
+    if drift=='bio':b.bio='Someone edited the biography'
+    if drift=='conflict':b.pages.append({'id':77,'status':'trash','slug':'about','title':{'raw':'About'},'content':{'raw':'Existing'}})
+    with pytest.raises(rp.Guard):site_publisher.Publisher(b,site_publisher.load_copy(),baseline,b.public).run()
+    assert not b.writes
+
+
+def test_site_public_seo_failure_is_not_reported_as_verified(site_module,site_publisher):
+    b=SiteWriteBackend(site_module);baseline=site_module.Preflight(b,b.public).run();b.bad_canonical=True
+    p=site_publisher.Publisher(b,site_publisher.load_copy(),baseline,b.public)
+    with pytest.raises(rp.Guard,match='SEO rendering'):p.run()
+    writes=len(b.writes)
+    b.bad_canonical=False;b.theme_bio=True
+    assert p.run()['author_bio']['displayed_on_author_archive']
+    assert len(b.writes)==writes
+
+
+def test_site_transport_rejects_unapproved_direct_writes(site_module,site_publisher):
+    b=SiteWriteBackend(site_module);baseline=site_module.Preflight(b,b.public).run()
+    p=site_publisher.Publisher(b,site_publisher.load_copy(),baseline,b.public)
+    for endpoint,payload in [('pages/16',{'content':'Overwrite Contact'}),('users/5',{'description':'Other person'}),('pages',{'title':'Unreviewed'})]:
+        with pytest.raises(rp.Guard):p.write(endpoint,payload)
+    with pytest.raises(rp.Guard):p.api('POST','pages',json=p.create_payload(p.package['pages'][0]))
+    assert not b.writes

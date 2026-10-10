@@ -1,0 +1,194 @@
+{
+  "verified_preflight": true,
+  "read_only": true,
+  "copy_review": "parent-approved-exact-copy",
+  "writes_available": false,
+  "account_capabilities": {
+    "edit_pages": true,
+    "publish_pages": true,
+    "edit_published_pages": true,
+    "edit_others_pages": true,
+    "read_private_pages": true,
+    "edit_users": true,
+    "edit_theme_options": true
+  },
+  "seo_meta_writable": {
+    "_seopress_titles_title": true,
+    "_seopress_titles_desc": true
+  },
+  "all_status_page_count": 3,
+  "all_status_menu_item_count": 23,
+  "all_menu_items_snapshot_sha256": "0b11aaa73e3aa4a846d97ae947d60253e9602ce4acc349b6ef2e0c95ad46080f",
+  "all_existing_menu_item_ids": [
+    9,
+    22,
+    24,
+    25,
+    31,
+    32,
+    33,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98
+  ],
+  "page_snapshot_sha256": "4bfcc7f708d3fab418408dc2c74a57c809810eec093374d6cef522837dea4e9f",
+  "existing_page_candidates": {
+    "about": [],
+    "biography": [],
+    "editorial": [],
+    "corrections": []
+  },
+  "protected_pages": [
+    {
+      "id": 3,
+      "status": "publish",
+      "slug": "privacy-policy",
+      "record_sha256": "4e20ab8f5df69e041ab992a04d01ec6b141e447821708204a3a065a873c093dc"
+    },
+    {
+      "id": 12,
+      "status": "publish",
+      "slug": "advertise",
+      "record_sha256": "a7165b129ed247aeba17677e6caf3f500d2c70fa18fc2d842f3008e2b62b1f77"
+    },
+    {
+      "id": 16,
+      "status": "publish",
+      "slug": "contact-us",
+      "record_sha256": "82e84053b7de6518544ea356f24aebc2a5889257265a7e1180d101aaa6f501d9"
+    }
+  ],
+  "planned_pages": [
+    {
+      "key": "about",
+      "title": "About Pontotoc News",
+      "slug": "about",
+      "proposed_url": "https://pontotocnews.com/about/",
+      "http_status": 404,
+      "unoccupied_route": true
+    },
+    {
+      "key": "biography",
+      "title": "Jon Myers",
+      "slug": "jon-myers",
+      "proposed_url": "https://pontotocnews.com/jon-myers/",
+      "http_status": 404,
+      "unoccupied_route": true
+    },
+    {
+      "key": "editorial",
+      "title": "Editorial Standards",
+      "slug": "editorial-standards",
+      "proposed_url": "https://pontotocnews.com/editorial-standards/",
+      "http_status": 404,
+      "unoccupied_route": true
+    },
+    {
+      "key": "corrections",
+      "title": "Corrections Policy",
+      "slug": "corrections-policy",
+      "proposed_url": "https://pontotocnews.com/corrections-policy/",
+      "http_status": 404,
+      "unoccupied_route": true
+    }
+  ],
+  "author": {
+    "id": 2,
+    "matches_jon_myers_and_pepa_author": true,
+    "description_empty": true,
+    "description_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "archive_url": "https://pontotocnews.com/author/editor/",
+    "theme_biography_display": "unverified until reviewed biography is saved"
+  },
+  "primary_navigation": {
+    "menu_id": 2,
+    "menu_sha256": "48e0832e4ecba45344302649fb6655b9adaabb9e09d4bf935e62ec96426f9f70",
+    "menu_item_count": 22,
+    "existing_item_ids": [
+      22,
+      24,
+      25,
+      31,
+      32,
+      33,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98
+    ],
+    "item_snapshot_sha256": "82841ff0e4b43bc1a787551ed9a550cb1c0b70605e28e8dfd258f5e544d0826a",
+    "locations_sha256": "f256f95703d021aa4a6deb8649854fccec6856807d76b2d60f25b95ab4ea2e05",
+    "existing_root_links": [
+      {
+        "id": 22,
+        "title": "Home",
+        "url": "https://pontotocnews.com/",
+        "parent": 0,
+        "menu_order": 1
+      },
+      {
+        "id": 32,
+        "title": "National News",
+        "url": "https://pontotocnews.com/category/national-news/",
+        "parent": 0,
+        "menu_order": 2
+      },
+      {
+        "id": 33,
+        "title": "Pontotoc News",
+        "url": "https://pontotocnews.com/category/pontotoc-news/",
+        "parent": 0,
+        "menu_order": 3
+      },
+      {
+        "id": 31,
+        "title": "Mississippi News",
+        "url": "https://pontotocnews.com/category/mississippi-news/",
+        "parent": 0,
+        "menu_order": 5
+      },
+      {
+        "id": 25,
+        "title": "Contact Us",
+        "url": "https://pontotocnews.com/contact-us/",
+        "parent": 0,
+        "menu_order": 22
+      },
+      {
+        "id": 24,
+        "title": "Advertise",
+        "url": "https://pontotocnews.com/advertise/",
+        "parent": 0,
+        "menu_order": 23
+      }
+    ],
+    "planned_structure": "Append About as one top-level item; biography, editorial and corrections as its children",
+    "next_menu_order": 24
+  },
+  "ready_for_copy_review": true
+}

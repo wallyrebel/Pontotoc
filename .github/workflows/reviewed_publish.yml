@@ -6,6 +6,7 @@ on:
       - scripts/reviewed_publish.py
       - scripts/site_readiness_probe.py
       - scripts/site_pages_transport.py
+      - scripts/site_pages_publish.py
       - scripts/reviewed_action.py
       - .github/workflows/reviewed_publish.yml
       - reviewed/requests/*.json
