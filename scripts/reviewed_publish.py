@@ -599,8 +599,10 @@ def main():
                 transport = Transport(session)
                 if args.probe:
                     posts, media = transport.probe()
+                    from site_readiness_probe import ReadProbe
                     report = {"verified_preflight": True, "read_only": True,
-                              "all_status_post_count": len(posts), "all_status_media_count": len(media)}
+                              "all_status_post_count": len(posts), "all_status_media_count": len(media),
+                              "site_readiness": ReadProbe(session).run()}
                 else:
                     report = transport.run(a, apply=request["mode"] == "publish")
     except Exception as exc:

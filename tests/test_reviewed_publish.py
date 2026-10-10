@@ -572,3 +572,78 @@ def test_retired_migration_bad_redirect_has_no_writes(migration):
     with pytest.raises(rp.Guard,match='Old permalink'):
         m.verify_retired(t,a,e)
     assert not b.writes
+
+
+@pytest.fixture
+def readiness_module():
+    import sys
+    sys.modules['reviewed_publish']=rp
+    spec=importlib.util.spec_from_file_location('site_readiness_probe',MODULE.with_name('site_readiness_probe.py'))
+    mod=importlib.util.module_from_spec(spec); spec.loader.exec_module(mod)
+    return mod
+
+
+class ReadinessBackend(Backend):
+    def __init__(self, restricted=False):
+        super().__init__(b'')
+        self.calls=[]
+        self.restricted=restricted
+    def request(self,method,u,**kw):
+        self.calls.append((method,u,kw))
+        assert method in {'GET','OPTIONS'} and kw['allow_redirects'] is False
+        path=u.split('/wp-json/')[1]
+        if path=='wp/v2/users/me':
+            if method=='GET':
+                assert kw['params']['_fields']=='id,capabilities,description'
+                return self.response({'id':3,'capabilities':{'edit_pages':True,'publish_pages':True,'manage_options':not self.restricted},
+                                      'description':'PRIVATE_BIO','email':'PRIVATE_EMAIL','application_password':'PRIVATE_SECRET'})
+        if method=='OPTIONS':
+            return self.response({'endpoints':[{'methods':['GET'],'args':{}},
+                {'methods':['POST'],'args':{'description':{'default':'PRIVATE_DEFAULT'}}}]})
+        if path=='wp/v2/posts/6010':return self.response({'author':3})
+        if path=='wp/v2/types/page':return self.response({'capabilities':{'create_posts':'edit_pages','publish_posts':'publish_pages'}})
+        if path=='wp/v2/themes':return self.response([{'stylesheet':'colormag','template':'colormag','status':'active','is_block_theme':False}])
+        if path=='wp/v2/menu-locations':return self.response({} if not self.restricted else None,status=200 if not self.restricted else 403)
+        if path=='wp/v2/plugins':return self.response([{'plugin':'wp-seopress/seopress.php','status':'active','version':'10.2','license_key':'PRIVATE_SECRET'},
+                                                     {'plugin':'unrelated/plugin.php','status':'active'}])
+        if path=='seopress/v1/options/sitemaps-settings':return self.response({'seopress_xml_sitemap_general':'1','private':'PRIVATE_SETTING',
+                                                                          'seopress_xml_sitemap_post_types_list':{'post':{'include':'1'}}},status=403 if self.restricted else 200)
+        return self.response([])
+    def public(self,u,**kw):
+        assert kw['allow_redirects'] is False
+        if u.endswith('/news.xml'):
+            return self.response(content=b'<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"><url><news:news/></url></urlset>')
+        return self.response(status=404)
+
+
+def test_readiness_probe_read_only_minimized_and_no_credentials(readiness_module):
+    b=ReadinessBackend();report=readiness_module.ReadProbe(b,b.public).run()
+    serialized=json.dumps(report)
+    assert 'PRIVATE_' not in serialized and 'unrelated/plugin' not in serialized
+    assert report['own_description_present'] and report['managed_user_matches_pepa_author']
+    assert report['public_sitemaps']['/news.xml']['news_entry_count']==1
+    assert all(method in {'GET','OPTIONS'} for method,_,_ in b.calls)
+    assert not any('/license' in u or (method=='GET' and '/pro-settings' in u) for method,u,_ in b.calls)
+    assert report['read_only'] and not report['writes_tested']
+
+
+def test_readiness_reports_denied_reads_without_role_assumptions(readiness_module):
+    b=ReadinessBackend(restricted=True);report=readiness_module.ReadProbe(b,b.public).run()
+    assert report['menu_locations_http_status']==403 and report['menu_locations'] is None
+    assert report['sitemap_options_http_status']==403 and report['xml_sitemap_enabled'] is None
+    assert not report['account_capabilities']['manage_options']
+
+
+@pytest.mark.parametrize('method',['POST','PUT','PATCH','DELETE'])
+def test_readiness_transport_refuses_writes(readiness_module,method):
+    b=ReadinessBackend()
+    with pytest.raises(rp.Guard,match='Read-only probe rejects'):
+        readiness_module.ReadProbe(b).read('/wp-json/wp/v2/pages',method)
+    assert not b.calls
+
+
+def test_readiness_refuses_redirects_and_oversized_private_responses(readiness_module):
+    b=ReadinessBackend()
+    b.request=lambda *args,**kw:b.response({'secret':'PRIVATE_SECRET'},status=301)
+    status,data=readiness_module.ReadProbe(b).read('/wp-json/wp/v2/users/me')
+    assert status==301 and data is None
