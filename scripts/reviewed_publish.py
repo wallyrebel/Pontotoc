@@ -243,9 +243,10 @@ class Transport:
             if "GET" in methods:
                 enums = endpoint.get("args", {}).get("status", {}).get("items", {}).get("enum", [])
                 break
-        needed = {"publish", "future", "draft", "pending", "private", "trash"}
-        if kind == "media":
-            needed.add("inherit")
+        # WordPress's attachment controller advertises only these three lookup
+        # statuses, whereas the posts controller includes registered post statuses.
+        needed = ({"inherit", "private", "trash"} if kind == "media" else
+                  {"publish", "future", "draft", "pending", "private", "trash", "auto-draft"})
         require(needed <= set(enums), "Cannot prove all-status lookup support")
         statuses = sorted(set(enums) - {"any"})
         records = {}

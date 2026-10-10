@@ -147,8 +147,9 @@ started before the lock was deployed must finish before any reviewed publication
 
 Before a write, the route checks managed account capabilities and discovers
 status enums from WordPress's OPTIONS schema. It scans **every advertised
-status**, including draft, future, pending, private, trash, inherit and auto-draft,
-with complete authenticated pagination for both posts and media. Errors,
+lookup status** with complete authenticated pagination: posts include draft,
+future, pending, private, trash, inherit and auto-draft; the attachment controller
+advertises inherit, private and trash. Errors,
 missing pagination evidence, changing collection counts, duplicate identities
 or conflicting source/events stop the run. No cache is the source of truth.
 The old RSS client's existing fail-open duplicate behavior is not used by this

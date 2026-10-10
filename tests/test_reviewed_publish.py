@@ -70,7 +70,8 @@ class Backend:
         if kind == "users/me":
             return self.response({"capabilities": {c: True for c in ["publish_posts", "upload_files", "edit_others_posts", "read_private_posts"]}})
         if method == "OPTIONS":
-            return self.response({"endpoints": [{"methods": ["GET"], "args": {"status": {"items": {"enum": STATUSES}}}}]})
+            enums = ["inherit", "private", "trash"] if kind == "media" else STATUSES
+            return self.response({"endpoints": [{"methods": ["GET"], "args": {"status": {"items": {"enum": enums}}}}]})
         if method == "GET" and kind in {"posts", "media"}:
             if self.bad_lookup == kind:
                 return self.response([], 403)
