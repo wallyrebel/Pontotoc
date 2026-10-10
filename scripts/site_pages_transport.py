@@ -182,6 +182,7 @@ class Preflight(rp.Transport):
 
 def main():
     report = {'verified': False}
+    transport=None
     try:
         request = json.loads(rp.scoped_path(REQUEST, 'reviewed/requests').read_text())
         from site_pages_publish import Publisher, load_copy, COPY_SHA
@@ -201,12 +202,16 @@ def main():
         rp.require(os.environ['WORDPRESS_BASE_URL'].rstrip('/') == rp.BASE, 'Unexpected managed WordPress site')
         with requests.Session() as session:
             session.auth = (os.environ['WORDPRESS_USERNAME'], os.environ['WORDPRESS_APP_PASSWORD'])
-            report = (Preflight(session).run() if operation=='preflight-site-pages' else
-                      Publisher(session,package,baseline).run(apply=operation=='publish-site-pages'))
+            if operation=='preflight-site-pages':report=Preflight(session).run()
+            else:
+                transport=Publisher(session,package,baseline)
+                report=transport.run(apply=operation=='publish-site-pages')
     except Exception as exc:
         report = {'verified':False,'error_type':type(exc).__name__}
         if isinstance(exc,rp.Guard):
             report['guard_failure'] = str(exc)
+        if transport is not None and hasattr(transport,'safe_diagnostics'):
+            report['diagnostics']=transport.safe_diagnostics
     out = rp.ROOT / 'data/reviewed-audit';out.mkdir(parents=True,exist_ok=True)
     (out/'report.json').write_text(json.dumps(report,indent=2))
     print(json.dumps(report))

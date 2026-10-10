@@ -823,7 +823,7 @@ def test_exact_site_copy_pin_and_completed_publication(site_module,site_publishe
     publisher=site_publisher.Publisher(b,package,baseline,b.public)
     report=publisher.run()
     assert report['verified'] and len(report['pages'])==4 and report['navigation_verified']
-    assert report['author_bio']['saved_and_public_rest_verified']
+    assert report['author_bio']['stored_verified'] and report['author_bio']['public_rest_verified']
     assert not report['author_bio']['displayed_on_author_archive']
     assert not report['author_bio']['displayed_on_pepa_article']
     assert len(b.writes)==13 # four drafts, four publish updates, own bio, four new menu items
@@ -888,3 +888,28 @@ def test_site_preservation_hash_ignores_only_regenerated_view_with_raw_copy(site
     assert site_module.records_digest([first])!=site_module.records_digest([second])
     second=copy.deepcopy(first);second['meta']['policy']='Changed metadata'
     assert site_module.records_digest([first])!=site_module.records_digest([second])
+
+
+@pytest.mark.parametrize('status',[403,404])
+def test_site_closed_public_author_endpoint_does_not_change_privacy_settings(site_module,site_publisher,status):
+    b=SiteWriteBackend(site_module);baseline=site_module.Preflight(b,b.public).run()
+    public=b.public
+    def closed(u,**kw):
+        if '/wp-json/wp/v2/users/' in u:return b.response(status=status)
+        return public(u,**kw)
+    r=site_publisher.Publisher(b,site_publisher.load_copy(),baseline,closed).run()
+    assert r['verified'] and r['author_bio']['stored_verified']
+    assert not r['author_bio']['public_rest_verified'] and r['author_bio']['public_rest_http_status']==status
+    assert r['author_bio']['biography_page_verified']
+    assert all(kind in {'pages','users/me','menu-items'} or kind.startswith('pages/') for kind,_ in b.writes)
+
+
+def test_site_html_verifier_uses_utf8_when_requests_text_defaults_to_latin1(site_module,site_publisher):
+    b=SiteWriteBackend(site_module);baseline=site_module.Preflight(b,b.public).run()
+    response=b.response
+    def latin1(*args,**kwargs):
+        r=response(*args,**kwargs)
+        if kwargs.get('content') is not None:r.text=r.content.decode('latin-1')
+        return r
+    b.response=latin1
+    assert site_publisher.Publisher(b,site_publisher.load_copy(),baseline,b.public).run()['verified']

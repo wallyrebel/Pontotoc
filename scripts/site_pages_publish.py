@@ -9,6 +9,13 @@ from site_pages_transport import COPY, PLANNED, Preflight, digest, records_diges
 COPY_SHA = 'a9d53b76b05ba1b734eea0774ad581be729757e0bf92d9d4ea8e227708156adc'
 
 
+def markup(response):
+    # WordPress HTML is UTF-8; requests otherwise defaults text/html to Latin-1
+    # when Content-Type omits charset, despite the document's charset declaration.
+    try:return response.content.decode('utf-8')
+    except UnicodeDecodeError:raise rp.Guard('Invalid UTF-8 WordPress page') from None
+
+
 class SafeCopy(HTMLParser):
     def handle_starttag(self, tag, attrs):
         rp.require(tag in {'p','h2','ul','li','a'}, 'Unapproved site-page markup')
@@ -138,6 +145,9 @@ class Publisher(Preflight):
         own_items=[i for i in items if i.get('type')=='post_type' and i.get('object')=='page' and
                    i.get('object_id') in self.owned_ids and self.primary in menu_ids(i)]
         self.owned_nav=own_items
+        self.safe_diagnostics={'owned_page_ids':sorted(self.owned_ids),'owned_navigation':[
+            {k:i.get(k) for k in ('id','status','object_id','parent','menus','menu_order','invalid')}
+            for i in sorted(own_items,key=lambda x:x['id'])]}
         other=[i for i in items if i not in own_items]
         rp.require(records_digest(other)==self.baseline['all_menu_items_snapshot_sha256'],
                    'Existing menu items changed or partial navigation write needs reconciliation')
@@ -236,7 +246,7 @@ class Publisher(Preflight):
             rp.require(rest.get('status')=='publish' and rp.public_text(rest['title']['rendered'])==rp.public_text(p['title']) and
                        rp.public_text(rest['content']['rendered'])==rp.public_text(p['content']) and
                        rp.public_text(rest['excerpt']['rendered'])==rp.public_text(p['excerpt']),'Reviewed public REST page differs')
-            response=self.public(target);page=rp.parsed(response.text)
+            response=self.public(target);page=rp.parsed(markup(response))
             rp.require(page.canonicals==[target] and rp.public_text(''.join(page.title_words))==rp.public_text(p['meta']['_seopress_titles_title']) and
                        [rp.public_text(h) for h in page.headlines]==[rp.public_text(p['title'])] and
                        len(page.descriptions)==1 and rp.public_text(page.descriptions[0])==rp.public_text(p['excerpt']),
@@ -245,28 +255,34 @@ class Publisher(Preflight):
                        not any('noindex' in x.lower() for x in page.robots),'Reviewed page marked noindex')
             expected_links=set(rp.parsed(p['content']).links)
             rp.require(expected_links<=set(page.links) and expected_links<=set(rp.parsed(rest['content']['rendered']).links) and
-                       all(rp.public_text(text) in rp.public_text(response.text) for text in re.findall(r'<(?:p|li)>(.*?)</(?:p|li)>',p['content'],re.S)),
+                       all(rp.public_text(text) in rp.public_text(markup(response)) for text in re.findall(r'<(?:p|li)>(.*?)</(?:p|li)>',p['content'],re.S)),
                        'Reviewed page body or cross-links missing')
             for link in expected_links:
                 if link.startswith(rp.BASE+'/'):self.public(link)
             receipts.append({'id':row['id'],'url':target,'title':p['title'],'verified':True})
-        home=self.public(rp.BASE+'/').text;dom=MenuDOM();dom.feed(home)
+        self.safe_diagnostics['public_pages_verified']=True
+        self.safe_diagnostics['stored_author_bio_verified']=True
+        home=markup(self.public(rp.BASE+'/'));dom=MenuDOM();dom.feed(home)
         about=next(i for i in nav if i['object_id']==owned['about']['id'])
         for p in self.package['pages']:
             item=next(i for i in nav if i['object_id']==owned[p['slug']]['id'])
             parent=0 if p['slug']=='about' else about['id']
             rp.require(any(n['parent']==parent and rp.BASE+'/'+p['slug']+'/' in n['links'] for n in dom.nodes.get(item['id'],[])),
-                       'Reviewed primary navigation absent from rendered theme')
+                       'Reviewed primary navigation absent from rendered theme: '+p['slug'])
         for i in self.baseline['primary_navigation']['existing_root_links']:
             rp.require(any(i['url'] in n['links'] for n in dom.nodes.get(i['id'],[])),'Existing rendered root menu link missing')
-        public_author=self.public(rp.BASE+'/wp-json/wp/v2/users/'+str(self.author_id)).json()
-        rp.require(public_author.get('description')==self.package['author_bio_text'],'Saved author biography is not public in REST')
-        archive=self.public(me['link']).text
+        author_response=self.public_get(rp.BASE+'/wp-json/wp/v2/users/'+str(self.author_id),timeout=rp.TIMEOUT,allow_redirects=False)
+        rp.require(author_response.status_code in {200,403,404},'Cannot inspect public author endpoint')
+        public_rest_verified=author_response.status_code==200
+        if public_rest_verified:
+            rp.require(author_response.json().get('description')==self.package['author_bio_text'],'Public REST author biography differs')
+        archive=markup(self.public(me['link']))
         article,_=self.api('GET','posts/6010',params={'_fields':'link'})
-        article_html=self.public(article['link']).text
+        article_html=markup(self.public(article['link']))
         bio=rp.public_text(self.package['author_bio_text'])
         return {'verified':True,'copy_sha256':COPY_SHA,'pages':receipts,'preserved_existing_pages_and_menu_items':True,
                 'navigation_verified':True,'primary_menu_id':self.primary,'new_menu_item_ids':sorted(i['id'] for i in nav),
-                'author_bio':{'saved_and_public_rest_verified':True,'displayed_on_author_archive':bio in rp.public_text(archive),
+                'author_bio':{'stored_verified':True,'public_rest_verified':public_rest_verified,
+                              'public_rest_http_status':author_response.status_code,'displayed_on_author_archive':bio in rp.public_text(archive),
                               'displayed_on_pepa_article':bio in rp.public_text(article_html),'biography_page_verified':True},
                 'read_only':True}
