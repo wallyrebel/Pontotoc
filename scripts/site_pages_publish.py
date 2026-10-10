@@ -85,6 +85,7 @@ class Publisher(Preflight):
     def write(self, endpoint, payload):
         allowed = endpoint=='pages' and any(payload==self.create_payload(p) for p in self.package['pages'])
         allowed |= endpoint=='users/me' and payload=={'description':self.package['author_bio_text']}
+        allowed |= endpoint=='menus/'+str(self.primary) and payload==getattr(self,'finalize_payload',None)
         if re.fullmatch(r'pages/\d+', endpoint) and int(endpoint.split('/')[-1]) in self.owned_ids:
             allowed |= payload=={'status':'publish'} or payload=={'meta':self.owned_copies[int(endpoint.split('/')[-1])]['meta']}
         if endpoint=='menu-items':
@@ -180,6 +181,24 @@ class Publisher(Preflight):
                 from urllib.parse import urljoin
                 current=urljoin(current,response.headers.get('Location',''))
             rp.require(response.status_code==200,'Reviewed link redirect chain failed')
+
+    def finalize_navigation(self):
+        # Save the existing menu's unchanged properties once. Core emits its
+        # normal wp_update_nav_menu hook, which invalidates cached navigation.
+        # Item-level REST inserts do not emit that menu-level completion hook.
+        me,owned,nav=self.state()
+        rp.require(len(owned)==len(nav)==4 and me['description']==self.package['author_bio_text'],
+                   'Navigation cannot finalize an incomplete reviewed project')
+        menu,_=self.api('GET','menus/'+str(self.primary),params={'context':'edit'})
+        check=dict(menu)
+        if 'count' in check:check['count']-=sum(i['status']=='publish' for i in nav)
+        rp.require(digest(check)==self.baseline['primary_navigation']['menu_sha256'],'Primary menu changed before final save')
+        rp.require(all(isinstance(menu.get(k),str) for k in ('name','description','slug')),
+                   'Cannot preserve existing menu properties')
+        self.finalize_payload={k:menu[k] for k in ('name','description','slug')}
+        try:self.write('menus/'+str(self.primary),self.finalize_payload)
+        finally:self.finalize_payload=None
+        self.state()
 
     def run(self, apply=True):
         rp.require(self.baseline.get('verified_preflight') is True and self.baseline.get('ready_for_copy_review') is True and

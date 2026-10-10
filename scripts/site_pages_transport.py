@@ -195,7 +195,7 @@ def main():
         else:
             baseline_path='reviewed/receipts/site-pages-preflight-2026-10-10.json'
             baseline_bytes=rp.scoped_path(baseline_path,'reviewed/receipts').read_bytes()
-            rp.require(operation in {'publish-site-pages','verify-site-pages'} and request==common|{
+            rp.require(operation in {'publish-site-pages','verify-site-pages','finalize-site-navigation'} and request==common|{
                 'operation':operation,'baseline_path':baseline_path,'baseline_sha256':rp.sha(baseline_bytes),
                 'publication_authorization':'jon-approved-exact-copy-publication'},'Site-page request exceeds exact approved package')
             baseline=json.loads(baseline_bytes)
@@ -205,7 +205,9 @@ def main():
             if operation=='preflight-site-pages':report=Preflight(session).run()
             else:
                 transport=Publisher(session,package,baseline)
+                if operation=='finalize-site-navigation':transport.finalize_navigation()
                 report=transport.run(apply=operation=='publish-site-pages')
+                if operation=='finalize-site-navigation':report['read_only']=False
     except Exception as exc:
         report = {'verified':False,'error_type':type(exc).__name__}
         if isinstance(exc,rp.Guard):

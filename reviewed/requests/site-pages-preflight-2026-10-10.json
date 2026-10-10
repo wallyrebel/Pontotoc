@@ -2,7 +2,7 @@
   "copy_path": "reviewed/site-pages/site-pages-2026-10-10.json",
   "copy_review": "parent-approved-exact-copy",
   "copy_sha256": "a9d53b76b05ba1b734eea0774ad581be729757e0bf92d9d4ea8e227708156adc",
-  "operation": "verify-site-pages",
+  "operation": "finalize-site-navigation",
   "planned_pages": [
     {
       "key": "about",

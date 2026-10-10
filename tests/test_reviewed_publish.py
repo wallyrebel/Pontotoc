@@ -779,6 +779,9 @@ class SiteWriteBackend(SiteBackend):
                 if self.meta_partial:row['meta']={};self.meta_partial=False
             elif kind.startswith('pages/'):
                 row=next(r for r in self.pages if r['id']==int(kind.split('/')[1]));row.update(copy.deepcopy(payload))
+            elif kind=='menus/7':
+                assert payload=={'name':'Main Menu','description':'Preserve original','slug':'menu-1'}
+                row={};self.menu_finalized=True
             elif kind=='users/me':self.bio=payload['description'];row={}
             elif kind=='menu-items':
                 row=copy.deepcopy(payload);row['id']=200+len(self.items)
@@ -792,7 +795,7 @@ class SiteWriteBackend(SiteBackend):
         if kind=='users/me':return self.response({'id':3,'name':'Jon Myers','description':self.bio,'link':rp.BASE+'/author/editor/',
                                                   'capabilities':{k:True for k in self.site.CAPS}})
         if kind=='posts/6010':return self.response({'author':3,'link':rp.BASE+'/pontotoc-news/pepa-password-security-tips/'})
-        if kind=='menus/7':return self.response({'id':7,'name':'Main Menu','locations':['primary'],'auto_add':False,'count':len(self.items)})
+        if kind=='menus/7':return self.response({'id':7,'name':'Main Menu','locations':['primary'],'auto_add':False,'count':len(self.items),'description':'Preserve original','slug':'menu-1'})
         if kind.startswith('pages/'):
             return self.response(next(r for r in self.pages if r['id']==int(kind.split('/')[1])))
         return super().request(method,u,**kw)
@@ -913,3 +916,13 @@ def test_site_html_verifier_uses_utf8_when_requests_text_defaults_to_latin1(site
         return r
     b.response=latin1
     assert site_publisher.Publisher(b,site_publisher.load_copy(),baseline,b.public).run()['verified']
+
+
+def test_site_final_menu_save_preserves_properties_and_rejects_changes(site_module,site_publisher):
+    b=SiteWriteBackend(site_module);baseline=site_module.Preflight(b,b.public).run()
+    p=site_publisher.Publisher(b,site_publisher.load_copy(),baseline,b.public);p.run()
+    before=copy.deepcopy(b.items)
+    with pytest.raises(rp.Guard):p.write('menus/7',{'name':'New menu name'})
+    p.finalize_navigation()
+    assert b.menu_finalized and b.items==before and p.run(apply=False)['verified']
+    assert b.writes[-1]==('menus/7',{'name':'Main Menu','description':'Preserve original','slug':'menu-1'})
