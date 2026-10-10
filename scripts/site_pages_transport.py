@@ -28,6 +28,19 @@ def digest(record):
     return rp.sha(json.dumps(record, sort_keys=True).encode())
 
 
+def raw_record(record):
+    # Gravity Forms regenerates markup/nonces in content.rendered. Preserve
+    # every stored field, including raw copy and metadata, rather than that view.
+    if isinstance(record,dict):
+        return {k:raw_record(v) for k,v in record.items() if not (k=='rendered' and 'raw' in record)}
+    if isinstance(record,list):return [raw_record(v) for v in record]
+    return record
+
+
+def records_digest(records):
+    return digest(raw_record(sorted(records,key=lambda x:x['id'])))
+
+
 def menu_ids(item):
     values = item.get('menus')
     if isinstance(values, int):
@@ -150,9 +163,10 @@ class Preflight(rp.Transport):
             'writes_available': False, 'account_capabilities': capabilities,
             'seo_meta_writable': seo,
             'all_status_page_count': len(pages), 'all_status_menu_item_count': len(items),
-            'all_menu_items_snapshot_sha256': digest(sorted(items, key=lambda x:x['id'])),
+            'record_hash_contract':'raw-edit-v1',
+            'all_menu_items_snapshot_sha256': records_digest(items),
             'all_existing_menu_item_ids': sorted(i['id'] for i in items),
-            'page_snapshot_sha256': digest(sorted(pages, key=lambda x:x['id'])),
+            'page_snapshot_sha256': records_digest(pages),
             'existing_page_candidates': candidates, 'protected_pages': protected, 'planned_pages': routes,
             'author': {'id': me['id'], 'matches_jon_myers_and_pepa_author': True, 'description_empty': not me['description'].strip(),
                        'description_sha256': rp.sha(me['description'].encode()), 'archive_url': me.get('link'),

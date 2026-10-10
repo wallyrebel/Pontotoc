@@ -2,7 +2,7 @@
   "copy_path": "reviewed/site-pages/site-pages-2026-10-10.json",
   "copy_review": "parent-approved-exact-copy",
   "copy_sha256": "a9d53b76b05ba1b734eea0774ad581be729757e0bf92d9d4ea8e227708156adc",
-  "operation": "publish-site-pages",
+  "operation": "preflight-site-pages",
   "planned_pages": [
     {
       "key": "about",
@@ -25,8 +25,5 @@
       "title": "Corrections Policy"
     }
   ],
-  "schema_version": 1,
-  "baseline_path": "reviewed/receipts/site-pages-preflight-2026-10-10.json",
-  "baseline_sha256": "d4d3ff5c04e982b743e91f1d256cc37dd624488ae14defa0f2678c1dc870d4e8",
-  "publication_authorization": "jon-approved-exact-copy-publication"
+  "schema_version": 1
 }

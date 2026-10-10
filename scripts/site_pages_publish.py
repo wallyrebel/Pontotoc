@@ -4,7 +4,7 @@ import json
 import re
 
 import reviewed_publish as rp
-from site_pages_transport import COPY, PLANNED, Preflight, digest, menu_ids, PATTERNS
+from site_pages_transport import COPY, PLANNED, Preflight, digest, records_digest, raw_record, menu_ids, PATTERNS
 
 COPY_SHA = 'a9d53b76b05ba1b734eea0774ad581be729757e0bf92d9d4ea8e227708156adc'
 
@@ -131,14 +131,15 @@ class Publisher(Preflight):
         rp.require(rp.sha(me['description'].encode())==self.baseline['author']['description_sha256'] or
                    me['description']==self.package['author_bio_text'],'Existing author biography changed; no overwrite')
         pages=self.all_status('pages');owned=self.owned(pages)
-        rp.require(digest(sorted([p for p in pages if p['id'] not in self.owned_ids],key=lambda p:p['id']))==
+        rp.require(self.baseline.get('record_hash_contract')=='raw-edit-v1','Missing stored-field preservation contract')
+        rp.require(records_digest([p for p in pages if p['id'] not in self.owned_ids])==
                    self.baseline['page_snapshot_sha256'],'Unrelated existing pages changed')
         items=self.all_status('menu-items')
         own_items=[i for i in items if i.get('type')=='post_type' and i.get('object')=='page' and
                    i.get('object_id') in self.owned_ids and self.primary in menu_ids(i)]
         self.owned_nav=own_items
         other=[i for i in items if i not in own_items]
-        rp.require(digest(sorted(other,key=lambda i:i['id']))==self.baseline['all_menu_items_snapshot_sha256'],
+        rp.require(records_digest(other)==self.baseline['all_menu_items_snapshot_sha256'],
                    'Existing menu items changed or partial navigation write needs reconciliation')
         locations,_=self.api('GET','menu-locations');menu,_=self.api('GET','menus/'+str(self.primary),params={'context':'edit'})
         # Core's term count increases with our new published items. All settings
@@ -192,7 +193,7 @@ class Publisher(Preflight):
                 row=owned[p['slug']]
                 if row['status']=='draft':
                     latest,_=self.api('GET','pages/'+str(row['id']),params={'context':'edit'})
-                    rp.require(latest==row,'Owned draft changed before publication')
+                    rp.require(raw_record(latest)==raw_record(row),'Owned draft changed before publication')
                     if any(row.get('meta',{}).get(k)!=v for k,v in p['meta'].items()):
                         self.write('pages/'+str(row['id']),{'meta':p['meta']})
                         latest,_=self.api('GET','pages/'+str(row['id']),params={'context':'edit'})
