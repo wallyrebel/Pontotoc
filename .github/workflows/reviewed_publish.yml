@@ -1,0 +1,57 @@
+name: Reviewed public facts transport
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/reviewed_publish.py
+      - scripts/reviewed_action.py
+      - .github/workflows/reviewed_publish.yml
+      - reviewed/requests/*.json
+  workflow_dispatch:
+    inputs:
+      operation:
+        description: Authenticated probe or digest-bound request
+        type: choice
+        default: probe
+        options: [probe, request]
+      request_path:
+        description: Exact reviewed/requests/*.json path (one article)
+        type: string
+        default: ''
+permissions:
+  contents: read
+concurrency:
+  group: pontotoc-wordpress-publication
+  cancel-in-progress: false
+jobs:
+  reviewed-transport:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install requests Pillow PyYAML pytest
+      - run: python -m pytest tests/test_reviewed_publish.py -q
+      - name: Transport reviewed facts (managed WordPress credentials only)
+        env:
+          WORDPRESS_BASE_URL: ${{ secrets.WORDPRESS_BASE_URL }}
+          WORDPRESS_USERNAME: ${{ secrets.WORDPRESS_USERNAME }}
+          WORDPRESS_APP_PASSWORD: ${{ secrets.WORDPRESS_APP_PASSWORD }}
+        run: python scripts/reviewed_action.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: reviewed-audit-${{ github.run_id }}
+          path: data/reviewed-audit/
+          retention-days: 90
+      - name: Audited result
+        if: always()
+        run: |
+          if [ -f data/reviewed-audit/report.json ]; then
+            cat data/reviewed-audit/report.json >> "$GITHUB_STEP_SUMMARY"
+          fi

@@ -1,5 +1,10 @@
 # RSS to WordPress Automation
 
+The new assistant-reviewed publication intake is documented in
+[REVIEWED_PUBLISHING.md](REVIEWED_PUBLISHING.md). It is separate from the legacy
+RSS rewriter described below; the old automatic schedule remains enabled pending
+the reviewed route's end-to-end verification and authorized cutover.
+
 Automated RSS feed monitoring, AI-powered article rewriting, and WordPress publishing.
 
 ## Features

@@ -25,6 +25,11 @@ on:
 env:
   PYTHON_VERSION: '3.11'
 
+# Both publication routes share a site-wide lock; retain the existing schedule.
+concurrency:
+  group: pontotoc-wordpress-publication
+  cancel-in-progress: false
+
 jobs:
   process-feeds:
     runs-on: ubuntu-latest
