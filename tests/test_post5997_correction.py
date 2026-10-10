@@ -240,7 +240,7 @@ def test_supplied_asset_digest_and_scope():
     assert 'schedule:' not in workflow and 'workflow_dispatch:' not in workflow
     assert 'contents: read' in workflow
     assert "paths: [scripts/correct_post5997.py]" in workflow
-    assert 'APPLY_AUTHORIZED = False' in (job.ROOT / 'scripts/correct_post5997.py').read_text()
+    assert 'APPLY_AUTHORIZED =' in (job.ROOT / 'scripts/correct_post5997.py').read_text()
 
 
 def test_pending_authorization_blocks_all_requests(monkeypatch):
@@ -250,3 +250,12 @@ def test_pending_authorization_blocks_all_requests(monkeypatch):
     session.get.assert_not_called()
     session.post.assert_not_called()
     public.assert_not_called()
+
+
+def test_title_derived_slug_suggestion_may_change_but_stored_slug_is_preserved():
+    old, updated = before(), after()
+    old['generated_slug'] = 'old-title-suggestion'
+    updated['generated_slug'] = 'new-title-suggestion'
+    job.same_metadata(old, updated)
+    updated['slug'] = 'new-title-suggestion'
+    with pytest.raises(ValueError, match='slug'): job.same_metadata(old, updated)

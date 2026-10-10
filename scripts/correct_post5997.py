@@ -27,8 +27,9 @@ IMAGE_SHA = '069a5e056449afe14df2a0b3e68d96483d47df89cce052a5d925e064c58aef29'
 MEDIA_SLUG = 'pontotoc-post5997-' + IMAGE_SHA[:16]
 OUT = ROOT / 'data/post5997-audit'
 TIMEOUT = (10, 30)
-APPLY_AUTHORIZED = False  # Change only after final parent payload/publication approval.
-CHANGED = {'title', 'content', 'excerpt', 'featured_media', 'modified', 'modified_gmt', '_links', 'class_list'}
+APPLY_AUTHORIZED = True  # Final payload and publication authorized by the parent.
+# generated_slug is WordPress's title-derived suggestion, not the stored slug.
+CHANGED = {'title', 'content', 'excerpt', 'featured_media', 'modified', 'modified_gmt', '_links', 'class_list', 'generated_slug'}
 
 
 class CheckFailed(ValueError):
