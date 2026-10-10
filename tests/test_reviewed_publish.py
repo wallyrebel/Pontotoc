@@ -295,13 +295,13 @@ def test_public_wordpress_typography_is_accepted_but_raw_article_remains_exact(p
         response = original(url, **kwargs)
         if "wp-json" in url:
             post = response.json()
-            post["content"]["rendered"] = post["content"]["rendered"].replace("'", "&#8217;")
+            post["content"]["rendered"] = post["content"]["rendered"].replace("&#x27;", "&#8217;")
             return b.response(post)
         if url == rp.BASE + "/reviewed/":
-            return b.response(content=response.content.replace(b"'", b"&#8217;"))
+            return b.response(content=response.content.replace(b"&#x27;", b"&#8217;"))
         return response
     t.public_get = texturized
     assert t.run(a, apply=True)["verified"]
-    b.posts[0]["content"]["raw"] = b.posts[0]["content"]["raw"].replace("'", "’")
+    b.posts[0]["content"]["raw"] = b.posts[0]["content"]["raw"].replace("&#x27;", "’")
     with pytest.raises(rp.Guard, match="Existing article changed"):
         t.run(a, apply=True)
