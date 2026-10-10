@@ -21,8 +21,11 @@ Existing date `2026-10-10T08:36:42`; date_gmt `2026-10-10T13:36:42`.
 Public before-state is captured in `tests/fixtures/post5997/before-public.json`.
 Current featured media 5996 is a 940×627 Pexels JPEG, not the supplied photo.
 Its before-state is in `tests/fixtures/post5997/before-media.json`.
-Authenticated raw before-state will be captured only in the managed runner.
-Local tests use simulated raw fields, clearly marked in the test source.
+Authenticated raw before-state was captured through a read-only managed run and
+is retained locally, with only raw title/body/excerpt SHA-256 hashes committed
+in `tests/fixtures/post5997/before-raw-sha256.json`. Its rendered content
+matches the public snapshot. The initial comparison now handles WordPress's
+edit-only block_version field, and guards the exact authenticated raw state.
 
 The exact attached Library image was materialized on the Mac with the current
 unmodified helper, verified by Pillow, and inspected visually. The source asset

@@ -20,9 +20,10 @@ def response(data=None, content=b'', status=200, pages=1):
 
 def before():
     post = copy.deepcopy(job.EXPECTED)
-    # Simulated authenticated fields, never claimed as captured production raw.
+    # Simulated raw text; actual production raw is guarded by hashes only.
     for field in ('title', 'content', 'excerpt'):
         post[field]['raw'] = post[field]['rendered']
+    post['content']['block_version'] = 0
     return post
 
 
@@ -48,6 +49,7 @@ def media(ident=6000):
 def local_output(tmp_path, monkeypatch):
     monkeypatch.setattr(job, 'OUT', tmp_path)
     monkeypatch.setattr(job, 'APPLY_AUTHORIZED', True)
+    monkeypatch.setattr(job, 'EXPECTED_RAW_SHA256', {k: job.digest(before()[k]['raw'].encode()) for k in ('title', 'content', 'excerpt')})
 
 
 def prepare_route(post=None, existing=None):
@@ -66,6 +68,22 @@ def test_plan_is_read_only_and_payload_has_only_authorized_fields():
     assert '28-14' not in plan['payload']['content'] and 'John Doe' not in plan['payload']['content']
     session.post.assert_not_called()
     public.assert_not_called()
+
+
+def test_authenticated_projection_handles_edit_only_fields():
+    post = before()
+    assert post['content']['block_version'] == 0
+    job.initial(post)
+    assert job.projection(post['content']) == job.EXPECTED['content']
+
+
+def test_raw_only_concurrent_edit_blocks_writes():
+    post = before()
+    post['content']['raw'] += ' '
+    session, public = prepare_route(post)
+    with pytest.raises(ValueError, match='Authenticated raw before-state changed: content'):
+        job.apply(job.BASE, session, public)
+    session.post.assert_not_called()
 
 
 def test_wrong_site_blocks_all_network_access():

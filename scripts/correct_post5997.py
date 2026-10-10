@@ -17,6 +17,7 @@ POST_ID = 5997
 ROOT = Path(__file__).resolve().parents[1]
 FIXTURES = ROOT / 'tests/fixtures/post5997'
 EXPECTED = json.loads((FIXTURES / 'before-public.json').read_text())
+EXPECTED_RAW_SHA256 = json.loads((FIXTURES / 'before-raw-sha256.json').read_text())
 BODY = (FIXTURES / 'after-raw.html').read_text()
 TITLE = 'Ashley scores twice as Pontotoc beats West Point 23-6 in region opener'
 EXCERPT = 'Nolan Ashley ran for two touchdowns and Tim Jones intercepted two passes as Pontotoc beat West Point 23-6 in its Region 1-5A opener.'
@@ -58,7 +59,7 @@ def read(session):
 
 def projection(value):
     if isinstance(value, dict):
-        return {k: projection(v) for k, v in value.items() if k != 'raw'}
+        return {k: projection(v) for k, v in value.items() if k not in {'raw', 'block_version'}}
     if isinstance(value, list):
         return [projection(v) for v in value]
     return value
@@ -78,6 +79,9 @@ def initial(post):
             raise CheckFailed('Before-state changed: ' + field)
     if not all(isinstance(post.get(f, {}).get('raw'), str) for f in ('title', 'content', 'excerpt')):
         raise CheckFailed('Missing authenticated raw content')
+    for field, expected_digest in EXPECTED_RAW_SHA256.items():
+        if digest(post[field]['raw'].encode()) != expected_digest:
+            raise CheckFailed('Authenticated raw before-state changed: ' + field)
 
 
 def corrected(post, media_id):
@@ -187,8 +191,8 @@ def verify(before, session, media_id, public_get=requests.get):
     if digest(media_bytes(public_get, media)) != IMAGE_SHA or media['alt_text'] != ALT:
         raise CheckFailed('Featured image verification failed')
     public = json_request(public_get, f'posts/{POST_ID}')
-    for field, expected in projection(after).items():
-        if field != '_links' and public.get(field) != expected:
+    for field in EXPECTED:
+        if field != '_links' and public.get(field) != projection(after).get(field):
             raise CheckFailed('Public verification failed: ' + field)
     page = public_get(EXPECTED['link'], timeout=TIMEOUT, allow_redirects=False)
     page.raise_for_status()
