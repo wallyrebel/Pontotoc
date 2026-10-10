@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "operation": "preflight-site-pages",
+  "planned_pages": [
+    {
+      "key": "about",
+      "title": "About Pontotoc News",
+      "slug": "about"
+    },
+    {
+      "key": "biography",
+      "title": "Jon Myers",
+      "slug": "jon-myers"
+    },
+    {
+      "key": "editorial",
+      "title": "Editorial Standards",
+      "slug": "editorial-standards"
+    },
+    {
+      "key": "corrections",
+      "title": "Corrections Policy",
+      "slug": "corrections-policy"
+    }
+  ],
+  "copy_review": "parent-approved-exact-copy",
+  "copy_path": "reviewed/site-pages/site-pages-2026-10-10.json",
+  "copy_sha256": "a9d53b76b05ba1b734eea0774ad581be729757e0bf92d9d4ea8e227708156adc"
+}

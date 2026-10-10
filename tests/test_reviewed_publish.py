@@ -662,3 +662,78 @@ def test_missing_sitemap_enable_field_is_unverified_not_false(readiness_module):
         return original(method,u,**kw)
     b.request=request
     assert readiness_module.ReadProbe(b,b.public).run()['xml_sitemap_enabled'] is None
+
+
+@pytest.fixture
+def site_module():
+    import sys
+    sys.modules['reviewed_publish']=rp
+    spec=importlib.util.spec_from_file_location('site_pages_transport',MODULE.with_name('site_pages_transport.py'))
+    mod=importlib.util.module_from_spec(spec);spec.loader.exec_module(mod)
+    return mod
+
+
+class SiteBackend(Backend):
+    def __init__(self, site):
+        super().__init__(b'');self.calls=[];self.bad_kind=None
+        self.pages=[{'id':16,'status':'publish','slug':'contact-us','title':{'raw':'Contact Us'},
+                     'content':{'raw':'PRIVATE_EXISTING_BODY'},'link':rp.BASE+'/contact-us/'}]
+        self.items=[{'id':41,'status':'publish','title':{'raw':'Home'},'menus':[7],'parent':0,
+                     'menu_order':1,'url':rp.BASE+'/','type':'custom','object':'custom','object_id':41}]
+        self.site=site
+    def request(self,method,u,**kw):
+        self.calls.append((method,u))
+        assert method in {'GET','OPTIONS'}
+        kind=u.split('/wp/v2/')[1]
+        if kind=='users/me':return self.response({'id':3,'name':'Jon Myers','description':'','link':rp.BASE+'/author/editor/',
+                                                  'capabilities':{k:True for k in self.site.CAPS}})
+        if kind=='posts/6010':return self.response({'author':3})
+        if kind=='menu-locations':return self.response({'primary':{'menu':7}})
+        if kind=='menus/7':return self.response({'id':7,'name':'Main Menu','locations':['primary'],'auto_add':False})
+        if method=='OPTIONS':return self.response({'endpoints':[{'methods':['GET'],'args':{'status':{'items':{'enum':STATUSES}}}}],
+            'schema':{'properties':{'meta':{'properties':{k:{'type':'string'} for k in ['_seopress_titles_title','_seopress_titles_desc']}}}}})
+        rows=self.pages if kind=='pages' else self.items
+        if self.bad_kind==kind:return self.response([],status=403)
+        rows=[r for r in rows if r['status']==kw['params']['status']]
+        return self.response(rows,headers={'X-WP-TotalPages':'1' if rows else '0','X-WP-Total':str(len(rows))})
+    def public(self,u,**kw):
+        assert kw['allow_redirects'] is False
+        return self.response(status=404)
+
+
+def test_site_preflight_complete_all_status_and_no_private_body_export(site_module):
+    b=SiteBackend(site_module);r=site_module.Preflight(b,b.public).run()
+    assert r['verified_preflight'] and r['read_only'] and r['ready_for_copy_review']
+    assert 'PRIVATE_EXISTING_BODY' not in json.dumps(r)
+    assert r['protected_pages'][0]['id']==16 and r['primary_navigation']['menu_id']==7
+    assert r['author']['description_empty'] and all(r['seo_meta_writable'].values())
+    assert all(method in {'GET','OPTIONS'} for method,_ in b.calls)
+
+
+@pytest.mark.parametrize('status',[s for s in STATUSES if s!='any'])
+def test_site_preflight_recognizes_existing_topic_in_every_status(site_module,status):
+    b=SiteBackend(site_module)
+    b.pages.append({'id':20,'status':status,'slug':'existing-about','title':{'raw':'About Us'},
+                    'content':{'raw':'PRIVATE_ABOUT_BODY'},'link':rp.BASE+'/existing-about/'})
+    r=site_module.Preflight(b,b.public).run()
+    assert not r['ready_for_copy_review'] and r['existing_page_candidates']['about'][0]['id']==20
+    assert 'PRIVATE_ABOUT_BODY' not in json.dumps(r)
+
+
+@pytest.mark.parametrize('kind',['pages','menu-items'])
+def test_site_preflight_lookup_denial_stops(site_module,kind):
+    b=SiteBackend(site_module);b.bad_kind=kind
+    with pytest.raises(rp.Guard):site_module.Preflight(b,b.public).run()
+
+
+def test_site_preflight_cannot_write(site_module):
+    b=SiteBackend(site_module);t=site_module.Preflight(b,b.public)
+    with pytest.raises(rp.Guard,match='writes prohibited'):t.api('POST','pages',json={'status':'publish'})
+    assert not b.calls
+
+
+def test_site_preflight_virtual_route_collision_blocks_creation_plan(site_module):
+    b=SiteBackend(site_module)
+    b.public=lambda *a,**kw:b.response(status=200)
+    r=site_module.Preflight(b,b.public).run()
+    assert not r['ready_for_copy_review'] and not any(p['unoccupied_route'] for p in r['planned_pages'])
