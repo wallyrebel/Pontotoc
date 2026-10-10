@@ -690,6 +690,7 @@ class SiteBackend(Backend):
         if kind=='posts/6010':return self.response({'author':3})
         if kind=='menu-locations':return self.response({'primary':{'menu':7}})
         if kind=='menus/7':return self.response({'id':7,'name':'Main Menu','locations':['primary'],'auto_add':False})
+        if method=='GET' and kind=='menus':return self.response([],headers={'X-WP-Total':'0','X-WP-TotalPages':'0'})
         if method=='OPTIONS':return self.response({'endpoints':[{'methods':['GET'],'args':{'status':{'items':{'enum':STATUSES}}}}],
             'schema':{'properties':{'meta':{'properties':{k:{'type':'string'} for k in ['_seopress_titles_title','_seopress_titles_desc']}}}}})
         rows=self.pages if kind=='pages' else self.items
@@ -742,5 +743,12 @@ def test_site_preflight_virtual_route_collision_blocks_creation_plan(site_module
 def test_site_preflight_keeps_legitimate_unassigned_menu_item(site_module):
     b=SiteBackend(site_module)
     b.items.append({'id':99,'status':'auto-draft','menus':0})
+    r=site_module.Preflight(b,b.public).run()
+    assert r['all_status_menu_item_count']==2 and r['primary_navigation']['menu_item_count']==1
+
+
+def test_site_preflight_resolves_core_omitted_unassigned_menu_field(site_module):
+    b=SiteBackend(site_module)
+    b.items.append({'id':99,'status':'auto-draft'})
     r=site_module.Preflight(b,b.public).run()
     assert r['all_status_menu_item_count']==2 and r['primary_navigation']['menu_item_count']==1

@@ -77,6 +77,17 @@ class Preflight(rp.Transport):
                                    isinstance(row.get('content', {}).get('raw'), str),
                                    'Cannot inspect existing raw page')
                     else:
+                        if 'menus' not in row:
+                            # Core omits this field when get_the_terms returns false.
+                            # Prove the item's assignments with a post-filtered term read.
+                            terms, term_headers = self.api('GET', 'menus', params={
+                                'context': 'edit', 'post': row['id'], 'per_page': 100, '_fields': 'id'})
+                            rp.require(isinstance(terms, list) and len(terms) <= 1 and
+                                       str(len(terms)) == term_headers.get('X-WP-Total') and
+                                       term_headers.get('X-WP-TotalPages') in {'0', '1'} and
+                                       all(isinstance(t.get('id'), int) and t['id'] > 0 for t in terms),
+                                       'Cannot reconcile missing menu ownership')
+                            row['menus'] = terms[0]['id'] if terms else 0
                         menu_ids(row)
                     seen.add(row['id']);results[row['id']] = row
                 if page >= pages:
@@ -139,9 +150,11 @@ class Preflight(rp.Transport):
             'writes_available': False, 'account_capabilities': capabilities,
             'seo_meta_writable': seo,
             'all_status_page_count': len(pages), 'all_status_menu_item_count': len(items),
+            'all_menu_items_snapshot_sha256': digest(sorted(items, key=lambda x:x['id'])),
+            'all_existing_menu_item_ids': sorted(i['id'] for i in items),
             'page_snapshot_sha256': digest(sorted(pages, key=lambda x:x['id'])),
             'existing_page_candidates': candidates, 'protected_pages': protected, 'planned_pages': routes,
-            'author': {'matches_jon_myers_and_pepa_author': True, 'description_empty': not me['description'].strip(),
+            'author': {'id': me['id'], 'matches_jon_myers_and_pepa_author': True, 'description_empty': not me['description'].strip(),
                        'description_sha256': rp.sha(me['description'].encode()), 'archive_url': me.get('link'),
                        'theme_biography_display': 'unverified until reviewed biography is saved'},
             'primary_navigation': {'menu_id': primary, 'menu_sha256': digest(menu),
