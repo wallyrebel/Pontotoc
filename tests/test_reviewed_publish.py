@@ -96,7 +96,8 @@ class Backend:
             rows = self.posts if kind.startswith("posts/") else self.media
             result = next(p for p in rows if p["id"] == int(kind.split("/")[1]))
             result.update(kwargs["json"])
-        if self.fail_after == kind:
+        if self.fail_after == kind or (self.fail_after == "publish" and
+                                      kwargs.get("json", {}).get("status") == "publish"):
             self.fail_after = None
             raise requests.Timeout("simulated unknown write outcome")
         return self.response(result, 201 if kind in {"posts", "media"} else 200)
@@ -134,7 +135,7 @@ def test_success_and_repeat_are_idempotent(package):
     assert b.writes == []
 
 
-@pytest.mark.parametrize("stage", ["posts", "media", "posts/10"])
+@pytest.mark.parametrize("stage", ["posts", "media", "posts/10", "publish"])
 def test_unknown_write_outcome_resumes_without_recreate(package, stage):
     a, b, t = setup(package)
     b.fail_after = stage
@@ -215,6 +216,7 @@ def test_public_verification_failure_never_reports_success(package, failure):
     lambda a: a["image"].update(rights="copied_from_feed"),
     lambda a: a["image"].update(sha256="wrong"),
     lambda a: a["sources"][0].update(url="http://localhost/private"),
+    lambda a: a["sources"][0].update(url="https://127.0.0.1/private"),
     lambda a: a.update(extra="unreviewed"),
 ])
 def test_incomplete_or_unsafe_contract_rejected(package, mutate):
@@ -259,3 +261,25 @@ def test_authorized_user_submission_supported(package):
                              "reference": "Jon explicitly requested publication in thread"}
     path.write_text(json.dumps(article))
     assert rp.load_article(path)["submission"]["kind"] == "user_submitted"
+
+
+def test_facebook_numeric_post_identity_ignores_page_and_mobile_aliases():
+    assert rp.canonical("https://www.facebook.com/123/posts/456?utm_source=feed") == \
+           rp.canonical("https://m.facebook.com/anotherpage/posts/456/")
+
+
+def test_unknown_supported_status_also_scanned(package):
+    a, b, t = setup(package)
+    original = b.request
+    def with_custom(method, url, **kwargs):
+        if method == "OPTIONS" and url.endswith("/posts"):
+            schema = original(method, url, **kwargs).json()
+            schema["endpoints"][0]["args"]["status"]["items"]["enum"].append("custom-status")
+            return b.response(schema)
+        return original(method, url, **kwargs)
+    b.request = with_custom
+    b.posts.append({"id": 99, "status": "custom-status", "slug": "old", "content": {
+        "raw": '<a href="https://official.example/reminder">Source</a>'}})
+    with pytest.raises(rp.Guard, match="Source already"):
+        t.run(a, apply=True)
+    assert not b.writes

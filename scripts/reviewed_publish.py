@@ -65,11 +65,13 @@ def url(value):
     p = urlsplit(value)
     require(p.scheme == "https" and p.hostname and p.port in {None, 443} and
             not p.username and not p.password and "." in p.hostname and
+            not any(c.isspace() for c in value) and
             not p.hostname.endswith((".local", ".internal", ".localhost")), "Invalid public URL")
     try:
-        require(ipaddress.ip_address(p.hostname).is_global, "Invalid public URL")
+        address = ipaddress.ip_address(p.hostname)
     except ValueError:
-        pass
+        address = None
+    require(address is None or address.is_global, "Invalid public URL")
     return value
 
 
