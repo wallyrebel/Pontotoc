@@ -1,0 +1,48 @@
+{
+  "verified": true,
+  "copy_sha256": "a9d53b76b05ba1b734eea0774ad581be729757e0bf92d9d4ea8e227708156adc",
+  "pages": [
+    {
+      "id": 6013,
+      "url": "https://pontotocnews.com/about/",
+      "title": "About Pontotoc News",
+      "verified": true
+    },
+    {
+      "id": 6014,
+      "url": "https://pontotocnews.com/jon-myers/",
+      "title": "Jon Myers",
+      "verified": true
+    },
+    {
+      "id": 6015,
+      "url": "https://pontotocnews.com/editorial-standards/",
+      "title": "Editorial Standards",
+      "verified": true
+    },
+    {
+      "id": 6016,
+      "url": "https://pontotocnews.com/corrections-policy/",
+      "title": "Corrections Policy",
+      "verified": true
+    }
+  ],
+  "preserved_existing_pages_and_menu_items": true,
+  "navigation_verified": true,
+  "primary_menu_id": 2,
+  "new_menu_item_ids": [
+    6021,
+    6022,
+    6023,
+    6024
+  ],
+  "author_bio": {
+    "stored_verified": true,
+    "public_rest_verified": false,
+    "public_rest_http_status": 404,
+    "displayed_on_author_archive": false,
+    "displayed_on_pepa_article": true,
+    "biography_page_verified": true
+  },
+  "read_only": false
+}

@@ -52,3 +52,58 @@ the fixed request to `verify-site-pages`, and deploy a GET/OPTIONS-only verifier
 Record the publication and retirement Actions and receipts here. Article intake,
 PEPA article bytes, the retired corrections/slug routes and existing schedules
 remain unchanged.
+
+## Verified result and retirement
+
+All four approved pages are live: About 6013, Jon Myers 6014, Editorial Standards
+6015 and Corrections Policy 6016. Primary menu ID 2 contains new item IDs
+6021–6024; the three policy/biography links are children of About. Contact,
+Advertise, Privacy and all 23 original menu items retain stored-field hashes.
+Raw content and metadata are protected; regenerated form markup is excluded
+from the preservation digest. HTML is decoded as UTF-8 rather than relying on
+an HTTP client's Latin-1 default for `text/html` without a charset.
+
+Page creation/publication completed in Action 38081984863 at `48ddd32`; that run
+correctly failed verification on the client's HTML decoding. Read-only Action
+38082474331 at `997624f` verified pages and stored biography, then detected stale
+cached navigation. The final native menu save in Action **38082743595** at
+`261fef9` preserved the menu's existing name, description and slug and emitted
+WordPress's normal menu completion hook. This invalidated cached navigation
+without changing cache, plugin or theme settings. That Action passed public
+body, SEO, links, navigation and preservation checks. Its exact minimized
+receipt is `reviewed/receipts/site-pages-publication-2026-10-10.json`.
+
+Independent unauthenticated checks and a browser inspection also verified all
+four pages and their rendered About submenu on ordinary public URLs. The
+approved author description is stored on managed author ID 2 and displays on
+the PEPA article. The existing theme omits the biography on the author archive;
+the public user REST endpoint returns 404. Both limitations are reported in the
+receipt. The standalone biography page is public and linked. No theme or public
+user API privacy change was made.
+
+The one-shot `scripts/site_pages_publish.py` is deleted. The fixed request now
+uses **`verify-site-pages`**, and `scripts/site_pages_verify.py` permits only
+GET/OPTIONS through the read-only transport. The CLI rejects both former
+`publish-site-pages` and `finalize-site-navigation` operations. Future copy edits
+require a newly reviewed, separately bounded request; this historical route
+cannot accept them.
+
+To run a managed read-only verification, dispatch the existing **Reviewed public
+facts transport** workflow on `main`, select `operation=request`, and set
+`request_path=reviewed/requests/site-pages-preflight-2026-10-10.json`. From an
+authorized GitHub CLI environment, the equivalent command is:
+
+```sh
+gh workflow run reviewed_publish.yml --repo wallyrebel/Pontotoc --ref main \
+  -f operation=request \
+  -f request_path=reviewed/requests/site-pages-preflight-2026-10-10.json
+```
+
+Inspect the uploaded `reviewed-audit-<run_id>/report.json`; successful retirement
+verification requires `verified`, `read_only` and `mutation_path_retired` all
+true. No local WordPress credentials are needed or permitted. The existing
+article publishing route and assistant schedule remain unchanged.
+
+Primary references for the normal menu save behavior:
+[WordPress menu REST update](https://developer.wordpress.org/reference/classes/wp_rest_menus_controller/update_item/)
+and [WP Rocket automatic cache clearing](https://docs.wp-rocket.me/article/78-how-often-is-the-cache-updated).

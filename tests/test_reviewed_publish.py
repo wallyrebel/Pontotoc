@@ -753,45 +753,23 @@ def test_site_preflight_resolves_core_omitted_unassigned_menu_field(site_module)
     r=site_module.Preflight(b,b.public).run()
     assert r['all_status_menu_item_count']==2 and r['primary_navigation']['menu_item_count']==1
 
+
 @pytest.fixture
-def site_publisher(site_module):
+def site_verifier(site_module):
     import sys
     sys.modules['site_pages_transport']=site_module
-    spec=importlib.util.spec_from_file_location('site_pages_publish',MODULE.with_name('site_pages_publish.py'))
+    spec=importlib.util.spec_from_file_location('site_pages_verify',MODULE.with_name('site_pages_verify.py'))
     mod=importlib.util.module_from_spec(spec);spec.loader.exec_module(mod)
     return mod
 
-
-class SiteWriteBackend(SiteBackend):
+class SiteVerifiedBackend(SiteBackend):
     def __init__(self,site):
         super().__init__(site);self.bio='';self.fail_after=None;self.meta_partial=False;self.writes=[]
         self.theme_bio=False;self.bad_canonical=False
     def request(self,method,u,**kw):
         kind=u.split('/wp/v2/')[1]
-        if method=='POST':
-            self.writes.append((kind,copy.deepcopy(kw['json'])))
-            payload=kw['json']
-            if kind=='pages':
-                row=copy.deepcopy(payload);row['id']=100+len(self.pages)
-                for k in ('title','content','excerpt'):row[k]={'raw':row[k],'rendered':row[k]}
-                row.update(featured_media=0,password='',link=rp.BASE+'/'+row['slug']+'/')
-                self.pages.append(row)
-                if self.meta_partial:row['meta']={};self.meta_partial=False
-            elif kind.startswith('pages/'):
-                row=next(r for r in self.pages if r['id']==int(kind.split('/')[1]));row.update(copy.deepcopy(payload))
-            elif kind=='menus/7':
-                assert payload=={'name':'Main Menu','description':'Preserve original','slug':'menu-1'}
-                row={};self.menu_finalized=True
-            elif kind=='users/me':self.bio=payload['description'];row={}
-            elif kind=='menu-items':
-                row=copy.deepcopy(payload);row['id']=200+len(self.items)
-                row['title']={'raw':row['title']};row['url']=next(p['link'] for p in self.pages if p['id']==row['object_id'])
-                self.items.append(row)
-            else:raise AssertionError('Unexpected write '+kind)
-            if self.fail_after==kind:
-                self.fail_after=None
-                raise requests.Timeout('Unknown committed outcome')
-            return self.response(row,status=201)
+        assert method in {'GET','OPTIONS'}
+        self.calls.append((method,u))
         if kind=='users/me':return self.response({'id':3,'name':'Jon Myers','description':self.bio,'link':rp.BASE+'/author/editor/',
                                                   'capabilities':{k:True for k in self.site.CAPS}})
         if kind=='posts/6010':return self.response({'author':3,'link':rp.BASE+'/pontotoc-news/pepa-password-security-tips/'})
@@ -820,67 +798,60 @@ class SiteWriteBackend(SiteBackend):
         return self.response(content=b'Available approved source or contact page')
 
 
-def test_exact_site_copy_pin_and_completed_publication(site_module,site_publisher):
-    package=site_publisher.load_copy();b=SiteWriteBackend(site_module)
-    baseline=site_module.Preflight(b,b.public).run()
-    publisher=site_publisher.Publisher(b,package,baseline,b.public)
-    report=publisher.run()
-    assert report['verified'] and len(report['pages'])==4 and report['navigation_verified']
-    assert report['author_bio']['stored_verified'] and report['author_bio']['public_rest_verified']
-    assert not report['author_bio']['displayed_on_author_archive']
-    assert not report['author_bio']['displayed_on_pepa_article']
-    assert len(b.writes)==13 # four drafts, four publish updates, own bio, four new menu items
-    publisher.run();assert len(b.writes)==13
-    assert b.pages[0]['content']['raw']=='PRIVATE_EXISTING_BODY' and b.items[0]['id']==41
+def verified_site_fixture(site_module,site_verifier):
+    b=SiteVerifiedBackend(site_module);baseline=site_module.Preflight(b,b.public).run()
+    package=site_verifier.load_copy()
+    verifier=site_verifier.Verifier(b,package,baseline,b.public)
+    for index,p in enumerate(package['pages']):
+        identifier=101+index
+        row={k:copy.deepcopy(p[k]) for k in ('slug','meta','comment_status','ping_status')}
+        row.update(id=identifier,status='publish',parent=0,author=3,featured_media=0,password='',link=rp.BASE+'/'+p['slug']+'/')
+        for key in ('title','excerpt'):row[key]={'raw':p[key],'rendered':p[key]}
+        row['content']={'raw':verifier.body(p),'rendered':verifier.body(p)}
+        b.pages.append(row)
+        b.items.append({'id':201+index,'title':{'raw':p['title']},'type':'post_type','object':'page','object_id':identifier,
+            'menus':7,'parent':0 if index==0 else 201,'menu_order':2+index,'status':'publish','url':row['link']})
+    b.bio=package['author_bio_text'];b.calls=[]
+    return b,verifier
 
 
-@pytest.mark.parametrize('endpoint',['pages','pages/101','users/me','menu-items'])
-def test_site_unknown_committed_outcome_reconciles_without_recreation(site_module,site_publisher,endpoint):
-    b=SiteWriteBackend(site_module);baseline=site_module.Preflight(b,b.public).run()
-    b.fail_after=endpoint
-    p=site_publisher.Publisher(b,site_publisher.load_copy(),baseline,b.public)
-    with pytest.raises(requests.Timeout):p.run()
-    assert p.run()['verified'] and len(b.writes)==13
-    assert len(b.pages)==5 and len(b.items)==5
+def test_site_retired_verifier_checks_public_pages_navigation_and_theme_limit(site_module,site_verifier):
+    b,p=verified_site_fixture(site_module,site_verifier);r=p.run()
+    assert r['verified'] and r['read_only'] and r['mutation_path_retired'] and r['navigation_verified']
+    assert len(r['pages'])==4 and r['preserved_existing_pages_and_menu_items']
+    assert r['author_bio']['stored_verified'] and r['author_bio']['public_rest_verified']
+    assert not r['author_bio']['displayed_on_author_archive']
+    assert not r['author_bio']['displayed_on_pepa_article']
+    assert all(method in {'GET','OPTIONS'} for method,_ in b.calls)
+    assert not b.writes and not hasattr(p,'write')
 
 
-def test_site_partial_draft_metadata_is_repaired_before_publish(site_module,site_publisher):
-    b=SiteWriteBackend(site_module);baseline=site_module.Preflight(b,b.public).run()
-    b.meta_partial=True;b.fail_after='pages'
-    p=site_publisher.Publisher(b,site_publisher.load_copy(),baseline,b.public)
-    with pytest.raises(requests.Timeout):p.run()
-    assert p.run()['verified'] and len(b.pages)==5
-    assert any(kind=='pages/101' and set(payload)=={'meta'} for kind,payload in b.writes)
+@pytest.mark.parametrize('method',['POST','PUT','PATCH','DELETE'])
+def test_site_retired_verifier_has_no_mutation_transport(site_module,site_verifier,method):
+    b,p=verified_site_fixture(site_module,site_verifier)
+    with pytest.raises(rp.Guard):p.api(method,'pages/101',json={'status':'publish'})
+    assert not b.calls and not b.writes
 
 
-@pytest.mark.parametrize('drift',['page','menu','bio','conflict'])
-def test_site_snapshot_drift_fails_closed_before_write(site_module,site_publisher,drift):
-    b=SiteWriteBackend(site_module);baseline=site_module.Preflight(b,b.public).run()
-    if drift=='page':b.pages[0]['content']['raw']='Changed protected page'
-    if drift=='menu':b.items[0]['menu_order']=9
-    if drift=='bio':b.bio='Someone edited the biography'
-    if drift=='conflict':b.pages.append({'id':77,'status':'trash','slug':'about','title':{'raw':'About'},'content':{'raw':'Existing'}})
-    with pytest.raises(rp.Guard):site_publisher.Publisher(b,site_publisher.load_copy(),baseline,b.public).run()
+@pytest.mark.parametrize('drift',['protected-page','old-menu','bio','owned-copy','owned-meta','duplicate','canonical','missing-nav'])
+def test_site_retired_verification_stops_on_drift(site_module,site_verifier,drift):
+    b,p=verified_site_fixture(site_module,site_verifier)
+    if drift=='protected-page':b.pages[0]['content']['raw']='Changed Contact'
+    if drift=='old-menu':b.items[0]['menu_order']=55
+    if drift=='bio':b.bio='Changed biography'
+    if drift=='owned-copy':b.pages[1]['content']['raw']+='Changed'
+    if drift=='owned-meta':b.pages[1]['meta']['_seopress_titles_title']='Wrong title'
+    if drift=='duplicate':
+        row=copy.deepcopy(b.pages[1]);row['id']=500;b.pages.append(row)
+    if drift=='canonical':b.bad_canonical=True
+    if drift=='missing-nav':b.items.pop()
+    with pytest.raises(rp.Guard):p.run()
     assert not b.writes
 
 
-def test_site_public_seo_failure_is_not_reported_as_verified(site_module,site_publisher):
-    b=SiteWriteBackend(site_module);baseline=site_module.Preflight(b,b.public).run();b.bad_canonical=True
-    p=site_publisher.Publisher(b,site_publisher.load_copy(),baseline,b.public)
-    with pytest.raises(rp.Guard,match='SEO rendering'):p.run()
-    writes=len(b.writes)
-    b.bad_canonical=False;b.theme_bio=True
-    assert p.run()['author_bio']['displayed_on_author_archive']
-    assert len(b.writes)==writes
-
-
-def test_site_transport_rejects_unapproved_direct_writes(site_module,site_publisher):
-    b=SiteWriteBackend(site_module);baseline=site_module.Preflight(b,b.public).run()
-    p=site_publisher.Publisher(b,site_publisher.load_copy(),baseline,b.public)
-    for endpoint,payload in [('pages/16',{'content':'Overwrite Contact'}),('users/5',{'description':'Other person'}),('pages',{'title':'Unreviewed'})]:
-        with pytest.raises(rp.Guard):p.write(endpoint,payload)
-    with pytest.raises(rp.Guard):p.api('POST','pages',json=p.create_payload(p.package['pages'][0]))
-    assert not b.writes
+def test_site_retired_verifier_reports_theme_bio_when_displayed(site_module,site_verifier):
+    b,p=verified_site_fixture(site_module,site_verifier);b.theme_bio=True
+    r=p.run();assert r['author_bio']['displayed_on_author_archive'] and r['author_bio']['displayed_on_pepa_article']
 
 
 def test_site_preservation_hash_ignores_only_regenerated_view_with_raw_copy(site_module):
@@ -894,35 +865,36 @@ def test_site_preservation_hash_ignores_only_regenerated_view_with_raw_copy(site
 
 
 @pytest.mark.parametrize('status',[403,404])
-def test_site_closed_public_author_endpoint_does_not_change_privacy_settings(site_module,site_publisher,status):
-    b=SiteWriteBackend(site_module);baseline=site_module.Preflight(b,b.public).run()
-    public=b.public
+def test_site_retired_verifier_reports_closed_public_author_endpoint(site_module,site_verifier,status):
+    b,p=verified_site_fixture(site_module,site_verifier);public=b.public
     def closed(u,**kw):
         if '/wp-json/wp/v2/users/' in u:return b.response(status=status)
         return public(u,**kw)
-    r=site_publisher.Publisher(b,site_publisher.load_copy(),baseline,closed).run()
-    assert r['verified'] and r['author_bio']['stored_verified']
+    p.public_get=closed;r=p.run()
+    assert r['verified'] and r['read_only'] and r['author_bio']['stored_verified']
     assert not r['author_bio']['public_rest_verified'] and r['author_bio']['public_rest_http_status']==status
-    assert r['author_bio']['biography_page_verified']
-    assert all(kind in {'pages','users/me','menu-items'} or kind.startswith('pages/') for kind,_ in b.writes)
+    assert not b.writes
 
 
-def test_site_html_verifier_uses_utf8_when_requests_text_defaults_to_latin1(site_module,site_publisher):
-    b=SiteWriteBackend(site_module);baseline=site_module.Preflight(b,b.public).run()
-    response=b.response
+def test_site_retired_verifier_decodes_utf8_html_despite_latin1_text(site_module,site_verifier):
+    b,p=verified_site_fixture(site_module,site_verifier);response=b.response
     def latin1(*args,**kwargs):
         r=response(*args,**kwargs)
         if kwargs.get('content') is not None:r.text=r.content.decode('latin-1')
         return r
-    b.response=latin1
-    assert site_publisher.Publisher(b,site_publisher.load_copy(),baseline,b.public).run()['verified']
+    b.response=latin1;assert p.run()['verified']
+    assert not b.writes
 
 
-def test_site_final_menu_save_preserves_properties_and_rejects_changes(site_module,site_publisher):
-    b=SiteWriteBackend(site_module);baseline=site_module.Preflight(b,b.public).run()
-    p=site_publisher.Publisher(b,site_publisher.load_copy(),baseline,b.public);p.run()
-    before=copy.deepcopy(b.items)
-    with pytest.raises(rp.Guard):p.write('menus/7',{'name':'New menu name'})
-    p.finalize_navigation()
-    assert b.menu_finalized and b.items==before and p.run(apply=False)['verified']
-    assert b.writes[-1]==('menus/7',{'name':'Main Menu','description':'Preserve original','slug':'menu-1'})
+@pytest.mark.parametrize('operation',['publish-site-pages','finalize-site-navigation'])
+def test_site_retired_cli_refuses_old_mutation_request(site_module,site_verifier,tmp_path,monkeypatch,operation):
+    import sys
+    sys.modules['site_pages_verify']=site_verifier
+    root=rp.ROOT
+    for name in [site_module.COPY,site_module.REQUEST,'reviewed/receipts/site-pages-preflight-2026-10-10.json']:
+        target=tmp_path/name;target.parent.mkdir(parents=True,exist_ok=True);target.write_bytes((root/name).read_bytes())
+    request_path=tmp_path/site_module.REQUEST;request=json.loads(request_path.read_text());request['operation']=operation
+    request_path.write_text(json.dumps(request));monkeypatch.setattr(rp,'ROOT',tmp_path)
+    assert site_module.main()==1
+    report=json.loads((tmp_path/'data/reviewed-audit/report.json').read_text())
+    assert report['error_type']=='Guard' and 'exceeds' in report['guard_failure']

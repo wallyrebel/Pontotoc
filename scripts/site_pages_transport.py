@@ -1,4 +1,4 @@
-"""Bounded October 10 site-page request; preflight remains GET/OPTIONS only."""
+"""Retired October 10 site-page writes; preflight and verification are read-only."""
 import json
 import os
 import re
@@ -52,7 +52,7 @@ def menu_ids(item):
 
 class Preflight(rp.Transport):
     def api(self, method, endpoint, **kwargs):
-        rp.require(method in {'GET', 'OPTIONS'}, 'Site-page copy review pending; writes prohibited')
+        rp.require(method in {'GET', 'OPTIONS'}, 'Site-page read-only transport; writes prohibited')
         return super().api(method, endpoint, **kwargs)
 
     def all_status(self, kind):
@@ -185,7 +185,7 @@ def main():
     transport=None
     try:
         request = json.loads(rp.scoped_path(REQUEST, 'reviewed/requests').read_text())
-        from site_pages_publish import Publisher, load_copy, COPY_SHA
+        from site_pages_verify import Verifier, load_copy, COPY_SHA
         package=load_copy()
         common={'schema_version':1,'planned_pages':PLANNED,'copy_review':'parent-approved-exact-copy',
                 'copy_path':COPY,'copy_sha256':COPY_SHA}
@@ -195,7 +195,7 @@ def main():
         else:
             baseline_path='reviewed/receipts/site-pages-preflight-2026-10-10.json'
             baseline_bytes=rp.scoped_path(baseline_path,'reviewed/receipts').read_bytes()
-            rp.require(operation in {'publish-site-pages','verify-site-pages','finalize-site-navigation'} and request==common|{
+            rp.require(operation=='verify-site-pages' and request==common|{
                 'operation':operation,'baseline_path':baseline_path,'baseline_sha256':rp.sha(baseline_bytes),
                 'publication_authorization':'jon-approved-exact-copy-publication'},'Site-page request exceeds exact approved package')
             baseline=json.loads(baseline_bytes)
@@ -204,10 +204,8 @@ def main():
             session.auth = (os.environ['WORDPRESS_USERNAME'], os.environ['WORDPRESS_APP_PASSWORD'])
             if operation=='preflight-site-pages':report=Preflight(session).run()
             else:
-                transport=Publisher(session,package,baseline)
-                if operation=='finalize-site-navigation':transport.finalize_navigation()
-                report=transport.run(apply=operation=='publish-site-pages')
-                if operation=='finalize-site-navigation':report['read_only']=False
+                transport=Verifier(session,package,baseline)
+                report=transport.run()
     except Exception as exc:
         report = {'verified':False,'error_type':type(exc).__name__}
         if isinstance(exc,rp.Guard):

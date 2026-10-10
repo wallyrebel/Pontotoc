@@ -1,4 +1,4 @@
-"""One-shot publisher for the exact parent-reviewed October 10 site-page package."""
+"""Read-only verifier for the exact published October 10 site-page package."""
 from html.parser import HTMLParser
 import json
 import re
@@ -60,47 +60,19 @@ class MenuDOM(HTMLParser):
         if tag=='li' and self.stack:self.stack.pop()
 
 
-class Publisher(Preflight):
+class Verifier(Preflight):
     def __init__(self, session, package, baseline, public_get=None):
         if public_get is None:super().__init__(session)
         else:super().__init__(session, public_get)
-        self.package=package;self.baseline=baseline;self.permitted=None;self.owned_ids=set();self.owned_copies={};self.owned_nav=[]
+        self.package=package;self.baseline=baseline;self.owned_ids=set();self.owned_copies={};self.owned_nav=[]
         self.author_id=baseline['author']['id'];self.primary=baseline['primary_navigation']['menu_id']
 
-    def api(self, method, endpoint, **kwargs):
-        if method == 'POST':
-            rp.require(self.permitted == (endpoint, kwargs.get('json')) and set(kwargs) == {'json'},
-                       'Unapproved site-page write')
-            return rp.Transport.api(self, method, endpoint, **kwargs)
-        return super().api(method, endpoint, **kwargs)
 
     def body(self, p):
         key=next(x['key'] for x in PLANNED if x['slug']==p['slug'])
         return p['content']+'\n<!-- pontotoc-site-page:'+key+':'+COPY_SHA+' -->'
 
-    def create_payload(self, p):
-        return {k:p[k] for k in ('slug','title','excerpt','comment_status','ping_status','meta')} | {
-            'content':self.body(p),'status':'draft','parent':0,'author':self.author_id}
 
-    def write(self, endpoint, payload):
-        allowed = endpoint=='pages' and any(payload==self.create_payload(p) for p in self.package['pages'])
-        allowed |= endpoint=='users/me' and payload=={'description':self.package['author_bio_text']}
-        allowed |= endpoint=='menus/'+str(self.primary) and payload==getattr(self,'finalize_payload',None)
-        if re.fullmatch(r'pages/\d+', endpoint) and int(endpoint.split('/')[-1]) in self.owned_ids:
-            allowed |= payload=={'status':'publish'} or payload=={'meta':self.owned_copies[int(endpoint.split('/')[-1])]['meta']}
-        if endpoint=='menu-items':
-            page=self.owned_copies.get(payload.get('object_id'))
-            index=self.package['pages'].index(page) if page else -1
-            about=next((i for i in self.owned_nav if self.owned_copies[i['object_id']]['slug']=='about'),None)
-            allowed = bool(page and set(payload)=={'title','type','object','object_id','menus','parent','menu_order','status'} and
-                payload['title']==page['title'] and payload['type']=='post_type' and payload['object']=='page' and
-                payload['menus']==self.primary and payload['status']=='publish' and
-                payload['parent']==(0 if index==0 else about['id'] if about else -1) and
-                payload['menu_order']==self.baseline['primary_navigation']['next_menu_order']+index)
-        rp.require(allowed, 'Site-page write exceeds reviewed scope')
-        self.permitted=(endpoint,payload)
-        try:return self.api('POST',endpoint,json=payload)
-        finally:self.permitted=None
 
     def owned(self, pages):
         owned={}
@@ -114,7 +86,7 @@ class Publisher(Preflight):
                     row['excerpt']['raw']==p['excerpt'] and row['slug']==p['slug'] and row['status'] in {'draft','publish'} and
                     row.get('parent')==0 and row.get('author')==self.author_id and row.get('featured_media')==0 and
                     row.get('comment_status')==row.get('ping_status')=='closed' and not row.get('password') and
-                    all(row.get('meta',{}).get(k)==v or (row['status']=='draft' and row.get('meta',{}).get(k) in {None,''})
+                    all(row.get('meta',{}).get(k)==v
                         for k,v in p['meta'].items()),
                     'Existing owned page differs; no overwrite')
                 owned[p['slug']]=row
@@ -182,76 +154,13 @@ class Publisher(Preflight):
                 current=urljoin(current,response.headers.get('Location',''))
             rp.require(response.status_code==200,'Reviewed link redirect chain failed')
 
-    def finalize_navigation(self):
-        # Save the existing menu's unchanged properties once. Core emits its
-        # normal wp_update_nav_menu hook, which invalidates cached navigation.
-        # Item-level REST inserts do not emit that menu-level completion hook.
-        me,owned,nav=self.state()
-        rp.require(len(owned)==len(nav)==4 and me['description']==self.package['author_bio_text'],
-                   'Navigation cannot finalize an incomplete reviewed project')
-        menu,_=self.api('GET','menus/'+str(self.primary),params={'context':'edit'})
-        check=dict(menu)
-        if 'count' in check:check['count']-=sum(i['status']=='publish' for i in nav)
-        rp.require(digest(check)==self.baseline['primary_navigation']['menu_sha256'],'Primary menu changed before final save')
-        rp.require(all(isinstance(menu.get(k),str) for k in ('name','description','slug')),
-                   'Cannot preserve existing menu properties')
-        self.finalize_payload={k:menu[k] for k in ('name','description','slug')}
-        try:self.write('menus/'+str(self.primary),self.finalize_payload)
-        finally:self.finalize_payload=None
-        self.state()
 
-    def run(self, apply=True):
-        rp.require(self.baseline.get('verified_preflight') is True and self.baseline.get('ready_for_copy_review') is True and
-                   all(self.baseline.get('seo_meta_writable',{}).values()),'Site-page preflight is not ready')
+
+    def run(self):
+        rp.require(self.baseline.get('verified_preflight') is True and self.baseline.get('ready_for_copy_review') is True,
+                   'Original site-page preflight was not ready')
         self.source_links()
-        me,owned,_=self.state()
-        schema,_=self.api('OPTIONS','pages')
-        props=schema.get('schema',{}).get('properties',{}).get('meta',{}).get('properties',{})
-        rp.require(all(props.get(k,{}).get('type')=='string' and not props[k].get('readonly',props[k].get('readOnly',False))
-                   for k in ['_seopress_titles_title','_seopress_titles_desc']),'Reviewed page SEO metadata not writable')
-        if apply:
-            for p in self.package['pages']:
-                if p['slug'] not in owned:
-                    response=self.public_get(rp.BASE+'/'+p['slug']+'/',timeout=rp.TIMEOUT,allow_redirects=False)
-                    rp.require(response.status_code==404,'Proposed page public route occupied')
-                    self.write('pages',self.create_payload(p))
-                    owned=self.owned(self.all_status('pages'))
-                    rp.require(p['slug'] in owned,'Created page not reconciled; stop')
-            _,owned,_=self.state()
-            for p in self.package['pages']:
-                row=owned[p['slug']]
-                if row['status']=='draft':
-                    latest,_=self.api('GET','pages/'+str(row['id']),params={'context':'edit'})
-                    rp.require(raw_record(latest)==raw_record(row),'Owned draft changed before publication')
-                    if any(row.get('meta',{}).get(k)!=v for k,v in p['meta'].items()):
-                        self.write('pages/'+str(row['id']),{'meta':p['meta']})
-                        latest,_=self.api('GET','pages/'+str(row['id']),params={'context':'edit'})
-                        rp.require(all(latest.get('meta',{}).get(k)==v for k,v in p['meta'].items()) and
-                                   self.owned(self.all_status('pages')),'Partial SEO metadata did not reconcile')
-                    self.write('pages/'+str(row['id']),{'status':'publish'})
-            me,owned,nav=self.state()
-            if me['description']!=self.package['author_bio_text']:
-                latest,_=self.api('GET','users/me',params={'context':'edit','_fields':'id,name,description,link,capabilities'})
-                rp.require(latest==me,'Author changed during reviewed publication')
-                self.write('users/me',{'description':self.package['author_bio_text']})
-            about_id=0
-            for index,p in enumerate(self.package['pages']):
-                _,owned,nav=self.state()
-                row=owned[p['slug']]
-                expected={'title':p['title'],'type':'post_type','object':'page','object_id':row['id'],
-                          'menus':self.primary,'parent':0 if index==0 else about_id,
-                          'menu_order':self.baseline['primary_navigation']['next_menu_order']+index,'status':'publish'}
-                matched=[i for i in nav if i['object_id']==row['id']]
-                rp.require(len(matched)<=1,'Duplicate reviewed page navigation')
-                if not matched:
-                    self.write('menu-items',expected)
-                    _,owned,nav=self.state();matched=[i for i in nav if i['object_id']==row['id']]
-                rp.require(len(matched)==1 and all((matched[0]['title']['raw'] if k=='title' else matched[0].get(k))==v
-                    for k,v in expected.items()),'Reviewed navigation differs; no overwrite')
-                if index==0:about_id=matched[0]['id']
-        report=self.verify()
-        report['read_only']=not apply
-        return report
+        return self.verify()
 
     def verify(self):
         me,owned,nav=self.state()
@@ -304,4 +213,4 @@ class Publisher(Preflight):
                 'author_bio':{'stored_verified':True,'public_rest_verified':public_rest_verified,
                               'public_rest_http_status':author_response.status_code,'displayed_on_author_archive':bio in rp.public_text(archive),
                               'displayed_on_pepa_article':bio in rp.public_text(article_html),'biography_page_verified':True},
-                'read_only':True}
+                'read_only':True,'mutation_path_retired':True}
