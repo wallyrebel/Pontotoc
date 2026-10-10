@@ -226,6 +226,12 @@ def plain(value):
     return " ".join(" ".join(parsed(value).words).split())
 
 
+def public_text(value):
+    """WordPress texturizes quotes/dashes; preserve words while normalizing typography."""
+    return (plain(value).translate(str.maketrans({"‘": "'", "’": "'", "“": '"', "”": '"',
+            "–": "-", "—": "-", "…": "..."})).replace("---", "-").replace("--", "-"))
+
+
 class Transport:
     def __init__(self, session, public_get=requests.get):
         self.session = session
@@ -403,15 +409,15 @@ class Transport:
                 "Published post or image mismatch")
         public = self.public(BASE + "/wp-json/wp/v2/posts/" + str(post_id)).json()
         require(public.get("status") == "publish" and public.get("featured_media") == image["id"] and
-                plain(public["title"]["rendered"]) == a["title"] and
-                plain(public["content"]["rendered"]) == plain(a["body"]) and
-                plain(public["excerpt"]["rendered"]) == a["excerpt"], "Public REST body mismatch")
+                public_text(public["title"]["rendered"]) == public_text(a["title"]) and
+                public_text(public["content"]["rendered"]) == public_text(a["body"]) and
+                public_text(public["excerpt"]["rendered"]) == public_text(a["excerpt"]), "Public REST body mismatch")
         require({s["url"] for s in a["sources"]} <= set(parsed(public["content"]["rendered"]).links),
                 "Public source links mismatch")
         link = post["link"]
         require(link.startswith(BASE + "/"), "Unexpected post origin")
         page = self.public(link).text
-        require(plain(a["title"]) in plain(page) and all(plain(p["text"]) in plain(page)
+        require(public_text(a["title"]) in public_text(page) and all(public_text(p["text"]) in public_text(page)
                 for p in a["paragraphs"]), "Public page body mismatch")
         page_data = parsed(page)
         require({s["url"] for s in a["sources"]} <= set(page_data.links), "Public page links mismatch")

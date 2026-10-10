@@ -283,3 +283,25 @@ def test_unknown_supported_status_also_scanned(package):
     with pytest.raises(rp.Guard, match="Source already"):
         t.run(a, apply=True)
     assert not b.writes
+
+
+def test_public_wordpress_typography_is_accepted_but_raw_article_remains_exact(package):
+    article, path, data = package
+    article["paragraphs"][0]["text"] = "Officials' reminder explains an account's safeguards."
+    path.write_text(json.dumps(article))
+    a, b, t = setup(package)
+    original = b.public
+    def texturized(url, **kwargs):
+        response = original(url, **kwargs)
+        if "wp-json" in url:
+            post = response.json()
+            post["content"]["rendered"] = post["content"]["rendered"].replace("'", "&#8217;")
+            return b.response(post)
+        if url == rp.BASE + "/reviewed/":
+            return b.response(content=response.content.replace(b"'", b"&#8217;"))
+        return response
+    t.public_get = texturized
+    assert t.run(a, apply=True)["verified"]
+    b.posts[0]["content"]["raw"] = b.posts[0]["content"]["raw"].replace("'", "’")
+    with pytest.raises(rp.Guard, match="Existing article changed"):
+        t.run(a, apply=True)
