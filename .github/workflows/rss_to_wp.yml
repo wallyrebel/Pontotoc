@@ -1,21 +1,16 @@
-name: RSS to WordPress Automation
+name: Legacy RSS inspection (manual dry run)
 
 on:
-  schedule:
-    # Run every 15 minutes
-    - cron: '*/15 * * * *'
-  
-  # Allow manual trigger
+  # Reviewed publishing replaces the former 15-minute automatic rewrite route.
   workflow_dispatch:
     inputs:
       dry_run:
-        description: 'Run in dry-run mode (no publishing)'
+        description: 'Legacy inspection only; publication uses reviewed intake'
         required: false
-        default: 'false'
+        default: 'true'
         type: choice
         options:
           - 'true'
-          - 'false'
       single_feed:
         description: 'Process only a specific feed (by name)'
         required: false
@@ -25,13 +20,17 @@ on:
 env:
   PYTHON_VERSION: '3.11'
 
-# Both publication routes share a site-wide lock; retain the existing schedule.
+# Keep legacy inspection serialized with the reviewed publication route.
 concurrency:
   group: pontotoc-wordpress-publication
   cancel-in-progress: false
 
 jobs:
   process-feeds:
+    if: >-
+      github.ref == 'refs/heads/main' &&
+      github.event_name == 'workflow_dispatch' &&
+      github.event.inputs.dry_run == 'true'
     runs-on: ubuntu-latest
     
     steps:
@@ -86,12 +85,8 @@ jobs:
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
           NOTIFICATION_EMAIL: ${{ secrets.NOTIFICATION_EMAIL }}
         run: |
-          ARGS="--config feeds.yaml"
-          
-          # Add dry-run flag if specified
-          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
-            ARGS="$ARGS --dry-run"
-          fi
+          # Legacy inspection always runs without WordPress publication.
+          ARGS="--config feeds.yaml --dry-run"
           
           # Add single-feed flag if specified
           if [ -n "${{ github.event.inputs.single_feed }}" ]; then
@@ -111,7 +106,7 @@ jobs:
         run: |
           echo "## RSS to WordPress Run Summary" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "- **Dry Run**: ${{ github.event.inputs.dry_run || 'false' }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Dry Run**: true (legacy publication retired)" >> $GITHUB_STEP_SUMMARY
           echo "- **Single Feed**: ${{ github.event.inputs.single_feed || 'All feeds' }}" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           

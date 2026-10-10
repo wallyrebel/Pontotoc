@@ -3,7 +3,8 @@
 This route transports an already researched and reviewed article to Pontotoc News.
 It does not fetch RSS to generate prose, call a language model, pick stock photos,
 or schedule editorial work. `feeds.yaml` remains the saved source inventory.
-The existing RSS schedule remains enabled pending a separately authorized cutover.
+The existing RSS automatic schedule is retired after the authorized cutover;
+its remaining manual inspection workflow is dry-run only.
 
 Jon's editorial plan is at least two useful articles daily, more when warranted,
 plus a nightly news scan and publication of items he explicitly sends to publish.
@@ -27,7 +28,8 @@ Use one article per request:
   safe failure classification. Uploaded as `reviewed-audit-<run_id>` for 90 days.
 
 The launch package `reviewed/articles/pepa-password-reminder-2026-10-10.json`
-is a complete example. Its corresponding request is deliberately **dry-run**.
+is a complete example. Its corresponding request is now **publish**, following
+the parent-reviewed launch and successful public verification.
 The adjacent `.html` contains exactly the generated article body for review.
 The PEPA source art was inspected as evidence only and is not included for reuse.
 `scripts/create_pepa_graphic.py` renders the original 1600×900 lock illustration
@@ -131,8 +133,8 @@ No connector writes or new GitHub tokens are needed.
 
 After the dry run and final article/image review, the authorized operator can
 change only the request's `mode` to `publish`, commit that request, and push main.
-The article digest must still match. For the current launch article this remains
-**pending parent approval**. Do not publish filler or test stories.
+The article digest must still match. The current launch article was explicitly
+approved by the parent and published successfully. Do not publish filler or test stories.
 
 ## Failure, recovery and verification
 
@@ -153,7 +155,7 @@ advertises inherit, private and trash. Errors,
 missing pagination evidence, changing collection counts, duplicate identities
 or conflicting source/events stop the run. No cache is the source of truth.
 The old RSS client's existing fail-open duplicate behavior is not used by this
-route; retiring it remains part of the pending cutover.
+route, and its workflow can no longer publish.
 
 A new item starts as a draft containing its exact reviewed body and markers.
 The media upload carries deterministic filename, slug and description in one
@@ -176,12 +178,28 @@ Official API basis: [post status collection schema](https://developer.wordpress.
 [posts](https://developer.wordpress.org/rest-api/reference/posts/) and
 [media](https://developer.wordpress.org/rest-api/reference/media/).
 
-## Conditional cutover — still pending
+## Completed launch and cutover
 
-The parent owns the three assistant schedules and the final end-to-end launch
-article. After replacement publication/public verification **and** those schedules
-are confirmed, wait for active old RSS runs to end. Only then, on the parent's
-explicit instruction, remove/disable just the old automatic RSS schedule. Preserve
-`feeds.yaml`, unrelated workflows and completed read-only correction verifiers.
-Never reactivate the post 5997 or post 5882 write paths. No cutover or assistant
-schedule creation is performed by this implementation.
+The parent confirmed the enabled assistant schedules for 9 a.m., 4 p.m. and
+7:30 p.m. America/Chicago, then authorized the conditional cutover after the
+first real article passed public verification. No assistant schedule was created
+by this repository task.
+
+On October 10, 2026, the approved PEPA article was published as post **6010** with
+featured media **6011**. The initial publication run timed out; the unchanged
+request resumed through deterministic reconciliation and returned `verified: true`
+in [Action 38069851928](https://github.com/wallyrebel/Pontotoc/actions/runs/38069851928).
+Its receipt artifact is `reviewed-audit-38069851928`. The article digest is
+`c7d375cd0ae702a0c7a7dc3446e3506014ccecbc558dd9bfccde11f887f324df`.
+The served image digest is
+`50e7376cf918e8c87b052a5cdf23b005c413e9f0a76eb0fa55fa9c9faee92cf4`.
+The live headline, seven paragraphs, full lock illustration, credit and both
+source links were also inspected in Chrome. [Live article](https://pontotocnews.com/pontotoc-news/pontotoc-reviewed-8f7432d95ed4486809f126f35492ce5ecc365f86b55098c6c4e1fee8927b01a4/).
+
+Before cutover, GitHub's active, queued, pending, waiting and requested run lists
+contained no legacy publisher runs. The old workflow's schedule trigger was
+removed. Its sole remaining trigger is manual dispatch on main with `dry_run`
+equal to `true`; the CLI command unconditionally includes `--dry-run`. This
+prevents automatic RSS generation and prevents legacy workflow publication.
+`feeds.yaml`, unrelated workflows and completed read-only correction verifiers
+remain unchanged. Never reactivate the post 5997 or post 5882 write paths.

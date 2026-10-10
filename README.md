@@ -2,8 +2,8 @@
 
 The new assistant-reviewed publication intake is documented in
 [REVIEWED_PUBLISHING.md](REVIEWED_PUBLISHING.md). It is separate from the legacy
-RSS rewriter described below; the old automatic schedule remains enabled pending
-the reviewed route's end-to-end verification and authorized cutover.
+RSS rewriter described below. The reviewed route passed end-to-end publication;
+the old automatic schedule is retired, and its manual workflow is dry-run only.
 
 Automated RSS feed monitoring, AI-powered article rewriting, and WordPress publishing.
 
@@ -117,7 +117,9 @@ feeds:
 
 ## GitHub Actions Setup
 
-The workflow runs every 15 minutes automatically.
+The former 15-minute schedule is retired. `Legacy RSS inspection (manual dry run)`
+can be dispatched on main for inspection only. Publishing uses the reviewed route
+and existing managed credentials described in `REVIEWED_PUBLISHING.md`.
 
 ### Required Secrets
 
@@ -135,9 +137,13 @@ Go to **Settings > Secrets and variables > Actions** and add:
 
 ### Manual Trigger
 
-You can manually trigger the workflow from the Actions tab with options for dry-run and single-feed.
+You can manually trigger legacy inspection from the Actions tab with `dry_run`
+set to `true` and an optional single feed. This workflow no longer offers publication.
 
 ## VPS/Cron Deployment
+
+Historical reference only: do not enable an RSS rewrite cron for Pontotoc.
+The active editorial schedules use the reviewed intake contract.
 
 ### Using Cron
 
