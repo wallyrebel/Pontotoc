@@ -23,6 +23,8 @@ TIMEOUT = (10, 40)
 CHECKS = {"dates", "locality", "identities", "statistics", "source_support",
           "coherent_prose", "no_invented_quotes_or_context", "public_facts_only",
           "no_allegations_or_private_sensitive_material", "image_rights"}
+SEO_CHECKS = {"meaningful_headline", "accurate_concise_description", "relevant_accessible_alt",
+              "descriptive_slug", "no_keyword_stuffing", "canonical_and_source_links"}
 
 
 class Guard(ValueError):
@@ -184,7 +186,9 @@ def load_article(path):
         image["extension"] = "jpg" if im.format == "JPEG" else "png"
         im.verify()
     a["article_id"] = sha("\n".join(sorted(a["event_keys"])).encode())
-    a["slug"] = "pontotoc-reviewed-" + a["article_id"]
+    # This legacy slug is a collision guard only. New public URLs come from v2 requests.
+    a["legacy_slug"] = "pontotoc-reviewed-" + a["article_id"]
+    a["public_slug"] = None
     # Content digest binds the immutable reviewed payload to its marker.
     a["payload_sha"] = sha(path.read_bytes())
     a["marker"] = "pontotoc-reviewed:" + a["article_id"] + ":" + a["payload_sha"]
@@ -198,15 +202,82 @@ def load_article(path):
     return a
 
 
+def bind_request(request):
+    """Routing/SEO review lives outside the immutable researched article bytes."""
+    version = request.get("schema_version")
+    expected = {"schema_version", "article_path", "article_sha256", "mode"}
+    if version == 2:
+        expected |= {"public_slug", "seo_review"}
+    fields(request, expected)
+    require(version in {1, 2} and request["mode"] in {"dry-run", "publish"}, "Invalid request mode")
+    path = scoped_path(request["article_path"], "reviewed/articles")
+    require(sha(path.read_bytes()) == request["article_sha256"], "Reviewed article digest mismatch")
+    a = load_article(path)
+    if version == 2:
+        slug = text(request["public_slug"], 80)
+        words = slug.split("-")
+        require(re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)+", slug) and
+                not slug.startswith("pontotoc-reviewed-") and not re.search(r"[a-f0-9]{16,}", slug) and
+                len([w for w in words if re.search(r"[a-z]", w)]) >= 2 and
+                len(set(words)) == len(words), "Public slug must be readable topic words")
+        review = request["seo_review"]
+        fields(review, {"reviewer", "reviewed_at", "checks"})
+        text(review["reviewer"], 100)
+        timestamp(review["reviewed_at"])
+        require(isinstance(review["checks"], dict) and set(review["checks"]) == SEO_CHECKS and
+                all(v is True for v in review["checks"].values()), "SEO review incomplete")
+        title = a["title"].strip()
+        description = a["excerpt"].strip()
+        alt = a["image"]["alt_text"].strip()
+        require(20 <= len(title) <= 120 and len(title.split()) >= 3 and title.lower() not in
+                {"breaking news update", "latest news update", "untitled news article"},
+                "Headline needs a meaningful concise subject")
+        require(30 <= len(description) <= 200 and "<" not in description,
+                "Description must be concise accurate plain prose")
+        require(12 <= len(alt) <= 250 and alt.lower() not in
+                {"featured image", "image of a photo", "a photo of the news"} and
+                alt.lower() != title.lower() and not re.search(r"https?://|\.(?:jpg|png)$", alt),
+                "Featured alt must describe the relevant image")
+        for value in (title, description, alt):
+            tokens = re.findall(r"[a-z0-9]+", value.lower())
+            require(not any(tokens[i:i + 3] == [tokens[i]] * 3 for i in range(len(tokens) - 2)),
+                    "Repeated keyword stuffing rejected")
+        # Semantic relevance remains the named reviewer's fact-supported judgment.
+        a["public_slug"] = slug
+        a["seo_reviewed"] = True
+    return a
+
+
 class Links(HTMLParser):
     def __init__(self):
         super().__init__()
         self.links = []
         self.images = []
         self.words = []
+        self.canonicals = []
+        self.descriptions = []
+        self.robots = []
+        self.title_words = []
+        self.headlines = []
+        self._head = False
+        self._title = False
+        self._h1 = None
 
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
+        if tag == "head":
+            self._head = True
+        if tag == "title" and self._head:
+            self._title = True
+        if tag == "h1":
+            self._h1 = []
+        if self._head and tag == "link" and "canonical" in attrs.get("rel", "").lower().split():
+            self.canonicals.append(attrs.get("href"))
+        if self._head and tag == "meta":
+            if attrs.get("name", "").lower() == "description":
+                self.descriptions.append(attrs.get("content", ""))
+            if attrs.get("name", "").lower() == "robots":
+                self.robots.append(attrs.get("content", ""))
         if tag == "a" and attrs.get("href"):
             self.links.append(attrs["href"])
         if tag == "img":
@@ -214,6 +285,19 @@ class Links(HTMLParser):
 
     def handle_data(self, data):
         self.words.append(data)
+        if self._title:
+            self.title_words.append(data)
+        if self._h1 is not None:
+            self._h1.append(data)
+
+    def handle_endtag(self, tag):
+        if tag == "head":
+            self._head = False
+        if tag == "title":
+            self._title = False
+        if tag == "h1" and self._h1 is not None:
+            self.headlines.append("".join(self._h1))
+            self._h1 = None
 
 
 def parsed(value):
@@ -303,9 +387,11 @@ class Transport:
         sources = {canonical(s["url"]) for s in a["sources"] if s["role"] == "event"}
         for p in posts:
             raw = p["content"]["raw"]
-            if p["slug"] == a["slug"] or "pontotoc-reviewed:" + a["article_id"] in raw:
+            if re.search(r"<!-- pontotoc-reviewed:" + re.escape(a["article_id"]) + r":[0-9a-f]{64} -->", raw):
                 own.append(p)
                 continue
+            require(p["slug"] not in {a["public_slug"], a["legacy_slug"]},
+                    "Public slug occupied by another post; no overwrite or suffix creation")
             require(not any("pontotoc-event:" + key + " -->" in raw for key in a["event_keys"]),
                     "Event already exists under another article identity")
             require(not sources.intersection(canonical(link) for link in parsed(raw).links),
@@ -313,7 +399,7 @@ class Transport:
         require(len(own) <= 1, "Ambiguous post identity")
         post = own[0] if own else None
         if post:
-            require(post["slug"] == a["slug"] and post["status"] in {"draft", "publish"} and
+            require(post["status"] in {"draft", "publish"} and
                     post["content"]["raw"] == a["body"] and
                     post.get("title", {}).get("raw") == a["title"] and
                     post.get("excerpt", {}).get("raw") == a["excerpt"] and not post.get("password"),
@@ -370,16 +456,28 @@ class Transport:
         result = {"article_id": a["article_id"], "payload_sha256": a["payload_sha"],
                   "read_only": not apply, "post_id": post["id"] if post else None,
                   "media_id": image["id"] if image else None}
+        slug_change = bool(post and a["public_slug"] and post["slug"] != a["public_slug"])
         if not apply:
             if image:
                 self.verify_media(a, image)
-            return {**result, "verified_preflight": True, "needs_post": post is None, "needs_media": image is None}
+            if post and post["status"] == "publish" and image:
+                self.verify(a, post["id"], image)
+            plan = self.slug_plan(a, post) if slug_change else None
+            return {**result, "verified_preflight": True, "needs_post": post is None,
+                    "needs_media": image is None, "requested_public_slug": a["public_slug"],
+                    "existing_public_slug": post["slug"] if post else None,
+                    "slug_change_required": slug_change,
+                    "url": post.get("link") if post else None, "slug_migration_plan": plan}
+        require(not slug_change, "Existing public slug differs; reviewed migration required before publication")
         if post is None:
-            post, _ = self.api("POST", "posts", json={"slug": a["slug"], "title": a["title"],
+            require(a["public_slug"] is not None and a.get("seo_reviewed"),
+                    "New publication requires version-2 readable slug and SEO review")
+            post, _ = self.api("POST", "posts", json={"slug": a["public_slug"], "title": a["title"],
                 "content": a["body"], "excerpt": a["excerpt"], "status": "draft"})
             # Reconcile a successful create through the same exhaustive lookup before further writes.
             post, image = self.preflight(a, self.collection("posts"), self.collection("media"))
             require(post is not None, "Created draft not found; stop and reconcile")
+            require(post["slug"] == a["public_slug"], "WordPress changed requested public slug; stop and reconcile")
         if image is None:
             image_slug = "pontotoc-reviewed-media-" + a["article_id"] + "-" + a["image"]["sha256"]
             data = scoped_path(a["image"]["path"], "reviewed/assets").read_bytes()
@@ -416,17 +514,66 @@ class Transport:
                 "Public source links mismatch")
         link = post["link"]
         require(link.startswith(BASE + "/"), "Unexpected post origin")
-        page = self.public(link).text
+        page_response = self.public(link)
+        require("noindex" not in page_response.headers.get("X-Robots-Tag", "").lower(),
+                "Public article response is marked noindex")
+        page = page_response.text
         require(public_text(a["title"]) in public_text(page) and all(public_text(p["text"]) in public_text(page)
                 for p in a["paragraphs"]), "Public page body mismatch")
         page_data = parsed(page)
+        self.verify_seo(a, post, page_data)
         require({s["url"] for s in a["sources"]} <= set(page_data.links), "Public page links mismatch")
-        require(any(im.get("src") == image["source_url"] or
-                    image["source_url"] in im.get("srcset", "") for im in page_data.images),
+        require(any((im.get("src") == image["source_url"] or
+                    image["source_url"] in im.get("srcset", "")) and
+                    im.get("alt") == a["image"]["alt_text"] for im in page_data.images),
                 "Featured image absent from public page")
         self.verify_media(a, image)
         self.check_links(a)
         return {"verified": True, "post_id": post_id, "media_id": image["id"], "url": link}
+
+    def verify_seo(self, a, post, page):
+        link = post["link"]
+        require(urlsplit(link).path.rstrip("/").split("/")[-1] == post["slug"],
+                "Public permalink does not match stored slug")
+        require(page.canonicals == [link], "Missing, conflicting or non-self canonical URL")
+        require(len(page.descriptions) == 1 and public_text(page.descriptions[0]) == public_text(a["excerpt"]),
+                "Rendered SEO description differs from reviewed excerpt")
+        require(public_text(a["title"]) in public_text("".join(page.title_words)) and
+                [public_text(h) for h in page.headlines] == [public_text(a["title"])],
+                "Public SEO title or main headline mismatch")
+        require(not any("noindex" in r.lower() for r in page.robots), "Public article is marked noindex")
+
+    def slug_plan(self, a, post):
+        """Read-only proposal. Ordinary publication never applies a slug migration."""
+        require(post["status"] == "publish" and post["featured_media"] > 0,
+                "Slug migration requires a verified published article")
+        old_url = post["link"]
+        require(old_url.startswith(BASE + "/") and old_url.endswith("/" + post["slug"] + "/"),
+                "Cannot derive bounded slug migration URL")
+        new_url = old_url[:-len(post["slug"]) - 1] + a["public_slug"] + "/"
+        response = self.public_get(new_url, timeout=TIMEOUT, allow_redirects=False)
+        require(response.status_code == 404, "Proposed public route occupied or unavailable to inspect")
+        # Hash public metadata to make a later reviewed migration detect unrelated drift.
+        preserved = {k: v for k, v in post.items() if k not in
+                     {"slug", "link", "guid", "modified", "modified_gmt"}}
+        return {"read_only": True, "post_id": post["id"], "media_id": post["featured_media"],
+                "old_url": old_url, "proposed_url": new_url, "target_http_status": 404,
+                "expected_old_slug": post["slug"], "expected_modified_gmt": post.get("modified_gmt"),
+                "preserved_metadata_sha256": sha(json.dumps(preserved, sort_keys=True).encode()),
+                "proposed_rest_method": "POST", "proposed_rest_path": "posts/" + str(post["id"]),
+                "proposed_rest_payload": {"slug": a["public_slug"]},
+                "approval_required_before_url_change": True, "old_slug_redirect_verified": False}
+
+    def verify_slug_redirect(self, a, post_id, image, old_url, new_url):
+        """Read-only post-migration check, for an explicitly approved future migration."""
+        require(old_url.startswith(BASE + "/") and new_url.startswith(BASE + "/") and old_url != new_url,
+                "Invalid bounded redirect check")
+        response = self.public_get(old_url, timeout=TIMEOUT, allow_redirects=False)
+        require(response.status_code == 301 and response.headers.get("Location") == new_url,
+                "Old permalink does not redirect permanently to reviewed URL")
+        receipt = self.verify(a, post_id, image)
+        require(receipt["url"] == new_url, "Redirect destination differs from verified permalink")
+        return {**receipt, "old_url": old_url, "old_slug_redirect_verified": True}
 
 
 def main():
@@ -441,12 +588,7 @@ def main():
         a = None
         if args.request:
             request = json.loads(scoped_path(args.request, "reviewed/requests").read_text())
-            fields(request, {"schema_version", "article_path", "article_sha256", "mode"})
-            require(request["schema_version"] == 1 and request["mode"] in {"dry-run", "publish"},
-                    "Invalid request mode")
-            path = scoped_path(request["article_path"], "reviewed/articles")
-            require(sha(path.read_bytes()) == request["article_sha256"], "Reviewed article digest mismatch")
-            a = load_article(path)
+            a = bind_request(request)
         if args.validate:
             require(a is not None, "Offline validation requires request")
             report = {"validated": True, "read_only": True, "article_id": a["article_id"]}

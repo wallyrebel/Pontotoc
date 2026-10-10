@@ -45,7 +45,10 @@ URLs, future verification timestamps, and mismatched image bytes are rejected.
 events (example: `ms:pontotoc:pepa:2026-10-08:password-reminder`). Keep the same keys
 when retrying. Each summary lists the events it covers. Never change an event key
 to bypass a duplicate guard. The article ID is SHA-256 of sorted event keys joined
-with newlines. The full ID supplies the post slug and immutable content marker.
+with newlines. The full ID supplies the immutable content marker, independently of the public
+URL. Version-2 requests provide a separate readable `public_slug`; never put the
+hash in a new public URL. Changing the request slug leaves the reviewed article
+bytes, digest, event identities and body markers unchanged.
 
 Every source has an ID, HTTPS URL, title, publisher, publication timestamp (or
 explicit `null` for undated material), verification timestamp, verification URL,
@@ -106,9 +109,15 @@ Create a request using Python rather than manually copying a digest:
 from pathlib import Path
 import hashlib, json
 article = Path('reviewed/articles/<name>.json')
-request = {'schema_version': 1, 'article_path': str(article),
+seo_checks = ['meaningful_headline', 'accurate_concise_description',
+              'relevant_accessible_alt', 'descriptive_slug',
+              'no_keyword_stuffing', 'canonical_and_source_links']
+# Set these true only after reviewing each condition against the evidence.
+request = {'schema_version': 2, 'article_path': str(article),
            'article_sha256': hashlib.sha256(article.read_bytes()).hexdigest(),
-           'mode': 'dry-run'}
+           'mode': 'dry-run', 'public_slug': '<readable-topic-words>',
+           'seo_review': {'reviewer': '<reviewer>', 'reviewed_at': '<past ISO timestamp>',
+                          'checks': {name: True for name in seo_checks}}}
 Path('reviewed/requests/<name>.json').write_text(json.dumps(request, indent=2) + '\n')
 ```
 
@@ -167,6 +176,13 @@ trashed or mismatched existing content is never overwritten or restored. Resolve
 the discrepancy through review instead of changing IDs. No automatic POST retry
 is performed within a failed run.
 
+Success also requires one self-canonical URL, a rendered meta description matching
+the reviewed excerpt, matching page title/main headline, displayed image alt text,
+and no `noindex` in the page or response header. No SEO plugin metadata or structured
+data is written. The existing PEPA page currently renders its excerpt as the meta
+description while its registered SEOPress title/description/canonical fields are
+empty. This proves the current fallback behavior, not future plugin-field writes.
+
 Success requires matching authenticated raw content, public REST title/body/
 excerpt, public page headline and every reported paragraph, all expected source
 links, displayed featured image and served image verification. A green Action
@@ -203,3 +219,46 @@ equal to `true`; the CLI command unconditionally includes `--dry-run`. This
 prevents automatic RSS generation and prevents legacy workflow publication.
 `feeds.yaml`, unrelated workflows and completed read-only correction verifiers
 remain unchanged. Never reactivate the post 5997 or post 5882 write paths.
+
+## SEO routing and existing URL migrations
+
+A version-2 transport request is required to create a new article. The immutable
+version-1 editorial package remains unchanged. Legacy version-1 requests may
+resume their existing article but cannot create another hash-based public URL.
+All-status lookup recognizes the exact internal marker across slug changes;
+multiple matching posts, a foreign post occupying the proposed slug, changed
+content, or lookup uncertainty stop publication. Ordinary publication never
+renames an existing article. A mismatch returns a read-only migration proposal
+in dry-run mode and blocks publish mode before writes.
+
+Review headline, description, slug and alt text for accuracy, relevance and
+natural wording. Local intake bounds are: headline 20–120 characters with at
+least three words, description 30–200 plain-text characters, alt text 12–250
+characters, and a lowercase hyphenated slug up to 80 characters with at least two
+word tokens. Generic headlines/alt text, hash slugs, repeated slug tokens and
+three consecutive repeated words are rejected. These are repository safeguards,
+not claims about Google's fixed display limits. Software cannot judge relevance
+or stuffing reliably; the six named SEO attestations require editorial review.
+Keep the original primary source links and add no invented schema or keywords.
+
+For an existing post, the migration preflight first verifies its live body, image,
+links and SEO rendering, performs exhaustive collision checks, and requires the
+proposed public route to return 404 without following redirects. It records the
+post/media IDs, current modified time, metadata fingerprint, old/new URL and
+minimal proposed REST payload. It does not change WordPress. After the parent
+approves a concrete migration, a bounded update must change only that post's
+slug, through the same managed Action and shared concurrency lock. Reconcile
+unknown outcomes using markers and the same IDs before considering another write.
+
+`scripts/reviewed_publish.py` provides the read-only
+`Transport.verify_slug_redirect(...)` check for that eventual migration: the old
+URL must return exactly 301 with Location equal to the reviewed new URL, then
+full public verification must pass at the new self-canonical permalink with the
+same post/media IDs. Unit tests reject 302, 404, loops and foreign destinations.
+Actual old-slug redirect behavior remains unverified until an approved rename;
+never infer it from a green Action or from WordPress core documentation alone.
+
+The concrete PEPA proposal is [PEPA_SLUG_MIGRATION.md](PEPA_SLUG_MIGRATION.md).
+Its request is `reviewed/requests/pepa-slug-preflight-2026-10-10.json`, mode
+`dry-run`. Do not change it to publish to attempt a migration: the route blocks
+that operation. Keep the original approved publish request and article intact.

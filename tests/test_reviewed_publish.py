@@ -3,6 +3,7 @@ import copy
 import importlib.util
 import io
 import json
+import html
 from pathlib import Path
 from types import SimpleNamespace
 
@@ -82,7 +83,8 @@ class Backend:
         self.writes.append((kind, copy.deepcopy(kwargs.get("json", kwargs.get("data")))))
         if kind == "posts":
             value = kwargs["json"]
-            result = {**value, "id": 10, "featured_media": 0, "link": rp.BASE + "/reviewed/", "password": ""}
+            result = {**value, "id": 10, "featured_media": 0,
+                      "link": rp.BASE + "/pontotoc-news/" + value["slug"] + "/", "password": ""}
             for field in ("title", "content", "excerpt"):
                 result[field] = {"raw": value[field], "rendered": value[field]}
             self.posts.append(result)
@@ -110,19 +112,31 @@ class Backend:
             if self.public_bad == "body":
                 post["content"]["rendered"] = "Wrong public body"
             return self.response(post)
-        if url == rp.BASE + "/reviewed/":
+        if self.posts and url == self.posts[0]["link"]:
             post = self.posts[0]
-            body = post["title"]["raw"] + post["content"]["raw"]
+            body = '<head><title>' + html.escape(post["title"]["raw"]) + ' - Pontotoc News</title>'
+            body += '<link rel="canonical" href="' + post["link"] + '">'
+            body += '<meta name="description" content="' + html.escape(post["excerpt"]["raw"], quote=True) + '"></head>'
+            body += '<h1>' + post["title"]["raw"] + '</h1>' + post["content"]["raw"]
             if self.public_bad != "image":
-                body += '<img src="' + self.media[0]["source_url"] + '">'
+                body += '<img src="' + self.media[0]["source_url"] + '" alt="' + html.escape(self.media[0]["alt_text"], quote=True) + '">'
             return self.response(content=body.encode())
+        if url.startswith(rp.BASE + "/pontotoc-news/"):
+            return self.response(status=404)
         return self.response(content=b"Verified public source")
 
 
 def setup(package):
-    a = rp.load_article(package[1])
+    a = rp.bind_request(seo_request(package))
     backend = Backend(package[2])
     return a, backend, rp.Transport(backend, backend.public)
+
+
+def seo_request(package, slug="reviewed-public-reminder"):
+    return {"schema_version": 2, "article_path": "reviewed/articles/example.json",
+            "article_sha256": rp.sha(package[1].read_bytes()), "mode": "dry-run", "public_slug": slug,
+            "seo_review": {"reviewer": "Test SEO reviewer", "reviewed_at": "2026-10-09T12:00:00Z",
+                           "checks": {k: True for k in rp.SEO_CHECKS}}}
 
 
 def test_success_and_repeat_are_idempotent(package):
@@ -297,7 +311,7 @@ def test_public_wordpress_typography_is_accepted_but_raw_article_remains_exact(p
             post = response.json()
             post["content"]["rendered"] = post["content"]["rendered"].replace("&#x27;", "&#8217;")
             return b.response(post)
-        if url == rp.BASE + "/reviewed/":
+        if b.posts and url == b.posts[0]["link"]:
             return b.response(content=response.content.replace(b"&#x27;", b"&#8217;"))
         return response
     t.public_get = texturized
@@ -305,3 +319,191 @@ def test_public_wordpress_typography_is_accepted_but_raw_article_remains_exact(p
     b.posts[0]["content"]["raw"] = b.posts[0]["content"]["raw"].replace("&#x27;", "’")
     with pytest.raises(rp.Guard, match="Existing article changed"):
         t.run(a, apply=True)
+
+
+def rename_post(backend, slug):
+    backend.posts[0]["slug"] = slug
+    backend.posts[0]["link"] = rp.BASE + "/pontotoc-news/" + slug + "/"
+
+
+def test_readable_slug_separate_from_content_identity(package):
+    a = rp.bind_request(seo_request(package, "public-reminder-guidance"))
+    b = rp.bind_request(seo_request(package, "pontotoc-reminder-tips"))
+    assert a["public_slug"] != b["public_slug"]
+    assert a["article_id"] == b["article_id"] and a["marker"] == b["marker"] and a["body"] == b["body"]
+    assert a["payload_sha"] == b["payload_sha"]
+
+
+def test_existing_changed_slug_is_found_and_never_recreated_or_silently_migrated(package):
+    a, b, t = setup(package)
+    t.run(a, apply=True)
+    rename_post(b, "pontotoc-new-readable-name")
+    b.writes.clear()
+    report = t.run(a, apply=False)
+    assert report["post_id"] == 10 and report["slug_change_required"] and not report["needs_post"]
+    with pytest.raises(rp.Guard, match="reviewed migration required"):
+        t.run(a, apply=True)
+    assert not b.writes
+    changed = rp.bind_request(seo_request(package, "pontotoc-new-readable-name"))
+    assert t.run(changed, apply=True)["post_id"] == 10
+    assert not b.writes and len(b.posts) == len(b.media) == 1
+
+
+def test_legacy_request_resumes_existing_renamed_post_but_cannot_create(package):
+    legacy = rp.load_article(package[1])
+    backend = Backend(package[2])
+    t = rp.Transport(backend, backend.public)
+    with pytest.raises(rp.Guard, match="version-2"):
+        t.run(legacy, apply=True)
+    assert not backend.writes
+    t.run(rp.bind_request(seo_request(package)), apply=True)
+    rename_post(backend, "another-readable-public-name")
+    backend.writes.clear()
+    assert t.run(legacy, apply=True)["post_id"] == 10
+    assert not backend.writes
+
+
+@pytest.mark.parametrize("status", STATUSES[:-1])
+def test_slug_collision_all_statuses_fails_closed(package, status):
+    a, b, t = setup(package)
+    b.posts.append({"id": 99, "status": status, "slug": a["public_slug"], "content": {"raw": "Unrelated post"}})
+    with pytest.raises(rp.Guard, match="slug occupied"):
+        t.run(a, apply=True)
+    assert not b.writes
+
+
+def test_duplicate_internal_marker_across_two_public_slugs_rejected(package):
+    a, b, t = setup(package)
+    t.run(a, apply=True)
+    duplicate = copy.deepcopy(b.posts[0]); duplicate.update(id=99, slug="another-readable-slug")
+    b.posts.append(duplicate); b.writes.clear()
+    with pytest.raises(rp.Guard, match="Ambiguous post identity"):
+        t.run(a, apply=True)
+    assert not b.writes
+
+
+@pytest.mark.parametrize("slug", ["pontotoc-reviewed-" + "a" * 64, "6010", "pepa_pepa_passwords",
+                                  "password-password-tips", "News-Update", "x-" + "f" * 64])
+def test_invalid_seo_slug_rejected(package, slug):
+    with pytest.raises(rp.Guard):
+        rp.bind_request(seo_request(package, slug))
+
+
+@pytest.mark.parametrize("field,value", [("title", "Latest news update"), ("excerpt", "Too short"),
+                                       ("title", "password password password news"),
+                                       ("alt_text", "Featured image")])
+def test_seo_content_checks_reject_poor_fields(package, field, value):
+    article, path, _ = package
+    if field == "alt_text":
+        article["image"][field] = value
+    else:
+        article[field] = value
+    path.write_text(json.dumps(article))
+    with pytest.raises(rp.Guard):
+        rp.bind_request(seo_request(package))
+
+
+def test_incomplete_seo_review_rejected(package):
+    request = seo_request(package)
+    request["seo_review"]["checks"]["accurate_concise_description"] = False
+    with pytest.raises(rp.Guard, match="SEO review incomplete"):
+        rp.bind_request(request)
+
+
+@pytest.mark.parametrize("failure", ["canonical", "duplicate_canonical", "description", "title", "h1", "noindex", "alt"])
+def test_rendered_seo_checks_fail_closed(package, failure):
+    a, b, t = setup(package)
+    t.run(a, apply=True)
+    original = b.public
+    def broken(url, **kwargs):
+        response = original(url, **kwargs)
+        if url == b.posts[0]["link"]:
+            body = response.text
+            if failure == "canonical":
+                body = body.replace('rel="canonical"', 'rel="other"')
+            elif failure == "duplicate_canonical":
+                body = body.replace('</head>', '<link rel="canonical" href="https://wrong.example/"></head>')
+            elif failure == "description":
+                body = body.replace('name="description"', 'name="other"')
+            elif failure == "title":
+                body = body.replace('<title>', '<title>Wrong title<!--').replace('</title>', '--></title>')
+            elif failure == "h1":
+                body = body.replace('<h1>', '<h2>').replace('</h1>', '</h2>')
+            elif failure == "noindex":
+                body = body.replace('</head>', '<meta name="robots" content="noindex"></head>')
+            else:
+                body = body.replace(' alt="', ' data-alt="')
+            return b.response(content=body.encode())
+        return response
+    t.public_get = broken
+    b.writes.clear()
+    with pytest.raises(rp.Guard):
+        t.run(a, apply=True)
+    assert not b.writes
+
+
+def test_slug_plan_is_read_only_and_minimal(package):
+    a, b, t = setup(package)
+    t.run(a, apply=True)
+    original_marker = b.posts[0]['content']['raw']
+    rename_post(b, 'old-human-readable-url')
+    b.writes.clear()
+    plan = t.run(a, apply=False)['slug_migration_plan']
+    assert plan['proposed_rest_path'] == 'posts/10'
+    assert plan['proposed_rest_payload'] == {'slug': 'reviewed-public-reminder'}
+    assert plan['target_http_status'] == 404 and plan['approval_required_before_url_change']
+    assert not plan['old_slug_redirect_verified'] and not b.writes
+    assert b.posts[0]['content']['raw'] == original_marker
+
+
+@pytest.mark.parametrize('status', [200, 301, 403, 500])
+def test_slug_plan_fails_closed_when_target_not_free(package, status):
+    a, b, t = setup(package)
+    t.run(a, apply=True)
+    rename_post(b, 'old-human-readable-url')
+    b.writes.clear()
+    original = t.public_get
+    t.public_get = lambda u, **kw: b.response(status=status) if u.endswith('/reviewed-public-reminder/') else original(u, **kw)
+    with pytest.raises(rp.Guard, match='Proposed public route'):
+        t.run(a, apply=False)
+    assert not b.writes
+
+
+@pytest.mark.parametrize('status,location,success', [
+    (301, 'new', True), (302, 'new', False), (404, None, False),
+    (301, 'old', False), (301, 'foreign', False)])
+def test_post_migration_redirect_verifier(package, status, location, success):
+    a, b, t = setup(package)
+    t.run(a, apply=True)
+    old = b.posts[0]['link']
+    rename_post(b, 'new-readable-public-url')
+    new = b.posts[0]['link']
+    dest = {'new': new, 'old': old, 'foreign': 'https://foreign.example/'}
+    original = t.public_get
+    def get(u, **kw):
+        assert kw['allow_redirects'] is False
+        return b.response(status=status, headers={'Location': dest.get(location)}) if u == old else original(u, **kw)
+    t.public_get = get
+    b.writes.clear()
+    if success:
+        assert t.verify_slug_redirect(a, 10, b.media[0], old, new)['old_slug_redirect_verified']
+    else:
+        with pytest.raises(rp.Guard, match='Old permalink'):
+            t.verify_slug_redirect(a, 10, b.media[0], old, new)
+    assert not b.writes
+
+
+def test_public_header_noindex_rejected(package):
+    a, b, t = setup(package)
+    t.run(a, apply=True)
+    original = t.public_get
+    def get(u, **kw):
+        response = original(u, **kw)
+        if u == b.posts[0]['link']:
+            response.headers['X-Robots-Tag'] = 'noindex'
+        return response
+    t.public_get = get
+    b.writes.clear()
+    with pytest.raises(rp.Guard, match='response is marked noindex'):
+        t.run(a, apply=True)
+    assert not b.writes
