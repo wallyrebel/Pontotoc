@@ -107,3 +107,9 @@ article publishing route and assistant schedule remain unchanged.
 Primary references for the normal menu save behavior:
 [WordPress menu REST update](https://developer.wordpress.org/reference/classes/wp_rest_menus_controller/update_item/)
 and [WP Rocket automatic cache clearing](https://docs.wp-rocket.me/article/78-how-often-is-the-cache-updated).
+
+Retirement deployed at `7ad115ac6b8f2b8d248a64ba125e741e722bdc9d`.
+Action **38082979352** passed all 127 tests and authenticated/public verification
+with `verified: true`, `read_only: true`, `mutation_path_retired: true`. Its exact
+receipt is `reviewed/receipts/site-pages-retirement-2026-10-10.json`. The production
+route contains no page, author or navigation mutation methods.
