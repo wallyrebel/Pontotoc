@@ -18,7 +18,8 @@
   },
   "all_status_page_count": 3,
   "all_status_menu_item_count": 23,
-  "all_menu_items_snapshot_sha256": "0b11aaa73e3aa4a846d97ae947d60253e9602ce4acc349b6ef2e0c95ad46080f",
+  "record_hash_contract": "raw-edit-v1",
+  "all_menu_items_snapshot_sha256": "d710612fe8e42bf1876bcb0f92e024a71828e4707015be99c5274862831c2e8f",
   "all_existing_menu_item_ids": [
     9,
     22,
@@ -44,7 +45,7 @@
     97,
     98
   ],
-  "page_snapshot_sha256": "4bfcc7f708d3fab418408dc2c74a57c809810eec093374d6cef522837dea4e9f",
+  "page_snapshot_sha256": "848ce314dbff3c99bb05e4bf881276978e2cf046dac3aad4033d4a79edce12de",
   "existing_page_candidates": {
     "about": [],
     "biography": [],
@@ -62,13 +63,13 @@
       "id": 12,
       "status": "publish",
       "slug": "advertise",
-      "record_sha256": "a7165b129ed247aeba17677e6caf3f500d2c70fa18fc2d842f3008e2b62b1f77"
+      "record_sha256": "7c4f0e5832307069269e671f177950154c7c2e81ee621ff3e209797aeaa60605"
     },
     {
       "id": 16,
       "status": "publish",
       "slug": "contact-us",
-      "record_sha256": "82e84053b7de6518544ea356f24aebc2a5889257265a7e1180d101aaa6f501d9"
+      "record_sha256": "ebd8aef2f7c406774e875ea9e3b4845186617595e4251179066b926eae0f3598"
     }
   ],
   "planned_pages": [

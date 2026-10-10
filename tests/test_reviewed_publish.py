@@ -878,3 +878,13 @@ def test_site_transport_rejects_unapproved_direct_writes(site_module,site_publis
         with pytest.raises(rp.Guard):p.write(endpoint,payload)
     with pytest.raises(rp.Guard):p.api('POST','pages',json=p.create_payload(p.package['pages'][0]))
     assert not b.writes
+
+
+def test_site_preservation_hash_ignores_only_regenerated_view_with_raw_copy(site_module):
+    first={'id':16,'content':{'raw':'[gravityform id="1"]','rendered':'<form>Nonce A</form>'},'meta':{'policy':'protected'}}
+    second=copy.deepcopy(first);second['content']['rendered']='<form>Nonce B</form>'
+    assert site_module.records_digest([first])==site_module.records_digest([second])
+    second['content']['raw']='Changed stored body'
+    assert site_module.records_digest([first])!=site_module.records_digest([second])
+    second=copy.deepcopy(first);second['meta']['policy']='Changed metadata'
+    assert site_module.records_digest([first])!=site_module.records_digest([second])
