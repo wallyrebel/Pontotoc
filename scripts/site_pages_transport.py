@@ -31,7 +31,7 @@ def digest(record):
 def menu_ids(item):
     values = item.get('menus')
     if isinstance(values, int):
-        values = [values]
+        values = [values] if values else []
     rp.require(isinstance(values, list) and all(isinstance(v, int) and v > 0 for v in values),
                'Incomplete menu ownership evidence')
     return set(values)

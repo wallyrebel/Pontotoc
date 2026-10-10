@@ -678,7 +678,7 @@ class SiteBackend(Backend):
         super().__init__(b'');self.calls=[];self.bad_kind=None
         self.pages=[{'id':16,'status':'publish','slug':'contact-us','title':{'raw':'Contact Us'},
                      'content':{'raw':'PRIVATE_EXISTING_BODY'},'link':rp.BASE+'/contact-us/'}]
-        self.items=[{'id':41,'status':'publish','title':{'raw':'Home'},'menus':[7],'parent':0,
+        self.items=[{'id':41,'status':'publish','title':{'raw':'Home'},'menus':7,'parent':0,
                      'menu_order':1,'url':rp.BASE+'/','type':'custom','object':'custom','object_id':41}]
         self.site=site
     def request(self,method,u,**kw):
@@ -737,3 +737,10 @@ def test_site_preflight_virtual_route_collision_blocks_creation_plan(site_module
     b.public=lambda *a,**kw:b.response(status=200)
     r=site_module.Preflight(b,b.public).run()
     assert not r['ready_for_copy_review'] and not any(p['unoccupied_route'] for p in r['planned_pages'])
+
+
+def test_site_preflight_keeps_legitimate_unassigned_menu_item(site_module):
+    b=SiteBackend(site_module)
+    b.items.append({'id':99,'status':'auto-draft','menus':0})
+    r=site_module.Preflight(b,b.public).run()
+    assert r['all_status_menu_item_count']==2 and r['primary_navigation']['menu_item_count']==1

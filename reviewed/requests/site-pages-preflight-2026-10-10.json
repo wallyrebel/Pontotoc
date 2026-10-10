@@ -1,29 +1,29 @@
 {
-  "schema_version": 1,
+  "copy_path": "reviewed/site-pages/site-pages-2026-10-10.json",
+  "copy_review": "parent-approved-exact-copy",
+  "copy_sha256": "a9d53b76b05ba1b734eea0774ad581be729757e0bf92d9d4ea8e227708156adc",
   "operation": "preflight-site-pages",
   "planned_pages": [
     {
       "key": "about",
-      "title": "About Pontotoc News",
-      "slug": "about"
+      "slug": "about",
+      "title": "About Pontotoc News"
     },
     {
       "key": "biography",
-      "title": "Jon Myers",
-      "slug": "jon-myers"
+      "slug": "jon-myers",
+      "title": "Jon Myers"
     },
     {
       "key": "editorial",
-      "title": "Editorial Standards",
-      "slug": "editorial-standards"
+      "slug": "editorial-standards",
+      "title": "Editorial Standards"
     },
     {
       "key": "corrections",
-      "title": "Corrections Policy",
-      "slug": "corrections-policy"
+      "slug": "corrections-policy",
+      "title": "Corrections Policy"
     }
   ],
-  "copy_review": "parent-approved-exact-copy",
-  "copy_path": "reviewed/site-pages/site-pages-2026-10-10.json",
-  "copy_sha256": "a9d53b76b05ba1b734eea0774ad581be729757e0bf92d9d4ea8e227708156adc"
+  "schema_version": 1
 }
