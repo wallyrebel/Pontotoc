@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "operation": "migrate-pepa-slug",
+  "authorization": "Parent approved bounded PEPA SEO slug correction on 2026-10-10",
+  "intake_request": {
+    "schema_version": 2,
+    "article_path": "reviewed/articles/pepa-password-reminder-2026-10-10.json",
+    "article_sha256": "c7d375cd0ae702a0c7a7dc3446e3506014ccecbc558dd9bfccde11f887f324df",
+    "mode": "dry-run",
+    "public_slug": "pepa-password-security-tips",
+    "seo_review": {
+      "reviewer": "Codex: bounded PEPA SEO review",
+      "reviewed_at": "2026-10-10T17:30:00Z",
+      "checks": {
+        "accurate_concise_description": true,
+        "canonical_and_source_links": true,
+        "descriptive_slug": true,
+        "meaningful_headline": true,
+        "no_keyword_stuffing": true,
+        "relevant_accessible_alt": true
+      }
+    }
+  },
+  "expected": {
+    "post_id": 6010,
+    "media_id": 6011,
+    "old_slug": "pontotoc-reviewed-8f7432d95ed4486809f126f35492ce5ecc365f86b55098c6c4e1fee8927b01a4",
+    "old_url": "https://pontotocnews.com/pontotoc-news/pontotoc-reviewed-8f7432d95ed4486809f126f35492ce5ecc365f86b55098c6c4e1fee8927b01a4/",
+    "new_url": "https://pontotocnews.com/pontotoc-news/pepa-password-security-tips/",
+    "modified_gmt": "2026-10-10T17:00:41",
+    "preserved_metadata_sha256": "67fc4ae337f33dfec06090c291b3613042f8d692eb3fcca8011668bf4d27e84c",
+    "guid_rendered": "https://pontotocnews.com/?p=6010",
+    "served_image_sha256": "50e7376cf918e8c87b052a5cdf23b005c413e9f0a76eb0fa55fa9c9faee92cf4"
+  }
+}

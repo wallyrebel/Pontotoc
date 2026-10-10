@@ -33,6 +33,8 @@ def main():
         if len(requests) > 1:
             raise ValueError("One reviewed article request per push; dispatch individually")
         args = ["--request", requests[0]] if requests else ["--probe"]
+    if args == ['--request', 'reviewed/requests/pepa-slug-migration-2026-10-10.json']:
+        return subprocess.call([sys.executable, str(ROOT / 'scripts/pepa_slug_migration.py')], cwd=ROOT)
     return subprocess.call([sys.executable, str(ROOT / "scripts/reviewed_publish.py"), *args], cwd=ROOT)
 
 

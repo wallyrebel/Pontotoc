@@ -507,3 +507,91 @@ def test_public_header_noindex_rejected(package):
     with pytest.raises(rp.Guard, match='response is marked noindex'):
         t.run(a, apply=True)
     assert not b.writes
+
+
+@pytest.fixture
+def migration(package):
+    import sys
+    sys.modules['reviewed_publish'] = rp
+    spec = importlib.util.spec_from_file_location('pepa_migration', MODULE.with_name('pepa_slug_migration.py'))
+    migration = importlib.util.module_from_spec(spec); spec.loader.exec_module(migration)
+    a, b, t = setup(package)
+    t.run(a, apply=True)
+    post = b.posts[0]
+    post['guid'] = {'rendered': rp.BASE + '/?p=10'}
+    post['modified_gmt'] = '2026-10-10T17:00:41'
+    old_slug, old_url = post['slug'], post['link']
+    new_slug = 'new-readable-public-url'
+    a = rp.bind_request(seo_request(package, new_slug))
+    expected = {'post_id':10,'media_id':20,'old_slug':old_slug,'old_url':old_url,
+                'new_url':rp.BASE+'/pontotoc-news/'+new_slug+'/',
+                'modified_gmt':post['modified_gmt'],'preserved_metadata_sha256':migration.preserved(post),
+                'guid_rendered':post['guid']['rendered'],'served_image_sha256':rp.sha(package[2])}
+    original_request = b.request
+    def request(method, u, **kw):
+        response = original_request(method, u, **kw)
+        if method == 'POST' and kw.get('json') == {'slug':new_slug}:
+            rename_post(b,new_slug)
+        return response
+    b.request = request
+    original_public = t.public_get
+    t.public_get = lambda u, **kw: b.response(status=301,headers={'Location':expected['new_url']}) if u==old_url and b.posts[0]['slug']==new_slug else original_public(u,**kw)
+    b.writes.clear()
+    return migration,a,b,t,expected
+
+
+def test_one_shot_slug_only_and_retry_no_writes(migration):
+    m,a,b,t,e=migration
+    assert m.migrate(t,a,e)['preserved_metadata_verified']
+    assert b.writes==[('posts/10',{'slug':'new-readable-public-url'})]
+    b.writes.clear()
+    assert m.migrate(t,a,e)['old_slug_redirect_verified'] and not b.writes
+
+
+@pytest.mark.parametrize('field', ['author','date','guid','modified_gmt','content'])
+def test_migration_drift_stops_before_write(migration,field):
+    m,a,b,t,e=migration
+    b.posts[0][field] = {'rendered':'Changed','raw':'Changed'} if field in {'guid','content'} else 'Changed'
+    with pytest.raises(rp.Guard):
+        m.migrate(t,a,e)
+    assert not b.writes
+
+
+def test_migration_preservation_failure_stops_after_single_write(migration):
+    m,a,b,t,e=migration
+    original=b.request
+    def request(method,u,**kw):
+        response=original(method,u,**kw)
+        if method=='POST':
+            b.posts[0]['author']=999
+        return response
+    b.request=request
+    with pytest.raises(rp.Guard,match='preserved post or media metadata'):
+        m.migrate(t,a,e)
+    assert len(b.writes)==1
+
+
+def test_migration_bad_redirect_stops_after_single_write(migration):
+    m,a,b,t,e=migration
+    original=t.public_get
+    t.public_get=lambda u,**kw:b.response(status=404) if u==e['old_url'] and b.posts[0]['slug']==a['public_slug'] else original(u,**kw)
+    with pytest.raises(rp.Guard,match='Old permalink'):
+        m.migrate(t,a,e)
+    assert len(b.writes)==1
+
+
+def test_migration_unknown_outcome_resumes_same_post(migration):
+    m,a,b,t,e=migration
+    original=b.request
+    first=True
+    def request(method,u,**kw):
+        nonlocal first
+        response=original(method,u,**kw)
+        if method=='POST' and first:
+            first=False
+            raise requests.Timeout('unknown migration outcome')
+        return response
+    b.request=request
+    with pytest.raises(requests.Timeout):
+        m.migrate(t,a,e)
+    assert m.migrate(t,a,e)['verified'] and len(b.writes)==1 and len(b.posts)==len(b.media)==1
