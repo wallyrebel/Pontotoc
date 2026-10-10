@@ -30,6 +30,10 @@ APPLY_AUTHORIZED = False  # Change only after final parent payload/publication a
 CHANGED = {'title', 'content', 'excerpt', 'featured_media', 'modified', 'modified_gmt', '_links', 'class_list'}
 
 
+class CheckFailed(ValueError):
+    """Only fixed local guard messages are safe to include in diagnostics."""
+
+
 def digest(data):
     return hashlib.sha256(data).hexdigest()
 
@@ -44,7 +48,7 @@ def json_request(method, path, **kwargs):
                       timeout=TIMEOUT, allow_redirects=False, **kwargs)
     response.raise_for_status()
     if response.status_code not in {200, 201}:
-        raise ValueError('Unexpected REST status')
+        raise CheckFailed('Unexpected REST status')
     return response.json()
 
 
@@ -63,7 +67,7 @@ def projection(value):
 def same_metadata(before, after):
     for field, value in before.items():
         if field not in CHANGED and after.get(field) != value:
-            raise ValueError('Unrelated field changed: ' + field)
+            raise CheckFailed('Unrelated field changed: ' + field)
 
 
 def initial(post):
@@ -71,9 +75,9 @@ def initial(post):
     current = projection(post)
     for field, value in EXPECTED.items():
         if field != '_links' and current.get(field) != value:
-            raise ValueError('Before-state changed: ' + field)
+            raise CheckFailed('Before-state changed: ' + field)
     if not all(isinstance(post.get(f, {}).get('raw'), str) for f in ('title', 'content', 'excerpt')):
-        raise ValueError('Missing authenticated raw content')
+        raise CheckFailed('Missing authenticated raw content')
 
 
 def corrected(post, media_id):
@@ -86,7 +90,7 @@ def corrected(post, media_id):
 def image_bytes():
     data = IMAGE.read_bytes()
     if digest(data) != IMAGE_SHA:
-        raise ValueError('Image digest changed')
+        raise CheckFailed('Image digest changed')
     return data
 
 
@@ -95,12 +99,12 @@ def media_bytes(public_get, media):
     parsed = urlsplit(url)
     if (parsed.scheme != 'https' or parsed.netloc != 'pontotocnews.com' or
             not parsed.path.startswith('/wp-content/uploads/') or parsed.query or parsed.fragment):
-        raise ValueError('Unexpected media origin')
+        raise CheckFailed('Unexpected media origin')
     # Public byte reads never carry managed credentials.
     response = public_get(url, timeout=TIMEOUT, allow_redirects=False)
     response.raise_for_status()
     if response.status_code != 200:
-        raise ValueError('Unexpected media read status')
+        raise CheckFailed('Unexpected media read status')
     return response.content
 
 
@@ -119,11 +123,11 @@ def reconcile_media(session, public_get=requests.get):
                                timeout=TIMEOUT, allow_redirects=False)
         response.raise_for_status()
         if response.status_code != 200:
-            raise ValueError('Media listing failed')
+            raise CheckFailed('Media listing failed')
         items = response.json()
         pages = int(response.headers['X-WP-TotalPages'])
         if pages > 100:
-            raise ValueError('Media inventory exceeds bounded review')
+            raise CheckFailed('Media inventory exceeds bounded review')
         for item in items:
             details = item.get('media_details', {})
             candidate = (item.get('mime_type') == 'image/jpeg' and
@@ -132,14 +136,14 @@ def reconcile_media(session, public_get=requests.get):
             if candidate or named:
                 exact = digest(media_bytes(public_get, item)) == IMAGE_SHA
                 if named and not exact:
-                    raise ValueError('Correction media name collision')
+                    raise CheckFailed('Correction media name collision')
                 if exact:
                     matches.append(item)
         if page >= pages:
             break
         page += 1
     if len(matches) > 1:
-        raise ValueError('Multiple existing copies of supplied image')
+        raise CheckFailed('Multiple existing copies of supplied image')
     return matches[0] if matches else None
 
 
@@ -149,16 +153,21 @@ def payload(media_id):
 
 def prepare(base, session, public_get=requests.get):
     if base.rstrip('/') != BASE:
-        raise ValueError('Unexpected WordPress site')
+        raise CheckFailed('Unexpected WordPress site')
     image_bytes()
     before = read(session)
+    save('before.json', before)
+    print(json.dumps({'before_summary': {k: before.get(k) for k in
+          ('id', 'date', 'date_gmt', 'modified', 'modified_gmt', 'slug', 'status', 'featured_media')}}))
     media = reconcile_media(session, public_get)
     media_id = media['id'] if media else None
+    save('media-reconciliation.json', {'matching_media': media, 'old_featured_media': before['featured_media']})
+    print(json.dumps({'media_summary': {'matching_media_id': media_id,
+          'matching_media_slug': media.get('slug') if media else None,
+          'matching_media_alt': media.get('alt_text') if media else None}}))
     same_metadata(EXPECTED, projection(before))
     if not corrected(before, media_id):
         initial(before)
-    save('before.json', before)
-    save('media-reconciliation.json', {'matching_media': media, 'old_featured_media': before['featured_media']})
     result = {'post_id': POST_ID, 'url': EXPECTED['link'], 'read_only': True,
               'already_corrected': corrected(before, media_id),
               'payload': payload(media_id), 'image_sha256': IMAGE_SHA,
@@ -171,22 +180,22 @@ def verify(before, session, media_id, public_get=requests.get):
     after = read(session)
     same_metadata(before, after)
     if not corrected(after, media_id):
-        raise ValueError('Exact raw correction verification failed')
+        raise CheckFailed('Exact raw correction verification failed')
     if after['content'].get('protected') != before['content'].get('protected'):
-        raise ValueError('Content visibility changed')
+        raise CheckFailed('Content visibility changed')
     media = json_request(session.get, f'media/{media_id}', params={'context': 'edit'})
     if digest(media_bytes(public_get, media)) != IMAGE_SHA or media['alt_text'] != ALT:
-        raise ValueError('Featured image verification failed')
+        raise CheckFailed('Featured image verification failed')
     public = json_request(public_get, f'posts/{POST_ID}')
     for field, expected in projection(after).items():
         if field != '_links' and public.get(field) != expected:
-            raise ValueError('Public verification failed: ' + field)
+            raise CheckFailed('Public verification failed: ' + field)
     page = public_get(EXPECTED['link'], timeout=TIMEOUT, allow_redirects=False)
     page.raise_for_status()
     if page.status_code != 200 or after['content']['rendered'].strip() not in page.text:
-        raise ValueError('Public page content verification failed')
+        raise CheckFailed('Public page content verification failed')
     if TITLE not in page.text or media['source_url'] not in page.text:
-        raise ValueError('Public headline/image verification failed')
+        raise CheckFailed('Public headline/image verification failed')
     save('after.json', after)
     save('after-public.json', public)
     save('after-page.json', {'html': page.text})
@@ -196,15 +205,15 @@ def verify(before, session, media_id, public_get=requests.get):
 
 def apply(base, session, public_get=requests.get):
     if not APPLY_AUTHORIZED:
-        raise ValueError('Final payload/publication authorization is pending')
+        raise CheckFailed('Final payload/publication authorization is pending')
     before, media, plan = prepare(base, session, public_get)
     if plan['already_corrected']:
         return verify(before, session, media['id'], public_get)
     if media and media['alt_text'] != ALT:
-        raise ValueError('Existing image alt text needs separate review')
+        raise CheckFailed('Existing image alt text needs separate review')
     # Confirm no editor changed the authenticated snapshot during reconciliation.
     if read(session) != before:
-        raise ValueError('Concurrent post edit')
+        raise CheckFailed('Concurrent post edit')
     if media is None:
         save('upload-attempt.json', {'image_sha256': IMAGE_SHA, 'slug': MEDIA_SLUG})
         # No automatic POST retry, including timeout/uncertain responses.
@@ -213,12 +222,12 @@ def apply(base, session, public_get=requests.get):
             'Content-Disposition': f'attachment; filename="{MEDIA_SLUG}.jpg"'})
         save('uploaded-media.json', media)
         if media.get('slug') != MEDIA_SLUG or digest(media_bytes(public_get, media)) != IMAGE_SHA:
-            raise ValueError('Uploaded image verification failed')
+            raise CheckFailed('Uploaded image verification failed')
         updated_media = json_request(session.post, f"media/{media['id']}", json={'alt_text': ALT})
         if updated_media.get('alt_text') != ALT:
-            raise ValueError('Uploaded image alt text verification failed')
+            raise CheckFailed('Uploaded image alt text verification failed')
     if read(session) != before:
-        raise ValueError('Concurrent post edit after media preparation')
+        raise CheckFailed('Concurrent post edit after media preparation')
     save('post-write-attempt.json', {'post_id': POST_ID, 'payload': payload(media['id'])})
     json_request(session.post, f'posts/{POST_ID}', json=payload(media['id']))
     return verify(before, session, media['id'], public_get)
@@ -230,7 +239,7 @@ def main():
     args = parser.parse_args()
     try:
         if args.apply and not APPLY_AUTHORIZED:
-            raise ValueError('Final payload/publication authorization is pending')
+            raise CheckFailed('Final payload/publication authorization is pending')
         # Values remain exclusively in the GitHub-managed runner environment.
         with requests.Session() as session:
             session.auth = (os.environ['WORDPRESS_USERNAME'], os.environ['WORDPRESS_APP_PASSWORD'])
@@ -238,6 +247,8 @@ def main():
             result = apply(base, session) if args.apply else prepare(base, session)[2]
     except Exception as exc:
         result = {'post_id': POST_ID, 'verified': False, 'error_type': type(exc).__name__}
+        if isinstance(exc, CheckFailed):
+            result['guard_failure'] = str(exc)
     save('report.json', result)
     print(json.dumps({k: v for k, v in result.items() if k != 'payload'}))
     return 0 if result.get('read_only') or result.get('verified') else 1
