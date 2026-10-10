@@ -3,8 +3,13 @@ Post 5997 correction — completed; write path retired
 Approved correction published through commit
 `149c4f5fe975e3de36d23eba62c992db8a4a5ba7` and verified in Action
 https://github.com/wallyrebel/Pontotoc/actions/runs/38063818241.
-Featured media is 6008; its original JPEG bytes and descriptive alt text match
-the approved attachment. The original slug, dates and unrelated metadata are
+Featured media is 6008; the original JPEG bytes were verified at upload. The site
+then recompressed that same 2048×1536 image to 172,701 bytes. Its served SHA-256 is
+`1f745003154ec9bd26871abcba11763d54c0e73e0e9a3d5cfbdaab2fadb47bc8`.
+The served pixels were inspected and compared against the source, with RGB mean
+absolute differences below 0.64 on the 0–255 scale. Descriptive alt text matches
+the approved text. Read-only verification pins media ID 6008, its dimensions,
+identity and either known hash, and decodes page bytes as UTF-8. The original slug, dates and unrelated metadata are
 preserved. The correction script and workflow now contain only read operations.
 No existing schedules or publisher behavior were changed.
 

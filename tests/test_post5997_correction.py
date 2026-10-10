@@ -26,7 +26,7 @@ def before():
     return post
 
 
-def after(media_id=6000):
+def after(media_id=6008):
     post = before()
     post['title'] = {'raw': job.TITLE, 'rendered': job.TITLE}
     post['content']['raw'] = post['content']['rendered'] = job.BODY
@@ -37,7 +37,7 @@ def after(media_id=6000):
     return post
 
 
-def media(ident=6000):
+def media(ident=6008):
     return {'id': ident, 'slug': job.MEDIA_SLUG, 'mime_type': 'image/jpeg',
             'media_details': {'width': 2048, 'height': 1536},
             'source_url': job.BASE + '/wp-content/uploads/2026/10/' + job.MEDIA_SLUG + '.jpg',
@@ -51,7 +51,7 @@ def local_output(tmp_path, monkeypatch):
 
 def prepare_route(post=None, existing=None):
     session = Mock()
-    session.get.side_effect = [response(post or before()), response([existing] if existing else [])]
+    session.get.side_effect = [response(post or before()), response(existing or media())]
     public = Mock(return_value=response(content=job.image_bytes()))
     return session, public
 
@@ -90,7 +90,7 @@ def test_full_readback_verification():
     page = job.BODY + job.TITLE + media()['source_url']
     public = Mock(side_effect=[response(content=job.image_bytes()),
                               response(job.projection(updated)), response(content=page.encode())])
-    assert job.verify(before(), session, 6000, public)['verified']
+    assert job.verify(before(), session, 6008, public)['verified']
     session.post.assert_not_called()
 
 
@@ -98,3 +98,33 @@ def test_retired_workflow_has_no_write_option_or_schedule():
     workflow = (job.ROOT / '.github/workflows/correct-post5997.yml').read_text()
     assert '--apply' not in workflow and 'schedule:' not in workflow
     assert 'inputs.mode' not in workflow
+
+
+def test_changed_live_image_is_rejected_without_writes():
+    session = Mock()
+    session.get.return_value = response(media())
+    public = Mock(return_value=response(content=b'unexpected replacement'))
+    with pytest.raises(ValueError, match='media bytes changed'):
+        job.reconcile_media(session, public)
+    session.post.assert_not_called()
+
+
+def test_pinned_verified_recompression_is_accepted(monkeypatch):
+    recompressed = b'unit-test bytes representing a separately verified recompression'
+    monkeypatch.setattr(job, 'ALLOWED_IMAGE_SHA', {job.IMAGE_SHA, job.digest(recompressed)})
+    session = Mock()
+    session.get.return_value = response(media())
+    public = Mock(return_value=response(content=recompressed))
+    assert job.reconcile_media(session, public)['id'] == 6008
+    session.post.assert_not_called()
+
+
+def test_utf8_page_bytes_ignore_incorrect_http_encoding():
+    updated = after()
+    session = Mock()
+    session.get.side_effect = [response(updated), response(media())]
+    page = response(content=(job.BODY + job.TITLE + media()['source_url']).encode('utf-8'))
+    page.text = page.content.decode('latin-1')
+    public = Mock(side_effect=[response(content=job.image_bytes()), response(job.projection(updated)), page])
+    assert job.verify(before(), session, 6008, public)['verified']
+    session.post.assert_not_called()

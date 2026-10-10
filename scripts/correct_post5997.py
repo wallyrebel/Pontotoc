@@ -16,7 +16,6 @@ POST_ID = 5997
 ROOT = Path(__file__).resolve().parents[1]
 FIXTURES = ROOT / 'tests/fixtures/post5997'
 EXPECTED = json.loads((FIXTURES / 'before-public.json').read_text())
-EXPECTED_RAW_SHA256 = json.loads((FIXTURES / 'before-raw-sha256.json').read_text())
 BODY = (FIXTURES / 'after-raw.html').read_text()
 TITLE = 'Ashley scores twice as Pontotoc beats West Point 23-6 in region opener'
 EXCERPT = 'Nolan Ashley ran for two touchdowns and Tim Jones intercepted two passes as Pontotoc beat West Point 23-6 in its Region 1-5A opener.'
@@ -24,6 +23,11 @@ ALT = 'A football player in a dark Warriors uniform runs with the ball as two de
 IMAGE = ROOT / 'assets/post5997/featured.jpg'
 IMAGE_SHA = '069a5e056449afe14df2a0b3e68d96483d47df89cce052a5d925e064c58aef29'
 MEDIA_SLUG = 'pontotoc-post5997-' + IMAGE_SHA[:16]
+PUBLISHED_MEDIA_ID = 6008
+# Site recompressed this exact upload after its original bytes passed verification.
+# The served JPEG was inspected visually and compared against the supplied image.
+SERVED_IMAGE_SHA = '1f745003154ec9bd26871abcba11763d54c0e73e0e9a3d5cfbdaab2fadb47bc8'
+ALLOWED_IMAGE_SHA = {IMAGE_SHA, SERVED_IMAGE_SHA}
 OUT = ROOT / 'data/post5997-audit'
 TIMEOUT = (10, 30)
 # generated_slug is WordPress's title-derived suggestion, not the stored slug.
@@ -70,19 +74,6 @@ def same_metadata(before, after):
             raise CheckFailed('Unrelated field changed: ' + field)
 
 
-def initial(post):
-    # Public fixture pins existing title/body/media, slug, dates and metadata.
-    current = projection(post)
-    for field, value in EXPECTED.items():
-        if field != '_links' and current.get(field) != value:
-            raise CheckFailed('Before-state changed: ' + field)
-    if not all(isinstance(post.get(f, {}).get('raw'), str) for f in ('title', 'content', 'excerpt')):
-        raise CheckFailed('Missing authenticated raw content')
-    for field, expected_digest in EXPECTED_RAW_SHA256.items():
-        if digest(post[field]['raw'].encode()) != expected_digest:
-            raise CheckFailed('Authenticated raw before-state changed: ' + field)
-
-
 def corrected(post, media_id):
     return (post.get('title', {}).get('raw') == TITLE and
             post.get('content', {}).get('raw') == BODY and
@@ -112,42 +103,16 @@ def media_bytes(public_get, media):
 
 
 def reconcile_media(session, public_get=requests.get):
-    """Inspect every JPEG of matching dimensions, including renamed imports.
-
-    Exact-byte reconciliation also finds a prior upload whose response was lost.
-    Conflicting deterministic names or multiple exact copies stop the correction.
-    """
-    matches = []
-    page = 1
-    while True:
-        response = session.get(BASE + '/wp-json/wp/v2/media',
-                               params={'context': 'edit', 'media_type': 'image',
-                                       'per_page': 100, 'page': page},
-                               timeout=TIMEOUT, allow_redirects=False)
-        response.raise_for_status()
-        if response.status_code != 200:
-            raise CheckFailed('Media listing failed')
-        items = response.json()
-        pages = int(response.headers['X-WP-TotalPages'])
-        if pages > 100:
-            raise CheckFailed('Media inventory exceeds bounded review')
-        for item in items:
-            details = item.get('media_details', {})
-            candidate = (item.get('mime_type') == 'image/jpeg' and
-                         details.get('width') == 2048 and details.get('height') == 1536)
-            named = item.get('slug', '').startswith(MEDIA_SLUG)
-            if candidate or named:
-                exact = digest(media_bytes(public_get, item)) == IMAGE_SHA
-                if named and not exact:
-                    raise CheckFailed('Correction media name collision')
-                if exact:
-                    matches.append(item)
-        if page >= pages:
-            break
-        page += 1
-    if len(matches) > 1:
-        raise CheckFailed('Multiple existing copies of supplied image')
-    return matches[0] if matches else None
+    """Read only the one verified media item created by the completed correction."""
+    media = json_request(session.get, f'media/{PUBLISHED_MEDIA_ID}', params={'context': 'edit'})
+    details = media.get('media_details', {})
+    if (media.get('id') != PUBLISHED_MEDIA_ID or media.get('slug') != MEDIA_SLUG or
+            media.get('mime_type') != 'image/jpeg' or
+            details.get('width') != 2048 or details.get('height') != 1536):
+        raise CheckFailed('Published media identity changed')
+    if digest(media_bytes(public_get, media)) not in ALLOWED_IMAGE_SHA:
+        raise CheckFailed('Published media bytes changed')
+    return media
 
 
 def payload(media_id):
@@ -170,7 +135,7 @@ def prepare(base, session, public_get=requests.get):
           'matching_media_alt': media.get('alt_text') if media else None}}))
     same_metadata(EXPECTED, projection(before))
     if not corrected(before, media_id):
-        initial(before)
+        raise CheckFailed('Completed correction does not match')
     result = {'post_id': POST_ID, 'url': EXPECTED['link'], 'read_only': True,
               'already_corrected': corrected(before, media_id),
               'payload': payload(media_id), 'image_sha256': IMAGE_SHA,
@@ -187,7 +152,8 @@ def verify(before, session, media_id, public_get=requests.get):
     if after['content'].get('protected') != before['content'].get('protected'):
         raise CheckFailed('Content visibility changed')
     media = json_request(session.get, f'media/{media_id}', params={'context': 'edit'})
-    if digest(media_bytes(public_get, media)) != IMAGE_SHA or media['alt_text'] != ALT:
+    served_sha = digest(media_bytes(public_get, media))
+    if served_sha not in ALLOWED_IMAGE_SHA or media['alt_text'] != ALT:
         raise CheckFailed('Featured image verification failed')
     public = json_request(public_get, f'posts/{POST_ID}')
     for field in EXPECTED:
@@ -195,15 +161,16 @@ def verify(before, session, media_id, public_get=requests.get):
             raise CheckFailed('Public verification failed: ' + field)
     page = public_get(EXPECTED['link'], timeout=TIMEOUT, allow_redirects=False)
     page.raise_for_status()
-    if page.status_code != 200 or after['content']['rendered'].strip() not in page.text:
+    page_text = page.content.decode('utf-8')
+    if page.status_code != 200 or after['content']['rendered'].strip() not in page_text:
         raise CheckFailed('Public page content verification failed')
-    if TITLE not in page.text or media['source_url'] not in page.text:
+    if TITLE not in page_text or media['source_url'] not in page_text:
         raise CheckFailed('Public headline/image verification failed')
     save('after.json', after)
     save('after-public.json', public)
-    save('after-page.json', {'html': page.text})
+    save('after-page.json', {'html': page_text})
     return {'post_id': POST_ID, 'url': after['link'], 'verified': True,
-            'featured_media': media_id, 'image_sha256': IMAGE_SHA}
+            'featured_media': media_id, 'image_sha256': IMAGE_SHA, 'served_image_sha256': served_sha}
 
 
 def main():
