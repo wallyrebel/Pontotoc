@@ -18,7 +18,8 @@ option dumps and schema defaults are excluded from the report.
 The dedicated SEOPress XML sitemap settings GET is read, but only the XML-enabled
 and post/page inclusion flags are reported. The general PRO settings group and
 all license/key endpoints are deliberately unread: the official implementation
-returns its whole option group without a registered field-selective read. Its
+returns its whole option group; a safe, selectively filtered news-only read
+has not been validated in this inspection. Its
 OPTIONS metadata may be inspected safely. `/robots.txt`, `/sitemaps.xml` and
 `/news.xml` are public, unauthenticated, no-redirect checks; XML root/news namespace
 and entry counts are reported without exporting the sitemap's article contents.

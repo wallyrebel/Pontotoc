@@ -107,15 +107,16 @@ class ReadProbe:
         status, options = self.read('/wp-json/seopress/v1/options/sitemaps-settings')
         report['sitemap_options_http_status'] = status
         if status == 200 and isinstance(options, dict):
-            report['xml_sitemap_enabled'] = options.get('seopress_xml_sitemap_general') in {'1', 1, True}
+            flag = options.get('seopress_xml_sitemap_general_enable')
+            report['xml_sitemap_enabled'] = flag in {'1', 1, True} if isinstance(flag, (str, int, bool)) else None
             included = options.get('seopress_xml_sitemap_post_types_list', {})
             report['xml_sitemap_includes'] = {k: isinstance(included, dict) and isinstance(included.get(k), dict) and
                 included[k].get('include') in {'1', 1, True} for k in ('post','page')}
         else:
             report['xml_sitemap_enabled'] = None
-        # OPTIONS only for PRO settings. Its GET returns the complete option group,
-        # which can include API credentials. No license/status/key endpoint is read.
-        report['news_configuration_get_skipped'] = 'PRO group is not field-selective; credentials must remain unread'
+        # OPTIONS only for PRO settings. Its callback returns the complete option
+        # group; a safe, filtered news-only read has not been validated here.
+        report['news_configuration_get_skipped'] = 'General PRO option group not requested; safe selective news read remains unverified'
         report['license_status'] = 'unverified; license/key endpoints intentionally not read'
         sitemap_reports = {}
         for path in ('/robots.txt', '/sitemaps.xml', '/news.xml'):

@@ -608,7 +608,7 @@ class ReadinessBackend(Backend):
         if path=='wp/v2/menu-locations':return self.response({} if not self.restricted else None,status=200 if not self.restricted else 403)
         if path=='wp/v2/plugins':return self.response([{'plugin':'wp-seopress/seopress.php','status':'active','version':'10.2','license_key':'PRIVATE_SECRET'},
                                                      {'plugin':'unrelated/plugin.php','status':'active'}])
-        if path=='seopress/v1/options/sitemaps-settings':return self.response({'seopress_xml_sitemap_general':'1','private':'PRIVATE_SETTING',
+        if path=='seopress/v1/options/sitemaps-settings':return self.response({'seopress_xml_sitemap_general_enable':'1','private':'PRIVATE_SETTING',
                                                                           'seopress_xml_sitemap_post_types_list':{'post':{'include':'1'}}},status=403 if self.restricted else 200)
         return self.response([])
     def public(self,u,**kw):
@@ -624,6 +624,7 @@ def test_readiness_probe_read_only_minimized_and_no_credentials(readiness_module
     assert 'PRIVATE_' not in serialized and 'unrelated/plugin' not in serialized
     assert report['own_description_present'] and report['managed_user_matches_pepa_author']
     assert report['public_sitemaps']['/news.xml']['news_entry_count']==1
+    assert report['xml_sitemap_enabled'] is True
     assert all(method in {'GET','OPTIONS'} for method,_,_ in b.calls)
     assert not any('/license' in u or (method=='GET' and '/pro-settings' in u) for method,u,_ in b.calls)
     assert report['read_only'] and not report['writes_tested']
@@ -650,3 +651,14 @@ def test_readiness_refuses_redirects_and_oversized_private_responses(readiness_m
     b.request=lambda *args,**kw:b.response({'secret':'PRIVATE_SECRET'},status=301)
     status,data=readiness_module.ReadProbe(b).read('/wp-json/wp/v2/users/me')
     assert status==301 and data is None
+
+
+def test_missing_sitemap_enable_field_is_unverified_not_false(readiness_module):
+    b=ReadinessBackend()
+    original=b.request
+    def request(method,u,**kw):
+        if method=='GET' and u.endswith('/options/sitemaps-settings'):
+            return b.response({'seopress_xml_sitemap_general':'1'})
+        return original(method,u,**kw)
+    b.request=request
+    assert readiness_module.ReadProbe(b,b.public).run()['xml_sitemap_enabled'] is None
