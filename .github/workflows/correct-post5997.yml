@@ -1,0 +1,45 @@
+name: Pontotoc post 5997 correction
+on:
+  push:
+    branches: [main]
+    paths: [scripts/correct_post5997.py]
+permissions:
+  contents: read
+concurrency:
+  group: pontotoc-post5997-correction
+  cancel-in-progress: false
+jobs:
+  correction:
+    if: >-
+      github.ref == 'refs/heads/main' &&
+      (github.event.head_commit.message == 'Review Pontotoc post 5997 correction without writes' ||
+       github.event.head_commit.message == 'Correct Pontotoc post 5997 using reviewed Athletics facts and supplied image')
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install requests pytest
+      - run: python -m pytest tests/test_post5997_correction.py -q
+      - name: Read-only plan
+        if: github.event.head_commit.message == 'Review Pontotoc post 5997 correction without writes'
+        env:
+          WORDPRESS_BASE_URL: ${{ secrets.WORDPRESS_BASE_URL }}
+          WORDPRESS_USERNAME: ${{ secrets.WORDPRESS_USERNAME }}
+          WORDPRESS_APP_PASSWORD: ${{ secrets.WORDPRESS_APP_PASSWORD }}
+        run: python scripts/correct_post5997.py
+      - name: Apply reviewed correction once
+        if: github.event.head_commit.message == 'Correct Pontotoc post 5997 using reviewed Athletics facts and supplied image'
+        env:
+          WORDPRESS_BASE_URL: ${{ secrets.WORDPRESS_BASE_URL }}
+          WORDPRESS_USERNAME: ${{ secrets.WORDPRESS_USERNAME }}
+          WORDPRESS_APP_PASSWORD: ${{ secrets.WORDPRESS_APP_PASSWORD }}
+        run: python scripts/correct_post5997.py --apply
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: post5997-audit
+          path: data/post5997-audit/
+          retention-days: 30
