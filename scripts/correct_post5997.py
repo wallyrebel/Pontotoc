@@ -1,9 +1,8 @@
-"""Bounded correction for post 5997; read-only planning is the default.
+"""Read-only verification of the completed post 5997 correction.
 
-No credentials are stored or logged. Run only through the reviewed managed
-workflow. Retire apply() and the apply workflow option after verified publication.
+The completed write function and CLI apply switch have been removed.
+No credentials are stored or logged.
 """
-import argparse
 import hashlib
 import json
 import os
@@ -27,7 +26,6 @@ IMAGE_SHA = '069a5e056449afe14df2a0b3e68d96483d47df89cce052a5d925e064c58aef29'
 MEDIA_SLUG = 'pontotoc-post5997-' + IMAGE_SHA[:16]
 OUT = ROOT / 'data/post5997-audit'
 TIMEOUT = (10, 30)
-APPLY_AUTHORIZED = True  # Final payload and publication authorized by the parent.
 # generated_slug is WordPress's title-derived suggestion, not the stored slug.
 CHANGED = {'title', 'content', 'excerpt', 'featured_media', 'modified', 'modified_gmt', '_links', 'class_list', 'generated_slug'}
 
@@ -208,48 +206,17 @@ def verify(before, session, media_id, public_get=requests.get):
             'featured_media': media_id, 'image_sha256': IMAGE_SHA}
 
 
-def apply(base, session, public_get=requests.get):
-    if not APPLY_AUTHORIZED:
-        raise CheckFailed('Final payload/publication authorization is pending')
-    before, media, plan = prepare(base, session, public_get)
-    if plan['already_corrected']:
-        return verify(before, session, media['id'], public_get)
-    if media and media['alt_text'] != ALT:
-        raise CheckFailed('Existing image alt text needs separate review')
-    # Confirm no editor changed the authenticated snapshot during reconciliation.
-    if read(session) != before:
-        raise CheckFailed('Concurrent post edit')
-    if media is None:
-        save('upload-attempt.json', {'image_sha256': IMAGE_SHA, 'slug': MEDIA_SLUG})
-        # No automatic POST retry, including timeout/uncertain responses.
-        media = json_request(session.post, 'media', data=image_bytes(), headers={
-            'Content-Type': 'image/jpeg',
-            'Content-Disposition': f'attachment; filename="{MEDIA_SLUG}.jpg"'})
-        save('uploaded-media.json', media)
-        if media.get('slug') != MEDIA_SLUG or digest(media_bytes(public_get, media)) != IMAGE_SHA:
-            raise CheckFailed('Uploaded image verification failed')
-        updated_media = json_request(session.post, f"media/{media['id']}", json={'alt_text': ALT})
-        if updated_media.get('alt_text') != ALT:
-            raise CheckFailed('Uploaded image alt text verification failed')
-    if read(session) != before:
-        raise CheckFailed('Concurrent post edit after media preparation')
-    save('post-write-attempt.json', {'post_id': POST_ID, 'payload': payload(media['id'])})
-    json_request(session.post, f'posts/{POST_ID}', json=payload(media['id']))
-    return verify(before, session, media['id'], public_get)
-
-
 def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument('--apply', action='store_true')
-    args = parser.parse_args()
     try:
-        if args.apply and not APPLY_AUTHORIZED:
-            raise CheckFailed('Final payload/publication authorization is pending')
         # Values remain exclusively in the GitHub-managed runner environment.
         with requests.Session() as session:
             session.auth = (os.environ['WORDPRESS_USERNAME'], os.environ['WORDPRESS_APP_PASSWORD'])
             base = os.environ['WORDPRESS_BASE_URL']
-            result = apply(base, session) if args.apply else prepare(base, session)[2]
+            before, media, plan = prepare(base, session)
+            if not plan['already_corrected']:
+                raise CheckFailed('Completed correction does not match')
+            result = verify(before, session, media['id'])
+            result['read_only'] = True
     except Exception as exc:
         result = {'post_id': POST_ID, 'verified': False, 'error_type': type(exc).__name__}
         if isinstance(exc, CheckFailed):

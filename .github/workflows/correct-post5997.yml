@@ -1,4 +1,4 @@
-name: Pontotoc post 5997 correction
+name: Verify Pontotoc post 5997 correction (read-only)
 on:
   push:
     branches: [main]
@@ -12,8 +12,7 @@ jobs:
   correction:
     if: >-
       github.ref == 'refs/heads/main' &&
-      (github.event.head_commit.message == 'Review Pontotoc post 5997 correction without writes' ||
-       github.event.head_commit.message == 'Correct Pontotoc post 5997 using reviewed Athletics facts and supplied image')
+      github.event.head_commit.message == 'Verify Pontotoc post 5997 correction without writes'
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
@@ -23,20 +22,12 @@ jobs:
           python-version: '3.11'
       - run: python -m pip install requests pytest
       - run: python -m pytest tests/test_post5997_correction.py -q
-      - name: Read-only plan
-        if: github.event.head_commit.message == 'Review Pontotoc post 5997 correction without writes'
+      - name: Verify completed correction (read-only)
         env:
           WORDPRESS_BASE_URL: ${{ secrets.WORDPRESS_BASE_URL }}
           WORDPRESS_USERNAME: ${{ secrets.WORDPRESS_USERNAME }}
           WORDPRESS_APP_PASSWORD: ${{ secrets.WORDPRESS_APP_PASSWORD }}
         run: python scripts/correct_post5997.py
-      - name: Apply reviewed correction once
-        if: github.event.head_commit.message == 'Correct Pontotoc post 5997 using reviewed Athletics facts and supplied image'
-        env:
-          WORDPRESS_BASE_URL: ${{ secrets.WORDPRESS_BASE_URL }}
-          WORDPRESS_USERNAME: ${{ secrets.WORDPRESS_USERNAME }}
-          WORDPRESS_APP_PASSWORD: ${{ secrets.WORDPRESS_APP_PASSWORD }}
-        run: python scripts/correct_post5997.py --apply
       - uses: actions/upload-artifact@v4
         if: always()
         with:

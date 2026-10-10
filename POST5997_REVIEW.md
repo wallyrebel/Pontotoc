@@ -1,10 +1,22 @@
-Post 5997 correction — local review only
+Post 5997 correction — completed; write path retired
+
+Approved correction published through commit
+`149c4f5fe975e3de36d23eba62c992db8a4a5ba7` and verified in Action
+https://github.com/wallyrebel/Pontotoc/actions/runs/38063818241.
+Featured media is 6008; its original JPEG bytes and descriptive alt text match
+the approved attachment. The original slug, dates and unrelated metadata are
+preserved. The correction script and workflow now contain only read operations.
+No existing schedules or publisher behavior were changed.
+
+The following records the initial review and publication procedure.
 
 Prepared from repository main commit `2fe6c6e64c57b4f7f3c2536bde9ff191a0bcadd9`.
 No AGENTS.md, .agents directory, or repository skills are present in this checkout.
 The retired post 5882 files, all existing workflows and all schedules are unchanged.
 No credentials were retrieved, copied, created or changed. No GitHub connector
-writes, git pushes, WordPress mutations or workflow dispatches were performed.
+writes or workflow dispatches were performed. At initial preparation no git
+pushes or WordPress mutations had occurred; subsequent writes were explicitly
+approved and limited to this correction and the supplied image.
 
 Reviewed headline: Ashley scores twice as Pontotoc beats West Point 23-6 in region opener
 
