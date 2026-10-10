@@ -70,7 +70,9 @@ class ReadProbe:
                     entry['registered_methods'].extend(methods)
                     if set(methods) & {'POST', 'PUT', 'PATCH'}:
                         # Names only: never include defaults or argument values.
-                        entry['editable_field_names'].extend(e.get('args', {}).keys())
+                        arguments = e.get('args', {})
+                        if isinstance(arguments, dict):
+                            entry['editable_field_names'].extend(arguments.keys())
                 entry['registered_methods'] = sorted(set(entry['registered_methods']))
                 entry['editable_field_names'] = sorted(set(entry['editable_field_names']))
             routes[path] = entry

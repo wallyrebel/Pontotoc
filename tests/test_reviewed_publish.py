@@ -598,6 +598,8 @@ class ReadinessBackend(Backend):
                 return self.response({'id':3,'capabilities':{'edit_pages':True,'publish_pages':True,'manage_options':not self.restricted},
                                       'description':'PRIVATE_BIO','email':'PRIVATE_EMAIL','application_password':'PRIVATE_SECRET'})
         if method=='OPTIONS':
+            if path.startswith('seopress/v1/options/'):
+                return self.response({'endpoints':[{'methods':['GET'],'args':[]},{'methods':['POST'],'args':[]}]})
             return self.response({'endpoints':[{'methods':['GET'],'args':{}},
                 {'methods':['POST'],'args':{'description':{'default':'PRIVATE_DEFAULT'}}}]})
         if path=='wp/v2/posts/6010':return self.response({'author':3})
@@ -625,6 +627,7 @@ def test_readiness_probe_read_only_minimized_and_no_credentials(readiness_module
     assert all(method in {'GET','OPTIONS'} for method,_,_ in b.calls)
     assert not any('/license' in u or (method=='GET' and '/pro-settings' in u) for method,u,_ in b.calls)
     assert report['read_only'] and not report['writes_tested']
+    assert report['routes']['/seopress/v1/options/sitemaps-settings']['editable_field_names']==[]
 
 
 def test_readiness_reports_denied_reads_without_role_assumptions(readiness_module):
