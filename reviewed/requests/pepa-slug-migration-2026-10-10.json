@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "operation": "migrate-pepa-slug",
+  "operation": "verify-pepa-slug",
   "authorization": "Parent approved bounded PEPA SEO slug correction on 2026-10-10",
   "intake_request": {
     "schema_version": 2,

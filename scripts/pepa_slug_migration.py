@@ -1,4 +1,4 @@
-"""Approved one-shot PEPA slug update; managed Action only, no create or configuration writes."""
+"""Retired PEPA slug updater: read-only identity, preservation and redirect verification."""
 import json
 import os
 from pathlib import Path
@@ -21,47 +21,24 @@ def preserved(record):
     return fingerprint(record, {'slug', 'link', 'guid', 'modified', 'modified_gmt'})
 
 
-def migrate(t, a, e):
-    # Exhaustive authenticated scan and stable ownership check occur on every attempt.
+def verify_retired(t, a, e):
     posts, media = t.probe()
     post, image = t.preflight(a, posts, media)
-    rp.require(post and image and post['id'] == e['post_id'] and image['id'] == e['media_id'],
-               'Migration post or media identity differs')
+    rp.require(post and image and post['id'] == e['post_id'] and image['id'] == e['media_id'] and
+               post['slug'] == a['public_slug'] and post['link'] == e['new_url'],
+               'Retired migration requires the approved final identity and permalink')
     rp.require(preserved(post) == e['preserved_metadata_sha256'] and
                post.get('guid', {}).get('rendered') == e['guid_rendered'],
                'Migration preservation baseline changed')
-    rp.require(post['slug'] in {e['old_slug'], a['public_slug']} and
-               post['link'] == (e['old_url'] if post['slug'] == e['old_slug'] else e['new_url']),
-               'Migration permalink drifted')
-    before_post = fingerprint(post, {'slug', 'link', 'modified', 'modified_gmt'})
-    before_image = fingerprint(image)
-    t.verify(a, post['id'], image)
+    receipt = t.verify_slug_redirect(a, post['id'], image, e['old_url'], e['new_url'])
     served_sha = t.verify_media(a, image)
     rp.require(served_sha == e['served_image_sha256'], 'Migration served image baseline changed')
-    if post['slug'] == e['old_slug']:
-        rp.require(post.get('modified_gmt') == e['modified_gmt'], 'Migration modification baseline changed')
-        plan = t.slug_plan(a, post)
-        rp.require(plan['proposed_url'] == e['new_url'], 'Migration target differs from approval')
-        # Final single-record read closes drift between the full scan and the bounded write.
-        latest, _ = t.api('GET', 'posts/' + str(post['id']), params={'context': 'edit'})
-        rp.require(latest == post, 'Migration post changed during preflight')
-        t.api('POST', 'posts/' + str(post['id']), json={'slug': a['public_slug']})
-    # Unknown write outcomes are resumed through the same marker/IDs, never another create.
-    after_posts, after_media = t.probe()
-    after, after_image = t.preflight(a, after_posts, after_media)
-    rp.require(after and after_image and after['id'] == e['post_id'] and after_image['id'] == e['media_id'] and
-               after['slug'] == a['public_slug'] and after['link'] == e['new_url'],
-               'Migration resulting identity or permalink differs')
-    rp.require(fingerprint(after, {'slug', 'link', 'modified', 'modified_gmt'}) == before_post and
-               fingerprint(after_image) == before_image and preserved(after) == e['preserved_metadata_sha256'],
-               'Migration changed preserved post or media metadata')
-    receipt = t.verify_slug_redirect(a, after['id'], after_image, e['old_url'], e['new_url'])
-    rp.require(t.verify_media(a, after_image) == served_sha, 'Migration served image changed')
-    return {**receipt, 'read_only': False, 'article_id': a['article_id'],
-            'payload_sha256': a['payload_sha'], 'preserved_metadata_sha256': preserved(after),
-            'served_image_sha256': served_sha, 'preserved_metadata_verified': True,
-            'mutation': {'post_id': e['post_id'], 'fields': ['slug']},
-            'old_url_http_status': 301, 'new_url_http_status': 200}
+    latest, _ = t.api('GET', 'posts/' + str(post['id']), params={'context': 'edit'})
+    rp.require(latest == post, 'Post changed during read-only verification')
+    return {**receipt, 'read_only': True, 'mutation_path_retired': True,
+            'article_id': a['article_id'], 'payload_sha256': a['payload_sha'],
+            'preserved_metadata_sha256': preserved(post), 'served_image_sha256': served_sha,
+            'preserved_metadata_verified': True, 'old_url_http_status': 301, 'new_url_http_status': 200}
 
 
 def main():
@@ -69,7 +46,7 @@ def main():
     try:
         request = json.loads(rp.scoped_path(REQUEST, 'reviewed/requests').read_text())
         rp.fields(request, {'schema_version', 'operation', 'authorization', 'intake_request', 'expected'})
-        rp.require(request['schema_version'] == 1 and request['operation'] == 'migrate-pepa-slug' and
+        rp.require(request['schema_version'] == 1 and request['operation'] == 'verify-pepa-slug' and
                    request['authorization'] == 'Parent approved bounded PEPA SEO slug correction on 2026-10-10',
                    'Migration lacks exact bounded approval')
         a = rp.bind_request(request['intake_request'])
@@ -90,7 +67,7 @@ def main():
         rp.require(os.environ['WORDPRESS_BASE_URL'].rstrip('/') == rp.BASE, 'Unexpected managed WordPress site')
         with requests.Session() as session:
             session.auth = (os.environ['WORDPRESS_USERNAME'], os.environ['WORDPRESS_APP_PASSWORD'])
-            report = migrate(rp.Transport(session), a, e)
+            report = verify_retired(rp.Transport(session), a, e)
     except Exception as exc:
         report = {'verified': False, 'error_type': type(exc).__name__}
         if isinstance(exc, rp.Guard):

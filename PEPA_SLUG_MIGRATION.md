@@ -1,10 +1,10 @@
-# PEPA URL migration proposal — approval pending
+# PEPA URL migration — completed and write path retired
 
 The original implementation incorrectly exposed the internal article hash as the
 public slug. New intake requests now separate a readable URL from the stable
-article/event identity. The already published article has not been renamed.
+article/event identity. The parent approved this concrete correction. Post 6010 now uses the readable URL; the old URL permanently redirects to it.
 
-## Concrete change
+## Completed change
 
 - Existing post: **6010**; featured media: **6011**.
 - Existing URL: https://pontotocnews.com/pontotoc-news/pontotoc-reviewed-8f7432d95ed4486809f126f35492ce5ecc365f86b55098c6c4e1fee8927b01a4/
@@ -30,8 +30,9 @@ post/media identities and collisions, exact authenticated content, public
 REST/page content, featured image bytes and alt text, source links, title/H1,
 self-canonical URL, description and indexability before proposing the migration.
 The target must return 404 without following redirects. The artifact records the
-IDs, old/new URL, modification time and preservation fingerprint. There is no
-live slug-update branch in this route; changing its mode to publish fails closed.
+IDs, old/new URL, modification time and preservation fingerprint. Ordinary article
+publication cannot rename an existing article. The approved one-shot migration
+used a separate fixed request, whose write branch has now been removed.
 
 Read-only inspection of the current page found one self-canonical URL, matching
 headline, and a rendered description equal to the approved excerpt. REST exposes
@@ -43,7 +44,7 @@ A read-only request to `https://pontotocnews.com/?p=6010` returned 301 to the
 current permalink with `X-Redirect-By: WordPress`. That verifies a canonical
 ID redirect, **not** an old-slug redirect.
 
-## Sequence after the parent approves this proposal
+## Executed migration procedure (historical)
 
 1. Wait for the shared `pontotoc-wordpress-publication` lock and any active
    reviewed transport run to finish. Use the existing managed GitHub Action;
@@ -74,9 +75,47 @@ this proposal does not pre-authorize a rollback or configuration change.
 WordPress core records the previous slug when an existing published,
 nonhierarchical post changes slug and normally redirects an old slug found on a
 404 response with 301. Filters/plugins can affect that behavior; the actual
-old-slug redirect remains pending an approved migration and real verification.
+old-slug redirect was verified after this approved migration.
 
 References:
 [WordPress old-slug recording](https://developer.wordpress.org/reference/functions/wp_check_for_changed_slugs/),
 [WordPress old-slug redirect](https://developer.wordpress.org/reference/functions/wp_old_slug_redirect/),
 [Google descriptive URL guidance](https://developers.google.com/search/docs/crawling-indexing/url-structure).
+
+## Verified outcome and exact read-only rerun
+
+Migration commit: `1a7a644f1fd4bd77dac6890b542365340eb4dc54`.
+[Successful migration Action 38073777696](https://github.com/wallyrebel/Pontotoc/actions/runs/38073777696)
+reported `verified: true`, `preserved_metadata_verified: true` and
+`old_slug_redirect_verified: true`. The only mutation was the slug on post 6010.
+The unchanged public source/body/image digests and identity are retained in
+`reviewed/receipts/pepa-slug-migration-2026-10-10.json`.
+The original audit artifact is `reviewed-audit-38073777696` (artifact 11678241227).
+ZIP SHA-256: `32417c358dcf050b4aa77bfb2aba1b7bc75cfd7ab2bcf294b78e7f51f2af3d21`.
+
+Actual checks: old URL returns a direct 301 with Location exactly
+`https://pontotocnews.com/pontotoc-news/pepa-password-security-tips/`; the new URL
+returns 200 without redirect and has one matching self-canonical. The raw and
+public article, headline, excerpt, source links, displayed image/alt, served image
+bytes, publication date, GUID and preserved post/media metadata passed. The new
+page was also inspected in Chrome. No plugin or site configuration was changed.
+
+The same migration request path now contains `operation: verify-pepa-slug`.
+`scripts/pepa_slug_migration.py` is permanently read-only; the mutation branch is
+removed. It accepts only the already migrated exact identities and baseline,
+verifies the direct redirect and full public article, and returns
+`mutation_path_retired: true`. Its only explicit REST operation is GET.
+
+To reverify, manually dispatch **Reviewed public facts transport** on main with
+`operation: request` and
+`request_path: reviewed/requests/pepa-slug-migration-2026-10-10.json`.
+The safe entry point routes that exact path to the retired verifier. In the
+existing managed Action environment, the direct equivalent command is:
+
+```sh
+python scripts/pepa_slug_migration.py
+```
+
+Do not run authenticated commands on the Mac or copy credentials there. All
+credentials remain scoped to the existing GitHub Action. New articles use the
+normal version-2 contract in `REVIEWED_PUBLISHING.md`.

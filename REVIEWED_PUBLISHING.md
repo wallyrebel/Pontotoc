@@ -210,7 +210,7 @@ Its receipt artifact is `reviewed-audit-38069851928`. The article digest is
 The served image digest is
 `50e7376cf918e8c87b052a5cdf23b005c413e9f0a76eb0fa55fa9c9faee92cf4`.
 The live headline, seven paragraphs, full lock illustration, credit and both
-source links were also inspected in Chrome. [Live article](https://pontotocnews.com/pontotoc-news/pontotoc-reviewed-8f7432d95ed4486809f126f35492ce5ecc365f86b55098c6c4e1fee8927b01a4/).
+source links were also inspected in Chrome. [Live article](https://pontotocnews.com/pontotoc-news/pepa-password-security-tips/).
 
 Before cutover, GitHub's active, queued, pending, waiting and requested run lists
 contained no legacy publisher runs. The old workflow's schedule trigger was
@@ -255,10 +255,22 @@ unknown outcomes using markers and the same IDs before considering another write
 URL must return exactly 301 with Location equal to the reviewed new URL, then
 full public verification must pass at the new self-canonical permalink with the
 same post/media IDs. Unit tests reject 302, 404, loops and foreign destinations.
-Actual old-slug redirect behavior remains unverified until an approved rename;
+For each future URL correction, old-slug redirect behavior must be verified after the approved rename;
 never infer it from a green Action or from WordPress core documentation alone.
 
-The concrete PEPA proposal is [PEPA_SLUG_MIGRATION.md](PEPA_SLUG_MIGRATION.md).
-Its request is `reviewed/requests/pepa-slug-preflight-2026-10-10.json`, mode
+The completed PEPA migration and retired verifier are documented in [PEPA_SLUG_MIGRATION.md](PEPA_SLUG_MIGRATION.md).
+Its original preflight request is `reviewed/requests/pepa-slug-preflight-2026-10-10.json`, mode
 `dry-run`. Do not change it to publish to attempt a migration: the route blocks
 that operation. Keep the original approved publish request and article intact.
+
+
+The parent subsequently approved the PEPA slug correction. The article now lives
+at https://pontotocnews.com/pontotoc-news/pepa-password-security-tips/ and the old
+hash URL returns a verified direct 301. Post 6010 and media 6011, reviewed content,
+original markers, publication metadata, links and image remain unchanged.
+The successful migration receipt is
+`reviewed/receipts/pepa-slug-migration-2026-10-10.json`. The one-shot mutation code
+was removed after success; its request now runs read-only verification only.
+Assistant publishing runs can now use the version-2 intake shown above. They
+must continue using the shared Action lock, one request per push, actual source
+review and full public verification; never rename existing URLs automatically.

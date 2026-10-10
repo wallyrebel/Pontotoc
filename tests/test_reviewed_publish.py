@@ -540,58 +540,35 @@ def migration(package):
     return migration,a,b,t,expected
 
 
-def test_one_shot_slug_only_and_retry_no_writes(migration):
+def test_retired_slug_route_is_read_only_and_repeatable(migration):
     m,a,b,t,e=migration
-    assert m.migrate(t,a,e)['preserved_metadata_verified']
-    assert b.writes==[('posts/10',{'slug':'new-readable-public-url'})]
-    b.writes.clear()
-    assert m.migrate(t,a,e)['old_slug_redirect_verified'] and not b.writes
+    rename_post(b,a['public_slug'])
+    assert m.verify_retired(t,a,e)['mutation_path_retired']
+    assert m.verify_retired(t,a,e)['read_only'] and not b.writes
 
 
-@pytest.mark.parametrize('field', ['author','date','guid','modified_gmt','content'])
-def test_migration_drift_stops_before_write(migration,field):
+def test_retired_slug_route_cannot_apply_unfinished_migration(migration):
     m,a,b,t,e=migration
-    b.posts[0][field] = {'rendered':'Changed','raw':'Changed'} if field in {'guid','content'} else 'Changed'
-    with pytest.raises(rp.Guard):
-        m.migrate(t,a,e)
+    with pytest.raises(rp.Guard,match='Retired migration requires'):
+        m.verify_retired(t,a,e)
     assert not b.writes
 
 
-def test_migration_preservation_failure_stops_after_single_write(migration):
+@pytest.mark.parametrize('field', ['author','date','guid','content'])
+def test_retired_migration_preservation_guards(migration,field):
     m,a,b,t,e=migration
-    original=b.request
-    def request(method,u,**kw):
-        response=original(method,u,**kw)
-        if method=='POST':
-            b.posts[0]['author']=999
-        return response
-    b.request=request
-    with pytest.raises(rp.Guard,match='preserved post or media metadata'):
-        m.migrate(t,a,e)
-    assert len(b.writes)==1
+    rename_post(b,a['public_slug'])
+    b.posts[0][field] = {'rendered':'Changed','raw':'Changed'} if field in {'guid','content'} else 'Changed'
+    with pytest.raises(rp.Guard):
+        m.verify_retired(t,a,e)
+    assert not b.writes
 
 
-def test_migration_bad_redirect_stops_after_single_write(migration):
+def test_retired_migration_bad_redirect_has_no_writes(migration):
     m,a,b,t,e=migration
+    rename_post(b,a['public_slug'])
     original=t.public_get
-    t.public_get=lambda u,**kw:b.response(status=404) if u==e['old_url'] and b.posts[0]['slug']==a['public_slug'] else original(u,**kw)
+    t.public_get=lambda u,**kw:b.response(status=404) if u==e['old_url'] else original(u,**kw)
     with pytest.raises(rp.Guard,match='Old permalink'):
-        m.migrate(t,a,e)
-    assert len(b.writes)==1
-
-
-def test_migration_unknown_outcome_resumes_same_post(migration):
-    m,a,b,t,e=migration
-    original=b.request
-    first=True
-    def request(method,u,**kw):
-        nonlocal first
-        response=original(method,u,**kw)
-        if method=='POST' and first:
-            first=False
-            raise requests.Timeout('unknown migration outcome')
-        return response
-    b.request=request
-    with pytest.raises(requests.Timeout):
-        m.migrate(t,a,e)
-    assert m.migrate(t,a,e)['verified'] and len(b.writes)==1 and len(b.posts)==len(b.media)==1
+        m.verify_retired(t,a,e)
+    assert not b.writes
