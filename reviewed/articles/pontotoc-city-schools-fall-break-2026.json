@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:city-schools:2026-10-12:fall-break",
+    "ms:pontotoc:city-schools:2026-10-19:professional-development-no-students"
+  ],
+  "title": "Pontotoc City students off Oct. 12–16 and Oct. 19",
+  "excerpt": "Pontotoc City School District’s 2026–27 calendar marks Oct. 12–16 as fall-break school holidays and Oct. 19 as professional development with no students.",
+  "locality": "Pontotoc, Mississippi; Pontotoc City School District.",
+  "sources": [
+    {
+      "id": "city_calendar",
+      "url": "https://3.files.edl.io/0b21/26/06/12/165834-68063600-6b85-43b2-ba5e-09086dd31c5a.png",
+      "verification_url": "https://3.files.edl.io/0b21/26/06/12/165834-68063600-6b85-43b2-ba5e-09086dd31c5a.png",
+      "role": "event",
+      "title": "Pontotoc City School District 2026–2027 School Calendar",
+      "publisher": "Pontotoc City School District",
+      "published_at": null,
+      "verified_at": "2026-10-11T00:44:41.359990+00:00"
+    },
+    {
+      "id": "city_page",
+      "url": "https://www.pontotoc.school/apps/pages/index.jsp?uREC_ID=2129640&type=d&pREC_ID=2158209",
+      "verification_url": "https://www.pontotoc.school/apps/pages/index.jsp?uREC_ID=2129640&type=d&pREC_ID=2158209",
+      "role": "event",
+      "title": "District School Year Calendar page",
+      "publisher": "Pontotoc City School District",
+      "published_at": null,
+      "verified_at": "2026-10-11T00:44:41.359990+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc City schools have fall-break school holidays October 12–16, 2026.",
+      "source_ids": [
+        "city_calendar"
+      ],
+      "evidence": "Full official 2026–2027 School Calendar visually inspected: October 12–16 are yellow; October caption says October 12–16 Fall Break; legend says Holiday School Closed. Dates-at-a-glance repeats Fall Break: October 12–16, 2026.",
+      "date_context": "Monday, October 12 through Friday, October 16, 2026. School holiday dates only; no return date inferred.",
+      "locality": "Pontotoc, Mississippi",
+      "identities": "Pontotoc City School District; city students. No assertion about other districts or all employees.",
+      "statistics": "None asserted"
+    },
+    {
+      "id": "f2",
+      "statement": "Monday, October 19, 2026 is professional development with no students.",
+      "source_ids": [
+        "city_calendar"
+      ],
+      "evidence": "October 19 is blue in the full official calendar; October caption identifies Professional Development; blue legend explicitly states Professional Development No Students.",
+      "date_context": "Monday, October 19, 2026. No student return date or all-employee closure inferred.",
+      "locality": "Pontotoc, Mississippi",
+      "identities": "Pontotoc City School District; city students. No assertion about other districts or all employees.",
+      "statistics": "None asserted"
+    },
+    {
+      "id": "f3",
+      "statement": "The official district School Year Calendar page links to its full 2026–27 calendar, whose legend distinguishes holidays from professional-development days with no students.",
+      "source_ids": [
+        "city_page",
+        "city_calendar"
+      ],
+      "evidence": "Original district page title identifies School Year Calendar and Pontotoc City School District; linked image href/src is the exact verified city_calendar URL. Full image heading identifies 2026–2027 and legend distinguishes Holiday School Closed from Professional Development No Students. Both normal HTTPS reads returned 200 with requests TLS validation enabled.",
+      "date_context": "2026–2027 school year; upcoming October 2026 entries. Undated official pages: publication timestamps recorded as null.",
+      "locality": "Pontotoc, Mississippi",
+      "identities": "Pontotoc City School District; city students. No assertion about other districts or all employees.",
+      "statistics": "None asserted"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Families with children in Pontotoc City School District should plan for fall-break school holidays Oct. 12–16, 2026, followed by a professional-development day with no students on Monday, Oct. 19.",
+      "fact_ids": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "text": "The district’s School Year Calendar page links to the full 2026–27 calendar, which families can consult when arranging care or work schedules. Its legend distinguishes school holidays from professional-development days with no students.",
+      "fact_ids": [
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-city-schools-fall-break-2026.png",
+    "sha256": "8c049164acc1dfe17e77783f80f31599e8689d1079468bbd0edf6529ffb6d702",
+    "alt_text": "October 2026 Pontotoc City school dates: Oct. 12–16 fall-break school holidays; Monday, Oct. 19 professional development with no students.",
+    "credit": "Pontotoc News original calendar graphic",
+    "rights": "owned",
+    "rights_reference": "Original typography created for Pontotoc News on October 10, 2026 CDT with macOS Arial fonts. No source-calendar pixels, logos or third-party artwork reused."
+  },
+  "review": {
+    "reviewer": "Codex city-only nightly factual/prose review; parent publication review pending",
+    "reviewed_at": "2026-10-11T00:44:41.359990+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Parent authorized independent city-schools-only service intake and authenticated read-only dry-run for October 10, 2026 nightly scan. Publication remains subject to parent review and successful complete preflight; no WordPress writes authorized in this task."
+  }
+}
