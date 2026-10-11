@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-city-schools-fall-break-2026.json",
   "article_sha256": "14822aa7e614c94bddfd27611b396b18b0a4f0da79f26dcf035e612425089c9b",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-city-schools-fall-break-october-2026",
   "seo_review": {
     "reviewer": "Codex city-only SEO review",
