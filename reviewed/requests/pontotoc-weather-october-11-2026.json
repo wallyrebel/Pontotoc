@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-weather-october-11-2026.json",
+  "article_sha256": "54c365624fa229af17a19c7a4dd445f818e87f8ab84436bccea874db744f6ed2",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-weather-warm-week-cooler-saturday-october-11-2026",
+  "seo_review": {
+    "reviewer": "Codex weather SEO review",
+    "reviewed_at": "2026-10-11T14:07:21.900147+00:00",
+    "checks": {
+      "accurate_concise_description": true,
+      "canonical_and_source_links": true,
+      "descriptive_slug": true,
+      "meaningful_headline": true,
+      "no_keyword_stuffing": true,
+      "relevant_accessible_alt": true
+    }
+  }
+}

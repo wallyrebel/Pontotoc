@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:nws-meg:2026-10-11t111552z:week-ahead-forecast"
+  ],
+  "title": "Pontotoc forecast: Highs near 90 early this week, cooler Saturday",
+  "excerpt": "Pontotoc’s Sunday forecast calls for sunshine and highs near 90 to 92 degrees Monday through Thursday, followed by cooler weather toward Saturday.",
+  "locality": "Pontotoc, Mississippi; NWS point forecast for 34.2479,-89.0012.",
+  "sources": [
+    {
+      "id": "nws_point",
+      "url": "https://forecast.weather.gov/MapClick.php?lat=34.2479&lon=-89.0012",
+      "verification_url": "https://forecast.weather.gov/MapClick.php?lat=34.2479&lon=-89.0012",
+      "role": "event",
+      "title": "NWS Pontotoc point forecast, issued Oct. 11, 2026",
+      "publisher": "National Weather Service, Memphis forecast office",
+      "published_at": "2026-10-11T11:15:52+00:00",
+      "verified_at": "2026-10-11T14:07:21.900147+00:00"
+    },
+    {
+      "id": "nws_api",
+      "url": "https://api.weather.gov/gridpoints/MEG/82,28/forecast",
+      "verification_url": "https://api.weather.gov/gridpoints/MEG/82,28/forecast",
+      "role": "event",
+      "title": "NWS detailed forecast data for Pontotoc, Oct. 11 issuance",
+      "publisher": "National Weather Service, Memphis forecast office",
+      "published_at": "2026-10-11T11:15:52+00:00",
+      "verified_at": "2026-10-11T14:07:21.900147+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc’s Sunday morning forecast calls for sunny daytime skies through Saturday, with highs rising to 90–92°F Monday through Thursday and easing to 72°F Saturday.",
+      "source_ids": [
+        "nws_point",
+        "nws_api"
+      ],
+      "evidence": "Official full MapClick page identifies Point Forecast: Pontotoc MS, 34.24°N 89°W; Last Update 6:15 am CDT Oct 11, 2026; valid 9am Oct 11–6pm Oct 17. Local API mapping separately read: coordinates 34.2479,-89.0012 map to MEG/82,28, city Pontotoc, state MS, timezone America/Chicago. Full forecast has daytime Sunny for Oct 11–17. API updateTime 2026-10-11T11:15:52+00:00.",
+      "date_context": "Sunday Oct. 11 issuance for Oct. 11–17, 2026; all future values are forecasts.",
+      "locality": "Pontotoc, Mississippi; local point forecast, not Tupelo airport observations.",
+      "identities": "National Weather Service Memphis; Pontotoc MS forecast point. None other asserted.",
+      "statistics": "Daytime highs Sunday 87, Monday 90, Tuesday 91, Wednesday 92, Thursday 92, Friday 85, Saturday 72°F."
+    },
+    {
+      "id": "f2",
+      "statement": "Sunday, Oct. 11 is forecast sunny with a high near 87°F, west-northwest wind 5–10 mph, then mostly clear Sunday night with a low around 60°F.",
+      "source_ids": [
+        "nws_point",
+        "nws_api"
+      ],
+      "evidence": "Full MapClick detailed forecast: Today Sunny, high near 87, west northwest wind 5 to 10 mph; Tonight Mostly clear, low around 60. API periods 1–2 confirm temperature and sky values.",
+      "date_context": "Sunday Oct. 11 daytime and Sunday night into Monday morning, 2026.",
+      "locality": "Pontotoc, Mississippi; local point forecast, not Tupelo airport observations.",
+      "identities": "National Weather Service Memphis; Pontotoc MS forecast point. None other asserted.",
+      "statistics": "Forecast Sunday high 87°F; overnight low 60°F; daytime WNW wind 5–10 mph."
+    },
+    {
+      "id": "f3",
+      "statement": "Monday through Thursday are forecast sunny with highs near 90, 91, 92 and 92°F respectively.",
+      "source_ids": [
+        "nws_point",
+        "nws_api"
+      ],
+      "evidence": "Full MapClick detailed forecast: Columbus Day sunny high near 90; Tuesday sunny high near 91; Wednesday sunny high near 92; Thursday sunny high near 92. API periods 3,5,7,9 match; explicit startTime dates map Monday Oct 12 through Thursday Oct 15.",
+      "date_context": "Monday Oct. 12, Tuesday Oct. 13, Wednesday Oct. 14 and Thursday Oct. 15, 2026.",
+      "locality": "Pontotoc, Mississippi; local point forecast, not Tupelo airport observations.",
+      "identities": "National Weather Service Memphis; Pontotoc MS forecast point. None other asserted.",
+      "statistics": "Forecast highs 90,91,92,92°F respectively; no observed temperature or climatology asserted."
+    },
+    {
+      "id": "f4",
+      "statement": "Monday through Thursday nights are forecast clear or mostly clear, with lows around 60,63,63 and 62°F respectively.",
+      "source_ids": [
+        "nws_point",
+        "nws_api"
+      ],
+      "evidence": "Full MapClick detailed forecast: Monday Night Clear low60; Tuesday Night Mostly clear low63; Wednesday Night Mostly clear low63; Thursday Night Clear low62. API periods4,6,8,10 match.",
+      "date_context": "Nights beginning Monday Oct. 12 through Thursday Oct. 15, 2026.",
+      "locality": "Pontotoc, Mississippi; local point forecast, not Tupelo airport observations.",
+      "identities": "National Weather Service Memphis; Pontotoc MS forecast point. None other asserted.",
+      "statistics": "Forecast overnight lows Monday60,Tuesday63,Wednesday63,Thursday62°F."
+    },
+    {
+      "id": "f5",
+      "statement": "Friday is forecast sunny with a high near 85°F, Friday night partly cloudy with a low around 51°F, and Saturday sunny with a high near 72°F.",
+      "source_ids": [
+        "nws_point",
+        "nws_api"
+      ],
+      "evidence": "Full MapClick detailed forecast: Friday Sunny high near85; Friday Night Partly cloudy low51; Saturday Sunny high near72. API periods11–13 match and identify dates Oct16–17.",
+      "date_context": "Friday Oct. 16, Friday night and Saturday Oct. 17, 2026.",
+      "locality": "Pontotoc, Mississippi; local point forecast, not Tupelo airport observations.",
+      "identities": "National Weather Service Memphis; Pontotoc MS forecast point. None other asserted.",
+      "statistics": "Forecast Friday high85°F; Friday night low51°F; Saturday high72°F."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc is headed for a sunny stretch with afternoon temperatures climbing to around 90 degrees early this week before a cooler turn toward next weekend, according to the National Weather Service’s Sunday morning forecast.",
+      "fact_ids": [
+        "f1",
+        "f3",
+        "f5"
+      ]
+    },
+    {
+      "text": "The forecast issued at 6:15 a.m. CDT Oct. 11 calls for a high near 87 on Sunday, with west-northwest winds of 5 to 10 mph. Mostly clear skies are expected Sunday night, with a low around 60.",
+      "fact_ids": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "text": "Monday, Oct. 12, is forecast to reach about 90 degrees under sunny skies. The warming trend continues with a high near 91 on Tuesday and around 92 on both Wednesday and Thursday.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "Nights should be cooler: the forecast calls for a low around 60 Monday night, about 63 Tuesday and Wednesday nights, and 62 Thursday night. Skies are expected to remain clear or mostly clear during those overnight periods.",
+      "fact_ids": [
+        "f4"
+      ]
+    },
+    {
+      "text": "The forecast begins stepping down Friday, with a sunny afternoon and a high near 85. Friday night’s low is forecast around 51, followed by a sunny Saturday, Oct. 17, with a high near 72.",
+      "fact_ids": [
+        "f5"
+      ]
+    },
+    {
+      "text": "Those numbers reflect the weather service’s Sunday morning outlook for Pontotoc. Residents planning activities later in the week can check the latest NWS forecast as it is updated. All temperatures are in Fahrenheit.",
+      "fact_ids": [
+        "f1"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-weather-october-11-2026.png",
+    "sha256": "8bc11cf122cc5b11de10f7c1c9473e4b9a6a99931816a011a17532be901388e6",
+    "alt_text": "Pontotoc forecast highs: Monday 90°F, Tuesday 91°F, Wednesday and Thursday 92°F; cooler Saturday, Oct. 17, near 72°F.",
+    "credit": "Pontotoc News original forecast graphic",
+    "rights": "owned",
+    "rights_reference": "Original typography created for Pontotoc News on October 11, 2026 with macOS Arial fonts; no NWS logo, source pixels, or third-party artwork reused."
+  },
+  "review": {
+    "reviewer": "Codex factual and image review; parent final publication review pending",
+    "reviewed_at": "2026-10-11T14:07:21.900147+00:00",
+    "decision": "publish",
+    "checks": {
+      "coherent_prose": true,
+      "dates": true,
+      "identities": true,
+      "image_rights": true,
+      "locality": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "source_support": true,
+      "statistics": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f3",
+      "f5"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f3",
+      "f5"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized October 11, 2026 9 a.m. America/Chicago Pontotoc publication; parent supplied reviewed weather prose and authorized strict intake and authenticated dry-run. Final parent prose/image approval required before switching request to publish."
+  }
+}
