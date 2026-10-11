@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/ole-miss-beats-vanderbilt-october-10-2026.json",
   "article_sha256": "257ec0fc96fcea8613f9f3aca6c4bb3c9fda8da5a0cc57e25d58bf2bdd1afd4f",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "ole-miss-beats-vanderbilt-october-10-2026",
   "seo_review": {
     "reviewer": "Codex editorial SEO review",
