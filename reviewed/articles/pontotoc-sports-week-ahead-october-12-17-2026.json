@@ -1,0 +1,194 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:athletics:2026-10-11:weekly-schedule-october-12-17",
+    "ms:pontotoc:football:2026-10-13:amory-jh-jv",
+    "ms:pontotoc:football:2026-10-15:caledonia",
+    "ms:pontotoc:swimming:2026-10-17:state-championships"
+  ],
+  "title": "Pontotoc sports week ahead: Amory, Caledonia and state swimming",
+  "excerpt": "Pontotoc’s Oct. 12–17 sports schedule lists Tuesday football against Amory, Thursday’s home game with Caledonia and Saturday state swimming in Tupelo.",
+  "locality": "Pontotoc, Mississippi; Saturday swimming in Tupelo, Mississippi.",
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://www.facebook.com/1409956404473934/posts/1655682633234642",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7kh8MV2fT.rss",
+      "role": "event",
+      "title": "Pontotoc Athletics weekly schedule, Oct. 12–17",
+      "publisher": "Pontotoc Athletics",
+      "published_at": "2026-10-11T13:29:05+00:00",
+      "verified_at": "2026-10-11T21:12:01.770301+00:00"
+    },
+    {
+      "id": "s2",
+      "url": "https://www.pontotocathletics.com/sport/football/boys",
+      "verification_url": "https://www.pontotocathletics.com/sport/football/boys",
+      "role": "event",
+      "title": "Pontotoc varsity football schedule, 2026–27",
+      "publisher": "Pontotoc Athletics",
+      "published_at": null,
+      "verified_at": "2026-10-11T21:12:01.770301+00:00"
+    },
+    {
+      "id": "s3",
+      "url": "https://www.amoryfootball.com/middle-school-schedule",
+      "verification_url": "https://www.amoryfootball.com/middle-school-schedule",
+      "role": "event",
+      "title": "Amory middle-school football schedule",
+      "publisher": "Amory High School Football",
+      "published_at": null,
+      "verified_at": "2026-10-11T21:12:01.770301+00:00"
+    },
+    {
+      "id": "s4",
+      "url": "https://www.misshsaa.com/2026/09/30/2026-mhsaa-swim-championships/",
+      "verification_url": "https://www.misshsaa.com/2026/09/30/2026-mhsaa-swim-championships/",
+      "role": "event",
+      "title": "2026 MHSAA Swim Championships",
+      "publisher": "Mississippi High School Activities Association",
+      "published_at": null,
+      "verified_at": "2026-10-11T21:12:01.770301+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "The Oct. 11 Pontotoc Athletics weekly graphic covers Oct. 12–17 and lists Amory JH/JV football Tuesday, Caledonia football Thursday, and state swimming Saturday.",
+      "source_ids": [
+        "s1"
+      ],
+      "evidence": "Inspected actual full 720×1080 saved-feed image: headers Monday October12 through SaturdayOctober17; Tuesday JH/JV Football vs Amory; Thursday Football vs Caledonia; Saturday Swim State Championships. Exact permalink and Sun,11Oct2026 13:29:05+0000 are in the saved verification feed.",
+      "date_context": "Sunday Oct. 11, 2026 publication for Monday Oct. 12–Saturday Oct. 17.",
+      "locality": "Pontotoc, Mississippi; Saturday swimming in Tupelo, Mississippi.",
+      "identities": "Pontotoc Athletics; Amory; Caledonia. No individual athletes asserted.",
+      "statistics": "None asserted"
+    },
+    {
+      "id": "f2",
+      "statement": "Tuesday Oct. 13 JH/JV football against Amory lists 5:30, 6:30 and 7:30 p.m. without mapping those times to grades or teams. Amory’s middle-school schedule corroborates Oct. 13 at Pontotoc with a 5:30 p.m. start.",
+      "source_ids": [
+        "s1",
+        "s3"
+      ],
+      "evidence": "Source pixels show JH / JV FOOTBALL VS. AMORY 5:30 / 6:30 / 7:30 PM, with no grade-time mapping. Official Amory middle-school page: Championship Game - * AT PONTOTOC; 10/13/26, 5:30 PM; Away. No championship label or separate game type inferred for all three slots.",
+      "date_context": "Tuesday Oct. 13, 2026; times as locally listed.",
+      "locality": "Pontotoc, Mississippi; Saturday swimming in Tupelo, Mississippi.",
+      "identities": "Pontotoc junior-high/junior-varsity football; Amory middle-school schedule. None individual asserted.",
+      "statistics": "Scheduled times 5:30,6:30,7:30 p.m.; no scores or records."
+    },
+    {
+      "id": "f3",
+      "statement": "Pontotoc varsity football hosts Caledonia Thursday Oct. 15 at 7 p.m.",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "evidence": "Graphic Thursday October15 Football vs. Caledonia 7:00PM. Official Varsity Boys Football schedule expressly 2026–2027 school year: HOME 10/15 CALEDONIA PONTOTOC 7:00PM. This date was already mentioned as upcoming context in post5997; new weekly summary adds Tuesday service information.",
+      "date_context": "Thursday Oct. 15, 2026.",
+      "locality": "Pontotoc, Mississippi; Saturday swimming in Tupelo, Mississippi.",
+      "identities": "Pontotoc varsity football; Caledonia. No individual or record claims.",
+      "statistics": "None asserted"
+    },
+    {
+      "id": "f4",
+      "statement": "The graphic lists state swimming Saturday Oct. 17; MHSAA identifies Oct. 17 Class I/II championships at Tupelo Aquatic Center. Its session times differ from the school graphic, so families should verify session and arrival times with the team.",
+      "source_ids": [
+        "s1",
+        "s4"
+      ],
+      "evidence": "Source graphic SaturdayOctober17 Swim State Championships 9:00AM/4:30PM. Full official MHSAA web source: Class I & Class II October17,2026; Tupelo Aquatic Center; Saturday preliminary competition 8:50am and competition4:15pm, adjustments announced at meet. Do not resolve conflict by guessing; omit numeric swim times from public prose and graphic. Direct Python GET returned403; web full source was available and inspected. Post5943 previously mentioned Oct17/Tupelo as upcoming context.",
+      "date_context": "Saturday Oct. 17, 2026. MHSAA dated Sept. 30 URL; exact publication timestamp unavailable.",
+      "locality": "Pontotoc, Mississippi; Saturday swimming in Tupelo, Mississippi.",
+      "identities": "MHSAA; Tupelo Aquatic Center. No individual qualifiers, results or records asserted.",
+      "statistics": "None asserted"
+    },
+    {
+      "id": "f5",
+      "statement": "The school graphic lists no events Monday Oct. 12, Wednesday Oct. 14 or Friday Oct. 16; that does not establish countywide absence of events.",
+      "source_ids": [
+        "s1"
+      ],
+      "evidence": "Actual source pixels explicitly NO EVENTS in MondayOctober12, WednesdayOctober14 and FridayOctober16 rows. Scope is the Pontotoc Athletics weekly graphic, not all schools or community calendars.",
+      "date_context": "Oct. 12,14,16,2026.",
+      "locality": "Pontotoc, Mississippi; Saturday swimming in Tupelo, Mississippi.",
+      "identities": "Pontotoc Athletics weekly graphic only. None other asserted.",
+      "statistics": "None asserted"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc families have two football dates and state swimming to plan around during the week of Oct. 12–17, according to the weekly schedule Pontotoc Athletics posted Sunday. The lineup includes junior-high and junior-varsity football against Amory on Tuesday, a home varsity game against Caledonia on Thursday and state swimming on Saturday.",
+      "fact_ids": [
+        "f1",
+        "f3"
+      ]
+    },
+    {
+      "text": "Tuesday, Oct. 13, the school’s graphic lists JH/JV football against Amory at 5:30, 6:30 and 7:30 p.m. It does not assign those times to specific grades or teams. Amory’s official middle-school schedule also lists an Oct. 13 game at Pontotoc with a 5:30 p.m. start, corroborating the date, location and first listed time.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "The varsity Warriors host Caledonia on Thursday, Oct. 15, at 7 p.m. Pontotoc’s official 2026–27 varsity football schedule identifies the matchup as a home game in Pontotoc, matching the date and time on the new weekly graphic.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "Saturday, Oct. 17, is listed for state swimming. The Mississippi High School Activities Association places its Class I and Class II championships that day at the Tupelo Aquatic Center. The association’s published session times differ from those on the school’s weekly graphic, so families should verify their session and arrival times with the team before traveling.",
+      "fact_ids": [
+        "f4"
+      ]
+    },
+    {
+      "text": "The Pontotoc Athletics graphic lists no events for Monday, Oct. 12, Wednesday, Oct. 14, or Friday, Oct. 16. Those blank days apply to this school schedule; they do not mean there are no other sports or community events around Pontotoc County. Families can use the linked official schedules to check for updates during the week.",
+      "fact_ids": [
+        "f5"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-sports-week-ahead-october-12-17-2026.png",
+    "sha256": "6baf9146897c7dd57209c3902a165b37c3f20d9335ae76debd36fd19cbdde9e6",
+    "alt_text": "Pontotoc sports, Oct. 12–17: Tuesday Amory JH/JV football; Thursday Caledonia varsity football at home; Saturday state swimming in Tupelo.",
+    "credit": "Pontotoc News original schedule graphic",
+    "rights": "owned",
+    "rights_reference": "Original typography and shapes rendered for Pontotoc News October 11, 2026 using macOS Arial fonts. No third-party source pixels, logos, mascots or artwork reused."
+  },
+  "review": {
+    "reviewer": "Codex source and pixel review; parent final publication review pending",
+    "reviewed_at": "2026-10-11T21:12:01.770301+00:00",
+    "decision": "publish",
+    "checks": {
+      "coherent_prose": true,
+      "dates": true,
+      "identities": true,
+      "image_rights": true,
+      "locality": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "source_support": true,
+      "statistics": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2",
+      "f3",
+      "f4"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f3",
+      "f4"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized October 11 afternoon Pontotoc News article preparation and managed authenticated dry-run. Parent must review exact prose, digests, image and dry-run report before request mode changes to publish. No extra human approval requested."
+  }
+}

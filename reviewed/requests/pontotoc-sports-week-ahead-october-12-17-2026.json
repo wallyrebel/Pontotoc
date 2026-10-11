@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-sports-week-ahead-october-12-17-2026.json",
+  "article_sha256": "08c82e6a64292551e23ba61d643f32fbfdd319bfc129ed27b046beef940fc95d",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-sports-week-ahead-october-12-17-2026",
+  "seo_review": {
+    "reviewer": "Codex editorial SEO review",
+    "reviewed_at": "2026-10-11T21:12:01.770301+00:00",
+    "checks": {
+      "accurate_concise_description": true,
+      "canonical_and_source_links": true,
+      "descriptive_slug": true,
+      "meaningful_headline": true,
+      "no_keyword_stuffing": true,
+      "relevant_accessible_alt": true
+    }
+  }
+}
