@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:county-schools:2026-10-09:professional-development-teachers",
+    "ms:pontotoc:county-schools:2026-10-09:fall-break-students-assistants",
+    "ms:pontotoc:county-schools:2026-10-12:fall-break-teachers",
+    "ms:pontotoc:city-schools:2026-10-12:fall-break",
+    "ms:pontotoc:city-schools:2026-10-19:professional-development-no-students"
+  ],
+  "title": "Fall-break dates differ for Pontotoc county and city schools",
+  "excerpt": "County students and assistants have fall break Oct. 9–16, 2026. City schools mark Oct. 12–16 as fall-break holidays and Oct. 19 as professional development with no students.",
+  "locality": "Pontotoc, Mississippi; county and city school districts are separate.",
+  "sources": [
+    {
+      "id": "county",
+      "url": "https://www.pcsd.ms/calendar/monthly/2026/10",
+      "verification_url": "https://www.pcsd.ms/calendar/monthly/2026/10",
+      "role": "event",
+      "title": "Pontotoc County School District October 2026 calendar",
+      "publisher": "Pontotoc County School District",
+      "published_at": null,
+      "verified_at": "2026-10-11T00:37:36.260609+00:00"
+    },
+    {
+      "id": "county_event",
+      "url": "https://www.pcsd.ms/calendar/9121137/fall-break-students-assistants",
+      "verification_url": "https://www.pcsd.ms/calendar/9121137/fall-break-students-assistants",
+      "role": "event",
+      "title": "County fall break for students and assistants, October 9–16, 2026",
+      "publisher": "Pontotoc County School District",
+      "published_at": null,
+      "verified_at": "2026-10-11T00:37:36.260609+00:00"
+    },
+    {
+      "id": "city",
+      "url": "https://3.files.edl.io/0b21/26/06/12/165834-68063600-6b85-43b2-ba5e-09086dd31c5a.png",
+      "verification_url": "https://3.files.edl.io/0b21/26/06/12/165834-68063600-6b85-43b2-ba5e-09086dd31c5a.png",
+      "role": "event",
+      "title": "Pontotoc City School District 2026–2027 school calendar",
+      "publisher": "Pontotoc City School District",
+      "published_at": null,
+      "verified_at": "2026-10-11T00:37:36.260609+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "County students and assistants have fall break October 9–16, 2026.",
+      "source_ids": [
+        "county",
+        "county_event"
+      ],
+      "evidence": "Original county calendar accessible list and event page: Fall Break (Students & Assistants); Friday, October 9 - October 16. Event-page title explicitly gives 2026.",
+      "date_context": "October 9–16, 2026; all-day date range, not an hourly schedule.",
+      "locality": "Pontotoc, Mississippi",
+      "identities": "Pontotoc County School District; students and assistants, not every employee.",
+      "statistics": "None asserted"
+    },
+    {
+      "id": "f2",
+      "statement": "County teachers have fall break October 12–16, 2026; October 9 is a teachers-only PD day.",
+      "source_ids": [
+        "county"
+      ],
+      "evidence": "Original October 2026 calendar accessible list: Fall Break (Teachers), Monday, October 12 - October 16; PD Day - Teachers Only, Friday, October 9 All-Day Event.",
+      "date_context": "October 9 and October 12–16, 2026; all-day entries.",
+      "locality": "Pontotoc, Mississippi",
+      "identities": "Pontotoc County School District teachers; separate from students and assistants.",
+      "statistics": "None asserted"
+    },
+    {
+      "id": "f3",
+      "statement": "City schools mark fall-break school holidays October 12–16, 2026.",
+      "source_ids": [
+        "city"
+      ],
+      "evidence": "Full linked 2026–2027 School Calendar visually inspected. October 12–16 are yellow; October caption and dates-at-a-glance label Fall Break. Legend labels yellow Holiday School Closed.",
+      "date_context": "October 12–16, 2026; the separate monthly event spans October 12–18 including the weekend. The article reports the school-holiday dates from the annual calendar.",
+      "locality": "Pontotoc, Mississippi",
+      "identities": "Pontotoc City School District, distinct from Pontotoc County School District.",
+      "statistics": "None asserted"
+    },
+    {
+      "id": "f4",
+      "statement": "City calendar lists October 19, 2026 as professional development with no students.",
+      "source_ids": [
+        "city"
+      ],
+      "evidence": "Full official calendar graphic visually inspected: October 19 is blue, October caption says Professional Development, and legend explicitly says Professional Development No Students.",
+      "date_context": "Monday, October 19, 2026. No student return date is inferred or asserted.",
+      "locality": "Pontotoc, Mississippi",
+      "identities": "Pontotoc City School District students are off; the legend does not say all employees are off.",
+      "statistics": "None asserted"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc families planning the week of Oct. 12 should check which school district their children attend: the county and city calendars list different fall-break dates for 2026. County students and assistants are on break Oct. 9–16, while the city school calendar marks Oct. 12–16 as fall-break school holidays.",
+      "fact_ids": [
+        "f1",
+        "f3"
+      ]
+    },
+    {
+      "text": "Pontotoc County School District separates its student and staff schedules. Its October calendar lists fall break for students and assistants from Friday, Oct. 9, through Friday, Oct. 16. Teachers have a professional-development day Oct. 9 and fall break Oct. 12–16.",
+      "fact_ids": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "text": "Pontotoc City School District’s 2026–27 school calendar marks Oct. 12–16 as school holidays for fall break. It also marks Monday, Oct. 19, as a professional-development day with no students, so families should account for that additional day when planning.",
+      "fact_ids": [
+        "f3",
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-fall-break-2026.png",
+    "sha256": "39bf2a6bad513e0011bafb5cad05dc36482cb280ff8dc9b7bd2af3534c583572",
+    "alt_text": "October 2026 dates for Pontotoc County and City schools: county students and assistants Oct. 9–16; city fall break Oct. 12–16, with no students Oct. 19.",
+    "credit": "Pontotoc News original calendar graphic",
+    "rights": "owned",
+    "rights_reference": "Original typography graphic created for Pontotoc News on October 10, 2026 CDT using Arial fonts; no school logos, source-calendar pixels or third-party art reused."
+  },
+  "review": {
+    "reviewer": "Codex nightly scan factual and prose review; parent publication review pending",
+    "reviewed_at": "2026-10-11T00:37:36.260609+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f3"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f3",
+      "f4"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized October 10, 2026 7:30 p.m. CDT nightly scan. Intake and read-only dry-run only; publication remains contingent on parent review of facts, full prose and image."
+  }
+}

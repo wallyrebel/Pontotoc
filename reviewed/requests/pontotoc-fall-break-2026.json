@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-fall-break-2026.json",
+  "article_sha256": "12fe7b784831cfaca4d45faddb555cfb6bea0861707eda555a7452994280d04a",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-school-fall-break-october-2026",
+  "seo_review": {
+    "reviewer": "Codex nightly scan SEO review",
+    "reviewed_at": "2026-10-11T00:37:36.260609+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}
