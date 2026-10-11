@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "us:ncaa:football:2026-10-10:ole-miss-vanderbilt",
+    "us:ncaa:football:2026-10-17:ole-miss-missouri"
+  ],
+  "title": "Statewide sports: Ole Miss beats Vanderbilt 52–17",
+  "excerpt": "Ole Miss won 52–17 at Vanderbilt on Oct. 10, with four total touchdowns from Trinidad Chambliss. The Rebels host Missouri Oct. 17.",
+  "locality": "Statewide Mississippi college football coverage: Ole Miss road game in Nashville, Tennessee; next home game at Vaught-Hemingway Stadium.",
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://olemisssports.com/news/2026/10/10/no-9-football-cruises-past-vanderbilt-on-the-road",
+      "verification_url": "https://olemisssports.com/news/2026/10/10/no-9-football-cruises-past-vanderbilt-on-the-road",
+      "role": "event",
+      "title": "Ole Miss official Vanderbilt game recap, Oct. 10, 2026",
+      "publisher": "Ole Miss Athletics",
+      "published_at": null,
+      "verified_at": "2026-10-11T21:18:23.981218+00:00"
+    },
+    {
+      "id": "s2",
+      "url": "https://olemisssports.com/game-center/14814",
+      "verification_url": "https://olemisssports.com/game-center/14814",
+      "role": "event",
+      "title": "Ole Miss–Vanderbilt official game center, Oct. 10, 2026",
+      "publisher": "Ole Miss Athletics",
+      "published_at": null,
+      "verified_at": "2026-10-11T21:18:23.981218+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Ole Miss beat Vanderbilt 52–17 in Nashville on Saturday Oct. 10, 2026.",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "evidence": "Fresh full official recap identifies SaturdayOctober10,NashvilleTenn, FirstBank Stadium; opening paragraph OleMiss bestingVanderbilt52–17. Official gamecenter14814 identifies Football atVanderbilt on10/10/2026, OM52FinalVU17. Direct requests to both canonical source URLs returned200 without redirects.",
+      "date_context": "Completed Saturday Oct. 10, 2026 game; Sunday Oct. 11 recap coverage.",
+      "locality": "Statewide Mississippi college football coverage: Ole Miss road game in Nashville, Tennessee; next home game at Vaught-Hemingway Stadium.",
+      "identities": "Ole Miss Rebels; Vanderbilt Commodores; no local high-school game asserted.",
+      "statistics": "Final score Ole Miss52,Vanderbilt17."
+    },
+    {
+      "id": "f2",
+      "statement": "Ole Miss improved to 4–1 overall and 2–1 SEC; Vanderbilt fell to 3–3 and 0–3 SEC.",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "evidence": "Official recap opening states OleMiss(4-1,2-1SEC) andVanderbilt(3-3,0-3SEC); scorebox repeats4-1,2-1 and3-3,0-3. Gamecenter confirms overall4-1vs3-3.",
+      "date_context": "Records after Oct. 10, 2026 result.",
+      "locality": "Statewide Mississippi college football coverage: Ole Miss road game in Nashville, Tennessee; next home game at Vaught-Hemingway Stadium.",
+      "identities": "Ole Miss and Vanderbilt football teams; Southeastern Conference.",
+      "statistics": "OleMiss overall4–1/SEC2–1; Vanderbilt overall3–3/SEC0–3."
+    },
+    {
+      "id": "f3",
+      "statement": "Trinidad Chambliss completed 20 of 30 passes for 213 yards and three passing touchdowns, and also ran for a touchdown.",
+      "source_ids": [
+        "s1"
+      ],
+      "evidence": "Full original recap OffensiveLeaders: TrinidadChambliss20-of-30throughair213yards3touchdowns. Opening saysfourtotaltouchdowns; first-quarter narrative explicitlyChamblisscalledownnumberandscored. No ranking, injury, career milestone or touchdown distance asserted.",
+      "date_context": "Oct. 10, 2026 game statistics.",
+      "locality": "Statewide Mississippi college football coverage: Ole Miss road game in Nashville, Tennessee; next home game at Vaught-Hemingway Stadium.",
+      "identities": "Trinidad Chambliss, Ole Miss quarterback.",
+      "statistics": "20completions/30attempts;213passingyards;3passingTD;1rushingTD;4totalTD."
+    },
+    {
+      "id": "f4",
+      "statement": "Ole Miss led 42–3 at halftime and its defense forced four turnovers.",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "evidence": "Full official recap says took42-3leadheadingintobreak and defenseforcedfourturnovers. Gamecenter scoretable OM14+28,VU3+0 confirms42–3halftime. Conflicting fumble-return distance in other reports is omitted; no quarter-by-quarter narrative or unsupported score attribution added.",
+      "date_context": "Halftime score and full-game turnovers Oct. 10, 2026.",
+      "locality": "Statewide Mississippi college football coverage: Ole Miss road game in Nashville, Tennessee; next home game at Vaught-Hemingway Stadium.",
+      "identities": "Ole Miss football team and defense; Vanderbilt.",
+      "statistics": "42–3halftime lead;four turnovers forced."
+    },
+    {
+      "id": "f5",
+      "statement": "Ole Miss returns home to host Missouri Saturday Oct. 17 at 2:30 p.m. Central at Vaught-Hemingway Stadium.",
+      "source_ids": [
+        "s1"
+      ],
+      "evidence": "Fresh full official recap NextUp expressly OleMisswillreturnhometohostMissouri SaturdayOctober17at2:30p.m.CTinVaught-HemingwayStadium; current page football calendar and NextEvent agreeOct17Sat2:30p.m. No Missouri ranking or unsupported broadcast details used.",
+      "date_context": "Future scheduled Saturday Oct. 17, 2026; time explicitly CT (America/Chicago). Verified fresh October11.",
+      "locality": "Statewide Mississippi college football coverage: Ole Miss road game in Nashville, Tennessee; next home game at Vaught-Hemingway Stadium.",
+      "identities": "Ole Miss; Missouri; Vaught-Hemingway Stadium.",
+      "statistics": "Scheduled kickoff2:30p.m.Central; no forecast/result asserted."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Ole Miss beat Vanderbilt 52–17 on Saturday, Oct. 10, in Nashville, improving to 4–1 overall and 2–1 in the Southeastern Conference. Vanderbilt fell to 3–3 overall and 0–3 in SEC play, according to Ole Miss Athletics’ official game recap.",
+      "fact_ids": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "text": "Quarterback Trinidad Chambliss accounted for four touchdowns. He completed 20 of 30 passes for 213 yards and three touchdowns through the air, and added a rushing touchdown.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "The Rebels took a 42–3 lead into halftime. Their defense forced four turnovers during the game, according to the official recap.",
+      "fact_ids": [
+        "f4"
+      ]
+    },
+    {
+      "text": "Ole Miss returns home to host Missouri on Saturday, Oct. 17, at Vaught-Hemingway Stadium. The official recap lists kickoff at 2:30 p.m. Central.",
+      "fact_ids": [
+        "f5"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/ole-miss-beats-vanderbilt-october-10-2026.png",
+    "sha256": "36bd4ad9e6b0cfe5e3954c270e53f5894ac44d535e7caca45885c9a1753764e9",
+    "alt_text": "Final score from Nashville on October 10, 2026: Ole Miss 52, Vanderbilt 17. Original college football recap graphic.",
+    "credit": "Pontotoc News original college football score graphic",
+    "rights": "owned",
+    "rights_reference": "Original typography and shapes rendered for Pontotoc News on October11,2026 with macOS Arial fonts. Neutral team names and verified score; no scraped images, source pixels, logos, mascots or third-party artwork."
+  },
+  "review": {
+    "reviewer": "Codex factual and image review; parent final publication review pending",
+    "reviewed_at": "2026-10-11T21:18:23.981218+00:00",
+    "decision": "publish",
+    "checks": {
+      "coherent_prose": true,
+      "dates": true,
+      "identities": true,
+      "image_rights": true,
+      "locality": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "source_support": true,
+      "statistics": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f3",
+      "f5"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Parent authorized distinct October11 afternoon statewide OleMiss sports backup after blocked local candidate. Authorized bounded intake, image and managed authenticated dry-run only until parent reviews exact prose, image, digests and successful preflight. Local failed request remains untouched."
+  }
+}
