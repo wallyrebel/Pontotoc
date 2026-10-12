@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:pepa:2026-10-10:paperless-billing-reminder"
+  ],
+  "title": "PEPA highlights paperless billing and online account tools",
+  "excerpt": "PEPA’s paperless-billing reminder points customers to bill copies, payment emails and online account tools. Here is what its registration guide says.",
+  "locality": "Pontotoc, Mississippi; PEPA customer service information.",
+  "sources": [
+    {
+      "id": "pepa-paperless",
+      "role": "event",
+      "url": "https://www.facebook.com/1527354935929168/posts/1789323839732275",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7nECOb1qN.rss",
+      "title": "PEPA’s October 10 paperless-billing reminder",
+      "publisher": "Pontotoc Electric Power Association",
+      "published_at": "2026-10-10T16:26:03Z",
+      "verified_at": "2026-10-12T21:11:11.926711+00:00"
+    },
+    {
+      "id": "pepa-portal",
+      "role": "background",
+      "url": "https://pepa.com/customer-portal/",
+      "verification_url": "https://pepa.com/customer-portal/",
+      "title": "PEPA customer portal and enrollment guide",
+      "publisher": "Pontotoc Electric Power Association",
+      "published_at": null,
+      "verified_at": "2026-10-12T21:11:11.926711+00:00"
+    },
+    {
+      "id": "pepa-qa",
+      "role": "background",
+      "url": "https://pepa.com/customer-portal-qa/",
+      "verification_url": "https://pepa.com/customer-portal-qa/",
+      "title": "PEPA customer portal questions and answers",
+      "publisher": "Pontotoc Electric Power Association",
+      "published_at": null,
+      "verified_at": "2026-10-12T21:11:11.926711+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "PEPA shared an October 10 reminder about paperless billing, offering bill copies, billing history and payment email reminders.",
+      "source_ids": [
+        "pepa-paperless"
+      ],
+      "evidence": "Independently fetched saved feed identifies PEPA and pubDate Sat, 10 Oct 2026 16:26:03 +0000. Actual linked graphic independently inspected October 12: HOORAY FOR PAPERLESS BILLING; View an exact copy of your bill; Receive an email reminder to pay; View and print your past bill history; available at PEPA.COM.",
+      "date_context": "Paperless reminder published October 10, 2026, at 11:26:03 a.m. CDT (16:26:03 UTC). Undated official portal guides independently verified October 12, 2026. No claim that the service launched this month.",
+      "locality": "Pontotoc, Mississippi; PEPA customer service information.",
+      "identities": "Pontotoc Electric Power Association (PEPA).",
+      "statistics": "None asserted"
+    },
+    {
+      "id": "f2",
+      "statement": "PEPA describes paperless billing as free; this is not a statement that every online payment method is free.",
+      "source_ids": [
+        "pepa-paperless"
+      ],
+      "evidence": "Actual source graphic inspected: It’s simple, secure, and it’s FREE! within the paperless-billing promotion. No payment-fee statement appears.",
+      "date_context": "Paperless reminder published October 10, 2026, at 11:26:03 a.m. CDT (16:26:03 UTC). Undated official portal guides independently verified October 12, 2026. No claim that the service launched this month.",
+      "locality": "Pontotoc, Mississippi; PEPA customer service information.",
+      "identities": "Pontotoc Electric Power Association (PEPA).",
+      "statistics": "None asserted"
+    },
+    {
+      "id": "f3",
+      "statement": "The portal lets customers review balances and due dates, monitor utility usage and make payments.",
+      "source_ids": [
+        "pepa-portal",
+        "pepa-qa"
+      ],
+      "evidence": "Official portal guide lists monitor utility usage and payment tools; Q&A says manage utility account, check balance or due date, or pay bill, and review statements.",
+      "date_context": "Paperless reminder published October 10, 2026, at 11:26:03 a.m. CDT (16:26:03 UTC). Undated official portal guides independently verified October 12, 2026. No claim that the service launched this month.",
+      "locality": "Pontotoc, Mississippi; PEPA customer service information.",
+      "identities": "Pontotoc Electric Power Association (PEPA).",
+      "statistics": "None asserted"
+    },
+    {
+      "id": "f4",
+      "statement": "Enrollment requires the 12-digit account number printed at the top left of the bill, followed by Sign Up and completion of registration.",
+      "source_ids": [
+        "pepa-portal",
+        "pepa-qa"
+      ],
+      "evidence": "Portal guide: Have your 12-digit account number handy. It is printed on the top left of your bill. Q&A: Select Sign Up, enter the number, Continue, complete setup form, receive activation email.",
+      "date_context": "Paperless reminder published October 10, 2026, at 11:26:03 a.m. CDT (16:26:03 UTC). Undated official portal guides independently verified October 12, 2026. No claim that the service launched this month.",
+      "locality": "Pontotoc, Mississippi; PEPA customer service information.",
+      "identities": "Pontotoc Electric Power Association (PEPA).",
+      "statistics": "12-digit account number is PEPA registration guidance, not a customer count."
+    },
+    {
+      "id": "f5",
+      "statement": "Autopay enrollment is a separate portal action under Make A Payment and Enable Autopay.",
+      "source_ids": [
+        "pepa-portal"
+      ],
+      "evidence": "Official guide separately lists Autopay: log in, select Make A Payment, select Enable Autopay, complete prompts. It states bills are paid on due date after enrollment.",
+      "date_context": "Paperless reminder published October 10, 2026, at 11:26:03 a.m. CDT (16:26:03 UTC). Undated official portal guides independently verified October 12, 2026. No claim that the service launched this month.",
+      "locality": "Pontotoc, Mississippi; PEPA customer service information.",
+      "identities": "Pontotoc Electric Power Association (PEPA).",
+      "statistics": "None asserted"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc Electric Power Association is reminding customers that paperless billing offers online bill copies and billing history, along with email reminders to pay.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "In an Oct. 10 reminder, PEPA said the service lets customers view an exact copy of a bill, print billing history and receive an email reminder to pay. The utility describes paperless billing as free; that statement concerns the billing service, not a promise that every payment method carries no fee.",
+      "fact_ids": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "text": "For customers who have not registered, PEPA’s online guide says to have the 12-digit account number from the top left of the bill ready. From the customer portal linked on PEPA’s website, select “Sign Up” and follow the registration prompts. The utility’s guide says an activation email follows completion of the setup form.",
+      "fact_ids": [
+        "f4"
+      ]
+    },
+    {
+      "text": "Once registered, customers can use the portal to check a balance or due date, review statements, monitor utility usage and make payments. Those tools provide a way to check account details without a trip to the office.",
+      "fact_ids": [
+        "f3",
+        "f4"
+      ]
+    },
+    {
+      "text": "An email reminder should not be confused with enrollment in automatic payments. PEPA lists Autopay as a separate option: customers log in, choose “Make A Payment,” select “Enable Autopay” and complete the prompts. Its guide says enrolled bills are then paid on the due date.",
+      "fact_ids": [
+        "f5"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pepa-paperless-billing-2026-10-12.jpg",
+    "sha256": "6cb9d24f2f33f0e795dcf0ab3c682b68bc54eec45715b9fc9c21341a7078173c",
+    "alt_text": "Original illustration of a utility bill on a laptop beside an email reminder symbol.",
+    "credit": "Pontotoc News original illustration",
+    "rights": "owned",
+    "rights_reference": "Original typography and geometric laptop, generic utility bill and email symbol created for this article. No source art, PEPA logos, stock images, customer data or photographed people reused. Rendered directly as JPEG; actual 1600×900 pixels inspected October 12, 2026."
+  },
+  "review": {
+    "reviewer": "Assistant editorial review; parent final publication review pending",
+    "reviewed_at": "2026-10-12T21:11:11.926711+00:00",
+    "decision": "publish",
+    "checks": {
+      "coherent_prose": true,
+      "dates": true,
+      "identities": true,
+      "image_rights": true,
+      "locality": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "source_support": true,
+      "statistics": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f3"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f4"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s recurring request authorizes researched useful local articles and bounded article/image/request commits to main through the reviewed managed workflow. Parent delegated this distinct October 12 afternoon article for DRY-RUN ONLY before parent final editorial review and publication."
+  }
+}

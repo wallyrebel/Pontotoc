@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pepa-paperless-billing-2026-10-12.json",
+  "article_sha256": "f061bb3307a5920f599491edbd4bf903e6b072287ee726d0152b8d3465a5c902",
+  "mode": "dry-run",
+  "public_slug": "pepa-paperless-billing-online-account-tools",
+  "seo_review": {
+    "reviewer": "Assistant editorial review; parent final publication review pending",
+    "reviewed_at": "2026-10-12T21:11:11.926711+00:00",
+    "checks": {
+      "accurate_concise_description": true,
+      "canonical_and_source_links": true,
+      "descriptive_slug": true,
+      "meaningful_headline": true,
+      "no_keyword_stuffing": true,
+      "relevant_accessible_alt": true
+    }
+  }
+}
