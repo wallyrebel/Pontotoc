@@ -898,3 +898,22 @@ def test_site_retired_cli_refuses_old_mutation_request(site_module,site_verifier
     assert site_module.main()==1
     report=json.loads((tmp_path/'data/reviewed-audit/report.json').read_text())
     assert report['error_type']=='Guard' and 'exceeds' in report['guard_failure']
+
+
+def test_media_mime_failure_reports_bounded_read_only_reconciliation(package):
+    a, b, t = setup(package)
+    b.fail_after = 'media'
+    with pytest.raises(requests.Timeout):
+        t.run(a, apply=True)
+    b.media[0]['mime_type'] = 'image/jpeg'
+    b.writes.clear()
+    with pytest.raises(rp.Guard, match='Media identity changed') as failure:
+        t.run(a, apply=False)
+    evidence = failure.value.reconciliation
+    assert evidence['post_id'] == 10 and evidence['post_status'] == 'draft'
+    assert evidence['raw_article_matches'] and evidence['media_id'] == 20
+    assert evidence['all_status_post_count'] == evidence['all_status_media_count'] == 1
+    assert evidence['identity_checks'] == {'slug_matches': True, 'status_matches': True,
+                                           'raw_marker_matches': True, 'mime_matches': False}
+    assert evidence['reviewed_mime'] == 'image/png' and evidence['media_mime'] == 'image/jpeg'
+    assert a['body'] not in json.dumps(evidence) and not b.writes

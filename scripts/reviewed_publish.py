@@ -411,9 +411,21 @@ class Transport:
         require(len(matched) <= 1, "Ambiguous media identity")
         image = matched[0] if matched else None
         if image:
-            require(image["slug"] == slug and image["status"] == "inherit" and
-                    marker in image.get("description", {}).get("raw", "") and
-                    image.get("mime_type") == a["image"]["mime"], "Media identity changed")
+            identity_checks = {"slug_matches": image["slug"] == slug,
+                               "status_matches": image["status"] == "inherit",
+                               "raw_marker_matches": marker in image.get("description", {}).get("raw", ""),
+                               "mime_matches": image.get("mime_type") == a["image"]["mime"]}
+            if not all(identity_checks.values()):
+                failure = Guard("Media identity changed")
+                # Fixed, bounded reconciliation evidence; never export raw content or credentials.
+                failure.reconciliation = {"article_id": a["article_id"], "payload_sha256": a["payload_sha"],
+                    "post_id": post["id"] if post else None, "post_status": post["status"] if post else None,
+                    "raw_article_matches": post is not None, "media_id": image["id"],
+                    "all_status_post_count": len(posts), "all_status_media_count": len(media),
+                    "reviewed_mime": a["image"]["mime"],
+                    "media_mime": image.get("mime_type") if image.get("mime_type") in {"image/png", "image/jpeg"} else "unsupported",
+                    "identity_checks": identity_checks}
+                raise failure
             require(not any(p.get("featured_media") == image["id"] and
                             (post is None or p["id"] != post["id"]) for p in posts),
                     "Reviewed media already used by another article")
@@ -609,6 +621,8 @@ def main():
         report = {"verified": False, "error_type": type(exc).__name__}
         if isinstance(exc, Guard):
             report["guard_failure"] = str(exc)
+            if hasattr(exc, "reconciliation"):
+                report["reconciliation"] = exc.reconciliation
     out = ROOT / "data/reviewed-audit"
     out.mkdir(parents=True, exist_ok=True)
     (out / "report.json").write_text(json.dumps(report, indent=2))
