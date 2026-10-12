@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/mississippi-state-volleyball-southern-miss-soccer-october-11-2026.json",
+  "article_sha256": "503a2625ae6617eb3cb914860cb5a55193c9f67988d1deb493f420e4192756bb",
+  "mode": "dry-run",
+  "public_slug": "mississippi-state-volleyball-sweep-southern-miss-soccer-draw-october-11-2026",
+  "seo_review": {
+    "reviewer": "Codex fact-supported headline, excerpt, slug, alt and source-link review",
+    "reviewed_at": "2026-10-12T14:33:36.248847+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}

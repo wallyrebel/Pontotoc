@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:msu:volleyball:2026-10-11:south-carolina",
+    "ms:usm:womens-soccer:2026-10-11:troy"
+  ],
+  "title": "Statewide sports: Mississippi State sweeps, Southern Miss rallies for draw",
+  "excerpt": "Mississippi State stayed unbeaten at home in volleyball, while Southern Miss twice erased deficits for a 2–2 soccer draw on Oct. 11.",
+  "locality": "Statewide Mississippi university sports: volleyball in Starkville and women’s soccer in Hattiesburg. No Pontotoc player connection asserted.",
+  "sources": [
+    {
+      "id": "msu",
+      "url": "https://hailstate.com/news/2026/10/11/volleyball-bulldogs-sweep-the-gamecocks",
+      "verification_url": "https://hailstate.com/news/2026/10/11/volleyball-bulldogs-sweep-the-gamecocks",
+      "role": "event",
+      "title": "Bulldogs Sweep The Gamecocks",
+      "publisher": "Mississippi State University Athletics",
+      "published_at": null,
+      "verified_at": "2026-10-12T14:33:36.248847+00:00"
+    },
+    {
+      "id": "usm",
+      "url": "https://southernmiss.com/news/2026/10/11/womens-soccer-southern-miss-battles-back-for-senior-day-draw-with-troy",
+      "verification_url": "https://southernmiss.com/news/2026/10/11/womens-soccer-southern-miss-battles-back-for-senior-day-draw-with-troy",
+      "role": "event",
+      "title": "Southern Miss Battles Back for Senior Day Draw with Troy",
+      "publisher": "University of Southern Mississippi Athletics",
+      "published_at": null,
+      "verified_at": "2026-10-12T14:33:36.248847+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Mississippi State swept South Carolina in women’s volleyball in Starkville on Oct. 11, 2026, winning 25–21, 25–14, 25–19 and improving to 13–3 overall and 3–2 SEC.",
+      "source_ids": [
+        "msu"
+      ],
+      "evidence": "Independently fetched original HTML returned HTTP200 at the exact canonical URL. Dated Sunday October11/Starkville match header shows MississippiState13-3,3-2SEC and 3vs0; scoreboard shows SouthCarolina21,14,19 and MSU25,25,25. Recap dated October11,2026 confirms sweep.",
+      "date_context": "Completed Sunday Oct. 11, 2026 match; source displays publication date but publication timezone is not stated, so published_at is null.",
+      "locality": "Statewide Mississippi university sports: volleyball in Starkville and women’s soccer in Hattiesburg. No Pontotoc player connection asserted.",
+      "identities": "Mississippi State Bulldogs; South Carolina Gamecocks; women’s volleyball; Southeastern Conference.",
+      "statistics": "3–0; sets25–21,25–14,25–19; MSU13–3overall,3–2SEC."
+    },
+    {
+      "id": "f2",
+      "statement": "Mississippi State stayed unbeaten at home after recovering from 12–7 in the first set and 6–1 in the third set.",
+      "source_ids": [
+        "msu"
+      ],
+      "evidence": "Original recap explicitly states first-set12-7 deficit, third-set6-1 deficit and remaining undefeated at TheGriss. No individual MSU names used because narrative spelling differs from game-leader names.",
+      "date_context": "Completed Oct. 11, 2026 match and home record after match.",
+      "locality": "Statewide Mississippi university sports: volleyball in Starkville and women’s soccer in Hattiesburg. No Pontotoc player connection asserted.",
+      "identities": "Mississippi State volleyball team; no individual names asserted.",
+      "statistics": "First-set deficit12–7; third-set deficit6–1; unbeaten home record, no numerical home record asserted."
+    },
+    {
+      "id": "f3",
+      "statement": "Mississippi State outblocked South Carolina 12–6 and next visits Missouri on Wednesday, Oct. 14, 2026.",
+      "source_ids": [
+        "msu"
+      ],
+      "evidence": "Original recap says outblocking12.0-6.0 and Wednesday road match atMissouri; TeamStats block row SC6,MS12 and NextEvent card atMissouri Oct14(Wed) independently agree.",
+      "date_context": "Oct. 11 final team statistic; upcoming scheduled Oct. 14, 2026 match. No match time asserted.",
+      "locality": "Statewide Mississippi university sports: volleyball in Starkville and women’s soccer in Hattiesburg. No Pontotoc player connection asserted.",
+      "identities": "Mississippi State; South Carolina; Missouri volleyball teams.",
+      "statistics": "BlocksMSU12,SouthCarolina6; no future result asserted."
+    },
+    {
+      "id": "f4",
+      "statement": "Southern Miss women’s soccer drew Troy 2–2 in Hattiesburg on Senior Day Oct. 11, 2026, twice equalizing and earning a conference point.",
+      "source_ids": [
+        "usm"
+      ],
+      "evidence": "Independently fetched original HTML returned HTTP200 at exact canonical URL. SundayOctober11 match header and dated10/11/2026 recap show2vs2. Opening HATTIESBURG paragraph explicitly says answered a pair of deficits onSeniorDay and secured a conference point.",
+      "date_context": "Completed Sunday Oct. 11, 2026 match. Recap displays 4:52PM without explicit timezone; published_at is null rather than inferred.",
+      "locality": "Statewide Mississippi university sports: volleyball in Starkville and women’s soccer in Hattiesburg. No Pontotoc player connection asserted.",
+      "identities": "Southern Miss Golden Eagles; Troy Trojans; women’s soccer; Marshall Bell Track & Field/Soccer Complex.",
+      "statistics": "Final2–2; twice came from behind; one conference point."
+    },
+    {
+      "id": "f5",
+      "statement": "Argentina Estrada scored Southern Miss’s first equalizer after halftime; Olivia Tribolet scored the second late in the second half.",
+      "source_ids": [
+        "usm"
+      ],
+      "evidence": "Original recap names ArgentinaEstrada for first response afterhalftime and OliviaTribolet for late second equalizer. Scoring table shows Estrada49:23, TroyBrookeOgorek65:39, Tribolet83:44; names agree with PlayersMentioned. Avoid ordinal goal minutes because narrative83rd and timestamp83:44 use inconsistent conventions.",
+      "date_context": "Both goals in second half of Oct. 11, 2026 match. No ordinal minute asserted.",
+      "locality": "Statewide Mississippi university sports: volleyball in Starkville and women’s soccer in Hattiesburg. No Pontotoc player connection asserted.",
+      "identities": "Argentina Estrada and Olivia Tribolet, Southern Miss soccer players; no Pontotoc connection asserted.",
+      "statistics": "Two Southern Miss goals; one by each named scorer."
+    },
+    {
+      "id": "f6",
+      "statement": "Southern Miss finished 5–5–3 overall and 2–3–1 Sun Belt; Logan McGruder made six saves. Next match is Oct. 16 at South Alabama in Mobile at 6 p.m. Central.",
+      "source_ids": [
+        "usm"
+      ],
+      "evidence": "Original opening paragraph and match header agree5-5-3,2-3-1SBC. Goalkeeper paragraph names LoganMcGruder and sixsaves. UpNext explicitly Mobile, SouthAlabama FridayOct16 at6p.m.CT, corroborated by NextEvent card.",
+      "date_context": "Records and saves after Oct. 11 match; scheduled Friday Oct. 16, 2026, 6p.m.CT (America/Chicago).",
+      "locality": "Statewide Mississippi university sports: volleyball in Starkville and women’s soccer in Hattiesburg. No Pontotoc player connection asserted.",
+      "identities": "Southern Miss; Sun Belt Conference; goalkeeper Logan McGruder; South Alabama in Mobile, Alabama.",
+      "statistics": "5–5–3 overall;2–3–1SBC;6saves; scheduled6p.m.Central, no future result asserted."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Mississippi State protected its unbeaten home volleyball record and Southern Miss salvaged a point with a late soccer goal Sunday, Oct. 11, in two conference contests involving Mississippi universities.",
+      "fact_ids": [
+        "f1",
+        "f2",
+        "f4"
+      ]
+    },
+    {
+      "text": "In Starkville, the Bulldogs defeated South Carolina 25–21, 25–14, 25–19 to improve to 13–3 overall and 3–2 in the Southeastern Conference. They recovered from a 12–7 deficit in the opening set and a 6–1 deficit in the third to complete the sweep.",
+      "fact_ids": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "text": "Mississippi State finished with 12 blocks to South Carolina’s six. The Bulldogs’ next match is Wednesday, Oct. 14, at Missouri.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "In Hattiesburg, Southern Miss twice came from behind to tie Troy 2–2 on Senior Day. Argentina Estrada scored after halftime to erase Troy’s first lead. After the Trojans went ahead again, Olivia Tribolet supplied the equalizer late in the second half.",
+      "fact_ids": [
+        "f4",
+        "f5"
+      ]
+    },
+    {
+      "text": "The result left Southern Miss at 5–5–3 overall and 2–3–1 in the Sun Belt Conference. Goalkeeper Logan McGruder made six saves. The Golden Eagles next travel to South Alabama on Friday, Oct. 16, for a 6 p.m. Central match.",
+      "fact_ids": [
+        "f6"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/mississippi-state-volleyball-southern-miss-soccer-october-11-2026.png",
+    "sha256": "baee3de0087044b59594d3cf67e3b3d820a5a1282c88ef587d611e93be91f5ea",
+    "alt_text": "October 11, 2026 statewide sports results: Mississippi State volleyball 3–0 South Carolina; Southern Miss women’s soccer 2–2 Troy.",
+    "credit": "Pontotoc News original statewide sports score graphic",
+    "rights": "owned",
+    "rights_reference": "Original typography and geometric rules authored for Pontotoc News October12,2026 in editable Tesseract with macOS Arial fonts. No university photographs, logos, mascots, source pixels or third-party artwork. Actual rendered1600×900PNG visually inspected."
+  },
+  "review": {
+    "reviewer": "Codex independent factual and image review; parent publication approval pending",
+    "reviewed_at": "2026-10-12T14:33:36.248847+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f4",
+      "f5"
+    ],
+    "excerpt_fact_ids": [
+      "f2",
+      "f4"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Recurring user request and October12 parent delegation authorize useful verified statewide summaries when local news is sparse, bounded intake/image/request commits to main and managed authenticated dry-run. Publication mode requires parent editorial approval of exact prose, ledger, image, digests and successful Action report. Held local athletics draft and existing articles untouched."
+  }
+}
