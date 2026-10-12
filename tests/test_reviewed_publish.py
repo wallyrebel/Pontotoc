@@ -905,7 +905,7 @@ def test_media_mime_failure_reports_bounded_read_only_reconciliation(package):
     b.fail_after = 'media'
     with pytest.raises(requests.Timeout):
         t.run(a, apply=True)
-    b.media[0]['mime_type'] = 'image/jpeg'
+    b.media[0]['mime_type'] = 'image/webp'
     b.writes.clear()
     with pytest.raises(rp.Guard, match='Media identity changed') as failure:
         t.run(a, apply=False)
@@ -915,5 +915,111 @@ def test_media_mime_failure_reports_bounded_read_only_reconciliation(package):
     assert evidence['all_status_post_count'] == evidence['all_status_media_count'] == 1
     assert evidence['identity_checks'] == {'slug_matches': True, 'status_matches': True,
                                            'raw_marker_matches': True, 'mime_matches': False}
-    assert evidence['reviewed_mime'] == 'image/png' and evidence['media_mime'] == 'image/jpeg'
+    assert evidence['reviewed_mime'] == 'image/png' and evidence['media_mime'] == 'unsupported'
     assert a['body'] not in json.dumps(evidence) and not b.writes
+
+
+def converted_partial_draft(package):
+    a, b, t = setup(package)
+    b.fail_after = 'media'
+    with pytest.raises(requests.Timeout):
+        t.run(a, apply=True)
+    data = io.BytesIO()
+    with Image.open(io.BytesIO(package[2])) as original:
+        original.convert('RGB').save(data, 'JPEG', quality=95)
+    b.image = data.getvalue()
+    b.media[0]['mime_type'] = 'image/jpeg'
+    b.media[0]['source_url'] = rp.BASE + '/wp-content/uploads/reviewed.jpg'
+    b.writes.clear()
+    return a, b, t
+
+
+def test_verified_png_to_jpeg_resumes_exact_existing_draft_and_media(package):
+    a, b, t = converted_partial_draft(package)
+    report = t.run(a, apply=False)
+    assert report['verified_preflight'] and report['read_only']
+    assert report['post_id'] == 10 and report['media_id'] == 20
+    assert not report['needs_post'] and not report['needs_media'] and not b.writes
+    assert report['reconciliation']['raw_article_matches']
+    assert report['reconciliation']['raw_media_marker_matches']
+    proof = report['media_verification']
+    assert proof['reviewed_format'] == 'PNG' and proof['served_format'] == 'JPEG'
+    assert proof['png_to_jpeg_verified'] and proof['dimensions'] == [800, 450]
+    assert max(proof['mean_rgb_difference']) <= proof['pixel_tolerance'] == 6
+    assert report['served_image_sha256'] == rp.sha(b.image)
+    result = t.run(a, apply=True)
+    assert result['verified'] and result['post_id'] == 10 and result['media_id'] == 20
+    assert b.writes == [('posts/10', {'featured_media': 20}), ('posts/10', {'status': 'publish'})]
+    assert len(b.posts) == len(b.media) == 1
+
+
+@pytest.mark.parametrize('change,format,size,color,guard', [
+    ('foreign_pixels', 'JPEG', (800, 450), 'red', 'differs from reviewed'),
+    ('resized', 'JPEG', (400, 250), 'navy', 'dimensions changed'),
+    ('png_claimed_jpeg', 'PNG', (800, 450), 'navy', 'Decoded image format'),
+    ('gif_claimed_jpeg', 'GIF', (800, 450), 'navy', 'Decoded image format'),
+    ('unsupported_mime', 'WEBP', (800, 450), 'navy', 'Media identity changed'),
+])
+def test_invalid_conversion_blocks_before_any_resume_write(package, change, format, size, color, guard):
+    a, b, t = converted_partial_draft(package)
+    data = io.BytesIO()
+    Image.new('RGB', size, color).save(data, format)
+    b.image = data.getvalue()
+    if change == 'unsupported_mime':
+        b.media[0]['mime_type'] = 'image/webp'
+    with pytest.raises(rp.Guard, match=guard):
+        t.run(a, apply=True)
+    assert not b.writes and b.posts[0]['status'] == 'draft'
+    assert len(b.posts) == len(b.media) == 1
+
+
+@pytest.mark.parametrize('change', ['slug', 'marker', 'status', 'shared', 'article'])
+def test_matching_jpeg_pixels_never_bypass_identity_or_ownership(package, change):
+    a, b, t = converted_partial_draft(package)
+    if change == 'slug':
+        b.media[0]['slug'] += '-2'
+    elif change == 'marker':
+        b.media[0]['description']['raw'] = 'foreign marker'
+    elif change == 'status':
+        b.media[0]['status'] = 'trash'
+    elif change == 'shared':
+        b.posts.append({'id': 99, 'status': 'private', 'slug': 'unrelated-post',
+                        'content': {'raw': 'Other content'}, 'featured_media': 20})
+    else:
+        b.posts[0]['content']['raw'] += ' changed'
+    with pytest.raises(rp.Guard):
+        t.run(a, apply=True)
+    assert not b.writes and b.posts[0]['status'] == 'draft'
+
+
+def test_transparent_png_cannot_be_silently_flattened_to_jpeg(package):
+    path = rp.scoped_path('reviewed/assets/image.png', 'reviewed/assets')
+    Image.new('RGBA', (800, 450), (0, 0, 128, 0)).save(path, 'PNG')
+    article = json.loads(package[1].read_text())
+    article['image']['sha256'] = rp.sha(path.read_bytes())
+    package[1].write_text(json.dumps(article))
+    new_package = (article, package[1], path.read_bytes())
+    a, b, t = converted_partial_draft(new_package)
+    with pytest.raises(rp.Guard, match='transparency'):
+        t.run(a, apply=True)
+    assert not b.writes
+
+
+def test_jpeg_to_png_is_not_an_authorized_conversion(package):
+    path = rp.scoped_path('reviewed/assets/image.png', 'reviewed/assets')
+    jpeg = path.with_suffix('.jpg')
+    with Image.open(path) as original:
+        original.save(jpeg, 'JPEG', quality=95)
+    article = json.loads(package[1].read_text())
+    article['image'].update(path='reviewed/assets/image.jpg', sha256=rp.sha(jpeg.read_bytes()))
+    package[1].write_text(json.dumps(article))
+    a, b, t = setup((article, package[1], jpeg.read_bytes()))
+    b.fail_after = 'media'
+    with pytest.raises(requests.Timeout):
+        t.run(a, apply=True)
+    b.media[0]['mime_type'] = 'image/png'
+    b.image = package[2]
+    b.writes.clear()
+    with pytest.raises(rp.Guard, match='Media identity changed'):
+        t.run(a, apply=True)
+    assert not b.writes

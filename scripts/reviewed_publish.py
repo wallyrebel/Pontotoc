@@ -415,7 +415,10 @@ class Transport:
                                "status_matches": image["status"] == "inherit",
                                "raw_marker_matches": marker in image.get("description", {}).get("raw", ""),
                                "mime_matches": image.get("mime_type") == a["image"]["mime"]}
-            if not all(identity_checks.values()):
+            conversion = a["image"]["mime"] == "image/png" and image.get("mime_type") == "image/jpeg"
+            identity_matches = all(identity_checks[k] for k in
+                                   ("slug_matches", "status_matches", "raw_marker_matches"))
+            if not identity_matches or not (identity_checks["mime_matches"] or conversion):
                 failure = Guard("Media identity changed")
                 # Fixed, bounded reconciliation evidence; never export raw content or credentials.
                 failure.reconciliation = {"article_id": a["article_id"], "payload_sha256": a["payload_sha"],
@@ -432,6 +435,10 @@ class Transport:
         if post:
             require(post.get("featured_media") in {0, image["id"] if image else 0},
                     "Unexpected existing featured image")
+        if image and a["image"]["mime"] != image.get("mime_type"):
+            # A conversion is accepted only after identity/ownership and decoded-pixel checks,
+            # before any draft binding or publication write.
+            self.verify_media(a, image)
         return post, image
 
     def public(self, value):
@@ -448,17 +455,32 @@ class Transport:
                 require(s["url"] in html.unescape(response.text),
                         "Reviewed permalink missing from saved source feed")
 
-    def verify_media(self, a, image):
+    def verify_media(self, a, image, evidence=None):
         require(image.get("alt_text") == a["image"]["alt_text"], "Featured alt text mismatch")
+        formats = {"image/png": "PNG", "image/jpeg": "JPEG"}
+        converted = a["image"]["mime"] == "image/png" and image.get("mime_type") == "image/jpeg"
+        require(image.get("mime_type") == a["image"]["mime"] or converted,
+                "Unsupported served image conversion")
         source = image.get("source_url", "")
         require(source.startswith(BASE + "/wp-content/uploads/"), "Unexpected featured image origin")
         data = self.public(source).content
+        original_data = scoped_path(a["image"]["path"], "reviewed/assets").read_bytes()
+        require(sha(original_data) == a["image"]["sha256"], "Reviewed image digest changed")
         # WordPress may recompress images. Compare decoded pixels, tolerating only modest JPEG loss.
-        with Image.open(io.BytesIO(data)) as served, Image.open(scoped_path(a["image"]["path"], "reviewed/assets")) as original:
+        with Image.open(io.BytesIO(data)) as served, Image.open(io.BytesIO(original_data)) as original:
+            require(original.format == formats.get(a["image"]["mime"]) and
+                    served.format == formats.get(image.get("mime_type")), "Decoded image format mismatch")
+            if converted:
+                require(original.convert("RGBA").getchannel("A").getextrema() == (255, 255),
+                        "PNG transparency cannot be discarded by JPEG conversion")
             require(served.size == original.size, "Served image dimensions changed")
             from PIL import ImageChops, ImageStat
             difference = ImageStat.Stat(ImageChops.difference(served.convert("RGB"), original.convert("RGB")))
             require(max(difference.mean) <= 6, "Served image differs from reviewed asset")
+            if evidence is not None:
+                evidence.update({"reviewed_format": original.format, "served_format": served.format,
+                                 "png_to_jpeg_verified": converted, "dimensions": list(served.size),
+                                 "mean_rgb_difference": difference.mean, "pixel_tolerance": 6})
         return sha(data)
 
     def run(self, a, apply=False):
@@ -470,8 +492,10 @@ class Transport:
                   "media_id": image["id"] if image else None}
         slug_change = bool(post and a["public_slug"] and post["slug"] != a["public_slug"])
         if not apply:
+            media_evidence = {}
+            served_sha = None
             if image:
-                self.verify_media(a, image)
+                served_sha = self.verify_media(a, image, media_evidence)
             if post and post["status"] == "publish" and image:
                 self.verify(a, post["id"], image)
             plan = self.slug_plan(a, post) if slug_change else None
@@ -479,7 +503,12 @@ class Transport:
                     "needs_media": image is None, "requested_public_slug": a["public_slug"],
                     "existing_public_slug": post["slug"] if post else None,
                     "slug_change_required": slug_change,
-                    "url": post.get("link") if post else None, "slug_migration_plan": plan}
+                    "url": post.get("link") if post else None, "slug_migration_plan": plan,
+                    "reconciliation": {"post_status": post["status"] if post else None,
+                                       "raw_article_matches": post is not None,
+                                       "raw_media_marker_matches": image is not None,
+                                       "all_status_post_count": len(posts), "all_status_media_count": len(media)},
+                    "served_image_sha256": served_sha, "media_verification": media_evidence}
         require(not slug_change, "Existing public slug differs; reviewed migration required before publication")
         if post is None:
             require(a["public_slug"] is not None and a.get("seo_reviewed"),
