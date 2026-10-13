@@ -91,7 +91,12 @@
             "new": "Mississippi"
           }
         ]
-      }
+      },
+      "expected_before_sha256": "eef632e445a02787756f5804c11668abfc0ce42f8a7033c760274cb6e22f8cc5",
+      "append": {
+        "content": "<p><em>Correction (Oct. 13, 2026): UMMC refers to the University of Mississippi Medical Center. An earlier version incorrectly identified the institution as the University of Maryland Medical Center.</em></p>"
+      },
+      "approval_note": "Parent-approved dated factual correction note; original before/revision digest preserved."
     }
   ]
 }
