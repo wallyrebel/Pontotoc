@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/north-mississippi-friday-fire-danger-october-16-2026.json",
   "article_sha256": "3a806be3cb8e1ae26c760118ed9e2181e7fb1d895199e604e114682419562680",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "north-mississippi-friday-fire-danger-october-16-2026",
   "seo_review": {
     "reviewer": "Assistant SEO review; parent publication approval pending",
