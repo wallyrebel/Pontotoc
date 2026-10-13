@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/ecru-pumpkin-carving-contest-october-27-2026.json",
+  "article_sha256": "ae7e0d7235a66149ec868c9f7f116604b1424887d475b0325ae0f0cddc6cda74",
+  "mode": "dry-run",
+  "public_slug": "ecru-pumpkin-carving-contest-october-27-2026",
+  "seo_review": {
+    "reviewer": "Assistant editorial review; parent final publication review pending",
+    "reviewed_at": "2026-10-13T14:13:13.075680+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}

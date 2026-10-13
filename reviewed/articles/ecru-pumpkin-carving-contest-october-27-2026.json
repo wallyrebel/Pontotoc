@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:ecru:2026-10-27:pumpkin-carving-contest"
+  ],
+  "title": "Ecru pumpkin-carving contest set for Oct. 27; entries due Oct. 23",
+  "excerpt": "Ecru’s free pumpkin-carving contest is Oct. 27 at Pannell Park. Entry forms are available at City Hall, with an Oct. 23 deadline.",
+  "locality": "Ecru, Pontotoc County, Mississippi; Pannell Park on Main Street.",
+  "sources": [
+    {
+      "id": "ecru-contest",
+      "url": "https://www.facebook.com/1204361708550928/posts/1430904662563297",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7mX75E8w6.rss",
+      "role": "event",
+      "title": "Town of Ecru pumpkin carving contest announcement and flyer",
+      "publisher": "Town of Ecru",
+      "published_at": "2026-10-12T22:28:30Z",
+      "verified_at": "2026-10-13T14:13:13.075680+00:00"
+    },
+    {
+      "id": "ecru-directory",
+      "url": "https://www.mmlonline.com/members/municipalities/Ecru/",
+      "verification_url": "https://www.mmlonline.com/members/municipalities/Ecru/",
+      "role": "background",
+      "title": "Mississippi Municipal League directory: Town of Ecru",
+      "publisher": "Mississippi Municipal League",
+      "published_at": null,
+      "verified_at": "2026-10-13T14:13:13.075680+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Ecru’s free pumpkin carving contest is scheduled for Tuesday, October 27 at 5 p.m. at Pannell Park.",
+      "source_ids": [
+        "ecru-contest"
+      ],
+      "evidence": "Source flyer pixels: ECRU PUMPKIN CARVING CONTEST; Tuesday, October 27 at 5:00 PM; Pannell Park; FREE ENTRY.",
+      "date_context": "Town of Ecru post published October 12, 2026, at 22:28:30 UTC (5:28:30 p.m. CDT). Source graphic independently inspected October 13. Tuesday, October 27 aligns with the 2026 calendar; October 23 is the entry deadline. Flyer states 5 p.m. without a timezone label; understood as local Ecru time (America/Chicago). No deadline hour is asserted.",
+      "locality": "Ecru, Pontotoc County, Mississippi; Pannell Park on Main Street.",
+      "identities": "Town of Ecru; Pannell Park; Ecru City Hall. No individual participants identified.",
+      "statistics": "None asserted"
+    },
+    {
+      "id": "f2",
+      "statement": "The entry deadline is October 23, and entry forms are available at Ecru City Hall.",
+      "source_ids": [
+        "ecru-contest"
+      ],
+      "evidence": "Source flyer pixels: Entry Deadline: October 23; Entry forms available at Ecru City Hall.",
+      "date_context": "Town of Ecru post published October 12, 2026, at 22:28:30 UTC (5:28:30 p.m. CDT). Source graphic independently inspected October 13. Tuesday, October 27 aligns with the 2026 calendar; October 23 is the entry deadline. Flyer states 5 p.m. without a timezone label; understood as local Ecru time (America/Chicago). No deadline hour is asserted.",
+      "locality": "Ecru, Pontotoc County, Mississippi; Pannell Park on Main Street.",
+      "identities": "Town of Ecru; Pannell Park; Ecru City Hall. No individual participants identified.",
+      "statistics": "None asserted"
+    },
+    {
+      "id": "f3",
+      "statement": "Age divisions are children ages 5–11, teens ages 12–17 and adults ages 18 and older.",
+      "source_ids": [
+        "ecru-contest"
+      ],
+      "evidence": "Source flyer pixels: AGE DIVISIONS; Kids: Ages 5–11; Teens: Ages 12–17; Adults: Ages 18+.",
+      "date_context": "Town of Ecru post published October 12, 2026, at 22:28:30 UTC (5:28:30 p.m. CDT). Source graphic independently inspected October 13. Tuesday, October 27 aligns with the 2026 calendar; October 23 is the entry deadline. Flyer states 5 p.m. without a timezone label; understood as local Ecru time (America/Chicago). No deadline hour is asserted.",
+      "locality": "Ecru, Pontotoc County, Mississippi; Pannell Park on Main Street.",
+      "identities": "Town of Ecru; Pannell Park; Ecru City Hall. No individual participants identified.",
+      "statistics": "Eligibility age ranges 5–11, 12–17, and 18+, not participant counts."
+    },
+    {
+      "id": "f4",
+      "statement": "Participants are asked to bring pumpkins to Pannell Park for display by 5 p.m.; the town’s post places the display on Main Street.",
+      "source_ids": [
+        "ecru-contest"
+      ],
+      "evidence": "Source flyer pixels: Bring pumpkins to Pannell Park for display by 5:00 PM. Feed post text: they will be displayed at Pannell Park on Main Street!",
+      "date_context": "Town of Ecru post published October 12, 2026, at 22:28:30 UTC (5:28:30 p.m. CDT). Source graphic independently inspected October 13. Tuesday, October 27 aligns with the 2026 calendar; October 23 is the entry deadline. Flyer states 5 p.m. without a timezone label; understood as local Ecru time (America/Chicago). No deadline hour is asserted.",
+      "locality": "Ecru, Pontotoc County, Mississippi; Pannell Park on Main Street.",
+      "identities": "Town of Ecru; Pannell Park; Ecru City Hall. No individual participants identified.",
+      "statistics": "None asserted"
+    },
+    {
+      "id": "f5",
+      "statement": "Voting will take place during the Ecru Main Street Trick-or-Treat event, and the town invites people to vote for their favorite pumpkin.",
+      "source_ids": [
+        "ecru-contest"
+      ],
+      "evidence": "Source flyer pixels: Voting will take place during the Ecru Main Street Trick-or-Treat event. Feed post text: Be sure you vote for your favorite.",
+      "date_context": "Town of Ecru post published October 12, 2026, at 22:28:30 UTC (5:28:30 p.m. CDT). Source graphic independently inspected October 13. Tuesday, October 27 aligns with the 2026 calendar; October 23 is the entry deadline. Flyer states 5 p.m. without a timezone label; understood as local Ecru time (America/Chicago). No deadline hour is asserted.",
+      "locality": "Ecru, Pontotoc County, Mississippi; Pannell Park on Main Street.",
+      "identities": "Town of Ecru; Pannell Park; Ecru City Hall. No individual participants identified.",
+      "statistics": "None asserted"
+    },
+    {
+      "id": "f6",
+      "statement": "The Town of Ecru shared the contest announcement Monday, October 12, 2026.",
+      "source_ids": [
+        "ecru-contest"
+      ],
+      "evidence": "Saved Ecru feed item identifies dc:creator Town of Ecru, exact permalink post 1430904662563297, and pubDate Mon, 12 Oct 2026 22:28:30 +0000.",
+      "date_context": "October 12, 2026 is Monday; source publication is 5:28:30 p.m. CDT. Verified October 13, 2026.",
+      "locality": "Ecru, Pontotoc County, Mississippi; Pannell Park on Main Street.",
+      "identities": "Town of Ecru.",
+      "statistics": "None asserted"
+    },
+    {
+      "id": "f7",
+      "statement": "The Mississippi Municipal League lists Ecru’s physical address as 176 Main Street, business hours Monday through Friday from 8 a.m. to 5 p.m., and phone 662-489-3881.",
+      "source_ids": [
+        "ecru-directory"
+      ],
+      "evidence": "Independently fetched official directory returned direct HTTP 200. Text: Physical Address: 176 Main Street, Ecru, MS 38841; Business Hours: Monday - Friday 8:00 a.m. - 5:00 p.m.; Phone: (662) 489-3881.",
+      "date_context": "Undated directory independently verified October 13, 2026; stated ordinary business hours, not a guarantee of holiday opening or an entry deadline hour.",
+      "locality": "Ecru, Mississippi.",
+      "identities": "Town of Ecru; Mississippi Municipal League. Public municipal contact details only.",
+      "statistics": "Street number, business-hour times and public office phone are directory details, not statistical measures."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Ecru will hold a free pumpkin-carving contest Tuesday, Oct. 27, at Pannell Park on Main Street, with entries due Oct. 23. The town shared the announcement Monday, giving participants time to pick up an entry form at Ecru City Hall and prepare their pumpkins.",
+      "fact_ids": [
+        "f1",
+        "f2",
+        "f4",
+        "f6"
+      ]
+    },
+    {
+      "text": "Participants should bring their pumpkins to the park for display by 5 p.m. on Oct. 27. Voting will take place during the Ecru Main Street Trick-or-Treat event, according to the town’s contest flyer.",
+      "fact_ids": [
+        "f1",
+        "f4",
+        "f5"
+      ]
+    },
+    {
+      "text": "The flyer lists three divisions: children ages 5–11, teens ages 12–17 and adults 18 and older. Entry is free, and the town encourages visitors to vote for their favorite pumpkins.",
+      "fact_ids": [
+        "f1",
+        "f3",
+        "f5"
+      ]
+    },
+    {
+      "text": "For those picking up forms, the Mississippi Municipal League lists the Town of Ecru’s physical address as 176 Main Street and business hours as 8 a.m. to 5 p.m., Monday through Friday. The listed town phone number is 662-489-3881.",
+      "fact_ids": [
+        "f2",
+        "f7"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/ecru-pumpkin-carving-contest-october-27-2026.png",
+    "sha256": "a38e919ea51c7c59353abc7cfacc96632b8f73c8b03bb7228c55ca27fa7bdaf6",
+    "alt_text": "Original illustration of three glowing carved pumpkins for Ecru’s Oct. 27 pumpkin-carving contest.",
+    "credit": "Pontotoc News original AI-generated illustration",
+    "rights": "owned",
+    "rights_reference": "Original artwork generated for Pontotoc News with the built-in imagegen tool under the parent’s authorized original-image instruction. No source flyer, town logos, stock images or identified people reused. Illustrative pumpkins and generic autumn background do not depict the actual park or event. Actual 1672×941 opaque RGB PNG pixels independently inspected October 13, 2026."
+  },
+  "review": {
+    "reviewer": "Assistant editorial review; parent final publication review pending",
+    "reviewed_at": "2026-10-13T14:13:13.075680+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s recurring local-news publication authorization and parent’s October 13, 2026 morning delegation authorize this researched article, original image and one version-2 request on main. DRY-RUN ONLY before parent reviews exact Action report, article and image; parent authorization required to change request mode."
+  }
+}
