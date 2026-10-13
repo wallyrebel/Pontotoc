@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/north-mississippi-friday-fire-danger-october-16-2026.json",
+  "article_sha256": "3a806be3cb8e1ae26c760118ed9e2181e7fb1d895199e604e114682419562680",
+  "mode": "dry-run",
+  "public_slug": "north-mississippi-friday-fire-danger-october-16-2026",
+  "seo_review": {
+    "reviewer": "Assistant SEO review; parent publication approval pending",
+    "reviewed_at": "2026-10-13T21:13:41.722059+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}

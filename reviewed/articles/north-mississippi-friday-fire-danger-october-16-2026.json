@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:north-mississippi:nws:2026-10-16:fire-weather-outlook"
+  ],
+  "title": "NWS flags Friday fire danger in north Mississippi",
+  "excerpt": "Gusty winds, dry vegetation and lower humidity could increase fire danger Friday, Oct. 16, in north Mississippi, according to the National Weather Service.",
+  "locality": "NWS Memphis regional forecast; no county-specific probability, Pontotoc warning or current burn ban asserted.",
+  "sources": [
+    {
+      "id": "nws-afd-oct13",
+      "url": "https://api.weather.gov/products/42f5a62a-f585-454f-b7ff-fb226d0efefc",
+      "verification_url": "https://api.weather.gov/products/42f5a62a-f585-454f-b7ff-fb226d0efefc",
+      "role": "event",
+      "title": "NWS Memphis forecast discussion, October 13, 2026",
+      "publisher": "National Weather Service Memphis",
+      "published_at": "2026-10-13T12:24:00-05:00",
+      "verified_at": "2026-10-13T21:13:23.956930+00:00"
+    },
+    {
+      "id": "nws-fire-graphic",
+      "url": "https://www.facebook.com/373092268193391/posts/1531349739034299",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vdUpJ5VAA1j.rss",
+      "role": "event",
+      "title": "NWS Memphis Friday fire-weather outlook and safety advice",
+      "publisher": "National Weather Service Memphis",
+      "published_at": "2026-10-13T08:33:20+00:00",
+      "verified_at": "2026-10-13T21:13:23.956930+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "A cold front arriving Friday, October 16, 2026 could increase fire danger in northern Mississippi and the Mississippi River Delta.",
+      "source_ids": [
+        "nws-afd-oct13"
+      ],
+      "evidence": "Exact official product independently retrieved HTTP 200. Discussion issued 1224 PM CDT Tue Oct 13 2026 expects elevated fire weather Friday. FIRE WEATHER identifies northern Mississippi and the Mississippi River Delta where light to no wetting rains, elevated winds and dry fuels overlap.",
+      "date_context": "Forecast issued October 13, 2026 at 12:24 p.m. CDT; event Friday, October 16, 2026.",
+      "locality": "NWS Memphis regional forecast; no county-specific probability, Pontotoc warning or current burn ban asserted.",
+      "identities": "National Weather Service Memphis.",
+      "statistics": "None asserted."
+    },
+    {
+      "id": "f2",
+      "statement": "The regional discussion forecasts sustained winds of 15 to 25 mph with gusts above 30 mph ahead of and just behind the cold front; dry vegetation and lower humidity could aid fire spread.",
+      "source_ids": [
+        "nws-afd-oct13"
+      ],
+      "evidence": "DISCUSSION independently read: sustained winds between 15 - 25 mph with gusts above 30 mph ahead of and just behind the cold front. Dry fuels and lower humidity are linked to potential fire spread.",
+      "date_context": "October 13 forecast for Friday October 16 and frontal passage.",
+      "locality": "NWS Memphis regional forecast, not measurements or a Pontotoc-specific wind forecast.",
+      "identities": "National Weather Service Memphis.",
+      "statistics": "Regional forecast sustained winds 15–25 mph; gusts above 30 mph."
+    },
+    {
+      "id": "f3",
+      "statement": "At the time of the October 13 discussion, NWS expected a possible fire-danger statement Friday but did not anticipate Red Flag Warnings; later forecasts could change.",
+      "source_ids": [
+        "nws-afd-oct13"
+      ],
+      "evidence": "DISCUSSION says a Rangeland Fire Danger Statement may be required Friday and Red Flag Warnings are not anticipated for now. Lower relative-humidity values could enter subsequent forecasts and are worth monitoring. FIRE WEATHER currently keeps humidity above the warning threshold.",
+      "date_context": "Bounded to October 13, 12:24 p.m. CDT discussion; not a claim about subsequent alerts.",
+      "locality": "NWS Memphis regional forecast; no county-specific probability, Pontotoc warning or current burn ban asserted.",
+      "identities": "National Weather Service Memphis.",
+      "statistics": "None asserted."
+    },
+    {
+      "id": "f4",
+      "statement": "NWS safety advice is to avoid equipment that creates sparks, properly dispose of cigarettes and matches, and obey local burn bans and burn-permit requirements.",
+      "source_ids": [
+        "nws-fire-graphic"
+      ],
+      "evidence": "Exact saved feed independently retrieved HTTP 200, with post1531349739034299 and pubDate Tue, 13 Oct 2026 08:33:20 +0000. Linked 1280×720 source graphic retrieved and pixels independently inspected: bottom row advises avoiding equipment that creates sparks; obey local burn bans and only burn with a permit; properly dispose of cigarettes and matches. Footer updated Mon Oct12,2026 11:29 PM. Source art is evidence only, not reused.",
+      "date_context": "Graphic shared October13 refers to Friday October16; safety advice, not local alert.",
+      "locality": "NWS Memphis regional advice; no assertion Pontotoc has a burn ban or permit availability.",
+      "identities": "National Weather Service Memphis.",
+      "statistics": "None asserted. Source map 40–69% critical shading is west of Pontotoc and excluded from prose and illustration."
+    },
+    {
+      "id": "f5",
+      "statement": "Elevated fire danger may continue Saturday, October 17, with lighter winds than Friday.",
+      "source_ids": [
+        "nws-afd-oct13"
+      ],
+      "evidence": "FIRE WEATHER says winds relax Saturday but lower humidity leads to another day of elevated fire danger, not quite as severe as Friday.",
+      "date_context": "October13 forecast for Saturday October17,2026.",
+      "locality": "NWS Memphis regional forecast; no county-specific probability, Pontotoc warning or current burn ban asserted.",
+      "identities": "National Weather Service Memphis.",
+      "statistics": "None asserted."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "A cold front expected Friday, Oct. 16, could increase fire danger across north Mississippi, the National Weather Service in Memphis said Tuesday. Gusty winds, dry vegetation and lower humidity are the main concerns.",
+      "fact_ids": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "text": "In its 12:24 p.m. Oct. 13 forecast discussion, the office singled out northern Mississippi and the Mississippi River Delta as areas where little or no soaking rain could leave dry fuels exposed to stronger winds.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The regional forecast calls for sustained winds of 15 to 25 mph and gusts above 30 mph ahead of and just behind the front, conditions that could help fires spread.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "At the time of that discussion, forecasters said a fire-danger statement might be needed Friday but did not anticipate Red Flag Warnings. They said the outlook could change as humidity forecasts are refined.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "The Weather Service’s safety graphic advises avoiding equipment that creates sparks, properly disposing of cigarettes and matches, and observing local burn bans and burn-permit requirements.",
+      "fact_ids": [
+        "f4"
+      ]
+    },
+    {
+      "text": "Elevated fire danger could continue Saturday, Oct. 17, although winds should ease. Forecasters encouraged monitoring later updates as the late-week conditions come into clearer focus.",
+      "fact_ids": [
+        "f3",
+        "f5"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/north-mississippi-friday-fire-danger-october-16-2026.png",
+    "sha256": "acdd05a114ba9209d3209def1569a8800c7b38a3d83f6a8439d6a8e653297e26",
+    "alt_text": "Original illustration of dry grass and wind lines with a north Mississippi fire-weather outlook dated Friday, October 16, 2026.",
+    "credit": "Pontotoc News original illustration",
+    "rights": "owned",
+    "rights_reference": "Original typography and geometric grass/wind artwork created for Pontotoc News in Pillow using macOS Arial fonts. No NWS artwork, logos, map, warning seal, flames, source graphic or stock photograph reused. Actual opaque RGB 1600×900 PNG pixels independently inspected October13,2026 before final review."
+  },
+  "review": {
+    "reviewer": "Assistant editorial review; parent final publication review pending",
+    "reviewed_at": "2026-10-13T21:13:41.722059+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s authorized daily October13,2026 afternoon Pontotoc News publication and parent’s exact reviewed NWS packet authorize this distinct article, original illustration and one v2 dry-run request through the reviewed REST route. Publish mode held until parent reviews prose, image and authenticated all-status dry-run and explicitly approves mode change."
+  }
+}
