@@ -1,0 +1,97 @@
+{
+  "site": "https://pontotocnews.com",
+  "repository": "wallyrebel/Pontotoc",
+  "mode": "read-only",
+  "posts": [
+    {
+      "id": 5955,
+      "link": "https://pontotocnews.com/pontotoc-news/ummc-lactation-team-supports-new-mothers-in-breastfeeding-journey/",
+      "rendered_sha256": {
+        "title": "6024b41b8109781ae02bede5e862457500ec23777e080e0b58eb07f8c60a78f1",
+        "excerpt": "d7a3019e7adc702a78196b1f520c1705c0ae7047a90a3667b892d8113e7bd344",
+        "content": "a67b4a9ee124185684ae6780cd67eaa2b62a148b10e6008ac1bcd940fa9df768"
+      },
+      "replacements": {
+        "content": [
+          {
+            "old": "University of Maryland Medical Center",
+            "new": "University of Mississippi Medical Center",
+            "count": 1
+          }
+        ],
+        "excerpt": [
+          {
+            "old": "University of Maryland Medical Center",
+            "new": "University of Mississippi Medical Center",
+            "count": 1
+          }
+        ]
+      },
+      "sources": [
+        "https://www.facebook.com/1291582679669685/posts/1534410632053554"
+      ],
+      "meta_replacements": {
+        "_seopress_titles_title": [
+          {
+            "old": "University of Maryland Medical Center",
+            "new": "University of Mississippi Medical Center"
+          },
+          {
+            "old": "Maryland",
+            "new": "Mississippi"
+          }
+        ],
+        "_seopress_titles_desc": [
+          {
+            "old": "University of Maryland Medical Center",
+            "new": "University of Mississippi Medical Center"
+          },
+          {
+            "old": "Maryland",
+            "new": "Mississippi"
+          }
+        ],
+        "_seopress_social_fb_title": [
+          {
+            "old": "University of Maryland Medical Center",
+            "new": "University of Mississippi Medical Center"
+          },
+          {
+            "old": "Maryland",
+            "new": "Mississippi"
+          }
+        ],
+        "_seopress_social_fb_desc": [
+          {
+            "old": "University of Maryland Medical Center",
+            "new": "University of Mississippi Medical Center"
+          },
+          {
+            "old": "Maryland",
+            "new": "Mississippi"
+          }
+        ],
+        "_seopress_social_twitter_title": [
+          {
+            "old": "University of Maryland Medical Center",
+            "new": "University of Mississippi Medical Center"
+          },
+          {
+            "old": "Maryland",
+            "new": "Mississippi"
+          }
+        ],
+        "_seopress_social_twitter_desc": [
+          {
+            "old": "University of Maryland Medical Center",
+            "new": "University of Mississippi Medical Center"
+          },
+          {
+            "old": "Maryland",
+            "new": "Mississippi"
+          }
+        ]
+      }
+    }
+  ]
+}
