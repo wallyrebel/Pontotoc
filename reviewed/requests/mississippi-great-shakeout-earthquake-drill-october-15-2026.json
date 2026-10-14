@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/mississippi-great-shakeout-earthquake-drill-october-15-2026.json",
+  "article_sha256": "c4206b1a247518a964ca0eff6d2152c7fe58df157504fddb3d3293272a01b6d9",
+  "mode": "dry-run",
+  "public_slug": "mississippi-great-shakeout-earthquake-drill-october-15-2026",
+  "seo_review": {
+    "reviewer": "Assistant SEO review; final parent publication approval pending",
+    "reviewed_at": "2026-10-14T00:43:14.607906+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}

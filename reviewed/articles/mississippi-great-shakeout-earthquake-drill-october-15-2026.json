@@ -1,0 +1,216 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:statewide:mema:2026-10-15:great-shakeout"
+  ],
+  "title": "Great ShakeOut earthquake drill set for Thursday, Oct. 15",
+  "excerpt": "MEMA invites Mississippians to practice earthquake safety at 10:15 a.m. Thursday, Oct. 15. The self-led drill can take place at home, school or work.",
+  "locality": "Mississippi statewide; Pontotoc County residents included geographically in MEMA’s statewide invitation. Self-led drill; no registered local group or local gathering asserted.",
+  "sources": [
+    {
+      "id": "mema-release",
+      "url": "https://www.msema.org/news/great-shakeout-earthquake-drill-scheduled-thursday-october-15th",
+      "verification_url": "https://www.msema.org/news/great-shakeout-earthquake-drill-scheduled-thursday-october-15th",
+      "role": "event",
+      "title": "‘Great ShakeOut’ Earthquake Drill Scheduled for Thursday, October 15th",
+      "publisher": "Mississippi Emergency Management Agency",
+      "published_at": "2026-10-13T09:39:44-05:00",
+      "verified_at": "2026-10-14T00:39:26.028385+00:00"
+    },
+    {
+      "id": "mema-preparedness",
+      "url": "https://www.msema.org/prepare/types-disasters/earthquakes",
+      "verification_url": "https://www.msema.org/prepare/types-disasters/earthquakes",
+      "role": "background",
+      "title": "Earthquakes",
+      "publisher": "Mississippi Emergency Management Agency",
+      "published_at": null,
+      "verified_at": "2026-10-14T00:39:26.456709+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "MEMA called for statewide participation in the Great ShakeOut at 10:15 a.m. Thursday, October 15, 2026.",
+      "source_ids": [
+        "mema-release"
+      ],
+      "evidence": "Exact MEMA release independently retrieved with direct HTTP200. Main article displays October13,2026 and invites Mississippians to the annual Great ShakeOut Thursday, October15 at 10:15 a.m.",
+      "date_context": "MEMA release published Tuesday, October13,2026 at 09:39:44-05:00. Scheduled statewide drill Thursday, October15,2026 at 10:15 a.m. Nightly article prepared October13 America/Chicago (October14 UTC); source supplies local drill time without a separate timezone label.",
+      "locality": "Mississippi statewide; Pontotoc County residents included geographically in MEMA’s statewide invitation. Self-led drill; no registered local group or local gathering asserted.",
+      "identities": "Mississippi Emergency Management Agency.",
+      "statistics": "None asserted."
+    },
+    {
+      "id": "f2",
+      "statement": "Pontotoc County residents fall within MEMA’s invitation to Mississippians.",
+      "source_ids": [
+        "mema-release"
+      ],
+      "evidence": "MEMA’s invitation is statewide. Applying it to Pontotoc County residents is geographic application; the release reports no registered Pontotoc group or local gathering.",
+      "date_context": "MEMA release published Tuesday, October13,2026 at 09:39:44-05:00. Scheduled statewide drill Thursday, October15,2026 at 10:15 a.m. Nightly article prepared October13 America/Chicago (October14 UTC); source supplies local drill time without a separate timezone label.",
+      "locality": "Mississippi statewide; Pontotoc County residents included geographically in MEMA’s statewide invitation. Self-led drill; no registered local group or local gathering asserted.",
+      "identities": "Mississippi Emergency Management Agency.",
+      "statistics": "None asserted."
+    },
+    {
+      "id": "f3",
+      "statement": "MEMA’s release was published Tuesday, October 13, 2026, and describes a self-led drill.",
+      "source_ids": [
+        "mema-release"
+      ],
+      "evidence": "Main article displays October13,2026, a Tuesday. Independently read HTML time datetime=2026-10-13T09:39:44-05:00. Release describes the drill as self-led.",
+      "date_context": "MEMA release published Tuesday, October13,2026 at 09:39:44-05:00. Scheduled statewide drill Thursday, October15,2026 at 10:15 a.m. Nightly article prepared October13 America/Chicago (October14 UTC); source supplies local drill time without a separate timezone label.",
+      "locality": "Mississippi statewide; Pontotoc County residents included geographically in MEMA’s statewide invitation. Self-led drill; no registered local group or local gathering asserted.",
+      "identities": "Mississippi Emergency Management Agency.",
+      "statistics": "None asserted."
+    },
+    {
+      "id": "f4",
+      "statement": "MEMA describes drills in houses, workplaces, schools and public spaces and allows a drill on another day of the year.",
+      "source_ids": [
+        "mema-preparedness"
+      ],
+      "evidence": "Exact MEMA preparedness page independently retrieved with direct HTTP200. Great Shakeout section names houses, workplaces, schools and public spaces and says a drill may be held on any other day of the year.",
+      "date_context": "Undated evergreen MEMA guidance independently retrieved October13,2026 America/Chicago (October14 UTC); not a forecast or current earthquake warning.",
+      "locality": "Mississippi statewide; Pontotoc County residents included geographically in MEMA’s statewide invitation. Self-led drill; no registered local group or local gathering asserted.",
+      "identities": "Mississippi Emergency Management Agency.",
+      "statistics": "None asserted."
+    },
+    {
+      "id": "f5",
+      "statement": "Individuals and organizations can register at shakeout.org for drill-planning and preparedness information; the MEMA preparedness page supplies a registration link.",
+      "source_ids": [
+        "mema-release",
+        "mema-preparedness"
+      ],
+      "evidence": "Event release invites individuals and organizations to register online at shakeout.org and says registrants receive planning information and preparedness tips. Preparedness page links ShakeOut.org/register for families and organizations.",
+      "date_context": "MEMA release published Tuesday, October13,2026 at 09:39:44-05:00. Scheduled statewide drill Thursday, October15,2026 at 10:15 a.m. Nightly article prepared October13 America/Chicago (October14 UTC); source supplies local drill time without a separate timezone label.",
+      "locality": "Mississippi statewide; Pontotoc County residents included geographically in MEMA’s statewide invitation. Self-led drill; no registered local group or local gathering asserted.",
+      "identities": "Mississippi Emergency Management Agency.",
+      "statistics": "None asserted."
+    },
+    {
+      "id": "f6",
+      "statement": "Practice dropping, taking cover under a sturdy desk or table where possible, protecting the head and neck, and holding on until shaking stops.",
+      "source_ids": [
+        "mema-release"
+      ],
+      "evidence": "Independently read event release’s three actions: DROP to the ground; take COVER under a sturdy table or desk if possible, protecting head and neck; HOLD ON until shaking stops.",
+      "date_context": "MEMA release published Tuesday, October13,2026 at 09:39:44-05:00. Scheduled statewide drill Thursday, October15,2026 at 10:15 a.m. Nightly article prepared October13 America/Chicago (October14 UTC); source supplies local drill time without a separate timezone label. Safety guidance, not a current threat forecast.",
+      "locality": "Mississippi statewide; Pontotoc County residents included geographically in MEMA’s statewide invitation. Self-led drill; no registered local group or local gathering asserted.",
+      "identities": "Mississippi Emergency Management Agency.",
+      "statistics": "None asserted."
+    },
+    {
+      "id": "f7",
+      "statement": "MEMA recommends limited movement toward a nearby safe place, avoiding windows/glass/falling objects, and remaining indoors until shaking stops and exiting is safe.",
+      "source_ids": [
+        "mema-preparedness"
+      ],
+      "evidence": "Preparedness text recommends minimizing movement to a few steps toward nearby safety, staying away from glass/windows/objects that could fall, and staying inside until shaking stops and leaving is safe.",
+      "date_context": "Undated evergreen MEMA guidance independently retrieved October13,2026 America/Chicago (October14 UTC); not a forecast or current earthquake warning.",
+      "locality": "Mississippi statewide; Pontotoc County residents included geographically in MEMA’s statewide invitation. Self-led drill; no registered local group or local gathering asserted.",
+      "identities": "Mississippi Emergency Management Agency.",
+      "statistics": "None asserted."
+    },
+    {
+      "id": "f8",
+      "statement": "Mississippi has been affected by earthquakes in neighboring states, particularly along the New Madrid Seismic Zone.",
+      "source_ids": [
+        "mema-release"
+      ],
+      "evidence": "Event release states Mississippi has been affected by shocks originating in neighboring states, particularly along the New Madrid Seismic Zone. No local earthquake likelihood, imminent threat or earthquake prediction asserted.",
+      "date_context": "MEMA release published Tuesday, October13,2026 at 09:39:44-05:00. Scheduled statewide drill Thursday, October15,2026 at 10:15 a.m. Nightly article prepared October13 America/Chicago (October14 UTC); source supplies local drill time without a separate timezone label. Historical context, not a current threat forecast.",
+      "locality": "Mississippi statewide; Pontotoc County residents included geographically in MEMA’s statewide invitation. Self-led drill; no registered local group or local gathering asserted.",
+      "identities": "Mississippi Emergency Management Agency.",
+      "statistics": "None asserted."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc County residents can join the Great ShakeOut earthquake drill at 10:15 a.m. Thursday, Oct. 15, an opportunity to practice what to do when the ground starts shaking.",
+      "fact_ids": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "text": "The Mississippi Emergency Management Agency encouraged statewide participation in an announcement Tuesday. The exercise is self-led, and MEMA’s preparedness guidance says drills can take place in homes, workplaces, schools and public spaces.",
+      "fact_ids": [
+        "f1",
+        "f3",
+        "f4"
+      ]
+    },
+    {
+      "text": "Individuals and organizations can register at shakeout.org to receive information about planning their drill and additional earthquake preparedness tips.",
+      "fact_ids": [
+        "f5"
+      ]
+    },
+    {
+      "text": "During the drill, participants should practice dropping to the ground, taking cover under a sturdy desk or table if possible, protecting their head and neck, and holding on. In an actual earthquake, stay protected until the shaking stops.",
+      "fact_ids": [
+        "f6"
+      ]
+    },
+    {
+      "text": "MEMA’s safety guidance also advises people indoors to stay away from windows, glass and objects that could fall. Keep movement to a few steps toward a nearby safe place, and remain inside until shaking has stopped and it is safe to leave.",
+      "fact_ids": [
+        "f7"
+      ]
+    },
+    {
+      "text": "Those unable to participate Thursday can choose another day for their drill, according to MEMA. Registration and preparedness information are available through the agency’s earthquake resources page.",
+      "fact_ids": [
+        "f4",
+        "f5"
+      ]
+    },
+    {
+      "text": "The agency says Mississippi has experienced shaking from earthquakes in neighboring states, particularly along the New Madrid Seismic Zone.",
+      "fact_ids": [
+        "f8"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/mississippi-great-shakeout-earthquake-drill-october-15-2026.png",
+    "sha256": "f8f2d67b3b2b1ad83440f26efbf337ff8ff06447a397a57741c2d426f86a67dd",
+    "alt_text": "Original Mississippi Great ShakeOut graphic showing an earthquake safety drill on Thursday, October 15, 2026 at 10:15 a.m.",
+    "credit": "Pontotoc News original typography illustration",
+    "rights": "owned",
+    "rights_reference": "Original editable text and rectangle layers authored and rendered for Pontotoc News with the checksum-verified pinned Tesseract0.3.1 CLI. Local macOS Arial fonts used to render lettering; embedded-font editable source retained locally, not uploaded to the repository. No MEMA artwork, logos, disaster photograph, warning seal, stock image or third-party design reused. Actual opaque 1600×900 PNG pixels independently inspected on October13,2026 America/Chicago (October14 UTC)."
+  },
+  "review": {
+    "reviewer": "Assistant editorial review; final parent publication review pending",
+    "reviewed_at": "2026-10-14T00:43:14.607906+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f3",
+      "f4"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s explicit recurring publication authorization and parent’s October13,2026 nightly delegation authorize this worthwhile statewide MEMA service brief, original image and one bounded v2 dry-run request through the reviewed REST route. Additional article beyond today’s two verified stories; publish mode held until parent reviews exact prose, actual image and authenticated all-status preflight and approves mode change."
+  }
+}
