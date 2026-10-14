@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
   "article_path": "reviewed/articles/first-choice-bank-october-15-2026.json",
-  "article_sha256": "7f6ad8c2bb8fcb4b63b47f42ebd5026e22f56f5c5776779052e40c0802d6e3b2",
+  "article_sha256": "da6d8a6feee84bacf4a124d347879c077d0c123d7be3dc259217a10518c074da",
   "mode": "dry-run",
   "public_slug": "first-choice-bank-pontotoc-ecru-october-15-closure",
   "seo_review": {
     "reviewer": "Assistant service-copy and original-image SEO review; parent image review pending",
-    "reviewed_at": "2026-10-14T21:05:00+00:00",
+    "reviewed_at": "2026-10-14T21:14:27.135246+00:00",
     "checks": {
       "meaningful_headline": true,
       "accurate_concise_description": true,
