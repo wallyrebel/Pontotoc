@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:first-choice-bank:2026-10-15:temporary-branch-closure"
+  ],
+  "title": "First Choice Bank sets Oct. 15 closure hours in Pontotoc and Ecru",
+  "excerpt": "First Choice Bank’s two Pontotoc offices and Ecru branch will close from 10 a.m. to 12:30 p.m. Thursday. Three other branches and ATMs will remain available.",
+  "locality": "Main Office and Pontotoc Branch in Pontotoc, Mississippi; Ecru Branch in Ecru, Mississippi.",
+  "sources": [
+    {
+      "id": "bank-notice",
+      "role": "event",
+      "url": "https://www.facebook.com/1204361708550928/posts/1432651215721975",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7mX75E8w6.rss",
+      "title": "First Choice Bank closure notice shared by the Town of Ecru",
+      "publisher": "First Choice Bank, shared by the Town of Ecru",
+      "published_at": "2026-10-14T16:30:22Z",
+      "verified_at": "2026-10-14T20:59:16.714681+00:00"
+    },
+    {
+      "id": "bank-locations",
+      "role": "background",
+      "url": "https://www.firstchoice.bank/contact-us/branch-and-itm-locations/",
+      "verification_url": "https://www.firstchoice.bank/contact-us/branch-and-itm-locations/",
+      "title": "First Choice Bank branch locations and regular hours",
+      "publisher": "First Choice Bank",
+      "published_at": null,
+      "verified_at": "2026-10-14T21:01:01.820478+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "First Choice Bank’s Main Office, Pontotoc Branch and Ecru Branch will close from 10 a.m. to 12:30 p.m. Thursday, October 15, 2026. The Town of Ecru shared the notice Wednesday, October 14.",
+      "source_ids": [
+        "bank-notice"
+      ],
+      "evidence": "Full saved-feed caption names the three offices, exact date and hours. Actual 720×720 graphic pixels were inspected by the parent: First Choice Bank identity, Thursday closure and 10:00 a.m.–12:30 p.m. hours agree with the caption. This worker freshly retrieved the saved feed and confirmed the exact permalink, timestamp and service terms. The bank’s own official Facebook page shows a logged-out generic unavailable-content message, which does not distinguish privacy restrictions from removal; no independent original-post corroboration is claimed.",
+      "date_context": "Town of Ecru saved-feed post published October 14, 2026, at 11:30:22 a.m. CDT (16:30:22 UTC); caption explicitly calls the closure Thursday, October 15. Closure hours are local Mississippi time (CDT). Source graphic and caption freshly inspected October 14 afternoon. The bank’s own original post timestamp is not independently established.",
+      "locality": "Main Office and Pontotoc Branch in Pontotoc, Mississippi; Ecru Branch in Ecru, Mississippi.",
+      "identities": "First Choice Bank, identified by its name and logo in the original notice graphic and corroborated by its official branch directory. Town of Ecru is the sharing municipal page, not the bank.",
+      "statistics": "Three affected offices. The two-and-a-half-hour interval is a schedule, not a service-performance statistic."
+    },
+    {
+      "id": "f3",
+      "statement": "The Main Office is at 19 South Main Street in Pontotoc; the Pontotoc Branch is at 236 Highway 15 North; and the Ecru Branch is at 7670 Highway 15 North in Ecru.",
+      "source_ids": [
+        "bank-locations"
+      ],
+      "evidence": "Official branch directory headings and street-address lines directly identify all three offices. Mailing-address P.O. boxes are not used as visit addresses. Parent retrieved the directory; this worker also inspected the current directory in Chrome. A plain HTTP retrieval returned 403, so availability to the unchanged Action transport remains to be tested.",
+      "date_context": "Official directory has no publication date. Retrieved and checked October 14, 2026, at 2026-10-14T21:01:01.820478+00:00; independently checked in Chrome before 21:05 UTC.",
+      "locality": "Main Office and Pontotoc Branch in Pontotoc, Mississippi; Ecru Branch in Ecru, Mississippi.",
+      "identities": "First Choice Bank, identified by its name and logo in the original notice graphic and corroborated by its official branch directory. Town of Ecru is the sharing municipal page, not the bank.",
+      "statistics": "None asserted"
+    },
+    {
+      "id": "f4",
+      "statement": "First Choice Bank’s Tupelo, Southaven and Houlka branches will remain open during the temporary closure, and its ATMs will remain available 24 hours a day.",
+      "source_ids": [
+        "bank-notice"
+      ],
+      "evidence": "Both the full caption and parent-inspected original notice graphic list Tupelo, Southaven and Houlka as remaining open and ATMs as available 24/7. This worker freshly confirmed these service terms in the exact saved-feed item. The notice does not establish remote teller/ITM staffing during the closure.",
+      "date_context": "Town of Ecru saved-feed post published October 14, 2026, at 11:30:22 a.m. CDT (16:30:22 UTC); caption explicitly calls the closure Thursday, October 15. Closure hours are local Mississippi time (CDT). Source graphic and caption freshly inspected October 14 afternoon. The bank’s own original post timestamp is not independently established.",
+      "locality": "First Choice Bank branches in Tupelo, Southaven and Houlka, Mississippi; ATM availability stated bankwide.",
+      "identities": "First Choice Bank, identified by its name and logo in the original notice graphic and corroborated by its official branch directory. Town of Ecru is the sharing municipal page, not the bank.",
+      "statistics": "Three branches named as remaining open; 24/7 is the announced ATM availability, not an uptime guarantee."
+    },
+    {
+      "id": "f5",
+      "statement": "The bank’s website lists regular Monday-through-Thursday branch hours as 9 a.m. to 4:30 p.m. and the general telephone number for the three affected offices as 662-489-1631.",
+      "source_ids": [
+        "bank-locations"
+      ],
+      "evidence": "Official directory displays bank branch hours and gives 662-489-1631 beneath Main Office, Pontotoc Branch and Ecru Branch. Parent and this worker inspected the directory. ITM active teller hours are separate and are not reported as an exception to the closure.",
+      "date_context": "Undated directory freshly retrieved October 14, 2026. Regular hours are background; the October 15 temporary closure is the specific exception.",
+      "locality": "Main Office and Pontotoc Branch in Pontotoc, Mississippi; Ecru Branch in Ecru, Mississippi.",
+      "identities": "First Choice Bank, identified by its name and logo in the original notice graphic and corroborated by its official branch directory. Town of Ecru is the sharing municipal page, not the bank.",
+      "statistics": "No performance statistic; regular schedule and public business phone number only."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "First Choice Bank will temporarily close its Main Office, Pontotoc Branch and Ecru Branch from 10 a.m. to 12:30 p.m. Thursday, Oct. 15, according to a bank notice shared Wednesday by the Town of Ecru.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The affected offices are the Main Office at 19 South Main Street in Pontotoc, the Pontotoc Branch at 236 Highway 15 North and the Ecru Branch at 7670 Highway 15 North in Ecru.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "The bank’s Tupelo, Southaven and Houlka branches will remain open during the closure. Its ATMs will remain available around the clock, according to the notice.",
+      "fact_ids": [
+        "f4"
+      ]
+    },
+    {
+      "text": "First Choice Bank’s website lists regular Thursday branch hours as 9 a.m. to 4:30 p.m. The public telephone number listed for each affected office is 662-489-1631.",
+      "fact_ids": [
+        "f5"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/first-choice-bank-october-15-2026.png",
+    "sha256": "4afce5a8292f909a4fe778ed802bec1fbe42a5cd8fb161c3ae9cdd1277300005",
+    "alt_text": "Pontotoc News illustration of a clock and First Choice Bank branch closure hours: Thursday, October 15, 2026, 10 a.m. to 12:30 p.m., for Main Office, Pontotoc Branch and Ecru Branch.",
+    "credit": "Pontotoc News original illustration",
+    "rights": "owned",
+    "rights_reference": "Original 1600×900 typography and geometric clock illustration rendered locally with Pillow and macOS Arial fonts by /tmp/pontotoc-bank-2026-10-14/create_image.py. No bank logo, source artwork or stock photo reproduced. Actual pixels inspected by the preparing assistant; parent image approval pending."
+  },
+  "review": {
+    "reviewer": "Parent source/prose; assistant intake/image; source sufficiency and parent image approval pending",
+    "reviewed_at": "2026-10-14T21:05:00+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f4"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s authorized useful daily Pontotoc News articles under REVIEWED_PUBLISHING.md. Parent supplied and reviewed this bounded service-only article; parent source-sufficiency decision required before commit or managed dry-run submission, and parent actual-pixel image approval required before mode publish."
+  }
+}
