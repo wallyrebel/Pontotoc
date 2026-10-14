@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/first-choice-bank-october-15-2026.json",
   "article_sha256": "da6d8a6feee84bacf4a124d347879c077d0c123d7be3dc259217a10518c074da",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "first-choice-bank-pontotoc-ecru-october-15-closure",
   "seo_review": {
     "reviewer": "Assistant service-copy and original-image SEO review; parent image review pending",
