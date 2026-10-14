@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-absentee-voting-2026-10-14.json",
+  "article_sha256": "0dad9ab863013e28d1688a12ec83df2ef432d0bdb75b41668f944ab08f24817c",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-absentee-voting-november-election-2026",
+  "seo_review": {
+    "reviewer": "Assistant independent public-facts and image review; parent publication review pending",
+    "reviewed_at": "2026-10-14T14:13:40.452157+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}

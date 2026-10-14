@@ -1,0 +1,196 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:2026-11-03:general-election-absentee-voting",
+    "ms:pontotoc:sos:2026-10-12:absentee-ballot-report"
+  ],
+  "title": "Pontotoc County reports 82 absentee ballots returned ahead of Nov. 3 election",
+  "excerpt": "Pontotoc County’s Oct. 12 report lists 115 absentee requests. Saturday voting is Oct. 24 and 31, with in-person voting ending Oct. 31.",
+  "locality": "Pontotoc County, Mississippi; local administrative counts with statewide absentee-voting deadlines.",
+  "sources": [
+    {
+      "id": "report",
+      "url": "https://www.sos.ms.gov/news/2026-november-general-election-absentee-report-october-12",
+      "verification_url": "https://www.sos.ms.gov/news/2026-november-general-election-absentee-report-october-12",
+      "role": "event",
+      "title": "Secretary of State’s Oct. 12 absentee-voting report",
+      "publisher": "Mississippi Secretary of State",
+      "published_at": null,
+      "verified_at": "2026-10-14T14:08:49.623237+00:00"
+    },
+    {
+      "id": "county",
+      "url": "https://mcusercontent.com/c9f52743f930fd93605c3a79c/files/dbc4d142-9851-9c0b-1af5-4c45cc666dce/Absentee_Report_10_12.pdf",
+      "verification_url": "https://mcusercontent.com/c9f52743f930fd93605c3a79c/files/dbc4d142-9851-9c0b-1af5-4c45cc666dce/Absentee_Report_10_12.pdf",
+      "role": "event",
+      "title": "Oct. 12 absentee ballot statistics by county, page 2",
+      "publisher": "Mississippi Secretary of State",
+      "published_at": null,
+      "verified_at": "2026-10-14T14:08:49.623237+00:00"
+    },
+    {
+      "id": "faq",
+      "url": "https://www.sos.ms.gov/yall-vote/absentee-voting-information",
+      "verification_url": "https://www.sos.ms.gov/yall-vote/absentee-voting-information",
+      "role": "background",
+      "title": "Mississippi absentee-voting eligibility and deadlines",
+      "publisher": "Mississippi Secretary of State",
+      "published_at": null,
+      "verified_at": "2026-10-14T14:08:49.623237+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc County’s October 12, 2026 report lists 115 absentee voters/requests, 115 ballots sent and 82 ballots received for the November 3 general election.",
+      "source_ids": [
+        "county",
+        "report"
+      ],
+      "evidence": "The official release links report BP-043. Page 2 was downloaded and rendered; the Pontotoc row reads 115 / 115 / 82 / 82 / 0 / 33 under Absentee Voter Count / Ballot Sent / Ballot Received / Accepted / Rejected / Not Returned. Release defines requested as voters requesting a ballot.",
+      "date_context": "Report is dated October 12, 2026; election date printed as 11/03/2026. Release dated Monday, October 12. No exact publication/update time given, so published_at is null rather than an invented time. This is an October 12 snapshot, not an October 14 live count.",
+      "locality": "Pontotoc County, Mississippi.",
+      "identities": "Statewide Election Management System (SEMS), published by Mississippi Secretary of State. Pontotoc row is Mississippi county, not Oklahoma.",
+      "statistics": "115 requests/absentee voters; 115 sent; 82 received. These are administrative ballot counts, not votes for candidates or election results."
+    },
+    {
+      "id": "f2",
+      "statement": "Received ballots are completed absentee ballots returned to circuit clerks; the report is an administrative snapshot rather than election results.",
+      "source_ids": [
+        "report",
+        "county"
+      ],
+      "evidence": "October 12 release explicitly defines received as completed ballots returned to Circuit Clerk’s Offices, and says county officials can tabulate at the close of polls on Election Day. PDF is headed Absentee Ballot Statistics by County, not an election-results tabulation.",
+      "date_context": "Snapshot October 12, 2026, for November 3, 2026 election; no exact daily cutoff time supplied.",
+      "locality": "Mississippi reporting definitions apply to the Pontotoc County row.",
+      "identities": "Mississippi Secretary of State and county circuit clerks.",
+      "statistics": "No candidate totals or turnout percentage asserted."
+    },
+    {
+      "id": "f3",
+      "statement": "Eligible voters can vote absentee in person at county circuit clerk offices from 8 a.m. to noon on Saturday, October 24 and Saturday, October 31; October 31 is the in-person deadline.",
+      "source_ids": [
+        "faq"
+      ],
+      "evidence": "Current official FAQ question 6 states Saturday sessions on October 24 and October 31, 2026, 8:00 a.m. to noon, and October 31 deadline. Expanded browser accordion visually/readably checked. September 21 official announcement independently matches these times.",
+      "date_context": "October 24 and October 31, 2026 are Saturdays. Times are local Mississippi time, America/Chicago, CDT on those dates. No hours beyond noon October 31 asserted. FAQ has no stated publication date.",
+      "locality": "Statewide Mississippi schedule, applicable to eligible Pontotoc County voters using their county circuit clerk.",
+      "identities": "Mississippi Secretary of State; county circuit clerk offices.",
+      "statistics": "8 a.m. to noon is an office/voting window, not a statistic."
+    },
+    {
+      "id": "f4",
+      "statement": "In-person and mail absentee voting have eligibility requirements; readers should check the official FAQ or their county circuit clerk for the method they qualify for.",
+      "source_ids": [
+        "faq"
+      ],
+      "evidence": "FAQ introduction says Mississippi permits absentee voting in certain circumstances. Questions 2 and 3 list distinct eligibility groups; question 7 directs people to contact the Circuit Clerk to determine mail eligibility. No personalized eligibility determination is made.",
+      "date_context": "Current official FAQ checked October 14, 2026, before the November 3 election. Source is undated.",
+      "locality": "Mississippi, including Pontotoc County.",
+      "identities": "Mississippi Secretary of State and county circuit clerks.",
+      "statistics": "None asserted"
+    },
+    {
+      "id": "f5",
+      "statement": "Mail-in absentee ballots must be postmarked by November 3, 2026, and received by November 10, 2026, to count.",
+      "source_ids": [
+        "faq",
+        "report"
+      ],
+      "evidence": "FAQ question 9 requires a postmark on or before Election Day, November 3, 2026; question 10 says received within five business days or November 10, 2026. Both answers expanded and checked in cloud browser. October 12 release repeats November 3 postmark deadline.",
+      "date_context": "Tuesday, November 3, 2026 is Election Day and postmark deadline; Tuesday, November 10, 2026 is the stated receipt deadline. No specific mail delivery time is inferred.",
+      "locality": "Mississippi absentee voting, including Pontotoc County.",
+      "identities": "Mississippi Secretary of State and receiving circuit clerk.",
+      "statistics": "Five business days is the stated receipt window; not a mailing-time estimate."
+    },
+    {
+      "id": "f6",
+      "statement": "Voters who requested an absentee ballot can track it through My Election Day; the state elections hotline is 1-800-829-6786.",
+      "source_ids": [
+        "report"
+      ],
+      "evidence": "October 12 release links the ballot-tracking service within the My Election Day portal and lists Elections Hotline 1-800-829-6786. These are public assistance resources.",
+      "date_context": "Current October 12 release verified October 14, 2026.",
+      "locality": "Mississippi statewide assistance, including Pontotoc County.",
+      "identities": "Mississippi Secretary of State My Election Day portal and Elections Division.",
+      "statistics": "None asserted; hotline is contact information, not a statistic."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc County had 115 absentee ballot requests and 82 completed ballots returned for the Nov. 3 general election as of Oct. 12, according to a new report from the Mississippi Secretary of State. Two Saturday in-person voting sessions remain on the state’s calendar.",
+      "fact_ids": [
+        "f1",
+        "f3"
+      ]
+    },
+    {
+      "text": "The county-by-county report lists 115 ballots sent and 82 received in Pontotoc County. The Secretary of State defines received ballots as completed absentee ballots returned to circuit clerk offices. The figures are an Oct. 12 administrative snapshot, not election results.",
+      "fact_ids": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "text": "Eligible voters can vote absentee in person at their county circuit clerk’s office from 8 a.m. to noon on Saturday, Oct. 24, and Saturday, Oct. 31. The final day for in-person absentee voting is Oct. 31.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "Absentee voting is available only to voters who meet the applicable requirements, and the eligibility rules differ for voting in person and by mail. The Secretary of State’s absentee-voting FAQ and the county circuit clerk can help voters determine which process applies to them.",
+      "fact_ids": [
+        "f4"
+      ]
+    },
+    {
+      "text": "Mail-in absentee ballots must be postmarked on or before Election Day, Tuesday, Nov. 3. The state’s current FAQ says those ballots must reach the circuit clerk by Tuesday, Nov. 10, to count.",
+      "fact_ids": [
+        "f5"
+      ]
+    },
+    {
+      "text": "Voters who have requested an absentee ballot can check its status through the Secretary of State’s My Election Day portal. Questions can also be directed to the state elections hotline at 1-800-829-6786.",
+      "fact_ids": [
+        "f6"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-absentee-voting-2026-10-14.png",
+    "sha256": "3e7997598a2ebddcc2384d03f5bc82023c353e20374fa1fd7c59f7d15100b96f",
+    "alt_text": "Original ballot-envelope illustration beside October 24 and 31 calendar cards showing Saturday absentee voting from 8 a.m. to noon.",
+    "credit": "Pontotoc News original illustration",
+    "rights": "owned",
+    "rights_reference": "Original typography and geometric ballot-envelope/calendar illustration rendered locally with Pillow and Arial fonts by /tmp/pontotoc-absentee-2026-10-14/create_image.py; pixels reviewed at 1600×900. No agency artwork, seals, logos, stock photos or source graphics reproduced."
+  },
+  "review": {
+    "reviewer": "Assistant public-facts editorial review; parent publication review pending",
+    "reviewed_at": "2026-10-14T14:08:49.623237+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s authorization for reviewed useful daily articles, documented in REVIEWED_PUBLISHING.md. Parent requested this local-service packet for editorial review and managed dry run; no external publication performed by research worker."
+  }
+}
