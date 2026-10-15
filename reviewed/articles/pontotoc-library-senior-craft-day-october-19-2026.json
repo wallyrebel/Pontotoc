@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:library:2026-10-19:senior-craft-day"
+  ],
+  "title": "Pontotoc library plans free senior craft day Oct. 19",
+  "excerpt": "Pontotoc County Library will host a free senior craft day Oct. 19 at 10 a.m., with lunch and supplies provided. Reservations are requested.",
+  "locality": "Pontotoc County Library, Pontotoc, Mississippi.",
+  "sources": [
+    {
+      "id": "ecru-share",
+      "url": "https://www.facebook.com/1204361708550928/posts/1432670685720028",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7mX75E8w6.rss",
+      "role": "event",
+      "title": "Pontotoc County Library Senior Citizen Craft Day invitation, shared by Town of Ecru",
+      "publisher": "Pontotoc County Library, shared by Town of Ecru",
+      "published_at": "2026-10-14T16:52:30Z",
+      "verified_at": "2026-10-15T00:38:07.020266+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc County Library will host Senior Citizen Craft Day at 10 a.m. Monday, October 19, 2026.",
+      "source_ids": [
+        "ecru-share"
+      ],
+      "evidence": "The exact saved-feed caption says Pontotoc County Library; Monday, October 19, 2026; 10:00 AM. The linked original flyer pixels say Senior Citizen Craft Day; Monday, October 19; 10:00 AM; Pontotoc County Library. Graphic downloaded from the exact img src in that feed item, HTTP 200, 720×900 JPEG, SHA-256 e7a50555a04d1b487d8c654564ebd76cc3a09979e7ef46d5ec9cecc126303563; inspected by this preparing assistant and previously by parent.",
+      "date_context": "Monday, October 19, 2026, at 10 a.m. local Mississippi time (CDT). The saved-feed caption explicitly supplies 2026; the flyer prints Monday, October 19. October 14, 2026, 16:52:30 UTC (11:52:30 a.m. CDT) is the Town of Ecru share timestamp, not the library’s original announcement date. The original announcement date is not established. Exact saved-feed caption and its linked 720×900 JPEG were freshly retrieved and inspected October 14 evening local time (October 15 UTC).",
+      "locality": "Pontotoc County Library, Pontotoc, Mississippi.",
+      "identities": "Pontotoc County Library is the announced organizer and venue; Town of Ecru is the sharing municipal page. Senior citizens are the stated participants.",
+      "statistics": "10 a.m. start; no duration or numeric age cutoff asserted."
+    },
+    {
+      "id": "f2",
+      "statement": "Seniors will make decorative moth clips for the Halloween season.",
+      "source_ids": [
+        "ecru-share"
+      ],
+      "evidence": "The exact caption says participants will make decorative moth clips perfect for the spooky season. The inspected flyer says create your own decorative moth clips for the Spooky Season. The article’s Halloween-season wording describes that October seasonal craft; no separate Halloween event, costume activity or other context is asserted.",
+      "date_context": "Monday, October 19, 2026, at 10 a.m. local Mississippi time (CDT). The saved-feed caption explicitly supplies 2026; the flyer prints Monday, October 19. October 14, 2026, 16:52:30 UTC (11:52:30 a.m. CDT) is the Town of Ecru share timestamp, not the library’s original announcement date. The original announcement date is not established. Exact saved-feed caption and its linked 720×900 JPEG were freshly retrieved and inspected October 14 evening local time (October 15 UTC).",
+      "locality": "Pontotoc County Library, Pontotoc, Mississippi.",
+      "identities": "Pontotoc County Library is the announced organizer and venue; Town of Ecru is the sharing municipal page. Senior citizens are the stated participants.",
+      "statistics": "None asserted"
+    },
+    {
+      "id": "f3",
+      "statement": "The event is free and open to senior citizens, with lunch and supplies provided.",
+      "source_ids": [
+        "ecru-share"
+      ],
+      "evidence": "The actual linked flyer lower section reads: The event is free and open to Senior Citizens. Lunch and supplies are provided. No additional eligibility or fee condition is inferred.",
+      "date_context": "Monday, October 19, 2026, at 10 a.m. local Mississippi time (CDT). The saved-feed caption explicitly supplies 2026; the flyer prints Monday, October 19. October 14, 2026, 16:52:30 UTC (11:52:30 a.m. CDT) is the Town of Ecru share timestamp, not the library’s original announcement date. The original announcement date is not established. Exact saved-feed caption and its linked 720×900 JPEG were freshly retrieved and inspected October 14 evening local time (October 15 UTC).",
+      "locality": "Pontotoc County Library, Pontotoc, Mississippi.",
+      "identities": "Pontotoc County Library is the announced organizer and venue; Town of Ecru is the sharing municipal page. Senior citizens are the stated participants.",
+      "statistics": "Free event; no attendance count or numeric age requirement stated."
+    },
+    {
+      "id": "f4",
+      "statement": "Craft-session spaces are limited; participants can call 662-489-3960 or visit the library to sign up and reserve a place. The invitation lists no reservation deadline.",
+      "source_ids": [
+        "ecru-share"
+      ],
+      "evidence": "The inspected flyer reads Spaces are Limited! and gives Call 662-489-3960 or stop by the Pontotoc County Library to sign up and reserve your spot! The saved caption also says call or visit the library to reserve a spot. No reservation deadline is printed. This is an invitation’s reservation instruction, not confirmation that places are still available.",
+      "date_context": "Monday, October 19, 2026, at 10 a.m. local Mississippi time (CDT). The saved-feed caption explicitly supplies 2026; the flyer prints Monday, October 19. October 14, 2026, 16:52:30 UTC (11:52:30 a.m. CDT) is the Town of Ecru share timestamp, not the library’s original announcement date. The original announcement date is not established. Exact saved-feed caption and its linked 720×900 JPEG were freshly retrieved and inspected October 14 evening local time (October 15 UTC).",
+      "locality": "Pontotoc County Library, Pontotoc, Mississippi.",
+      "identities": "Pontotoc County Library is the announced organizer and venue; Town of Ecru is the sharing municipal page. Senior citizens are the stated participants.",
+      "statistics": "No number of places or reservation deadline announced. No current seat availability claimed."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc County Library will host a free Senior Citizen Craft Day at 10 a.m. Monday, Oct. 19, with lunch and supplies provided for participants.",
+      "fact_ids": [
+        "f1",
+        "f3"
+      ]
+    },
+    {
+      "text": "Seniors will make decorative moth clips for the Halloween season, according to the library invitation shared by the Town of Ecru.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Spaces are limited. To sign up and reserve a place, call 662-489-3960 or stop by the library. The invitation does not list a reservation deadline.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-library-senior-craft-day-october-19-2026.png",
+    "sha256": "02d25ee626ab16d024cec5db776e8bbb41ec8bb2b2f5647420fd1b1d5065753a",
+    "alt_text": "Pontotoc News illustration of an open book with stitched binding beside Senior Craft Day details: October 19, 2026, 10 a.m.; free, with lunch and supplies provided.",
+    "credit": "Pontotoc News original illustration",
+    "rights": "owned",
+    "rights_reference": "Original 1600×900 typography, open-book and stitch geometry rendered locally with Pillow and macOS Arial fonts by /tmp/pontotoc-senior-craft-2026-10-14/create_image.py. No flyer photos, logos or source artwork reused. Actual pixels inspected by preparing assistant; parent pixel approval pending."
+  },
+  "review": {
+    "reviewer": "Parent scoped-copy approval; assistant source/image/intake review; parent final review pending",
+    "reviewed_at": "2026-10-15T00:40:02.869402+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f3"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f3",
+      "f4"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s useful daily and warranted nightly Pontotoc News publication authorization under REVIEWED_PUBLISHING.md. Parent authorized this newly scoped senior-craft-only article and bounded dry-run submission after exact saved-feed caption and original flyer inspection. Final parent editorial and actual-pixel image approval required before mode publish."
+  }
+}

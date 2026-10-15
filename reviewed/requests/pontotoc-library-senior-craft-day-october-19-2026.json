@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-library-senior-craft-day-october-19-2026.json",
+  "article_sha256": "0e7ee9912588be28889c9baab11727b0c8e01d2eecd73b666846b8d8dc81f47d",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-library-senior-craft-day-october-19-2026",
+  "seo_review": {
+    "reviewer": "Assistant source-supported copy and original-image SEO review; parent pixel review pending",
+    "reviewed_at": "2026-10-15T00:40:02.869402+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}
