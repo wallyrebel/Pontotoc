@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:football:2026-10-15:caledonia"
+  ],
+  "title": "Pontotoc hosts Caledonia tonight in Region 1-5A matchup",
+  "excerpt": "The Warriors and Cavaliers enter Thursday’s 7 p.m. game at Tommy Morton Field with 1–0 region records.",
+  "locality": "Tommy Morton Field, Pontotoc, Mississippi; Pontotoc hosts Caledonia.",
+  "sources": [
+    {
+      "id": "game",
+      "url": "https://www.facebook.com/1409956404473934/posts/1660402616095977",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7kh8MV2fT.rss",
+      "role": "event",
+      "title": "Caledonia at Pontotoc game-day graphic, October 15",
+      "publisher": "Pontotoc Athletics",
+      "published_at": "2026-10-15T19:46:36+00:00",
+      "verified_at": "2026-10-15T21:06:04.476779+00:00"
+    },
+    {
+      "id": "standings",
+      "url": "https://www.facebook.com/1409956404473934/posts/1660146679454904",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7kh8MV2fT.rss",
+      "role": "event",
+      "title": "Division 1-5A standings graphic, October 15, 2026",
+      "publisher": "Pontotoc Athletics",
+      "published_at": "2026-10-15T14:40:41+00:00",
+      "verified_at": "2026-10-15T21:06:05.238232+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc hosts Caledonia at 7 p.m. Thursday, October 15, 2026, at Tommy Morton Field.",
+      "source_ids": [
+        "game",
+        "standings"
+      ],
+      "evidence": "Both exact original Facebook permalinks occur once in the configured official Athletics RSS feed, which returned HTTP 200. The game-day image linked by its exact item returned HTTP 200; its actual pixels were inspected and read CALEDONIA AT PONTOTOC, 7 PM, THURSDAY OCTOBER 15, and TOMMY MORTON FIELD. The standings image independently confirms Caledonia @ Pontotoc and the 2026 date. Original Facebook graphics are evidence only and are not reused.",
+      "date_context": "The game-day graphic says Thursday, October 15, 7 PM; the standings graphic explicitly says October 15, 2026. Both exact official Athletics feed items were published October 15, 2026 UTC and local CDT. Kickoff is the posted local time in Pontotoc (America/Chicago). No date or kickoff time is assigned to the other teams’ next games.",
+      "locality": "Tommy Morton Field, Pontotoc, Mississippi; Pontotoc hosts Caledonia.",
+      "identities": "Pontotoc Warriors and Caledonia Cavaliers are the football teams. Pontotoc Athletics is the official source. New Hope, Columbus, Lafayette and West Point are the teams listed in the same standings graphic.",
+      "statistics": "7 p.m. is the advertised local kickoff; no ticket price, broadcast, forecast or result is asserted."
+    },
+    {
+      "id": "f2",
+      "statement": "Pontotoc enters 5–1 overall and 1–0 in Region 1-5A; Caledonia enters 3–3 overall and 1–0 in the region. Each is seeking its second region victory.",
+      "source_ids": [
+        "standings"
+      ],
+      "evidence": "The exact standings item’s linked image returned HTTP 200 and its actual pixels were inspected. The DIVISION 1-5A STANDINGS graphic dated OCTOBER 15, 2026 lists Pontotoc division record 1-0, overall 5-1, next opponent vs. Caledonia; Caledonia division record 1-0, overall 3-3, next opponent @ Pontotoc. Region 1-5A is the article’s approved description of that grouping. A second region victory follows arithmetically from one existing region win, without a postseason or clinching claim.",
+      "date_context": "The game-day graphic says Thursday, October 15, 7 PM; the standings graphic explicitly says October 15, 2026. Both exact official Athletics feed items were published October 15, 2026 UTC and local CDT. Kickoff is the posted local time in Pontotoc (America/Chicago). No date or kickoff time is assigned to the other teams’ next games.",
+      "locality": "Tommy Morton Field, Pontotoc, Mississippi; Pontotoc hosts Caledonia.",
+      "identities": "Pontotoc Warriors and Caledonia Cavaliers are the football teams. Pontotoc Athletics is the official source. New Hope, Columbus, Lafayette and West Point are the teams listed in the same standings graphic.",
+      "statistics": "Pontotoc 5–1 overall, Caledonia 3–3 overall, both 1–0 region. The graphic’s record columns are not interchanged."
+    },
+    {
+      "id": "f3",
+      "statement": "Pontotoc, Caledonia and New Hope won their region openers. New Hope is scheduled to visit Columbus, and Lafayette is scheduled to host West Point.",
+      "source_ids": [
+        "standings"
+      ],
+      "evidence": "The actual October 15 standings graphic lists Pontotoc, New Hope and Caledonia each 1-0 in its Division Record column, so each has won its one completed region game. Its Next Opponent column lists New Hope @ Columbus and Lafayette vs. West Point, with matching Columbus vs. New Hope and West Point @ Lafayette rows. The article attributes these next fixtures to the graphic without assigning their dates.",
+      "date_context": "The game-day graphic says Thursday, October 15, 7 PM; the standings graphic explicitly says October 15, 2026. Both exact official Athletics feed items were published October 15, 2026 UTC and local CDT. Kickoff is the posted local time in Pontotoc (America/Chicago). No date or kickoff time is assigned to the other teams’ next games.",
+      "locality": "Tommy Morton Field, Pontotoc, Mississippi; Pontotoc hosts Caledonia.",
+      "identities": "Pontotoc Warriors and Caledonia Cavaliers are the football teams. Pontotoc Athletics is the official source. New Hope, Columbus, Lafayette and West Point are the teams listed in the same standings graphic.",
+      "statistics": "Each 1–0 row represents one region win and zero region losses; no ranking, tiebreaker, playoff or clinching statement is inferred."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc will host Caledonia at 7 p.m. Thursday, Oct. 15, at Tommy Morton Field, with both teams looking for their second Region 1-5A victory.",
+      "fact_ids": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "text": "The Warriors enter the game 5–1 overall and 1–0 in region play. Caledonia is 3–3 overall and also 1–0 in the region, according to standings posted Thursday by Pontotoc Athletics.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Pontotoc, Caledonia and New Hope each won their region opener. New Hope is scheduled to visit Columbus, while Lafayette hosts West Point, the athletics department’s Oct. 15 standings graphic shows.",
+      "fact_ids": [
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-caledonia-football-october-15-2026.png",
+    "sha256": "f2e384b70204bcc5cb1e7e5f2ebbd807f8d3a149c967447d41309effcfbe02c0",
+    "alt_text": "Original Pontotoc News graphic for Caledonia at Pontotoc, Thursday, Oct. 15, 2026 at 7 p.m. at Tommy Morton Field.",
+    "credit": "Pontotoc News original illustration",
+    "rights": "owned",
+    "rights_reference": "Original 1200×675 typography and geometric football/field illustration rendered locally with Pillow and macOS Arial fonts by /tmp/pontotoc-football-2026-10-15/create_image.py. No team logos, photographs, player likenesses or source artwork reused. Actual pixels inspected by preparing assistant; parent final pixel approval pending."
+  },
+  "review": {
+    "reviewer": "Assistant source, record, date and original-image review; parent final review pending",
+    "reviewed_at": "2026-10-15T21:11:35.059301+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s daily Pontotoc News plan under REVIEWED_PUBLISHING.md. Parent approved this distinct same-day preview and exact three paragraphs for bounded preparation, offline tests and managed dry-run. Existing Caledonia event key retained for exhaustive authenticated dedupe, including the earlier dry-run weekly summary. Prior recap remains unchanged. Final parent editorial and actual-pixel image approval required before mode publish."
+  }
+}
