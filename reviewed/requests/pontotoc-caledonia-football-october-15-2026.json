@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-caledonia-football-october-15-2026.json",
   "article_sha256": "ae8b84f245a3cfdaf9f9f92aa67e11c51907294f13f861eba2cd84df59393e88",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-caledonia-football-october-15-2026",
   "seo_review": {
     "reviewer": "Assistant source-supported title, description, slug and alt review; parent review pending",
