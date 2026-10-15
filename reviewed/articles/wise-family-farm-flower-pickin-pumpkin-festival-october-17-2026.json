@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:wise-family-farm:2026-10-17:flower-pickin-pumpkin-festival"
+  ],
+  "title": "Wise Family Farm sets Flower Pickin’ Pumpkin Festival for Oct. 17",
+  "excerpt": "Wise Family Farm’s Oct. 17 festival runs 10 a.m.–7 p.m. in Pontotoc. Gate admission is $14.95; ages 2 and under enter free.",
+  "locality": "Wise Family Farm, 291 Shady Grove Road, Pontotoc, Mississippi.",
+  "sources": [
+    {
+      "id": "event",
+      "url": "https://www.wisefamilyfarm.com/event/1708/",
+      "verification_url": "https://www.wisefamilyfarm.com/event/1708/",
+      "role": "event",
+      "title": "10th Annual Flower Pickin’ Pumpkin Festival event listing",
+      "publisher": "Wise Family Farm",
+      "published_at": null,
+      "verified_at": "2026-10-15T14:11:17.900505+00:00"
+    },
+    {
+      "id": "fall-schedule",
+      "url": "https://www.wisefamilyfarm.com/wp-content/uploads/2026/09/fall-schedule.jpg",
+      "verification_url": "https://www.wisefamilyfarm.com/wp-content/uploads/2026/09/fall-schedule.jpg",
+      "role": "event",
+      "title": "Wise Family Farm Fall Schedule 2026",
+      "publisher": "Wise Family Farm",
+      "published_at": null,
+      "verified_at": "2026-10-15T14:12:16.754387+00:00"
+    },
+    {
+      "id": "faq",
+      "url": "https://www.wisefamilyfarm.com/about-us/",
+      "verification_url": "https://www.wisefamilyfarm.com/about-us/",
+      "role": "background",
+      "title": "Wise Family Farm admission and visitor FAQ",
+      "publisher": "Wise Family Farm",
+      "published_at": null,
+      "verified_at": "2026-10-15T14:12:17.025348+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Wise Family Farm’s 10th annual Flower Pickin’ Pumpkin Festival is scheduled for Saturday, October 17, 2026, from 10 a.m. to 7 p.m. at 291 Shady Grove Road in Pontotoc.",
+      "source_ids": [
+        "event",
+        "fall-schedule"
+      ],
+      "evidence": "Exact official event URL returned HTTP 200 without redirect. Visible title says 10th Annual Flower Pickin’ Pumpkin Festival; body explicitly says Saturday, Oct. 17th, 10:00 am to 7:00 pm. Venue section and public footer give 291 Shady Grove Road, Pontotoc, MS. Actual 1920×1080 Fall Schedule 2026 JPEG was downloaded HTTP 200 and inspected by this assistant: October 17 square names the event, and Saturday hours are 10 am–7 pm. Source graphic SHA-256 42b6a9d56ab9bbda91eaf205c121a5f940def4530276edf790ac4c70ae283541. Its 2026 date also agrees with event structured startDate year 2026. No source artwork is reused.",
+      "date_context": "Event date is Saturday, October 17, 2026. The organizer’s visible event copy and actual Fall Schedule 2026 graphic agree on Saturday hours of 10 a.m.–7 p.m.; these are reported as posted local farm hours (America/Chicago, CDT), without converting the website’s calendar metadata. The event JSON-LD uses +00:00 and Google export names Atlantic/Azores; those machine time-zone settings are not used to shift the displayed hours. The source page is reused: WebPage metadata datePublished is 2025-09-19 and dateModified is 2026-09-28. Neither establishes the publication date of the current 2026 event notice, so published_at is null. Verified October 15, 2026, morning local time.",
+      "locality": "Wise Family Farm, 291 Shady Grove Road, Pontotoc, Mississippi.",
+      "identities": "Wise Family Farm is the organizer and venue in Pontotoc, Mississippi. St. Jude is the named recipient of the specified Santa-photo donations; no broader proceeds allocation is asserted.",
+      "statistics": "10th annual is the organizer’s description, not an independently reconstructed event history. 10 a.m.–7 p.m. is a nine-hour posted event window."
+    },
+    {
+      "id": "f2",
+      "statement": "The organizer advertises zinnia and sunflower picking, pumpkins, vendors, a country store, live music, apple cider slushies and kettle corn.",
+      "source_ids": [
+        "event"
+      ],
+      "evidence": "Event body names picking bouquets of zinnias and sunflowers, a pumpkin, gifts from vendors or the country store, live music, apple cider slushy and kettle corn. These are advertised program features, not claims that purchases or every activity are included in admission. No vendor roster, music lineup or inventory guarantee is added.",
+      "date_context": "Event date is Saturday, October 17, 2026. The organizer’s visible event copy and actual Fall Schedule 2026 graphic agree on Saturday hours of 10 a.m.–7 p.m.; these are reported as posted local farm hours (America/Chicago, CDT), without converting the website’s calendar metadata. The event JSON-LD uses +00:00 and Google export names Atlantic/Azores; those machine time-zone settings are not used to shift the displayed hours. The source page is reused: WebPage metadata datePublished is 2025-09-19 and dateModified is 2026-09-28. Neither establishes the publication date of the current 2026 event notice, so published_at is null. Verified October 15, 2026, morning local time.",
+      "locality": "Wise Family Farm, 291 Shady Grove Road, Pontotoc, Mississippi.",
+      "identities": "Wise Family Farm is the organizer and venue in Pontotoc, Mississippi. St. Jude is the named recipient of the specified Santa-photo donations; no broader proceeds allocation is asserted.",
+      "statistics": "None asserted"
+    },
+    {
+      "id": "f3",
+      "statement": "Children can take photos with Santa for a minimum $5 donation to St. Jude; an on-site photographer will also offer mini photo sessions for Christmas cards.",
+      "source_ids": [
+        "event"
+      ],
+      "evidence": "The event listing states that a child can take photos with Santa for a minimum donation of $5.00 to St. Jude. Its next sentence says a photographer will be on site offering mini shoots for Christmas-card photos. No mini-session price, booking condition or Santa-photo inclusion in general admission is stated. No claim that all festival proceeds go to charity is made.",
+      "date_context": "Event date is Saturday, October 17, 2026. The organizer’s visible event copy and actual Fall Schedule 2026 graphic agree on Saturday hours of 10 a.m.–7 p.m.; these are reported as posted local farm hours (America/Chicago, CDT), without converting the website’s calendar metadata. The event JSON-LD uses +00:00 and Google export names Atlantic/Azores; those machine time-zone settings are not used to shift the displayed hours. The source page is reused: WebPage metadata datePublished is 2025-09-19 and dateModified is 2026-09-28. Neither establishes the publication date of the current 2026 event notice, so published_at is null. Verified October 15, 2026, morning local time.",
+      "locality": "Wise Family Farm, 291 Shady Grove Road, Pontotoc, Mississippi.",
+      "identities": "Wise Family Farm is the organizer and venue in Pontotoc, Mississippi. St. Jude is the named recipient of the specified Santa-photo donations; no broader proceeds allocation is asserted.",
+      "statistics": "Minimum $5 applies specifically to the stated Santa-photo donation, not event admission or all photography."
+    },
+    {
+      "id": "f4",
+      "statement": "The 2026 fall schedule lists gate admission at $14.95 per person, with ages 2 and under free; pumpkin-patch tickets cost an additional $5 and general admission does not include a pumpkin.",
+      "source_ids": [
+        "fall-schedule",
+        "faq"
+      ],
+      "evidence": "Actual schedule pixels read Admission is $14.95 at the gate. Ages 2 and under are free. Check online for special pricing. Next box says pumpkin patch tickets are an additional $5.00. The official FAQ independently says admission is $14.95 per person, ages 2 and under free; General admission does not include a pumpkin. Its $5 add-on explicitly entitles a ticket holder to pick a pumpkin, although the article makes only the narrower price/exclusion statements. No tax or online-price claim is invented.",
+      "date_context": "Event date is Saturday, October 17, 2026. The organizer’s visible event copy and actual Fall Schedule 2026 graphic agree on Saturday hours of 10 a.m.–7 p.m.; these are reported as posted local farm hours (America/Chicago, CDT), without converting the website’s calendar metadata. The event JSON-LD uses +00:00 and Google export names Atlantic/Azores; those machine time-zone settings are not used to shift the displayed hours. The source page is reused: WebPage metadata datePublished is 2025-09-19 and dateModified is 2026-09-28. Neither establishes the publication date of the current 2026 event notice, so published_at is null. Verified October 15, 2026, morning local time.",
+      "locality": "Wise Family Farm, 291 Shady Grove Road, Pontotoc, Mississippi.",
+      "identities": "Wise Family Farm is the organizer and venue in Pontotoc, Mississippi. St. Jude is the named recipient of the specified Santa-photo donations; no broader proceeds allocation is asserted.",
+      "statistics": "$14.95 per-person gate admission; ages 2 and under free; additional $5 pumpkin-patch ticket. Separate from the minimum $5 Santa-photo donation."
+    },
+    {
+      "id": "f5",
+      "statement": "The farm sells its last tickets one hour before closing, so Saturday’s final ticket-sale time is 6 p.m.; it advises calling ahead in rainy weather at 662-538-8990 because wet conditions may close the farm.",
+      "source_ids": [
+        "event",
+        "fall-schedule",
+        "faq"
+      ],
+      "evidence": "Both the actual 2026 schedule and FAQ say last tickets are sold one hour before closing. Saturday event closing is 7 p.m.; subtraction gives 6 p.m. last ticket sales. Event-page footer says rain, wet ground and muddy conditions can close the farm and advises calling ahead at 662-538-8990. This is the operator’s weather policy, not a forecast or cancellation announcement.",
+      "date_context": "Event date is Saturday, October 17, 2026. The organizer’s visible event copy and actual Fall Schedule 2026 graphic agree on Saturday hours of 10 a.m.–7 p.m.; these are reported as posted local farm hours (America/Chicago, CDT), without converting the website’s calendar metadata. The event JSON-LD uses +00:00 and Google export names Atlantic/Azores; those machine time-zone settings are not used to shift the displayed hours. The source page is reused: WebPage metadata datePublished is 2025-09-19 and dateModified is 2026-09-28. Neither establishes the publication date of the current 2026 event notice, so published_at is null. Verified October 15, 2026, morning local time.",
+      "locality": "Wise Family Farm, 291 Shady Grove Road, Pontotoc, Mississippi.",
+      "identities": "Wise Family Farm is the organizer and venue in Pontotoc, Mississippi. St. Jude is the named recipient of the specified Santa-photo donations; no broader proceeds allocation is asserted.",
+      "statistics": "6 p.m. is directly derived from the posted 7 p.m. closing and one-hour ticket-sale cutoff. The phone number is public contact information."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Wise Family Farm will hold its 10th annual Flower Pickin’ Pumpkin Festival from 10 a.m. to 7 p.m. Saturday, Oct. 17, at 291 Shady Grove Road in Pontotoc, according to the farm’s event listing.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The farm advertises zinnia and sunflower picking, pumpkins, vendors and the country store, along with live music. Apple cider slushies and kettle corn are also listed.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Children can have photos taken with Santa for a minimum $5 donation to St. Jude, according to the listing. An on-site photographer will also offer mini photo sessions for Christmas cards.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "The farm’s 2026 fall schedule lists gate admission at $14.95 per person, with ages 2 and under admitted free. Pumpkin-patch tickets cost an additional $5. The farm’s FAQ says general admission does not include a pumpkin.",
+      "fact_ids": [
+        "f4"
+      ]
+    },
+    {
+      "text": "The last tickets are sold one hour before closing, making Saturday’s final ticket-sale time 6 p.m. The farm advises calling 662-538-8990 before visiting during rainy weather because wet conditions may close the property.",
+      "fact_ids": [
+        "f1",
+        "f5"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/wise-family-farm-flower-pickin-pumpkin-festival-october-17-2026.png",
+    "sha256": "6d37436499807ff71ab578dfe45719d1058ad243539b24e6e17a306528c30e83",
+    "alt_text": "Pontotoc News illustration of a pumpkin and sunflower beside Wise Family Farm festival details: Saturday, October 17, 2026, 10 a.m. to 7 p.m., in Pontotoc.",
+    "credit": "Pontotoc News original illustration",
+    "rights": "owned",
+    "rights_reference": "Original 1600×900 typography and geometric pumpkin/sunflower illustration rendered locally with Pillow and macOS Arial fonts by /tmp/pontotoc-wise-festival-2026-10-15/create_image.py. No farm logos, photos or source artwork reused. Actual pixels inspected by preparing assistant; parent pixel approval pending."
+  },
+  "review": {
+    "reviewer": "Assistant primary-source, price, date and original-image review; parent final review pending",
+    "reviewed_at": "2026-10-15T14:15:32.255217+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f4"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s authorized useful daily Pontotoc News publication plan under REVIEWED_PUBLISHING.md. Parent selected this local festival, supplied verified admission research, and authorized bounded offline checks and managed dry-run submission after source verification. Final parent editorial and actual-pixel image approval required before mode publish."
+  }
+}
