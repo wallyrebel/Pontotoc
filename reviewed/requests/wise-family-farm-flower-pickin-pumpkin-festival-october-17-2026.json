@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/wise-family-farm-flower-pickin-pumpkin-festival-october-17-2026.json",
   "article_sha256": "486deabc715f2c512244d4c44d2bc14468a7358f774f45ae47ba4010207dc2ad",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "wise-family-farm-flower-pickin-pumpkin-festival-october-17-2026",
   "seo_review": {
     "reviewer": "Assistant source-supported title, description, slug and illustration review; parent review pending",
