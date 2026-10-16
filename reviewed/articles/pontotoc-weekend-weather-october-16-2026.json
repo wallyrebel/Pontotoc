@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:nws:2026-10-16:weekend-forecast"
+  ],
+  "title": "Pontotoc forecast calls for gusty Friday, sunny weekend",
+  "excerpt": "Northwest gusts up to 30 mph are forecast Friday, with sunny skies Saturday and Sunday and a low around 40 Saturday night.",
+  "locality": "Pontotoc County, Mississippi, including the city of Pontotoc; NWS forecast zone MSZ015.",
+  "sources": [
+    {
+      "id": "nws-zfp-oct16",
+      "url": "https://api.weather.gov/products/894bbd6b-eb7b-404a-a40c-5d3413354bdc",
+      "verification_url": "https://api.weather.gov/products/894bbd6b-eb7b-404a-a40c-5d3413354bdc",
+      "role": "event",
+      "title": "NWS Memphis zone forecast issued October 16, 2026, 7:31 a.m. CDT — Pontotoc MSZ015",
+      "publisher": "National Weather Service Memphis",
+      "published_at": "2026-10-16T12:31:00+00:00",
+      "verified_at": "2026-10-16T14:07:45.598744+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Friday’s Pontotoc forecast is breezy, with a high in the mid-70s, northwest winds 15–20 mph, gusts up to 30 mph and a 20 percent chance of rain.",
+      "source_ids": [
+        "nws-zfp-oct16"
+      ],
+      "evidence": "The exact original NWS JSON product returned HTTP 200 through the existing unmodified Transport.public function without redirects. Its productText contains a distinct MSZ015-162200 Pontotoc block headed 731 AM CDT Fri Oct 16 2026. TODAY says partly sunny with a slight chance of showers this morning, then mostly cloudy this afternoon; breezy with highs in the mid 70s; northwest winds 15 to 20 mph with gusts up to 30 mph; chance of rain 20 percent. The article reports this county forecast, not a warning, measurement or fire-danger upgrade.",
+      "date_context": "The original NWS product was issued at 7:31 a.m. CDT Friday, October 16, 2026 (12:31 UTC). TODAY is October 16; TONIGHT is October 16–17; SATURDAY is October 17; SATURDAY NIGHT is October 17–18; SUNDAY is October 18. Times and dates are local America/Chicago, CDT. All conditions and temperatures are forecasts, not observed values.",
+      "locality": "Pontotoc County, Mississippi, including the city of Pontotoc; NWS forecast zone MSZ015.",
+      "identities": "National Weather Service Memphis is the issuing office. The MSZ015 block explicitly says Pontotoc and Including the city of Pontotoc; neighboring counties’ blocks are excluded.",
+      "statistics": "Forecast high in the mid-70s Fahrenheit; sustained wind 15–20 mph; gusts up to 30 mph; 20 percent rain probability. The separate point API’s unrounded probability is not mixed into this issued county text."
+    },
+    {
+      "id": "f2",
+      "statement": "Friday night is forecast mostly clear in the evening then partly cloudy, with lows in the upper 40s, north winds 10–15 mph and evening gusts up to 30 mph.",
+      "source_ids": [
+        "nws-zfp-oct16"
+      ],
+      "evidence": "The TONIGHT paragraph of the same Pontotoc zone block says Mostly clear in the evening, then becoming partly cloudy; lows in the upper 40s; north winds 10 to 15 mph; gusts up to 30 mph in the evening.",
+      "date_context": "The original NWS product was issued at 7:31 a.m. CDT Friday, October 16, 2026 (12:31 UTC). TODAY is October 16; TONIGHT is October 16–17; SATURDAY is October 17; SATURDAY NIGHT is October 17–18; SUNDAY is October 18. Times and dates are local America/Chicago, CDT. All conditions and temperatures are forecasts, not observed values.",
+      "locality": "Pontotoc County, Mississippi, including the city of Pontotoc; NWS forecast zone MSZ015.",
+      "identities": "National Weather Service Memphis is the issuing office. The MSZ015 block explicitly says Pontotoc and Including the city of Pontotoc; neighboring counties’ blocks are excluded.",
+      "statistics": "Forecast upper-40s Fahrenheit low; north winds 10–15 mph; evening gusts up to 30 mph."
+    },
+    {
+      "id": "f3",
+      "statement": "Saturday is forecast sunny with highs in the mid-60s, north winds 10–15 mph and gusts up to 25 mph. Saturday night is clear with lows around 40. Sunday is sunny with highs in the lower 70s and east winds 5–10 mph.",
+      "source_ids": [
+        "nws-zfp-oct16"
+      ],
+      "evidence": "The SATURDAY, SATURDAY NIGHT and SUNDAY paragraphs of the exact Pontotoc block state these conditions. The article and original graphic keep highs and nighttime lows separate. No frost, freeze, alert, event cancellation or guaranteed weather claim is inferred.",
+      "date_context": "The original NWS product was issued at 7:31 a.m. CDT Friday, October 16, 2026 (12:31 UTC). TODAY is October 16; TONIGHT is October 16–17; SATURDAY is October 17; SATURDAY NIGHT is October 17–18; SUNDAY is October 18. Times and dates are local America/Chicago, CDT. All conditions and temperatures are forecasts, not observed values.",
+      "locality": "Pontotoc County, Mississippi, including the city of Pontotoc; NWS forecast zone MSZ015.",
+      "identities": "National Weather Service Memphis is the issuing office. The MSZ015 block explicitly says Pontotoc and Including the city of Pontotoc; neighboring counties’ blocks are excluded.",
+      "statistics": "Saturday forecast high mid-60s Fahrenheit, wind 10–15 mph and gusts up to 25 mph; Saturday-night low around 40 Fahrenheit; Sunday high lower 70s and east winds 5–10 mph."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Breezy conditions and a small chance of rain are forecast for Pontotoc on Friday, Oct. 16, before sunny, cooler weather over the weekend, according to the National Weather Service in Memphis.",
+      "fact_ids": [
+        "f1",
+        "f3"
+      ]
+    },
+    {
+      "text": "The agency’s 7:31 a.m. Friday forecast for Pontotoc County calls for a high in the mid-70s, northwest winds of 15 to 20 mph and gusts up to 30 mph. The chance of rain is 20 percent.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "Tonight, lows are expected in the upper 40s. North winds of 10 to 15 mph could gust to 30 mph during the evening, with skies mostly clear before becoming partly cloudy.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Saturday is forecast to be sunny with a high in the mid-60s and north winds of 10 to 15 mph, gusting to 25 mph. Clear skies Saturday night should bring a low around 40, followed by a sunny Sunday with a high in the lower 70s.",
+      "fact_ids": [
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-weekend-weather-october-16-2026.png",
+    "sha256": "3c03d63452082a0d85d49177dc14d5c914128fb6abf1f0271ffdc2341a52697b",
+    "alt_text": "Pontotoc forecast illustration for Oct. 16–18, 2026: Friday gusts up to 30 mph, sunny weekend days and a Saturday night low around 40 degrees.",
+    "credit": "Pontotoc News original illustration",
+    "rights": "owned",
+    "rights_reference": "Original 1200×675 typography, geometric sun icons and wind lines rendered with Pillow and macOS Arial fonts by /tmp/pontotoc-morning-2026-10-16/create_weather_image.py. No NWS artwork, logos, maps, stock photos or source graphics reused. Preparing assistant inspected actual pixels; parent final pixel review pending."
+  },
+  "review": {
+    "reviewer": "Assistant original NWS county forecast and pixel review; parent final review pending",
+    "reviewed_at": "2026-10-16T14:09:16.351961+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f3"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s October 16 morning Pontotoc publication and verified local-weather summary authorization under REVIEWED_PUBLISHING.md. Fresh county forecast from a dated original NWS product; distinct from the October 13 regional fire-danger article. Bounded intake and managed dry-run authorized. Final parent editorial and actual-pixel review required before publish mode."
+  }
+}

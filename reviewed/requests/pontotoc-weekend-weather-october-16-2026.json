@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-weekend-weather-october-16-2026.json",
+  "article_sha256": "2f1fb83063b86ab3d0320a56913787a433115b85fbed498424f937aae09f1a3d",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-weekend-weather-october-16-2026",
+  "seo_review": {
+    "reviewer": "Assistant natural headline, description, slug and alt review; parent review pending",
+    "reviewed_at": "2026-10-16T14:09:16.351961+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}
