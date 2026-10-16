@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/oak-dale-food-pantry-october-17-2026.json",
+  "article_sha256": "ca59b4fcb23fc1a64acd9d1bb3a9f473195960675302a5e4a338ca23b7310f41",
+  "mode": "dry-run",
+  "public_slug": "oak-dale-food-pantry-pontotoc-october-17-2026",
+  "seo_review": {
+    "reviewer": "Assistant accurate headline, description, natural slug and alt review; parent review pending",
+    "reviewed_at": "2026-10-16T21:05:45.612323+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}

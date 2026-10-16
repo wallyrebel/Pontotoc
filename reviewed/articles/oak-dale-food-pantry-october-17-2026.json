@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:oak-dale-baptist:2026-10-17:food-pantry"
+  ],
+  "title": "Oak Dale food pantry’s next date is Saturday, Oct. 17",
+  "excerpt": "Oak Dale’s third-Saturday pantry schedule points to Oct. 17, noon–2 p.m., at 7230 Highway 346 in Pontotoc. The notice lists nonperishable food only.",
+  "locality": "Oak Dale Baptist Church, 7230 Highway 346, Pontotoc, Mississippi 38863, in the Hurricane community.",
+  "sources": [
+    {
+      "id": "church",
+      "url": "https://www.facebook.com/Oakdalepontotoc/posts/1557880173034183/",
+      "verification_url": "https://www.facebook.com/Oakdalepontotoc/posts/1557880173034183/",
+      "role": "event",
+      "title": "Oak Dale Baptist Church’s original public food-pantry announcement",
+      "publisher": "Oak Dale Baptist Church",
+      "published_at": null,
+      "verified_at": "2026-10-16T21:05:02.449495+00:00"
+    },
+    {
+      "id": "town-share",
+      "url": "https://www.facebook.com/1204361708550928/posts/1432671219053308",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7mX75E8w6.rss",
+      "role": "event",
+      "title": "Town of Ecru’s October 14 shared pantry notice",
+      "publisher": "Town of Ecru",
+      "published_at": "2026-10-14T16:53:09+00:00",
+      "verified_at": "2026-10-16T21:03:43.872897+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "The church notice lists its food pantry every third Saturday from noon to 2 p.m.; October’s third Saturday falls on October 17, 2026.",
+      "source_ids": [
+        "church",
+        "town-share"
+      ],
+      "evidence": "The preparing assistant opened the original public church page in Chrome without signing in, dismissed the login invitation, opened its current public post, and inspected the complete flyer pixels. It reads EVERY 3RD SATURDAY / 12:00–2:00 P.M. The same complete flyer linked by the exact October 14 Town of Ecru saved-feed entry was downloaded HTTP 200 and independently inspected. The original post canonical numeric URL, obtained from its own og:url metadata, returned HTTP 200 through unchanged Transport.public. The saved feed also returned HTTP 200 and contained the exact Town permalink. Calendar arithmetic, not an extra organizer statement, supplies October 17.",
+      "date_context": "The Town of Ecru shared the current notice October 14, 2026 at 16:53:09 UTC (11:53 a.m. CDT). On October 16 the original public church post visibly said 3 days ago; its exact publication timestamp was not established, so published_at is null. The source flyer gives every 3rd Saturday, 12:00–2:00 P.M. Python calendar.monthcalendar(2026,10) confirms October Saturdays 3,10,17,24,31; October 17 is the third. October 17 is derived explicitly from the recurring rule and current month, not transcribed as a printed date. Hours are posted local America/Chicago (CDT).",
+      "locality": "Oak Dale Baptist Church, 7230 Highway 346, Pontotoc, Mississippi 38863, in the Hurricane community.",
+      "identities": "Oak Dale Baptist Church is the organizer in the Hurricane community at the Pontotoc postal address shown. The Town of Ecru shared the same pantry notice; it is not described as the organizer. No private individual or food recipient is identified.",
+      "statistics": "Third Saturday; two-hour advertised window, noon–2 p.m.; October 17, 2026 is the calculated current-month date. No year is assigned to a stale annual graphic."
+    },
+    {
+      "id": "f2",
+      "statement": "The pantry’s advertised location is 7230 Highway 346, Pontotoc, Mississippi 38863.",
+      "source_ids": [
+        "church",
+        "town-share"
+      ],
+      "evidence": "Actual original and shared flyer pixels show 7230 Hwy 346, Pontotoc, MS 38863. The original church profile separately lists 7230 Highway 346, Pontotoc. In the original public post, a church-account reply says The address is 7230 Hwy 346 Pontotoc. Only the institution’s location confirmation is used; other commenters and personal questions are excluded.",
+      "date_context": "The Town of Ecru shared the current notice October 14, 2026 at 16:53:09 UTC (11:53 a.m. CDT). On October 16 the original public church post visibly said 3 days ago; its exact publication timestamp was not established, so published_at is null. The source flyer gives every 3rd Saturday, 12:00–2:00 P.M. Python calendar.monthcalendar(2026,10) confirms October Saturdays 3,10,17,24,31; October 17 is the third. October 17 is derived explicitly from the recurring rule and current month, not transcribed as a printed date. Hours are posted local America/Chicago (CDT).",
+      "locality": "Oak Dale Baptist Church, 7230 Highway 346, Pontotoc, Mississippi 38863, in the Hurricane community.",
+      "identities": "Oak Dale Baptist Church is the organizer in the Hurricane community at the Pontotoc postal address shown. The Town of Ecru shared the same pantry notice; it is not described as the organizer. No private individual or food recipient is identified.",
+      "statistics": "7230 is the street number and 346 is the highway designation, not a service count."
+    },
+    {
+      "id": "f3",
+      "statement": "The current church notice specifies nonperishable food only and was also shared Wednesday, October 14, by the Town of Ecru.",
+      "source_ids": [
+        "church",
+        "town-share"
+      ],
+      "evidence": "Both inspected source flyers say FOOD PANTRY / NON-PERISHABLE ONLY. The exact saved-feed item has pubDate Wed, 14 Oct 2026 16:53:09 +0000. The article does not invent recipient eligibility, registration rules, documentation, admission, prices, quantities, donation procedures or guaranteed inventory.",
+      "date_context": "The Town of Ecru shared the current notice October 14, 2026 at 16:53:09 UTC (11:53 a.m. CDT). On October 16 the original public church post visibly said 3 days ago; its exact publication timestamp was not established, so published_at is null. The source flyer gives every 3rd Saturday, 12:00–2:00 P.M. Python calendar.monthcalendar(2026,10) confirms October Saturdays 3,10,17,24,31; October 17 is the third. October 17 is derived explicitly from the recurring rule and current month, not transcribed as a printed date. Hours are posted local America/Chicago (CDT).",
+      "locality": "Oak Dale Baptist Church, 7230 Highway 346, Pontotoc, Mississippi 38863, in the Hurricane community.",
+      "identities": "Oak Dale Baptist Church is the organizer in the Hurricane community at the Pontotoc postal address shown. The Town of Ecru shared the same pantry notice; it is not described as the organizer. No private individual or food recipient is identified.",
+      "statistics": "None asserted. No claim that attendance or food is free is added."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Oak Dale Baptist Church lists noon to 2 p.m. hours for its food pantry on the third Saturday of each month, making October’s date Saturday, Oct. 17.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The pantry is at 7230 Highway 346 in Pontotoc. The church’s notice, also shared Wednesday by the Town of Ecru, specifies nonperishable food only.",
+      "fact_ids": [
+        "f2",
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/oak-dale-food-pantry-october-17-2026.png",
+    "sha256": "4dffa12cf69e558f90381d8e5e1d6872d6aeef6533901145eaaa5694feee93e7",
+    "alt_text": "Original illustration of a grocery bag beside Oak Dale food pantry details: Saturday, October 17, 2026, noon to 2 p.m., at 7230 Highway 346 in Pontotoc.",
+    "credit": "Pontotoc News original illustration",
+    "rights": "owned",
+    "rights_reference": "Original 1200×675 typography and geometric grocery bag, can and package artwork rendered with Pillow and macOS Arial fonts by /tmp/pontotoc-afternoon-2026-10-16/create_pantry_image.py. No church drawing, photograph, logo, source flyer or stock artwork reused. Preparing assistant inspected actual pixels; parent final pixel review pending."
+  },
+  "review": {
+    "reviewer": "Assistant original church, town notice, calendar and pixel review; parent review pending",
+    "reviewed_at": "2026-10-16T21:05:45.612323+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s authorized October 16 afternoon Pontotoc publication under REVIEWED_PUBLISHING.md. Distinct useful local pantry notice with original church pixels and current town share verified; no eligibility, price or free-food claim invented. Bounded intake and managed dry-run authorized. Parent editorial and actual-pixel approval required before mode publish."
+  }
+}
