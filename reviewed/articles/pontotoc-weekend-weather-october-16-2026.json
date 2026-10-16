@@ -21,7 +21,7 @@
   "facts": [
     {
       "id": "f1",
-      "statement": "Friday’s Pontotoc forecast is breezy, with a high in the mid-70s, northwest winds 15–20 mph, gusts up to 30 mph and a 20 percent chance of rain.",
+      "statement": "Friday’s Pontotoc forecast is breezy, with a high in the mid-70s, northwest winds 15–20 mph, gusts up to 30 mph and a 20 percent chance of rain during the morning.",
       "source_ids": [
         "nws-zfp-oct16"
       ],
@@ -29,7 +29,7 @@
       "date_context": "The original NWS product was issued at 7:31 a.m. CDT Friday, October 16, 2026 (12:31 UTC). TODAY is October 16; TONIGHT is October 16–17; SATURDAY is October 17; SATURDAY NIGHT is October 17–18; SUNDAY is October 18. Times and dates are local America/Chicago, CDT. All conditions and temperatures are forecasts, not observed values.",
       "locality": "Pontotoc County, Mississippi, including the city of Pontotoc; NWS forecast zone MSZ015.",
       "identities": "National Weather Service Memphis is the issuing office. The MSZ015 block explicitly says Pontotoc and Including the city of Pontotoc; neighboring counties’ blocks are excluded.",
-      "statistics": "Forecast high in the mid-70s Fahrenheit; sustained wind 15–20 mph; gusts up to 30 mph; 20 percent rain probability. The separate point API’s unrounded probability is not mixed into this issued county text."
+      "statistics": "Forecast high in the mid-70s Fahrenheit; sustained wind 15–20 mph; gusts up to 30 mph; 20 percent Friday-morning rain probability. The separate point API’s unrounded probability is not mixed into this issued county text."
     },
     {
       "id": "f2",
@@ -58,14 +58,14 @@
   ],
   "paragraphs": [
     {
-      "text": "Breezy conditions and a small chance of rain are forecast for Pontotoc on Friday, Oct. 16, before sunny, cooler weather over the weekend, according to the National Weather Service in Memphis.",
+      "text": "The National Weather Service in Memphis forecasts breezy conditions for Pontotoc on Friday, Oct. 16, with a small chance of rain during the morning before sunny, cooler weather over the weekend.",
       "fact_ids": [
         "f1",
         "f3"
       ]
     },
     {
-      "text": "The agency’s 7:31 a.m. Friday forecast for Pontotoc County calls for a high in the mid-70s, northwest winds of 15 to 20 mph and gusts up to 30 mph. The chance of rain is 20 percent.",
+      "text": "The agency’s 7:31 a.m. Friday forecast for Pontotoc County calls for a high in the mid-70s, northwest winds of 15 to 20 mph and gusts up to 30 mph. The chance of rain Friday morning is 20 percent.",
       "fact_ids": [
         "f1"
       ]
