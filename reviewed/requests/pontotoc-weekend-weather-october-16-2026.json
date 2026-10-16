@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-weekend-weather-october-16-2026.json",
   "article_sha256": "0ed4f3c986f45f50b833e2687254bc45bee0015bcbbbcb4f7c19ec010716910d",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-weekend-weather-october-16-2026",
   "seo_review": {
     "reviewer": "Assistant natural headline, description, slug and alt review; parent review pending",
