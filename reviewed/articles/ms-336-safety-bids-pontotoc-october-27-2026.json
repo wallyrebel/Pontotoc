@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:mdot:110210301:2026-10-27:bid-letting"
+  ],
+  "title": "MDOT seeks bids for MS 336 safety improvements in Pontotoc County",
+  "excerpt": "MDOT lists an October 27 bid letting for audible stripe, raised pavement markers and warning-sign improvements on MS 336 from US 278 to Apostolic Circle.",
+  "locality": "MS 336 from US 278 to Apostolic Circle in Pontotoc County, Mississippi.",
+  "sources": [
+    {
+      "id": "letting",
+      "url": "https://mdot.ms.gov/applications/BidSystem/LettingInfo.aspx?date=October+27,+2026&r=0",
+      "verification_url": "https://mdot.ms.gov/applications/BidSystem/LettingInfo.aspx?date=October+27,+2026&r=0",
+      "role": "event",
+      "title": "MDOT October 27, 2026 advertised contracts — Call 14",
+      "publisher": "Mississippi Department of Transportation",
+      "published_at": null,
+      "verified_at": "2026-10-17T14:07:17.634900+00:00"
+    },
+    {
+      "id": "schedule",
+      "url": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+      "verification_url": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+      "role": "event",
+      "title": "MDOT proposed project schedule — MS 336 in Pontotoc County",
+      "publisher": "Mississippi Department of Transportation",
+      "published_at": null,
+      "verified_at": "2026-10-17T14:07:20.701947+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "MDOT advertises an October 27, 2026 bid letting for safety improvements on MS 336 from US 278 to Apostolic Circle in Pontotoc County.",
+      "source_ids": [
+        "letting",
+        "schedule"
+      ],
+      "evidence": "Unchanged Transport.public returned HTTP 200 for both primary pages. The dated page header is MDOT Contracts Advertised for a October 27, 2026 letting. Its Call 14 specifies MS 336 from US 278 to Apostolic Circle in Pontotoc County. The matching proposed schedule row identifies Pontotoc, MS 336, Safety, and the same endpoints.",
+      "date_context": "Sources checked October 17, 2026. The dated advertisement specifies the October 27, 2026 bid letting. The proposed schedule says updated October 17, 2026 and subject to revision. No exact publication timestamp is established, so published_at is null. October 27 is a bidding date, not an asserted construction start date.",
+      "locality": "MS 336 from US 278 to Apostolic Circle in Pontotoc County, Mississippi.",
+      "identities": "Mississippi Department of Transportation (MDOT) is the public agency advertising the project. No contractor is identified.",
+      "statistics": "October 27, 2026 is the advertised bid-letting date. 336 and 278 are highway designations; no project length or cost is asserted."
+    },
+    {
+      "id": "f2",
+      "statement": "The planned work includes audible edge stripe, raised pavement markers and replacement curve and intersection warning signs.",
+      "source_ids": [
+        "letting",
+        "schedule"
+      ],
+      "evidence": "Call 14 lists Installation of Audible Stripe, Raised Pavement Markers and Sign Improvements. The exact schedule row for 110210/301000 HRRR-1336-58(003) says Install edge audible stripe, install RPMs, replace curve and intersection warning signs.",
+      "date_context": "Sources checked October 17, 2026. The dated advertisement specifies the October 27, 2026 bid letting. The proposed schedule says updated October 17, 2026 and subject to revision. No exact publication timestamp is established, so published_at is null. October 27 is a bidding date, not an asserted construction start date.",
+      "locality": "MS 336 from US 278 to Apostolic Circle in Pontotoc County, Mississippi.",
+      "identities": "Mississippi Department of Transportation (MDOT) is the public agency advertising the project. No contractor is identified.",
+      "statistics": "None asserted."
+    },
+    {
+      "id": "f3",
+      "statement": "The bid notice identifies the work as Call 14, Federal Aid Project HRRR-1336-58(003), project number 110210301; the cited listing does not establish a construction start date.",
+      "source_ids": [
+        "letting"
+      ],
+      "evidence": "The exact Call 14 row names Federal Aid Project No. HRRR-1336-58(003) / 110210301. Its row gives no construction start date. Article distinguishes the explicit bid date from construction scheduling; no contractor, cost, closure, completion date, crash history or traffic impact is invented.",
+      "date_context": "Sources checked October 17, 2026. The dated advertisement specifies the October 27, 2026 bid letting. The proposed schedule says updated October 17, 2026 and subject to revision. No exact publication timestamp is established, so published_at is null. October 27 is a bidding date, not an asserted construction start date.",
+      "locality": "MS 336 from US 278 to Apostolic Circle in Pontotoc County, Mississippi.",
+      "identities": "Mississippi Department of Transportation (MDOT) is the public agency advertising the project. No contractor is identified.",
+      "statistics": "14 is the bid-call identifier; 110210301 and HRRR-1336-58(003) identify the project, not quantities."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "The Mississippi Department of Transportation is seeking bids for safety improvements on MS 336 from US 278 to Apostolic Circle in Pontotoc County, with the project included in its Oct. 27, 2026, bid letting.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The work includes audible edge stripe, raised pavement markers and replacement curve and intersection warning signs, according to MDOT’s advertised contract and proposed project schedule.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "The project appears as Call 14 in the bid notice, under Federal Aid Project HRRR-1336-58(003), project number 110210301. Oct. 27 is the bid-letting date; the listing does not establish when construction will begin.",
+      "fact_ids": [
+        "f1",
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/ms-336-safety-bids-pontotoc-october-27-2026.png",
+    "sha256": "f1727eba7bdae06ea1c21a4a55104925d6e4132d3a5eeae2244ac045ebd54a23",
+    "alt_text": "Conceptual illustration of a roadway and warning sign beside MS 336 safety-project details and the October 27, 2026, MDOT bid-letting date.",
+    "credit": "Pontotoc News original conceptual illustration",
+    "rights": "owned",
+    "rights_reference": "Original 1200×675 Pillow typography and geometric road and warning-sign drawing, rendered by /tmp/pontotoc-mdot-ms336-2026-10-17/prepare.py with macOS Arial fonts. No map, photograph, government logo, source graphic or stock artwork reused. Generic conceptual scene does not depict actual road conditions. Parent actual-pixel review pending."
+  },
+  "review": {
+    "reviewer": "Assistant primary-source and original-image review; parent editorial review pending",
+    "reviewed_at": "2026-10-17T14:11:29.186090+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s recurring Pontotoc publication authorization and parent’s October 17 morning MDOT candidate instruction. Prepare bounded intake and authenticated dry-run only. Parent editorial and actual-pixel approval required before mode publish. Bid date is not a construction-start claim."
+  }
+}
