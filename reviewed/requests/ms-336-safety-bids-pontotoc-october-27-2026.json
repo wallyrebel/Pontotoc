@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/ms-336-safety-bids-pontotoc-october-27-2026.json",
   "article_sha256": "c654da76dbc5867af99dee768291e1c14ffa4ce273e2779053c96765300712e5",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "ms-336-safety-bids-pontotoc-october-27-2026",
   "seo_review": {
     "reviewer": "Assistant accurate title, description, alt and natural-slug review; parent review pending",
