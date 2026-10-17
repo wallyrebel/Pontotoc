@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
   "article_path": "reviewed/articles/trace-state-park-fall-festival-october-24-2026.json",
-  "article_sha256": "7d1a0f12a51b3a9a3a8a8cfe64ee209b1d9056fbdd1febfded5ba273a66a4a17",
+  "article_sha256": "a31684b5a46627f0ce34fade3883c8c74c37ca90d37f6aa98c46865692f67a82",
   "mode": "dry-run",
   "public_slug": "trace-state-park-fall-festival-october-24-2026",
   "seo_review": {
-    "reviewer": "Assistant accurate title, description, alt and natural slug review; parent review pending",
-    "reviewed_at": "2026-10-17T21:02:53.210280+00:00",
+    "reviewer": "Assistant source-linked SEO checks; parent narrowed editorial and image approval",
+    "reviewed_at": "2026-10-17T21:12:32.038639+00:00",
     "checks": {
       "meaningful_headline": true,
       "accurate_concise_description": true,
@@ -17,4 +17,3 @@
     }
   }
 }
-

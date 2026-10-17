@@ -5,7 +5,7 @@
   ],
   "title": "Trace State Park fall festival set for Oct. 24, with entrance fees waived",
   "excerpt": "Trace State Park’s Oct. 24 festival runs 4–7 p.m. with trick-or-treating, games, hayrides and campsite decorating. Entrance fees are waived for the event.",
-  "locality": "Trace State Park, 2139 Faulkner Road, Belden, Mississippi 38826; a local park serving the Pontotoc area.",
+  "locality": "Trace State Park, Belden, Mississippi, serving the Pontotoc area.",
   "sources": [
     {
       "id": "event",
@@ -15,7 +15,7 @@
       "title": "Mississippi State Parks: Trace State Park Fall Festival, October 24, 2026",
       "publisher": "Mississippi State Parks",
       "published_at": null,
-      "verified_at": "2026-10-17T21:01:45.122373+00:00"
+      "verified_at": "2026-10-17T21:12:31.733158+00:00"
     },
     {
       "id": "church",
@@ -25,17 +25,7 @@
       "title": "Longview Baptist Church’s current Trace State Park fall-festival notice",
       "publisher": "Longview Baptist Church",
       "published_at": null,
-      "verified_at": "2026-10-17T21:01:45.639687+00:00"
-    },
-    {
-      "id": "park",
-      "url": "https://www.mdwfp.com/parks-destinations/park/trace-state-park",
-      "verification_url": "https://www.mdwfp.com/parks-destinations/park/trace-state-park",
-      "role": "background",
-      "title": "MDWFP Trace State Park visitor information and directions",
-      "publisher": "Mississippi Department of Wildlife, Fisheries, and Parks",
-      "published_at": null,
-      "verified_at": "2026-10-17T21:01:46.137504+00:00"
+      "verified_at": "2026-10-17T21:12:32.038580+00:00"
     }
   ],
   "facts": [
@@ -48,8 +38,8 @@
       ],
       "evidence": "The preparing assistant opened the exact original event in Chrome without signing in, dismissed the login invitation, and expanded See more. Visible header, full description and actual banner pixels all confirm October 24, 2026 and 4–7 p.m. The expanded original event says Entrance fees are waived for this event. The church’s exact current post OG image was downloaded HTTP 200 and its full pixels independently inspected; it prints October 24, 2026 | 4–7 P.M. Both reader-facing original URLs return HTTP 200 through unchanged Transport.public. Waiver is limited to event entrance, not camping or every optional park service.",
       "date_context": "Verified October 17, 2026. The original public Mississippi State Parks event explicitly says Saturday, October 24, 2026, 4:00 PM–7:00 PM CDT; its actual banner pixels independently print OCTOBER 24, 2026 | 4–7 P.M. The older MDWFP /events/trace-state-park-fall-festival-0 page explicitly concerns October 25, 2025, 5–8 p.m. and is not used for current event timing or fees. Exact publication timestamps were not established, so published_at is null.",
-      "locality": "Trace State Park, 2139 Faulkner Road, Belden, Mississippi 38826; a local park serving the Pontotoc area.",
-      "identities": "Mississippi State Parks publishes the original event. MDWFP’s official social-media directory links the same facebook.com/msstateparks host. Longview Baptist Church is identified by the organizer as presenter and operator in partnership with Trace State Park. No attendee or private individual is named.",
+      "locality": "Trace State Park, Belden, Mississippi, serving the Pontotoc area.",
+      "identities": "Mississippi State Parks publishes the original event; Longview Baptist Church’s own matching notice independently supports its partnership. The organizer identifies Longview Baptist Church as presenter and operator in partnership with Trace State Park. No attendee or private individual is named.",
       "statistics": "Three-hour event window, 4–7 p.m. local America/Chicago (CDT); October 24, 2026 is Saturday. No attendance estimate, monetary saving or blanket free-activities claim."
     },
     {
@@ -60,8 +50,8 @@
       ],
       "evidence": "The original event’s expanded public description lists exactly Trick-or-treating; Campsite decorating; Games; Hayrides. No competitions, prizes, vendors, food service, registration rule or specific activity location is invented.",
       "date_context": "Verified October 17, 2026. The original public Mississippi State Parks event explicitly says Saturday, October 24, 2026, 4:00 PM–7:00 PM CDT; its actual banner pixels independently print OCTOBER 24, 2026 | 4–7 P.M. The older MDWFP /events/trace-state-park-fall-festival-0 page explicitly concerns October 25, 2025, 5–8 p.m. and is not used for current event timing or fees. Exact publication timestamps were not established, so published_at is null.",
-      "locality": "Trace State Park, 2139 Faulkner Road, Belden, Mississippi 38826; a local park serving the Pontotoc area.",
-      "identities": "Mississippi State Parks publishes the original event. MDWFP’s official social-media directory links the same facebook.com/msstateparks host. Longview Baptist Church is identified by the organizer as presenter and operator in partnership with Trace State Park. No attendee or private individual is named.",
+      "locality": "Trace State Park, Belden, Mississippi, serving the Pontotoc area.",
+      "identities": "Mississippi State Parks publishes the original event; Longview Baptist Church’s own matching notice independently supports its partnership. The organizer identifies Longview Baptist Church as presenter and operator in partnership with Trace State Park. No attendee or private individual is named.",
       "statistics": "None asserted."
     },
     {
@@ -73,34 +63,21 @@
       ],
       "evidence": "The full original organizer description states Presented and operated by Longview Baptist Church in partnership with Trace State Park. The church’s own public post says Make plans to join us for our Fall Festival at the Trace State Park and shares the matching 2026 banner.",
       "date_context": "Verified October 17, 2026. The original public Mississippi State Parks event explicitly says Saturday, October 24, 2026, 4:00 PM–7:00 PM CDT; its actual banner pixels independently print OCTOBER 24, 2026 | 4–7 P.M. The older MDWFP /events/trace-state-park-fall-festival-0 page explicitly concerns October 25, 2025, 5–8 p.m. and is not used for current event timing or fees. Exact publication timestamps were not established, so published_at is null.",
-      "locality": "Trace State Park, 2139 Faulkner Road, Belden, Mississippi 38826; a local park serving the Pontotoc area.",
-      "identities": "Mississippi State Parks publishes the original event. MDWFP’s official social-media directory links the same facebook.com/msstateparks host. Longview Baptist Church is identified by the organizer as presenter and operator in partnership with Trace State Park. No attendee or private individual is named.",
+      "locality": "Trace State Park, Belden, Mississippi, serving the Pontotoc area.",
+      "identities": "Mississippi State Parks publishes the original event; Longview Baptist Church’s own matching notice independently supports its partnership. The organizer identifies Longview Baptist Church as presenter and operator in partnership with Trace State Park. No attendee or private individual is named.",
       "statistics": "None asserted."
     },
     {
       "id": "f4",
-      "statement": "The park’s official address is 2139 Faulkner Road, Belden, MS 38826; the current event notice lists 662-489-2958 for information.",
+      "statement": "The current organizer event notice lists the public information telephone number 662-489-2958.",
       "source_ids": [
-        "park",
         "event"
       ],
-      "evidence": "The official MDWFP park page address block reads 2139 Faulkner Road, Belden, MS 38826. Its public phone and the original current event both list 662-489-2958. The event description says Trace State Park, Belden, MS.",
+      "evidence": "The preparing assistant expanded the original public Facebook event description in Chrome without signing in. Under For more information, it visibly lists Josh Massey, 662-489-2958, and trace@wfp.ms.gov. The article includes only the public telephone number, without adding an address, staff title or directions.",
       "date_context": "Verified October 17, 2026. The original public Mississippi State Parks event explicitly says Saturday, October 24, 2026, 4:00 PM–7:00 PM CDT; its actual banner pixels independently print OCTOBER 24, 2026 | 4–7 P.M. The older MDWFP /events/trace-state-park-fall-festival-0 page explicitly concerns October 25, 2025, 5–8 p.m. and is not used for current event timing or fees. Exact publication timestamps were not established, so published_at is null.",
-      "locality": "Trace State Park, 2139 Faulkner Road, Belden, Mississippi 38826; a local park serving the Pontotoc area.",
-      "identities": "Mississippi State Parks publishes the original event. MDWFP’s official social-media directory links the same facebook.com/msstateparks host. Longview Baptist Church is identified by the organizer as presenter and operator in partnership with Trace State Park. No attendee or private individual is named.",
-      "statistics": "2139 is the address and 662-489-2958 the public park information number, not an event statistic."
-    },
-    {
-      "id": "f5",
-      "statement": "The official park directions use MS 6/US 278 and Faulkner Road and warn that some navigation settings may instead route drivers onto narrow dirt roads.",
-      "source_ids": [
-        "park"
-      ],
-      "evidence": "The Park Directions section instructs arriving from MS Hwy 6/278, turning onto Faulkner Road/CR65, and notes that shortest-distance device settings may use narrow, winding dirt roads. The article paraphrases this official visitor guidance without inventing a road closure or current hazard.",
-      "date_context": "Verified October 17, 2026. The original public Mississippi State Parks event explicitly says Saturday, October 24, 2026, 4:00 PM–7:00 PM CDT; its actual banner pixels independently print OCTOBER 24, 2026 | 4–7 P.M. The older MDWFP /events/trace-state-park-fall-festival-0 page explicitly concerns October 25, 2025, 5–8 p.m. and is not used for current event timing or fees. Exact publication timestamps were not established, so published_at is null.",
-      "locality": "Trace State Park, 2139 Faulkner Road, Belden, Mississippi 38826; a local park serving the Pontotoc area.",
-      "identities": "Mississippi State Parks publishes the original event. MDWFP’s official social-media directory links the same facebook.com/msstateparks host. Longview Baptist Church is identified by the organizer as presenter and operator in partnership with Trace State Park. No attendee or private individual is named.",
-      "statistics": "None asserted."
+      "locality": "Trace State Park, Belden, Mississippi, serving the Pontotoc area.",
+      "identities": "Mississippi State Parks publishes the original event; Longview Baptist Church’s own matching notice independently supports its partnership. The organizer identifies Longview Baptist Church as presenter and operator in partnership with Trace State Park. No attendee or private individual is named.",
+      "statistics": "662-489-2958 is the organizer-listed public information number, not an event statistic."
     }
   ],
   "paragraphs": [
@@ -118,15 +95,9 @@
       ]
     },
     {
-      "text": "The park is at 2139 Faulkner Road in Belden. For more information, the event notice lists 662-489-2958.",
+      "text": "For more information, the organizer’s event notice lists 662-489-2958.",
       "fact_ids": [
         "f4"
-      ]
-    },
-    {
-      "text": "The park’s official visitor page recommends approaching on MS 6/US 278 and Faulkner Road, warning that some navigation settings may lead drivers onto narrow dirt roads.",
-      "fact_ids": [
-        "f5"
       ]
     }
   ],
@@ -136,11 +107,11 @@
     "alt_text": "Original autumn campsite illustration beside Trace State Park festival details: October 24, 2026, 4–7 p.m., with entrance fees waived for the event.",
     "credit": "Pontotoc News original illustration",
     "rights": "owned",
-    "rights_reference": "Original 1200×675 typography and geometric tent, pine trees, pumpkins and leaves drawn with Pillow and macOS Arial fonts by /tmp/pontotoc-afternoon-2026-10-17/prepare_trace.py. No organizer banner, photograph, logo, stock art or source artwork reused. Conceptual campsite is not a depiction of actual park conditions. Preparing assistant actual-pixel inspection and parent final review required."
+    "rights_reference": "Original 1200×675 typography and geometric tent, pine trees, pumpkins and leaves drawn with Pillow and macOS Arial fonts by /tmp/pontotoc-afternoon-2026-10-17/prepare_trace.py. No organizer banner, photograph, logo, stock art or source artwork reused. Conceptual campsite is not a depiction of actual park conditions. Preparing assistant and parent independently inspected and approved actual pixels. All pictured facts remain supported by the original organizer event after narrowing."
   },
   "review": {
-    "reviewer": "Assistant original event, banner pixels and official park review; parent review pending",
-    "reviewed_at": "2026-10-17T21:02:53.210280+00:00",
+    "reviewer": "Assistant original organizer verification; parent narrowed editorial and image approval",
+    "reviewed_at": "2026-10-17T21:12:32.038639+00:00",
     "decision": "publish",
     "checks": {
       "dates": true,
@@ -165,6 +136,6 @@
   "submission": {
     "kind": "assistant_review",
     "publish_intent": true,
-    "reference": "Jon’s recurring Pontotoc publication authorization and parent’s October 17 afternoon check. Parent prefers this independently verified local festival lead. Prepare bounded intake and authenticated dry-run only; parent editorial and actual-image approval required before publish. Original 2026 organizer event resolves the older 2025 listing; no event-key or source-role dedupe evasion."
+    "reference": "Jon’s recurring Pontotoc publication authorization and parent’s October 17 explicit approval of this narrower organizer-sourced version and unchanged original image. Street address, arrival guidance and MDWFP page removed with their dependent facts. Same event identity and public slug; strict TLS and exhaustive managed preflight must pass before bounded publication."
   }
 }
