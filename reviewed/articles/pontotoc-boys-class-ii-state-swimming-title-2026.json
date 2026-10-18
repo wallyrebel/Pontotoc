@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:swimming:2026-10-17:state-championships"
+  ],
+  "title": "Pontotoc boys win 2026 Class II state swimming title",
+  "excerpt": "Pontotoc Athletics announced the boys’ 2026 MHSAA Class II state swimming championship late Saturday and shared the team’s championship photo.",
+  "locality": "Pontotoc High School boys swimming team, Pontotoc City School District, Pontotoc, Mississippi.",
+  "sources": [
+    {
+      "id": "announcement",
+      "url": "https://www.facebook.com/1409956404473934/posts/1662837889185783",
+      "verification_url": "https://www.facebook.com/1409956404473934/posts/1662837889185783",
+      "role": "event",
+      "title": "Pontotoc Athletics announces 2026 MHSAA Class II boys swimming state championship",
+      "publisher": "Pontotoc Athletics, Pontotoc City School District",
+      "published_at": "2026-10-18T04:19:16+00:00",
+      "verified_at": "2026-10-18T14:05:25.935075+00:00"
+    },
+    {
+      "id": "photo-post",
+      "url": "https://www.facebook.com/1409956404473934/posts/1662838875852351",
+      "verification_url": "https://www.facebook.com/1409956404473934/posts/1662838875852351",
+      "role": "event",
+      "title": "Pontotoc boys win the state swim championship — official team photo post",
+      "publisher": "Pontotoc Athletics, Pontotoc City School District",
+      "published_at": "2026-10-18T04:20:28+00:00",
+      "verified_at": "2026-10-18T14:05:26.194950+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc boys won the 2026 MHSAA Class II state swimming championship; Pontotoc Athletics announced the title late Saturday, October 17.",
+      "source_ids": [
+        "announcement",
+        "photo-post"
+      ],
+      "evidence": "The announcement explicitly states 2026 MHSAA Class II Boys Swimming State Championship. The actual source graphic and actual team-photo banner independently display 2026 / CLASS II / BOYS SWIMMING / STATE CHAMPIONS. Saved-feed exact publication times establish late Saturday in CDT. Both original source URLs returned HTTP 200 through unchanged Transport.public.",
+      "date_context": "The two official Pontotoc Athletics posts carry saved-feed publication times October 18, 2026 at 04:19:16 and 04:20:28 UTC, which are October 17 at 11:19:16 and 11:20:28 p.m. CDT. Actual source graphic and team-photo pixels were inspected. Their banner explicitly says 2026, Class II, Boys Swimming, State Champions. No venue, individual medal results, team points or first-ever claim is inferred. The existing unpublished weekly package already uses the October 17 state-meet event key; this package retains it. Public post 5943 reports the different North State championship and briefly looks ahead to state; all-status event/source dedupe remains required.",
+      "locality": "Pontotoc High School boys swimming team, Pontotoc City School District, Pontotoc, Mississippi.",
+      "identities": "Pontotoc Athletics is the official district athletics source. Boys swimming is the team named in the announcement and championship banner. No individual student names or private details are reported.",
+      "statistics": "2026 is the championship year and Class II is the competition classification. No points, places, athlete totals, records or medal counts asserted."
+    },
+    {
+      "id": "f2",
+      "statement": "Pontotoc Athletics shared a championship graphic and a team photograph showing the swimmers with the state championship trophy and Class II boys banner.",
+      "source_ids": [
+        "announcement",
+        "photo-post"
+      ],
+      "evidence": "The announcement source image was inspected at 720×1080 and the second post’s team photo at 1080×720. The team photo visibly shows the swimmers poolside with a trophy and banner; the caption says Pontotoc boys win the state swim championship and credits Lerissa Robbins. These images are evidence only and are not reused for publication.",
+      "date_context": "The two official Pontotoc Athletics posts carry saved-feed publication times October 18, 2026 at 04:19:16 and 04:20:28 UTC, which are October 17 at 11:19:16 and 11:20:28 p.m. CDT. Actual source graphic and team-photo pixels were inspected. Their banner explicitly says 2026, Class II, Boys Swimming, State Champions. No venue, individual medal results, team points or first-ever claim is inferred. The existing unpublished weekly package already uses the October 17 state-meet event key; this package retains it. Public post 5943 reports the different North State championship and briefly looks ahead to state; all-status event/source dedupe remains required.",
+      "locality": "Pontotoc High School boys swimming team, Pontotoc City School District, Pontotoc, Mississippi.",
+      "identities": "Pontotoc Athletics is the official district athletics source. Boys swimming is the team named in the announcement and championship banner. No individual student names or private details are reported.",
+      "statistics": "2026 is the championship year and Class II is the competition classification. No points, places, athlete totals, records or medal counts asserted."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc’s boys swimming team has won the 2026 MHSAA Class II state championship, the school’s athletics department announced late Saturday, Oct. 17.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "Pontotoc Athletics shared a championship graphic and a team photograph showing the swimmers with their state championship trophy and Class II boys banner.",
+      "fact_ids": [
+        "f2"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-boys-class-ii-state-swimming-title-2026.png",
+    "sha256": "807316db6243596d6795a2f766e75fcdedc654447cfb25e44fbfc4bd8376380a",
+    "alt_text": "Original illustration of a gold trophy and pool waves celebrating Pontotoc boys’ 2026 MHSAA Class II state swimming title.",
+    "credit": "Pontotoc News original illustration",
+    "rights": "owned",
+    "rights_reference": "Original 1200×675 typography, generic geometric trophy and pool waves rendered with Pillow and macOS Arial fonts by /tmp/pontotoc-morning-2026-10-18/prepare_swim.py. No source photographs, school or association logos, portraits or source graphics reused. Parent editorial and actual-pixel review pending."
+  },
+  "review": {
+    "reviewer": "Assistant verified official school announcement and source-image pixels; parent review pending",
+    "reviewed_at": "2026-10-18T14:13:51.023796+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s recurring Pontotoc plan authorizes useful verified local news and sports. Parent authorized October 18 morning research and bounded dry-run, with editorial and actual-image approval required before publish. Official school posts now verify the state title. Existing October 17 state-meet identity is retained; no key change or prior-article correction is authorized."
+  }
+}
