@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-boys-class-ii-state-swimming-title-2026.json",
   "article_sha256": "6ffbfb10c58cfe24c6b86654749eb0b48c4bf2970a0274bc4a0a2daa8d088f39",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-boys-class-ii-state-swimming-title-2026",
   "seo_review": {
     "reviewer": "Assistant accurate headline, description, natural slug and alt; parent review pending",
