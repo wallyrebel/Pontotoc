@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/mississippi-state-lsu-football-october-17-2026.json",
   "article_sha256": "2112fc7c4d9dfb573767c670d71c21f930fea99bd32633e321753f30cb7da020",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "mississippi-state-lsu-football-october-17-2026",
   "seo_review": {
     "reviewer": "Assistant accurate statewide headline, description, natural slug and alt; parent review pending",
