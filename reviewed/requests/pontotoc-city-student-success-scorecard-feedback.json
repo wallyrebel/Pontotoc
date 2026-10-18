@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-city-student-success-scorecard-feedback.json",
+  "article_sha256": "83ddc1ddce70c8b538e6bc704dd82436d7ac5c579e38356b1984a96359fbf2b9",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-city-student-success-scorecard-feedback",
+  "seo_review": {
+    "reviewer": "Assistant accurate headline, description, natural slug and alt; parent review pending",
+    "reviewed_at": "2026-10-18T14:16:52.841913+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}

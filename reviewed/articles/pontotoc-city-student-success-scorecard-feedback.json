@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:schools:create-foundation:community-based-improvement-scorecard-feedback"
+  ],
+  "title": "Pontotoc City schools seek feedback on student-success scorecard",
+  "excerpt": "Pontotoc City School District seeks community input on a proposed scorecard covering academic, career and life readiness. Its notice links to a public survey.",
+  "locality": "Pontotoc City School District, Pontotoc, Mississippi. The shared survey also lists Pontotoc County among participating North Mississippi school districts.",
+  "sources": [
+    {
+      "id": "district-notice",
+      "url": "https://www.pontotoc.school/apps/news/article/2239894?categoryId=16973",
+      "verification_url": "https://www.pontotoc.school/apps/news/article/2239894?categoryId=16973",
+      "role": "event",
+      "title": "Community-based Scorecard Stakeholder Feedback — official district notice",
+      "publisher": "Pontotoc City School District",
+      "published_at": null,
+      "verified_at": "2026-10-18T14:15:16.056411+00:00"
+    },
+    {
+      "id": "survey",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSd5yNWOzzcbodTffZ9FVNkCwl3clAcbKgwTZsfS_4pPwle4Dw/viewform?usp=send_form",
+      "verification_url": "https://docs.google.com/forms/d/e/1FAIpQLSd5yNWOzzcbodTffZ9FVNkCwl3clAcbKgwTZsfS_4pPwle4Dw/viewform?usp=send_form",
+      "role": "event",
+      "title": "Community-based Scorecard Stakeholder Feedback — linked public survey",
+      "publisher": "District-linked Community-Based Improvement Scorecard survey",
+      "published_at": null,
+      "verified_at": "2026-10-18T14:15:16.321357+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc City School District is seeking community feedback on a proposed Community-Based Improvement Scorecard to give families and communities a broader picture of student success.",
+      "source_ids": [
+        "district-notice",
+        "survey"
+      ],
+      "evidence": "The official district notice says the district is developing a Community-Based Improvement Scorecard, explains its purpose as a broader picture of student success, and asks to hear from the people the schools serve before finalizing it. Its linked Google Form repeats this purpose and opens publicly with district and stakeholder-role questions; no response was entered or submitted.",
+      "date_context": "Official notice and public survey verified October 18, 2026. The notice is currently featured on the district site. No publication date, closing date or deadline is visible; published_at is null. No date is inferred from the image URL or search index. This is a current service notice, not a claim of a newly announced program.",
+      "locality": "Pontotoc City School District, Pontotoc, Mississippi. The shared survey also lists Pontotoc County among participating North Mississippi school districts.",
+      "identities": "Pontotoc City School District and the CREATE Foundation are named by the official district notice. The form lists Pontotoc City and Pontotoc County, along with Baldwyn, Lee County, Nettleton, New Albany, Tupelo and Union. No individual respondents or private information reported.",
+      "statistics": "None asserted"
+    },
+    {
+      "id": "f2",
+      "statement": "The district is working with other North Mississippi school districts and the CREATE Foundation; proposed measures cover Academic Readiness, Career Readiness and Life Readiness.",
+      "source_ids": [
+        "district-notice",
+        "survey"
+      ],
+      "evidence": "The district notice and linked form explicitly name other North Mississippi districts, the CREATE Foundation and the three readiness categories. The actual linked 1024×1536 source graphic was inspected and repeats all three categories, with Pontotoc City and Pontotoc County among eight participating districts. The source graphic is evidence only and is not reused.",
+      "date_context": "Official notice and public survey verified October 18, 2026. The notice is currently featured on the district site. No publication date, closing date or deadline is visible; published_at is null. No date is inferred from the image URL or search index. This is a current service notice, not a claim of a newly announced program.",
+      "locality": "Pontotoc City School District, Pontotoc, Mississippi. The shared survey also lists Pontotoc County among participating North Mississippi school districts.",
+      "identities": "Pontotoc City School District and the CREATE Foundation are named by the official district notice. The form lists Pontotoc City and Pontotoc County, along with Baldwyn, Lee County, Nettleton, New Albany, Tupelo and Union. No individual respondents or private information reported.",
+      "statistics": "Three named readiness categories. No school performance scores, rankings or outcome data asserted."
+    },
+    {
+      "id": "f3",
+      "statement": "The district notice asks participants to review proposed measures and answer five short questions about which measures matter most, which could be removed or combined and what may be missing.",
+      "source_ids": [
+        "district-notice",
+        "survey"
+      ],
+      "evidence": "Both official notice and form introduction explicitly ask readers to review proposed measures and answer five short questions, then describe input on importance, removal/combination and missing measures. The public first form page has district and stakeholder-role fields and a Next button. The form was not filled or submitted; five questions is attributed to the notice, not an independent count of all form fields.",
+      "date_context": "Official notice and public survey verified October 18, 2026. The notice is currently featured on the district site. No publication date, closing date or deadline is visible; published_at is null. No date is inferred from the image URL or search index. This is a current service notice, not a claim of a newly announced program.",
+      "locality": "Pontotoc City School District, Pontotoc, Mississippi. The shared survey also lists Pontotoc County among participating North Mississippi school districts.",
+      "identities": "Pontotoc City School District and the CREATE Foundation are named by the official district notice. The form lists Pontotoc City and Pontotoc County, along with Baldwyn, Lee County, Nettleton, New Albany, Tupelo and Union. No individual respondents or private information reported.",
+      "statistics": "Five short questions as described by the district notice; no response counts, estimated completion time or deadline asserted."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc City School District is seeking community feedback on a proposed Community-Based Improvement Scorecard intended to give families and communities a broader picture of student success.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The district is working with other North Mississippi school districts and the CREATE Foundation. The proposed scorecard covers academic readiness, career readiness and life readiness, according to the district’s notice.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "The notice asks participants to review the proposed measures and answer five short questions about which measures matter most, whether any should be removed or combined, and what may be missing. The district notice and its linked public survey are available in the sources below.",
+      "fact_ids": [
+        "f3",
+        "f1"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-city-student-success-scorecard-feedback.png",
+    "sha256": "215452d1524940835a40515214e3249128b207d4924778b81aa428c1142ccaf4",
+    "alt_text": "Original illustration showing proposed student-success scorecard areas: academic readiness, career readiness and life readiness.",
+    "credit": "Pontotoc News original illustration",
+    "rights": "owned",
+    "rights_reference": "Original 1200×675 typography, color cards and generic sheet-and-check pictograms created with Pillow and macOS Arial fonts by /tmp/pontotoc-morning-2026-10-18/prepare_scorecard.py. No district or CREATE logos, source graphic, student photographs or stock artwork reused. Parent editorial and actual-pixel review pending."
+  },
+  "review": {
+    "reviewer": "Assistant verified district notice, survey and source-image pixels; parent review pending",
+    "reviewed_at": "2026-10-18T14:16:52.841913+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s recurring Pontotoc plan authorizes useful verified local news. Parent authorized October 18 morning research and bounded dry-run for a second distinct local story, specifically identifying the district scorecard lead. Current original notice, linked public survey and source graphic verified. No publication date or deadline invented. Parent editorial and actual-pixel approval required before mode publish."
+  }
+}
