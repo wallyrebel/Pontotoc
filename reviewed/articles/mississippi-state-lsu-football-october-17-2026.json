@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "us:ncaa:football:2026-10-17:mississippi-state-lsu"
+  ],
+  "title": "Statewide sports: Mississippi State shut out 31–0 at LSU",
+  "excerpt": "Mississippi State lost 31–0 at LSU on Oct. 17. The Tigers led 21–0 at halftime; Billy Puckett and Kolin Wilson made their first collegiate starts.",
+  "locality": "Statewide Mississippi college-football coverage; this game was played in Baton Rouge, Louisiana, at Tiger Stadium. No Pontotoc game or participant connection is asserted.",
+  "sources": [
+    {
+      "id": "recap",
+      "url": "https://hailstate.com/news/2026/10/17/football-game-day-state-at-lsu",
+      "verification_url": "https://hailstate.com/news/2026/10/17/football-game-day-state-at-lsu",
+      "role": "event",
+      "title": "Mississippi State Athletics: Bulldogs Fall At LSU, October 17, 2026",
+      "publisher": "Mississippi State University Athletics",
+      "published_at": null,
+      "verified_at": "2026-10-18T00:37:22.327560+00:00"
+    },
+    {
+      "id": "notes",
+      "url": "https://static.hailstate.com/custompages/pdf/fb/2026/26FB_1017_LSU_PostgameNotes.pdf",
+      "verification_url": "https://static.hailstate.com/custompages/pdf/fb/2026/26FB_1017_LSU_PostgameNotes.pdf",
+      "role": "event",
+      "title": "Mississippi State official postgame notes — LSU, October 17, 2026",
+      "publisher": "Mississippi State University Athletics",
+      "published_at": null,
+      "verified_at": "2026-10-18T00:37:22.784800+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "No. 16 Mississippi State lost 31–0 at No. 22 LSU on Saturday, October 17, 2026, in Baton Rouge, Louisiana.",
+      "source_ids": [
+        "recap",
+        "notes"
+      ],
+      "evidence": "The official recap explicitly says No. 16 Mississippi State fell 31-0 to No. 22 LSU on Saturday and separately prints FINAL - LSU 31, MISSISSIPPI STATE 0. The dated postgame-notes PDF header independently prints OCTOBER 17, 2026 / MISSISSIPPI STATE 0 | LSU 31 / Tiger Stadium | Baton Rouge, La. Both primary URLs returned HTTP 200 through unchanged Transport.public.",
+      "date_context": "The official recap and three-page official postgame-notes PDF are dated October 17, 2026 and explicitly label LSU 31, Mississippi State 0 as final. Sources verified October 18 UTC during the October 17 evening scan in America/Chicago (CDT). No exact publication time was established; published_at is null. Rankings are those stated in the October 17 game recap, not a forecast of the next poll.",
+      "locality": "Statewide Mississippi college-football coverage; this game was played in Baton Rouge, Louisiana, at Tiger Stadium. No Pontotoc game or participant connection is asserted.",
+      "identities": "Mississippi State University Bulldogs and Louisiana State University Tigers; the game recap names No. 16 Mississippi State and No. 22 LSU. Billy Puckett is the Mississippi State quarterback and Kolin Wilson the running back identified in the official postgame notes. No injury details or private information are reported.",
+      "statistics": "Final points: Mississippi State 0, LSU 31. No. 16 and No. 22 are game-day rankings in the official recap. No unverified record or attendance figure is added."
+    },
+    {
+      "id": "f2",
+      "statement": "LSU led 21–0 at halftime after three touchdown passes, then added a field goal and another touchdown pass in the third quarter.",
+      "source_ids": [
+        "recap"
+      ],
+      "evidence": "The official scoring recap lists touchdown passes in first quarter at 9:57 and 3:27, another in second quarter at 6:12 making it 21-0, a third-quarter field goal at 6:45 making it 24-0 and a touchdown pass at 0:35 making it 31-0. The final score is explicit; no fourth-quarter scoring or invented play detail is added.",
+      "date_context": "The official recap and three-page official postgame-notes PDF are dated October 17, 2026 and explicitly label LSU 31, Mississippi State 0 as final. Sources verified October 18 UTC during the October 17 evening scan in America/Chicago (CDT). No exact publication time was established; published_at is null. Rankings are those stated in the October 17 game recap, not a forecast of the next poll.",
+      "locality": "Statewide Mississippi college-football coverage; this game was played in Baton Rouge, Louisiana, at Tiger Stadium. No Pontotoc game or participant connection is asserted.",
+      "identities": "Mississippi State University Bulldogs and Louisiana State University Tigers; the game recap names No. 16 Mississippi State and No. 22 LSU. Billy Puckett is the Mississippi State quarterback and Kolin Wilson the running back identified in the official postgame notes. No injury details or private information are reported.",
+      "statistics": "Halftime LSU 21, Mississippi State 0; three first-half touchdown passes. Third-quarter additions: 3 and 7 points, giving LSU 31 total."
+    },
+    {
+      "id": "f3",
+      "statement": "Quarterback Billy Puckett and running back Kolin Wilson made their first collegiate starts; Puckett completed 16 of 26 passes for 121 yards and Wilson rushed for 75 yards on 18 carries.",
+      "source_ids": [
+        "notes"
+      ],
+      "evidence": "The October 17 official postgame-notes PDF page 1 says Billy Puckett and Kolin Wilson made their first collegiate starts at quarterback and running back. Page 2 lists Puckett attempts 26, completions 16, passing yards 121 and Wilson rushing attempts 18, rushing yards 75. Wilson’s page-1 career-high line independently repeats 18 attempts and 75 yards. No unsupported rationale or individual injury information is used.",
+      "date_context": "The official recap and three-page official postgame-notes PDF are dated October 17, 2026 and explicitly label LSU 31, Mississippi State 0 as final. Sources verified October 18 UTC during the October 17 evening scan in America/Chicago (CDT). No exact publication time was established; published_at is null. Rankings are those stated in the October 17 game recap, not a forecast of the next poll.",
+      "locality": "Statewide Mississippi college-football coverage; this game was played in Baton Rouge, Louisiana, at Tiger Stadium. No Pontotoc game or participant connection is asserted.",
+      "identities": "Mississippi State University Bulldogs and Louisiana State University Tigers; the game recap names No. 16 Mississippi State and No. 22 LSU. Billy Puckett is the Mississippi State quarterback and Kolin Wilson the running back identified in the official postgame notes. No injury details or private information are reported.",
+      "statistics": "Puckett: 16 completions / 26 attempts, 121 passing yards. Wilson: 18 carries, 75 rushing yards. Both first collegiate starts. No contradictory tackle totals elsewhere in the source are repeated."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "No. 16 Mississippi State fell 31–0 at No. 22 LSU on Saturday, Oct. 17, in Baton Rouge, Louisiana, according to the Bulldogs’ official game recap.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "LSU built a 21–0 halftime lead with three touchdown passes, then added a field goal and another touchdown pass in the third quarter. Mississippi State did not score.",
+      "fact_ids": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "text": "Quarterback Billy Puckett and running back Kolin Wilson made their first collegiate starts. Mississippi State’s postgame notes list Puckett with 16 completions on 26 attempts for 121 yards and Wilson with 75 rushing yards on 18 carries.",
+      "fact_ids": [
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/mississippi-state-lsu-football-october-17-2026.png",
+    "sha256": "cf74f03bd2c449d694f5edbe503352a36ebd83328766dcfb29f18b0604f88c8d",
+    "alt_text": "Original scoreboard illustration for October 17, 2026: No. 16 Mississippi State 0, No. 22 LSU 31, final in Baton Rouge.",
+    "credit": "Pontotoc News original scoreboard illustration",
+    "rights": "owned",
+    "rights_reference": "Original 1200×675 typography, color panels, field ticks and geometric football rendered with Pillow and macOS Arial fonts by /tmp/pontotoc-nightly-2026-10-17/prepare_state.py. No university photographs, logos, uniforms, stock artwork or source graphics reused. Parent editorial and actual-pixel review pending."
+  },
+  "review": {
+    "reviewer": "Assistant official final-score and postgame-note verification; parent review pending",
+    "reviewed_at": "2026-10-18T00:37:22.852119+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s recurring Pontotoc plan permits verified statewide sports summaries and worthwhile nightly coverage. Parent authorized October 17 nightly scan and bounded dry-run for review before publication. This distinct October 17 Mississippi State–LSU final is verified from official recap and notes. Ole Miss–Missouri remains held because its existing published event identity overlaps. Parent editorial and pixel approval required before publish."
+  }
+}
