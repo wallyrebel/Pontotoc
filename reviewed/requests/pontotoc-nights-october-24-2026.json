@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-nights-october-24-2026.json",
   "article_sha256": "9715557918992de7b258b6184b5cfd5ab64c105106cd1f3b3d7d53aeb30745cd",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-nights-october-24-2026",
   "seo_review": {
     "reviewer": "Assistant accurate headline, description, natural slug and alt; parent review pending",
