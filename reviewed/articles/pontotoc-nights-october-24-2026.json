@@ -26,16 +26,6 @@
       "publisher": "Pontotoc County Chamber Main Street",
       "published_at": "2026-10-15T14:17:07+00:00",
       "verified_at": "2026-10-19T14:39:44.183755+00:00"
-    },
-    {
-      "id": "main-street",
-      "url": "https://www.msmainstreet.com/calendar/2026/10",
-      "verification_url": "https://www.msmainstreet.com/calendar/2026/10",
-      "role": "event",
-      "title": "Mississippi Main Street October 2026 calendar — October 24 Pontotoc Nites",
-      "publisher": "Mississippi Main Street Association",
-      "published_at": null,
-      "verified_at": "2026-10-19T14:32:04.842181+00:00"
     }
   ],
   "facts": [
@@ -44,11 +34,10 @@
       "statement": "Pontotoc Nights is scheduled for Saturday, October 24, 2026, from 2 to 8 p.m. at First Choice Gateway Pavilion in Pontotoc.",
       "source_ids": [
         "chamber-calendar",
-        "vendor-announcements",
-        "main-street"
+        "vendor-announcements"
       ],
-      "evidence": "Actual 1280×720 Chamber calendar pixels show Saturday, Oct. 24 / Pontotoc Nite’s / The First Choice Gateway Pavilion / 2–8PM. All four inspected 720×900 vendor graphics repeat Saturday, Oct. 24th / 2:00PM–8:00PM / Gateway Pavilion and use the Pontotoc Nights logo. The exact October 2026 Mississippi Main Street calendar independently lists Oct. 24: Pontotoc Nites. All three original URLs returned HTTP 200 through unchanged Transport.public.",
-      "date_context": "The Chamber published its updated October calendar on October 15, 2026 at 15:30:53 UTC and shared the vendor post on October 15 at 14:17:07 UTC, as recorded in the exact saved feed. The Chamber caption explicitly says the calendar is for the rest of this month; its graphic prints Saturday, October 24, 2–8 p.m. The four vendor graphics repeat Saturday, October 24, 2–8 p.m. The Mississippi Main Street October 2026 calendar independently lists Oct. 24: Pontotoc Nites. Times are the locally advertised afternoon/evening hours in Pontotoc (America/Chicago, CDT on October 24). No admission charge, entertainment lineup, food-truck list, contest, attendance or vendor fee is established. The exact existing Chamber feed is used for managed Facebook evidence verification; the original numeric Facebook permalinks, event/source dedupe identities and source roles remain unchanged. Ordinary Mac requests returned 200 for all original URLs, while the initial managed dry-run returned a non-endpoint-specific public-link guard.",
+      "evidence": "Actual 1280×720 Chamber calendar pixels show Saturday, Oct. 24 / Pontotoc Nite’s / The First Choice Gateway Pavilion / 2–8PM. Its caption says the new calendar is for the rest of this month, and the exact saved feed dates the post October 15, 2026. All four inspected 720×900 vendor graphics repeat Saturday, Oct. 24th / 2:00PM–8:00PM / Gateway Pavilion and use the Pontotoc Nights logo. Both exact original post permalinks appear in the current saved Chamber feed, which returned HTTP 200 through unchanged Transport.public. The optional statewide calendar link was removed after public-link availability guards; no reported fact depends on it.",
+      "date_context": "The exact saved Chamber feed dates the updated October calendar to October 15, 2026 at 15:30:53 UTC and its shared vendor post to October 15 at 14:17:07 UTC. The calendar caption explicitly says NEW CALENDAR FOR THE REST OF THIS MONTH. Its graphic prints Saturday, Oct. 24 / 2–8PM; the other printed October weekday/date pairs also match 2026. All four vendor graphics repeat Saturday, Oct. 24 / 2:00PM–8:00PM. Thus the current October 2026 context is supported by the dated original Chamber post, independent of any third-party calendar. Times are locally advertised in Pontotoc (America/Chicago, CDT on October 24). No admission price, entertainment lineup, food-truck list, contest, turnout or vendor fee is established. Managed Facebook verification uses the exact existing saved Chamber feed and requires the original numeric permalinks; reader URLs, roles and event identity remain unchanged.",
       "locality": "Pontotoc, Pontotoc County, Mississippi; First Choice Gateway Pavilion. No street address or directions are inferred.",
       "identities": "Pontotoc County Chamber Main Street shared the local calendar and Pontotoc Nights vendor graphics. Vendor trade names are Fairy Floss Cotton Candy, Just Bead It Up, Gabbs of Love Candle Co. and Buck Horn Staffs. No private individuals or people pictured in the source graphics are identified.",
       "statistics": "Advertised hours: 2 p.m. to 8 p.m. October 24, 2026. No turnout or admission price asserted."
@@ -60,7 +49,7 @@
         "vendor-announcements"
       ],
       "evidence": "The shared post contains four separately inspected vendor graphics, each headed Meet the Vendors and naming one business. Their printed names are Fairy Floss Cotton Candy; Just Bead It Up; Gabbs of Love Candle Co.; and Buck Horn Staffs. These are announced vendors, not a claim that the lineup is exhaustive or that particular inventory is guaranteed. Source photos and logos are evidence only and are not reused.",
-      "date_context": "The Chamber published its updated October calendar on October 15, 2026 at 15:30:53 UTC and shared the vendor post on October 15 at 14:17:07 UTC, as recorded in the exact saved feed. The Chamber caption explicitly says the calendar is for the rest of this month; its graphic prints Saturday, October 24, 2–8 p.m. The four vendor graphics repeat Saturday, October 24, 2–8 p.m. The Mississippi Main Street October 2026 calendar independently lists Oct. 24: Pontotoc Nites. Times are the locally advertised afternoon/evening hours in Pontotoc (America/Chicago, CDT on October 24). No admission charge, entertainment lineup, food-truck list, contest, attendance or vendor fee is established. The exact existing Chamber feed is used for managed Facebook evidence verification; the original numeric Facebook permalinks, event/source dedupe identities and source roles remain unchanged. Ordinary Mac requests returned 200 for all original URLs, while the initial managed dry-run returned a non-endpoint-specific public-link guard.",
+      "date_context": "The exact saved Chamber feed dates the updated October calendar to October 15, 2026 at 15:30:53 UTC and its shared vendor post to October 15 at 14:17:07 UTC. The calendar caption explicitly says NEW CALENDAR FOR THE REST OF THIS MONTH. Its graphic prints Saturday, Oct. 24 / 2–8PM; the other printed October weekday/date pairs also match 2026. All four vendor graphics repeat Saturday, Oct. 24 / 2:00PM–8:00PM. Thus the current October 2026 context is supported by the dated original Chamber post, independent of any third-party calendar. Times are locally advertised in Pontotoc (America/Chicago, CDT on October 24). No admission price, entertainment lineup, food-truck list, contest, turnout or vendor fee is established. Managed Facebook verification uses the exact existing saved Chamber feed and requires the original numeric permalinks; reader URLs, roles and event identity remain unchanged.",
       "locality": "Pontotoc, Pontotoc County, Mississippi; First Choice Gateway Pavilion. No street address or directions are inferred.",
       "identities": "Pontotoc County Chamber Main Street shared the local calendar and Pontotoc Nights vendor graphics. Vendor trade names are Fairy Floss Cotton Candy, Just Bead It Up, Gabbs of Love Candle Co. and Buck Horn Staffs. No private individuals or people pictured in the source graphics are identified.",
       "statistics": "Four vendor announcements inspected. No vendor attendance total, stock count or prices asserted."
@@ -72,7 +61,7 @@
         "chamber-calendar"
       ],
       "evidence": "The original calendar post caption explicitly says to call 662-489-5042 for additional information or email chamber@pontotocchamber.com. The phone number also appears in the source calendar graphic. These are public office contact details; no message or email was sent.",
-      "date_context": "The Chamber published its updated October calendar on October 15, 2026 at 15:30:53 UTC and shared the vendor post on October 15 at 14:17:07 UTC, as recorded in the exact saved feed. The Chamber caption explicitly says the calendar is for the rest of this month; its graphic prints Saturday, October 24, 2–8 p.m. The four vendor graphics repeat Saturday, October 24, 2–8 p.m. The Mississippi Main Street October 2026 calendar independently lists Oct. 24: Pontotoc Nites. Times are the locally advertised afternoon/evening hours in Pontotoc (America/Chicago, CDT on October 24). No admission charge, entertainment lineup, food-truck list, contest, attendance or vendor fee is established. The exact existing Chamber feed is used for managed Facebook evidence verification; the original numeric Facebook permalinks, event/source dedupe identities and source roles remain unchanged. Ordinary Mac requests returned 200 for all original URLs, while the initial managed dry-run returned a non-endpoint-specific public-link guard.",
+      "date_context": "The exact saved Chamber feed dates the updated October calendar to October 15, 2026 at 15:30:53 UTC and its shared vendor post to October 15 at 14:17:07 UTC. The calendar caption explicitly says NEW CALENDAR FOR THE REST OF THIS MONTH. Its graphic prints Saturday, Oct. 24 / 2–8PM; the other printed October weekday/date pairs also match 2026. All four vendor graphics repeat Saturday, Oct. 24 / 2:00PM–8:00PM. Thus the current October 2026 context is supported by the dated original Chamber post, independent of any third-party calendar. Times are locally advertised in Pontotoc (America/Chicago, CDT on October 24). No admission price, entertainment lineup, food-truck list, contest, turnout or vendor fee is established. Managed Facebook verification uses the exact existing saved Chamber feed and requires the original numeric permalinks; reader URLs, roles and event identity remain unchanged.",
       "locality": "Pontotoc, Pontotoc County, Mississippi; First Choice Gateway Pavilion. No street address or directions are inferred.",
       "identities": "Pontotoc County Chamber Main Street shared the local calendar and Pontotoc Nights vendor graphics. Vendor trade names are Fairy Floss Cotton Candy, Just Bead It Up, Gabbs of Love Candle Co. and Buck Horn Staffs. No private individuals or people pictured in the source graphics are identified.",
       "statistics": "None asserted"
@@ -108,7 +97,7 @@
   },
   "review": {
     "reviewer": "Assistant primary-source and source-graphic verification; parent review pending",
-    "reviewed_at": "2026-10-19T14:39:44.183755+00:00",
+    "reviewed_at": "2026-10-19T14:43:58.636737+00:00",
     "decision": "publish",
     "checks": {
       "dates": true,
