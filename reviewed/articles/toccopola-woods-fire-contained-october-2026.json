@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:toccopola:2026-10-17:woods-fire-containment-report"
+  ],
+  "title": "WTVA reports 11-acre Toccopola woods fire fully contained",
+  "excerpt": "WTVA reported late Saturday that firefighters had contained an 11-acre woods fire near Highway 334 in western Pontotoc County.",
+  "locality": "Toccopola, western Pontotoc County, Mississippi.",
+  "sources": [
+    {
+      "id": "wtva",
+      "role": "event",
+      "url": "https://www.wtva.com/2026/10/18/11-acre-woods-fire-contained-west-pontotoc-county/",
+      "verification_url": "https://www.wtva.com/2026/10/18/11-acre-woods-fire-contained-west-pontotoc-county/",
+      "title": "WTVA report on the Toccopola woods fire",
+      "publisher": "WTVA",
+      "published_at": "2026-10-18T04:08:41.219Z",
+      "verified_at": "2026-10-19T00:33:57.413832+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "WTVA reported late Saturday that an 11-acre woods fire near Highway 334 in Toccopola was fully contained.",
+      "source_ids": [
+        "wtva"
+      ],
+      "evidence": "Full original article says the fire is 100% contained and describes its acreage and location. Publication metadata confirms late Saturday CDT.",
+      "date_context": "WTVA published and modified 2026-10-18T04:08:41.219Z, equivalent to Oct. 17, 2026 at 11:08 p.m. America/Chicago. Actual ignition date and time are not stated. Containment is attributed to that report, not independently asserted as a live status.",
+      "locality": "Toccopola, western Pontotoc County, Mississippi; near Highway 334.",
+      "identities": "Thaxton Fire Chief Kenny Pennington; Mississippi Forestry Commission; WTVA reporters Jake Holcomb and Shawanda Jones. No private person identified.",
+      "statistics": "11 acres; 100% containment, as reported by WTVA."
+    },
+    {
+      "id": "f2",
+      "statement": "Multiple fire departments and the Mississippi Forestry Commission responded.",
+      "source_ids": [
+        "wtva"
+      ],
+      "evidence": "Original opening paragraph identifies the responders without enumerating departments.",
+      "date_context": "WTVA published and modified 2026-10-18T04:08:41.219Z, equivalent to Oct. 17, 2026 at 11:08 p.m. America/Chicago. Actual ignition date and time are not stated. Containment is attributed to that report, not independently asserted as a live status.",
+      "locality": "Toccopola, western Pontotoc County, Mississippi; near Highway 334.",
+      "identities": "Thaxton Fire Chief Kenny Pennington; Mississippi Forestry Commission; WTVA reporters Jake Holcomb and Shawanda Jones. No private person identified.",
+      "statistics": "None asserted"
+    },
+    {
+      "id": "f3",
+      "statement": "Chief Kenny Pennington told WTVA that wind carried sparks from a controlled burn across the road into woods.",
+      "source_ids": [
+        "wtva"
+      ],
+      "evidence": "Original article attributes this account directly to Thaxton Fire Chief Kenny Pennington; no person responsible is identified.",
+      "date_context": "WTVA published and modified 2026-10-18T04:08:41.219Z, equivalent to Oct. 17, 2026 at 11:08 p.m. America/Chicago. Actual ignition date and time are not stated. Containment is attributed to that report, not independently asserted as a live status.",
+      "locality": "Toccopola, western Pontotoc County, Mississippi; near Highway 334.",
+      "identities": "Thaxton Fire Chief Kenny Pennington; Mississippi Forestry Commission; WTVA reporters Jake Holcomb and Shawanda Jones. No private person identified.",
+      "statistics": "None asserted"
+    },
+    {
+      "id": "f4",
+      "statement": "WTVA reported that the Forestry Commission was asking residents to delay debris burning because of dry, windy conditions.",
+      "source_ids": [
+        "wtva"
+      ],
+      "evidence": "Final paragraph attributes the request to the Mississippi Forestry Commission; this is advice, not a statement that a legal burn ban exists.",
+      "date_context": "WTVA published and modified 2026-10-18T04:08:41.219Z, equivalent to Oct. 17, 2026 at 11:08 p.m. America/Chicago. Actual ignition date and time are not stated. Containment is attributed to that report, not independently asserted as a live status.",
+      "locality": "Toccopola, western Pontotoc County, Mississippi; near Highway 334.",
+      "identities": "Thaxton Fire Chief Kenny Pennington; Mississippi Forestry Commission; WTVA reporters Jake Holcomb and Shawanda Jones. No private person identified.",
+      "statistics": "None asserted"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "An 11-acre woods fire near Highway 334 in Toccopola was fully contained, WTVA reported late Saturday, Oct. 17.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "Multiple fire departments and the Mississippi Forestry Commission responded to the fire in western Pontotoc County.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Thaxton Fire Chief Kenny Pennington told WTVA that the fire began as a controlled burn before wind carried sparks across the road and into the woods.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "The station reported that the Forestry Commission was asking residents to hold off on burning debris because of dry and windy conditions.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/toccopola-woods-fire-contained-october-2026.png",
+    "sha256": "537418a1a7f820769f6bda7b817c8b1549bc9b59f299e5eedb199aa63cb7d567",
+    "alt_text": "Original Pontotoc News graphic reading Toccopola, Woods Fire Contained, with 11 acres near Highway 334 and the Oct. 17 WTVA report date.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typography-only news graphic created locally with DejaVu Sans. No source photograph, logo, source graphic or stock image reproduced."
+  },
+  "review": {
+    "reviewer": "Assistant editorial review",
+    "reviewed_at": "2026-10-19T00:33:57.413832+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon authorized useful reviewed Pontotoc articles and explicitly requested: Fix it however you can to publish to Pontotoc based on how your previously published. Parent requested this local editorial package for final review."
+  }
+}

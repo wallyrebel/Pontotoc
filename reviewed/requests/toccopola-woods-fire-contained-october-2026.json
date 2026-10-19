@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/toccopola-woods-fire-contained-october-2026.json",
+  "article_sha256": "66a65ef4d22e21994cb1e809b4c1d3a201a8e18788e66e2126449d1720f48ffb",
+  "mode": "dry-run",
+  "public_slug": "toccopola-woods-fire-contained-october-2026",
+  "seo_review": {
+    "reviewer": "Assistant editorial review",
+    "reviewed_at": "2026-10-19T00:33:57.413832+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}
