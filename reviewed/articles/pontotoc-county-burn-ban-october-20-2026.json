@@ -11,11 +11,21 @@
       "id": "mfc-listing",
       "url": "https://www.mfc.ms.gov/burning-info/burn-bans/",
       "verification_url": "https://www.mfc.ms.gov/burning-info/burn-bans/",
-      "title": "Mississippi Forestry Commission: current county burn bans and exemptions",
+      "title": "Mississippi Forestry Commission: current county reference, exemptions and burning guide",
+      "publisher": "Mississippi Forestry Commission",
+      "role": "background",
+      "published_at": null,
+      "verified_at": "2026-10-20T21:14:45.135707+00:00"
+    },
+    {
+      "id": "mfc-oct20-map",
+      "url": "https://www.mfc.ms.gov/wp-content/uploads/2026/10/County-Burn-Bans-NEW-2026-10-20T152927.777.png",
+      "verification_url": "https://www.mfc.ms.gov/wp-content/uploads/2026/10/County-Burn-Bans-NEW-2026-10-20T152927.777.png",
+      "title": "Mississippi Forestry Commission county burn-ban map, Oct. 20 edition",
       "publisher": "Mississippi Forestry Commission",
       "role": "event",
       "published_at": null,
-      "verified_at": "2026-10-20T21:11:41.971320+00:00"
+      "verified_at": "2026-10-20T21:14:45.135707+00:00"
     },
     {
       "id": "ecru-alert",
@@ -44,9 +54,10 @@
       "statement": "Pontotoc County’s burn ban begins October 20, 2026; MFC lists November 20, 2026 as its Through End Date. Ecru issued a public notice Tuesday afternoon.",
       "source_ids": [
         "mfc-listing",
-        "ecru-alert"
+        "ecru-alert",
+        "mfc-oct20-map"
       ],
-      "evidence": "MFC public browser DOM table: Pontotoc | 10/20/26 | 11/20/26 | 1, 2 & 4. The current 1080×1080 MFC map was visually inspected and colors Pontotoc red. Older MEMA map shared in a different Ecru post colors Pontotoc gray; it was superseded by the current MFC listing/map and was not used as authority. Full Ecru notice pixels independently inspected: BURN BAN IN PONTOTOC COUNTY MISSISSIPPI. Saved Ecru feed exact post pubDate Tue, 20 Oct 2026 19:28:06 +0000, equivalent to 2:28:06 p.m. CDT.",
+      "evidence": "MFC public browser DOM table: Pontotoc | 10/20/26 | 11/20/26 | 1, 2 & 4. The current 1080×1080 MFC map was visually inspected and colors Pontotoc red. Older MEMA map shared in a different Ecru post colors Pontotoc gray; it was superseded by the current MFC listing/map and was not used as authority. Full Ecru notice pixels independently inspected: BURN BAN IN PONTOTOC COUNTY MISSISSIPPI. Saved Ecru feed exact post pubDate Tue, 20 Oct 2026 19:28:06 +0000, equivalent to 2:28:06 p.m. CDT. Source-role review: existing post 2375 (March 28, 2026) links the undated MFC page only as a general state burn-ban lookup guide; it does not report the October 20 Pontotoc County ban. The dated Town of Ecru notice and newly inspected October 20 MFC map are event evidence. The continuously maintained county table and general burning instructions are background reference supporting the new event’s dates, exemptions and scope. The event identity and original guide URL remain unchanged; no existing post or media is modified.",
       "date_context": "October 20, 2026 is Tuesday. Current MFC county table, independently read on the normal public Chrome page October 20 afternoon, lists Pontotoc start 10/20/26, Through End Date 11/20/26 and exemptions 1, 2 & 4. No exact start hour is asserted. Listing may be updated; November 20 is reported as the listed end date, not a guarantee against later changes.",
       "locality": "Pontotoc County, Mississippi; countywide outdoor-burning restriction. State general burning guidance is attributed separately.",
       "identities": "Mississippi Forestry Commission (MFC); Town of Ecru; Mississippi Department of Environmental Quality (MDEQ). Public institutional guidance only.",
@@ -145,7 +156,7 @@
   },
   "review": {
     "reviewer": "Codex afternoon editorial review under Jon’s recurring publishing authorization",
-    "reviewed_at": "2026-10-20T21:11:41.971320+00:00",
+    "reviewed_at": "2026-10-20T21:14:45.135707+00:00",
     "decision": "publish",
     "checks": {
       "coherent_prose": true,
