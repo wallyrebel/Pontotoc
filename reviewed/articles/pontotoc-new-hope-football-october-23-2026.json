@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:football:2026-10-23:new-hope-preview",
+    "ms:pontotoc:football:2026-10-30:columbus-senior-night-schedule",
+    "ms:pontotoc:football:2026-11-05:lafayette-schedule"
+  ],
+  "title": "Pontotoc heads to New Hope Oct. 23; senior night follows Oct. 30",
+  "excerpt": "Pontotoc visits New Hope at 7 p.m. Friday at Trojan Field. The Warriors then host Columbus for senior night Oct. 30.",
+  "locality": "Pontotoc, Mississippi; away football dates at New Hope and Lafayette; home senior night in Pontotoc.",
+  "sources": [
+    {
+      "id": "game-flyer",
+      "url": "https://www.facebook.com/1409956404473934/posts/1664869678982604",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7kh8MV2fT.rss",
+      "role": "event",
+      "title": "Pontotoc Athletics: Oct. 23 New Hope game-day flyer",
+      "publisher": "Pontotoc Athletics",
+      "published_at": "2026-10-20T03:31:54Z",
+      "verified_at": "2026-10-20T13:58:00+00:00"
+    },
+    {
+      "id": "official-schedule",
+      "url": "https://www.pontotocathletics.com/sport/football/boys/?tab=schedule",
+      "verification_url": "https://www.pontotocathletics.com/sport/football/boys/?tab=schedule",
+      "role": "event",
+      "title": "Official Pontotoc varsity football schedule, 2026–27",
+      "publisher": "Pontotoc High School Athletics",
+      "published_at": null,
+      "verified_at": "2026-10-20T14:01:07.407963+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc plays at New Hope Friday, October 23, 2026, at 7 p.m.; the athletics flyer identifies Trojan Field.",
+      "source_ids": [
+        "game-flyer",
+        "official-schedule"
+      ],
+      "evidence": "Full 720×823 source flyer inspected: PONTOTOC AT NEW HOPE; 7 PM; FRIDAY OCTOBER 23; TROJAN FIELD. Official varsity 2026–2027 schedule: AWAY 10/23 NEW HOPE NEW HOPE 7:00 PM. Feed pubDate Tue,20 Oct2026 03:31:54UTC = Monday,Oct19,10:31:54p.m.CDT; flyer has no printed year, corroborated by official schedule.",
+      "date_context": "Verified October 20, 2026. School schedule explicitly selects 2026–2027. October 23 and 30 are Fridays; November 5 is Thursday. Listed 7 p.m. times are local America/Chicago; source does not print a timezone. No current win-loss records or scores are inferred.",
+      "locality": "Pontotoc, Mississippi; away football dates at New Hope and Lafayette; home senior night in Pontotoc.",
+      "identities": "Pontotoc Warriors; New Hope; Trojan Field.",
+      "statistics": "None asserted"
+    },
+    {
+      "id": "f2",
+      "statement": "Pontotoc next hosts Columbus on Friday, October 30, 2026, at 7 p.m.; the official schedule labels it senior night.",
+      "source_ids": [
+        "official-schedule"
+      ],
+      "evidence": "Official schedule: HOME 10/30 COLUMBUS (SENIOR NIGHT) PONTOTOC 7:00 PM.",
+      "date_context": "Verified October 20, 2026. School schedule explicitly selects 2026–2027. October 23 and 30 are Fridays; November 5 is Thursday. Listed 7 p.m. times are local America/Chicago; source does not print a timezone. No current win-loss records or scores are inferred.",
+      "locality": "Pontotoc, Mississippi; away football dates at New Hope and Lafayette; home senior night in Pontotoc.",
+      "identities": "Pontotoc; Columbus.",
+      "statistics": "None asserted"
+    },
+    {
+      "id": "f3",
+      "statement": "The next listed road game after senior night is at Lafayette Thursday, November 5, 2026, at 7 p.m.",
+      "source_ids": [
+        "official-schedule"
+      ],
+      "evidence": "Official schedule: AWAY 11/05 LAFAYETTE LAFAYETTE 7:00 PM.",
+      "date_context": "Verified October 20, 2026. School schedule explicitly selects 2026–2027. October 23 and 30 are Fridays; November 5 is Thursday. Listed 7 p.m. times are local America/Chicago; source does not print a timezone. No current win-loss records or scores are inferred.",
+      "locality": "Pontotoc, Mississippi; away football dates at New Hope and Lafayette; home senior night in Pontotoc.",
+      "identities": "Pontotoc; Lafayette.",
+      "statistics": "None asserted"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc’s football team will travel to New Hope on Friday, Oct. 23, for a 7 p.m. game at Trojan Field. A new game-day flyer from Pontotoc Athletics identifies the kickoff time and venue, and the school’s official 2026–27 varsity schedule confirms the road date.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The Warriors return home the following Friday, Oct. 30, to face Columbus at 7 p.m. The official schedule designates that game as senior night, giving fans two different locations to plan for over the next two Fridays.",
+      "fact_ids": [
+        "f2",
+        "f1"
+      ]
+    },
+    {
+      "text": "After senior night, the next listed road game is Thursday, Nov. 5, at Lafayette, also at 7 p.m. The school’s complete varsity schedule is linked below for fans checking these upcoming dates.",
+      "fact_ids": [
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-new-hope-football-october-23-2026.png",
+    "sha256": "162a95e7b0739d6046c451d76d72761b36bb8627eef54f3781c19a6471599bdc",
+    "alt_text": "Navy and gold schedule graphic: Pontotoc at New Hope, Oct. 23 at 7 p.m., Trojan Field; Columbus senior night Oct. 30.",
+    "credit": "Pontotoc News original editorial graphic",
+    "rights": "owned",
+    "rights_reference": "Original typography conveys only dates, venue and times verified in the full Athletics flyer and official 2026–27 schedule. No photographic event depiction. Original 1600×900 opaque RGB PNG, drawn locally with Pillow and macOS Arial; no source images, logos, or identified people reused. Full pixels inspected October 20, 2026."
+  },
+  "review": {
+    "reviewer": "Codex editorial review under Jon’s October 20 authorized publishing run",
+    "reviewed_at": "2026-10-20T14:13:48.219615+00:00",
+    "decision": "publish",
+    "checks": {
+      "source_support": true,
+      "dates": true,
+      "public_facts_only": true,
+      "no_invented_quotes_or_context": true,
+      "identities": true,
+      "locality": true,
+      "statistics": true,
+      "coherent_prose": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s recurring authorization and October 20, 2026 morning delegation authorize autonomous publication after offline validation, authenticated dry-run, rendered article/image review and all-status/semantic dedupe. Only bounded article, original asset and version-2 digest-bound request; existing managed Action credentials."
+  }
+}
