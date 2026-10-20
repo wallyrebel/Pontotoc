@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/north-mississippi-weather-october-20-2026.json",
   "article_sha256": "86e7318fd3f3d486471d63793bbb4089f6688237ec96495022756b6681f852e0",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "north-mississippi-weather-october-20-2026",
   "seo_review": {
     "reviewer": "Codex editorial review",
