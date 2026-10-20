@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:community:2026-10-27:harvest-walk"
+  ],
+  "title": "Harvest Walk set for Oct. 27 in downtown Pontotoc; candy tables invited",
+  "excerpt": "Pontotoc’s Harvest Walk starts at 9 a.m. Oct. 27 downtown. To reserve a table for handing out candy, call the Chamber at 662-489-5042.",
+  "locality": "Downtown Pontotoc, Pontotoc County, Mississippi. No street route or specific venue inferred.",
+  "sources": [
+    {
+      "id": "chamber-harvest-notice",
+      "url": "https://www.facebook.com/1162843435852264/posts/1740406001429335",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7lo1260by.rss",
+      "role": "event",
+      "title": "2026 Harvest Walk notice and invitation to reserve candy-table spots",
+      "publisher": "Pontotoc County Chamber Main Street",
+      "published_at": "2026-10-19T16:00:13+00:00",
+      "verified_at": "2026-10-20T00:36:30.027903+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "The 2026 Harvest Walk is scheduled for Tuesday, October 27, starting at 9 a.m. in downtown Pontotoc.",
+      "source_ids": [
+        "chamber-harvest-notice"
+      ],
+      "evidence": "Full 720×900 original flyer inspected: 2026 HARVEST WALK / OCTOBER 27TH / 9AM-UNTIL / DOWNTOWN PONTOTOC. Original caption repeats October 27th starting at 9 am. Exact post permalink is present in current saved Chamber feed, HTTP 200. Current original Facebook HTML also returned HTTP 200 and describes Harvest Walk. This is the distinct event-specific October 19 notice, not the October 15 multi-event calendar already used in post 6088.",
+      "date_context": "The original Chamber post is dated October 19, 2026 at 16:00:13 UTC (11:00:13 a.m. CDT) in the saved feed. Its full graphic explicitly prints 2026 and October 27th. October 27, 2026 is Tuesday. Advertised time is local Pontotoc time, America/Chicago, CDT. The graphic prints 9 AM-UNTIL; no ending time, route, fee, deadline, public eligibility or rain arrangement is asserted.",
+      "locality": "Downtown Pontotoc, Pontotoc County, Mississippi. No street route or specific venue inferred.",
+      "identities": "Pontotoc County Chamber Main Street posted the notice. The flyer says Brought to you by Park and Rec; no expanded department name inferred. Public office telephone only; no private individuals identified.",
+      "statistics": "Advertised start 9 a.m. October 27, 2026. No end time or attendance asserted."
+    },
+    {
+      "id": "f2",
+      "statement": "The Chamber invites people who would like to set up a table to hand out candy to call 662-489-5042 to reserve a spot.",
+      "source_ids": [
+        "chamber-harvest-notice"
+      ],
+      "evidence": "Original caption: If you would like to set up a table to hand out candy please call the number on the flyer below. Full inspected flyer: CALL US TO RESERVE YOUR SPOT / 662-489-5042. This is a public office contact, not a private number. No calls, emails or reservations made.",
+      "date_context": "The original Chamber post is dated October 19, 2026 at 16:00:13 UTC (11:00:13 a.m. CDT) in the saved feed. Its full graphic explicitly prints 2026 and October 27th. October 27, 2026 is Tuesday. Advertised time is local Pontotoc time, America/Chicago, CDT. The graphic prints 9 AM-UNTIL; no ending time, route, fee, deadline, public eligibility or rain arrangement is asserted.",
+      "locality": "Downtown Pontotoc, Pontotoc County, Mississippi. No street route or specific venue inferred.",
+      "identities": "Pontotoc County Chamber Main Street posted the notice. The flyer says Brought to you by Park and Rec; no expanded department name inferred. Public office telephone only; no private individuals identified.",
+      "statistics": "Public Chamber office phone 662-489-5042. No fee, table limit or signup deadline asserted."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc’s 2026 Harvest Walk is scheduled for Tuesday, Oct. 27, starting at 9 a.m. in downtown Pontotoc, according to a notice from Pontotoc County Chamber Main Street.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The Chamber invites anyone who would like to set up a table to hand out candy to call 662-489-5042 to reserve a spot.",
+      "fact_ids": [
+        "f2"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-harvest-walk-october-27-2026.png",
+    "sha256": "bce01237fbd8114461595a96b93f8c769289ae116f2a8440d9e0aef5cd9f3380",
+    "alt_text": "Original event graphic showing Harvest Walk, downtown Pontotoc, Tuesday, October 27, 2026, at 9 a.m., with the Chamber’s table reservation number.",
+    "credit": "Pontotoc News original event graphic",
+    "rights": "owned",
+    "rights_reference": "Original 1600×900 typography and geometric calendar graphic rendered in Pillow with macOS Arial fonts by /tmp/pontotoc-night-2026-10-19/prepare_harvest.py. No source photographs, illustrations, event or Chamber logos, stock images or venue likeness reused. Parent editorial and actual-pixel review pending."
+  },
+  "review": {
+    "reviewer": "Assistant primary-source and full-graphic review; parent review pending",
+    "reviewed_at": "2026-10-20T00:36:30.027903+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s standing authorization and October 19 nightly parent task authorize a useful distinct local story after two posts. This new event-specific Chamber notice supplies full graphic evidence without reusing the consumed calendar source. Bounded package for authenticated all-status dry-run and parent editorial/actual-pixel review; publish mode awaits parent review."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-harvest-walk-october-27-2026.json",
+  "article_sha256": "ba2d44c05caf42a1cd9aa6f196122bf8d77548f709589662a476808b6fce222b",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-harvest-walk-october-27-2026",
+  "seo_review": {
+    "reviewer": "Assistant accurate headline, excerpt, natural slug and alt; parent review pending",
+    "reviewed_at": "2026-10-20T00:36:30.027903+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}
