@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-county-burn-ban-october-20-2026.json",
-  "article_sha256": "e7164c4f62b83ac33138060022af6608fbd045ff864c42a069c68e75602d94d6",
+  "article_sha256": "7704e64ee43aad2c08e5a74a0a6652090b9eae3e43d0d5c96ee36de64a75e180",
   "mode": "dry-run",
   "public_slug": "pontotoc-county-burn-ban-october-20-2026",
   "seo_review": {
     "reviewer": "Codex afternoon editorial review",
-    "reviewed_at": "2026-10-20T21:14:45.135707+00:00",
+    "reviewed_at": "2026-10-20T21:20:26.235056+00:00",
     "checks": {
       "accurate_concise_description": true,
       "canonical_and_source_links": true,

@@ -3,30 +3,10 @@
   "event_keys": [
     "ms:pontotoc-county:2026-10-20:outdoor-burn-ban"
   ],
-  "title": "Pontotoc County under burn ban; MFC lists Nov. 20 end date",
-  "excerpt": "Pontotoc County’s outdoor burn ban began Oct. 20. MFC lists Nov. 20 as the end date, with specific exemptions and restrictions on ember-producing fires.",
-  "locality": "Pontotoc County, Mississippi; countywide outdoor-burning restriction. State general burning guidance is attributed separately.",
+  "title": "Ecru alerts residents to Pontotoc County burn ban",
+  "excerpt": "Ecru’s Oct. 20 notice asks residents to avoid outdoor burning and take care around dry grass as Pontotoc County is under a burn ban.",
+  "locality": "Pontotoc County, Mississippi; public notice issued by the Town of Ecru. County burn-ban announcement and safety requests are attributed to the town.",
   "sources": [
-    {
-      "id": "mfc-listing",
-      "url": "https://www.mfc.ms.gov/burning-info/burn-bans/",
-      "verification_url": "https://www.mfc.ms.gov/burning-info/burn-bans/",
-      "title": "Mississippi Forestry Commission: current county reference, exemptions and burning guide",
-      "publisher": "Mississippi Forestry Commission",
-      "role": "background",
-      "published_at": null,
-      "verified_at": "2026-10-20T21:14:45.135707+00:00"
-    },
-    {
-      "id": "mfc-oct20-map",
-      "url": "https://www.mfc.ms.gov/wp-content/uploads/2026/10/County-Burn-Bans-NEW-2026-10-20T152927.777.png",
-      "verification_url": "https://www.mfc.ms.gov/wp-content/uploads/2026/10/County-Burn-Bans-NEW-2026-10-20T152927.777.png",
-      "title": "Mississippi Forestry Commission county burn-ban map, Oct. 20 edition",
-      "publisher": "Mississippi Forestry Commission",
-      "role": "event",
-      "published_at": null,
-      "verified_at": "2026-10-20T21:14:45.135707+00:00"
-    },
     {
       "id": "ecru-alert",
       "url": "https://www.facebook.com/1204361708550928/posts/1438500585137038",
@@ -35,7 +15,7 @@
       "publisher": "Town of Ecru",
       "role": "event",
       "published_at": "2026-10-20T19:28:06Z",
-      "verified_at": "2026-10-20T21:11:41.971320+00:00"
+      "verified_at": "2026-10-20T21:20:26.235056+00:00"
     },
     {
       "id": "earlier-outlook",
@@ -45,118 +25,96 @@
       "publisher": "Pontotoc News",
       "role": "background",
       "published_at": "2026-10-20T14:53:41Z",
-      "verified_at": "2026-10-20T21:11:41.971320+00:00"
+      "verified_at": "2026-10-20T21:20:26.235056+00:00"
     }
   ],
   "facts": [
     {
       "id": "f1",
-      "statement": "Pontotoc County’s burn ban begins October 20, 2026; MFC lists November 20, 2026 as its Through End Date. Ecru issued a public notice Tuesday afternoon.",
+      "statement": "The Town of Ecru issued a public notice Tuesday afternoon stating that Pontotoc County is under a burn ban and asking residents to avoid outdoor burning.",
       "source_ids": [
-        "mfc-listing",
-        "ecru-alert",
-        "mfc-oct20-map"
+        "ecru-alert"
       ],
-      "evidence": "MFC public browser DOM table: Pontotoc | 10/20/26 | 11/20/26 | 1, 2 & 4. The current 1080×1080 MFC map was visually inspected and colors Pontotoc red. Older MEMA map shared in a different Ecru post colors Pontotoc gray; it was superseded by the current MFC listing/map and was not used as authority. Full Ecru notice pixels independently inspected: BURN BAN IN PONTOTOC COUNTY MISSISSIPPI. Saved Ecru feed exact post pubDate Tue, 20 Oct 2026 19:28:06 +0000, equivalent to 2:28:06 p.m. CDT. Source-role review: existing post 2375 (March 28, 2026) links the undated MFC page only as a general state burn-ban lookup guide; it does not report the October 20 Pontotoc County ban. The dated Town of Ecru notice and newly inspected October 20 MFC map are event evidence. The continuously maintained county table and general burning instructions are background reference supporting the new event’s dates, exemptions and scope. The event identity and original guide URL remain unchanged; no existing post or media is modified.",
-      "date_context": "October 20, 2026 is Tuesday. Current MFC county table, independently read on the normal public Chrome page October 20 afternoon, lists Pontotoc start 10/20/26, Through End Date 11/20/26 and exemptions 1, 2 & 4. No exact start hour is asserted. Listing may be updated; November 20 is reported as the listed end date, not a guarantee against later changes.",
-      "locality": "Pontotoc County, Mississippi; countywide outdoor-burning restriction. State general burning guidance is attributed separately.",
-      "identities": "Mississippi Forestry Commission (MFC); Town of Ecru; Mississippi Department of Environmental Quality (MDEQ). Public institutional guidance only.",
+      "evidence": "Exact saved Ecru feed links https://www.facebook.com/1204361708550928/posts/1438500585137038 with pubDate Oct.20 19:28:06UTC. Full source graphic: BURN BAN IN PONTOTOC COUNTY MISSISSIPPI. Text warns dry conditions make outdoor fires spread quickly and get out of control; UNTIL THE BAN IS LIFTED, PLEASE DO NOT BURN. This independently supports a clearly attributed local announcement. Unpublished package narrowed per parent direction; same event keys retained.",
+      "date_context": "Town of Ecru saved-feed pubDate Tue, 20 Oct 2026 19:28:06 +0000, equivalent to Tuesday, October 20, 2:28:06 p.m. CDT. Article reports the notice date, not an independently verified legal start hour, expiration date or list of exemptions. October 20 source pixels fully inspected. No MFC-only details included.",
+      "locality": "Pontotoc County, Mississippi; public notice issued by the Town of Ecru. County burn-ban announcement and safety requests are attributed to the town.",
+      "identities": "Town of Ecru; Pontotoc County. No private individuals identified.",
       "statistics": "None asserted"
     },
     {
       "id": "f2",
-      "statement": "MFC lists exemptions 1, 2 and 4 for Pontotoc: the commission, certified burn managers and construction contractors using heavy equipment whose burns meet MDEQ regulations.",
+      "statement": "Ecru’s notice asks residents not to burn brush piles or yard debris, trash or household waste, fields, pastures or ditch lines, or to have campfires, bonfires or burn barrels until the ban is lifted.",
       "source_ids": [
-        "mfc-listing"
+        "ecru-alert"
       ],
-      "evidence": "Current Pontotoc row lists 1, 2 & 4. Same page exemption key identifies MFC; Certified Burn Managers; and commercial contractors with heavy construction equipment subject to MDEQ burning rules. No broader permission or other exemption inferred.",
-      "date_context": "October 20, 2026 is Tuesday. Current MFC county table, independently read on the normal public Chrome page October 20 afternoon, lists Pontotoc start 10/20/26, Through End Date 11/20/26 and exemptions 1, 2 & 4. No exact start hour is asserted. Listing may be updated; November 20 is reported as the listed end date, not a guarantee against later changes.",
-      "locality": "Pontotoc County, Mississippi; countywide outdoor-burning restriction. State general burning guidance is attributed separately.",
-      "identities": "Mississippi Forestry Commission (MFC); Town of Ecru; Mississippi Department of Environmental Quality (MDEQ). Public institutional guidance only.",
+      "evidence": "Full graphic pixels list: Brush piles and yard debris; Trash or household waste; Fields, pastures, or ditch lines; Campfires, bonfires, or burn barrels. Reported as the town’s requests. Broader all-open-flame wording is not repeated, and no exemption or specific allowed equipment is asserted.",
+      "date_context": "Town of Ecru saved-feed pubDate Tue, 20 Oct 2026 19:28:06 +0000, equivalent to Tuesday, October 20, 2:28:06 p.m. CDT. Article reports the notice date, not an independently verified legal start hour, expiration date or list of exemptions. October 20 source pixels fully inspected. No MFC-only details included.",
+      "locality": "Pontotoc County, Mississippi; public notice issued by the Town of Ecru. County burn-ban announcement and safety requests are attributed to the town.",
+      "identities": "Town of Ecru; Pontotoc County. No private individuals identified.",
       "statistics": "None asserted"
     },
     {
       "id": "f3",
-      "statement": "MFC’s general burn-ban guidance prohibits campfires, bonfires, fire pits, fire rings, burn barrels, debris burning and field burning; it describes the restriction as covering ember-producing open flames.",
+      "statement": "Ecru also asks residents to be careful with discarded cigarettes, hot equipment in dry grass and vehicles parked over tall, dry vegetation.",
       "source_ids": [
-        "mfc-listing"
+        "ecru-alert"
       ],
-      "evidence": "MFC page, What is Not Allowed During a Burn Ban, lists those seven types of burning and defines ember-producing open flames. County-specific listed exemptions are reported alongside this general guidance.",
-      "date_context": "October 20, 2026 is Tuesday. Current MFC county table, independently read on the normal public Chrome page October 20 afternoon, lists Pontotoc start 10/20/26, Through End Date 11/20/26 and exemptions 1, 2 & 4. No exact start hour is asserted. Listing may be updated; November 20 is reported as the listed end date, not a guarantee against later changes.",
-      "locality": "Pontotoc County, Mississippi; countywide outdoor-burning restriction. State general burning guidance is attributed separately.",
-      "identities": "Mississippi Forestry Commission (MFC); Town of Ecru; Mississippi Department of Environmental Quality (MDEQ). Public institutional guidance only.",
+      "evidence": "Full notice pixels: Please also be careful with anything that could spark a fire, like discarded cigarettes, hot equipment in dry grass, and vehicles parked over tall, dry vegetation.",
+      "date_context": "Town of Ecru saved-feed pubDate Tue, 20 Oct 2026 19:28:06 +0000, equivalent to Tuesday, October 20, 2:28:06 p.m. CDT. Article reports the notice date, not an independently verified legal start hour, expiration date or list of exemptions. October 20 source pixels fully inspected. No MFC-only details included.",
+      "locality": "Pontotoc County, Mississippi; public notice issued by the Town of Ecru. County burn-ban announcement and safety requests are attributed to the town.",
+      "identities": "Town of Ecru; Pontotoc County. No private individuals identified.",
       "statistics": "None asserted"
     },
     {
       "id": "f4",
-      "statement": "MFC’s general guidance allows gas or propane grills and heaters and charcoal grills, with safe use and disposal precautions.",
-      "source_ids": [
-        "mfc-listing"
-      ],
-      "evidence": "MFC page, What is Allowed During a Burn Ban, lists propane/gas grills, propane/gas heaters and charcoal grills. Guidance: manufacturer instructions; separation from combustible materials; do not leave unattended. Let charcoal cool completely, douse it in water and use a metal container for disposal.",
-      "date_context": "October 20, 2026 is Tuesday. Current MFC county table, independently read on the normal public Chrome page October 20 afternoon, lists Pontotoc start 10/20/26, Through End Date 11/20/26 and exemptions 1, 2 & 4. No exact start hour is asserted. Listing may be updated; November 20 is reported as the listed end date, not a guarantee against later changes.",
-      "locality": "Pontotoc County, Mississippi; countywide outdoor-burning restriction. State general burning guidance is attributed separately.",
-      "identities": "Mississippi Forestry Commission (MFC); Town of Ecru; Mississippi Department of Environmental Quality (MDEQ). Public institutional guidance only.",
-      "statistics": "None asserted"
-    },
-    {
-      "id": "f5",
-      "statement": "Tuesday morning’s NWS outlook warned of continuing afternoon fire danger across the Mid-South; Pontotoc News published that regional forecast before the afternoon local notice.",
+      "statement": "The local notice follows Tuesday morning’s regional NWS outlook for continued elevated afternoon fire danger.",
       "source_ids": [
         "earlier-outlook"
       ],
-      "evidence": "Existing post 6097 published Oct. 20 at 9:53:41 a.m. CDT reports NWS Memphis forecast elevated afternoon fire danger through much of the week. This is background context, not a second report of that forecast or an assertion of a Red Flag Warning.",
-      "date_context": "October 20, 2026 is Tuesday. Current MFC county table, independently read on the normal public Chrome page October 20 afternoon, lists Pontotoc start 10/20/26, Through End Date 11/20/26 and exemptions 1, 2 & 4. No exact start hour is asserted. Listing may be updated; November 20 is reported as the listed end date, not a guarantee against later changes.",
-      "locality": "Pontotoc County, Mississippi; countywide outdoor-burning restriction. State general burning guidance is attributed separately.",
-      "identities": "Mississippi Forestry Commission (MFC); Town of Ecru; Mississippi Department of Environmental Quality (MDEQ). Public institutional guidance only.",
+      "evidence": "Published post6097 at9:53:41a.m.CDT reports NWS Memphis forecast elevated afternoon fire danger through much of the week. Used as clearly attributed background; not reported as a new forecast or an active Red Flag Warning.",
+      "date_context": "Town of Ecru saved-feed pubDate Tue, 20 Oct 2026 19:28:06 +0000, equivalent to Tuesday, October 20, 2:28:06 p.m. CDT. Article reports the notice date, not an independently verified legal start hour, expiration date or list of exemptions. October 20 source pixels fully inspected. No MFC-only details included.",
+      "locality": "Pontotoc County, Mississippi; public notice issued by the Town of Ecru. County burn-ban announcement and safety requests are attributed to the town.",
+      "identities": "Town of Ecru; Pontotoc County. No private individuals identified.",
       "statistics": "None asserted"
     }
   ],
   "paragraphs": [
     {
-      "text": "Pontotoc County is under an outdoor burn ban beginning Tuesday, Oct. 20, with Nov. 20 listed as its end date by the Mississippi Forestry Commission. The Town of Ecru also alerted residents to the ban Tuesday afternoon.",
+      "text": "The Town of Ecru alerted residents Tuesday afternoon that Pontotoc County is under a burn ban, urging people to avoid outdoor burning as dry conditions make fires easier to spread and harder to control.",
       "fact_ids": [
         "f1"
       ]
     },
     {
-      "text": "The commission’s general guidance prohibits campfires, bonfires, fire pits, fire rings, burn barrels, debris burning and field burning during a burn ban. It describes the restriction as covering open flames that produce embers.",
-      "fact_ids": [
-        "f3"
-      ]
-    },
-    {
-      "text": "Pontotoc’s listing includes exemptions 1, 2 and 4. Those cover the Forestry Commission, certified burn managers and construction contractors using heavy equipment, provided the contractors’ burns meet Mississippi Department of Environmental Quality regulations.",
+      "text": "The town’s notice asks residents not to burn brush piles or yard debris, trash or household waste, fields, pastures or ditch lines. It also asks people to avoid campfires, bonfires and burn barrels until the ban is lifted.",
       "fact_ids": [
         "f2"
       ]
     },
     {
-      "text": "The state guidance lists gas or propane grills and heaters, along with charcoal grills, as allowed. It calls for following manufacturer instructions, keeping them away from combustible materials and never leaving them unattended. Charcoal should cool completely and be doused with water before disposal in a metal container.",
+      "text": "Ecru’s safety message extends beyond planned burning. The notice calls for care with discarded cigarettes, hot equipment in dry grass and vehicles parked over tall, dry vegetation—potential ignition sources while conditions remain dry.",
       "fact_ids": [
-        "f4"
+        "f3"
       ]
     },
     {
-      "text": "The local restriction follows a Tuesday morning National Weather Service outlook warning of continued afternoon fire danger across the Mid-South. Residents should check the commission’s live county listing, linked below, for current dates and exemptions before planning any outdoor burning.",
+      "text": "The local alert follows a Tuesday morning National Weather Service outlook for continued elevated afternoon fire danger across the Mid-South. Pontotoc News’ earlier report on that regional outlook is linked below, along with the town’s notice.",
       "fact_ids": [
-        "f1",
-        "f2",
-        "f5"
+        "f4"
       ]
     }
   ],
   "image": {
     "path": "reviewed/assets/pontotoc-county-burn-ban-october-20-2026.png",
-    "sha256": "c83a138c4091b4f02b909f1e8a862c52aedb1c46558c647aece4b23ab91a3287",
-    "alt_text": "Original red-and-navy graphic identifying Pontotoc County’s burn ban, MFC’s listed Oct. 20–Nov. 20 dates and a reminder to check exemptions.",
+    "sha256": "87a5c0b3c8c974c89e0cac84a32d66c9720879cca708fa92aee6c6ae1c054856",
+    "alt_text": "Original red-and-navy graphic: Pontotoc County burn-ban notice from the Town of Ecru, Oct. 20, asking residents to avoid outdoor burning.",
     "credit": "Pontotoc News original editorial graphic",
     "rights": "owned",
-    "rights_reference": "Original typography drawn locally with Pillow and macOS Arial. No agency logos, source maps, source flyers, stock imagery or identified people reused. Opaque RGB 1600×900 PNG pixels inspected October 20, 2026. Graphic accurately labels dates as the current MFC listing and directs readers to check exemptions and current status."
+    "rights_reference": "Original typography drawn locally with Pillow and macOS Arial for the narrowed Ecru-sourced announcement. Opaque RGB 1600×900 PNG. No MFC dates, exemptions, permissions, agency logos, source flyers, stock imagery or people reused. October20 labels the notice date only. Pixels reviewed separately before submission."
   },
   "review": {
     "reviewer": "Codex afternoon editorial review under Jon’s recurring publishing authorization",
-    "reviewed_at": "2026-10-20T21:14:45.135707+00:00",
+    "reviewed_at": "2026-10-20T21:20:26.235056+00:00",
     "decision": "publish",
     "checks": {
       "coherent_prose": true,
@@ -175,13 +133,12 @@
     ],
     "excerpt_fact_ids": [
       "f1",
-      "f2",
       "f3"
     ]
   },
   "submission": {
     "kind": "assistant_review",
     "publish_intent": true,
-    "reference": "Jon’s recurring Pontotoc News publishing authorization and October 20 afternoon delegation authorize this verified fresh county burn-ban report after offline checks, authenticated dry-run, full prose/image review and source/event dedupe. Existing managed Action credentials only; bounded article, original asset and version-2 request."
+    "reference": "Jon’s recurring Pontotoc publishing authorization and parent’s October20 direction authorize a narrower, independently Ecru-sourced county burn-ban announcement after all original gates pass. MFC automated403 is not retried or circumvented; MFC-only dates,exemptions and permissions are omitted. Same event identity; no infrastructure changes."
   }
 }
