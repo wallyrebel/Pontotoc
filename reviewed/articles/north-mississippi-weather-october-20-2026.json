@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:north-mississippi:nws-memphis:2026-10-20:weekly-dry-weather-fire-outlook"
+  ],
+  "title": "North Mississippi weather: Dry week keeps afternoon fire danger elevated",
+  "excerpt": "Tuesday’s NWS Memphis outlook calls for warm, dry weather through the week and continued afternoon fire danger across the Mid-South.",
+  "locality": "North Mississippi within the NWS Memphis Mid-South forecast area, including the Pontotoc area. Regional forecast, not an observed Pontotoc measurement.",
+  "sources": [
+    {
+      "id": "nws-tuesday",
+      "url": "https://api.weather.gov/products/5dce00d4-4959-4343-8d3b-ec17c56d72e5",
+      "verification_url": "https://api.weather.gov/products/5dce00d4-4959-4343-8d3b-ec17c56d72e5",
+      "role": "event",
+      "title": "NWS Memphis: Oct. 20 morning Area Forecast Discussion",
+      "publisher": "National Weather Service Memphis",
+      "published_at": "2026-10-20T11:10:00Z",
+      "verified_at": "2026-10-20T13:59:52.186199+00:00"
+    },
+    {
+      "id": "related-local-fire",
+      "url": "https://pontotocnews.com/pontotoc-news/toccopola-woods-fire-contained-october-2026/",
+      "verification_url": "https://pontotocnews.com/pontotoc-news/toccopola-woods-fire-contained-october-2026/",
+      "role": "background",
+      "title": "Related local coverage: Toccopola woods fire reported contained Oct. 19",
+      "publisher": "Pontotoc News",
+      "published_at": "2026-10-19T12:04:57Z",
+      "verified_at": "2026-10-20T13:59:52.186199+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "The October 20 NWS Memphis outlook calls for continuing dry weather with elevated afternoon fire danger through much of the week.",
+      "source_ids": [
+        "nws-tuesday"
+      ],
+      "evidence": "Key messages: Dry weather continues; Elevated fire danger concerns will continue each afternoon through much of this week. Discussion includes northeastern Mississippi in the forecast area.",
+      "date_context": "NWS Memphis Area Forecast Discussion issued October 20, 2026 at 11:10 UTC / 6:10 a.m. CDT; key messages updated 6:09 a.m. Discussion and fire-weather sections issued 10:59 p.m. CDT October 19 and address Tuesday and the week ahead. Verified October 20 at 13:59:52 UTC. Forecast language is conditional; no active county warning or burn ban is asserted.",
+      "locality": "North Mississippi within the NWS Memphis Mid-South forecast area, including the Pontotoc area. Regional forecast, not an observed Pontotoc measurement.",
+      "identities": "National Weather Service Memphis.",
+      "statistics": "None asserted"
+    },
+    {
+      "id": "f2",
+      "statement": "Regional daytime temperatures are expected to reach the upper 70s to low 80s by midweek, with high pressure maintaining dry and warm conditions through the week and into the weekend.",
+      "source_ids": [
+        "nws-tuesday"
+      ],
+      "evidence": "Key messages: general warming trend back into the upper70s to low80s by middle of week. Discussion: persistent high pressure; warm and dry weather will persist through weekend.",
+      "date_context": "NWS Memphis Area Forecast Discussion issued October 20, 2026 at 11:10 UTC / 6:10 a.m. CDT; key messages updated 6:09 a.m. Discussion and fire-weather sections issued 10:59 p.m. CDT October 19 and address Tuesday and the week ahead. Verified October 20 at 13:59:52 UTC. Forecast language is conditional; no active county warning or burn ban is asserted.",
+      "locality": "North Mississippi within the NWS Memphis Mid-South forecast area, including the Pontotoc area. Regional forecast, not an observed Pontotoc measurement.",
+      "identities": "National Weather Service Memphis.",
+      "statistics": "Regional forecast temperatures in degrees Fahrenheit, not actual readings or a town-specific forecast."
+    },
+    {
+      "id": "f3",
+      "statement": "Afternoon relative humidity is forecast at or below 30% across most of the Mid-South; light winds are expected to stay below the need for Red Flag Warnings.",
+      "source_ids": [
+        "nws-tuesday"
+      ],
+      "evidence": "Discussion: afternoon relative humidities at or below30% across majority of region. Fire weather: 20-foot winds remain light enough to avoid warranting any Red Flag Warnings.",
+      "date_context": "NWS Memphis Area Forecast Discussion issued October 20, 2026 at 11:10 UTC / 6:10 a.m. CDT; key messages updated 6:09 a.m. Discussion and fire-weather sections issued 10:59 p.m. CDT October 19 and address Tuesday and the week ahead. Verified October 20 at 13:59:52 UTC. Forecast language is conditional; no active county warning or burn ban is asserted.",
+      "locality": "North Mississippi within the NWS Memphis Mid-South forecast area, including the Pontotoc area. Regional forecast, not an observed Pontotoc measurement.",
+      "identities": "National Weather Service Memphis.",
+      "statistics": "Forecast regional relative humidity at or below30%, not a measurement or a claimed Pontotoc observation."
+    },
+    {
+      "id": "f4",
+      "statement": "NWS urges people to follow any local burn bans and properly dispose of cigarettes and matches.",
+      "source_ids": [
+        "nws-tuesday"
+      ],
+      "evidence": "Key messages: Obey any local burn bans and properly dispose of cigarettes and matches.",
+      "date_context": "NWS Memphis Area Forecast Discussion issued October 20, 2026 at 11:10 UTC / 6:10 a.m. CDT; key messages updated 6:09 a.m. Discussion and fire-weather sections issued 10:59 p.m. CDT October 19 and address Tuesday and the week ahead. Verified October 20 at 13:59:52 UTC. Forecast language is conditional; no active county warning or burn ban is asserted.",
+      "locality": "North Mississippi within the NWS Memphis Mid-South forecast area, including the Pontotoc area. Regional forecast, not an observed Pontotoc measurement.",
+      "identities": "National Weather Service Memphis. No local ban asserted.",
+      "statistics": "None asserted"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "North Mississippi’s dry spell is expected to continue this week, with the National Weather Service warning that afternoon fire danger will remain elevated across much of the Mid-South. The agency’s Tuesday morning outlook calls for warm days and little change in the dry pattern.",
+      "fact_ids": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "text": "A persistent area of high pressure is expected to keep the region dry as daytime temperatures climb into the upper 70s to low 80s by midweek. Forecasters expect the warm, dry pattern to extend into the weekend, according to the Oct. 20 discussion from the weather service’s Memphis office.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "The fire concern comes with afternoon relative humidity forecast at or below 30% across most of the region. Winds are expected to remain light enough that Red Flag Warnings are not warranted, the discussion says, while elevated fire danger continues. Those are regional forecast conditions, rather than humidity readings measured in Pontotoc.",
+      "fact_ids": [
+        "f1",
+        "f3"
+      ]
+    },
+    {
+      "text": "The weather service urges residents to follow any local burn bans and properly dispose of cigarettes and matches. People making outdoor plans should keep the continuing afternoon fire risk in mind even as the forecast stays dry and warm.",
+      "fact_ids": [
+        "f1",
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/north-mississippi-weather-october-20-2026.png",
+    "sha256": "598f6d9fd34fa646804bbc5fecffca36f172ed081bed96275dcd205815196aad",
+    "alt_text": "Original regional weather graphic: warm days, dry week and continuing afternoon fire danger, based on the Oct. 20 NWS Memphis outlook.",
+    "credit": "Pontotoc News original editorial graphic",
+    "rights": "owned",
+    "rights_reference": "Original forecast typography and simple sun illustration, based on the dated October 20 NWS Memphis discussion. Clearly labeled North Mississippi/regional outlook, without invented local readings or warning icons. Original 1600×900 opaque RGB PNG, drawn locally with Pillow and macOS Arial; no source images, logos, or identified people reused. Full pixels inspected October 20, 2026."
+  },
+  "review": {
+    "reviewer": "Codex editorial review under Jon’s October 20 authorized publishing run",
+    "reviewed_at": "2026-10-20T14:13:48.219615+00:00",
+    "decision": "publish",
+    "checks": {
+      "source_support": true,
+      "dates": true,
+      "public_facts_only": true,
+      "no_invented_quotes_or_context": true,
+      "identities": true,
+      "locality": true,
+      "statistics": true,
+      "coherent_prose": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s recurring authorization and October 20, 2026 morning delegation authorize autonomous publication after offline validation, authenticated dry-run, rendered article/image review and all-status/semantic dedupe. Only bounded article, original asset and version-2 digest-bound request; existing managed Action credentials."
+  }
+}
