@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-new-hope-football-october-23-2026.json",
   "article_sha256": "9298d88a13ed2f70120930e3d8582a490dbdf5c356ff3dab7b52281b7d832fc4",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-new-hope-football-october-23-2026",
   "seo_review": {
     "reviewer": "Codex editorial review",
