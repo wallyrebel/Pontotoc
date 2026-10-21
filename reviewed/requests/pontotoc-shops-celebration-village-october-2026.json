@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-shops-celebration-village-october-2026.json",
   "article_sha256": "b7edfb0e760ffc4c58256bf9b95eaea4f701f15a868c9e445ffab81724a31032",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-shops-celebration-village-october-2026",
   "seo_review": {
     "reviewer": "Codex October21 morning editorial review",
