@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:cross-country:2026-10-22:division-meet",
+    "ms:north-pontotoc:cross-country:2026-10-22:division-meet",
+    "ms:south-pontotoc:cross-country:2026-10-22:division-meet"
+  ],
+  "title": "Pontotoc County cross-country teams have division meets Thursday",
+  "excerpt": "Pontotoc, North Pontotoc and South Pontotoc runners compete Oct. 22 at three venues. Here are the girls’ and boys’ start times for each team.",
+  "locality": "Pontotoc County, Mississippi teams; meets in Pontotoc, New Albany and Senatobia, Mississippi.",
+  "sources": [
+    {
+      "id": "athletics-schedule",
+      "url": "https://www.facebook.com/1409956404473934/posts/1665463955589843",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7kh8MV2fT.rss",
+      "title": "Pontotoc Athletics: Oct. 22 cross-country division meet schedule",
+      "publisher": "Pontotoc Athletics",
+      "role": "event",
+      "published_at": "2026-10-20T16:05:34Z",
+      "verified_at": "2026-10-21T00:43:17.492321+00:00"
+    },
+    {
+      "id": "related-football",
+      "url": "https://pontotocnews.com/pontotoc-news/pontotoc-new-hope-football-october-23-2026/",
+      "verification_url": "https://pontotocnews.com/pontotoc-news/pontotoc-new-hope-football-october-23-2026/",
+      "title": "Related local sports: Pontotoc’s Friday football visit to New Hope",
+      "publisher": "Pontotoc News",
+      "role": "background",
+      "published_at": "2026-10-20T14:28:38Z",
+      "verified_at": "2026-10-21T00:43:17.492321+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc, North Pontotoc and South Pontotoc cross-country teams are scheduled for division meets Thursday, October 22, at separate venues.",
+      "source_ids": [
+        "athletics-schedule"
+      ],
+      "evidence": "Full source graphic heading: PONTOTOC COUNTY SPORTS / CROSS COUNTRY / DIVISION MEETS · THURSDAY, OCT. 22. Separate blocks for all three schools, each with venue and girls/boys start times. Exact permalink appears in saved feed5. Full 720×918 source inspected in actual pixels; SHA256 b0a64470ee9c72406d4e7f67f337678cf43340766fead1f39a22d54a13ef0623.",
+      "date_context": "Official athletics saved-feed item published Tuesday, Oct. 20, 2026 at 16:05:34 UTC (11:05:34 a.m. CDT). Full graphic says Thursday, Oct. 22, which is October 22, 2026 in current source context. All starts explicitly marked AM or PM; local Mississippi time. Separate normal-browser read of city school October 2026 calendar corroborates Oct. 22 XC at Cherry Creek, 3 PM; automated calendar response403 is not used as a transport source. No unsupported end time or event duration asserted.",
+      "locality": "Pontotoc County, Mississippi teams; meets in Pontotoc, New Albany and Senatobia, Mississippi.",
+      "identities": "Pontotoc Warriors; North Pontotoc Vikings; South Pontotoc Cougars. No student athletes individually identified.",
+      "statistics": "Only the explicitly printed start times and venue street addresses are asserted; no results, distances, fees or counts of competitors."
+    },
+    {
+      "id": "f2",
+      "statement": "Pontotoc’s girls start at 3 p.m. and boys at 3:30 p.m. at Cherry Creek Orchards, 4660 Highway 345 in Pontotoc.",
+      "source_ids": [
+        "athletics-schedule"
+      ],
+      "evidence": "Pontotoc block: GIRLS 3:00 PM; BOYS 3:30 PM; Cherry Creek Orchards · 4660 Hwy 345, Pontotoc. Exact full source pixels inspected.",
+      "date_context": "Official athletics saved-feed item published Tuesday, Oct. 20, 2026 at 16:05:34 UTC (11:05:34 a.m. CDT). Full graphic says Thursday, Oct. 22, which is October 22, 2026 in current source context. All starts explicitly marked AM or PM; local Mississippi time. Separate normal-browser read of city school October 2026 calendar corroborates Oct. 22 XC at Cherry Creek, 3 PM; automated calendar response403 is not used as a transport source. No unsupported end time or event duration asserted.",
+      "locality": "Pontotoc County, Mississippi teams; meets in Pontotoc, New Albany and Senatobia, Mississippi.",
+      "identities": "Pontotoc Warriors; North Pontotoc Vikings; South Pontotoc Cougars. No student athletes individually identified.",
+      "statistics": "Only the explicitly printed start times and venue street addresses are asserted; no results, distances, fees or counts of competitors."
+    },
+    {
+      "id": "f3",
+      "statement": "North Pontotoc’s girls start at 10 a.m. and boys at 10:30 a.m. at the BNA Park Soccer/Tennis Complex and Tallahatchie Trails in New Albany.",
+      "source_ids": [
+        "athletics-schedule"
+      ],
+      "evidence": "North Pontotoc block: GIRLS 10:00 AM; BOYS 10:30 AM; BNA Park Soccer/Tennis Complex & Tallahatchie Trails · New Albany. Exact full source pixels inspected.",
+      "date_context": "Official athletics saved-feed item published Tuesday, Oct. 20, 2026 at 16:05:34 UTC (11:05:34 a.m. CDT). Full graphic says Thursday, Oct. 22, which is October 22, 2026 in current source context. All starts explicitly marked AM or PM; local Mississippi time. Separate normal-browser read of city school October 2026 calendar corroborates Oct. 22 XC at Cherry Creek, 3 PM; automated calendar response403 is not used as a transport source. No unsupported end time or event duration asserted.",
+      "locality": "Pontotoc County, Mississippi teams; meets in Pontotoc, New Albany and Senatobia, Mississippi.",
+      "identities": "Pontotoc Warriors; North Pontotoc Vikings; South Pontotoc Cougars. No student athletes individually identified.",
+      "statistics": "Only the explicitly printed start times and venue street addresses are asserted; no results, distances, fees or counts of competitors."
+    },
+    {
+      "id": "f4",
+      "statement": "South Pontotoc’s girls start at 3:45 p.m. and boys at 4:30 p.m. at Tomahawk Trail, 455 Stage Road in Senatobia.",
+      "source_ids": [
+        "athletics-schedule"
+      ],
+      "evidence": "South Pontotoc block: GIRLS 3:45 PM; BOYS 4:30 PM; Tomahawk Trail · 455 Stage Rd, Senatobia. Exact full source pixels inspected.",
+      "date_context": "Official athletics saved-feed item published Tuesday, Oct. 20, 2026 at 16:05:34 UTC (11:05:34 a.m. CDT). Full graphic says Thursday, Oct. 22, which is October 22, 2026 in current source context. All starts explicitly marked AM or PM; local Mississippi time. Separate normal-browser read of city school October 2026 calendar corroborates Oct. 22 XC at Cherry Creek, 3 PM; automated calendar response403 is not used as a transport source. No unsupported end time or event duration asserted.",
+      "locality": "Pontotoc County, Mississippi teams; meets in Pontotoc, New Albany and Senatobia, Mississippi.",
+      "identities": "Pontotoc Warriors; North Pontotoc Vikings; South Pontotoc Cougars. No student athletes individually identified.",
+      "statistics": "Only the explicitly printed start times and venue street addresses are asserted; no results, distances, fees or counts of competitors."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Cross-country families in Pontotoc County will have three different destinations Thursday, Oct. 22. Pontotoc, North Pontotoc and South Pontotoc are listed for division meets at separate venues, according to a schedule graphic shared Tuesday by Pontotoc Athletics.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "Pontotoc’s Warriors will run at Cherry Creek Orchards, 4660 Highway 345 in Pontotoc. The girls’ race is scheduled for 3 p.m., followed by the boys at 3:30 p.m.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "North Pontotoc has the morning starts. The Vikings’ girls are scheduled for 10 a.m. and the boys for 10:30 a.m. at the BNA Park Soccer/Tennis Complex and Tallahatchie Trails in New Albany.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "South Pontotoc’s Cougars will compete at Tomahawk Trail, 455 Stage Road in Senatobia. Their girls’ start is 3:45 p.m., with the boys scheduled for 4:30 p.m. The full athletics notice is linked below for families checking their team’s location and race time.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-county-cross-country-division-meets-october-22-2026.png",
+    "sha256": "b122724bbab12ef83743ca6c8475bcf63fb935a92c26a0fe33c27f0d46c662f9",
+    "alt_text": "Oct. 22 cross-country division meet schedule for North Pontotoc in New Albany, Pontotoc at Cherry Creek Orchards and South Pontotoc in Senatobia.",
+    "credit": "Pontotoc News original schedule graphic; times and venues from Pontotoc Athletics",
+    "rights": "owned",
+    "rights_reference": "Original typography drawn locally with Pillow and macOS Arial, opaque RGB 1600×900 PNG. No source flyer, team logo, stock photo or individual likeness reused. All times and places transcribed from full inspected official source graphic."
+  },
+  "review": {
+    "reviewer": "Codex nightly editorial review under Jon’s recurring publishing authorization",
+    "reviewed_at": "2026-10-21T00:43:17.492321+00:00",
+    "decision": "publish",
+    "checks": {
+      "coherent_prose": true,
+      "source_support": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "image_rights": true,
+      "identities": true,
+      "locality": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "statistics": true,
+      "dates": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f3",
+      "f4"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s recurring Pontotoc publishing authorization and October20 nightly delegation authorize useful verified omissions after offline validation, authenticated all-status/source/event dry-run reconciliation and editorial/image review. Today’s three existing stories are accounted for; this is an uncovered upcoming local sports schedule, not quota filler."
+  }
+}
