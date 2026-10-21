@@ -1,19 +1,19 @@
 {
-  "schema_version": 2,
-  "article_path": "reviewed/articles/pontotoc-pickleball-results-powerlifting-meeting-october-2026.json",
-  "article_sha256": "60a8610a3487bbc786a402ba8b99cb18bd307756941977f16911bc67e441b3b5",
-  "mode": "publish",
-  "public_slug": "pontotoc-pickleball-results-powerlifting-meeting-october-2026",
-  "seo_review": {
-    "reviewer": "Codex October21 afternoon editorial review",
-    "reviewed_at": "2026-10-21T21:05:17.460118+00:00",
-    "checks": {
-      "accurate_concise_description": true,
-      "canonical_and_source_links": true,
-      "descriptive_slug": true,
-      "meaningful_headline": true,
-      "no_keyword_stuffing": true,
-      "relevant_accessible_alt": true
+    "schema_version": 2,
+    "article_path": "reviewed/articles/pontotoc-pickleball-results-powerlifting-meeting-october-2026.json",
+    "article_sha256": "60a8610a3487bbc786a402ba8b99cb18bd307756941977f16911bc67e441b3b5",
+    "mode": "publish",
+    "public_slug": "pontotoc-pickleball-results-powerlifting-meeting-october-2026",
+    "seo_review": {
+        "reviewer": "Codex October21 afternoon editorial review",
+        "reviewed_at": "2026-10-21T21:05:17.460118+00:00",
+        "checks": {
+            "accurate_concise_description": true,
+            "canonical_and_source_links": true,
+            "descriptive_slug": true,
+            "meaningful_headline": true,
+            "no_keyword_stuffing": true,
+            "relevant_accessible_alt": true
+        }
     }
-  }
 }
