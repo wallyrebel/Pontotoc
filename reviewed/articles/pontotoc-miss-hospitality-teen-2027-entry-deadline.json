@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc-county:2027-01-09:miss-hospitality-entry",
+    "ms:pontotoc-county:2027-01-09:miss-teen-hospitality-entry"
+  ],
+  "title": "Pontotoc’s 2027 Miss Hospitality and Teen entries due Dec. 19, 2026",
+  "excerpt": "Entries for Pontotoc’s 2027 Miss Hospitality and Teen competitions are due Dec. 19, 2026. Local notices list age cutoffs, $50 fees and Chamber contacts.",
+  "locality": "Pontotoc County, Mississippi local Miss Hospitality and Miss Teen scholarship competitions; application information, not an attendance notice.",
+  "sources": [
+    {
+      "id": "local-notices",
+      "url": "https://www.facebook.com/1162843435852264/posts/1745175654285703",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7lo1260by.rss",
+      "title": "Chamber-shared 2027 Miss Hospitality and Teen competition flyers",
+      "publisher": "Pontotoc County Miss Hospitality, shared by Pontotoc County Chamber Main Street",
+      "role": "event",
+      "published_at": "2026-10-20T15:37:51Z",
+      "verified_at": "2026-10-21T14:13:18.332777+00:00"
+    },
+    {
+      "id": "chamber-contact",
+      "url": "https://pontotocchamber.com/about-us/contact-us/",
+      "verification_url": "https://pontotocchamber.com/about-us/contact-us/",
+      "title": "Pontotoc Chamber: application inquiries and public contact details",
+      "publisher": "Pontotoc Chamber of Commerce Main Street Association",
+      "role": "background",
+      "published_at": null,
+      "verified_at": "2026-10-21T14:13:18.332777+00:00"
+    },
+    {
+      "id": "related-village",
+      "url": "https://pontotocnews.com/pontotoc-news/pontotoc-nights-october-24-2026/",
+      "verification_url": "https://pontotocnews.com/pontotoc-news/pontotoc-nights-october-24-2026/",
+      "title": "Related community calendar: Pontotoc Nights on Oct. 24",
+      "publisher": "Pontotoc News",
+      "role": "background",
+      "published_at": "2026-10-19T14:56:26Z",
+      "verified_at": "2026-10-21T14:13:18.332777+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "The 2027 Pontotoc County Miss Hospitality and Miss Teen Pontotoc Hospitality scholarship competition notices set an entry deadline ofDecember19,2026 and a competitiondate ofJanuary9,2027.",
+      "source_ids": [
+        "local-notices"
+      ],
+      "evidence": "Both complete flyers explicitly say Deadline to enter December19,2026 and MARK YOUR CALENDARS January9,2027. Exact Chamber permalink in savedfeed6. Full images720×1113; teenSHA7ea824e8caac5e4629b27a2980db31d3e33ac78e2ebaa9448dd3ec7bfa38e020; missSHAf7fc31a3ea2e7b0783b905061187ac90ad78972b3cbbaa392c6a62f2837f661e.",
+      "date_context": "Local 2027 competition flyers shared by Chamber savedfeed6 onTuesdayOctober20,2026 at15:37:51UTC (10:37:51a.m.CDT), both fully inspected. Entry deadlineDecember19,2026; competitiondateJanuary9,2027. Ages explicitly measured as ofJuly14,2027, not publication day or localpageantday. No venue/starttime stated. State website current material is for2026; no2027state-only requirements or stateweek claims imported.",
+      "locality": "Pontotoc County, Mississippi local Miss Hospitality and Miss Teen scholarship competitions; application information, not an attendance notice.",
+      "identities": "Pontotoc County Miss Hospitality; Miss Teen Pontotoc Hospitality; Pontotoc Chamber of Commerce; Kelsie Cruse named solely as public application contact in source. No entrants or minors individually identified in article or image.",
+      "statistics": "EntrydeadlineDecember19,2026; competitionJanuary9,2027."
+    },
+    {
+      "id": "f2",
+      "statement": "The local flyers require Pontotoc County residency and a$50 entry fee for each competition. The Miss category lists ages18–24 and Teen14–17, both as ofJuly14,2027.",
+      "source_ids": [
+        "local-notices"
+      ],
+      "evidence": "Full Miss flyer: Contestants must secure$50entryfee, bebetween18–24yearsold(asofJuly14,2027), andresidentofPontotocCounty. Full Teen flyer: samefee/residency, ages14–17(asofJuly14,2027). Clearly attributed as local notices; not represented as an exhaustive state eligibility ruling.",
+      "date_context": "Local 2027 competition flyers shared by Chamber savedfeed6 onTuesdayOctober20,2026 at15:37:51UTC (10:37:51a.m.CDT), both fully inspected. Entry deadlineDecember19,2026; competitiondateJanuary9,2027. Ages explicitly measured as ofJuly14,2027, not publication day or localpageantday. No venue/starttime stated. State website current material is for2026; no2027state-only requirements or stateweek claims imported.",
+      "locality": "Pontotoc County, Mississippi local Miss Hospitality and Miss Teen scholarship competitions; application information, not an attendance notice.",
+      "identities": "Pontotoc County Miss Hospitality; Miss Teen Pontotoc Hospitality; Pontotoc Chamber of Commerce; Kelsie Cruse named solely as public application contact in source. No entrants or minors individually identified in article or image.",
+      "statistics": "$50entryfee per competition; ages18–24or14–17asofJuly14,2027."
+    },
+    {
+      "id": "f3",
+      "statement": "Both notices describe a five-minute interview and on-stage phases; organizers require at least three contestants for a formal pageant and would use a tea-pageant format if fewer enter.",
+      "source_ids": [
+        "local-notices"
+      ],
+      "evidence": "Full flyers show5MinuteInterview andon-stage phases. Bottom footnote each: musthaveatleast3contestantstoholdaformalpageant; otherwise tea pageant limitedtointerview,commercialandcategory-specificdressphase. Article does not conflate exactdressrules or assert onecombinedminimumacrosscategories.",
+      "date_context": "Local 2027 competition flyers shared by Chamber savedfeed6 onTuesdayOctober20,2026 at15:37:51UTC (10:37:51a.m.CDT), both fully inspected. Entry deadlineDecember19,2026; competitiondateJanuary9,2027. Ages explicitly measured as ofJuly14,2027, not publication day or localpageantday. No venue/starttime stated. State website current material is for2026; no2027state-only requirements or stateweek claims imported.",
+      "locality": "Pontotoc County, Mississippi local Miss Hospitality and Miss Teen scholarship competitions; application information, not an attendance notice.",
+      "identities": "Pontotoc County Miss Hospitality; Miss Teen Pontotoc Hospitality; Pontotoc Chamber of Commerce; Kelsie Cruse named solely as public application contact in source. No entrants or minors individually identified in article or image.",
+      "statistics": "Five-minute interview; minimumthreecontestantsforformalpageant in each source notice."
+    },
+    {
+      "id": "f4",
+      "statement": "The notices direct interested entrants and questions toKelsieCruse orPontotocChamberofCommerce; they do not specify the pageantvenue orstarttime.",
+      "source_ids": [
+        "local-notices"
+      ],
+      "evidence": "Both flyers explicit applicationcontactline namesKelsieCruse orPontotocChamberofCommerce. Fullsourcecontainsnovenue/starttime. Article reportsapplicationopportunity, statesmissingattendance details, and directs readers toorganizers ratherthan inventing them.",
+      "date_context": "Local 2027 competition flyers shared by Chamber savedfeed6 onTuesdayOctober20,2026 at15:37:51UTC (10:37:51a.m.CDT), both fully inspected. Entry deadlineDecember19,2026; competitiondateJanuary9,2027. Ages explicitly measured as ofJuly14,2027, not publication day or localpageantday. No venue/starttime stated. State website current material is for2026; no2027state-only requirements or stateweek claims imported.",
+      "locality": "Pontotoc County, Mississippi local Miss Hospitality and Miss Teen scholarship competitions; application information, not an attendance notice.",
+      "identities": "Pontotoc County Miss Hospitality; Miss Teen Pontotoc Hospitality; Pontotoc Chamber of Commerce; Kelsie Cruse named solely as public application contact in source. No entrants or minors individually identified in article or image.",
+      "statistics": "None asserted"
+    },
+    {
+      "id": "f5",
+      "statement": "The Chamber publicly lists telephone662-489-5042 and chamber@pontotocchamber.com as contact information.",
+      "source_ids": [
+        "chamber-contact"
+      ],
+      "evidence": "Direct200 official Chambercontactpage listsPhone(662)489-5042 andEmailchamber@pontotocchamber.com. No private contactdetails or formsubmission.",
+      "date_context": "Local 2027 competition flyers shared by Chamber savedfeed6 onTuesdayOctober20,2026 at15:37:51UTC (10:37:51a.m.CDT), both fully inspected. Entry deadlineDecember19,2026; competitiondateJanuary9,2027. Ages explicitly measured as ofJuly14,2027, not publication day or localpageantday. No venue/starttime stated. State website current material is for2026; no2027state-only requirements or stateweek claims imported.",
+      "locality": "Pontotoc County, Mississippi local Miss Hospitality and Miss Teen scholarship competitions; application information, not an attendance notice.",
+      "identities": "Pontotoc County Miss Hospitality; Miss Teen Pontotoc Hospitality; Pontotoc Chamber of Commerce; Kelsie Cruse named solely as public application contact in source. No entrants or minors individually identified in article or image.",
+      "statistics": "None asserted"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc County residents interested in the 2027 Miss Hospitality or Miss Teen Pontotoc Hospitality scholarship competitions have until Dec. 19, 2026, to enter, according to new local notices shared by the Chamber. Both flyers list Jan. 9, 2027, as the competition date.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The notices set out different age groups: 18–24 for Pontotoc County Miss Hospitality and 14–17 for Miss Teen Pontotoc Hospitality. Those ages are measured as of July 14, 2027. Each flyer also calls for Pontotoc County residency and a $50 entry fee.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Both competitions describe a five-minute interview and on-stage phases. Organizers say a formal pageant requires at least three contestants; if that minimum is not met, the notice for each competition describes a smaller tea-pageant format. Prospective entrants should review the full flyer for their category’s competition phases.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "Interested entrants and people with questions are directed to Kelsie Cruse or the Pontotoc Chamber of Commerce. The Chamber lists 662-489-5042 and chamber@pontotocchamber.com as its public contact information. The source flyers and Chamber contact page are linked below.",
+      "fact_ids": [
+        "f4",
+        "f5"
+      ]
+    },
+    {
+      "text": "The published notices do not specify a pageant venue or start time. This announcement covers the entry deadline and local requirements; applicants should obtain application materials and remaining event arrangements directly from the organizers.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-miss-hospitality-teen-2027-entry-deadline.png",
+    "sha256": "8edf918f8a541359291c85d3889baed82082d277079c3cb8a97edf5ae0f33b48",
+    "alt_text": "2027 Pontotoc Miss Hospitality and Teen entries due Dec. 19, 2026. Ages 18–24 or 14–17 as of July 14, 2027; $50 fee; competition Jan. 9, 2027.",
+    "credit": "Pontotoc News original editorial graphic",
+    "rights": "owned",
+    "rights_reference": "Original typography drawn locally with Pillow and macOS Arial, opaque RGB 1600×900 PNG. No source flyer, agency logo, portrait, stock photo or other copyrighted artwork reused. Full supporting source graphics inspected separately as evidence."
+  },
+  "review": {
+    "reviewer": "Codex October21 morning editorial review",
+    "reviewed_at": "2026-10-21T14:26:36.100009+00:00",
+    "decision": "publish",
+    "checks": {
+      "coherent_prose": true,
+      "dates": true,
+      "identities": true,
+      "image_rights": true,
+      "locality": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "source_support": true,
+      "statistics": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f4",
+      "f5"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s recurring public-facts publishing authorization and October21 morning delegation authorize new useful verified local coverage after offline validation, authenticated all-status/source/event dry-run reconciliation and editorial/image review. Existing October20 coverage reconciled; no allegations, private sensitive facts or blocked-source-only details included."
+  }
+}

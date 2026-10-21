@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-miss-hospitality-teen-2027-entry-deadline.json",
+  "article_sha256": "c3d4dd63d914e82484786b8ff8d6f51712504516c55de3078dbae9c7e139cef2",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-miss-hospitality-teen-2027-entry-deadline",
+  "seo_review": {
+    "reviewer": "Codex October21 morning editorial review",
+    "reviewed_at": "2026-10-21T14:26:36.100009+00:00",
+    "checks": {
+      "accurate_concise_description": true,
+      "canonical_and_source_links": true,
+      "descriptive_slug": true,
+      "meaningful_headline": true,
+      "no_keyword_stuffing": true,
+      "relevant_accessible_alt": true
+    }
+  }
+}
