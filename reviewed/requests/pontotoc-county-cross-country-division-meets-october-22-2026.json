@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-county-cross-country-division-meets-october-22-2026.json",
   "article_sha256": "0c0c2802112f2472ef7d5b8dd0d119a8be7d25f91b0d1e2e86b67c0f2fee748c",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-county-cross-country-division-meets-october-22-2026",
   "seo_review": {
     "reviewer": "Codex nightly editorial review",
