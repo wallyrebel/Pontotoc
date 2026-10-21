@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:2026:inaugural-mhsaa-pickleball-doubles-results",
+    "ms:pontotoc:2026-10-22:boys-powerlifting-interest-meeting"
+  ],
+  "title": "Pontotoc pickleball pairs place in Oxford; powerlifting meeting Oct. 22",
+  "excerpt": "Pontotoc announced two pickleball placings in Oxford. A boys’ powerlifting interest meeting is set for Oct. 22 at 3 p.m. in the PHS Commons.",
+  "locality": "Pontotoc, Mississippi school athletics; pickleball placings announced for an invitational in Oxford, Mississippi; powerlifting meeting in Pontotoc High School Commons.",
+  "sources": [
+    {
+      "id": "pickleball-results",
+      "url": "https://www.facebook.com/1409956404473934/posts/1665907132212192",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7kh8MV2fT.rss",
+      "title": "Pontotoc Athletics: Oxford pickleball doubles placings",
+      "publisher": "Pontotoc Athletics",
+      "role": "event",
+      "published_at": "2026-10-21T02:44:57Z",
+      "verified_at": "2026-10-21T21:05:17.460118+00:00"
+    },
+    {
+      "id": "powerlifting-meeting",
+      "url": "https://www.facebook.com/1409956404473934/posts/1666497045486534",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7kh8MV2fT.rss",
+      "title": "Pontotoc Athletics: Oct. 22 boys powerlifting interest meeting",
+      "publisher": "Pontotoc Athletics",
+      "role": "event",
+      "published_at": "2026-10-21T15:37:55Z",
+      "verified_at": "2026-10-21T21:05:17.460118+00:00"
+    },
+    {
+      "id": "related-cross-country",
+      "url": "https://pontotocnews.com/pontotoc-news/pontotoc-county-cross-country-division-meets-october-22-2026/",
+      "verification_url": "https://pontotocnews.com/pontotoc-news/pontotoc-county-cross-country-division-meets-october-22-2026/",
+      "title": "Related Thursday sports: county cross-country meet times and venues",
+      "publisher": "Pontotoc News",
+      "role": "background",
+      "published_at": "2026-10-21T00:51:24Z",
+      "verified_at": "2026-10-21T21:05:17.460118+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc Athletics announced two doubles placings at the inaugural MHSAA Pickleball Invitational in Oxford in a graphic shared Tuesday night.",
+      "source_ids": [
+        "pickleball-results"
+      ],
+      "evidence": "Full current official school graphic heading PONTOTOC PICKLEBALL / INAUGURAL MHSAA PICKLEBALL INVITATIONAL @OXFORD. Two panels show2ND IN MIXEDDOUBLES and3RD IN GIRLSDOUBLES. Actual full720×720 pixels inspected; SHA256 ef4c1e6c82d830e1bfbfb7326b1a97f6f19a442643a4df6a748d74449914cb66. Exact permalink present in savedfeed5. No facts imported from Oxford organizer detail page after webfetch403.",
+      "date_context": "Pickleball source published2026-10-21T02:44:57Z, TuesdayOctober20 at9:44:57p.m.CDT. Report uses announcement date; graphic identifies Oxford but gives no exact competition date. No tournament-day, CoachHowellCenter, classification, matchscore or organizer-page-only fact asserted. Powerlifting source publishedOctober21 at15:37:55UTC(10:37:55a.m.CDT); its full caption explicitly gives10/22/2026,PHSCommons,3PM, consistent with flyerThursdayat3inthehighschoolcommons.",
+      "locality": "Pontotoc, Mississippi school athletics; pickleball placings announced for an invitational in Oxford, Mississippi; powerlifting meeting in Pontotoc High School Commons.",
+      "identities": "Pontotoc Athletics; Jay Burrell and Alaina Smith; A’Mia Mabry and Olivia Galloway, named only in their public school competition results. No ages, grades, birthdates, contact details or private information asserted.",
+      "statistics": "Two announced doubles placings; no matchscores or team standings asserted."
+    },
+    {
+      "id": "f2",
+      "statement": "Jay Burrell and Alaina Smith placed second in mixed doubles, according to the Pontotoc Athletics graphic.",
+      "source_ids": [
+        "pickleball-results"
+      ],
+      "evidence": "Full left result panel says2ND IN MIXEDDOUBLES; printed names JAY BURRELL AND ALAINA SMITH. Names verified by text on graphic, not inferred from faces.",
+      "date_context": "Pickleball source published2026-10-21T02:44:57Z, TuesdayOctober20 at9:44:57p.m.CDT. Report uses announcement date; graphic identifies Oxford but gives no exact competition date. No tournament-day, CoachHowellCenter, classification, matchscore or organizer-page-only fact asserted. Powerlifting source publishedOctober21 at15:37:55UTC(10:37:55a.m.CDT); its full caption explicitly gives10/22/2026,PHSCommons,3PM, consistent with flyerThursdayat3inthehighschoolcommons.",
+      "locality": "Pontotoc, Mississippi school athletics; pickleball placings announced for an invitational in Oxford, Mississippi; powerlifting meeting in Pontotoc High School Commons.",
+      "identities": "Pontotoc Athletics; Jay Burrell and Alaina Smith; A’Mia Mabry and Olivia Galloway, named only in their public school competition results. No ages, grades, birthdates, contact details or private information asserted.",
+      "statistics": "Second place in mixed doubles."
+    },
+    {
+      "id": "f3",
+      "statement": "A’Mia Mabry and Olivia Galloway placed third in girls doubles, according to the same graphic.",
+      "source_ids": [
+        "pickleball-results"
+      ],
+      "evidence": "Full right result panel says3RD IN GIRLSDOUBLES; printed names A’MIA MABRY AND OLIVIA GALLOWAY. Names verified by text on graphic.",
+      "date_context": "Pickleball source published2026-10-21T02:44:57Z, TuesdayOctober20 at9:44:57p.m.CDT. Report uses announcement date; graphic identifies Oxford but gives no exact competition date. No tournament-day, CoachHowellCenter, classification, matchscore or organizer-page-only fact asserted. Powerlifting source publishedOctober21 at15:37:55UTC(10:37:55a.m.CDT); its full caption explicitly gives10/22/2026,PHSCommons,3PM, consistent with flyerThursdayat3inthehighschoolcommons.",
+      "locality": "Pontotoc, Mississippi school athletics; pickleball placings announced for an invitational in Oxford, Mississippi; powerlifting meeting in Pontotoc High School Commons.",
+      "identities": "Pontotoc Athletics; Jay Burrell and Alaina Smith; A’Mia Mabry and Olivia Galloway, named only in their public school competition results. No ages, grades, birthdates, contact details or private information asserted.",
+      "statistics": "Third place in girls doubles."
+    },
+    {
+      "id": "f4",
+      "statement": "A Pontotoc boys powerlifting interest meeting is scheduled Thursday, October22,2026 at3p.m. in the PHSCommons.",
+      "source_ids": [
+        "powerlifting-meeting"
+      ],
+      "evidence": "Exact official school post caption gives10/22/2026,PHSCommons,3PM. Full flyer says BOYSPOWERLIFTING INTERESTMEETING / WILLMEETTHURSDAYAT3 / INTHEHIGHSCHOOLCOMMONS. Full848×720 pixels inspected; SHA256 f249230b693aadbabe7392e804f776d4addf5fe9f6962f36cd3e70e6f442f5c1. This complete time/place belongs to a new powerlifting notice, not the held MeetWarriors event.",
+      "date_context": "Pickleball source published2026-10-21T02:44:57Z, TuesdayOctober20 at9:44:57p.m.CDT. Report uses announcement date; graphic identifies Oxford but gives no exact competition date. No tournament-day, CoachHowellCenter, classification, matchscore or organizer-page-only fact asserted. Powerlifting source publishedOctober21 at15:37:55UTC(10:37:55a.m.CDT); its full caption explicitly gives10/22/2026,PHSCommons,3PM, consistent with flyerThursdayat3inthehighschoolcommons.",
+      "locality": "Pontotoc, Mississippi school athletics; pickleball placings announced for an invitational in Oxford, Mississippi; powerlifting meeting in Pontotoc High School Commons.",
+      "identities": "Pontotoc Athletics; Jay Burrell and Alaina Smith; A’Mia Mabry and Olivia Galloway, named only in their public school competition results. No ages, grades, birthdates, contact details or private information asserted.",
+      "statistics": "ThursdayOctober22,2026;3p.m.CDT. No endtime, tryout requirement, fee or eligibility rule asserted."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc earned second place in mixed doubles and third in girls doubles at the inaugural MHSAA Pickleball Invitational in Oxford, according to a results graphic shared by Pontotoc Athletics Tuesday night. A separate school notice also sets a boys’ powerlifting interest meeting for Thursday afternoon.",
+      "fact_ids": [
+        "f1",
+        "f4"
+      ]
+    },
+    {
+      "text": "Jay Burrell and Alaina Smith are listed as the mixed-doubles runners-up. A’Mia Mabry and Olivia Galloway placed third in girls doubles, giving Pontotoc two pairs among the invitational’s announced placings.",
+      "fact_ids": [
+        "f2",
+        "f3"
+      ]
+    },
+    {
+      "text": "The boys’ powerlifting interest meeting is scheduled for Thursday, Oct. 22, at 3 p.m. in the Pontotoc High School Commons, according to the school’s Wednesday announcement. Both full athletics notices are linked below.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-pickleball-results-powerlifting-meeting-october-2026.png",
+    "sha256": "91595df776c731e901bee095598d1a8b7ba5b69592ecd5662d8dcc3e7193871d",
+    "alt_text": "Pontotoc pickleball: Jay Burrell and Alaina Smith second in mixed doubles; A’Mia Mabry and Olivia Galloway third in girls doubles. Powerlifting meeting Oct. 22, 3 p.m., PHS Commons.",
+    "credit": "Pontotoc News original editorial graphic; results and meeting notice from Pontotoc Athletics",
+    "rights": "owned",
+    "rights_reference": "Original typography drawn locally with Pillow and macOS Arial, opaqueRGB1600×900PNG. No school logo, source flyer, athlete portrait or other copyrighted artwork reused. Names and placements transcribed from full inspected public school graphic."
+  },
+  "review": {
+    "reviewer": "Codex October21 afternoon editorial review",
+    "reviewed_at": "2026-10-21T21:05:17.460118+00:00",
+    "decision": "publish",
+    "checks": {
+      "coherent_prose": true,
+      "dates": true,
+      "identities": true,
+      "image_rights": true,
+      "locality": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "source_support": true,
+      "statistics": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f4"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f4"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s October21 afternoon delegation and recurring authorization permit additional worthwhile verified local sports coverage after all editorial, image, offline and authenticated reconciliation gates pass. Today’s two stories already count; this single roundup covers distinct new results and an actionable meeting, without duplicate swim/football publication or blocked-source-only details."
+  }
+}
