@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:tupelo:pontotoc-retailers:2026-10-21:celebration-village"
+  ],
+  "title": "Pontotoc shops join Celebration Village in Tupelo Oct. 21–24",
+  "excerpt": "Ten Pontotoc retailers are listed for Celebration Village at Tupelo Furniture Market. Wednesday’s preview precedes general shopping Oct. 22–24.",
+  "locality": "Pontotoc, Mississippi retailers participating in Celebration Village at Tupelo Furniture Market Building Five, Tupelo, Mississippi.",
+  "sources": [
+    {
+      "id": "chamber-village",
+      "url": "https://www.facebook.com/1162843435852264/posts/1744123104390958",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7lo1260by.rss",
+      "title": "Chamber: Pontotoc retailers at Celebration Village",
+      "publisher": "Pontotoc County Chamber Main Street",
+      "role": "event",
+      "published_at": "2026-10-20T13:30:03Z",
+      "verified_at": "2026-10-21T14:13:18.332777+00:00"
+    },
+    {
+      "id": "wtva-village",
+      "url": "https://www.wtva.com/2026/10/20/shopping-event-benefit-hospice-house/",
+      "verification_url": "https://www.wtva.com/2026/10/20/shopping-event-benefit-hospice-house/",
+      "title": "WTVA: Celebration Village venue, preview party and fundraiser",
+      "publisher": "WTVA, original reporting by Alvin Ivy",
+      "role": "event",
+      "published_at": "2026-10-20T21:37:08.076Z",
+      "verified_at": "2026-10-21T14:13:18.332777+00:00"
+    },
+    {
+      "id": "related-nights",
+      "url": "https://pontotocnews.com/pontotoc-news/pontotoc-nights-october-24-2026/",
+      "verification_url": "https://pontotocnews.com/pontotoc-news/pontotoc-nights-october-24-2026/",
+      "title": "Related weekend plans: Pontotoc Nights on Oct. 24",
+      "publisher": "Pontotoc News",
+      "role": "background",
+      "published_at": "2026-10-19T14:56:26Z",
+      "verified_at": "2026-10-21T14:13:18.332777+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Ten Pontotoc shops are listed by the Chamber as participating in Celebration Village in Tupelo October21–24,2026.",
+      "source_ids": [
+        "chamber-village"
+      ],
+      "evidence": "Full caption says local downtown Pontotoc stores have headed to Tupelo for Celebration Village this week, the21st–24th. Full 720×960 graphic inspected, SHA256 1fdc9007a9b0ea9f359b02555368ed5021a1233315ff05a6f0aee8b29ac77652. Ten named shops counted directly.",
+      "date_context": "Chamber post published October20,2026 at13:30:03UTC (8:30:03a.m.CDT). Full graphic and caption specify Oct21–24 and Tupelo. WTVA original report published October20,2026 at21:37:08.076UTC (4:37:08p.m.CDT) says Wednesday evening preview and Thursday–Saturday general shopping, corresponding to Oct21 and Oct22–24. No organizer-only data, general shopping opening/closing hours or unverified venue street address asserted.",
+      "locality": "Pontotoc, Mississippi retailers participating in Celebration Village at Tupelo Furniture Market Building Five, Tupelo, Mississippi.",
+      "identities": "Pontotoc County Chamber Main Street; the ten named public businesses; Celebration Village; Sanctuary Hospice House; WTVA. No patients identified.",
+      "statistics": "Ten named retailers; dates Oct21–24,2026."
+    },
+    {
+      "id": "f2",
+      "statement": "The Chamber’s graphic names The Rack Boutique, True Blue Boutique, Anna Jade Boutique, The Carousel Children’s Boutique, Ultra Violet Boutique, The Red Door Gift Shop, City Mercantile Gifts, Decor & More, Ace & Co Boutique and Gifts, Pure Bliss Gifts & Boutique and Double B Boot Company.",
+      "source_ids": [
+        "chamber-village"
+      ],
+      "evidence": "All ten names transcribed from full inspected flyer; caption independently tags shortened business names. Flyer spellings used in prose. Names describe participants, not verified booth positions or shop-specific opening hours.",
+      "date_context": "Chamber post published October20,2026 at13:30:03UTC (8:30:03a.m.CDT). Full graphic and caption specify Oct21–24 and Tupelo. WTVA original report published October20,2026 at21:37:08.076UTC (4:37:08p.m.CDT) says Wednesday evening preview and Thursday–Saturday general shopping, corresponding to Oct21 and Oct22–24. No organizer-only data, general shopping opening/closing hours or unverified venue street address asserted.",
+      "locality": "Pontotoc, Mississippi retailers participating in Celebration Village at Tupelo Furniture Market Building Five, Tupelo, Mississippi.",
+      "identities": "Pontotoc County Chamber Main Street; the ten named public businesses; Celebration Village; Sanctuary Hospice House; WTVA. No patients identified.",
+      "statistics": "Ten public businesses; no sales or attendance estimates."
+    },
+    {
+      "id": "f3",
+      "statement": "WTVA reports that the event is at Tupelo Furniture Market Building Five and that its proceeds benefit Sanctuary Hospice House.",
+      "source_ids": [
+        "wtva-village"
+      ],
+      "evidence": "Full October20 WTVA original report by Alvin Ivy includes a direct organizer interview with Heather Palmer and identifies four-day event at Tupelo Furniture Market, Building Five, and proceeds benefiting Sanctuary Hospice House. Independently accessible direct200 source, not the automated403 organizer page. No patient-count claim or medical details reused.",
+      "date_context": "Chamber post published October20,2026 at13:30:03UTC (8:30:03a.m.CDT). Full graphic and caption specify Oct21–24 and Tupelo. WTVA original report published October20,2026 at21:37:08.076UTC (4:37:08p.m.CDT) says Wednesday evening preview and Thursday–Saturday general shopping, corresponding to Oct21 and Oct22–24. No organizer-only data, general shopping opening/closing hours or unverified venue street address asserted.",
+      "locality": "Pontotoc, Mississippi retailers participating in Celebration Village at Tupelo Furniture Market Building Five, Tupelo, Mississippi.",
+      "identities": "Pontotoc County Chamber Main Street; the ten named public businesses; Celebration Village; Sanctuary Hospice House; WTVA. No patients identified.",
+      "statistics": "None asserted"
+    },
+    {
+      "id": "f4",
+      "statement": "WTVA reports a Wednesday preview party from6–9p.m., with a$50 ticket including early shopping and dinner; general public shopping runs Thursday through Saturday.",
+      "source_ids": [
+        "wtva-village"
+      ],
+      "evidence": "Original WTVA report explicitly states Preview Party Wednesday6p.m.–9p.m.;$50ticket includes early shopping and dinner; general public shopping beginsThursday and continuesSaturday. Exact article publishedTuesdayOct20 supports calendar conversion. No general-admission price claimed.",
+      "date_context": "Chamber post published October20,2026 at13:30:03UTC (8:30:03a.m.CDT). Full graphic and caption specify Oct21–24 and Tupelo. WTVA original report published October20,2026 at21:37:08.076UTC (4:37:08p.m.CDT) says Wednesday evening preview and Thursday–Saturday general shopping, corresponding to Oct21 and Oct22–24. No organizer-only data, general shopping opening/closing hours or unverified venue street address asserted.",
+      "locality": "Pontotoc, Mississippi retailers participating in Celebration Village at Tupelo Furniture Market Building Five, Tupelo, Mississippi.",
+      "identities": "Pontotoc County Chamber Main Street; the ten named public businesses; Celebration Village; Sanctuary Hospice House; WTVA. No patients identified.",
+      "statistics": "WednesdayOct21,6–9p.m.CDT; preview ticket$50; general shoppingOct22–24."
+    },
+    {
+      "id": "f5",
+      "statement": "The Chamber directs shoppers to participating businesses’ Facebook pages for booth numbers and operating hours.",
+      "source_ids": [
+        "chamber-village"
+      ],
+      "evidence": "Full Chamber caption asks readers to check business Facebook pages to see booth numbers and hours of operation. Article preserves this practical qualification instead of inferring missing details.",
+      "date_context": "Chamber post published October20,2026 at13:30:03UTC (8:30:03a.m.CDT). Full graphic and caption specify Oct21–24 and Tupelo. WTVA original report published October20,2026 at21:37:08.076UTC (4:37:08p.m.CDT) says Wednesday evening preview and Thursday–Saturday general shopping, corresponding to Oct21 and Oct22–24. No organizer-only data, general shopping opening/closing hours or unverified venue street address asserted.",
+      "locality": "Pontotoc, Mississippi retailers participating in Celebration Village at Tupelo Furniture Market Building Five, Tupelo, Mississippi.",
+      "identities": "Pontotoc County Chamber Main Street; the ten named public businesses; Celebration Village; Sanctuary Hospice House; WTVA. No patients identified.",
+      "statistics": "None asserted"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc shoppers will find a familiar group of local businesses at Celebration Village in Tupelo this week. The Pontotoc County Chamber Main Street announcement names ten retailers taking part in the Oct. 21–24 event, which starts with a Wednesday evening preview before general shopping Thursday through Saturday.",
+      "fact_ids": [
+        "f1",
+        "f4"
+      ]
+    },
+    {
+      "text": "The event is at Tupelo Furniture Market, Building Five, and its proceeds support Sanctuary Hospice House, according to WTVA’s original report and interview with the organizer.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "The Chamber’s participant list includes The Rack Boutique, True Blue Boutique, Anna Jade Boutique, The Carousel Children’s Boutique and Ultra Violet Boutique. It also names The Red Door Gift Shop, City Mercantile Gifts, Decor & More, Ace & Co Boutique and Gifts, Pure Bliss Gifts & Boutique and Double B Boot Company.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Wednesday’s preview party runs from 6 to 9 p.m. WTVA reports that the $50 ticket includes early shopping and dinner. General public shopping begins Thursday, Oct. 22, and continues through Saturday, Oct. 24. The preview ticket price applies to that evening event; the report does not give a general-admission price.",
+      "fact_ids": [
+        "f4"
+      ]
+    },
+    {
+      "text": "For shoppers looking for a particular Pontotoc business, the Chamber directs people to the participating stores’ Facebook pages for booth numbers and operating hours. Its full notice and WTVA’s event report are linked below, along with our separate coverage of Saturday’s Pontotoc Nights event.",
+      "fact_ids": [
+        "f5"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-shops-celebration-village-october-2026.png",
+    "sha256": "0f18d35a5983df3a65a5caef441fbd646a82b059d847389af729b5911943f97f",
+    "alt_text": "Celebration Village schedule: Oct. 21 preview party, 6–9 p.m., $50 including dinner; general shopping Oct. 22–24 at Tupelo Furniture Market Building Five.",
+    "credit": "Pontotoc News original editorial graphic",
+    "rights": "owned",
+    "rights_reference": "Original typography drawn locally with Pillow and macOS Arial, opaque RGB 1600×900 PNG. No source flyer, agency logo, portrait, stock photo or other copyrighted artwork reused. Full supporting source graphics inspected separately as evidence."
+  },
+  "review": {
+    "reviewer": "Codex October21 morning editorial review",
+    "reviewed_at": "2026-10-21T14:13:18.332777+00:00",
+    "decision": "publish",
+    "checks": {
+      "coherent_prose": true,
+      "dates": true,
+      "identities": true,
+      "image_rights": true,
+      "locality": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "source_support": true,
+      "statistics": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f3",
+      "f4"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s recurring public-facts publishing authorization and October21 morning delegation authorize new useful verified local coverage after offline validation, authenticated all-status/source/event dry-run reconciliation and editorial/image review. Existing October20 coverage reconciled; no allegations, private sensitive facts or blocked-source-only details included."
+  }
+}
