@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ncaa:football:2026-10-24:oklahoma-at-mississippi-state",
+    "ncaa:football:2026-10-24:ole-miss-at-texas"
+  ],
+  "title": "Statewide football: State hosts Oklahoma; Ole Miss visits Texas Oct. 24",
+  "excerpt": "Saturday’s SEC games: Oklahoma at Mississippi State at 2:30 p.m. Central on SEC Network; Ole Miss at Texas at 6:30 p.m. on ABC.",
+  "locality": "Clearly labeled statewide Mississippi college football guide: Mississippi State home game in Starkville, Mississippi; Ole Miss away game in Austin, Texas. These are separate from Pontotoc High School football.",
+  "sources": [
+    {
+      "id": "state-schedule",
+      "url": "https://hailstate.com/sports/football/schedule/2026",
+      "verification_url": "https://hailstate.com/sports/football/schedule/2026",
+      "title": "Mississippi State official 2026 schedule and Oklahoma broadcast listing",
+      "publisher": "Mississippi State Athletics",
+      "role": "event",
+      "published_at": null,
+      "verified_at": "2026-10-22T14:12:23.079320+00:00"
+    },
+    {
+      "id": "rebels-preview",
+      "url": "https://olemisssports.com/news/2026/10/19/football-vs-texas-first-look",
+      "verification_url": "https://olemisssports.com/news/2026/10/19/football-vs-texas-first-look",
+      "title": "Ole Miss at Texas: official game preview and viewing information",
+      "publisher": "Ole Miss Athletics",
+      "role": "event",
+      "published_at": null,
+      "verified_at": "2026-10-22T14:12:23.079320+00:00"
+    },
+    {
+      "id": "rebels-schedule",
+      "url": "https://olemisssports.com/sports/football/schedule/text",
+      "verification_url": "https://olemisssports.com/sports/football/schedule/text",
+      "title": "Ole Miss official 2026 results and schedule",
+      "publisher": "Ole Miss Athletics",
+      "role": "event",
+      "published_at": null,
+      "verified_at": "2026-10-22T14:12:23.079320+00:00"
+    },
+    {
+      "id": "local-football",
+      "url": "https://pontotocnews.com/pontotoc-news/pontotoc-new-hope-football-october-23-2026/",
+      "verification_url": "https://pontotocnews.com/pontotoc-news/pontotoc-new-hope-football-october-23-2026/",
+      "title": "Local high school football: Pontotoc at New Hope on Friday",
+      "publisher": "Pontotoc News",
+      "role": "background",
+      "published_at": "2026-10-20T14:28:38Z",
+      "verified_at": "2026-10-22T14:12:23.079320+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Mississippi State hosts Oklahoma in Starkville on October 24 at 2:30 p.m. Central, with SEC Network television coverage.",
+      "source_ids": [
+        "state-schedule"
+      ],
+      "evidence": "Full official 2026 schedule explicitly says all times CT. Exact Oklahoma s-game-card inspected: vs Oklahoma / Starkville / Oct24(Sat) /2:30p.m.; its TV-logo pixels read SEC Network. The extracted card and full source response are saved outside the intake; no logo reused.",
+      "date_context": "Saturday October 24, 2026, all kickoff times Central Daylight Time. Current official 2026 schedules verified October 22. Ole Miss dated preview October 19 and practice report October 21. University pages have conflicting Texas ranking labels; no rankings reported.",
+      "locality": "Clearly labeled statewide Mississippi college football guide: Mississippi State home game in Starkville, Mississippi; Ole Miss away game in Austin, Texas. These are separate from Pontotoc High School football.",
+      "identities": "Mississippi State Bulldogs, Oklahoma Sooners, Ole Miss Rebels, Texas Longhorns, LSU and Missouri. Team-level public sports information only; no private or sensitive facts.",
+      "statistics": "October24,2026;2:30p.m.CDT."
+    },
+    {
+      "id": "f2",
+      "statement": "Mississippi State enters the weekend 4–2 overall and 2–2 in SEC play after a 31–0 loss at LSU; the Oklahoma home game is designated Black Out.",
+      "source_ids": [
+        "state-schedule"
+      ],
+      "evidence": "Official 2026 schedule overall4–2,conference2–2; Oct17 atLSU L0–31; exact Oct24Oklahoma card BlackOut.",
+      "date_context": "Saturday October 24, 2026, all kickoff times Central Daylight Time. Current official 2026 schedules verified October 22. Ole Miss dated preview October 19 and practice report October 21. University pages have conflicting Texas ranking labels; no rankings reported.",
+      "locality": "Clearly labeled statewide Mississippi college football guide: Mississippi State home game in Starkville, Mississippi; Ole Miss away game in Austin, Texas. These are separate from Pontotoc High School football.",
+      "identities": "Mississippi State Bulldogs, Oklahoma Sooners, Ole Miss Rebels, Texas Longhorns, LSU and Missouri. Team-level public sports information only; no private or sensitive facts.",
+      "statistics": "4wins2lossesoverall;2wins2lossesSEC;LSU31,MississippiState0."
+    },
+    {
+      "id": "f3",
+      "statement": "Ole Miss visits Texas in Austin on October 24 at 6:30 p.m. Central; ABC televises the game and the school lists streaming through the ESPN App.",
+      "source_ids": [
+        "rebels-preview"
+      ],
+      "evidence": "Dated October19 official full preview game-information block: DateSaturdayOct24,2026;Time6:30p.m.CT;LocationAustin,TX;SiteDarrellKRoyal-TexasMemorialStadium;TVABC;LiveStreamESPNApp. No rankings, ticket availability, injury assessments or betting claims imported.",
+      "date_context": "Saturday October 24, 2026, all kickoff times Central Daylight Time. Current official 2026 schedules verified October 22. Ole Miss dated preview October 19 and practice report October 21. University pages have conflicting Texas ranking labels; no rankings reported.",
+      "locality": "Clearly labeled statewide Mississippi college football guide: Mississippi State home game in Starkville, Mississippi; Ole Miss away game in Austin, Texas. These are separate from Pontotoc High School football.",
+      "identities": "Mississippi State Bulldogs, Oklahoma Sooners, Ole Miss Rebels, Texas Longhorns, LSU and Missouri. Team-level public sports information only; no private or sensitive facts.",
+      "statistics": "October24,2026;6:30p.m.CDT."
+    },
+    {
+      "id": "f4",
+      "statement": "Ole Miss enters Saturday 5–1 overall and 3–1 in SEC play after a 31–3 home win over Missouri on October 17.",
+      "source_ids": [
+        "rebels-schedule"
+      ],
+      "evidence": "Full current official 2026 text schedule: Overall5–1;Conference3–1;Oct17HomeMissouri(Homecoming),Oxford,Miss.,W31–3.",
+      "date_context": "Saturday October 24, 2026, all kickoff times Central Daylight Time. Current official 2026 schedules verified October 22. Ole Miss dated preview October 19 and practice report October 21. University pages have conflicting Texas ranking labels; no rankings reported.",
+      "locality": "Clearly labeled statewide Mississippi college football guide: Mississippi State home game in Starkville, Mississippi; Ole Miss away game in Austin, Texas. These are separate from Pontotoc High School football.",
+      "identities": "Mississippi State Bulldogs, Oklahoma Sooners, Ole Miss Rebels, Texas Longhorns, LSU and Missouri. Team-level public sports information only; no private or sensitive facts.",
+      "statistics": "5wins1lossoverall;3wins1lossSEC;OleMiss31,Missouri3."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Mississippi State and Ole Miss have separate SEC football assignments Saturday, Oct. 24, with kickoff times that give Mississippi fans an afternoon game followed by an evening matchup. The Bulldogs host Oklahoma in Starkville at 2:30 p.m. Central, while the Rebels visit Texas in Austin at 6:30 p.m. Central.",
+      "fact_ids": [
+        "f1",
+        "f3"
+      ]
+    },
+    {
+      "text": "Mississippi State’s official schedule lists SEC Network coverage for the Oklahoma game and designates the home date as a Black Out. The Bulldogs enter the weekend 4–2 overall and 2–2 in conference play after a 31–0 loss at LSU on Oct. 17.",
+      "fact_ids": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "text": "Ole Miss plays at Darrell K Royal–Texas Memorial Stadium. The school’s game preview lists ABC as the television outlet and the ESPN App for streaming. The Rebels are 5–1 overall and 3–1 in the SEC, coming off a 31–3 home victory over Missouri.",
+      "fact_ids": [
+        "f3",
+        "f4"
+      ]
+    },
+    {
+      "text": "The official school listings below provide the game and viewing details. For local high school football, our separate Pontotoc–New Hope preview is also linked below.",
+      "fact_ids": [
+        "f1",
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/mississippi-state-oklahoma-ole-miss-texas-october-24-2026.png",
+    "sha256": "3a07bd2c5dfd8f4c40af3a08debb24b91bf830e23b9f3e0ec0d91b1b563eeb06",
+    "alt_text": "Oct. 24 football, Central time: Oklahoma at Mississippi State, 2:30 p.m., SEC Network; Ole Miss at Texas, 6:30 p.m., ABC and ESPN App.",
+    "credit": "Pontotoc News original editorial graphic",
+    "rights": "owned",
+    "rights_reference": "Original typography drawn locally using Pillow and macOS Arial, opaque RGB 1600×900 PNG. No team, conference or network logo, player likeness, game photograph or source artwork reproduced. Official source channel logo inspected only as reporting evidence."
+  },
+  "review": {
+    "reviewer": "Codex October22 morning editorial review",
+    "reviewed_at": "2026-10-22T14:12:23.079320+00:00",
+    "decision": "publish",
+    "checks": {
+      "coherent_prose": true,
+      "dates": true,
+      "identities": true,
+      "image_rights": true,
+      "locality": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "source_support": true,
+      "statistics": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f3"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s October22 morning delegation permits a clearly labeled useful statewide sports summary after local source research, all offline/editorial/image checks and exhaustive authenticated dry-run reconciliation. Distinct upcoming games, practical kickoff/broadcast information, no duplicate prior matchups, unsupported rankings or filler."
+  }
+}
