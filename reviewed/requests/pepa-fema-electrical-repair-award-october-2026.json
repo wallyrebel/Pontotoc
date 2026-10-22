@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pepa-fema-electrical-repair-award-october-2026.json",
   "article_sha256": "6660a6a3e3d2655fd640b877cb0176a7ef08471a61b08be03a6e8a08a2539e2a",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pepa-fema-electrical-repair-award-october-2026",
   "seo_review": {
     "reviewer": "Codex October22 afternoon editorial review",
