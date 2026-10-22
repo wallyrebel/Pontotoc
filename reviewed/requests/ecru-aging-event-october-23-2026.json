@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/ecru-aging-event-october-23-2026.json",
+  "article_sha256": "d140d69d58803a5bc75d3c2b5b212769c5bac5082adf1ebb05621efd9f1f924c",
+  "mode": "dry-run",
+  "public_slug": "ecru-aging-event-october-23-2026",
+  "seo_review": {
+    "reviewer": "Codex October22 morning editorial review",
+    "reviewed_at": "2026-10-22T14:08:45.562895+00:00",
+    "checks": {
+      "accurate_concise_description": true,
+      "canonical_and_source_links": true,
+      "descriptive_slug": true,
+      "meaningful_headline": true,
+      "no_keyword_stuffing": true,
+      "relevant_accessible_alt": true
+    }
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:ecru:2026-10-23:athletico-dont-fear-aging"
+  ],
+  "title": "Ecru aging event offers speakers and health checks Oct. 23",
+  "excerpt": "Athletico’s “Don’t Fear Aging” event is set for Oct. 23, 9–11 a.m., at Ecru Community Center, with speakers, door prizes and advertised health checks.",
+  "locality": "Ecru Community Center, Ecru, Pontotoc County, Mississippi.",
+  "sources": [
+    {
+      "id": "ecru-aging-notice",
+      "url": "https://www.facebook.com/1204361708550928/posts/1439574241696339",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7mX75E8w6.rss",
+      "title": "Town of Ecru: full Oct. 23 Don’t Fear Aging event notice",
+      "publisher": "Town of Ecru",
+      "role": "event",
+      "published_at": "2026-10-21T23:52:15Z",
+      "verified_at": "2026-10-22T14:08:45.562895+00:00"
+    },
+    {
+      "id": "related-pumpkin-contest",
+      "url": "https://pontotocnews.com/pontotoc-news/ecru-pumpkin-carving-contest-october-27-2026/",
+      "verification_url": "https://pontotocnews.com/pontotoc-news/ecru-pumpkin-carving-contest-october-27-2026/",
+      "title": "Related Ecru community coverage: pumpkin contest registration and display",
+      "publisher": "Pontotoc News",
+      "role": "background",
+      "published_at": null,
+      "verified_at": "2026-10-22T14:08:45.562895+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Athletico Physical Therapy presents Don’t Fear Aging at Ecru Community Center on Friday, October 23, 2026, from 9 to 11 a.m.",
+      "source_ids": [
+        "ecru-aging-notice"
+      ],
+      "evidence": "Town of Ecru exact saved-feed permalink 1439574241696339. Full 720×1072 source flyer inspected in actual pixels, SHA256 942ac61cbfeb0746603132b793ae26b7ce0da4fef6eed57199d23ba0f764f025. Heading ATHLETICO PHYSICAL THERAPY PRESENTS DON’T FEAR AGING; date FRIDAY, OCTOBER 23; time 9:00 AM–11:00 AM; ECRU COMMUNITY CENTER / ECRU, MISSISSIPPI.",
+      "date_context": "Town of Ecru post published 2026-10-21T23:52:15Z (Wednesday October 21 at 6:52:15 p.m. CDT). Full flyer specifies Friday October 23, 9:00 AM–11:00 AM, matching the 2026 calendar. All event times local.",
+      "locality": "Ecru Community Center, Ecru, Pontotoc County, Mississippi.",
+      "identities": "Athletico Physical Therapy, Town of Ecru and Ecru Community Center. No attendees, patients or private health information identified.",
+      "statistics": "October 23, 2026; 9–11 a.m. local time."
+    },
+    {
+      "id": "f2",
+      "statement": "The program advertises speakers offering practical information about staying healthy, active and independent, along with door prizes.",
+      "source_ids": [
+        "ecru-aging-notice"
+      ],
+      "evidence": "The source flyer lists SPEAKERS / local experts sharing practical tips on staying healthy, active, and independent; DOOR PRIZES / great giveaways for attendees. No individual speakers, guarantees, admission fee or registration conditions asserted.",
+      "date_context": "Town of Ecru post published 2026-10-21T23:52:15Z (Wednesday October 21 at 6:52:15 p.m. CDT). Full flyer specifies Friday October 23, 9:00 AM–11:00 AM, matching the 2026 calendar. All event times local.",
+      "locality": "Ecru Community Center, Ecru, Pontotoc County, Mississippi.",
+      "identities": "Athletico Physical Therapy, Town of Ecru and Ecru Community Center. No attendees, patients or private health information identified.",
+      "statistics": "None asserted"
+    },
+    {
+      "id": "f3",
+      "statement": "Advertised health checks include blood pressure and glucose screening.",
+      "source_ids": [
+        "ecru-aging-notice"
+      ],
+      "evidence": "The full source flyer HEALTH CHECKS panel explicitly lists Blood Pressure and Glucose Screening. This is a report of advertised services, with no medical advice, clinical interpretation, health benefit or patient outcome claimed.",
+      "date_context": "Town of Ecru post published 2026-10-21T23:52:15Z (Wednesday October 21 at 6:52:15 p.m. CDT). Full flyer specifies Friday October 23, 9:00 AM–11:00 AM, matching the 2026 calendar. All event times local.",
+      "locality": "Ecru Community Center, Ecru, Pontotoc County, Mississippi.",
+      "identities": "Athletico Physical Therapy, Town of Ecru and Ecru Community Center. No attendees, patients or private health information identified.",
+      "statistics": "None asserted"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Athletico Physical Therapy’s “Don’t Fear Aging” event is scheduled for Friday, Oct. 23, from 9 to 11 a.m. at Ecru Community Center. The Town of Ecru shared the full announcement Wednesday evening, announcing a program of speakers and advertised health checks for residents.",
+      "fact_ids": [
+        "f1",
+        "f2",
+        "f3"
+      ]
+    },
+    {
+      "text": "The flyer says local speakers will offer practical information about staying healthy, active and independent. Door prizes are also part of the announced program.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Blood-pressure checks and glucose screening are listed among the activities. The event is presented by Athletico Physical Therapy; the town’s original notice is linked below for readers who want to review the full flyer.",
+      "fact_ids": [
+        "f1",
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/ecru-aging-event-october-23-2026.png",
+    "sha256": "f0ffcd383962f964fba9350d171cb0298581440cf73066fbac403c3ac9de9d72",
+    "alt_text": "Don’t Fear Aging: Friday, Oct. 23, 2026, 9–11 a.m. at Ecru Community Center; speakers, door prizes and health checks, presented by Athletico Physical Therapy.",
+    "credit": "Pontotoc News original editorial graphic",
+    "rights": "owned",
+    "rights_reference": "Original typography drawn locally with Pillow and macOS Arial on an opaque RGB 1600×900 PNG. No source flyer, brand logo, stock photograph or person’s likeness reused. Full Town of Ecru source flyer inspected separately as reporting evidence."
+  },
+  "review": {
+    "reviewer": "Codex October22 morning editorial review",
+    "reviewed_at": "2026-10-22T14:08:45.562895+00:00",
+    "decision": "publish",
+    "checks": {
+      "coherent_prose": true,
+      "dates": true,
+      "identities": true,
+      "image_rights": true,
+      "locality": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "source_support": true,
+      "statistics": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s October22 morning delegation and recurring publishing authorization permit useful verified new local public-facts coverage after all offline, editorial/image and authenticated reconciliation gates pass. Original source inspected; no medical advice, patient facts, allegations or unsupported admission rules."
+  }
+}
