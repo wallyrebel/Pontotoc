@@ -1,19 +1,19 @@
 {
-  "schema_version": 2,
-  "article_path": "reviewed/articles/pepa-fema-electrical-repair-award-october-2026.json",
-  "article_sha256": "6660a6a3e3d2655fd640b877cb0176a7ef08471a61b08be03a6e8a08a2539e2a",
-  "mode": "publish",
-  "public_slug": "pepa-fema-electrical-repair-award-october-2026",
-  "seo_review": {
-    "reviewer": "Codex October22 afternoon editorial review",
-    "reviewed_at": "2026-10-22T21:09:38.258425+00:00",
-    "checks": {
-      "accurate_concise_description": true,
-      "canonical_and_source_links": true,
-      "descriptive_slug": true,
-      "meaningful_headline": true,
-      "no_keyword_stuffing": true,
-      "relevant_accessible_alt": true
+    "schema_version": 2,
+    "article_path": "reviewed/articles/pepa-fema-electrical-repair-award-october-2026.json",
+    "article_sha256": "6660a6a3e3d2655fd640b877cb0176a7ef08471a61b08be03a6e8a08a2539e2a",
+    "mode": "publish",
+    "public_slug": "pepa-fema-electrical-repair-award-october-2026",
+    "seo_review": {
+        "reviewer": "Codex October22 afternoon editorial review",
+        "reviewed_at": "2026-10-22T21:09:38.258425+00:00",
+        "checks": {
+            "accurate_concise_description": true,
+            "canonical_and_source_links": true,
+            "descriptive_slug": true,
+            "meaningful_headline": true,
+            "no_keyword_stuffing": true,
+            "relevant_accessible_alt": true
+        }
     }
-  }
 }
