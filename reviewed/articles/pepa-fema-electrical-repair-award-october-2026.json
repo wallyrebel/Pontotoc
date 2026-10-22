@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:pepa:2026-10-22:fema-electrical-distribution-repair-award"
+  ],
+  "title": "FEMA announces more than $2.2 million for PEPA electrical repairs",
+  "excerpt": "An Oct. 22 announcement lists more than $2.2 million for Pontotoc Electric Power Association’s electrical distribution repairs, part of a 40-project Mississippi recovery package.",
+  "locality": "Pontotoc Electric Power Association, Mississippi; statewide recovery announcement includes nearby Lee County, Oxford and New Albany utility projects. No individual repair locations asserted.",
+  "sources": [
+    {
+      "id": "mema-fema-recovery",
+      "url": "https://www.msema.org/news/fema-announces-more-60-million-mississippi-recovery",
+      "verification_url": "https://www.msema.org/news/fema-announces-more-60-million-mississippi-recovery",
+      "title": "MEMA: FEMA’s Oct. 22 Mississippi recovery funding announcement",
+      "publisher": "Mississippi Emergency Management Agency, publishing FEMA announcement",
+      "role": "event",
+      "published_at": null,
+      "verified_at": "2026-10-22T21:09:38.258425+00:00"
+    },
+    {
+      "id": "related-pepa-account-tools",
+      "url": "https://pontotocnews.com/pontotoc-news/pepa-paperless-billing-online-account-tools/",
+      "verification_url": "https://pontotocnews.com/pontotoc-news/pepa-paperless-billing-online-account-tools/",
+      "title": "Related PEPA coverage: paperless billing and online account tools",
+      "publisher": "Pontotoc News",
+      "role": "background",
+      "published_at": "2026-10-12T21:18:40Z",
+      "verified_at": "2026-10-22T21:09:38.258425+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "FEMA announced more than $2.2 million for Pontotoc Electric Power Association to repair its electrical distribution system, in an October 22, 2026 release posted by MEMA.",
+      "source_ids": [
+        "mema-fema-recovery"
+      ],
+      "evidence": "Full dated official release: Public Assistance grants announced today include more than $2.2 million to the Pontotoc Electric Power Association to repair the electrical distribution system. Source text captured in mema-recovery-release.json outside repo; primary HTTP200, no redirect.",
+      "date_context": "Official Mississippi Emergency Management Agency release visibly dated October 22, 2026; no publication hour supplied or invented. Read in full October 22 afternoon America/Chicago. This reports an announced award, not a payment receipt or a newly scheduled construction project. No disaster date assigned to PEPA: the 2020 disaster dates in the release concern separate safe-room awards.",
+      "locality": "Pontotoc Electric Power Association, Mississippi; statewide recovery announcement includes nearby Lee County, Oxford and New Albany utility projects. No individual repair locations asserted.",
+      "identities": "Federal Emergency Management Agency (FEMA); Mississippi Emergency Management Agency (MEMA); Pontotoc Electric Power Association (PEPA); Lee County; Oxford; New Albany Light, Gas and Water. Public institutional funding facts only.",
+      "statistics": "More than $2.2 million; amount is a rounded lower-bound announcement, not an exact award total."
+    },
+    {
+      "id": "f2",
+      "statement": "PEPA’s award is listed under FEMA Public Assistance, which reimburses communities for disaster debris removal, emergency protective measures and repairs or rebuilding of damaged critical infrastructure.",
+      "source_ids": [
+        "mema-fema-recovery"
+      ],
+      "evidence": "Read full program-description paragraph and list of Public Assistance awards in the official release. PEPA’s listed purpose is electrical distribution repair; the announcement gives no PEPA-specific work sites, repair timetable, customer rate change, customer rebate or application invitation.",
+      "date_context": "Official Mississippi Emergency Management Agency release visibly dated October 22, 2026; no publication hour supplied or invented. Read in full October 22 afternoon America/Chicago. This reports an announced award, not a payment receipt or a newly scheduled construction project. No disaster date assigned to PEPA: the 2020 disaster dates in the release concern separate safe-room awards.",
+      "locality": "Pontotoc Electric Power Association, Mississippi; statewide recovery announcement includes nearby Lee County, Oxford and New Albany utility projects. No individual repair locations asserted.",
+      "identities": "Federal Emergency Management Agency (FEMA); Mississippi Emergency Management Agency (MEMA); Pontotoc Electric Power Association (PEPA); Lee County; Oxford; New Albany Light, Gas and Water. Public institutional funding facts only.",
+      "statistics": "None asserted"
+    },
+    {
+      "id": "f3",
+      "statement": "The statewide announcement covers 40 projects totaling more than $60 million; the release describes nearly $60 million in Public Assistance and nearly $680,000 in separate hazard-mitigation funding.",
+      "source_ids": [
+        "mema-fema-recovery"
+      ],
+      "evidence": "Full opening paragraph says more than $60 million, funding40projects. Separate paragraphs state nearly$60millionthroughPublicAssistance and nearly$680,000throughHazardMitigationGrantProgram. Preserve rounded qualifiers and program distinction; do not calculate a more precise total.",
+      "date_context": "Official Mississippi Emergency Management Agency release visibly dated October 22, 2026; no publication hour supplied or invented. Read in full October 22 afternoon America/Chicago. This reports an announced award, not a payment receipt or a newly scheduled construction project. No disaster date assigned to PEPA: the 2020 disaster dates in the release concern separate safe-room awards.",
+      "locality": "Pontotoc Electric Power Association, Mississippi; statewide recovery announcement includes nearby Lee County, Oxford and New Albany utility projects. No individual repair locations asserted.",
+      "identities": "Federal Emergency Management Agency (FEMA); Mississippi Emergency Management Agency (MEMA); Pontotoc Electric Power Association (PEPA); Lee County; Oxford; New Albany Light, Gas and Water. Public institutional funding facts only.",
+      "statistics": "40projects;morethan$60millionoverall;nearly$60millionPublicAssistance;nearly$680,000hazardmitigation."
+    },
+    {
+      "id": "f4",
+      "statement": "Nearby awards include more than $2 million for Lee County debris removal, more than $2.2 million for Oxford debris removal and more than $1.4 million for New Albany Light, Gas and Water utility repair and emergency protective measures.",
+      "source_ids": [
+        "mema-fema-recovery"
+      ],
+      "evidence": "Three separate bullet items in the full official release identify those recipients, purposes and rounded lower-bound amounts. No amounts added to PEPA’s award, no local construction timing or completion claims inferred.",
+      "date_context": "Official Mississippi Emergency Management Agency release visibly dated October 22, 2026; no publication hour supplied or invented. Read in full October 22 afternoon America/Chicago. This reports an announced award, not a payment receipt or a newly scheduled construction project. No disaster date assigned to PEPA: the 2020 disaster dates in the release concern separate safe-room awards.",
+      "locality": "Pontotoc Electric Power Association, Mississippi; statewide recovery announcement includes nearby Lee County, Oxford and New Albany utility projects. No individual repair locations asserted.",
+      "identities": "Federal Emergency Management Agency (FEMA); Mississippi Emergency Management Agency (MEMA); Pontotoc Electric Power Association (PEPA); Lee County; Oxford; New Albany Light, Gas and Water. Public institutional funding facts only.",
+      "statistics": "LeeCounty:morethan$2million;Oxford:morethan$2.2million;NewAlbanyLight,GasandWater:morethan$1.4million."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "FEMA has announced more than $2.2 million for Pontotoc Electric Power Association to repair its electrical distribution system, according to an Oct. 22 release posted by the Mississippi Emergency Management Agency. The award places the local utility among the recipients in a new statewide disaster-recovery funding announcement.",
+      "fact_ids": [
+        "f1",
+        "f3"
+      ]
+    },
+    {
+      "text": "PEPA’s funding is listed under FEMA’s Public Assistance program. The release describes that program as federal reimbursement for communities’ disaster-related debris removal, emergency protective work and repairs to damaged critical infrastructure. It identifies electrical-system repairs as the purpose of PEPA’s award but gives no specific work locations or construction timetable.",
+      "fact_ids": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "text": "The Mississippi package covers 40 projects and more than $60 million overall. The release separates nearly $60 million in Public Assistance from nearly $680,000 in hazard-mitigation funding aimed at reducing future disaster damage.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "Other nearby awards include more than $2 million for debris removal in Lee County and more than $2.2 million for debris removal in Oxford. New Albany Light, Gas and Water is listed for more than $1.4 million to repair public utilities and carry out emergency protective measures. The full official announcement is linked below.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pepa-fema-electrical-repair-award-october-2026.png",
+    "sha256": "402063d476d9482e3800ba3424b0353422ecd8c456ee5bdc7dcbcac435446a5a",
+    "alt_text": "FEMA repair award announced Oct. 22, 2026: more than $2.2 million for Pontotoc Electric Power Association’s electrical distribution system.",
+    "credit": "Pontotoc News original editorial graphic",
+    "rights": "owned",
+    "rights_reference": "Original typography drawn locally with Pillow and macOS Arial on an opaque RGB1600×900 PNG. No utility or government logo, source art, stock photograph or person’s likeness reused. Source is a full text release, with no relevant factual flyer or video to transcribe."
+  },
+  "review": {
+    "reviewer": "Codex October22 afternoon editorial review",
+    "reviewed_at": "2026-10-22T21:09:38.258425+00:00",
+    "decision": "publish",
+    "checks": {
+      "coherent_prose": true,
+      "dates": true,
+      "identities": true,
+      "image_rights": true,
+      "locality": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "source_support": true,
+      "statistics": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s October22 afternoon delegation authorizes additional worthwhile verified local reporting after all offline, editorial/image and authenticated all-status/source/event reconciliation gates. Today’s two morning articles count; this distinct new official PEPA repair award warrants local coverage. No private information, allegations, invented construction plans or denied-source details used."
+  }
+}
