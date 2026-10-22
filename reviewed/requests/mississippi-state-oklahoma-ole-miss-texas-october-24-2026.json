@@ -1,19 +1,19 @@
 {
-  "schema_version": 2,
-  "article_path": "reviewed/articles/mississippi-state-oklahoma-ole-miss-texas-october-24-2026.json",
-  "article_sha256": "2c73153eac235ed9b9519d841912c4c8b0fac98d2cbfb94e29bae1ead748f4a5",
-  "mode": "publish",
-  "public_slug": "mississippi-state-oklahoma-ole-miss-texas-october-24-2026",
-  "seo_review": {
-    "reviewer": "Codex October22 morning editorial review",
-    "reviewed_at": "2026-10-22T14:12:23.079320+00:00",
-    "checks": {
-      "accurate_concise_description": true,
-      "canonical_and_source_links": true,
-      "descriptive_slug": true,
-      "meaningful_headline": true,
-      "no_keyword_stuffing": true,
-      "relevant_accessible_alt": true
+    "schema_version": 2,
+    "article_path": "reviewed/articles/mississippi-state-oklahoma-ole-miss-texas-october-24-2026.json",
+    "article_sha256": "2c73153eac235ed9b9519d841912c4c8b0fac98d2cbfb94e29bae1ead748f4a5",
+    "mode": "publish",
+    "public_slug": "mississippi-state-oklahoma-ole-miss-texas-october-24-2026",
+    "seo_review": {
+        "reviewer": "Codex October22 morning editorial review",
+        "reviewed_at": "2026-10-22T14:12:23.079320+00:00",
+        "checks": {
+            "accurate_concise_description": true,
+            "canonical_and_source_links": true,
+            "descriptive_slug": true,
+            "meaningful_headline": true,
+            "no_keyword_stuffing": true,
+            "relevant_accessible_alt": true
+        }
     }
-  }
 }
