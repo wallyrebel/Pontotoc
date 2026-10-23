@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:2026-10-23-afternoon:oct24-25-weekend-forecast"
+  ],
+  "title": "Pontotoc weekend: sunny skies; NWS expects fire danger to ease",
+  "excerpt": "Pontotoc’s weekend forecast calls for highs near 78 Saturday and 76 Sunday, with morning fog possible and higher humidity expected to ease regional fire danger.",
+  "locality": "Pontotoc, Mississippi local NWS point forecast; regional fire-weather and fog outlook from NWS Memphis. No measured Pontotoc humidity, fog occurrence or burn-ban cancellation asserted.",
+  "sources": [
+    {
+      "id": "nws-outlook",
+      "url": "https://api.weather.gov/products/69ee0c5a-5275-449c-9846-9a05610f21d9",
+      "verification_url": "https://api.weather.gov/products/69ee0c5a-5275-449c-9846-9a05610f21d9",
+      "title": "NWS Memphis: full Oct. 23 afternoon forecast and fire-weather discussion",
+      "publisher": "National Weather Service Memphis",
+      "role": "event",
+      "published_at": "2026-10-23T17:48:00Z",
+      "verified_at": "2026-10-23T21:05:20.858315+00:00"
+    },
+    {
+      "id": "nws-point",
+      "url": "https://api.weather.gov/gridpoints/MEG/82,28/forecast",
+      "verification_url": "https://api.weather.gov/gridpoints/MEG/82,28/forecast",
+      "title": "NWS: current Pontotoc point forecast",
+      "publisher": "National Weather Service",
+      "role": "background",
+      "published_at": "2026-10-23T20:05:42Z",
+      "verified_at": "2026-10-23T21:05:20.858315+00:00"
+    },
+    {
+      "id": "prior-ban",
+      "url": "https://pontotocnews.com/pontotoc-news/pontotoc-county-burn-ban-october-20-2026/",
+      "verification_url": "https://pontotocnews.com/pontotoc-news/pontotoc-county-burn-ban-october-20-2026/",
+      "title": "Related local coverage: Ecru’s Oct. 20 county burn-ban notice",
+      "publisher": "Pontotoc News",
+      "role": "background",
+      "published_at": null,
+      "verified_at": "2026-10-23T21:05:20.858315+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Friday afternoon NWS Pontotoc point forecast calls for sunny Saturday with high near78F and sunny Sunday with high near76F; Friday and Saturday nights lows near48F.",
+      "source_ids": [
+        "nws-point"
+      ],
+      "evidence": "Saved full point forecast JSON updateTime20:05:42Z; periods SaturdayOct24 high78 Sunny; SundayOct25 high76 Sunny; TonightFriday Clear48 and SaturdayNightMostlyClear48. No local observed temperature or guaranteed forecast claimed.",
+      "date_context": "Prepared Friday October23,2026 afternoonCDT for SaturdayOctober24 and SundayOctober25. NWS discussion issuedOctober23 at12:48pmCDT, discussion/fire section12:47pmCDT. Point forecast update2026-10-23T20:05:42Z, retrieved21:02UTC. Forecasts are attributed predictions; conditions may change.",
+      "locality": "Pontotoc, Mississippi local NWS point forecast; regional fire-weather and fog outlook from NWS Memphis. No measured Pontotoc humidity, fog occurrence or burn-ban cancellation asserted.",
+      "identities": "National Weather Service Memphis; Pontotoc, Mississippi. Shelby Farms photograph is Memphis-area reporting evidence only and is not used to assert Pontotoc fog or republished.",
+      "statistics": "Forecast highs78F Saturday and76F Sunday; lows48F Friday andSaturday nights."
+    },
+    {
+      "id": "f2",
+      "statement": "NWS Memphis expects higher humidity Saturday to ease elevated regional fire danger; drought and fuel conditions still require monitoring.",
+      "source_ids": [
+        "nws-outlook"
+      ],
+      "evidence": "Full Oct23 12:47pmCDT discussion describes Friday RH20-30%, weak returnflow raising RHabove30%Saturday, light20ftwinds and elevatedfire danger notanticipatedtocontinue; explicitly says ongoing drought/fuelsstillneedmonitoring. This materially updates Oct20 outlook. No authority to lift local burn restrictions inferred.",
+      "date_context": "Prepared Friday October23,2026 afternoonCDT for SaturdayOctober24 and SundayOctober25. NWS discussion issuedOctober23 at12:48pmCDT, discussion/fire section12:47pmCDT. Point forecast update2026-10-23T20:05:42Z, retrieved21:02UTC. Forecasts are attributed predictions; conditions may change.",
+      "locality": "Pontotoc, Mississippi local NWS point forecast; regional fire-weather and fog outlook from NWS Memphis. No measured Pontotoc humidity, fog occurrence or burn-ban cancellation asserted.",
+      "identities": "National Weather Service Memphis; Pontotoc, Mississippi. Shelby Farms photograph is Memphis-area reporting evidence only and is not used to assert Pontotoc fog or republished.",
+      "statistics": "Regional forecast humidity20-30%Friday, above30%Saturday; these are regional forecast values, not measured Pontotoc readings."
+    },
+    {
+      "id": "f3",
+      "statement": "NWS Memphis expects patchy to locally dense radiation fog each morning through its forecast period, alongside dry conditions and above-normal temperatures through the weekend and early next week.",
+      "source_ids": [
+        "nws-outlook"
+      ],
+      "evidence": "Full dated FIREWEATHER section ends expectationofpatchyto locallydenseradiationfog eachmorning;KEYMESSAGES saysdryandabove-normaltemperaturespersistweekendearlynextweek. This is regional forecast, not a report of fog observed inPontotoc or a current fog advisory.",
+      "date_context": "Prepared Friday October23,2026 afternoonCDT for SaturdayOctober24 and SundayOctober25. NWS discussion issuedOctober23 at12:48pmCDT, discussion/fire section12:47pmCDT. Point forecast update2026-10-23T20:05:42Z, retrieved21:02UTC. Forecasts are attributed predictions; conditions may change.",
+      "locality": "Pontotoc, Mississippi local NWS point forecast; regional fire-weather and fog outlook from NWS Memphis. No measured Pontotoc humidity, fog occurrence or burn-ban cancellation asserted.",
+      "identities": "National Weather Service Memphis; Pontotoc, Mississippi. Shelby Farms photograph is Memphis-area reporting evidence only and is not used to assert Pontotoc fog or republished.",
+      "statistics": "None asserted"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc’s weekend forecast calls for sunny skies and mild afternoons, with the National Weather Service projecting a high near 78 degrees Saturday and 76 Sunday. Friday afternoon’s point forecast puts overnight lows near 48 both Friday and Saturday nights, with clear to mostly clear skies.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The more notable change is in the regional fire-weather outlook. In its Friday afternoon discussion, the weather service’s Memphis office says a modest increase in moisture should push relative humidity above 30% Saturday, helping ease the elevated fire danger. Forecasters say drought and dry fuel conditions still need monitoring. The forecast does not announce any change to local burn restrictions.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Morning visibility may also need attention. The Memphis office expects patchy to locally dense radiation fog each morning across its forecast area, while the broader pattern stays dry and warmer than normal through the weekend and into early next week. That is a regional forecast, rather than a report of fog already observed in Pontotoc.",
+      "fact_ids": [
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-weekend-weather-october-24-25-2026.png",
+    "sha256": "a1605a3aa243e2802be2205030e1b9fc21d62d3990203ac85a423fce6e4ec1d4",
+    "alt_text": "Pontotoc Oct. 24–25 forecast: sunny, highs 78 Saturday and 76 Sunday; regional morning fog possible and fire danger expected to ease Saturday.",
+    "credit": "Pontotoc News original editorial graphic",
+    "rights": "owned",
+    "rights_reference": "Original typography drawn locally with Pillow and macOS Arial, opaqueRGB1600×900PNG. Full current point forecast and dated regional discussion read. No copied NWS photograph/logo or synthetic weather scene; forecasts distinguished from observations. No source image reused."
+  },
+  "review": {
+    "reviewer": "Codex October23 afternoon editorial review",
+    "reviewed_at": "2026-10-23T21:05:20.858315+00:00",
+    "decision": "publish",
+    "checks": {
+      "coherent_prose": true,
+      "dates": true,
+      "identities": true,
+      "image_rights": true,
+      "locality": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "source_support": true,
+      "statistics": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s October23 afternoon delegation and recurring public-facts publishing authorization permit worthwhile distinct verified coverage after offline tests, editorial/image review and exhaustive authenticated dry-run reconciliation. No allegations, personal medical histories, source-gate weakening or unsupported factual expansion."
+  }
+}

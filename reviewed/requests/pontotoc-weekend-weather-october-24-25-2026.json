@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-weekend-weather-october-24-25-2026.json",
+  "article_sha256": "3446327c190cb6eb7f1cadd13ace23b54f5827056f8439943b98ed6f3e63e4a0",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-weekend-weather-october-24-25-2026",
+  "seo_review": {
+    "reviewer": "Codex October23 afternoon editorial review",
+    "reviewed_at": "2026-10-23T21:05:20.858315+00:00",
+    "checks": {
+      "accurate_concise_description": true,
+      "canonical_and_source_links": true,
+      "descriptive_slug": true,
+      "meaningful_headline": true,
+      "no_keyword_stuffing": true,
+      "relevant_accessible_alt": true
+    }
+  }
+}
