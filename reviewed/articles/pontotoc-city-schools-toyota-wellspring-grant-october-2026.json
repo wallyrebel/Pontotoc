@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc-city-schools:2026-10-23:toyota-wellspring-51000-announcement"
+  ],
+  "title": "Pontotoc City School District announces $51,000 Toyota Wellspring grant",
+  "excerpt": "Pontotoc City School District says a $51,000 Toyota Wellspring Education Fund grant through CREATE Foundation will support learning across the district.",
+  "locality": "Pontotoc City School District, Pontotoc, Mississippi; distinct from Pontotoc County School District.",
+  "sources": [
+    {
+      "id": "school-grant",
+      "url": "https://www.facebook.com/1409956404473934/posts/1668421781960727",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7kh8MV2fT.rss",
+      "title": "Pontotoc Athletics shares city school district’s grant announcement and full check photo",
+      "publisher": "Pontotoc Athletics, sharing Pontotoc City School District announcement",
+      "role": "event",
+      "published_at": "2026-10-23T12:28:20Z",
+      "verified_at": "2026-10-23T14:10:59.505578+00:00"
+    },
+    {
+      "id": "related-scorecard",
+      "url": "https://pontotocnews.com/pontotoc-news/pontotoc-city-student-success-scorecard-feedback/",
+      "verification_url": "https://pontotocnews.com/pontotoc-news/pontotoc-city-student-success-scorecard-feedback/",
+      "title": "Related city school coverage: community feedback on student-success scorecard",
+      "publisher": "Pontotoc News",
+      "role": "background",
+      "published_at": null,
+      "verified_at": "2026-10-23T14:10:59.505578+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc City School District announced receipt of a $51,000 Toyota Wellspring Education Fund grant through CREATE Foundation.",
+      "source_ids": [
+        "school-grant"
+      ],
+      "evidence": "Exact savedfeed5 permalink1668421781960727 caption explicitly states recipient,51,000,donor andCREATE. Full1080×720photo inspected: ceremonial check payeePontotocCitySchools,amount$51,000,Fifty-OneThousand,donorToyotaWellspring. Not county district. No facts imported from blocked district Facebook landing pages or denied CREATE website.",
+      "date_context": "Official Pontotoc Athletics post sharing the district announcement published2026-10-23T12:28:20Z, FridayOctober23 at7:28:20a.m.CDT. Full accompanying ceremonial check is datedOctober22,2026. Report dates the announcement, not a presumed presentation or payment date.",
+      "locality": "Pontotoc City School District, Pontotoc, Mississippi; distinct from Pontotoc County School District.",
+      "identities": "Pontotoc City School District; Toyota Wellspring Education Fund; CREATE Foundation; Pontotoc Athletics. No people identified by appearance, no students or private education information named.",
+      "statistics": "$51,000 stated grant, corroborated by printed ceremonial check."
+    },
+    {
+      "id": "f2",
+      "statement": "The district says the grant will support learning and expand educational opportunities across the district.",
+      "source_ids": [
+        "school-grant"
+      ],
+      "evidence": "Full announcement says grant will support learning and expand educational opportunities across our district. No named purchase, earmarked program, classroom count, application opportunity or spending timetable given; none invented.",
+      "date_context": "Official Pontotoc Athletics post sharing the district announcement published2026-10-23T12:28:20Z, FridayOctober23 at7:28:20a.m.CDT. Full accompanying ceremonial check is datedOctober22,2026. Report dates the announcement, not a presumed presentation or payment date.",
+      "locality": "Pontotoc City School District, Pontotoc, Mississippi; distinct from Pontotoc County School District.",
+      "identities": "Pontotoc City School District; Toyota Wellspring Education Fund; CREATE Foundation; Pontotoc Athletics. No people identified by appearance, no students or private education information named.",
+      "statistics": "None asserted"
+    },
+    {
+      "id": "f3",
+      "statement": "The accompanying ceremonial check is dated October22,2026 and made out to Pontotoc City Schools for$51,000.",
+      "source_ids": [
+        "school-grant"
+      ],
+      "evidence": "Actual full source photo read in pixels; top-right check dateOctober22,2026;payeePontotocCitySchools;printedamount$51,000. Check memo blank. No inference about bank settlement, exact award date or identities of photographed attendees.",
+      "date_context": "Official Pontotoc Athletics post sharing the district announcement published2026-10-23T12:28:20Z, FridayOctober23 at7:28:20a.m.CDT. Full accompanying ceremonial check is datedOctober22,2026. Report dates the announcement, not a presumed presentation or payment date.",
+      "locality": "Pontotoc City School District, Pontotoc, Mississippi; distinct from Pontotoc County School District.",
+      "identities": "Pontotoc City School District; Toyota Wellspring Education Fund; CREATE Foundation; Pontotoc Athletics. No people identified by appearance, no students or private education information named.",
+      "statistics": "Ceremonial check dateOctober22,2026;amount$51,000."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc City School District has announced a $51,000 grant from the Toyota Wellspring Education Fund through CREATE Foundation. The announcement was shared Friday morning by Pontotoc Athletics, with the district saying the funding will support learning and expand educational opportunities across its schools.",
+      "fact_ids": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "text": "A photograph accompanying the announcement shows a ceremonial check made out to Pontotoc City Schools for $51,000 and dated Oct. 22, 2026. The district’s notice does not identify a specific purchase or spending timetable. The full announcement and check photograph are linked below.",
+      "fact_ids": [
+        "f2",
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-city-schools-toyota-wellspring-grant-october-2026.png",
+    "sha256": "cf04d5af22a31b143e4675d453c5bf04a68caf33861d3e7f87efdf7e35cb3d46",
+    "alt_text": "$51,000 Toyota Wellspring Education Fund grant through CREATE Foundation for Pontotoc City School District, announced Oct. 23, 2026.",
+    "credit": "Pontotoc News original editorial graphic",
+    "rights": "owned",
+    "rights_reference": "Original typography drawn locally with Pillow and macOS Arial, opaqueRGB1600×900PNG. Full school source photo inspected as reporting evidence only; no school/donor logo, ceremonial check artwork or person’s likeness reproduced. CREATE webpage automated403 stopped; no CREATE-only background used."
+  },
+  "review": {
+    "reviewer": "Codex October23 morning editorial review",
+    "reviewed_at": "2026-10-23T14:10:59.505578+00:00",
+    "decision": "publish",
+    "checks": {
+      "coherent_prose": true,
+      "dates": true,
+      "identities": true,
+      "image_rights": true,
+      "locality": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "source_support": true,
+      "statistics": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s October23 morning delegation and recurring public-facts publishing authorization permit worthwhile distinct verified coverage after offline tests, editorial/image review and exhaustive authenticated dry-run reconciliation. No allegations, personal medical histories, source-gate weakening or unsupported factual expansion."
+  }
+}
