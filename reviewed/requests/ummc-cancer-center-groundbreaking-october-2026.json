@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/ummc-cancer-center-groundbreaking-october-2026.json",
   "article_sha256": "9d3075fd8315feff817a2e0f91af4584ce5118492c5c9ab8d0011aaf22a7e56c",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "ummc-cancer-center-groundbreaking-october-2026",
   "seo_review": {
     "reviewer": "Codex October23 morning editorial review",
