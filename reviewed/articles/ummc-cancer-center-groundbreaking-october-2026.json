@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:ummc:2026-10-22:ccri-groundbreaking"
+  ],
+  "title": "Statewide health: UMMC breaks ground on new cancer center",
+  "excerpt": "UMMC held an Oct. 22 groundbreaking for a new Cancer Center and Research Institute building planned to combine patient care, clinical trials, research and training.",
+  "locality": "Mississippi statewide institutional health-care construction report about University of Mississippi Medical Center Cancer Center and Research Institute; no Pontotoc facility or local clinical availability asserted.",
+  "sources": [
+    {
+      "id": "ummc-groundbreaking",
+      "url": "https://umc.edu/news/News_Articles/2026/10/CCRI-Groundbreaking.html",
+      "verification_url": "https://umc.edu/news/News_Articles/2026/10/CCRI-Groundbreaking.html",
+      "title": "UMMC: full Oct. 22 cancer-center groundbreaking report",
+      "publisher": "University of Mississippi Medical Center",
+      "role": "event",
+      "published_at": null,
+      "verified_at": "2026-10-23T14:10:59.505578+00:00"
+    },
+    {
+      "id": "related-campaign",
+      "url": "https://pontotocnews.com/pontotoc-news/regions-bank-pledges-2-5-million-to-ummc-cancer-center-in-mississippi/",
+      "verification_url": "https://pontotocnews.com/pontotoc-news/regions-bank-pledges-2-5-million-to-ummc-cancer-center-in-mississippi/",
+      "title": "Earlier project coverage: Regions Bank’s cancer-center campaign commitment",
+      "publisher": "Pontotoc News",
+      "role": "background",
+      "published_at": "2026-10-06T14:05:06Z",
+      "verified_at": "2026-10-23T14:10:59.505578+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "UMMC held a groundbreaking ThursdayOctober22 for a new multi-story home for its Cancer Center and Research Institute.",
+      "source_ids": [
+        "ummc-groundbreaking"
+      ],
+      "evidence": "Full dated UMMC release lead reports elected officials,donors andmedicalleaders breakingground for a new multi-storyhome. Full12image official savedfeedgallery inspected; ceremony bannerinimage0 explicitlyGROUND BREAKING|UMMCCancerCenterandResearchInstitute|October22,2026. No sourcephotographs republished.",
+      "date_context": "UMMC official release publishedThursdayOctober22,2026, exact hournotprovided. Fullsourcegallerygroundbreaking banner explicitlyreadsOctober22,2026. Report preparedFridayOctober23. No opening date or construction completion date supplied by primary release; none asserted.",
+      "locality": "Mississippi statewide institutional health-care construction report about University of Mississippi Medical Center Cancer Center and Research Institute; no Pontotoc facility or local clinical availability asserted.",
+      "identities": "University of Mississippi Medical Center; Cancer Center and Research Institute(CCRI); National Cancer Institute(NCI). Institutional plans only. Personal patient narratives, diagnoses and patient-image banners excluded; no outcomes or treatment advice asserted.",
+      "statistics": "None asserted"
+    },
+    {
+      "id": "f2",
+      "statement": "UMMC says the planned building will bring patient care, clinical trials, research laboratories, supportive services and specialized training together.",
+      "source_ids": [
+        "ummc-groundbreaking"
+      ],
+      "evidence": "Second full release paragraph lists those five planned functions under one roof. These are attributed planned functions, not proof of present availability or guaranteed medical outcomes.",
+      "date_context": "UMMC official release publishedThursdayOctober22,2026, exact hournotprovided. Fullsourcegallerygroundbreaking banner explicitlyreadsOctober22,2026. Report preparedFridayOctober23. No opening date or construction completion date supplied by primary release; none asserted.",
+      "locality": "Mississippi statewide institutional health-care construction report about University of Mississippi Medical Center Cancer Center and Research Institute; no Pontotoc facility or local clinical availability asserted.",
+      "identities": "University of Mississippi Medical Center; Cancer Center and Research Institute(CCRI); National Cancer Institute(NCI). Institutional plans only. Personal patient narratives, diagnoses and patient-image banners excluded; no outcomes or treatment advice asserted.",
+      "statistics": "None asserted"
+    },
+    {
+      "id": "f3",
+      "statement": "Construction is funded in part through UMMC’s It’s About Time philanthropic campaign, which has raised more than80% of its$125million goal, according to the release.",
+      "source_ids": [
+        "ummc-groundbreaking"
+      ],
+      "evidence": "Full release says construction fundedinpartthroughcampaign;goal$125million;raisedmorethan80%. No totalbuildingcost inferred from fundraising target; no exact dollar calculation or completed funding claim.",
+      "date_context": "UMMC official release publishedThursdayOctober22,2026, exact hournotprovided. Fullsourcegallerygroundbreaking banner explicitlyreadsOctober22,2026. Report preparedFridayOctober23. No opening date or construction completion date supplied by primary release; none asserted.",
+      "locality": "Mississippi statewide institutional health-care construction report about University of Mississippi Medical Center Cancer Center and Research Institute; no Pontotoc facility or local clinical availability asserted.",
+      "identities": "University of Mississippi Medical Center; Cancer Center and Research Institute(CCRI); National Cancer Institute(NCI). Institutional plans only. Personal patient narratives, diagnoses and patient-image banners excluded; no outcomes or treatment advice asserted.",
+      "statistics": "$125million campaigngoal;morethan80% raised, as reportedOctober22. This is not totalconstructioncost."
+    },
+    {
+      "id": "f4",
+      "statement": "UMMC connects the project to its effort to earn National Cancer Institute designation.",
+      "source_ids": [
+        "ummc-groundbreaking"
+      ],
+      "evidence": "Full official release says project alignswithlong-termgoalofearningNCIdesignation;quotedofficialexplicitlynotesnotyetobtained. Article describesgoalonly,no designationawarded, guaranteedapproval or clinicalefficacyclaims.",
+      "date_context": "UMMC official release publishedThursdayOctober22,2026, exact hournotprovided. Fullsourcegallerygroundbreaking banner explicitlyreadsOctober22,2026. Report preparedFridayOctober23. No opening date or construction completion date supplied by primary release; none asserted.",
+      "locality": "Mississippi statewide institutional health-care construction report about University of Mississippi Medical Center Cancer Center and Research Institute; no Pontotoc facility or local clinical availability asserted.",
+      "identities": "University of Mississippi Medical Center; Cancer Center and Research Institute(CCRI); National Cancer Institute(NCI). Institutional plans only. Personal patient narratives, diagnoses and patient-image banners excluded; no outcomes or treatment advice asserted.",
+      "statistics": "None asserted"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "The University of Mississippi Medical Center broke ground Thursday, Oct. 22, on a new home for its Cancer Center and Research Institute. The ceremony marks a construction milestone for a Mississippi project intended to bring cancer care and research into one building.",
+      "fact_ids": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "text": "UMMC says the planned multi-story facility will combine patient care, clinical trials, research laboratories, supportive services and specialized training. Its announcement describes space for the center’s clinicians, scientists and staff as the program grows.",
+      "fact_ids": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "text": "The medical center reports that construction is funded in part through It’s About Time, its philanthropic campaign for the cancer center. That campaign has raised more than 80% of a $125 million goal, according to the Oct. 22 release. The fundraising target is the campaign’s goal, rather than a stated total building cost.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "UMMC also identifies the project as part of its long-term effort to earn National Cancer Institute designation. The full institutional report is linked below, along with our earlier coverage of a campaign commitment.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/ummc-cancer-center-groundbreaking-october-2026.png",
+    "sha256": "fca1f5ccef5d0306a1564ab997c366957f70d9ff700340307eb9b5c89c8d30c5",
+    "alt_text": "UMMC Cancer Center and Research Institute groundbreaking, Oct. 22, 2026; planned building for care, clinical trials, research, support and training.",
+    "credit": "Pontotoc News original editorial graphic",
+    "rights": "owned",
+    "rights_reference": "Original typography drawn locally with Pillow and macOS Arial, opaqueRGB1600×900PNG. Full UMMC institutional release and12sourcegalleryimages inspected. No official photos, logos, patient banners, personal medical histories or person’s likeness republished. No unverified construction-cost or opening-date label."
+  },
+  "review": {
+    "reviewer": "Codex October23 morning editorial review",
+    "reviewed_at": "2026-10-23T14:10:59.505578+00:00",
+    "decision": "publish",
+    "checks": {
+      "coherent_prose": true,
+      "dates": true,
+      "identities": true,
+      "image_rights": true,
+      "locality": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "source_support": true,
+      "statistics": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s October23 morning delegation and recurring public-facts publishing authorization permit worthwhile distinct verified coverage after offline tests, editorial/image review and exhaustive authenticated dry-run reconciliation. No allegations, personal medical histories, source-gate weakening or unsupported factual expansion."
+  }
+}
