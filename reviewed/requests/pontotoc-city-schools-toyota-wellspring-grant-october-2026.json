@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-city-schools-toyota-wellspring-grant-october-2026.json",
   "article_sha256": "b0eda773b126115409fd03583f3666c95c941056636bf00ecc1fe6bf1d62747f",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-city-schools-toyota-wellspring-grant-october-2026",
   "seo_review": {
     "reviewer": "Codex October23 morning editorial review",
