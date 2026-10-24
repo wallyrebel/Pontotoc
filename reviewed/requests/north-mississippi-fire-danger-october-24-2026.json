@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/north-mississippi-fire-danger-october-24-2026.json",
   "article_sha256": "2407073d3a9af662157afc87a4f16627e866f5b293b92667847946a60d9b5560",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "north-mississippi-fire-danger-october-24-2026",
   "seo_review": {
     "reviewer": "Codex October24 morning editorial review",
