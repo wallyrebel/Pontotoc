@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:2026-10-24:farmers-market",
+    "ms:pontotoc-high-school-band:2026-10-24:state-send-off"
+  ],
+  "title": "Saturday in Pontotoc: market until noon, band send-off at 1",
+  "excerpt": "Pontotoc Farmers Market runs until noon Saturday at 25 West Jefferson Street; the PHS Warrior Band’s state-championship send-off follows at 1 p.m. on The Square.",
+  "locality": "Downtown Pontotoc, Mississippi. The farmers market is at 25 West Jefferson Street; the band send-off is at The Square in Pontotoc. Distinct locations and events; no parade route or street closures asserted.",
+  "sources": [
+    {
+      "id": "market",
+      "url": "https://www.facebook.com/1204361708550928/posts/1442004678119962",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7mX75E8w6.rss",
+      "title": "Full Oct. 24 farmers market map and vendor flyer",
+      "publisher": "Town of Ecru, sharing Pontotoc Farmers Market notice",
+      "role": "event",
+      "published_at": "2026-10-24T13:46:50Z",
+      "verified_at": "2026-10-24T14:06:46.027857+00:00"
+    },
+    {
+      "id": "band",
+      "url": "https://www.facebook.com/1409956404473934/posts/1669086335227605",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7kh8MV2fT.rss",
+      "title": "PHS Warrior Band: full state-championship send-off flyer",
+      "publisher": "Pontotoc Athletics",
+      "role": "event",
+      "published_at": "2026-10-24T03:53:55Z",
+      "verified_at": "2026-10-24T14:06:46.027857+00:00"
+    },
+    {
+      "id": "evening",
+      "url": "https://pontotocnews.com/pontotoc-news/pontotoc-nights-october-24-2026/",
+      "verification_url": "https://pontotocnews.com/pontotoc-news/pontotoc-nights-october-24-2026/",
+      "title": "Earlier coverage: Pontotoc Nights on Oct. 24",
+      "publisher": "Pontotoc News",
+      "role": "background",
+      "published_at": null,
+      "verified_at": "2026-10-24T14:06:46.027857+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc Farmers Market is scheduled SaturdayOct24 from8am to noon at25WestJeffersonStreet.",
+      "source_ids": [
+        "market"
+      ],
+      "evidence": "Full720x900sourceflyer inspected: topSaturdayOct24,8amto12pm; mapbottom25WestJeffersonSt. Exact savedfeed7 caption also saysSaturday8tonoon. No admission charge, parking or product availability inferred.",
+      "date_context": "Saturday October24,2026. Market flyer explicitly says Saturday Oct24,8am-12pm; Town of Ecru post published2026-10-24T13:46:50Z. Band flyer explicitly SaturdayOct24,1:00PM; Athletics share published2026-10-24T03:53:55Z, Friday10:53:55pmCDT. Year2026 corroborated by source post dates and Saturday calendar date.",
+      "locality": "Downtown Pontotoc, Mississippi. The farmers market is at 25 West Jefferson Street; the band send-off is at The Square in Pontotoc. Distinct locations and events; no parade route or street closures asserted.",
+      "identities": "Pontotoc Farmers Market; PHS Warrior Band/Pontotoc High School; musical guest Jason Carter. No photographed students identified by appearance; no claim of a state championship win.",
+      "statistics": "8am-noon market hours;25WestJeffersonStreet address."
+    },
+    {
+      "id": "f2",
+      "statement": "The market flyer lists musical guest Jason Carter and a vendor lineup that includes bread, honey, produce, flowers and crafts.",
+      "source_ids": [
+        "market"
+      ],
+      "evidence": "Full sourceflyer names JasonCarter;GoodstuffBreadCo/OurDailyBread/BeesandQueensHoney/ThompsonsProduce/FarmGirlFlowerFarm/ConnorsGardenandCrafts. Report sayslisted lineup, not guaranteed inventory.",
+      "date_context": "Saturday October24,2026. Market flyer explicitly says Saturday Oct24,8am-12pm; Town of Ecru post published2026-10-24T13:46:50Z. Band flyer explicitly SaturdayOct24,1:00PM; Athletics share published2026-10-24T03:53:55Z, Friday10:53:55pmCDT. Year2026 corroborated by source post dates and Saturday calendar date.",
+      "locality": "Downtown Pontotoc, Mississippi. The farmers market is at 25 West Jefferson Street; the band send-off is at The Square in Pontotoc. Distinct locations and events; no parade route or street closures asserted.",
+      "identities": "Pontotoc Farmers Market; PHS Warrior Band/Pontotoc High School; musical guest Jason Carter. No photographed students identified by appearance; no claim of a state championship win.",
+      "statistics": "None asserted"
+    },
+    {
+      "id": "f3",
+      "statement": "The PHS Warrior Band send-off is SaturdayOct24 at1pm on The Square in Pontotoc before the band heads to Brandon for the state championship. Supporters are invited to bring signs,banners,bells and whistles.",
+      "source_ids": [
+        "band"
+      ],
+      "evidence": "Full720x932flyer read in pixels: STATECHAMPIONSHIPSEND-OFF;SaturdayOct24th1:00PM;TheSquarePontotoc;supportPHSWarriorBandasheadtoBrandonforStateChampionship;bring signs,banners,bellsandwhistles. No competition start time,classification,route,transportation or result stated.",
+      "date_context": "Saturday October24,2026. Market flyer explicitly says Saturday Oct24,8am-12pm; Town of Ecru post published2026-10-24T13:46:50Z. Band flyer explicitly SaturdayOct24,1:00PM; Athletics share published2026-10-24T03:53:55Z, Friday10:53:55pmCDT. Year2026 corroborated by source post dates and Saturday calendar date.",
+      "locality": "Downtown Pontotoc, Mississippi. The farmers market is at 25 West Jefferson Street; the band send-off is at The Square in Pontotoc. Distinct locations and events; no parade route or street closures asserted.",
+      "identities": "Pontotoc Farmers Market; PHS Warrior Band/Pontotoc High School; musical guest Jason Carter. No photographed students identified by appearance; no claim of a state championship win.",
+      "statistics": "1pm send-off time."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Saturday’s downtown plans include a morning at Pontotoc Farmers Market and an afternoon send-off for the PHS Warrior Band. The market’s Oct. 24 notice lists hours of 8 a.m. to noon at 25 West Jefferson Street, while the band’s gathering is set for 1 p.m. on The Square in Pontotoc.",
+      "fact_ids": [
+        "f1",
+        "f3"
+      ]
+    },
+    {
+      "text": "The market flyer names Jason Carter as its musical guest and includes a map of the vendor lineup. Listed offerings range from bread, honey and produce to flowers and crafts, giving shoppers a guide to the stalls before they arrive.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "The band’s notice asks the community to support the students as they head to Brandon for the state championship. Supporters are invited to bring signs, banners, bells and whistles to the 1 p.m. send-off. The complete notices are linked below, along with earlier coverage of Pontotoc Nights.",
+      "fact_ids": [
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-market-band-send-off-october-24-2026.png",
+    "sha256": "3edc151e88f4781e1ca01787f1cdc6555350c964392df01d811592e4f38b2824",
+    "alt_text": "Saturday Oct. 24 in Pontotoc: farmers market 8 a.m.–noon at 25 West Jefferson Street; PHS Warrior Band send-off 1 p.m. at The Square.",
+    "credit": "Pontotoc News original editorial graphic",
+    "rights": "owned",
+    "rights_reference": "Original opaque 1600x900 RGB typography drawn locally with Pillow and macOS Arial. Full primary-source graphics inspected as reporting evidence only. No source photos, logos or people reproduced."
+  },
+  "review": {
+    "reviewer": "Codex October24 morning editorial review",
+    "reviewed_at": "2026-10-24T14:06:46.027857+00:00",
+    "decision": "publish",
+    "checks": {
+      "coherent_prose": true,
+      "dates": true,
+      "identities": true,
+      "image_rights": true,
+      "locality": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "source_support": true,
+      "statistics": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f3"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s October24 morning delegation and recurring public-facts publishing authorization permit worthwhile distinct verified coverage after offline tests, editorial/image review and exhaustive authenticated dry-run reconciliation. No allegations, personal medical histories, source-gate weakening or unsupported factual expansion."
+  }
+}
