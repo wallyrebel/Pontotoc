@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:north-mississippi:2026-10-24:saturday-fire-danger-statement"
+  ],
+  "title": "NWS flags elevated fire danger Saturday from 11 a.m. to 7 p.m.",
+  "excerpt": "NWS Memphis says low humidity and dry fuels keep fire danger elevated Saturday, with its fire-danger graphic highlighting 11 a.m.–7 p.m.",
+  "locality": "Pontotoc and north Mississippi within National Weather Service Memphis regional fire-weather outlook. Humidity figures are regional forecast minima, not measured Pontotoc observations.",
+  "sources": [
+    {
+      "id": "discussion",
+      "url": "https://api.weather.gov/products/229896a3-2d4b-48fb-896a-4e8eb0d469d7",
+      "verification_url": "https://api.weather.gov/products/229896a3-2d4b-48fb-896a-4e8eb0d469d7",
+      "title": "NWS Memphis: full Saturday morning forecast and fire-weather discussion",
+      "publisher": "National Weather Service Memphis",
+      "role": "event",
+      "published_at": "2026-10-24T10:56:00Z",
+      "verified_at": "2026-10-24T14:06:46.027857+00:00"
+    },
+    {
+      "id": "graphics",
+      "url": "https://www.facebook.com/373092268193391/posts/1542166744619265",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vdUpJ5VAA1j.rss",
+      "title": "NWS: full Saturday fire-danger statement and forecast graphics",
+      "publisher": "National Weather Service Memphis",
+      "role": "event",
+      "published_at": "2026-10-24T08:11:02Z",
+      "verified_at": "2026-10-24T14:06:46.027857+00:00"
+    },
+    {
+      "id": "point",
+      "url": "https://api.weather.gov/gridpoints/MEG/82,28/forecast",
+      "verification_url": "https://api.weather.gov/gridpoints/MEG/82,28/forecast",
+      "title": "NWS: current Pontotoc point forecast",
+      "publisher": "National Weather Service",
+      "role": "background",
+      "published_at": "2026-10-24T11:15:55Z",
+      "verified_at": "2026-10-24T14:06:46.027857+00:00"
+    },
+    {
+      "id": "prior-outlook",
+      "url": "https://pontotocnews.com/pontotoc-news/pontotoc-weekend-weather-october-24-25-2026/",
+      "verification_url": "https://pontotocnews.com/pontotoc-news/pontotoc-weekend-weather-october-24-25-2026/",
+      "title": "Earlier Friday forecast: expected improvement in fire weather",
+      "publisher": "Pontotoc News",
+      "role": "background",
+      "published_at": "2026-10-23T21:14:01Z",
+      "verified_at": "2026-10-24T14:06:46.027857+00:00"
+    },
+    {
+      "id": "local-ban",
+      "url": "https://pontotocnews.com/pontotoc-news/pontotoc-county-burn-ban-october-20-2026/",
+      "verification_url": "https://pontotocnews.com/pontotoc-news/pontotoc-county-burn-ban-october-20-2026/",
+      "title": "Related local coverage: Ecru’s Oct. 20 county burn-ban notice",
+      "publisher": "Pontotoc News",
+      "role": "background",
+      "published_at": null,
+      "verified_at": "2026-10-24T14:06:46.027857+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "NWS Memphis says elevated fire danger continues Saturday and has issued a Rangeland Fire Danger Statement for the Mid-South; its Saturday graphic highlights11am-7pm.",
+      "source_ids": [
+        "discussion",
+        "graphics"
+      ],
+      "evidence": "Full discussion FIREWEATHER section says statementissuedentireMidSouth;full1280x720graphicFireDangerToday,11AM-7PMSaturday,updatedSatOct241:04AM,mapcoversnorthMississippi. Do not describe asRedFlagWarning or local incident.",
+      "date_context": "SaturdayOctober24,2026 current hazard outlook. Sourcegraphic updatedSaturdayOct24 at1:04am and flags11AM-7PMSaturday; secondaryhumiditygraphicupdated3:01am. Official discussion issued2026-10-24T10:56Z,5:56amCDT. Pointforecast updated2026-10-24T11:15:55Z. This supersedes Fridayafternoon expected improvement; earlier article remains accurate to its stated Friday forecast timestamp.",
+      "locality": "Pontotoc and north Mississippi within National Weather Service Memphis regional fire-weather outlook. Humidity figures are regional forecast minima, not measured Pontotoc observations.",
+      "identities": "National Weather Service Memphis. Rangeland Fire Danger Statement, not a Red Flag Warning. No burn-ban cancellation or legal exemptions asserted.",
+      "statistics": "11am-7pmCDT SaturdayOct24 highlighted period."
+    },
+    {
+      "id": "f2",
+      "statement": "Regional minimum relative humidity is forecast25-30% Saturday afternoon with light winds and very dry fuels. NWS now expects elevated fire concerns to continue rather than ease.",
+      "source_ids": [
+        "discussion",
+        "prior-outlook"
+      ],
+      "evidence": "SaturdayfullAFD FIREWEATHER saysminimumRH25-30%,20ftwindslight,10hrfuelsaround10%. Fridayarticle explicitlyexpectedSaturdayRHabove30%easingdanger. Report attributesnewregionalforecast,doesnotpresentoldforecastascurrent.",
+      "date_context": "SaturdayOctober24,2026 current hazard outlook. Sourcegraphic updatedSaturdayOct24 at1:04am and flags11AM-7PMSaturday; secondaryhumiditygraphicupdated3:01am. Official discussion issued2026-10-24T10:56Z,5:56amCDT. Pointforecast updated2026-10-24T11:15:55Z. This supersedes Fridayafternoon expected improvement; earlier article remains accurate to its stated Friday forecast timestamp.",
+      "locality": "Pontotoc and north Mississippi within National Weather Service Memphis regional fire-weather outlook. Humidity figures are regional forecast minima, not measured Pontotoc observations.",
+      "identities": "National Weather Service Memphis. Rangeland Fire Danger Statement, not a Red Flag Warning. No burn-ban cancellation or legal exemptions asserted.",
+      "statistics": "Regional minimumrelativehumidity25-30% Saturdayafternoon;not local readings."
+    },
+    {
+      "id": "f3",
+      "statement": "NWS asks people to obey local burn bans, avoid flames/sparks, keep vehicles off dry grass and properly discard cigarettes/matches.",
+      "source_ids": [
+        "discussion",
+        "graphics"
+      ],
+      "evidence": "Fullthreegraphicsinspected. FireDangerToday listsavoidopenflamesorsparks,keepvehiclesoffdrygrass,properlydiscardcigarettes;AFD asksadhere localburnbans,properlydisposecigarettesmatches,avoid sparkingequipment.",
+      "date_context": "SaturdayOctober24,2026 current hazard outlook. Sourcegraphic updatedSaturdayOct24 at1:04am and flags11AM-7PMSaturday; secondaryhumiditygraphicupdated3:01am. Official discussion issued2026-10-24T10:56Z,5:56amCDT. Pointforecast updated2026-10-24T11:15:55Z. This supersedes Fridayafternoon expected improvement; earlier article remains accurate to its stated Friday forecast timestamp.",
+      "locality": "Pontotoc and north Mississippi within National Weather Service Memphis regional fire-weather outlook. Humidity figures are regional forecast minima, not measured Pontotoc observations.",
+      "identities": "National Weather Service Memphis. Rangeland Fire Danger Statement, not a Red Flag Warning. No burn-ban cancellation or legal exemptions asserted.",
+      "statistics": "None asserted"
+    },
+    {
+      "id": "f4",
+      "statement": "Current Pontotoc point forecast calls for sunshine Saturday high78,Sunday77;Saturdaynightmostlyclear low47.",
+      "source_ids": [
+        "point"
+      ],
+      "evidence": "FullpointforecastSaturdayToday78Sunny;Tonight47MostlyClear;Sunday77Sunny. Full current source read; exacttemperatureforecasts attributed,notmeasurements.",
+      "date_context": "SaturdayOctober24,2026 current hazard outlook. Sourcegraphic updatedSaturdayOct24 at1:04am and flags11AM-7PMSaturday; secondaryhumiditygraphicupdated3:01am. Official discussion issued2026-10-24T10:56Z,5:56amCDT. Pointforecast updated2026-10-24T11:15:55Z. This supersedes Fridayafternoon expected improvement; earlier article remains accurate to its stated Friday forecast timestamp.",
+      "locality": "Pontotoc and north Mississippi within National Weather Service Memphis regional fire-weather outlook. Humidity figures are regional forecast minima, not measured Pontotoc observations.",
+      "identities": "National Weather Service Memphis. Rangeland Fire Danger Statement, not a Red Flag Warning. No burn-ban cancellation or legal exemptions asserted.",
+      "statistics": "Forecast high78FSaturday,77FSunday,low47FSaturdaynight."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "North Mississippi remains under an elevated fire-weather outlook Saturday, with the National Weather Service’s Memphis office highlighting an 11 a.m. to 7 p.m. period of concern. The agency says dry vegetation and low afternoon humidity can allow grass fires to ignite and spread, and its morning discussion reports a Rangeland Fire Danger Statement for the Mid-South.",
+      "fact_ids": [
+        "f1",
+        "f3"
+      ]
+    },
+    {
+      "text": "The Saturday outlook changes the expectation of improvement described in Friday afternoon’s forecast. Forecasters now put the region’s minimum relative humidity at 25% to 30% Saturday afternoon, with winds staying light but fuels remaining dry. Those are regional forecast values, rather than humidity readings measured in Pontotoc.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "NWS urges residents to follow local burn bans, avoid open flames and sparks, keep vehicles off dry grass and properly dispose of cigarettes and matches. The agency’s full safety graphics are linked below, along with our earlier report on Ecru’s county burn-ban notice.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "The current Pontotoc point forecast still calls for a sunny weekend: a high near 78 Saturday, a mostly clear Saturday night with a low near 47, and a sunny Sunday with a high near 77. The dry, pleasant-looking forecast comes with the continuing fire concern.",
+      "fact_ids": [
+        "f4",
+        "f1"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/north-mississippi-fire-danger-october-24-2026.png",
+    "sha256": "6795ef9c1638df7efaa89e1765a7c17bc793fc7cb102231ca4c73c73da337bfe",
+    "alt_text": "Saturday Oct. 24 elevated fire danger, 11 a.m.–7 p.m.; NWS advises avoiding flames and sparks, keeping vehicles off dry grass and obeying local burn bans.",
+    "credit": "Pontotoc News original editorial graphic",
+    "rights": "owned",
+    "rights_reference": "Original opaque 1600x900 RGB typography drawn locally with Pillow and macOS Arial. Full primary-source graphics inspected as reporting evidence only. No source photos, logos or people reproduced."
+  },
+  "review": {
+    "reviewer": "Codex October24 morning editorial review",
+    "reviewed_at": "2026-10-24T14:06:46.027857+00:00",
+    "decision": "publish",
+    "checks": {
+      "coherent_prose": true,
+      "dates": true,
+      "identities": true,
+      "image_rights": true,
+      "locality": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "source_support": true,
+      "statistics": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s October24 morning delegation and recurring public-facts publishing authorization permit worthwhile distinct verified coverage after offline tests, editorial/image review and exhaustive authenticated dry-run reconciliation. No allegations, personal medical histories, source-gate weakening or unsupported factual expansion."
+  }
+}
