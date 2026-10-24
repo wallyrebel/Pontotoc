@@ -1,19 +1,19 @@
 {
-  "schema_version": 2,
-  "article_path": "reviewed/articles/pontotoc-market-band-send-off-october-24-2026.json",
-  "article_sha256": "409ad5eedb2f27b6fb2f4eed8f5cc86c261ca1ebceaa743cf85041a449f55ea2",
-  "mode": "publish",
-  "public_slug": "pontotoc-market-band-send-off-october-24-2026",
-  "seo_review": {
-    "reviewer": "Codex October24 morning editorial review",
-    "reviewed_at": "2026-10-24T14:06:46.027857+00:00",
-    "checks": {
-      "accurate_concise_description": true,
-      "canonical_and_source_links": true,
-      "descriptive_slug": true,
-      "meaningful_headline": true,
-      "no_keyword_stuffing": true,
-      "relevant_accessible_alt": true
+    "schema_version": 2,
+    "article_path": "reviewed/articles/pontotoc-market-band-send-off-october-24-2026.json",
+    "article_sha256": "409ad5eedb2f27b6fb2f4eed8f5cc86c261ca1ebceaa743cf85041a449f55ea2",
+    "mode": "publish",
+    "public_slug": "pontotoc-market-band-send-off-october-24-2026",
+    "seo_review": {
+        "reviewer": "Codex October24 morning editorial review",
+        "reviewed_at": "2026-10-24T14:06:46.027857+00:00",
+        "checks": {
+            "accurate_concise_description": true,
+            "canonical_and_source_links": true,
+            "descriptive_slug": true,
+            "meaningful_headline": true,
+            "no_keyword_stuffing": true,
+            "relevant_accessible_alt": true
+        }
     }
-  }
 }
