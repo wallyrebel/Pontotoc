@@ -1,0 +1,202 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc-football:2026-10-23:new-hope-final",
+    "ms:north-south-pontotoc-football:2026-10-23:final"
+  ],
+  "title": "Friday football: North Pontotoc wins 22–15; Pontotoc falls 35–28",
+  "excerpt": "North Pontotoc beat South Pontotoc 22–15 Friday, while Pontotoc lost 35–28 at New Hope after rallying to tie the game in the fourth quarter.",
+  "locality": "Pontotoc County high-school football: Pontotoc at New Hope in Columbus, Mississippi, and North Pontotoc versus South Pontotoc on FridayOctober23. No unrelated Pontotoc,Oklahoma teams.",
+  "sources": [
+    {
+      "id": "warrior-final",
+      "url": "https://www.facebook.com/1409956404473934/posts/1669037755232463",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7kh8MV2fT.rss",
+      "title": "Pontotoc Athletics: full final-score graphic, New Hope 35–28",
+      "publisher": "Pontotoc Athletics",
+      "role": "event",
+      "published_at": "2026-10-24T02:44:11Z",
+      "verified_at": "2026-10-24T14:06:46.027857+00:00"
+    },
+    {
+      "id": "third-quarter",
+      "url": "https://www.facebook.com/1409956404473934/posts/1668993348570237",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7kh8MV2fT.rss",
+      "title": "Pontotoc Athletics: third-quarter score update",
+      "publisher": "Pontotoc Athletics",
+      "role": "event",
+      "published_at": "2026-10-24T01:39:55Z",
+      "verified_at": "2026-10-24T14:06:46.027857+00:00"
+    },
+    {
+      "id": "fourth-quarter",
+      "url": "https://www.facebook.com/1409956404473934/posts/1669014785234760",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7kh8MV2fT.rss",
+      "title": "Pontotoc Athletics: 21–21 with 7:22 remaining",
+      "publisher": "Pontotoc Athletics",
+      "role": "event",
+      "published_at": "2026-10-24T02:09:02Z",
+      "verified_at": "2026-10-24T14:06:46.027857+00:00"
+    },
+    {
+      "id": "vikings-final",
+      "url": "https://www.facebook.com/1204361708550928/posts/1441572961496467",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7mX75E8w6.rss",
+      "title": "Town of Ecru: North Pontotoc’s 22–15 final",
+      "publisher": "Town of Ecru",
+      "role": "event",
+      "published_at": "2026-10-24T02:41:59Z",
+      "verified_at": "2026-10-24T14:06:46.027857+00:00"
+    },
+    {
+      "id": "county-score",
+      "url": "https://prepredzone.com/game/ms/south-pontotoc-vs-north-pontotoc-october-23-2026/",
+      "verification_url": "https://prepredzone.com/game/ms/south-pontotoc-vs-north-pontotoc-october-23-2026/",
+      "title": "Full Oct. 23 scoreboard: North Pontotoc 22, South Pontotoc 15",
+      "publisher": "Prep Redzone",
+      "role": "event",
+      "published_at": null,
+      "verified_at": "2026-10-24T14:06:46.027857+00:00"
+    },
+    {
+      "id": "schedule",
+      "url": "https://www.pontotocathletics.com/",
+      "verification_url": "https://www.pontotocathletics.com/",
+      "title": "Official Pontotoc Athletics schedule",
+      "publisher": "Pontotoc High School Athletics",
+      "role": "background",
+      "published_at": null,
+      "verified_at": "2026-10-24T14:06:46.027857+00:00"
+    },
+    {
+      "id": "preview",
+      "url": "https://pontotocnews.com/pontotoc-news/pontotoc-new-hope-football-october-23-2026/",
+      "verification_url": "https://pontotocnews.com/pontotoc-news/pontotoc-new-hope-football-october-23-2026/",
+      "title": "Earlier coverage: New Hope matchup and Oct. 30 senior night",
+      "publisher": "Pontotoc News",
+      "role": "background",
+      "published_at": null,
+      "verified_at": "2026-10-24T14:06:46.027857+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "New Hope defeated Pontotoc35-28 FridayOctober23;the finalgraphic listsPontotoc6-2.",
+      "source_ids": [
+        "warrior-final"
+      ],
+      "evidence": "Full720x720Athleticsgraphic inspected:FINAL,Pontotoc28,NewHope35,eachrecord6-2,NEXTWEEKVS COLUMBUS. OnlyPontotocrecordused. OfficialscheduleandoriginalpreviewcorroborateFridayOct23awayatNewHope.",
+      "date_context": "Games playedFridayOctober23,2026. Athleticsfinalpost2026-10-24T02:44:11Z isFriday9:44:11pmCDT;Townfinal2026-10-24T02:41:59Z isFriday9:41:59pmCDT. Report preparedSaturdayOctober24. Both results explicitlyfinal; in-gameupdatesneverusedasfinal.",
+      "locality": "Pontotoc County high-school football: Pontotoc at New Hope in Columbus, Mississippi, and North Pontotoc versus South Pontotoc on FridayOctober23. No unrelated Pontotoc,Oklahoma teams.",
+      "identities": "Pontotoc Warriors; New Hope Trojans; North Pontotoc Vikings; South Pontotoc Cougars. No players identified from photos; no unverified individual statistics, quotations or playoff implications.",
+      "statistics": "FinalNewHope35,Pontotoc28;Pontotocoverall6-2 per officialfinalgraphic."
+    },
+    {
+      "id": "f2",
+      "statement": "Pontotoc trailed21-0 in third quarter and tied21-21 with7:22left in fourth before final35-28.",
+      "source_ids": [
+        "third-quarter",
+        "fourth-quarter",
+        "warrior-final"
+      ],
+      "evidence": "Exact savedfeed5 originalupdates:thirdquarter4:38NewHope21Pontotoc0;fourth7:22Pontotoc21NewHope21 after50yardTDandtwo-pointconversion. Narrativeusesverifiedscoretrajectoryonly,not invented decisiveplay,finalscorerorindividualstatistics.",
+      "date_context": "Games playedFridayOctober23,2026. Athleticsfinalpost2026-10-24T02:44:11Z isFriday9:44:11pmCDT;Townfinal2026-10-24T02:41:59Z isFriday9:41:59pmCDT. Report preparedSaturdayOctober24. Both results explicitlyfinal; in-gameupdatesneverusedasfinal.",
+      "locality": "Pontotoc County high-school football: Pontotoc at New Hope in Columbus, Mississippi, and North Pontotoc versus South Pontotoc on FridayOctober23. No unrelated Pontotoc,Oklahoma teams.",
+      "identities": "Pontotoc Warriors; New Hope Trojans; North Pontotoc Vikings; South Pontotoc Cougars. No players identified from photos; no unverified individual statistics, quotations or playoff implications.",
+      "statistics": "Thirdquarter21-0;fourthquarter21-21with7:22remaining;final35-28."
+    },
+    {
+      "id": "f3",
+      "statement": "North Pontotoc beat South Pontotoc22-15 FridayOctober23.",
+      "source_ids": [
+        "vikings-final",
+        "county-score"
+      ],
+      "evidence": "TownofficialcaptionexplicitNorthPontotocfinal22-15,fullteamcelebrationphotoseen. Separateevent-specificPrepRedzonefullpage datedOctober23showsSouthPontotoc15,FINAL,NorthPontotoc22. NFHSoriginaleventpageindependentlycorroboratesOct23matchup. No quarter-by-quarter or records inferred.",
+      "date_context": "Games playedFridayOctober23,2026. Athleticsfinalpost2026-10-24T02:44:11Z isFriday9:44:11pmCDT;Townfinal2026-10-24T02:41:59Z isFriday9:41:59pmCDT. Report preparedSaturdayOctober24. Both results explicitlyfinal; in-gameupdatesneverusedasfinal.",
+      "locality": "Pontotoc County high-school football: Pontotoc at New Hope in Columbus, Mississippi, and North Pontotoc versus South Pontotoc on FridayOctober23. No unrelated Pontotoc,Oklahoma teams.",
+      "identities": "Pontotoc Warriors; New Hope Trojans; North Pontotoc Vikings; South Pontotoc Cougars. No players identified from photos; no unverified individual statistics, quotations or playoff implications.",
+      "statistics": "FinalNorthPontotoc22,SouthPontotoc15."
+    },
+    {
+      "id": "f4",
+      "statement": "Pontotoc’s official schedule lists Columbus at home FridayOctober30,7pm,SeniorNight.",
+      "source_ids": [
+        "schedule"
+      ],
+      "evidence": "Full officialathleticslandingpageschedule showsOct30FootballVarsityvsColumbus(SeniorNight)7pm. CurrentresultgraphicNEXTWEEKVSCOLUMBUS. No ceremonytime beyondgamekickoffgiven.",
+      "date_context": "Games playedFridayOctober23,2026. Athleticsfinalpost2026-10-24T02:44:11Z isFriday9:44:11pmCDT;Townfinal2026-10-24T02:41:59Z isFriday9:41:59pmCDT. Report preparedSaturdayOctober24. Both results explicitlyfinal; in-gameupdatesneverusedasfinal.",
+      "locality": "Pontotoc County high-school football: Pontotoc at New Hope in Columbus, Mississippi, and North Pontotoc versus South Pontotoc on FridayOctober23. No unrelated Pontotoc,Oklahoma teams.",
+      "identities": "Pontotoc Warriors; New Hope Trojans; North Pontotoc Vikings; South Pontotoc Cougars. No players identified from photos; no unverified individual statistics, quotations or playoff implications.",
+      "statistics": "October30,7pm game time."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "North Pontotoc came away with a 22–15 win over South Pontotoc on Friday, while Pontotoc’s trip to New Hope ended in a 35–28 loss. The final scores were confirmed in the Town of Ecru’s Vikings notice and Pontotoc Athletics’ Warriors graphic, with an event-specific scoreboard also listing the county rivalry result as final.",
+      "fact_ids": [
+        "f1",
+        "f3"
+      ]
+    },
+    {
+      "text": "Pontotoc erased a 21-point deficit before New Hope finished with the win. The Warriors trailed 21–0 during the third quarter, according to the school’s updates, then pulled even at 21–21 with 7:22 left in the fourth. The final graphic lists Pontotoc’s overall record at 6–2.",
+      "fact_ids": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "text": "In the county matchup, Ecru congratulated North Pontotoc on the 22–15 finish and shared a team celebration photograph. The separate Oct. 23 scoreboard identifies South Pontotoc as the opponent and marks the game final.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "Pontotoc next returns home to face Columbus on Friday, Oct. 30. The official athletics schedule lists a 7 p.m. kickoff and designates the game as senior night. Our earlier matchup and senior-night preview is linked below.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-county-football-results-october-23-2026.png",
+    "sha256": "5cdf7c25f207140fb2d98b3faf33c30cf9eb6b1a0c9a4e7b1fb6c1d61df1a459",
+    "alt_text": "Oct. 23 football finals: North Pontotoc 22, South Pontotoc 15; New Hope 35, Pontotoc 28.",
+    "credit": "Pontotoc News original editorial graphic",
+    "rights": "owned",
+    "rights_reference": "Original opaque 1600x900 RGB typography drawn locally with Pillow and macOS Arial. Full primary-source graphics inspected as reporting evidence only. No source photos, logos or people reproduced."
+  },
+  "review": {
+    "reviewer": "Codex October24 morning editorial review",
+    "reviewed_at": "2026-10-24T14:06:46.027857+00:00",
+    "decision": "publish",
+    "checks": {
+      "coherent_prose": true,
+      "dates": true,
+      "identities": true,
+      "image_rights": true,
+      "locality": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "source_support": true,
+      "statistics": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f3"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s October24 morning delegation and recurring public-facts publishing authorization permit worthwhile distinct verified coverage after offline tests, editorial/image review and exhaustive authenticated dry-run reconciliation. No allegations, personal medical histories, source-gate weakening or unsupported factual expansion."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-county-football-results-october-23-2026.json",
+  "article_sha256": "04530a479db8bd6f751521d9a39d854ad048bbfe9d78d29854fab5ea3eb4e32d",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-county-football-results-october-23-2026",
+  "seo_review": {
+    "reviewer": "Codex October24 morning editorial review",
+    "reviewed_at": "2026-10-24T14:06:46.027857+00:00",
+    "checks": {
+      "accurate_concise_description": true,
+      "canonical_and_source_links": true,
+      "descriptive_slug": true,
+      "meaningful_headline": true,
+      "no_keyword_stuffing": true,
+      "relevant_accessible_alt": true
+    }
+  }
+}
