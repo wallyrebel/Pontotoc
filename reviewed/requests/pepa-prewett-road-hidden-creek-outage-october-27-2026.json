@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pepa-prewett-road-hidden-creek-outage-october-27-2026.json",
   "article_sha256": "e7b0401af62bef64def0d12d587fa288ed98de6afa68cabab20f7e398bcd67fe",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pepa-prewett-road-hidden-creek-outage-october-27-2026",
   "seo_review": {
     "reviewer": "Codex October 25 afternoon editorial review",
