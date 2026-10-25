@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-christmas-parade-registration-december-2026.json",
   "article_sha256": "9b245820c4e260ee6b1c9310ffc7ee4418f1de2cae2eca0fdac312d43df15b21",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-christmas-parade-registration-december-2026",
   "seo_review": {
     "reviewer": "Codex October 25 morning editorial review",
