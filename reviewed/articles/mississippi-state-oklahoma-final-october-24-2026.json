@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:mississippi-state-oklahoma-football:2026-10-24:final"
+  ],
+  "title": "Statewide football: Mississippi State falls 23–15 to Oklahoma",
+  "excerpt": "Oklahoma beat Mississippi State 23–15 Saturday in Starkville. The Bulldogs’ late touchdown and two-point conversion cut the margin to eight.",
+  "locality": "Mississippi statewide college-football report. Mississippi State hosted Oklahoma at Davis Wade Stadium in Starkville; no Pontotoc game or local player connection asserted.",
+  "sources": [
+    {
+      "id": "recap",
+      "url": "https://hailstate.com/news/2026/10/24/football-game-day-state-vs-oklahoma",
+      "verification_url": "https://hailstate.com/news/2026/10/24/football-game-day-state-vs-oklahoma",
+      "title": "Mississippi State: full official Oklahoma game recap and scoring report",
+      "publisher": "Mississippi State University Athletics",
+      "role": "event",
+      "published_at": null,
+      "verified_at": "2026-10-25T00:29:49.974608+00:00"
+    },
+    {
+      "id": "game-center",
+      "url": "https://hailstate.com/game-center/27569",
+      "verification_url": "https://hailstate.com/game-center/27569",
+      "title": "Official Oct. 24 game center: final score and team statistics",
+      "publisher": "Mississippi State University Athletics",
+      "role": "event",
+      "published_at": null,
+      "verified_at": "2026-10-25T00:29:49.974608+00:00"
+    },
+    {
+      "id": "preview",
+      "url": "https://pontotocnews.com/pontotoc-news/mississippi-state-oklahoma-ole-miss-texas-october-24-2026/",
+      "verification_url": "https://pontotocnews.com/pontotoc-news/mississippi-state-oklahoma-ole-miss-texas-october-24-2026/",
+      "title": "Earlier coverage: Saturday college-football preview",
+      "publisher": "Pontotoc News",
+      "role": "background",
+      "published_at": "2026-10-22T14:37:33Z",
+      "verified_at": "2026-10-25T00:29:49.974608+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Oklahoma defeated Mississippi State23-15 SaturdayOct24 atDavisWadeStadium inStarkville;MSUfinished4-3overalland2-3inSECplay.",
+      "source_ids": [
+        "recap",
+        "game-center"
+      ],
+      "evidence": "Full official recap states final23-15,DavisWadeStadium; scoretable FINALandheaderMSU4-3,2-3. HomepagesportsresultsalsoexplicitFinal15vsOklahoma23. Official gamecenterquartertableOU3,7,10,3total23;MSU0,0,7,8total15. Not an in-progressscore.",
+      "date_context": "Saturday October24,2026 game,2:30pmCDT kickoff. Read after7:26pmCDT with official home page and recap explicitly FINAL. Official recap datedOctober24; exact publication hour not supplied, so source published_at null. Next gameOctober31,6:30pmCDT inAustin. No final or score asserted for ongoingOleMiss-Texas game.",
+      "locality": "Mississippi statewide college-football report. Mississippi State hosted Oklahoma at Davis Wade Stadium in Starkville; no Pontotoc game or local player connection asserted.",
+      "identities": "Mississippi State Bulldogs; Oklahoma Sooners; Sam West; Camden Capehart; Sanfrisco Magee; Texas Longhorns. Official recap says Billy Puckett while game-center leader table says Parker Puckett; quarterback name and individual passing totals are deliberately omitted pending resolution. No injury, private medical claims or inferred identities from photographs.",
+      "statistics": "FinalOklahoma23,MSU15;MSU4-3overall,2-3SEC."
+    },
+    {
+      "id": "f2",
+      "statement": "Oklahoma scored first17points;MSUcut17-0to17-7 on18-yardSamWesttouchdownpasstoCamdenCapehart inthirdquarter.",
+      "source_ids": [
+        "recap"
+      ],
+      "evidence": "Full dated officialreport:Oklahomascoredfirst17; third6:55 doublepassSamWesttoCamdenCapehart18yards,17-7. IntegratedscoringsummaryalsoCapehart,Camden18ydpassfromWest,Sam. No unverified quarterbackname, injurycontext or quotationused.",
+      "date_context": "Saturday October24,2026 game,2:30pmCDT kickoff. Read after7:26pmCDT with official home page and recap explicitly FINAL. Official recap datedOctober24; exact publication hour not supplied, so source published_at null. Next gameOctober31,6:30pmCDT inAustin. No final or score asserted for ongoingOleMiss-Texas game.",
+      "locality": "Mississippi statewide college-football report. Mississippi State hosted Oklahoma at Davis Wade Stadium in Starkville; no Pontotoc game or local player connection asserted.",
+      "identities": "Mississippi State Bulldogs; Oklahoma Sooners; Sam West; Camden Capehart; Sanfrisco Magee; Texas Longhorns. Official recap says Billy Puckett while game-center leader table says Parker Puckett; quarterback name and individual passing totals are deliberately omitted pending resolution. No injury, private medical claims or inferred identities from photographs.",
+      "statistics": "Opening17-0lead;18-yardTDpass;17-7thirdquarter."
+    },
+    {
+      "id": "f3",
+      "statement": "Oklahoma extendedleadto23-7;42-yardTDpasstoSanfriscoMagee with2:10leftandtwo-pointconversioncutfinalmargin23-15.",
+      "source_ids": [
+        "recap",
+        "game-center"
+      ],
+      "evidence": "Fullrecapfourth4:24OUfieldgoal23-7;2:10MSU42yardTDpasstoSanfriscoMagee,successful2pointconversionto15. Sourceconflictonthrowerfirstnamemeansnameomitted. FinalscoretablecorroboratesfourthMSU8points. No lateonsidekick,decisiveplayorclocksequencebeyondsourceinferred.",
+      "date_context": "Saturday October24,2026 game,2:30pmCDT kickoff. Read after7:26pmCDT with official home page and recap explicitly FINAL. Official recap datedOctober24; exact publication hour not supplied, so source published_at null. Next gameOctober31,6:30pmCDT inAustin. No final or score asserted for ongoingOleMiss-Texas game.",
+      "locality": "Mississippi statewide college-football report. Mississippi State hosted Oklahoma at Davis Wade Stadium in Starkville; no Pontotoc game or local player connection asserted.",
+      "identities": "Mississippi State Bulldogs; Oklahoma Sooners; Sam West; Camden Capehart; Sanfrisco Magee; Texas Longhorns. Official recap says Billy Puckett while game-center leader table says Parker Puckett; quarterback name and individual passing totals are deliberately omitted pending resolution. No injury, private medical claims or inferred identities from photographs.",
+      "statistics": "23-7lead;42-yardTDwith2:10remaining;two-pointconversion;final23-15."
+    },
+    {
+      "id": "f4",
+      "statement": "Oklahoma outgainedMississippiState467-352intotalyards;MSUnextplaysTexasOct31at6:30pminAustin.",
+      "source_ids": [
+        "recap",
+        "game-center"
+      ],
+      "evidence": "Both officialrecapteamstatstableandgamecenterplays-yardslistOU467,MSU352. RecapNextUpsection explicitlyMSUatTexasSaturdayOct31,6:30pmAustin. Source2026schedulewasusedaseventsourceinpriorpreview; not relabeledtoevadededupe andnotincludedinnewpackage. Newrecap/gamecenterareevent-specificfinalsources.",
+      "date_context": "Saturday October24,2026 game,2:30pmCDT kickoff. Read after7:26pmCDT with official home page and recap explicitly FINAL. Official recap datedOctober24; exact publication hour not supplied, so source published_at null. Next gameOctober31,6:30pmCDT inAustin. No final or score asserted for ongoingOleMiss-Texas game.",
+      "locality": "Mississippi statewide college-football report. Mississippi State hosted Oklahoma at Davis Wade Stadium in Starkville; no Pontotoc game or local player connection asserted.",
+      "identities": "Mississippi State Bulldogs; Oklahoma Sooners; Sam West; Camden Capehart; Sanfrisco Magee; Texas Longhorns. Official recap says Billy Puckett while game-center leader table says Parker Puckett; quarterback name and individual passing totals are deliberately omitted pending resolution. No injury, private medical claims or inferred identities from photographs.",
+      "statistics": "Totalyards467-352;Oct31,6:30pmCDTnextkickoff."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Mississippi State’s late push fell short Saturday as Oklahoma took a 23–15 win at Davis Wade Stadium in Starkville. The Bulldogs trailed 17–0 before getting on the board and finished the day 4–3 overall and 2–3 in Southeastern Conference play.",
+      "fact_ids": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "text": "State’s first touchdown came on an 18-yard pass from tight end Sam West to Camden Capehart in the third quarter, cutting the deficit to 17–7. Oklahoma answered with field goals that stretched its lead to 23–7.",
+      "fact_ids": [
+        "f2",
+        "f3"
+      ]
+    },
+    {
+      "text": "A 42-yard touchdown pass to Sanfrisco Magee with 2:10 left gave the Bulldogs another opening. A successful two-point conversion pulled State within eight points, but 23–15 proved to be the final margin.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "Oklahoma outgained Mississippi State 467–352 in total offense, according to the official team statistics. The Bulldogs next travel to Austin to face Texas on Saturday, Oct. 31, with kickoff scheduled for 6:30 p.m.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/mississippi-state-oklahoma-final-october-24-2026.png",
+    "sha256": "925add026affe2576a0ee51f771f14d6ecf26793d6fada052f5ca2a518a03687",
+    "alt_text": "Oct. 24 final in Starkville: Oklahoma 23, Mississippi State 15; Bulldogs 4–3 overall and 2–3 in SEC play.",
+    "credit": "Pontotoc News original editorial graphic",
+    "rights": "owned",
+    "rights_reference": "Original 1600x900 opaque RGB typography drawn locally with Pillow and macOS Arial. Official recap hero photo and complete score/stat tables inspected as evidence only. No school logos, source photos or likenesses reproduced; no injury/private health facts included."
+  },
+  "review": {
+    "reviewer": "Codex October24 nightly editorial review",
+    "reviewed_at": "2026-10-25T00:29:49.974608+00:00",
+    "decision": "publish",
+    "checks": {
+      "coherent_prose": true,
+      "dates": true,
+      "identities": true,
+      "image_rights": true,
+      "locality": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "source_support": true,
+      "statistics": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s October24 nightly delegation and recurring public-facts publishing authorization permit worthwhile distinct verified coverage after offline tests, editorial/image review and exhaustive authenticated dry-run reconciliation. No allegations, personal medical histories, source-gate weakening or unsupported factual expansion."
+  }
+}
