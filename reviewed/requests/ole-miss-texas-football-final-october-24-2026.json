@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/ole-miss-texas-football-final-october-24-2026.json",
+  "article_sha256": "4a286478fa5841b655afd800fcbf5c4215e8bd3b8fe59872e782fc11c2d03273",
+  "mode": "dry-run",
+  "public_slug": "ole-miss-texas-football-final-october-24-2026",
+  "seo_review": {
+    "reviewer": "Codex October 25 morning editorial review",
+    "reviewed_at": "2026-10-25T14:04:44.355667+00:00",
+    "checks": {
+      "accurate_concise_description": true,
+      "canonical_and_source_links": true,
+      "descriptive_slug": true,
+      "meaningful_headline": true,
+      "no_keyword_stuffing": true,
+      "relevant_accessible_alt": true
+    }
+  }
+}

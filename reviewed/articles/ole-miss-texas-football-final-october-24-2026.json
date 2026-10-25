@@ -1,0 +1,193 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:ole-miss-texas-football:2026-10-24:final"
+  ],
+  "title": "Statewide football: Ole Miss rally falls short in 34–27 loss at Texas",
+  "excerpt": "Ole Miss erased a 21-point halftime deficit before Texas won 34–27 in Austin. The Rebels host Auburn Oct. 31 at 11:45 a.m. CT.",
+  "locality": "Clearly labeled Mississippi statewide college football report: University of Mississippi at University of Texas in Austin. No Pontotoc game, local player connection, or local statistics asserted.",
+  "sources": [
+    {
+      "id": "recap",
+      "url": "https://olemisssports.com/news/2026/10/24/footballs-comeback-bid-falls-short-against-texas-34-27",
+      "verification_url": "https://olemisssports.com/news/2026/10/24/footballs-comeback-bid-falls-short-against-texas-34-27",
+      "title": "Ole Miss: full official Texas game recap",
+      "publisher": "University of Mississippi Athletics",
+      "role": "event",
+      "published_at": null,
+      "verified_at": "2026-10-25T14:04:44.355667+00:00"
+    },
+    {
+      "id": "box",
+      "url": "https://olemisssports.com/sports/football/stats/2026/texas/boxscore/14816",
+      "verification_url": "https://olemisssports.com/sports/football/stats/2026/texas/boxscore/14816",
+      "title": "Official Oct. 24 box score and scoring summary",
+      "publisher": "University of Mississippi Athletics",
+      "role": "event",
+      "published_at": null,
+      "verified_at": "2026-10-25T14:04:44.355667+00:00"
+    },
+    {
+      "id": "texas",
+      "url": "https://texaslonghorns.com/game-center/22500",
+      "verification_url": "https://texaslonghorns.com/game-center/22500",
+      "title": "Texas official game center: 34–27 final in Austin",
+      "publisher": "University of Texas Athletics",
+      "role": "event",
+      "published_at": null,
+      "verified_at": "2026-10-25T14:04:44.355667+00:00"
+    },
+    {
+      "id": "preview",
+      "url": "https://pontotocnews.com/pontotoc-news/mississippi-state-oklahoma-ole-miss-texas-october-24-2026/",
+      "verification_url": "https://pontotocnews.com/pontotoc-news/mississippi-state-oklahoma-ole-miss-texas-october-24-2026/",
+      "title": "Earlier coverage: Oct. 24 statewide college-football preview",
+      "publisher": "Pontotoc News",
+      "role": "background",
+      "published_at": "2026-10-22T14:37:33Z",
+      "verified_at": "2026-10-25T14:04:44.355667+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Texas beat OleMiss34-27 SaturdayOct24 in Austin; Rebels5-2overall3-2SEC.",
+      "source_ids": [
+        "recap",
+        "box",
+        "texas"
+      ],
+      "evidence": "Full official recap, full box score and both official game centers read. All mark final34-27. Quarter totals OleMiss3,0,14,10;Texas10,14,0,10. No rankings used because polls differ.",
+      "date_context": "Game played Saturday October24,2026 in Austin,Texas (America/Chicago). Official recap dated10/24/2026 has no exact publication time; published_at null. Read SundayOctober25 after final. Next game SaturdayOctober31 at11:45a.m.CT.",
+      "locality": "Clearly labeled Mississippi statewide college football report: University of Mississippi at University of Texas in Austin. No Pontotoc game, local player connection, or local statistics asserted.",
+      "identities": "University of Mississippi Rebels; University of Texas Longhorns. Trinidad Chambliss, Horatio Fields, Kam Franklin, Arch Manning and Lucas Carneiro verified against official recap and box score. No quotes used.",
+      "statistics": "Texas34,OleMiss27;OleMiss5-2overall,3-2SEC."
+    },
+    {
+      "id": "f2",
+      "statement": "OleMiss trailed24-3 at half; Franklin fumble recovery and Fields two touchdown catches tied24-24 with13:57left.",
+      "source_ids": [
+        "recap",
+        "box"
+      ],
+      "evidence": "Official recap third/fourth-quarter account and box scoring: Franklin recovery TD; Fields6yard then27yard catches fromChambliss; tie13:57fourth. No unverified quote or inferred play.",
+      "date_context": "Game played Saturday October24,2026 in Austin,Texas (America/Chicago). Official recap dated10/24/2026 has no exact publication time; published_at null. Read SundayOctober25 after final. Next game SaturdayOctober31 at11:45a.m.CT.",
+      "locality": "Clearly labeled Mississippi statewide college football report: University of Mississippi at University of Texas in Austin. No Pontotoc game, local player connection, or local statistics asserted.",
+      "identities": "University of Mississippi Rebels; University of Texas Longhorns. Trinidad Chambliss, Horatio Fields, Kam Franklin, Arch Manning and Lucas Carneiro verified against official recap and box score. No quotes used.",
+      "statistics": "Halftime24-3;tie24-24;Fields6and27yardTDs."
+    },
+    {
+      "id": "f3",
+      "statement": "Texas took31-24lead on Manning run then34-24on fieldgoal; Carneiro lateFGcut34-27;OleMiss recoveredonsidekick but finalpassintercepted.",
+      "source_ids": [
+        "recap",
+        "box"
+      ],
+      "evidence": "Recap and scoring confirm sequence. Recap calls finalFG40yards,box39yards:distance omitted. Recap with8minutes Manningrun; do not invent precise time. Lastpassintercepted afterfinaldrive.",
+      "date_context": "Game played Saturday October24,2026 in Austin,Texas (America/Chicago). Official recap dated10/24/2026 has no exact publication time; published_at null. Read SundayOctober25 after final. Next game SaturdayOctober31 at11:45a.m.CT.",
+      "locality": "Clearly labeled Mississippi statewide college football report: University of Mississippi at University of Texas in Austin. No Pontotoc game, local player connection, or local statistics asserted.",
+      "identities": "University of Mississippi Rebels; University of Texas Longhorns. Trinidad Chambliss, Horatio Fields, Kam Franklin, Arch Manning and Lucas Carneiro verified against official recap and box score. No quotes used.",
+      "statistics": "31-24then34-24then34-27;no disputedfieldgoaldistanceused."
+    },
+    {
+      "id": "f4",
+      "statement": "Chambliss25of52for250yards2TD3INT;Fields2receivingTD;Franklin defensiveTD.",
+      "source_ids": [
+        "recap",
+        "box"
+      ],
+      "evidence": "Fullbox andrecap passingline25of52,250yards,2TD,3INT. Fields6/27yardTDscorroborated. UsepassinglineandFields touchdowns;no unrelatedindividualclaims.",
+      "date_context": "Game played Saturday October24,2026 in Austin,Texas (America/Chicago). Official recap dated10/24/2026 has no exact publication time; published_at null. Read SundayOctober25 after final. Next game SaturdayOctober31 at11:45a.m.CT.",
+      "locality": "Clearly labeled Mississippi statewide college football report: University of Mississippi at University of Texas in Austin. No Pontotoc game, local player connection, or local statistics asserted.",
+      "identities": "University of Mississippi Rebels; University of Texas Longhorns. Trinidad Chambliss, Horatio Fields, Kam Franklin, Arch Manning and Lucas Carneiro verified against official recap and box score. No quotes used.",
+      "statistics": "25/52,250yards,2TD,3INT;Fields2TDcatches."
+    },
+    {
+      "id": "f5",
+      "statement": "OleMiss hostsAuburnSaturdayOct31 at11:45amCTinVaughtHemingwayStadium.",
+      "source_ids": [
+        "recap"
+      ],
+      "evidence": "FullrecapNextUp andofficialOleMissgamecenterNextGameagreeOct31vsAuburn11:45amCTatVaughtHemingway. Previewlinkedforcontinuityonly;newfinalissupportedbynewfinalsources.",
+      "date_context": "Game played Saturday October24,2026 in Austin,Texas (America/Chicago). Official recap dated10/24/2026 has no exact publication time; published_at null. Read SundayOctober25 after final. Next game SaturdayOctober31 at11:45a.m.CT.",
+      "locality": "Clearly labeled Mississippi statewide college football report: University of Mississippi at University of Texas in Austin. No Pontotoc game, local player connection, or local statistics asserted.",
+      "identities": "University of Mississippi Rebels; University of Texas Longhorns. Trinidad Chambliss, Horatio Fields, Kam Franklin, Arch Manning and Lucas Carneiro verified against official recap and box score. No quotes used.",
+      "statistics": "Oct31,11:45a.m.CT;no inventedTVlisting."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Ole Miss wiped out a 21-point halftime deficit but could not finish the comeback Saturday, losing 34–27 to Texas in Austin. The Rebels tied the game early in the fourth quarter before the Longhorns regained the lead, leaving Ole Miss at 5–2 overall and 3–2 in Southeastern Conference play.",
+      "fact_ids": [
+        "f1",
+        "f2",
+        "f3"
+      ]
+    },
+    {
+      "text": "Down 24–3 at the break, Ole Miss scored twice in the third quarter to get back within a touchdown. Kam Franklin recovered a fumble for a defensive score, and Trinidad Chambliss connected with Horatio Fields on a 6-yard touchdown pass. Their second scoring connection, from 27 yards, made it 24–24 with 13:57 remaining.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Texas answered with an Arch Manning touchdown run and a field goal to build a 34–24 advantage. Lucas Carneiro’s late field goal brought Ole Miss within seven, and the Rebels recovered the ensuing onside kick for another possession. The final drive reached Texas territory before an interception ended the comeback attempt.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "Chambliss completed 25 of 52 passes for 250 yards and two touchdowns, with three interceptions, according to the official box score. Fields caught both touchdown passes. The final scoring summary shows Ole Miss outscored Texas 24–10 in the second half, after the Longhorns’ 24–3 first half.",
+      "fact_ids": [
+        "f1",
+        "f2",
+        "f4"
+      ]
+    },
+    {
+      "text": "The Rebels return to Oxford to host Auburn on Saturday, Oct. 31, with kickoff set for 11:45 a.m. Central at Vaught-Hemingway Stadium. Our earlier statewide preview is linked below alongside the official recap and game records.",
+      "fact_ids": [
+        "f5"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/ole-miss-texas-football-final-october-24-2026.png",
+    "sha256": "1468cb7d0d969a7b5296e965090a27a968ce3e1edf28e8810fc5ad55ae459149",
+    "alt_text": "Final-score graphic showing Texas 34 and Ole Miss 27, with the Rebels’ Oct. 31 home game against Auburn.",
+    "credit": "Pontotoc News original editorial graphic",
+    "rights": "owned",
+    "rights_reference": "Original 1600×900 opaque RGB typography and geometric rules drawn locally with Pillow and macOS Arial. No source photographs, graphics, logos or people reproduced. Source pixels inspected as evidence only."
+  },
+  "review": {
+    "reviewer": "Codex October 25 morning editorial review",
+    "reviewed_at": "2026-10-25T14:04:44.355667+00:00",
+    "decision": "publish",
+    "checks": {
+      "coherent_prose": true,
+      "dates": true,
+      "identities": true,
+      "image_rights": true,
+      "locality": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "source_support": true,
+      "statistics": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f5"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s October 25 morning publishing delegation and recurring daily authorization permit distinct useful verified local reporting and labeled statewide fallback, after offline checks, authenticated all-status dry-run, and editorial/image review. Existing posts and routes remain separate."
+  }
+}
