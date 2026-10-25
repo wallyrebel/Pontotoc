@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/mississippi-state-oklahoma-final-october-24-2026.json",
   "article_sha256": "9d7627bc56fb90696c204fc278435e6bcd2269078e8d0689ca500a742c1ca0c9",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "mississippi-state-oklahoma-final-october-24-2026",
   "seo_review": {
     "reviewer": "Codex October24 nightly editorial review",
