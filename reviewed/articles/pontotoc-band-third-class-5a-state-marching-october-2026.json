@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc-high-band:2026-10-24:class-5a-state-marching-final"
+  ],
+  "title": "Pontotoc band places third in Class 5A state marching championship",
+  "excerpt": "Pontotoc scored 80.850 at the Oct. 24 Class 5A state marching championship in Brandon, with second-place visual performance and color guard finishes.",
+  "locality": "Pontotoc High School Warrior Band, Pontotoc City School District, Mississippi. Class5A MHSAA/MBA state marching competition at Brandon,Mississippi. Not North/South Pontotoc Class4A or an out-of-state Pontotoc band.",
+  "sources": [
+    {
+      "id": "school",
+      "url": "https://www.facebook.com/1409956404473934/posts/1670156678453904",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7kh8MV2fT.rss",
+      "title": "Pontotoc Athletics shares the Warrior Band’s full state-results graphic",
+      "publisher": "Pontotoc Athletics / Pontotoc Warrior Bands",
+      "role": "event",
+      "published_at": "2026-10-25T04:34:36Z",
+      "verified_at": "2026-10-25T21:01:30.043389+00:00"
+    },
+    {
+      "id": "recap",
+      "url": "https://recaps.competitionsuite.com/55651aa8-3bfc-4cc5-b72d-47dba8094792.htm",
+      "verification_url": "https://recaps.competitionsuite.com/55651aa8-3bfc-4cc5-b72d-47dba8094792.htm",
+      "title": "Official 2026 MHSAA/MBA Class 5A championship scoring recap",
+      "publisher": "MHSAA/MBA official CompetitionSuite recap",
+      "role": "event",
+      "published_at": null,
+      "verified_at": "2026-10-25T21:01:30.043389+00:00"
+    },
+    {
+      "id": "sendoff",
+      "url": "https://pontotocnews.com/pontotoc-news/pontotoc-market-band-send-off-october-24-2026/",
+      "verification_url": "https://pontotocnews.com/pontotoc-news/pontotoc-market-band-send-off-october-24-2026/",
+      "title": "Earlier coverage: Saturday’s Pontotoc band send-off",
+      "publisher": "Pontotoc News",
+      "role": "background",
+      "published_at": "2026-10-24T14:15:16Z",
+      "verified_at": "2026-10-25T21:01:30.043389+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc finished third among seven Class 5A bands with 80.850 points at the October 24, 2026 state marching championship in Brandon, Mississippi.",
+      "source_ids": [
+        "school",
+        "recap"
+      ],
+      "evidence": "The complete 720×720 school results graphic shows Class 5A, third-place band, and Brandon High School in Brandon, Mississippi. The full official CompetitionSuite recap and its linked one-page PDF were read and visually inspected. The recap header dates the event October 24; the Pontotoc total is 80.850, ranked third, with seven bands listed.",
+      "date_context": "The official recap header identifies Saturday, October 24, 2026, in Brandon. The Athletics share was posted October 25 at 04:34:36 UTC, which was October 24 at 11:34:36 p.m. CDT. It surfaced in the saved feed after the morning scan; the contest is not misdated to Sunday.",
+      "locality": "Pontotoc High School Warrior Band, Pontotoc City School District, Mississippi. Class5A MHSAA/MBA state marching competition at Brandon,Mississippi. Not North/South Pontotoc Class4A or an out-of-state Pontotoc band.",
+      "identities": "Pontotoc High School Warrior Band, South Jones High School and Stone High School. Class 5A results; North and South Pontotoc compete in a different class. No students identified from photographs.",
+      "statistics": "Third ofseveninClass5A;total80.850."
+    },
+    {
+      "id": "f2",
+      "statement": "Pontotoc placed second in visual performance and color guard, fourth in general effect and percussion, and fifth in music performance.",
+      "source_ids": [
+        "school",
+        "recap"
+      ],
+      "evidence": "The source graphic and official total columns agree: general effect 24.375, rank 4; music performance 31.675, rank 5; visual performance 24.80, rank 2; color guard 83.00, rank 2; percussion 79.00, rank 4. Individual judge/subcaption ranks were not confused with category totals.",
+      "date_context": "The official recap header identifies Saturday, October 24, 2026, in Brandon. The Athletics share was posted October 25 at 04:34:36 UTC, which was October 24 at 11:34:36 p.m. CDT. It surfaced in the saved feed after the morning scan; the contest is not misdated to Sunday.",
+      "locality": "Pontotoc High School Warrior Band, Pontotoc City School District, Mississippi. Class5A MHSAA/MBA state marching competition at Brandon,Mississippi. Not North/South Pontotoc Class4A or an out-of-state Pontotoc band.",
+      "identities": "Pontotoc High School Warrior Band, South Jones High School and Stone High School. Class 5A results; North and South Pontotoc compete in a different class. No students identified from photographs.",
+      "statistics": "Categoryranksvisual2,guard2,generaleffect4,percussion4,music5;only ranksusedinprose."
+    },
+    {
+      "id": "f3",
+      "statement": "South Jones won Class 5A with 88.725 points; Stone placed second with 83.325. The final order was South Jones, Stone, Pontotoc, Florence, Purvis, Caledonia and Northeast Jones.",
+      "source_ids": [
+        "recap"
+      ],
+      "evidence": "The official recap lists South Jones 88.725 (first), Stone 83.325 (second), Pontotoc 80.850 (third), Florence 79.775, Purvis 79.600, Caledonia 78.650 and Northeast Jones 75.100. All belong to the same October 24 Class 5A round.",
+      "date_context": "The official recap header identifies Saturday, October 24, 2026, in Brandon. The Athletics share was posted October 25 at 04:34:36 UTC, which was October 24 at 11:34:36 p.m. CDT. It surfaced in the saved feed after the morning scan; the contest is not misdated to Sunday.",
+      "locality": "Pontotoc High School Warrior Band, Pontotoc City School District, Mississippi. Class5A MHSAA/MBA state marching competition at Brandon,Mississippi. Not North/South Pontotoc Class4A or an out-of-state Pontotoc band.",
+      "identities": "Pontotoc High School Warrior Band, South Jones High School and Stone High School. Class 5A results; North and South Pontotoc compete in a different class. No students identified from photographs.",
+      "statistics": "SouthJones88.725;Stone83.325."
+    },
+    {
+      "id": "f4",
+      "statement": "The band said the championship ended the competitive portion of its season. Earlier Pontotoc News coverage previewed a Saturday community send-off; no attendance or ceremony outcome is asserted.",
+      "source_ids": [
+        "school",
+        "sendoff"
+      ],
+      "evidence": "The full original Facebook share visibly attributes the end-of-competitive-season statement to Pontotoc Warrior Bands. The earlier reviewed local article previewed a Saturday 1 p.m. send-off. The new prose references that preview without claiming verified attendance or ceremony results.",
+      "date_context": "The official recap header identifies Saturday, October 24, 2026, in Brandon. The Athletics share was posted October 25 at 04:34:36 UTC, which was October 24 at 11:34:36 p.m. CDT. It surfaced in the saved feed after the morning scan; the contest is not misdated to Sunday.",
+      "locality": "Pontotoc High School Warrior Band, Pontotoc City School District, Mississippi. Class5A MHSAA/MBA state marching competition at Brandon,Mississippi. Not North/South Pontotoc Class4A or an out-of-state Pontotoc band.",
+      "identities": "Pontotoc High School Warrior Band, South Jones High School and Stone High School. Class 5A results; North and South Pontotoc compete in a different class. No students identified from photographs.",
+      "statistics": "No newcountsorunverifiedseasonhistoryasserted."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc High School’s Warrior Band finished third in Class 5A at the MHSAA/MBA State Marching Championships on Saturday, Oct. 24, in Brandon. The official scoring recap lists Pontotoc with 80.850 points among seven bands in the class.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "Visual performance and color guard were Pontotoc’s highest category finishes, both second place. The band also placed fourth in general effect, fourth in percussion and fifth in music performance, according to the school’s results graphic and the official recap.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "South Jones won the Class 5A competition with 88.725 points, followed by Stone at 83.325. Pontotoc’s third-place total put it ahead of Florence, Purvis, Caledonia and Northeast Jones in the same championship round.",
+      "fact_ids": [
+        "f1",
+        "f3"
+      ]
+    },
+    {
+      "text": "In its announcement shared by Pontotoc Athletics late Saturday, the Warrior Band said the championship brought the competitive portion of its season to a close. Our earlier preview of Saturday’s community send-off is linked below, along with the results graphic and official scoring recap.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-band-third-class-5a-state-marching-october-2026.png",
+    "sha256": "94f5dd7e5dc4887497637e328662bb40e05b1cb0dfe585447190d1d93afbd6e8",
+    "alt_text": "Pontotoc Warrior Band results graphic: third in Class 5A, second in visual performance and color guard, Oct. 24 in Brandon.",
+    "credit": "Pontotoc News original editorial graphic",
+    "rights": "owned",
+    "rights_reference": "Original 1600×900 opaque RGB typography and geometric rules drawn locally with Pillow and macOS Arial. No source photographs, graphics, logos or people reproduced. Source pixels inspected as evidence only."
+  },
+  "review": {
+    "reviewer": "Codex October 25 afternoon editorial review",
+    "reviewed_at": "2026-10-25T21:01:30.043389+00:00",
+    "decision": "publish",
+    "checks": {
+      "coherent_prose": true,
+      "dates": true,
+      "identities": true,
+      "image_rights": true,
+      "locality": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "source_support": true,
+      "statistics": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s October 25 afternoon publishing delegation and recurring daily authorization permit distinct useful verified local reporting and labeled statewide fallback, after offline checks, authenticated all-status dry-run, and editorial/image review. Existing posts and routes remain separate."
+  }
+}

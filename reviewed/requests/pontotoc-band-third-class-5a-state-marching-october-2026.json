@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-band-third-class-5a-state-marching-october-2026.json",
+  "article_sha256": "57d5693652863eea946f297619ee5d7c781d7e34fe2a3921c714aa9366d25ac7",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-band-third-class-5a-state-marching-october-2026",
+  "seo_review": {
+    "reviewer": "Codex October 25 afternoon editorial review",
+    "reviewed_at": "2026-10-25T21:01:30.043389+00:00",
+    "checks": {
+      "accurate_concise_description": true,
+      "canonical_and_source_links": true,
+      "descriptive_slug": true,
+      "meaningful_headline": true,
+      "no_keyword_stuffing": true,
+      "relevant_accessible_alt": true
+    }
+  }
+}
