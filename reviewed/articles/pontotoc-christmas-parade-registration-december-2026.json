@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:2026-12-07:christmas-parade-registration"
+  ],
+  "title": "Pontotoc Christmas parade entries open for Dec. 7; deadline Nov. 23",
+  "excerpt": "Pontotoc’s Dec. 7 Christmas parade has online and paper registration. Entries are due Nov. 23; organizers’ forms differ on start time and route.",
+  "locality": "Pontotoc, Mississippi: annual downtown Christmas parade organized by Pontotoc County Chamber Main Street. No Ecru, Thaxton or out-of-state parade substituted.",
+  "sources": [
+    {
+      "id": "notice",
+      "url": "https://www.facebook.com/1162843435852264/posts/1744221397714462",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7lo1260by.rss",
+      "title": "Chamber announcement and three parade registration graphics",
+      "publisher": "Pontotoc County Chamber Main Street",
+      "role": "event",
+      "published_at": "2026-10-19T18:32:56Z",
+      "verified_at": "2026-10-25T14:04:44.355667+00:00"
+    },
+    {
+      "id": "form",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSclrEv21ZMhjYsQcMR2TjE0toBm8sE3tgzAou4neXAXM0nW9Q/viewform",
+      "verification_url": "https://docs.google.com/forms/d/e/1FAIpQLSclrEv21ZMhjYsQcMR2TjE0toBm8sE3tgzAou4neXAXM0nW9Q/viewform",
+      "title": "Official online Christmas parade registration and rules",
+      "publisher": "Pontotoc County Chamber Main Street",
+      "role": "event",
+      "published_at": null,
+      "verified_at": "2026-10-25T14:04:44.355667+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Registration is available for the Monday December 7, 2026 parade, themed A Very Merry Christmas; entries due November 23.",
+      "source_ids": [
+        "notice",
+        "form"
+      ],
+      "evidence": "Full Chamber caption, 720×900 parade poster, 720×900 blank registration form and 720×900 rules graphic visually inspected. Caption and poster give Dec 7 2026/theme; paper form deadline noon Monday Nov23; online form Nov23.",
+      "date_context": "Chamber notice posted October 19, 2026 at 18:32:56 UTC (1:32 p.m. CDT); verified October 25. Parade Monday December 7, 2026; deadline Monday November 23. Conflicting start times and route descriptions explicitly disclosed; neither selected as confirmed.",
+      "locality": "Pontotoc, Mississippi: annual downtown Christmas parade organized by Pontotoc County Chamber Main Street. No Ecru, Thaxton or out-of-state parade substituted.",
+      "identities": "Pontotoc County Chamber Main Street is organizer; public business contact 662-489-5042, chamber@pontotocchamber.com and office 109 N. Main Street. No private contact details.",
+      "statistics": "December7 parade; November23 deadline. Noon is stated on paper form only."
+    },
+    {
+      "id": "f2",
+      "statement": "New online registration supplements paper entry; Chamber provides public office, phone and email.",
+      "source_ids": [
+        "notice",
+        "form"
+      ],
+      "evidence": "Full caption explicitly introduces online option and retains printed forms. Linked Google Form loads HTTP200, displays full questions and rules, with no submission made. Office109NMain,6624895042,chamber@pontotocchamber.com displayed.",
+      "date_context": "Chamber notice posted October 19, 2026 at 18:32:56 UTC (1:32 p.m. CDT); verified October 25. Parade Monday December 7, 2026; deadline Monday November 23. Conflicting start times and route descriptions explicitly disclosed; neither selected as confirmed.",
+      "locality": "Pontotoc, Mississippi: annual downtown Christmas parade organized by Pontotoc County Chamber Main Street. No Ecru, Thaxton or out-of-state parade substituted.",
+      "identities": "Pontotoc County Chamber Main Street is organizer; public business contact 662-489-5042, chamber@pontotocchamber.com and office 109 N. Main Street. No private contact details.",
+      "statistics": "No current registration total or capacity asserted."
+    },
+    {
+      "id": "f3",
+      "statement": "Rules list $25 per float, walking group or car club, and $10 per horse, by November23.",
+      "source_ids": [
+        "notice",
+        "form"
+      ],
+      "evidence": "Full rules graphic item13 and full online rules agree on listed charges. Do not extend fees to every vehicle or band; school affiliate listed in payment options but no exemption inferred.",
+      "date_context": "Chamber notice posted October 19, 2026 at 18:32:56 UTC (1:32 p.m. CDT); verified October 25. Parade Monday December 7, 2026; deadline Monday November 23. Conflicting start times and route descriptions explicitly disclosed; neither selected as confirmed.",
+      "locality": "Pontotoc, Mississippi: annual downtown Christmas parade organized by Pontotoc County Chamber Main Street. No Ecru, Thaxton or out-of-state parade substituted.",
+      "identities": "Pontotoc County Chamber Main Street is organizer; public business contact 662-489-5042, chamber@pontotocchamber.com and office 109 N. Main Street. No private contact details.",
+      "statistics": "$25 per listed float/group/car club; $10 per horse."
+    },
+    {
+      "id": "f4",
+      "statement": "Entry rules require lights on floats, forbid throwing candy, request one descriptive sentence and reserve Santa to organizer.",
+      "source_ids": [
+        "notice",
+        "form"
+      ],
+      "evidence": "Paper entry form lights required. Rules items1,4,5,12 and full online form corroborate specific restrictions and one-sentence announcer information. Only brief rule paraphrases used.",
+      "date_context": "Chamber notice posted October 19, 2026 at 18:32:56 UTC (1:32 p.m. CDT); verified October 25. Parade Monday December 7, 2026; deadline Monday November 23. Conflicting start times and route descriptions explicitly disclosed; neither selected as confirmed.",
+      "locality": "Pontotoc, Mississippi: annual downtown Christmas parade organized by Pontotoc County Chamber Main Street. No Ecru, Thaxton or out-of-state parade substituted.",
+      "identities": "Pontotoc County Chamber Main Street is organizer; public business contact 662-489-5042, chamber@pontotocchamber.com and office 109 N. Main Street. No private contact details.",
+      "statistics": "One sentence; no invented safety or legal claims."
+    },
+    {
+      "id": "f5",
+      "statement": "Paper form lists5:30pm while online header lists6:30pm; route descriptions differ, so entrants should confirm with Chamber.",
+      "source_ids": [
+        "notice",
+        "form"
+      ],
+      "evidence": "Full paper image reads5:30p.m. downtown Pontotoc and route beginning WMarion. Online header reads6:30pm and rules route begins SCollege. Both give lineup at FirstChoiceGatewayPavilion. No time or route silently resolved.",
+      "date_context": "Chamber notice posted October 19, 2026 at 18:32:56 UTC (1:32 p.m. CDT); verified October 25. Parade Monday December 7, 2026; deadline Monday November 23. Conflicting start times and route descriptions explicitly disclosed; neither selected as confirmed.",
+      "locality": "Pontotoc, Mississippi: annual downtown Christmas parade organized by Pontotoc County Chamber Main Street. No Ecru, Thaxton or out-of-state parade substituted.",
+      "identities": "Pontotoc County Chamber Main Street is organizer; public business contact 662-489-5042, chamber@pontotocchamber.com and office 109 N. Main Street. No private contact details.",
+      "statistics": "5:30p.m.paper versus6:30p.m.online; not two confirmed events."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Registration is open for Pontotoc’s annual Christmas parade on Monday, Dec. 7, with entries due Nov. 23. The Pontotoc County Chamber Main Street announcement names “A Very Merry Christmas” as this year’s theme and adds an online entry option alongside the paper form.",
+      "fact_ids": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "text": "Participants can use the Chamber’s linked Google registration form or return printed paperwork to the Chamber. The online form asks for an entry type and contact information, along with a sentence describing the entry for the announcer. The Chamber lists its office at 109 N. Main Street in Pontotoc.",
+      "fact_ids": [
+        "f2",
+        "f4"
+      ]
+    },
+    {
+      "text": "The published rules set entry charges at $25 per float, walking group or car club, and $10 per horse, payable by Nov. 23. The printable form specifies a noon deadline that Monday. Entrants with questions about how their group fits the listed categories should check with the Chamber before submitting.",
+      "fact_ids": [
+        "f1",
+        "f2",
+        "f3"
+      ]
+    },
+    {
+      "text": "Floats must have lights and reflect the parade theme. The rules prohibit throwing candy or other food and ask entrants to leave the Santa role to the organizers. Those requirements appear in the registration materials, which participants should read before signing up.",
+      "fact_ids": [
+        "f4"
+      ]
+    },
+    {
+      "text": "The paperwork contains details that need clarification: the printable form lists a 5:30 p.m. parade time, while the online form’s heading says 6:30 p.m., and their route descriptions differ. Entrants should confirm the start time and route with the Chamber at 662-489-5042 or chamber@pontotocchamber.com. Both registration sources are linked below.",
+      "fact_ids": [
+        "f2",
+        "f5"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-christmas-parade-registration-december-2026.png",
+    "sha256": "94a3679f39f4e81da29614abfb4305694f96e29555dee4fdc30c5ec1c1941773",
+    "alt_text": "Pontotoc Christmas parade registration graphic: Dec. 7 parade, Nov. 23 entry deadline, A Very Merry Christmas theme.",
+    "credit": "Pontotoc News original editorial graphic",
+    "rights": "owned",
+    "rights_reference": "Original 1600×900 opaque RGB typography and geometric rules drawn locally with Pillow and macOS Arial. No source photographs, graphics, logos or people reproduced. Source pixels inspected as evidence only."
+  },
+  "review": {
+    "reviewer": "Codex October 25 morning editorial review",
+    "reviewed_at": "2026-10-25T14:04:44.355667+00:00",
+    "decision": "publish",
+    "checks": {
+      "coherent_prose": true,
+      "dates": true,
+      "identities": true,
+      "image_rights": true,
+      "locality": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "source_support": true,
+      "statistics": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f5"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s October 25 morning publishing delegation and recurring daily authorization permit distinct useful verified local reporting and labeled statewide fallback, after offline checks, authenticated all-status dry-run, and editorial/image review. Existing posts and routes remain separate."
+  }
+}
