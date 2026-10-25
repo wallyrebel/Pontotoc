@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:pepa:2026-10-27:prewett-hidden-creek-planned-outage"
+  ],
+  "title": "PEPA plans Oct. 27 outage for Prewett Road and Hidden Creek",
+  "excerpt": "PEPA says a planned outage will affect Prewett Road and Hidden Creek Tuesday, Oct. 27, from 8:30 to 11:30 a.m.",
+  "locality": "Pontotoc Electric Power Association service notice naming Prewett Road and Hidden Creek in the Pontotoc, Mississippi service area. No wider county outage, street boundaries, household identities or exact customer count asserted.",
+  "sources": [
+    {
+      "id": "notice",
+      "url": "https://www.facebook.com/1527354935929168/posts/1806417844689541",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7nECOb1qN.rss",
+      "title": "PEPA’s Oct. 27 planned-outage notice",
+      "publisher": "Pontotoc Electric Power Association",
+      "role": "event",
+      "published_at": "2026-10-25T14:36:03Z",
+      "verified_at": "2026-10-25T21:01:30.043389+00:00"
+    },
+    {
+      "id": "earlier-pepa",
+      "url": "https://pontotocnews.com/pontotoc-news/pepa-fema-electrical-repair-award-october-2026/",
+      "verification_url": "https://pontotocnews.com/pontotoc-news/pepa-fema-electrical-repair-award-october-2026/",
+      "title": "Related PEPA coverage: separate FEMA electrical-repair funding announcement",
+      "publisher": "Pontotoc News",
+      "role": "background",
+      "published_at": "2026-10-22T21:18:33Z",
+      "verified_at": "2026-10-25T21:01:30.043389+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "PEPA scheduled an outage affecting Prewett Road and Hidden Creek on Tuesday, October 27, from 8:30 to 11:30 a.m.",
+      "source_ids": [
+        "notice"
+      ],
+      "evidence": "The full saved-feed 8 notice and original Facebook post were read in Chrome after dismissing the login prompt. Both agree on the road names, date and time. The announcement is text only, with no source image or video. No cause or affected-customer count is stated.",
+      "date_context": "The PEPA post was published Sunday, October 25, 2026, at 14:36:03 UTC (9:36:03 a.m. CDT). The planned outage is Tuesday, October 27, 8:30–11:30 a.m. local Central Daylight Time. This is a scheduled future interruption, not a current outage or guarantee of restoration.",
+      "locality": "Pontotoc Electric Power Association service notice naming Prewett Road and Hidden Creek in the Pontotoc, Mississippi service area. No wider county outage, street boundaries, household identities or exact customer count asserted.",
+      "identities": "Pontotoc Electric Power Association (PEPA). Prewett Road and Hidden Creek are spelled as in the notice; no private residents identified.",
+      "statistics": "8:30–11:30a.m. scheduled window; three hours calculated from endpoints."
+    },
+    {
+      "id": "f2",
+      "statement": "PEPA announced the outage Sunday, October 25. The scheduled window is three hours; the notice provides no reason for the interruption or affected-customer count.",
+      "source_ids": [
+        "notice"
+      ],
+      "evidence": "The saved feed supplies Sunday, October 25, 14:36:03 UTC as publication time. The complete original caption contains the planned-outage label, named areas, time window, date and thanks. Three hours is arithmetic from the announced endpoints; no connection to earlier FEMA funding is inferred.",
+      "date_context": "The PEPA post was published Sunday, October 25, 2026, at 14:36:03 UTC (9:36:03 a.m. CDT). The planned outage is Tuesday, October 27, 8:30–11:30 a.m. local Central Daylight Time. This is a scheduled future interruption, not a current outage or guarantee of restoration.",
+      "locality": "Pontotoc Electric Power Association service notice naming Prewett Road and Hidden Creek in the Pontotoc, Mississippi service area. No wider county outage, street boundaries, household identities or exact customer count asserted.",
+      "identities": "Pontotoc Electric Power Association (PEPA). Prewett Road and Hidden Creek are spelled as in the notice; no private residents identified.",
+      "statistics": "Three-hour scheduledwindow; no affectedcustomertotalasserted."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc Electric Power Association has scheduled a power outage affecting Prewett Road and Hidden Creek on Tuesday, Oct. 27, from 8:30 to 11:30 a.m.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "PEPA announced the planned interruption Sunday, Oct. 25. The scheduled window spans three hours; the cooperative’s notice does not give a reason for the outage or say how many customers will be affected. Its original announcement is linked below.",
+      "fact_ids": [
+        "f1",
+        "f2"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pepa-prewett-road-hidden-creek-outage-october-27-2026.png",
+    "sha256": "1c6b04c1b3e104a3ceeecb6ffb09f825f04a412031e30e06f050159f1f43057c",
+    "alt_text": "PEPA planned-outage graphic naming Prewett Road and Hidden Creek, Tuesday, Oct. 27, 8:30–11:30 a.m.",
+    "credit": "Pontotoc News original editorial graphic",
+    "rights": "owned",
+    "rights_reference": "Original 1600×900 opaque RGB typography and geometric rules drawn locally with Pillow and macOS Arial. No source photographs, graphics, logos or people reproduced. Source pixels inspected as evidence only."
+  },
+  "review": {
+    "reviewer": "Codex October 25 afternoon editorial review",
+    "reviewed_at": "2026-10-25T21:01:30.043389+00:00",
+    "decision": "publish",
+    "checks": {
+      "coherent_prose": true,
+      "dates": true,
+      "identities": true,
+      "image_rights": true,
+      "locality": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "source_support": true,
+      "statistics": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s October 25 afternoon publishing delegation and recurring daily authorization permit distinct useful verified local reporting and labeled statewide fallback, after offline checks, authenticated all-status dry-run, and editorial/image review. Existing posts and routes remain separate."
+  }
+}
