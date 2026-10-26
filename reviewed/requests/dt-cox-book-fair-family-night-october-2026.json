@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/dt-cox-book-fair-family-night-october-2026.json",
   "article_sha256": "8936624334e0d7eea0cfa754b360fc7a6dbd8d2379dee381f0c79e16c8d71364",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "dt-cox-book-fair-family-night-october-2026",
   "seo_review": {
     "reviewer": "Codex October 25 nightly editorial review",
