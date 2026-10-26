@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-basketball-soccer-cross-country-week-october-26-2026.json",
   "article_sha256": "d728c00fb51da93209001162e5afb1e7c265033b0e30f79381380074ad2db2c6",
-  "mode": "publish",
+  "mode": "dry-run",
   "public_slug": "pontotoc-basketball-soccer-cross-country-week-october-26-2026",
   "seo_review": {
     "reviewer": "Codex October 26 morning editorial review",
