@@ -1,0 +1,207 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:north-mississippi:2026-10-26:monday-fire-danger-statement",
+    "ms:mid-south:2026-10-25:drought-weekend-rain-outlook"
+  ],
+  "title": "Pontotoc weather: fire danger noon–7 p.m.; weekend rain chances return",
+  "excerpt": "NWS Memphis flags Monday fire danger for north Mississippi. Dry weather lasts through the workweek, with rain chances returning around Halloween.",
+  "locality": "Pontotoc County and north Mississippi in the NWS Memphis Mid-South outlook. Regional forecasts and drought descriptions are not Pontotoc measurements or a county-specific drought classification.",
+  "sources": [
+    {
+      "id": "fire",
+      "url": "https://api.weather.gov/products/90faf0b0-f631-4108-8d2c-34050ffdf2da",
+      "verification_url": "https://api.weather.gov/products/90faf0b0-f631-4108-8d2c-34050ffdf2da",
+      "role": "event",
+      "title": "NWS Monday Fire Danger Statement: noon–7 p.m.",
+      "publisher": "National Weather Service Memphis",
+      "published_at": "2026-10-26T03:28:00Z",
+      "verified_at": "2026-10-26T14:22:54.989125+00:00"
+    },
+    {
+      "id": "forecast",
+      "url": "https://api.weather.gov/products/15fe5c20-10ff-49bd-839f-036a8f337c10",
+      "verification_url": "https://api.weather.gov/products/15fe5c20-10ff-49bd-839f-036a8f337c10",
+      "role": "event",
+      "title": "NWS Monday morning forecast discussion",
+      "publisher": "National Weather Service Memphis",
+      "published_at": "2026-10-26T11:00:00Z",
+      "verified_at": "2026-10-26T14:22:54.989125+00:00"
+    },
+    {
+      "id": "drought",
+      "url": "https://www.facebook.com/373092268193391/posts/1543704564465483",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vdUpJ5VAA1j.rss",
+      "role": "event",
+      "title": "NWS Oct. 25 drought update and complete regional map",
+      "publisher": "National Weather Service Memphis",
+      "published_at": "2026-10-25T19:54:30Z",
+      "verified_at": "2026-10-26T14:22:54.989125+00:00"
+    },
+    {
+      "id": "outlook",
+      "url": "https://www.facebook.com/373092268193391/posts/1543880847781188",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vdUpJ5VAA1j.rss",
+      "role": "event",
+      "title": "NWS Oct. 25 wet-pattern outlook: Oct. 31–Nov. 4",
+      "publisher": "National Weather Service Memphis",
+      "published_at": "2026-10-26T00:54:18Z",
+      "verified_at": "2026-10-26T14:22:54.989125+00:00"
+    },
+    {
+      "id": "prior",
+      "url": "https://pontotocnews.com/pontotoc-news/pontotoc-county-burn-ban-october-20-2026/",
+      "verification_url": "https://pontotocnews.com/pontotoc-news/pontotoc-county-burn-ban-october-20-2026/",
+      "role": "background",
+      "title": "Related local reporting: Ecru’s Oct. 20 county burn-ban notice",
+      "publisher": "Pontotoc News",
+      "published_at": null,
+      "verified_at": "2026-10-26T14:22:54.989125+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Monday fire-danger statement covers north Mississippi including Pontotoc County from noon–7pm; RH30–35%, east/southeast wind up to10mph, dry fuels support wildfire spread.",
+      "source_ids": [
+        "fire"
+      ],
+      "evidence": "Complete RFD read: MSZ001>017 includes Pontotoc MSZ015; timing12PM–7PM, humidity30–35%,windE/SEup to10mph. Full Monday fire graphic visually inspected: identical time and regional map. Statement is not a Red Flag Warning.",
+      "date_context": "Monday October 26, 2026, America/Chicago (CDT). RFD issued Sunday October25 10:28pm CDT for Monday noon–7pm; AFD updated Monday6am CDT. Sunday dated drought/wet-pattern graphics inspected in full; current Monday NWS graphics corroborated.",
+      "locality": "Pontotoc County and north Mississippi in the NWS Memphis Mid-South outlook. Regional forecasts and drought descriptions are not Pontotoc measurements or a county-specific drought classification.",
+      "identities": "National Weather Service Memphis; U.S. Drought Monitor and NOAA Climate Prediction Center as displayed by NWS. No local fire incident or affected resident identified.",
+      "statistics": "Noon–7pmCDT; forecast relative humidity30–35%; wind up to10mph."
+    },
+    {
+      "id": "f2",
+      "statement": "Outdoor burning and sparks/flames discouraged; report wildfires to local law enforcement.",
+      "source_ids": [
+        "fire"
+      ],
+      "evidence": "Complete RFD explicitly discourages outdoor burning and activities with open sparks/flames, asks reporting wildfires to law enforcement. No legal ban status inferred.",
+      "date_context": "Monday October 26, 2026, America/Chicago (CDT). RFD issued Sunday October25 10:28pm CDT for Monday noon–7pm; AFD updated Monday6am CDT. Sunday dated drought/wet-pattern graphics inspected in full; current Monday NWS graphics corroborated.",
+      "locality": "Pontotoc County and north Mississippi in the NWS Memphis Mid-South outlook. Regional forecasts and drought descriptions are not Pontotoc measurements or a county-specific drought classification.",
+      "identities": "National Weather Service Memphis; U.S. Drought Monitor and NOAA Climate Prediction Center as displayed by NWS. No local fire incident or affected resident identified.",
+      "statistics": "None asserted"
+    },
+    {
+      "id": "f3",
+      "statement": "Warm dry weather persists through workweek with elevated fire concerns at least midweek; regional highs mid70s–low80s and lows40s–mid50s.",
+      "source_ids": [
+        "forecast"
+      ],
+      "evidence": "AFD discussion and key messages read completely; temperatures regional, not point forecast or observations. Monday current graphic corroborates dry through Friday.",
+      "date_context": "Monday October 26, 2026, America/Chicago (CDT). RFD issued Sunday October25 10:28pm CDT for Monday noon–7pm; AFD updated Monday6am CDT. Sunday dated drought/wet-pattern graphics inspected in full; current Monday NWS graphics corroborated.",
+      "locality": "Pontotoc County and north Mississippi in the NWS Memphis Mid-South outlook. Regional forecasts and drought descriptions are not Pontotoc measurements or a county-specific drought classification.",
+      "identities": "National Weather Service Memphis; U.S. Drought Monitor and NOAA Climate Prediction Center as displayed by NWS. No local fire incident or affected resident identified.",
+      "statistics": "Regional forecast highs mid70s–low80s Fahrenheit, lows40s–mid50s."
+    },
+    {
+      "id": "f4",
+      "statement": "Sunday drought update says most Mid-South areas face severe to extreme drought; weekend rain chances return, but forecast does not promise drought relief.",
+      "source_ids": [
+        "drought",
+        "forecast",
+        "outlook"
+      ],
+      "evidence": "Full Sunday drought graphic1280x720 inspected, U.S.DroughtMonitor mapvalidOct20/releasedOct22. Sunday wet-pattern graphic1280x720 inspected: CPC6–10dayOct31–Nov4, leaning above normal, possible small improvement. MondayAFD still describes extreme/exceptional drought in portions and increasing weekend precipitation; no county category, rainfall amount, guaranteed improvement asserted.",
+      "date_context": "Monday October 26, 2026, America/Chicago (CDT). RFD issued Sunday October25 10:28pm CDT for Monday noon–7pm; AFD updated Monday6am CDT. Sunday dated drought/wet-pattern graphics inspected in full; current Monday NWS graphics corroborated.",
+      "locality": "Pontotoc County and north Mississippi in the NWS Memphis Mid-South outlook. Regional forecasts and drought descriptions are not Pontotoc measurements or a county-specific drought classification.",
+      "identities": "National Weather Service Memphis; U.S. Drought Monitor and NOAA Climate Prediction Center as displayed by NWS. No local fire incident or affected resident identified.",
+      "statistics": "None asserted"
+    },
+    {
+      "id": "f5",
+      "statement": "Halloween is Saturday October31 and long-range outlook coversOct31–Nov4; readers can consult linked local burn-ban coverage as earlier reporting.",
+      "source_ids": [
+        "outlook",
+        "prior"
+      ],
+      "evidence": "Wet-pattern graphic explicitly validOct31–Nov4,issuedOct25. Gregorian day verified. Prior local article is October20 notice; no current cancellation or legal interpretation asserted.",
+      "date_context": "Monday October 26, 2026, America/Chicago (CDT). RFD issued Sunday October25 10:28pm CDT for Monday noon–7pm; AFD updated Monday6am CDT. Sunday dated drought/wet-pattern graphics inspected in full; current Monday NWS graphics corroborated.",
+      "locality": "Pontotoc County and north Mississippi in the NWS Memphis Mid-South outlook. Regional forecasts and drought descriptions are not Pontotoc measurements or a county-specific drought classification.",
+      "identities": "National Weather Service Memphis; U.S. Drought Monitor and NOAA Climate Prediction Center as displayed by NWS. No local fire incident or affected resident identified.",
+      "statistics": "October31–November4 outlook period."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc County residents face another afternoon of elevated fire danger Monday, Oct. 26, as the National Weather Service in Memphis highlights noon to 7 p.m. across the Mid-South. Its fire-danger statement forecasts relative humidity of 30–35 percent and east to southeast winds up to 10 mph, with dry vegetation helping fires spread.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The Weather Service discourages outdoor burning and activities involving open sparks or flames, and asks that wildfires be reported to local law enforcement. The advisory is a Fire Danger Statement; it is not a Red Flag Warning.",
+      "fact_ids": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "text": "The larger weather pattern offers little immediate relief. Monday morning’s forecast discussion keeps the region dry and warmer than normal through the workweek, with afternoon highs generally in the mid-70s to lower 80s and morning lows in the 40s to mid-50s. Elevated fire-weather concerns are expected to continue at least into midweek. Those temperatures describe the region, rather than a measured reading in Pontotoc.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "A Sunday NWS update said most of the Mid-South was facing severe to extreme drought. Rain chances are expected to increase this coming weekend, but the outlook does not establish how much rain Pontotoc will receive or guarantee relief from the drought.",
+      "fact_ids": [
+        "f4"
+      ]
+    },
+    {
+      "text": "For Halloween plans, the change to watch is the return of rain chances around Saturday, Oct. 31, and into early November. The NWS’s Sunday graphic showed a broader Oct. 31–Nov. 4 outlook leaning toward above-normal precipitation. It is an outlook for a period of days, not a forecast that a particular trick-or-treating hour will be wet.",
+      "fact_ids": [
+        "f4",
+        "f5"
+      ]
+    },
+    {
+      "text": "The dated official statements and outlooks are linked below, along with our earlier coverage of Ecru’s Oct. 20 county burn-ban notice. Residents should continue checking official updates as the weekend approaches.",
+      "fact_ids": [
+        "f2",
+        "f5"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-fire-danger-rain-outlook-october-26-2026.png",
+    "sha256": "5a505ca37c95140101f9ddeeb88fe824e673374ee83de740bd4a907fd7b4ecdb",
+    "alt_text": "North Mississippi weather graphic: elevated fire danger noon–7 p.m. Monday, dry through Friday, and rain chances for Halloween weekend.",
+    "credit": "Pontotoc News original editorial graphic",
+    "rights": "owned",
+    "rights_reference": "Original opaque RGB typography and geometric rules created locally with Pillow and macOS Arial. No source artwork, photography, logos or people reproduced. Complete official source graphics visually inspected as evidence only."
+  },
+  "review": {
+    "reviewer": "Codex October 26 morning editorial review",
+    "reviewed_at": "2026-10-26T14:22:54.989125+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f4"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f3",
+      "f4"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s October 26 morning Pontotoc delegation authorizes distinct useful verified articles through reviewed v2 intake after offline checks, authenticated all-status dry-run, and editorial/image review."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-fire-danger-rain-outlook-october-26-2026.json",
+  "article_sha256": "93fd832ce0d3d24d5f236e422e08ef9df806020b60afd87b73595582587407c7",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-fire-danger-rain-outlook-october-26-2026",
+  "seo_review": {
+    "reviewer": "Codex October 26 morning editorial review",
+    "reviewed_at": "2026-10-26T14:22:54.989125+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}
