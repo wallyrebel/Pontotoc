@@ -1,0 +1,258 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:2026-10-26:junior-high-basketball",
+    "ms:pontotoc:2026-10-27:soccer-houston",
+    "ms:pontotoc:2026-10-29:junior-high-basketball-guntown",
+    "ms:pontotoc:2026-10-29:jv-soccer-oxford",
+    "ms:pontotoc:2026-10-31:state-cross-country",
+    "ms:pontotoc:2026-10-31:basketball-jamboree"
+  ],
+  "title": "Pontotoc week ahead: soccer, basketball and state cross-country",
+  "excerpt": "Pontotoc’s Oct. 26–31 sports schedule includes soccer and state cross-country. Two school listings conflict on an opponent and a start time.",
+  "locality": "Pontotoc City School District athletics in Pontotoc, Mississippi; away basketball at Guntown and cross-country in Clinton. Distinct from Pontotoc County School District teams.",
+  "sources": [
+    {
+      "id": "weekly",
+      "url": "https://www.facebook.com/1409956404473934/posts/1670929961709909",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7kh8MV2fT.rss",
+      "role": "event",
+      "title": "Pontotoc Athletics: complete Oct. 26–31 weekly schedule graphic",
+      "publisher": "Pontotoc Athletics",
+      "published_at": "2026-10-25T21:40:27Z",
+      "verified_at": "2026-10-26T14:22:54.989125+00:00"
+    },
+    {
+      "id": "mon",
+      "url": "https://www.pontotoc.school/apps/events/2026/10/26/49985088/?id=0&id=5&id=6",
+      "verification_url": "https://www.pontotoc.school/apps/events/2026/10/26/49985088/?id=0&id=5&id=6",
+      "role": "event",
+      "title": "Monday: JH BB VS. SOUTH",
+      "publisher": "Pontotoc City School District",
+      "published_at": null,
+      "verified_at": "2026-10-26T14:22:54.989125+00:00"
+    },
+    {
+      "id": "tue",
+      "url": "https://www.pontotoc.school/apps/events/2026/10/27/49985035/?id=0&id=5&id=6",
+      "verification_url": "https://www.pontotoc.school/apps/events/2026/10/27/49985035/?id=0&id=5&id=6",
+      "role": "event",
+      "title": "Tuesday: soccer vs. Houston",
+      "publisher": "Pontotoc City School District",
+      "published_at": null,
+      "verified_at": "2026-10-26T14:22:54.989125+00:00"
+    },
+    {
+      "id": "thu-bb",
+      "url": "https://www.pontotoc.school/apps/events/2026/10/29/49985057/?id=0&id=5&id=6",
+      "verification_url": "https://www.pontotoc.school/apps/events/2026/10/29/49985057/?id=0&id=5&id=6",
+      "role": "event",
+      "title": "Thursday: junior-high basketball at Guntown",
+      "publisher": "Pontotoc City School District",
+      "published_at": null,
+      "verified_at": "2026-10-26T14:22:54.989125+00:00"
+    },
+    {
+      "id": "thu-jv",
+      "url": "https://www.pontotoc.school/apps/events/2026/10/29/49985085/?id=0&id=5&id=6",
+      "verification_url": "https://www.pontotoc.school/apps/events/2026/10/29/49985085/?id=0&id=5&id=6",
+      "role": "event",
+      "title": "Thursday: JV soccer vs. Oxford",
+      "publisher": "Pontotoc City School District",
+      "published_at": null,
+      "verified_at": "2026-10-26T14:22:54.989125+00:00"
+    },
+    {
+      "id": "sat-bb",
+      "url": "https://www.pontotoc.school/apps/events/2026/10/31/49985105/?id=0&id=5&id=6",
+      "verification_url": "https://www.pontotoc.school/apps/events/2026/10/31/49985105/?id=0&id=5&id=6",
+      "role": "event",
+      "title": "Saturday: basketball jamboree",
+      "publisher": "Pontotoc City School District",
+      "published_at": null,
+      "verified_at": "2026-10-26T14:22:54.989125+00:00"
+    },
+    {
+      "id": "sat-xc",
+      "url": "https://www.pontotoc.school/apps/events/2026/10/31/49985063/?id=0&id=5&id=6",
+      "verification_url": "https://www.pontotoc.school/apps/events/2026/10/31/49985063/?id=0&id=5&id=6",
+      "role": "event",
+      "title": "Saturday: cross-country state in Clinton",
+      "publisher": "Pontotoc City School District",
+      "published_at": null,
+      "verified_at": "2026-10-26T14:22:54.989125+00:00"
+    },
+    {
+      "id": "prior",
+      "url": "https://pontotocnews.com/pontotoc-news/pontotoc-new-hope-football-october-23-2026/",
+      "verification_url": "https://pontotocnews.com/pontotoc-news/pontotoc-new-hope-football-october-23-2026/",
+      "role": "background",
+      "title": "Earlier football preview includes Oct. 30 senior night",
+      "publisher": "Pontotoc News",
+      "published_at": null,
+      "verified_at": "2026-10-26T14:22:54.989125+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Weekly athletics graphic lists new basketball, soccer and cross-country eventsOct26–31.",
+      "source_ids": [
+        "weekly"
+      ],
+      "evidence": "Full720x1080weeklygraphic inspected, includesMonJHvsAmory5;TueSoccerHouston5;ThuJHGuntown5/JVOxford5;SatXCClinton10/BasketballJamboree10. Fridayfootball is previously previewed and omitted from new event identities.",
+      "date_context": "October26–31,2026 America/Chicago(CDT). Weekly graphic postedSundayOct25 at21:40:27UTC. Event pages undated, so published_at null. Mondayopponent andThursdayJVtime conflict disclosed. No placeholder11:59PM calendar end time represented as actual duration.",
+      "locality": "Pontotoc City School District athletics in Pontotoc, Mississippi; away basketball at Guntown and cross-country in Clinton. Distinct from Pontotoc County School District teams.",
+      "identities": "Pontotoc Athletics and Pontotoc City School District; Amory versus SOUTH remains unresolved Monday opponent. Houston, Guntown and Oxford as named opponents. No players, scores, qualifications or attendance invented.",
+      "statistics": "None asserted"
+    },
+    {
+      "id": "f2",
+      "statement": "Monday JH basketball is listed5pm; weekly graphic saysAmory, district event saysSOUTH atHOME; opponent unresolved.",
+      "source_ids": [
+        "weekly",
+        "mon"
+      ],
+      "evidence": "Complete graphic and official event page both read, conflict explicitly preserved. Do not silently expand SOUTH or choose Amory. Districtpublicoffice6624893336 appears on event pages.",
+      "date_context": "October26–31,2026 America/Chicago(CDT). Weekly graphic postedSundayOct25 at21:40:27UTC. Event pages undated, so published_at null. Mondayopponent andThursdayJVtime conflict disclosed. No placeholder11:59PM calendar end time represented as actual duration.",
+      "locality": "Pontotoc City School District athletics in Pontotoc, Mississippi; away basketball at Guntown and cross-country in Clinton. Distinct from Pontotoc County School District teams.",
+      "identities": "Pontotoc Athletics and Pontotoc City School District; Amory versus SOUTH remains unresolved Monday opponent. Houston, Guntown and Oxford as named opponents. No players, scores, qualifications or attendance invented.",
+      "statistics": "5pm Monday; office662-489-3336."
+    },
+    {
+      "id": "f3",
+      "statement": "Tuesday soccer vsHouston atHOME starts5pm; ThursdayJH basketball atGuntown5pm.",
+      "source_ids": [
+        "weekly",
+        "tue",
+        "thu-bb"
+      ],
+      "evidence": "Both event-specific pages and graphic agree on starttime/opponent; TuesdaypageHOME and ThursdayAWAY. No stadium/door/ticket details given.",
+      "date_context": "October26–31,2026 America/Chicago(CDT). Weekly graphic postedSundayOct25 at21:40:27UTC. Event pages undated, so published_at null. Mondayopponent andThursdayJVtime conflict disclosed. No placeholder11:59PM calendar end time represented as actual duration.",
+      "locality": "Pontotoc City School District athletics in Pontotoc, Mississippi; away basketball at Guntown and cross-country in Clinton. Distinct from Pontotoc County School District teams.",
+      "identities": "Pontotoc Athletics and Pontotoc City School District; Amory versus SOUTH remains unresolved Monday opponent. Houston, Guntown and Oxford as named opponents. No players, scores, qualifications or attendance invented.",
+      "statistics": "5pm TuesdayOctober27 andThursdayOctober29."
+    },
+    {
+      "id": "f4",
+      "statement": "ThursdayJV soccer vsOxford atHOME; graphic5pm versus calendar7pm unresolved.",
+      "source_ids": [
+        "weekly",
+        "thu-jv"
+      ],
+      "evidence": "Fullgraphic5PM; dated officialeventdetail7:00PM. Both sources reported without choosing a time.",
+      "date_context": "October26–31,2026 America/Chicago(CDT). Weekly graphic postedSundayOct25 at21:40:27UTC. Event pages undated, so published_at null. Mondayopponent andThursdayJVtime conflict disclosed. No placeholder11:59PM calendar end time represented as actual duration.",
+      "locality": "Pontotoc City School District athletics in Pontotoc, Mississippi; away basketball at Guntown and cross-country in Clinton. Distinct from Pontotoc County School District teams.",
+      "identities": "Pontotoc Athletics and Pontotoc City School District; Amory versus SOUTH remains unresolved Monday opponent. Houston, Guntown and Oxford as named opponents. No players, scores, qualifications or attendance invented.",
+      "statistics": "5pm graphic versus7pm calendar forOctober29."
+    },
+    {
+      "id": "f5",
+      "statement": "Saturday cross-country state inClinton and HOME basketballjamboree each listed10am.",
+      "source_ids": [
+        "weekly",
+        "sat-bb",
+        "sat-xc"
+      ],
+      "evidence": "Fullweeklygraphic and eventdetails agree10AM; districtXCWhereCLINTON, BBWhereHOME. No individualteamracetimes/entrants or jamboreeopponents inferred.",
+      "date_context": "October26–31,2026 America/Chicago(CDT). Weekly graphic postedSundayOct25 at21:40:27UTC. Event pages undated, so published_at null. Mondayopponent andThursdayJVtime conflict disclosed. No placeholder11:59PM calendar end time represented as actual duration.",
+      "locality": "Pontotoc City School District athletics in Pontotoc, Mississippi; away basketball at Guntown and cross-country in Clinton. Distinct from Pontotoc County School District teams.",
+      "identities": "Pontotoc Athletics and Pontotoc City School District; Amory versus SOUTH remains unresolved Monday opponent. Houston, Guntown and Oxford as named opponents. No players, scores, qualifications or attendance invented.",
+      "statistics": "10am SaturdayOctober31 listed starts; not individual race assignments."
+    },
+    {
+      "id": "f6",
+      "statement": "Earlier Pontotoc News football preview includesOct30 seniornight.",
+      "source_ids": [
+        "prior"
+      ],
+      "evidence": "Prior published football article reviewed; use internal relatedreading only, no newFridayidentity.",
+      "date_context": "October26–31,2026 America/Chicago(CDT). Weekly graphic postedSundayOct25 at21:40:27UTC. Event pages undated, so published_at null. Mondayopponent andThursdayJVtime conflict disclosed. No placeholder11:59PM calendar end time represented as actual duration.",
+      "locality": "Pontotoc City School District athletics in Pontotoc, Mississippi; away basketball at Guntown and cross-country in Clinton. Distinct from Pontotoc County School District teams.",
+      "identities": "Pontotoc Athletics and Pontotoc City School District; Amory versus SOUTH remains unresolved Monday opponent. Houston, Guntown and Oxford as named opponents. No players, scores, qualifications or attendance invented.",
+      "statistics": "None asserted"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc’s Oct. 26–31 athletics schedule brings soccer, junior-high basketball and a Saturday state cross-country meet, but families should confirm two entries before making plans. The new Pontotoc Athletics weekly graphic and the district’s event calendar disagree on Monday’s basketball opponent and Thursday’s junior-varsity soccer start time.",
+      "fact_ids": [
+        "f1",
+        "f2",
+        "f4"
+      ]
+    },
+    {
+      "text": "Both sources list junior-high basketball at 5 p.m. Monday, Oct. 26. The weekly graphic names Amory, while the district calendar says “JH BB VS. SOUTH” at home. The district office’s published number is 662-489-3336 for families seeking confirmation.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "The two sources agree on Tuesday’s soccer game against Houston at 5 p.m.; the district calendar places that game at home. Junior-high basketball travels to Guntown on Thursday, Oct. 29, for a 5 p.m. start.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "Thursday also includes JV soccer against Oxford at home. The weekly graphic lists 5 p.m., but the district’s event page lists 7 p.m. Supporters should check with the school before traveling rather than assume either published time has been confirmed.",
+      "fact_ids": [
+        "f4"
+      ]
+    },
+    {
+      "text": "Saturday, Oct. 31, has two 10 a.m. listings: state cross-country in Clinton and a basketball jamboree at home. The notices do not identify individual cross-country race assignments or the jamboree opponents.",
+      "fact_ids": [
+        "f5"
+      ]
+    },
+    {
+      "text": "All times above are local Central Daylight Time. The original weekly schedule and district event entries are linked below, along with our earlier football preview covering Oct. 30 senior night. This roundup reports the published schedule rather than game results.",
+      "fact_ids": [
+        "f1",
+        "f6"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-basketball-soccer-cross-country-week-october-26-2026.png",
+    "sha256": "fc0cdd5f36a9320532233b27cd49c59dfcfeebc4385a541d3fb6ee261d8e9880",
+    "alt_text": "Pontotoc athletics week-ahead graphic listing Houston soccer, Guntown junior-high basketball, and Saturday cross-country and basketball.",
+    "credit": "Pontotoc News original editorial graphic",
+    "rights": "owned",
+    "rights_reference": "Original opaque RGB typography and geometric rules created locally with Pillow and macOS Arial. No source artwork, photography, logos or people reproduced. Complete official source graphics visually inspected as evidence only."
+  },
+  "review": {
+    "reviewer": "Codex October 26 morning editorial review",
+    "reviewed_at": "2026-10-26T14:22:54.989125+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f3",
+      "f5"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f4",
+      "f5"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s October 26 morning Pontotoc delegation authorizes distinct useful verified articles through reviewed v2 intake after offline checks, authenticated all-status dry-run, and editorial/image review."
+  }
+}
