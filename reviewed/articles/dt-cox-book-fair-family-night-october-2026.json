@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:dt-cox:2026-10-26:book-fair-family-night"
+  ],
+  "title": "DT Cox book fair opens Oct. 26; Book or Treat set for Monday",
+  "excerpt": "DT Cox’s Oct. 26–30 book fair includes Monday family night. School notices and the district calendar list different hours; families should confirm.",
+  "locality": "DT Cox Elementary School, Pontotoc City School District, at 304 Clark Street in Pontotoc, Mississippi. School families and students; no claim of general public access or county-district affiliation.",
+  "sources": [
+    {
+      "id": "fair",
+      "url": "https://dtc.pontotoc.school/apps/news/article/2246222?categoryId=17397",
+      "verification_url": "https://dtc.pontotoc.school/apps/news/article/2246222?categoryId=17397",
+      "title": "DT Cox official book-fair announcement and full flyer",
+      "publisher": "DT Cox Elementary School",
+      "role": "event",
+      "published_at": null,
+      "verified_at": "2026-10-26T00:34:51.951615+00:00"
+    },
+    {
+      "id": "family",
+      "url": "https://dtc.pontotoc.school/apps/news/article/2246225?categoryId=17397",
+      "verification_url": "https://dtc.pontotoc.school/apps/news/article/2246225?categoryId=17397",
+      "title": "DT Cox official Book or Treat notice and full flyer",
+      "publisher": "DT Cox Elementary School",
+      "role": "event",
+      "published_at": null,
+      "verified_at": "2026-10-26T00:34:51.951615+00:00"
+    },
+    {
+      "id": "calendar",
+      "url": "https://www.pontotoc.school/",
+      "verification_url": "https://www.pontotoc.school/",
+      "title": "District homepage calendar: Oct. 26 DTC Book or Treat listing",
+      "publisher": "Pontotoc City School District",
+      "role": "event",
+      "published_at": null,
+      "verified_at": "2026-10-26T00:34:51.951615+00:00"
+    },
+    {
+      "id": "harvest",
+      "url": "https://pontotocnews.com/pontotoc-news/pontotoc-harvest-walk-october-27-2026/",
+      "verification_url": "https://pontotocnews.com/pontotoc-news/pontotoc-harvest-walk-october-27-2026/",
+      "title": "Earlier community coverage: Tuesday’s downtown Harvest Walk",
+      "publisher": "Pontotoc News",
+      "role": "background",
+      "published_at": "2026-10-20T00:51:24Z",
+      "verified_at": "2026-10-26T00:34:51.951615+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "DT Cox’s Scholastic Book Fair runs October 26–30, 2026, in the school library.",
+      "source_ids": [
+        "fair"
+      ],
+      "evidence": "Full official event-specific page read. Complete 629×800 flyer visually inspected: BOOK FAIR at DT Cox, OCTOBER 26–30, 2026; student shopping during library day and before the bell. No prices, proceeds, grade limits or unrestricted daytime public access inferred.",
+      "date_context": "The school news entries are marked (10/20) without a complete publication timestamp, so published_at is null. Both inspected flyers identify October 26, 2026, a Monday, and the book fair runs October 26–30, 2026. School notices/flyers list family night 4–6 p.m.; the current district homepage calendar lists 4:30–5:30 p.m. Both windows are reported with attribution; neither is silently resolved.",
+      "locality": "DT Cox Elementary School, Pontotoc City School District, at 304 Clark Street in Pontotoc, Mississippi. School families and students; no claim of general public access or county-district affiliation.",
+      "identities": "DT Cox Elementary School in Pontotoc, Mississippi; school families and students. The public school office lists 304 Clark Street and 662-489-2454. No children identified and no private family details.",
+      "statistics": "October 26–30, Monday through Friday. No attendance or sales figures asserted."
+    },
+    {
+      "id": "f2",
+      "statement": "Book or Treat family night is scheduled Monday, October 26, with book-fair shopping, classroom treats and costumes encouraged; the school asks for individually wrapped candy donations.",
+      "source_ids": [
+        "family",
+        "fair"
+      ],
+      "evidence": "Both full official news pages and complete flyers inspected. Family flyer states Monday10.26.26, 4–6 p.m., library shopping and classroom candy. News text encourages costumes and requests individually wrapped candy. The article does not expand mask language beyond the requested costume encouragement.",
+      "date_context": "The school news entries are marked (10/20) without a complete publication timestamp, so published_at is null. Both inspected flyers identify October 26, 2026, a Monday, and the book fair runs October 26–30, 2026. School notices/flyers list family night 4–6 p.m.; the current district homepage calendar lists 4:30–5:30 p.m. Both windows are reported with attribution; neither is silently resolved.",
+      "locality": "DT Cox Elementary School, Pontotoc City School District, at 304 Clark Street in Pontotoc, Mississippi. School families and students; no claim of general public access or county-district affiliation.",
+      "identities": "DT Cox Elementary School in Pontotoc, Mississippi; school families and students. The public school office lists 304 Clark Street and 662-489-2454. No children identified and no private family details.",
+      "statistics": "Monday October 26. No participation count or admission charge asserted."
+    },
+    {
+      "id": "f3",
+      "statement": "School announcements and both flyers give 4–6 p.m.; district homepage calendar gives 4:30–5:30 p.m. for DTC Book or Treat.",
+      "source_ids": [
+        "fair",
+        "family",
+        "calendar"
+      ],
+      "evidence": "Primary school pages and all relevant image pixels agree on 4–6 p.m. Current district homepage text lists Oct26 DTC Book or Treat Time4:30PM–5:30PM. The linked calendar detail returned403, so it is not used as accessible evidence and no block was bypassed. Different published windows disclosed, with request to confirm through public school office.",
+      "date_context": "The school news entries are marked (10/20) without a complete publication timestamp, so published_at is null. Both inspected flyers identify October 26, 2026, a Monday, and the book fair runs October 26–30, 2026. School notices/flyers list family night 4–6 p.m.; the current district homepage calendar lists 4:30–5:30 p.m. Both windows are reported with attribution; neither is silently resolved.",
+      "locality": "DT Cox Elementary School, Pontotoc City School District, at 304 Clark Street in Pontotoc, Mississippi. School families and students; no claim of general public access or county-district affiliation.",
+      "identities": "DT Cox Elementary School in Pontotoc, Mississippi; school families and students. The public school office lists 304 Clark Street and 662-489-2454. No children identified and no private family details.",
+      "statistics": "4–6 p.m. school notices versus 4:30–5:30 p.m. district listing; no unverified resolution."
+    },
+    {
+      "id": "f4",
+      "statement": "School office contact is 662-489-2454 and address is 304 Clark Street, Pontotoc, Mississippi.",
+      "source_ids": [
+        "fair",
+        "family"
+      ],
+      "evidence": "Both official school event pages display DT Cox Elementary School,304ClarkStreet,PontotocMS38863,Phone6624892454 in their footer. These are public institutional contacts, not private residents’ data.",
+      "date_context": "The school news entries are marked (10/20) without a complete publication timestamp, so published_at is null. Both inspected flyers identify October 26, 2026, a Monday, and the book fair runs October 26–30, 2026. School notices/flyers list family night 4–6 p.m.; the current district homepage calendar lists 4:30–5:30 p.m. Both windows are reported with attribution; neither is silently resolved.",
+      "locality": "DT Cox Elementary School, Pontotoc City School District, at 304 Clark Street in Pontotoc, Mississippi. School families and students; no claim of general public access or county-district affiliation.",
+      "identities": "DT Cox Elementary School in Pontotoc, Mississippi; school families and students. The public school office lists 304 Clark Street and 662-489-2454. No children identified and no private family details.",
+      "statistics": "None asserted beyond the published office phone and street address."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "DT Cox Elementary School’s Scholastic Book Fair opens Monday, Oct. 26, and runs through Friday, Oct. 30, in the school library. The school’s announcement also invites families to Book or Treat on Monday evening, combining book-fair shopping with classroom treats.",
+      "fact_ids": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "text": "Students are encouraged to wear costumes, and the school is asking for donations of individually wrapped candy for the event. Its book-fair flyer says students will also have shopping opportunities during their library day and before the bell.",
+      "fact_ids": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "text": "Families should confirm Monday’s hours before making plans. Both school announcements and their flyers list 4–6 p.m., while the district homepage calendar lists DTC Book or Treat from 4:30 to 5:30 p.m. The school office number is 662-489-2454.",
+      "fact_ids": [
+        "f3",
+        "f4"
+      ]
+    },
+    {
+      "text": "DT Cox is at 304 Clark Street in Pontotoc. The original school notices and district calendar are linked below so families can check the event information directly.",
+      "fact_ids": [
+        "f3",
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/dt-cox-book-fair-family-night-october-2026.png",
+    "sha256": "e0f5f7d18e44aa51d40868c160bc9b0e5e2c9cbb1034d3743179f147e4059128",
+    "alt_text": "DT Cox Book Fair graphic: October 26–30, with Book or Treat on Monday, October 26; family-night hours need confirmation.",
+    "credit": "Pontotoc News original editorial graphic",
+    "rights": "owned",
+    "rights_reference": "Original 1600×900 opaque RGB typography and geometric rules drawn locally with Pillow and macOS Arial. No source photographs, graphics, logos or people reproduced. Source pixels inspected as evidence only."
+  },
+  "review": {
+    "reviewer": "Codex October 25 nightly editorial review",
+    "reviewed_at": "2026-10-26T00:34:51.951615+00:00",
+    "decision": "publish",
+    "checks": {
+      "coherent_prose": true,
+      "dates": true,
+      "identities": true,
+      "image_rights": true,
+      "locality": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "source_support": true,
+      "statistics": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s October 25 nightly publishing delegation and recurring daily authorization permit distinct useful verified local reporting and labeled statewide fallback, after offline checks, authenticated all-status dry-run, and editorial/image review. Existing posts and routes remain separate."
+  }
+}
