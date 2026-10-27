@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/jackson-hewitt-pontotoc-ribbon-cutting-october-2026.json",
+  "article_sha256": "5494ce52b301f767a1cdcdd91faf3a7424f89cb9734a87479e5df8e90810c196",
+  "mode": "dry-run",
+  "public_slug": "jackson-hewitt-pontotoc-ribbon-cutting-october-2026",
+  "seo_review": {
+    "reviewer": "Codex October 27 morning editorial review",
+    "reviewed_at": "2026-10-27T14:03:12.885305+00:00",
+    "checks": {
+      "canonical_and_source_links": true,
+      "accurate_concise_description": true,
+      "meaningful_headline": true,
+      "relevant_accessible_alt": true,
+      "no_keyword_stuffing": true,
+      "descriptive_slug": true
+    }
+  }
+}

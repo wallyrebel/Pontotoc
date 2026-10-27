@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:jackson-hewitt:2026-10:ribbon-cutting"
+  ],
+  "title": "Chamber marks Jackson Hewitt ribbon cutting in Pontotoc",
+  "excerpt": "The Chamber shared photos of Jackson Hewitt’s ribbon cutting in Pontotoc. The Highway 15 North office lists appointments at 662-600-6117.",
+  "locality": "Jackson Hewitt Tax Service at 2348 Highway 15 North, Suite A, Pontotoc, Mississippi.",
+  "sources": [
+    {
+      "id": "chamber",
+      "url": "https://www.facebook.com/1162843435852264/posts/1751925856944016",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7lo1260by.rss",
+      "role": "event",
+      "title": "Chamber report and photographs: Jackson Hewitt ribbon cutting",
+      "publisher": "Pontotoc County Chamber Main Street",
+      "published_at": "2026-10-26T15:30:09Z",
+      "verified_at": "2026-10-27T14:03:12.885305+00:00"
+    },
+    {
+      "id": "office",
+      "url": "https://office.jacksonhewitt.com/tax-preparation-services-locations/en/ms/pontotoc/2348-hwy-15-n/18439",
+      "verification_url": "https://office.jacksonhewitt.com/tax-preparation-services-locations/en/ms/pontotoc/2348-hwy-15-n/18439",
+      "role": "background",
+      "title": "Jackson Hewitt: Highway 15 North office and appointment information",
+      "publisher": "Jackson Hewitt",
+      "published_at": null,
+      "verified_at": "2026-10-27T14:03:12.885305+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Chamber shared Jackson Hewitt ribbon-cutting photographs Oct. 26, saying ceremony happened the previous week.",
+      "source_ids": [
+        "chamber"
+      ],
+      "evidence": "Full caption says ribbon cutting last week; actual exterior photos inspected show blue ribbon, ceremonial scissors, Jackson Hewitt sign and door number 2348A. No exact ceremony day or opening date stated.",
+      "date_context": "Chamber report published Monday October 26, 2026 at 10:30:09 a.m. CDT. Caption places ceremony in previous week (October 19–25), without an exact day; do not assign October 26 as ceremony date. Office listing undated, checked October 27.",
+      "locality": "Jackson Hewitt Tax Service at 2348 Highway 15 North, Suite A, Pontotoc, Mississippi.",
+      "identities": "Jackson Hewitt Tax Service; Pontotoc County Chamber Main Street. Individuals shown in source photos are not identified or named.",
+      "statistics": "None asserted"
+    },
+    {
+      "id": "f2",
+      "statement": "Featured business office is 2348 Highway 15 North Suite A, Pontotoc; official listing phone is 662-600-6117 and appointment-only banner asks visitors to call.",
+      "source_ids": [
+        "chamber",
+        "office"
+      ],
+      "evidence": "Actual 720×960 exterior source photo clearly shows 2348A door and Jackson Hewitt signage. Specific official office page headline and address list 2348 Hwy 15 N Ste A, Pontotoc MS 38863, phone 6626006117; top banner says By appointment only. Call us to book. No general locator hours substituted.",
+      "date_context": "Chamber report published Monday October 26, 2026 at 10:30:09 a.m. CDT. Caption places ceremony in previous week (October 19–25), without an exact day; do not assign October 26 as ceremony date. Office listing undated, checked October 27.",
+      "locality": "Jackson Hewitt Tax Service at 2348 Highway 15 North, Suite A, Pontotoc, Mississippi.",
+      "identities": "Jackson Hewitt Tax Service; Pontotoc County Chamber Main Street. Individuals shown in source photos are not identified or named.",
+      "statistics": "2348 Highway 15 North, Suite A; public business phone 662-600-6117."
+    },
+    {
+      "id": "f3",
+      "statement": "Official office page lists year-round availability, tax preparation, amendments and extensions.",
+      "source_ids": [
+        "office"
+      ],
+      "evidence": "Full official specific-office page read; location features Open all year, and services Filing amendments & extensions. Neutral location/service description only; no tax advice, refund guarantees, prices or loan claims reproduced.",
+      "date_context": "Chamber report published Monday October 26, 2026 at 10:30:09 a.m. CDT. Caption places ceremony in previous week (October 19–25), without an exact day; do not assign October 26 as ceremony date. Office listing undated, checked October 27.",
+      "locality": "Jackson Hewitt Tax Service at 2348 Highway 15 North, Suite A, Pontotoc, Mississippi.",
+      "identities": "Jackson Hewitt Tax Service; Pontotoc County Chamber Main Street. Individuals shown in source photos are not identified or named.",
+      "statistics": "None asserted"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc County Chamber Main Street has marked a ribbon cutting for Jackson Hewitt Tax Service in Pontotoc, sharing photographs of the ceremony in a Monday, Oct. 26, announcement. The Chamber said the gathering took place the previous week; it did not give an exact ceremony date.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The photos show the business’s sign and a blue ribbon outside the office marked 2348A. Jackson Hewitt’s own listing identifies the location as 2348 Highway 15 North, Suite A, in Pontotoc. The office page asks customers to call 662-600-6117 to book an appointment.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "The company lists the office as open year-round, with services including tax preparation, amendments and extensions. Residents planning a visit can check the specific office page linked below for appointment information.",
+      "fact_ids": [
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/jackson-hewitt-pontotoc-ribbon-cutting-october-2026.png",
+    "sha256": "97496b69310fc92a3e89a5d4e65b74892303d6b0447d2a02c16bf8d64ccbb271",
+    "alt_text": "Original blue ribbon illustration identifying Jackson Hewitt’s Pontotoc ribbon cutting and Highway 15 North office.",
+    "credit": "Pontotoc News original editorial graphic",
+    "rights": "owned",
+    "rights_reference": "Original opaque RGB typography and simple geometric illustration created locally with Pillow and macOS Arial. No third-party photograph, artwork, logo or identifiable person reproduced. Source graphics inspected as evidence only."
+  },
+  "review": {
+    "reviewer": "Codex October 27 morning editorial review",
+    "reviewed_at": "2026-10-27T14:03:12.885305+00:00",
+    "decision": "publish",
+    "checks": {
+      "identities": true,
+      "statistics": true,
+      "dates": true,
+      "coherent_prose": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "locality": true,
+      "image_rights": true,
+      "source_support": true,
+      "no_invented_quotes_or_context": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s October 27 morning delegation authorizes useful verified nonduplicative local articles through bounded reviewed intake after offline checks, authenticated all-status dry-run, and final editorial/image review."
+  }
+}
