@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:ecru:2026-10-27:trick-or-treat-route-parking-notice"
+  ],
+  "title": "Ecru changes trick-or-treat route; keep Highway 15 and fire access clear",
+  "excerpt": "Ecru’s Oct. 27 Main Street trick-or-treating runs 5:30–6:30 p.m., with a new route and no parking on Highway 15 or in front of the fire department.",
+  "locality": "Downtown Main Street in Ecru, Pontotoc County, Mississippi.",
+  "sources": [
+    {
+      "id": "route",
+      "url": "https://www.facebook.com/1204361708550928/posts/1444443504542746",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7mX75E8w6.rss",
+      "role": "event",
+      "title": "Town of Ecru: new trick-or-treat route and parking notice",
+      "publisher": "Town of Ecru, relaying the Town of Ecru Police Department",
+      "published_at": "2026-10-27T01:49:27Z",
+      "verified_at": "2026-10-27T14:03:12.885305+00:00"
+    },
+    {
+      "id": "morning",
+      "url": "https://www.facebook.com/1204361708550928/posts/1444834487836981",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7mX75E8w6.rss",
+      "role": "event",
+      "title": "Town of Ecru: Tuesday morning route reminder",
+      "publisher": "Town of Ecru",
+      "published_at": "2026-10-27T11:46:27Z",
+      "verified_at": "2026-10-27T14:03:12.885305+00:00"
+    },
+    {
+      "id": "hours",
+      "url": "https://www.facebook.com/1204361708550928/posts/1439055438414886",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7mX75E8w6.rss",
+      "role": "event",
+      "title": "Town of Ecru: Oct. 27 event flyer and setup instructions",
+      "publisher": "Town of Ecru",
+      "published_at": "2026-10-21T11:02:42Z",
+      "verified_at": "2026-10-27T14:03:12.885305+00:00"
+    },
+    {
+      "id": "prior",
+      "url": "https://pontotocnews.com/pontotoc-news/ecru-pumpkin-carving-contest-october-27-2026/",
+      "verification_url": "https://pontotocnews.com/pontotoc-news/ecru-pumpkin-carving-contest-october-27-2026/",
+      "role": "background",
+      "title": "Related reporting: Ecru pumpkin contest and voting",
+      "publisher": "Pontotoc News",
+      "published_at": null,
+      "verified_at": "2026-10-27T14:03:12.885305+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Ecru trick-or-treating Oct. 27 is scheduled 5:30–6:30 p.m.; new route is between Old 15 beside the Post Office and Railroad Avenue beside Tanglefoot Trail.",
+      "source_ids": [
+        "route",
+        "morning",
+        "hours"
+      ],
+      "evidence": "Full town caption read; complete 720×1009 morning screenshot inspected. Separate complete 720×720 event flyer explicitly says Tuesday October 27, 5:30–6:30 PM, Downtown Main Street Ecru. October 27 falls Tuesday in 2026; contemporary feed publication fixes year.",
+      "date_context": "Tuesday October 27, 2026, America/Chicago (CDT). Route notice published October 26 at 8:49 p.m. CDT; morning repost October 27 at 6:46 a.m. CDT. Original event notice published October 21 at 6:02 a.m. CDT.",
+      "locality": "Downtown Main Street in Ecru, Pontotoc County, Mississippi.",
+      "identities": "Town of Ecru relaying Town of Ecru Police Department; Ecru Volunteer Fire Department. Public facilities only; no individual identities asserted.",
+      "statistics": "5:30–6:30 p.m. CDT event hours."
+    },
+    {
+      "id": "f2",
+      "statement": "No parking on Highway 15 or in front of fire department to preserve emergency truck access.",
+      "source_ids": [
+        "route",
+        "morning"
+      ],
+      "evidence": "Town’s full route notice and actual morning screenshot both state the two no-parking areas and emergency-access reason. Old 15 route endpoint and Highway 15 parking restriction retained as separately named by source; no mapped location inferred.",
+      "date_context": "Tuesday October 27, 2026, America/Chicago (CDT). Route notice published October 26 at 8:49 p.m. CDT; morning repost October 27 at 6:46 a.m. CDT. Original event notice published October 21 at 6:02 a.m. CDT.",
+      "locality": "Downtown Main Street in Ecru, Pontotoc County, Mississippi.",
+      "identities": "Town of Ecru relaying Town of Ecru Police Department; Ecru Volunteer Fire Department. Public facilities only; no individual identities asserted.",
+      "statistics": "None asserted"
+    },
+    {
+      "id": "f3",
+      "statement": "Fire department will have a truck downtown instead of receiving children at its building; adults asked to stay with children.",
+      "source_ids": [
+        "route",
+        "morning"
+      ],
+      "evidence": "Full caption and screenshot state downtown truck stop, not fire department building; please stay with children at all times. No emergency or injury alleged.",
+      "date_context": "Tuesday October 27, 2026, America/Chicago (CDT). Route notice published October 26 at 8:49 p.m. CDT; morning repost October 27 at 6:46 a.m. CDT. Original event notice published October 21 at 6:02 a.m. CDT.",
+      "locality": "Downtown Main Street in Ecru, Pontotoc County, Mississippi.",
+      "identities": "Town of Ecru relaying Town of Ecru Police Department; Ecru Volunteer Fire Department. Public facilities only; no individual identities asserted.",
+      "statistics": "None asserted"
+    },
+    {
+      "id": "f4",
+      "statement": "Groups setting up are asked to arrive around 5 p.m.; town warns some streets may be closed.",
+      "source_ids": [
+        "hours"
+      ],
+      "evidence": "Full official Oct. 21 caption specifically addresses businesses, church groups and civic groups, around 5 and official start 5:30; closure warning is conditional and no closure map is provided.",
+      "date_context": "Tuesday October 27, 2026, America/Chicago (CDT). Route notice published October 26 at 8:49 p.m. CDT; morning repost October 27 at 6:46 a.m. CDT. Original event notice published October 21 at 6:02 a.m. CDT.",
+      "locality": "Downtown Main Street in Ecru, Pontotoc County, Mississippi.",
+      "identities": "Town of Ecru relaying Town of Ecru Police Department; Ecru Volunteer Fire Department. Public facilities only; no individual identities asserted.",
+      "statistics": "Around 5 p.m. setup; 5:30 p.m. public start."
+    },
+    {
+      "id": "f5",
+      "statement": "Earlier reporting describes pumpkin display and voting during the Main Street event; morning notice again mentions voting at Pannell Park.",
+      "source_ids": [
+        "prior",
+        "morning"
+      ],
+      "evidence": "Prior post 6040 read in public REST and source morning screenshot mentions favorite-pumpkin voting and Pannell Park. Previously published pumpkin contest remains background; no new contest-entry invitation.",
+      "date_context": "Tuesday October 27, 2026, America/Chicago (CDT). Route notice published October 26 at 8:49 p.m. CDT; morning repost October 27 at 6:46 a.m. CDT. Original event notice published October 21 at 6:02 a.m. CDT.",
+      "locality": "Downtown Main Street in Ecru, Pontotoc County, Mississippi.",
+      "identities": "Town of Ecru relaying Town of Ecru Police Department; Ecru Volunteer Fire Department. Public facilities only; no individual identities asserted.",
+      "statistics": "None asserted"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Families heading to Ecru’s Main Street trick-or-treating Tuesday, Oct. 27, should follow a new route between Old 15, beside the Post Office, and Railroad Avenue, next to the Tanglefoot Trail. The town’s event flyer lists 5:30–6:30 p.m. for the downtown gathering.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "A police notice shared by the town Monday night and repeated Tuesday morning says there will be no parking on Highway 15 or in front of the fire department. Those areas need to remain clear so firefighters can get trucks out if an emergency occurs.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "The Ecru Volunteer Fire Department will bring a truck downtown for children to visit, instead of using the fire-department building as the stop. The notice also asks adults to stay with their children throughout the event.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "Businesses, church groups and civic groups setting up along Main Street are asked to arrive around 5 p.m. The town cautions that some streets may be closed; the public event begins at 5:30 p.m. All times are local Central Daylight Time.",
+      "fact_ids": [
+        "f4"
+      ]
+    },
+    {
+      "text": "The town’s Tuesday reminder also points visitors toward pumpkin displays and voting at Pannell Park. Our earlier report, linked below, covers that contest; tonight’s route and parking notice adds the travel details families need before heading downtown.",
+      "fact_ids": [
+        "f5"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/ecru-trick-or-treat-route-parking-october-27-2026.png",
+    "sha256": "e6eaff27b73c048819cc9471658cce59bd9fb6e8c37c86419735af352fef6aac",
+    "alt_text": "Ecru event graphic with the Oct. 27 hours, Old 15 to Railroad Avenue route, and instruction to keep fire access clear.",
+    "credit": "Pontotoc News original editorial graphic",
+    "rights": "owned",
+    "rights_reference": "Original opaque RGB typography and simple geometric illustration created locally with Pillow and macOS Arial. No third-party photograph, artwork, logo or identifiable person reproduced. Source graphics inspected as evidence only."
+  },
+  "review": {
+    "reviewer": "Codex October 27 morning editorial review",
+    "reviewed_at": "2026-10-27T14:03:12.885305+00:00",
+    "decision": "publish",
+    "checks": {
+      "identities": true,
+      "statistics": true,
+      "dates": true,
+      "coherent_prose": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "locality": true,
+      "image_rights": true,
+      "source_support": true,
+      "no_invented_quotes_or_context": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s October 27 morning delegation authorizes useful verified nonduplicative local articles through bounded reviewed intake after offline checks, authenticated all-status dry-run, and final editorial/image review."
+  }
+}
