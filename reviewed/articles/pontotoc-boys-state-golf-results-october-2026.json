@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:boys-golf:2026-10-19:class-5a-state-results"
+  ],
+  "title": "Pontotoc boys finish 11th in Class 5A state golf; Farris ties for 16th",
+  "excerpt": "Pontotoc totaled 733 at the Oct. 19–20 Class 5A boys state golf meet in Tunica. Elijah Farris led the Warriors with 168, tying for 16th.",
+  "locality": "Pontotoc High School boys golf, Pontotoc City School District, Pontotoc, Mississippi; state meet at Tunica National Golf Course in Tunica, Mississippi.",
+  "sources": [
+    {
+      "id": "results",
+      "url": "https://www.misshsaa.com/2026/10/22/new-hope-wins-2026-boys-class-5a-golf-championship/",
+      "verification_url": "https://www.misshsaa.com/2026/10/22/new-hope-wins-2026-boys-class-5a-golf-championship/",
+      "title": "MHSAA: complete Class 5A boys golf team and individual results",
+      "publisher": "Mississippi High School Activities Association",
+      "role": "event",
+      "published_at": "2026-10-22T13:06:45Z",
+      "verified_at": "2026-10-27T21:10:01.934242+00:00"
+    },
+    {
+      "id": "host",
+      "url": "https://www.misshsaa.com/2026/10/19/2026-golf-championship-host-sites/",
+      "verification_url": "https://www.misshsaa.com/2026/10/19/2026-golf-championship-host-sites/",
+      "title": "MHSAA championship host list: Class 5A boys Oct. 19–20 at Tunica National",
+      "publisher": "Mississippi High School Activities Association",
+      "role": "background",
+      "published_at": null,
+      "verified_at": "2026-10-27T21:10:01.934242+00:00"
+    },
+    {
+      "id": "related",
+      "url": "https://pontotocnews.com/pontotoc-news/pontotoc-boys-class-ii-state-swimming-title-2026/",
+      "verification_url": "https://pontotocnews.com/pontotoc-news/pontotoc-boys-class-ii-state-swimming-title-2026/",
+      "title": "Related Pontotoc state-meet coverage: boys swimming title",
+      "publisher": "Pontotoc News",
+      "role": "background",
+      "published_at": "2026-10-18T21:17:58Z",
+      "verified_at": "2026-10-27T21:10:01.934242+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc finished11th with733 at Class5A boys golf championship inTunica; host list specifiesOct19–20.",
+      "source_ids": [
+        "results",
+        "host"
+      ],
+      "evidence": "Full official host table read: Boys5A Lafayette Tunica NationalGC Oct19–20. Full results article and REST raw rendered article read: Pontotoc Warriors11, 345+388,733. Source header Oct19 is tournament start; Oct22 post publication separately verified. Actual source champion photo inspected: NewHope Trojans with2026Class5Aboys banner; no photo or branding reused.",
+      "date_context": "Class 5A boys championship hosted October 19–20, 2026, per official host listing; results page labels its start Oct. 19. Result was published October 22 at 08:06:45 CDT (13:06:45 UTC), confirmed by public MHSAA REST post43484. This is previously omitted last-week result coverage, not an October27 result. School calendar October27 listing does not determine actual completed-meet date.",
+      "locality": "Pontotoc High School boys golf, Pontotoc City School District, Pontotoc, Mississippi; state meet at Tunica National Golf Course in Tunica, Mississippi.",
+      "identities": "Pontotoc Warriors, not North or South Pontotoc; Elijah Farris, Reed Barbles, Barrett Lewis, Sheff White, Bowen Kidd and Thomas Jefcoat exactly as official results. No grades, ages, coaches, quotes or private information added.",
+      "statistics": "11th;733strokes;October19–20,2026."
+    },
+    {
+      "id": "f2",
+      "statement": "Elijah Farris tied16th at168(79+89); Reed Barbles tied41st at180(79+101).",
+      "source_ids": [
+        "results"
+      ],
+      "evidence": "Complete individual list: T16 ElijahFarris(Pontotoc)79+89=168; T41 ReedBarbles(Pontotoc)79+101=180. Farris is lowest Pontotoc total in full six-player list. T means tied; no sole16th or41st asserted.",
+      "date_context": "Class 5A boys championship hosted October 19–20, 2026, per official host listing; results page labels its start Oct. 19. Result was published October 22 at 08:06:45 CDT (13:06:45 UTC), confirmed by public MHSAA REST post43484. This is previously omitted last-week result coverage, not an October27 result. School calendar October27 listing does not determine actual completed-meet date.",
+      "locality": "Pontotoc High School boys golf, Pontotoc City School District, Pontotoc, Mississippi; state meet at Tunica National Golf Course in Tunica, Mississippi.",
+      "identities": "Pontotoc Warriors, not North or South Pontotoc; Elijah Farris, Reed Barbles, Barrett Lewis, Sheff White, Bowen Kidd and Thomas Jefcoat exactly as official results. No grades, ages, coaches, quotes or private information added.",
+      "statistics": "Farris T16,79+89=168;Barbles T41,79+101=180."
+    },
+    {
+      "id": "f3",
+      "statement": "Other listed Pontotoc totals: Barrett Lewis193,Sheff White194,Bowen Kidd195,Thomas Jefcoat198.",
+      "source_ids": [
+        "results"
+      ],
+      "evidence": "Complete individual results inspected, exact spelling and two-round sums verified: Lewis93+100=193;White94+100=194;Kidd96+99=195;Jefcoat94+104=198. No assumption all six players counted toward team score.",
+      "date_context": "Class 5A boys championship hosted October 19–20, 2026, per official host listing; results page labels its start Oct. 19. Result was published October 22 at 08:06:45 CDT (13:06:45 UTC), confirmed by public MHSAA REST post43484. This is previously omitted last-week result coverage, not an October27 result. School calendar October27 listing does not determine actual completed-meet date.",
+      "locality": "Pontotoc High School boys golf, Pontotoc City School District, Pontotoc, Mississippi; state meet at Tunica National Golf Course in Tunica, Mississippi.",
+      "identities": "Pontotoc Warriors, not North or South Pontotoc; Elijah Farris, Reed Barbles, Barrett Lewis, Sheff White, Bowen Kidd and Thomas Jefcoat exactly as official results. No grades, ages, coaches, quotes or private information added.",
+      "statistics": "193;194;195;198 totalstrokes."
+    },
+    {
+      "id": "f4",
+      "statement": "Pontotoc team rounds345and388; NewHope champion644,Sumrall runnerup662,Caledonia third665.",
+      "source_ids": [
+        "results"
+      ],
+      "evidence": "Full team results: Pontotoc345+388=733; NewHope323+321=644; Sumrall335+327=662; Caledonia336+329=665. All sums checked. Scores are golf strokes, not match records.",
+      "date_context": "Class 5A boys championship hosted October 19–20, 2026, per official host listing; results page labels its start Oct. 19. Result was published October 22 at 08:06:45 CDT (13:06:45 UTC), confirmed by public MHSAA REST post43484. This is previously omitted last-week result coverage, not an October27 result. School calendar October27 listing does not determine actual completed-meet date.",
+      "locality": "Pontotoc High School boys golf, Pontotoc City School District, Pontotoc, Mississippi; state meet at Tunica National Golf Course in Tunica, Mississippi.",
+      "identities": "Pontotoc Warriors, not North or South Pontotoc; Elijah Farris, Reed Barbles, Barrett Lewis, Sheff White, Bowen Kidd and Thomas Jefcoat exactly as official results. No grades, ages, coaches, quotes or private information added.",
+      "statistics": "345+388=733;NewHope644;Sumrall662;Caledonia665."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc finished 11th in the Class 5A boys state golf championship, totaling 733 strokes at Tunica National Golf Course. The MHSAA host list dates the meet to Oct. 19–20; the association posted the completed results Oct. 22.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "Elijah Farris led the Warriors with rounds of 79 and 89 for a 168 total, tying for 16th individually. Reed Barbles tied for 41st at 180 after rounds of 79 and 101.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "The other listed Pontotoc totals were Barrett Lewis at 193, Sheff White at 194, Bowen Kidd at 195 and Thomas Jefcoat at 198. The complete individual standings are available in the official results linked below.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "Pontotoc’s team rounds were 345 and 388. New Hope won the championship with 644 strokes, followed by Sumrall at 662 and Caledonia at 665.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-boys-state-golf-results-october-2026.jpg",
+    "sha256": "efc6782a174c8687000f6b9ee7d12f32f182a7fbd3b5f03705d74c080acc96ab",
+    "alt_text": "Original scorecard showing Pontotoc’s 11th-place team total of 733 and Elijah Farris’s tie for 16th at 168.",
+    "credit": "Pontotoc News original editorial scorecard",
+    "rights": "owned",
+    "rights_reference": "Original opaque RGB typography and geometric panels drawn locally with Pillow and macOS Arial. No third-party photos, logos, people or source artwork reproduced. Source champion photograph inspected solely as evidence."
+  },
+  "review": {
+    "reviewer": "Codex October 27 afternoon editorial review",
+    "reviewed_at": "2026-10-27T21:10:01.934242+00:00",
+    "decision": "publish",
+    "checks": {
+      "source_support": true,
+      "image_rights": true,
+      "statistics": true,
+      "public_facts_only": true,
+      "dates": true,
+      "locality": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "no_invented_quotes_or_context": true,
+      "coherent_prose": true,
+      "identities": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s recurring publication authorization and October27 afternoon delegation permit additional worthwhile verified local omissions. Official local state golf results were not previously covered; minimum two already met. Publish only after offline checks, authenticated all-status dry-run and editorial/image review."
+  }
+}

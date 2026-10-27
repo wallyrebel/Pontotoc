@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-boys-state-golf-results-october-2026.json",
+  "article_sha256": "813ae9a72c8a8ec9e49ffbcf841365f8192042dc4fb4f1958e2cd7067a66a685",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-boys-state-golf-results-october-2026",
+  "seo_review": {
+    "reviewer": "Codex October 27 afternoon editorial review",
+    "reviewed_at": "2026-10-27T21:10:01.934242+00:00",
+    "checks": {
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "relevant_accessible_alt": true,
+      "canonical_and_source_links": true,
+      "accurate_concise_description": true,
+      "meaningful_headline": true
+    }
+  }
+}
