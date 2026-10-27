@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+from rss_to_wp.rewriter.model_options import chat_model_params, resolve_retired_model
+
 import json
 import re
 import time
@@ -56,18 +58,18 @@ class OpenAIRewriter:
     def __init__(
         self,
         api_key: str,
-        model: str = "gpt-4.1-nano",
+        model: str = "gpt-6-luna",
         max_tokens: int = 2000,
     ):
         """Initialize OpenAI rewriter.
 
         Args:
             api_key: OpenAI API key.
-            model: Model to use (default: gpt-4.1-nano).
+            model: Model to use (default: gpt-6-luna).
             max_tokens: Maximum tokens in response.
         """
         self.client = OpenAI(api_key=api_key)
-        self.model = model
+        self.model = resolve_retired_model(model)
         self.max_tokens = max_tokens
         self._last_request_time = 0.0
 
@@ -151,7 +153,7 @@ Remember to respond with valid JSON containing headline, excerpt, and body."""
             if "o1" not in self.model.lower():
                 api_params["response_format"] = {"type": "json_object"}
             
-            response = self.client.chat.completions.create(**api_params)
+            response = self.client.chat.completions.create(**chat_model_params(api_params))
 
             # Parse response
             response_text = response.choices[0].message.content
@@ -247,7 +249,7 @@ def rewrite_with_openai(
     content: str,
     original_title: str,
     api_key: str,
-    model: str = "gpt-4.1-nano",
+    model: str = "gpt-6-luna",
     use_original_title: bool = False,
 ) -> Optional[dict]:
     """Convenience function to rewrite content.

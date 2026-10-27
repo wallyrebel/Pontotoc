@@ -86,7 +86,7 @@ def test_single_model_output_is_validated_without_adding_fallback(monkeypatch, v
     else:
         assert result is None
     api.assert_called_once()
-    assert api.call_args.kwargs["model"] == editor.model == "gpt-4.1-nano"
+    assert api.call_args.kwargs["model"] == editor.model == "gpt-6-luna"
     assert not hasattr(editor, "fallback_model")
 
 
