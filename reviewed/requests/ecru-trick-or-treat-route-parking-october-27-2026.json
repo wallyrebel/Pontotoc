@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/ecru-trick-or-treat-route-parking-october-27-2026.json",
   "article_sha256": "d3263a187dbff0c270376fd0a429cb3b924dd72e6bcca01998b50842b5838948",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "ecru-trick-or-treat-route-parking-october-27-2026",
   "seo_review": {
     "reviewer": "Codex October 27 morning editorial review",
