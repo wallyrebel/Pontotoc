@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/ms-336-safety-project-bid-tabulation-october-2026.json",
+  "article_sha256": "31d8fe0e2faf6cfbbde0edb01aed61e95d4a3b817d48f6896dbd6b609f1e8059",
+  "mode": "dry-run",
+  "public_slug": "ms-336-safety-project-bid-tabulation-october-2026",
+  "seo_review": {
+    "reviewer": "Codex October28 afternoon editorial review",
+    "reviewed_at": "2026-10-28T21:06:26.301744+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "canonical_and_source_links": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true
+    }
+  }
+}

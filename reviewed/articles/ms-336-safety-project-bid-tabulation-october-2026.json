@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:mdot:110210301:2026-10-27:bid-tabulation"
+  ],
+  "title": "MDOT lists $335,270 bid for MS 336 safety project in Pontotoc County",
+  "excerpt": "MDOT’s Oct. 27 tabulation lists Riverside Traffic Systems’ bid for MS 336 from US 278 to Apostolic Circle. The document does not establish a contract award.",
+  "locality": "MS 336 from US 278 to Apostolic Circle in Pontotoc County, Mississippi.",
+  "sources": [
+    {
+      "id": "tab",
+      "url": "https://mdot.ms.gov/bidsystem_data/20261027/TABULATIONS/110210301000.pdf",
+      "verification_url": "https://mdot.ms.gov/bidsystem_data/20261027/TABULATIONS/110210301000.pdf",
+      "role": "event",
+      "title": "MDOT October 27 bid tabulation: MS 336, Call 14 (PDF)",
+      "publisher": "Mississippi Department of Transportation",
+      "published_at": null,
+      "verified_at": "2026-10-28T21:06:26.301744+00:00"
+    },
+    {
+      "id": "prior",
+      "url": "https://pontotocnews.com/pontotoc-news/ms-336-safety-bids-pontotoc-october-27-2026/",
+      "verification_url": "https://pontotocnews.com/pontotoc-news/ms-336-safety-bids-pontotoc-october-27-2026/",
+      "role": "background",
+      "title": "Earlier coverage: MDOT’s solicitation for this MS 336 safety project",
+      "publisher": "Pontotoc News",
+      "published_at": "2026-10-17T14:20:24Z",
+      "verified_at": "2026-10-28T21:06:26.301744+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "MDOT’s October27,2026 Call14 bid tabulation lists a335270.00 bid under Riverside Traffic Systems, Inc. for the MS336 safety project.",
+      "source_ids": [
+        "tab"
+      ],
+      "evidence": "Official MDOT letting page Call14 explicitly links this exact PDF. Default requests without redirects returned200 application/pdf. All1page rendered and visually inspected. Company heading Riverside Traffic Systems, Inc.;335270.00 is directly below in that company column. Letting date10/27/2026, Call14 and Page1of1 in footer. The separate agency364575.75 header is not characterized or used. Blank alternative line-item cells are not treated as an omission, defect or allegation.",
+      "date_context": "Official one-page tabulation footer states Letting Date10/27/2026 and Call14. Downloaded and full page rendered/inspected October28,2026 afternoon America/Chicago. Document publication timestamp not established; published_at=null. Letting date is not contract-award date or construction-start date.",
+      "locality": "MS 336 from US 278 to Apostolic Circle in Pontotoc County, Mississippi.",
+      "identities": "MDOT publishes the document; Riverside Traffic Systems, Inc. is the company heading above the335270.00 bid. No individual, affiliation, address, awarded-contractor status or qualification determination is inferred.",
+      "statistics": "$335,270.00 listed bid; one company column shown, not an assertion about all qualified submissions or lowest responsive bidder."
+    },
+    {
+      "id": "f2",
+      "statement": "The tabulation describes audible stripe, raised pavement markers and sign improvements on MS336 from US278 to Apostolic Circle in Pontotoc County, under HRRR-1336-58(003)/110210301.",
+      "source_ids": [
+        "tab"
+      ],
+      "evidence": "Full PDF title gives exact endpoints, locality, project identifiers and work description. Table contains traffic stripe, signs/posts and reflective raised markers. No claim that11MI line quantity is project length; no crash statistics, closures or construction schedule inferred.",
+      "date_context": "Official one-page tabulation footer states Letting Date10/27/2026 and Call14. Downloaded and full page rendered/inspected October28,2026 afternoon America/Chicago. Document publication timestamp not established; published_at=null. Letting date is not contract-award date or construction-start date.",
+      "locality": "MS 336 from US 278 to Apostolic Circle in Pontotoc County, Mississippi.",
+      "identities": "MDOT publishes the document; Riverside Traffic Systems, Inc. is the company heading above the335270.00 bid. No individual, affiliation, address, awarded-contractor status or qualification determination is inferred.",
+      "statistics": "336 and278 highway designations; HRRR-1336-58(003) and110210301 are project identifiers, not costs or counts."
+    },
+    {
+      "id": "f3",
+      "statement": "The cited document is a bid tabulation and does not establish a contract award or construction start date.",
+      "source_ids": [
+        "tab"
+      ],
+      "evidence": "Inspected complete one-page PDF with title, totals, item rows and footer. It is linked as View Bid Tabulation. No award determination or start date appears. Article does not assert that no award exists elsewhere, that the bidder won, or that construction is imminent.",
+      "date_context": "Official one-page tabulation footer states Letting Date10/27/2026 and Call14. Downloaded and full page rendered/inspected October28,2026 afternoon America/Chicago. Document publication timestamp not established; published_at=null. Letting date is not contract-award date or construction-start date.",
+      "locality": "MS 336 from US 278 to Apostolic Circle in Pontotoc County, Mississippi.",
+      "identities": "MDOT publishes the document; Riverside Traffic Systems, Inc. is the company heading above the335270.00 bid. No individual, affiliation, address, awarded-contractor status or qualification determination is inferred.",
+      "statistics": "None asserted"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "The Mississippi Department of Transportation’s bid tabulation for the Oct. 27 letting lists a $335,270 bid from Riverside Traffic Systems, Inc. for safety improvements on MS 336 in Pontotoc County.",
+      "fact_ids": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "text": "The project covers MS 336 from US 278 to Apostolic Circle. MDOT describes the work as audible stripe, raised pavement markers and sign improvements; it is identified as Call 14, Federal Aid Project HRRR-1336-58(003), project number 110210301.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "The document reports bids rather than a contract-award decision. It does not establish when construction will begin. The full tabulation and Pontotoc News’ earlier coverage of the solicitation are linked below.",
+      "fact_ids": [
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/ms-336-safety-project-bid-tabulation-october-2026.jpg",
+    "sha256": "1699d632fe78b62b188cae506e37722384b10524cf461ed6194a544da463eb02",
+    "alt_text": "Original MS 336 project graphic showing Riverside Traffic Systems’ listed $335,270 bid for the October 27 letting.",
+    "credit": "Pontotoc News original editorial graphic",
+    "rights": "owned",
+    "rights_reference": "Original opaque RGB typography and simple geometric panel created locally with Pillow and macOS Arial. No source PDF page, agency logo, photograph, person, map or third-party art reproduced."
+  },
+  "review": {
+    "reviewer": "Codex October28 afternoon editorial review",
+    "reviewed_at": "2026-10-28T21:06:26.301744+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "source_support": true,
+      "public_facts_only": true,
+      "coherent_prose": true,
+      "image_rights": true,
+      "statistics": true,
+      "no_invented_quotes_or_context": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "identities": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s recurring October28afternoon authority permits worthwhile new verified local facts beyond daily minimum. This new official bid result materially updates October17solicitation coverage, with prior key/bytes retained and linked. No award claim. Require offline checks, authenticated all-status/source/event dry-run, editorial/image review then serialized publish."
+  }
+}
