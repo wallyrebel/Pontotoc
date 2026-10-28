@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc-county-schools:2026-10-27:toyota-wellspring-291000-announcement"
+  ],
+  "title": "Pontotoc County schools announce $291,000 Toyota Wellspring grant",
+  "excerpt": "A district announcement shared by Ecru says the grant will support training, resources and educational opportunities. The check is dated Oct. 22.",
+  "locality": "Pontotoc County School District, Mississippi; not Pontotoc City School District.",
+  "sources": [
+    {
+      "id": "grant",
+      "url": "https://www.facebook.com/1204361708550928/posts/1445463857774044",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7mX75E8w6.rss",
+      "title": "Town of Ecru shares county school grant announcement and full check photograph",
+      "publisher": "Town of Ecru, sharing Pontotoc County School District announcement",
+      "role": "event",
+      "published_at": "2026-10-28T02:02:05Z",
+      "verified_at": "2026-10-28T14:06:36.051965+00:00"
+    },
+    {
+      "id": "related",
+      "url": "https://pontotocnews.com/pontotoc-news/pontotoc-city-schools-toyota-wellspring-grant-october-2026/",
+      "verification_url": "https://pontotocnews.com/pontotoc-news/pontotoc-city-schools-toyota-wellspring-grant-october-2026/",
+      "title": "Related coverage: the separate city school district’s $51,000 grant",
+      "publisher": "Pontotoc News",
+      "role": "background",
+      "published_at": "2026-10-23T14:24:21Z",
+      "verified_at": "2026-10-28T14:06:36.051965+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "g1",
+      "statement": "The county school district announced a Toyota Wellspring Education Fund grant through CREATE Foundation to support training, resources and educational opportunities.",
+      "source_ids": [
+        "grant"
+      ],
+      "evidence": "Full caption read in existing saved Town of Ecru feed: PCSD grateful for grant through CREATE Foundation; says enables training, resources and educational opportunities. Source is explicitly attributed as district statement shared by Town of Ecru, not a directly accessed district permalink.",
+      "date_context": "Town of Ecru shared the announcement October28 at02:02:05Z, Tuesday October27 at9:02:05pm CDT. The photographed ceremonial check is dated October22,2026; that date is not asserted as bank disbursement or ceremony date. Current as reviewed October28 morning CDT.",
+      "locality": "Pontotoc County School District, Mississippi; not Pontotoc City School District.",
+      "identities": "Recipient name is fully legible on original check: Pontotoc County School District. Toyota Wellspring Education Fund and CREATE Foundation named in caption/check. The two people pictured are not identified or guessed.",
+      "statistics": "None asserted"
+    },
+    {
+      "id": "g2",
+      "statement": "The accompanying ceremonial check is made out to Pontotoc County School District for $291,000 and dated October22,2026; no specific spending breakdown or implementation schedule appears in the announcement.",
+      "source_ids": [
+        "grant"
+      ],
+      "evidence": "Actual original 960x720 source image inspected. Numeric amount reads $291,000.00/100 and written amount Two Hundred Ninety-One Thousand Dollars; payee Pontotoc County School District; check date October22,2026. No person identification inferred. Full caption gives no itemized purchases or timetable.",
+      "date_context": "Town of Ecru shared the announcement October28 at02:02:05Z, Tuesday October27 at9:02:05pm CDT. The photographed ceremonial check is dated October22,2026; that date is not asserted as bank disbursement or ceremony date. Current as reviewed October28 morning CDT.",
+      "locality": "Pontotoc County School District, Mississippi; not Pontotoc City School District.",
+      "identities": "Recipient name is fully legible on original check: Pontotoc County School District. Toyota Wellspring Education Fund and CREATE Foundation named in caption/check. The two people pictured are not identified or guessed.",
+      "statistics": "$291,000; check date October22,2026. Amount is grant shown on ceremonial check, not cash-in-bank assertion."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc County School District has announced a $291,000 grant from the Toyota Wellspring Education Fund through CREATE Foundation. In a district statement shared Tuesday night by the Town of Ecru, the district said the funding will support training, resources and educational opportunities.",
+      "fact_ids": [
+        "g1",
+        "g2"
+      ]
+    },
+    {
+      "text": "The accompanying photograph shows a ceremonial check made out to Pontotoc County School District for $291,000 and dated Oct. 22, 2026. The announcement does not provide an itemized spending plan or a timetable for using the grant.",
+      "fact_ids": [
+        "g2"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-county-schools-toyota-wellspring-grant-october-2026.jpg",
+    "sha256": "1e1aa5c8432906b3bb76bf008b8ab6f0274cb7ee9097080d99385af0e01100e1",
+    "alt_text": "Original graphic showing the $291,000 Toyota Wellspring grant for Pontotoc County School District.",
+    "credit": "Pontotoc News original editorial graphic",
+    "rights": "owned",
+    "rights_reference": "Original RGB typography and simple geometric panel created locally with Pillow and macOS Arial; no third-party photograph, logo, person or map reproduced. Actual source graphic inspected as reporting evidence only."
+  },
+  "review": {
+    "reviewer": "Codex October 28 morning editorial review",
+    "reviewed_at": "2026-10-28T14:06:36.051965+00:00",
+    "decision": "publish",
+    "checks": {
+      "coherent_prose": true,
+      "statistics": true,
+      "dates": true,
+      "locality": true,
+      "source_support": true,
+      "no_invented_quotes_or_context": true,
+      "image_rights": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "public_facts_only": true,
+      "identities": true
+    },
+    "headline_fact_ids": [
+      "g1",
+      "g2"
+    ],
+    "excerpt_fact_ids": [
+      "g1",
+      "g2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s recurring October 28 publication delegation authorizes distinct useful verified local public-facts articles. Submit only bounded article/image/request files, require offline and authenticated all-status source/event dry-run, review, then serialized digest-bound publish."
+  }
+}

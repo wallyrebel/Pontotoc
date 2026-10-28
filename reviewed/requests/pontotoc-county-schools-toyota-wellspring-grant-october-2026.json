@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-county-schools-toyota-wellspring-grant-october-2026.json",
+  "article_sha256": "06721c39391d519df1401a7749ee214d77c4a6df2077bd7f85418bd654c362fe",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-county-schools-toyota-wellspring-grant-october-2026",
+  "seo_review": {
+    "reviewer": "Codex October 28 morning editorial review",
+    "reviewed_at": "2026-10-28T14:06:36.051965+00:00",
+    "checks": {
+      "descriptive_slug": true,
+      "canonical_and_source_links": true,
+      "no_keyword_stuffing": true,
+      "relevant_accessible_alt": true,
+      "accurate_concise_description": true,
+      "meaningful_headline": true
+    }
+  }
+}
