@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/ecru-utility-bills-due-november-10-2026.json",
+  "article_sha256": "ee4027c0b1ed3efd7ce18b7d609094fee716551e92e68d44f43992785efe3744",
+  "mode": "dry-run",
+  "public_slug": "ecru-utility-bills-due-november-10-2026",
+  "seo_review": {
+    "reviewer": "Codex October 28 morning editorial review",
+    "reviewed_at": "2026-10-28T14:06:36.051965+00:00",
+    "checks": {
+      "descriptive_slug": true,
+      "canonical_and_source_links": true,
+      "no_keyword_stuffing": true,
+      "relevant_accessible_alt": true,
+      "accurate_concise_description": true,
+      "meaningful_headline": true
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:ecru:utilities:2026-10-28:november10-bill-deadline"
+  ],
+  "title": "Ecru utility bills due Nov. 10; town says notices mailed Monday",
+  "excerpt": "Ecru says utility bills were mailed Oct. 26 and are due Nov. 10. The town’s announcement includes a link to MSEZPay.",
+  "locality": "Town of Ecru, Pontotoc County, Mississippi; town utility customers, not PEPA customers generally.",
+  "sources": [
+    {
+      "id": "bills",
+      "url": "https://www.facebook.com/1204361708550928/posts/1445912461062517",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7mX75E8w6.rss",
+      "title": "Town of Ecru’s October 28 utility-bill mailing and November 10 deadline notice",
+      "publisher": "Town of Ecru",
+      "role": "event",
+      "published_at": "2026-10-28T11:55:17Z",
+      "verified_at": "2026-10-28T14:06:36.051965+00:00"
+    },
+    {
+      "id": "portal",
+      "url": "https://msezpay.com/#!/",
+      "verification_url": "https://msezpay.com/#!/",
+      "title": "MSEZPay link provided in the town’s utility-bill notice",
+      "publisher": "MSEZPay",
+      "role": "background",
+      "published_at": null,
+      "verified_at": "2026-10-28T14:06:36.051965+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "b1",
+      "statement": "The Town of Ecru says utility bills were mailed Monday October26 and are due November10.",
+      "source_ids": [
+        "bills"
+      ],
+      "evidence": "Complete caption read: Ecru utility bills were mailed Monday, October26 and are due November10. Posted Wednesday October28,2026. Source image inspected: generic red mailbox and envelopes, no additional dates or payment instructions; not reused.",
+      "date_context": "Official Town of Ecru post October28,2026 at11:55:17Z,6:55:17am CDT. Caption explicitly bills mailed Monday October26 and due November10; weekdays calendar-checked for2026 (Monday Oct26, Tuesday Nov10). Deadline year is current billing-cycle context, not an invented publication date.",
+      "locality": "Town of Ecru, Pontotoc County, Mississippi; town utility customers, not PEPA customers generally.",
+      "identities": "Town of Ecru is official notice publisher. MSEZPay is the HTTPS link supplied by the town. No customer account, bill amount, credentials, penalty or financial transaction asserted or requested.",
+      "statistics": "Mailing date October26,2026; due date November10,2026. No amount or penalty asserted."
+    },
+    {
+      "id": "b2",
+      "statement": "The town included a MSEZPay link in the notice.",
+      "source_ids": [
+        "bills",
+        "portal"
+      ],
+      "evidence": "Exact HTTPS MSEZPay URL appears beneath full notice. Only read-only public landing page verification; no account login, payment, fee claim or guarantee about processing time.",
+      "date_context": "Official Town of Ecru post October28,2026 at11:55:17Z,6:55:17am CDT. Caption explicitly bills mailed Monday October26 and due November10; weekdays calendar-checked for2026 (Monday Oct26, Tuesday Nov10). Deadline year is current billing-cycle context, not an invented publication date.",
+      "locality": "Town of Ecru, Pontotoc County, Mississippi; town utility customers, not PEPA customers generally.",
+      "identities": "Town of Ecru is official notice publisher. MSEZPay is the HTTPS link supplied by the town. No customer account, bill amount, credentials, penalty or financial transaction asserted or requested.",
+      "statistics": "None asserted"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Ecru utility bills are due Tuesday, Nov. 10, according to a notice the town posted Wednesday morning. The Town of Ecru said the bills were mailed Monday, Oct. 26.",
+      "fact_ids": [
+        "b1"
+      ]
+    },
+    {
+      "text": "The town included a link to MSEZPay in its announcement. Both the original town notice and the payment-site link it supplied are available below for customers checking this billing cycle’s deadline.",
+      "fact_ids": [
+        "b2",
+        "b1"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/ecru-utility-bills-due-november-10-2026.jpg",
+    "sha256": "ecf188a62a32aa21df5eab3bee4a9507e4844f17cdcc033f5dad5fbd639d50af",
+    "alt_text": "Original Ecru utility-bill graphic showing the November 10 due date and October 26 mailing date.",
+    "credit": "Pontotoc News original editorial graphic",
+    "rights": "owned",
+    "rights_reference": "Original RGB typography and simple geometric panel created locally with Pillow and macOS Arial; no third-party photograph, logo, person or map reproduced. Actual source graphic inspected as reporting evidence only."
+  },
+  "review": {
+    "reviewer": "Codex October 28 morning editorial review",
+    "reviewed_at": "2026-10-28T14:06:36.051965+00:00",
+    "decision": "publish",
+    "checks": {
+      "coherent_prose": true,
+      "statistics": true,
+      "dates": true,
+      "locality": true,
+      "source_support": true,
+      "no_invented_quotes_or_context": true,
+      "image_rights": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "public_facts_only": true,
+      "identities": true
+    },
+    "headline_fact_ids": [
+      "b1"
+    ],
+    "excerpt_fact_ids": [
+      "b1",
+      "b2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s recurring October 28 publication delegation authorizes distinct useful verified local public-facts articles. Submit only bounded article/image/request files, require offline and authenticated all-status source/event dry-run, review, then serialized digest-bound publish."
+  }
+}
