@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/west-reynolds-street-closure-pontotoc-october-27-2026.json",
+  "article_sha256": "638f7a8f6aa60a42336b05f9b3e270e8a1a2f67f36229f00291f89eee8b0efdd",
+  "mode": "dry-run",
+  "public_slug": "west-reynolds-street-closure-pontotoc-october-27-2026",
+  "seo_review": {
+    "reviewer": "Codex October 27 nightly editorial review",
+    "reviewed_at": "2026-10-28T00:31:36.161522+00:00",
+    "checks": {
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true,
+      "meaningful_headline": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "accurate_concise_description": true
+    }
+  }
+}

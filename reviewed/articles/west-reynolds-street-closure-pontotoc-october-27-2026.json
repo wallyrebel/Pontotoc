@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:traffic:2026-10-27:west-reynolds-utility-repairs"
+  ],
+  "title": "Chamber reports West Reynolds Street closure for utility repairs",
+  "excerpt": "The Chamber’s 5:48 p.m. Tuesday alert reported a closure from Main Street to the NMMC Wellness Center for repairs. No reopening time was given.",
+  "locality": "West Reynolds Street between Main Street and the NMMC Wellness Center in Pontotoc, Mississippi. The Wellness Center is at 38 West Reynolds Street.",
+  "sources": [
+    {
+      "id": "alert",
+      "url": "https://www.facebook.com/1162843435852264/posts/1753675050102430",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7lo1260by.rss",
+      "title": "Chamber’s Oct. 27 evening West Reynolds Street traffic alert",
+      "publisher": "Pontotoc County Chamber Main Street",
+      "role": "event",
+      "published_at": "2026-10-27T22:48:05Z",
+      "verified_at": "2026-10-28T00:31:36.161522+00:00"
+    },
+    {
+      "id": "location",
+      "url": "https://www.nmhs.net/locations/north-mississippi-wellness-center-pontotoc",
+      "verification_url": "https://www.nmhs.net/locations/north-mississippi-wellness-center-pontotoc",
+      "title": "NMHS directory: Pontotoc Wellness Center at 38 West Reynolds Street",
+      "publisher": "North Mississippi Health Services",
+      "role": "background",
+      "published_at": null,
+      "verified_at": "2026-10-28T00:31:36.161522+00:00"
+    },
+    {
+      "id": "related",
+      "url": "https://pontotocnews.com/pontotoc-news/ms-336-safety-bids-pontotoc-october-27-2026/",
+      "verification_url": "https://pontotocnews.com/pontotoc-news/ms-336-safety-bids-pontotoc-october-27-2026/",
+      "title": "Related local road coverage: MS 336 safety-improvement bids",
+      "publisher": "Pontotoc News",
+      "role": "background",
+      "published_at": "2026-10-17T14:20:24Z",
+      "verified_at": "2026-10-28T00:31:36.161522+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "The Chamber reported a partial closure of West Reynolds Street from Main Street to the NMMC Wellness Center in its October 27 evening notice.",
+      "source_ids": [
+        "alert"
+      ],
+      "evidence": "Complete saved-feed item read, exact permalink and pubDate verified. Caption specifies West Reynolds Street, intersection at Main Street, and NMMC Wellness Center. Original 720×960 source photo inspected: damaged utility pole, hanging lines and repair vehicles; no photo reproduced, no location or cause inferred from pixels alone.",
+      "date_context": "Chamber notice published October 27, 2026 at 22:48:05 UTC, which is Tuesday October 27 at 5:48:05 p.m. America/Chicago (CDT). Verified October28 UTC while still October27 evening in Mississippi. Exact closure start and reopening time are not given; copy reports the timestamped notice, not independently asserts present road status.",
+      "locality": "West Reynolds Street between Main Street and the NMMC Wellness Center in Pontotoc, Mississippi. The Wellness Center is at 38 West Reynolds Street.",
+      "identities": "Pontotoc County Chamber Main Street is the publisher of the reported alert. North Mississippi Health Services is the facility-directory publisher. No utility owner, repair company, cause of damage, injured person or allegation is identified or inferred.",
+      "statistics": "Published 5:48 p.m. CDT Tuesday October 27, 2026; this is notice time, not independently established closure-start time."
+    },
+    {
+      "id": "f2",
+      "statement": "The notice attributes closure to a damaged utility pole and lines, says repairs will take several hours and provides no reopening time.",
+      "source_ids": [
+        "alert"
+      ],
+      "evidence": "Full caption says damaged utility pole and lines and crews on scene for several hours to perform repairs. No deadline, detour, outage size, injuries or cause given. Latest Chamber feed rechecked during preparation; no reopening update found. No reopening or continued-closure guarantee asserted.",
+      "date_context": "Chamber notice published October 27, 2026 at 22:48:05 UTC, which is Tuesday October 27 at 5:48:05 p.m. America/Chicago (CDT). Verified October28 UTC while still October27 evening in Mississippi. Exact closure start and reopening time are not given; copy reports the timestamped notice, not independently asserts present road status.",
+      "locality": "West Reynolds Street between Main Street and the NMMC Wellness Center in Pontotoc, Mississippi. The Wellness Center is at 38 West Reynolds Street.",
+      "identities": "Pontotoc County Chamber Main Street is the publisher of the reported alert. North Mississippi Health Services is the facility-directory publisher. No utility owner, repair company, cause of damage, injured person or allegation is identified or inferred.",
+      "statistics": "Several hours is the notice’s estimate, not a calculated completion time."
+    },
+    {
+      "id": "f3",
+      "statement": "NMHS lists the Pontotoc Wellness Center at 38 West Reynolds Street; readers can check the Chamber alert for updates before using the reported affected section.",
+      "source_ids": [
+        "location",
+        "alert"
+      ],
+      "evidence": "Official facility page identifies North Mississippi Wellness Center-Pontotoc, 38 West Reynolds Street, Pontotoc MS38863. Exact public URL returned HTTP200 without redirect using default transport request. Facility hours and operations are not inferred from the road notice.",
+      "date_context": "Chamber notice published October 27, 2026 at 22:48:05 UTC, which is Tuesday October 27 at 5:48:05 p.m. America/Chicago (CDT). Verified October28 UTC while still October27 evening in Mississippi. Exact closure start and reopening time are not given; copy reports the timestamped notice, not independently asserts present road status.",
+      "locality": "West Reynolds Street between Main Street and the NMMC Wellness Center in Pontotoc, Mississippi. The Wellness Center is at 38 West Reynolds Street.",
+      "identities": "Pontotoc County Chamber Main Street is the publisher of the reported alert. North Mississippi Health Services is the facility-directory publisher. No utility owner, repair company, cause of damage, injured person or allegation is identified or inferred.",
+      "statistics": "38 West Reynolds Street, public facility address."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc County Chamber Main Street reported a partial closure of West Reynolds Street at 5:48 p.m. Tuesday, Oct. 27, after damage to a utility pole and lines. Its notice identifies the affected section as the stretch from Main Street to the NMMC Wellness Center.",
+      "fact_ids": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "text": "The Chamber said crews would remain on scene for several hours to make repairs. The notice did not provide a reopening time; this report reflects that Tuesday evening announcement.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "North Mississippi Health Services lists the Pontotoc Wellness Center at 38 West Reynolds Street. Drivers planning to use the affected section should check the Chamber’s original alert, linked below, for updates before heading through the area.",
+      "fact_ids": [
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/west-reynolds-street-closure-pontotoc-october-27-2026.jpg",
+    "sha256": "dc3751a3d477d949c86cb47e6b98f1be03a21293f17ad226bbdf5f44b9fb139d",
+    "alt_text": "Original traffic graphic identifying the reported West Reynolds Street closure from Main Street to NMMC Wellness Center.",
+    "credit": "Pontotoc News original editorial graphic",
+    "rights": "owned",
+    "rights_reference": "Original opaque RGB typography, geometric panel and rules created locally with Pillow and macOS Arial. No third-party photos, logos, maps or people reproduced. Actual source damage photograph inspected as evidence only."
+  },
+  "review": {
+    "reviewer": "Codex October 27 nightly editorial review",
+    "reviewed_at": "2026-10-28T00:31:36.161522+00:00",
+    "decision": "publish",
+    "checks": {
+      "public_facts_only": true,
+      "identities": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "dates": true,
+      "statistics": true,
+      "no_invented_quotes_or_context": true,
+      "locality": true,
+      "image_rights": true,
+      "coherent_prose": true,
+      "source_support": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s recurring publication authority and October27 nightly delegation authorize important new verified local public-service coverage. This timestamped traffic notice is new since afternoon; publish only after offline checks, authenticated all-status/source-event dry-run and final editorial/image review."
+  }
+}
