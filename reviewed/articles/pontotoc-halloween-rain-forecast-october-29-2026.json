@@ -4,38 +4,18 @@
     "ms:pontotoc:nws:2026-10-29:halloween-point-forecast"
   ],
   "title": "Pontotoc Halloween forecast: rain chances rise Saturday night",
-  "excerpt": "Thursday’s NWS point forecast puts rain chances at 30% Saturday, 60% Saturday night and 50% Sunday. These are full-period forecasts, not exact outing times.",
-  "locality": "NWS point34.2473,-89.0087 in Pontotoc Mississippi,gridMEG82,28,timezoneAmerica/Chicago; not a countywide rainfall guarantee.",
+  "excerpt": "Thursday’s NWS county forecast puts rain chances at 30% Saturday, 60% Saturday night and 50% Sunday. These cover full periods, not exact outing times.",
+  "locality": "Pontotoc County, Mississippi, NWS forecast zone MSZ015, including the city of Pontotoc.",
   "sources": [
     {
-      "id": "forecast",
-      "url": "https://api.weather.gov/gridpoints/MEG/82,28/forecast",
-      "verification_url": "https://api.weather.gov/gridpoints/MEG/82,28/forecast",
+      "id": "dated",
+      "url": "https://api.weather.gov/products/081bfa3f-b3d5-4b9e-8a47-b091c3813946",
+      "verification_url": "https://api.weather.gov/products/081bfa3f-b3d5-4b9e-8a47-b091c3813946",
       "role": "event",
-      "title": "NWS Pontotoc point forecast: Saturday through Sunday periods",
-      "publisher": "National Weather Service",
-      "published_at": "2026-10-29T11:15:41Z",
-      "verified_at": "2026-10-29T14:09:06.684370+00:00"
-    },
-    {
-      "id": "point",
-      "url": "https://api.weather.gov/points/34.2473,-89.0087",
-      "verification_url": "https://api.weather.gov/points/34.2473,-89.0087",
-      "role": "background",
-      "title": "NWS point metadata identifying Pontotoc and the forecast grid",
-      "publisher": "National Weather Service",
-      "published_at": null,
-      "verified_at": "2026-10-29T14:09:06.684370+00:00"
-    },
-    {
-      "id": "regional",
-      "url": "https://www.facebook.com/373092268193391/posts/1547016694134270",
-      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vdUpJ5VAA1j.rss",
-      "role": "event",
-      "title": "NWS October28 evening regional weekend rain update",
+      "title": "NWS October 29 zone forecast: Pontotoc County section, 9:05 a.m. CDT",
       "publisher": "National Weather Service Memphis",
-      "published_at": "2026-10-29T01:23:08Z",
-      "verified_at": "2026-10-29T14:09:06.684370+00:00"
+      "published_at": "2026-10-29T14:06:00+00:00",
+      "verified_at": "2026-10-29T14:24:32.701344+00:00"
     },
     {
       "id": "earlier",
@@ -51,76 +31,73 @@
   "facts": [
     {
       "id": "w1",
-      "statement": "Thursday morning’s Pontotoc point forecast gives30%rainchanceSaturday,60%Saturdaynight,50%Sunday; high78F,low58F,high72F respectively.",
+      "statement": "The9:05amOct29PontotocCountyforecastgives30%rainSaturday,60%Saturdaynight,50%Sunday.",
       "source_ids": [
-        "forecast",
-        "point"
+        "dated"
       ],
-      "evidence": "Full JSON read. SaturdaydetailedForecast30% (unroundednumeric28),SaturdayNightdetailed60%(numeric59),Sunday50%. Copy follows NWSroundedprose. Period temperatures78F,58F,72F. PointmetadataidentifiesPontotocMS. Probabilities applywholeperiods, notexacttrick-or-treathours.",
-      "date_context": "NWS forecastupdateTime2026-10-29T11:15:41Z=6:15:41amCDTThursday, retrieved9:05amCDT. SaturdayOct31day6am–6pmCDT; SaturdaynightOct31,6pmCDT–Nov1,6amCST spans fallback. SundayNov1day6am–6pmCST. Temperatures updated from parent’s older lead. Broadperiods not preciseHalloween eveningtiming.",
-      "locality": "NWS point34.2473,-89.0087 in Pontotoc Mississippi,gridMEG82,28,timezoneAmerica/Chicago; not a countywide rainfall guarantee.",
-      "identities": "National Weather Service Memphis. Point metadata explicitly cityPontotoc,stateMS; noindividuals, event cancellations or local drought relief asserted.",
-      "statistics": "30%,60%,50% officialdetailedforecastprobabilities;78FdaySat,58FnightSat,72FdaySun."
+      "evidence": "CompleteuniqueofficialZoneForecastProductread,headerMSZ015-292200,Pontotoc,includingcityofPontotoc,905AMCDTThuOct292026. ThreeperiodsexplicitChanceofrain30/60/50percent. Recordisindependentlyissuedanddated,notqueryaliasforthegenericAPIURLwhichguardfoundinolderOct11/23/24stories.",
+      "date_context": "OfficialNWSuniqueproduct081bfa3f-b3d5-4b9e-8a47-b091c3813946,APIissuanceTime2026-10-29T14:06Z;Pontotocsectionprinted905AMCDTThuOct29,2026. SaturdayOct31,Halloween;SundayNov1. Periodprobabilitiesnotexactoutinghours. Thisindependentdatedcountyrecordsupersedesheld6:15ampointpackage;oldAPIprimarynotreclassifiedoraliased. Sameimmutableeventkeysretained.",
+      "locality": "Pontotoc County, Mississippi, NWS forecast zone MSZ015, including the city of Pontotoc.",
+      "identities": "National Weather Service Memphis; completeMSZ015sectionexplicitPontotocincludingcityofPontotoc. No individual, private data, drought relief, rainfall amount or event cancellation asserted.",
+      "statistics": "30%Saturday,60%Saturdaynight,50%Sunday;fullforecastperiods."
     },
     {
       "id": "w2",
-      "statement": "NWS forecasts achanceofshowersSaturdayandshowers/thunderstormslikelySaturdaynight, withachanceofshowers/thunderstormsSunday.",
+      "statement": "CountyforecastcallsforSaturdayhighsupper70s,Saturdaynightlowsupper50s,Sundayhighslower70s;showerspossibleSaturday,likelySaturdaynightwithslightthunderstormchance,andpossibleSunday.",
       "source_ids": [
-        "forecast",
-        "regional"
+        "dated"
       ],
-      "evidence": "Point full descriptions read; exact hourbefore/after1am deliberately notpromoted as certainty. Original two regionalgraphics inspected; latestWednesday8:03pmgraphic saysrainincreaseslateSaturday/earlySunday, doesnotlistPontotocrowsoTupelopercentagesnotassignedtoPontotoc. No1inchlocalguarantee or droughtreliefclaim.",
-      "date_context": "NWS forecastupdateTime2026-10-29T11:15:41Z=6:15:41amCDTThursday, retrieved9:05amCDT. SaturdayOct31day6am–6pmCDT; SaturdaynightOct31,6pmCDT–Nov1,6amCST spans fallback. SundayNov1day6am–6pmCST. Temperatures updated from parent’s older lead. Broadperiods not preciseHalloween eveningtiming.",
-      "locality": "NWS point34.2473,-89.0087 in Pontotoc Mississippi,gridMEG82,28,timezoneAmerica/Chicago; not a countywide rainfall guarantee.",
-      "identities": "National Weather Service Memphis. Point metadata explicitly cityPontotoc,stateMS; noindividuals, event cancellations or local drought relief asserted.",
-      "statistics": "None asserted"
+      "evidence": "ReadentirePontotocsection.Saturdaychanceafternoonshowersupper70s.Saturdaynightchanceeveningshowers,showerslikelywithslightthunderchanceaftermidnight,upper50s.Sundayshowers/slightthunderchanceMorningandlessshoweryAfternoon,lower70s. Articleomitsfinehourprecisionsanddoesnotcallthunderstormslikely;oldpoint78/58/72replacedbynewrecordranges.",
+      "date_context": "OfficialNWSuniqueproduct081bfa3f-b3d5-4b9e-8a47-b091c3813946,APIissuanceTime2026-10-29T14:06Z;Pontotocsectionprinted905AMCDTThuOct29,2026. SaturdayOct31,Halloween;SundayNov1. Periodprobabilitiesnotexactoutinghours. Thisindependentdatedcountyrecordsupersedesheld6:15ampointpackage;oldAPIprimarynotreclassifiedoraliased. Sameimmutableeventkeysretained.",
+      "locality": "Pontotoc County, Mississippi, NWS forecast zone MSZ015, including the city of Pontotoc.",
+      "identities": "National Weather Service Memphis; completeMSZ015sectionexplicitPontotocincludingcityofPontotoc. No individual, private data, drought relief, rainfall amount or event cancellation asserted.",
+      "statistics": "Upper70sSaturday,upper50sSaturdaynight,lower70sSunday;forecastnotobservedreadings."
     },
     {
       "id": "w3",
-      "statement": "Thursday/Friday point forecast remains dry,withhighsnear80F/81F; weekendforecastisoutlooksubjecttochange.",
+      "statement": "ThursdayandFridaycountyforecastdrywithhighsaround80/lower80s;fullperiodprobabilitiesareforecastsnotexactHalloweenoutingtiming.",
       "source_ids": [
-        "forecast"
+        "dated"
       ],
-      "evidence": "TodaySun80Fand0%FridaymostlySunny81Fand0% verifiedfromfullJSON. As-of-qualifiedcopy,cautionsperiodprobabilitiesnotassuranceforparticulareveninghour. Noobservedweather, advisory, burnbanstatus oraccumulationassertion.",
-      "date_context": "NWS forecastupdateTime2026-10-29T11:15:41Z=6:15:41amCDTThursday, retrieved9:05amCDT. SaturdayOct31day6am–6pmCDT; SaturdaynightOct31,6pmCDT–Nov1,6amCST spans fallback. SundayNov1day6am–6pmCST. Temperatures updated from parent’s older lead. Broadperiods not preciseHalloween eveningtiming.",
-      "locality": "NWS point34.2473,-89.0087 in Pontotoc Mississippi,gridMEG82,28,timezoneAmerica/Chicago; not a countywide rainfall guarantee.",
-      "identities": "National Weather Service Memphis. Point metadata explicitly cityPontotoc,stateMS; noindividuals, event cancellations or local drought relief asserted.",
-      "statistics": "80FThursday,81FFriday pointforecasthighs; notmeasuredtemperatures."
+      "evidence": "RestofTodaySunnyhighsaround80;FridaymostlySunnyhighslower80s.CompletePontotocforecastnohour-specificguaranteesorrainfallaccumulationprovided. As-ofqualifiedcopyandsourceallowsreaderfollowup.",
+      "date_context": "OfficialNWSuniqueproduct081bfa3f-b3d5-4b9e-8a47-b091c3813946,APIissuanceTime2026-10-29T14:06Z;Pontotocsectionprinted905AMCDTThuOct29,2026. SaturdayOct31,Halloween;SundayNov1. Periodprobabilitiesnotexactoutinghours. Thisindependentdatedcountyrecordsupersedesheld6:15ampointpackage;oldAPIprimarynotreclassifiedoraliased. Sameimmutableeventkeysretained.",
+      "locality": "Pontotoc County, Mississippi, NWS forecast zone MSZ015, including the city of Pontotoc.",
+      "identities": "National Weather Service Memphis; completeMSZ015sectionexplicitPontotocincludingcityofPontotoc. No individual, private data, drought relief, rainfall amount or event cancellation asserted.",
+      "statistics": "Around80Thursday;lower80sFriday. No rain amount,droughtrelief,warning,burnbanclaim."
     }
   ],
   "paragraphs": [
     {
-      "text": "Rain chances increase for Pontotoc over the Halloween weekend, with the National Weather Service’s Thursday morning point forecast putting the chance at 30% Saturday, 60% Saturday night and 50% Sunday. The forecast was updated at 6:15 a.m. CDT Oct. 29.",
+      "text": "Rain chances increase for Pontotoc County over the Halloween weekend, with the National Weather Service’s Thursday morning county forecast putting the chance at 30% Saturday, 60% Saturday night and 50% Sunday. The Pontotoc section of the dated forecast is marked 9:05 a.m. CDT Oct. 29.",
       "fact_ids": [
         "w1"
       ]
     },
     {
-      "text": "For Halloween on Saturday, Oct. 31, the forecast calls for a high near 78 degrees and a chance of showers. Showers and thunderstorms are likely Saturday night, with a low around 58. Sunday’s outlook includes a chance of showers and thunderstorms and a high near 72.",
+      "text": "For Halloween on Saturday, Oct. 31, the forecast calls for highs in the upper 70s and a chance of showers. Showers are likely Saturday night, with a slight chance of thunderstorms and lows in the upper 50s. Sunday’s outlook includes a chance of showers, a slight chance of thunderstorms and highs in the lower 70s.",
       "fact_ids": [
-        "w1",
         "w2"
       ]
     },
     {
-      "text": "Thursday and Friday remain dry in the point forecast, with highs near 80 and 81 degrees, respectively. The weekend percentages cover full forecast periods and do not establish exactly when rain will fall during any particular Halloween outing. Check the linked NWS forecast again as plans approach.",
+      "text": "Thursday and Friday remain dry in the county forecast, with highs around 80 and in the lower 80s, respectively. The weekend percentages cover full forecast periods and do not establish exactly when rain will fall during any particular Halloween outing. The dated NWS forecast and earlier local weather coverage are linked below.",
       "fact_ids": [
-        "w3",
-        "w1"
+        "w1",
+        "w3"
       ]
     }
   ],
   "image": {
     "path": "reviewed/assets/pontotoc-halloween-rain-forecast-october-29-2026.jpg",
-    "sha256": "d019462734f30508bc3fd5b7f62ba5b8e5441a0cf1ecab349941d4a0a8935a17",
-    "alt_text": "Original forecast graphic comparing Pontotoc rain chances: Saturday 30%, Saturday night 60% and Sunday 50%, as of October 29 morning.",
+    "sha256": "ea81d81842265d0abd1213ba3a80ea581c9ce7ebc2def59be4f769a3090c3768",
+    "alt_text": "Original county forecast graphic comparing Pontotoc rain chances: Saturday 30%, Saturday night 60% and Sunday 50%, as of October 29 morning.",
     "credit": "Pontotoc News original editorial graphic",
     "rights": "owned",
     "rights_reference": "Original opaque RGB typography and geometric panel created locally with Pillow and macOS Arial. No source art, photos, maps, logos or people reproduced. Actual source graphics inspected as evidence only."
   },
   "review": {
     "reviewer": "Codex October29 morning editorial review",
-    "reviewed_at": "2026-10-29T14:09:06.684370+00:00",
+    "reviewed_at": "2026-10-29T14:24:32.701344+00:00",
     "decision": "publish",
     "checks": {
       "locality": true,
