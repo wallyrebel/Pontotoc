@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-middle-family-campfire-evening-october-29-2026.json",
+  "article_sha256": "3a30c82dffcce1f626375b62fb29c3668b6414ed6a0ea1ca0e1a6597f3c35de9",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-middle-family-campfire-evening-october-29-2026",
+  "seo_review": {
+    "reviewer": "Codex October29 morning editorial review",
+    "reviewed_at": "2026-10-29T14:09:06.684370+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "relevant_accessible_alt": true,
+      "canonical_and_source_links": true,
+      "accurate_concise_description": true
+    }
+  }
+}

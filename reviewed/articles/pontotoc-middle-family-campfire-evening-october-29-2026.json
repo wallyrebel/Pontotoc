@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc-middle:2026-10-29:family-campfire-evening"
+  ],
+  "title": "Pontotoc Middle family campfire evening set for 4–6 p.m. Thursday",
+  "excerpt": "The Oct. 29 event is for fifth- and sixth-grade students and families. Students go home after school, then return with family; bring a chair.",
+  "locality": "Pontotoc Middle School sixth-grade break area, Pontotoc City School District, Pontotoc Mississippi.",
+  "sources": [
+    {
+      "id": "notice",
+      "url": "https://pms.pontotoc.school/apps/news/article/2242296?categoryId=17398",
+      "verification_url": "https://pms.pontotoc.school/apps/news/article/2242296?categoryId=17398",
+      "role": "event",
+      "title": "Pontotoc Middle School’s family campfire evening notice",
+      "publisher": "Pontotoc Middle School",
+      "published_at": null,
+      "verified_at": "2026-10-29T14:09:06.684370+00:00"
+    },
+    {
+      "id": "flyer",
+      "url": "https://3.files.edl.io/b7be/26/10/09/182418-56f4aad9-8e16-42c1-8ec4-416023dd39c5.png",
+      "verification_url": "https://3.files.edl.io/b7be/26/10/09/182418-56f4aad9-8e16-42c1-8ec4-416023dd39c5.png",
+      "role": "event",
+      "title": "Original school flyer: October29,4–6pm and sixth-grade break area",
+      "publisher": "Pontotoc Middle School",
+      "published_at": null,
+      "verified_at": "2026-10-29T14:09:06.684370+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "c1",
+      "statement": "The school schedules its Family Campfire Evening Thursday October29,2026,4–6pm in the sixth-grade break area for fifth-/sixth-grade students and families.",
+      "source_ids": [
+        "notice",
+        "flyer"
+      ],
+      "evidence": "Full school notice and actual619x800originalPNG pixels read. Flyer explicitly Thursday October29,2026,4:00–6:00pm,PontotocMiddleSchool6thGradeBreakArea; audience5th&6thgradestudentsandfamilies. Bothdefaultrequestsreturned200. No date/time/venue inferred from page footer.",
+      "date_context": "Graphic explicitly Thursday October29,2026,4:00–6:00pm; verified Thursday morningOct29. School article labeled(10/9), exact publication timestamp not established=null. School calendar read viaweb shows10/29/2026 but defaultrequest403; not retried and not an intake source. Date,time,year,venue independently explicit on linked original school graphic.",
+      "locality": "Pontotoc Middle School sixth-grade break area, Pontotoc City School District, Pontotoc Mississippi.",
+      "identities": "Pontotoc Middle School is the publisher and host. Audience fifth- and sixth-grade students and their families; no minor names, identity inference or source artwork reused. Event name does not assert permission for open burning or actual fire operation.",
+      "statistics": "Grades5and6;4–6pm ThursdayOct29,2026."
+    },
+    {
+      "id": "c2",
+      "statement": "Activities listed are s’mores, roasted marshmallows, hot chocolate, music, relay games and spooky stories.",
+      "source_ids": [
+        "notice",
+        "flyer"
+      ],
+      "evidence": "Both full notice and flyer list these six activities. No admission charge, registration requirement, unrestricted public invitation or fire-policy exception is asserted.",
+      "date_context": "Graphic explicitly Thursday October29,2026,4:00–6:00pm; verified Thursday morningOct29. School article labeled(10/9), exact publication timestamp not established=null. School calendar read viaweb shows10/29/2026 but defaultrequest403; not retried and not an intake source. Date,time,year,venue independently explicit on linked original school graphic.",
+      "locality": "Pontotoc Middle School sixth-grade break area, Pontotoc City School District, Pontotoc Mississippi.",
+      "identities": "Pontotoc Middle School is the publisher and host. Audience fifth- and sixth-grade students and their families; no minor names, identity inference or source artwork reused. Event name does not assert permission for open burning or actual fire operation.",
+      "statistics": "None asserted"
+    },
+    {
+      "id": "c3",
+      "statement": "Students should go home after school as usual and return with family; families are encouraged to bring a chair.",
+      "source_ids": [
+        "notice",
+        "flyer"
+      ],
+      "evidence": "Original notice expressly saysstudentswillnotstayafterschool,gohomeasusualandreturnwithfamilies. Flyer repeats studentsgohomeafter schoolandreturnwithfamilies andBringachair. Notransportationorsupervisionarrangementsinvented.",
+      "date_context": "Graphic explicitly Thursday October29,2026,4:00–6:00pm; verified Thursday morningOct29. School article labeled(10/9), exact publication timestamp not established=null. School calendar read viaweb shows10/29/2026 but defaultrequest403; not retried and not an intake source. Date,time,year,venue independently explicit on linked original school graphic.",
+      "locality": "Pontotoc Middle School sixth-grade break area, Pontotoc City School District, Pontotoc Mississippi.",
+      "identities": "Pontotoc Middle School is the publisher and host. Audience fifth- and sixth-grade students and their families; no minor names, identity inference or source artwork reused. Event name does not assert permission for open burning or actual fire operation.",
+      "statistics": "None asserted"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc Middle School has scheduled its Family Campfire Evening for 4–6 p.m. Thursday, Oct. 29, in the school’s sixth-grade break area. The event is for fifth- and sixth-grade students and their families.",
+      "fact_ids": [
+        "c1"
+      ]
+    },
+    {
+      "text": "The school’s announcement lists s’mores, roasted marshmallows, hot chocolate, music, relay games and spooky stories. It describes the evening as a chance for parents and teachers to spend time together.",
+      "fact_ids": [
+        "c2"
+      ]
+    },
+    {
+      "text": "Students should go home after school as usual and return with their families for the event. Families are encouraged to bring a chair. The school’s full notice and flyer are linked below.",
+      "fact_ids": [
+        "c3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-middle-family-campfire-evening-october-29-2026.jpg",
+    "sha256": "04ebabd18e5ddcc3c72dfb408de7ffc7b55fa675ab5287f98c53a66ed0b05e04",
+    "alt_text": "Original school-event graphic showing 4–6 p.m. October 29 at Pontotoc Middle’s sixth-grade break area for fifth- and sixth-grade families.",
+    "credit": "Pontotoc News original editorial graphic",
+    "rights": "owned",
+    "rights_reference": "Original opaque RGB typography and geometric panel created locally with Pillow and macOS Arial. No source art, photos, maps, logos or people reproduced. Actual source graphics inspected as evidence only."
+  },
+  "review": {
+    "reviewer": "Codex October29 morning editorial review",
+    "reviewed_at": "2026-10-29T14:09:06.684370+00:00",
+    "decision": "publish",
+    "checks": {
+      "locality": true,
+      "statistics": true,
+      "identities": true,
+      "public_facts_only": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "image_rights": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "dates": true,
+      "no_invented_quotes_or_context": true
+    },
+    "headline_fact_ids": [
+      "c1"
+    ],
+    "excerpt_fact_ids": [
+      "c1",
+      "c3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s October29 morning recurring publication authority: useful distinct verified local public-facts coverage, bounded article/image/request files; successful offline and authenticated all-status/source-event dry-run, final editorial/image review, then serialized digest-bound publish. No allegations or private sensitive material."
+  }
+}
