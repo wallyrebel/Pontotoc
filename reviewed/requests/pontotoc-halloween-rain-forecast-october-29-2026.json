@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-halloween-rain-forecast-october-29-2026.json",
+  "article_sha256": "00339c59eb198129bd5ffeff63e76ad1073d96f1138a3c53c948f9c15857a073",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-halloween-rain-forecast-october-29-2026",
+  "seo_review": {
+    "reviewer": "Codex October29 morning editorial review",
+    "reviewed_at": "2026-10-29T14:09:06.684370+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "relevant_accessible_alt": true,
+      "canonical_and_source_links": true,
+      "accurate_concise_description": true
+    }
+  }
+}
