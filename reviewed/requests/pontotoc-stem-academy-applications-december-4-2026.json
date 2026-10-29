@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-stem-academy-applications-december-4-2026.json",
+  "article_sha256": "54bd5a0b5599749719f6de58a877b2a099549b196c702f352372ebd9d1e42805",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-stem-academy-applications-december-4-2026",
+  "seo_review": {
+    "reviewer": "Codex October29 afternoon editorial review",
+    "reviewed_at": "2026-10-29T21:06:15.254271+00:00",
+    "checks": {
+      "relevant_accessible_alt": true,
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "canonical_and_source_links": true,
+      "no_keyword_stuffing": true,
+      "descriptive_slug": true
+    }
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:phs:2026-10-28:2027-appalachian-stem-applications"
+  ],
+  "title": "Pontotoc students can apply for funded STEM academy by Dec. 4",
+  "excerpt": "Pontotoc High School shared the summer 2027 Oak Ridge opportunity. ARC covers travel, lodging and program costs; applications close Dec. 4, 2026.",
+  "locality": "Pontotoc County, Mississippi applicants; residential academy at ORAU in Oak Ridge, Tennessee. This is an opportunity, not a local selection or award.",
+  "sources": [
+    {
+      "id": "school",
+      "url": "https://phs.pontotoc.school/apps/news/article/2249294?categoryId=17400",
+      "verification_url": "https://phs.pontotoc.school/apps/news/article/2249294?categoryId=17400",
+      "role": "event",
+      "title": "Pontotoc High School: Appalachian STEM Academies notice",
+      "publisher": "Pontotoc High School",
+      "published_at": null,
+      "verified_at": "2026-10-29T21:06:15.254271+00:00"
+    },
+    {
+      "id": "release",
+      "url": "https://www.arc.gov/news/summer-learning-opportunities-2027/",
+      "verification_url": "https://www.arc.gov/news/summer-learning-opportunities-2027/",
+      "role": "event",
+      "title": "ARC’s October 8 announcement for summer 2027 applications",
+      "publisher": "Appalachian Regional Commission",
+      "published_at": null,
+      "verified_at": "2026-10-29T21:06:15.254271+00:00"
+    },
+    {
+      "id": "program",
+      "url": "https://www.arc.gov/academies-and-institutes/stem/",
+      "verification_url": "https://www.arc.gov/academies-and-institutes/stem/",
+      "role": "event",
+      "title": "STEM Academy dates, deadline, costs and application link",
+      "publisher": "Appalachian Regional Commission",
+      "published_at": null,
+      "verified_at": "2026-10-29T21:06:15.254271+00:00"
+    },
+    {
+      "id": "apply",
+      "url": "https://my.reviewr.com/s2/site/2027_Appalachian_STEM_Academy",
+      "verification_url": "https://my.reviewr.com/s2/site/2027_Appalachian_STEM_Academy",
+      "role": "event",
+      "title": "Apply for the 2027 Appalachian STEM Academy",
+      "publisher": "Appalachian Regional Commission via Reviewr",
+      "published_at": null,
+      "verified_at": "2026-10-29T21:06:15.254271+00:00"
+    },
+    {
+      "id": "counties",
+      "url": "https://www.arc.gov/appalachian-counties-served-by-arc/",
+      "verification_url": "https://www.arc.gov/appalachian-counties-served-by-arc/",
+      "role": "background",
+      "title": "ARC counties list includes Pontotoc County, Mississippi",
+      "publisher": "Appalachian Regional Commission",
+      "published_at": null,
+      "verified_at": "2026-10-29T21:06:15.254271+00:00"
+    },
+    {
+      "id": "related",
+      "url": "https://pontotocnews.com/pontotoc-news/pontotoc-county-schools-toyota-wellspring-grant-october-2026/",
+      "verification_url": "https://pontotocnews.com/pontotoc-news/pontotoc-county-schools-toyota-wellspring-grant-october-2026/",
+      "role": "background",
+      "title": "Related local education coverage: county schools’ Toyota Wellspring grant",
+      "publisher": "Pontotoc News",
+      "published_at": null,
+      "verified_at": "2026-10-29T21:06:15.254271+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "s1",
+      "statement": "Pontotoc High School shared the summer STEM opportunity October28; ARC applications close December4,2026 and Pontotoc County is an Appalachian county.",
+      "source_ids": [
+        "school",
+        "release",
+        "counties"
+      ],
+      "evidence": "Full school notice, October8 ARC release and counties list read; Mississippi list expressly includes Pontotoc. Three public semantic searches returned zero prior Appalachian/STEM Academy/Oak Ridge articles. Eligibility is not an admission guarantee.",
+      "date_context": "School notice marked (10/28), no exact timestamp established. ARC release expressly dated October8,2026; program and application explicitly summer2027 and December4,2026 deadline. Published_at=null rather than inventing a clock time. Verified October29 afternoon.",
+      "locality": "Pontotoc County, Mississippi applicants; residential academy at ORAU in Oak Ridge, Tennessee. This is an opportunity, not a local selection or award.",
+      "identities": "Pontotoc High School shared the notice; Appalachian Regional Commission administers the academy hosted by Oak Ridge Associated Universities. No selected local participants or awards asserted. No private/minor identities or quotes.",
+      "statistics": "December4,2026 application deadline; October28 school label."
+    },
+    {
+      "id": "s2",
+      "statement": "Academy covers roundtrip travel, lodging, meals, supplies and extracurricular activities; incidental expenses/souvenirs require extra personal money and program is subject to available funding.",
+      "source_ids": [
+        "program",
+        "release"
+      ],
+      "evidence": "Current ARC landing page lists five covered cost categories, extra incidental/souvenir money and available-funding condition. Avoid unconditional all-expenses language from brief school notice.",
+      "date_context": "School notice marked (10/28), no exact timestamp established. ARC release expressly dated October8,2026; program and application explicitly summer2027 and December4,2026 deadline. Published_at=null rather than inventing a clock time. Verified October29 afternoon.",
+      "locality": "Pontotoc County, Mississippi applicants; residential academy at ORAU in Oak Ridge, Tennessee. This is an opportunity, not a local selection or award.",
+      "identities": "Pontotoc High School shared the notice; Appalachian Regional Commission administers the academy hosted by Oak Ridge Associated Universities. No selected local participants or awards asserted. No private/minor identities or quotes.",
+      "statistics": "None asserted"
+    },
+    {
+      "id": "s3",
+      "statement": "Middle-school sessions are July10–16 and July17–23,2027; high-school students and teachers attend July10–23,2027.",
+      "source_ids": [
+        "program",
+        "release"
+      ],
+      "evidence": "2027 dates agree in dated ARC release, ARC current landing and ORAU student pages. ORAU teacher detail still displays2026, bridge page has conflicting enddate; neither stale detail used for 2027 scheduling.",
+      "date_context": "School notice marked (10/28), no exact timestamp established. ARC release expressly dated October8,2026; program and application explicitly summer2027 and December4,2026 deadline. Published_at=null rather than inventing a clock time. Verified October29 afternoon.",
+      "locality": "Pontotoc County, Mississippi applicants; residential academy at ORAU in Oak Ridge, Tennessee. This is an opportunity, not a local selection or award.",
+      "identities": "Pontotoc High School shared the notice; Appalachian Regional Commission administers the academy hosted by Oak Ridge Associated Universities. No selected local participants or awards asserted. No private/minor identities or quotes.",
+      "statistics": "Two one-week middle-school sessions; two-week high-school/teacher session in July2027."
+    },
+    {
+      "id": "s4",
+      "statement": "Current grades6–8 can apply for middle-school program; current grades9–11 must be16byJuly10,2027 for high-school program; STEM high-school teachers can apply; county attendance/residence and other requirements apply.",
+      "source_ids": [
+        "program",
+        "apply",
+        "counties"
+      ],
+      "evidence": "ARC landing and current linked Reviewr application agree on grades/age. Reviewr describes grades9–12 STEM teachers in designated Appalachian county. Pontotoc expressly listed by ARC. No universal eligibility or admission claim.",
+      "date_context": "School notice marked (10/28), no exact timestamp established. ARC release expressly dated October8,2026; program and application explicitly summer2027 and December4,2026 deadline. Published_at=null rather than inventing a clock time. Verified October29 afternoon.",
+      "locality": "Pontotoc County, Mississippi applicants; residential academy at ORAU in Oak Ridge, Tennessee. This is an opportunity, not a local selection or award.",
+      "identities": "Pontotoc High School shared the notice; Appalachian Regional Commission administers the academy hosted by Oak Ridge Associated Universities. No selected local participants or awards asserted. No private/minor identities or quotes.",
+      "statistics": "Grades6–8,grades9–11,age16byJuly10,2027; teacher grades9–12."
+    },
+    {
+      "id": "s5",
+      "statement": "Students undertake guided group STEM projects; high-school students work with Oak Ridge National Laboratory scientists and teachers develop STEM curriculum; application portal and related county-school grant coverage are linked.",
+      "source_ids": [
+        "release",
+        "program",
+        "apply",
+        "related"
+      ],
+      "evidence": "Full ARC dated release describes guided research and curriculum; ARC Apply Here points to exact2027Reviewr page. Related internal article checked public body against immutable package: post6175 Toyota grant, separate program, no relationship between awards asserted.",
+      "date_context": "School notice marked (10/28), no exact timestamp established. ARC release expressly dated October8,2026; program and application explicitly summer2027 and December4,2026 deadline. Published_at=null rather than inventing a clock time. Verified October29 afternoon.",
+      "locality": "Pontotoc County, Mississippi applicants; residential academy at ORAU in Oak Ridge, Tennessee. This is an opportunity, not a local selection or award.",
+      "identities": "Pontotoc High School shared the notice; Appalachian Regional Commission administers the academy hosted by Oak Ridge Associated Universities. No selected local participants or awards asserted. No private/minor identities or quotes.",
+      "statistics": "None asserted"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc students and STEM teachers have until Dec. 4, 2026, to apply for the Appalachian STEM Academy at Oak Ridge, a funded residential program scheduled for summer 2027. Pontotoc High School shared the opportunity in an Oct. 28 notice, and Pontotoc County is included in the Appalachian Regional Commission’s eligible region.",
+      "fact_ids": [
+        "s1",
+        "s4"
+      ]
+    },
+    {
+      "text": "ARC says the program covers roundtrip travel to Oak Ridge, Tennessee, lodging, meals, supplies and extracurricular activities. Participants should bring their own money for incidental expenses or souvenirs. The program is subject to available funding.",
+      "fact_ids": [
+        "s2"
+      ]
+    },
+    {
+      "text": "Middle-school students attend one of two weeklong sessions, July 10–16 or July 17–23, 2027. High-school students and teachers attend July 10–23. The academy is hosted by Oak Ridge Associated Universities.",
+      "fact_ids": [
+        "s3"
+      ]
+    },
+    {
+      "text": "The middle-school program is for current sixth- through eighth-graders. The high-school program is for current ninth- through eleventh-graders who will be at least 16 by July 10, 2027. High-school STEM teachers also have a program. Applicants must meet the relevant Appalachian county and other program requirements; eligibility does not guarantee selection.",
+      "fact_ids": [
+        "s4"
+      ]
+    },
+    {
+      "text": "Students take part in guided group science, math and technology projects. High-school participants work with Oak Ridge National Laboratory scientists, while teachers work with science practitioners on STEM curriculum.",
+      "fact_ids": [
+        "s5"
+      ]
+    },
+    {
+      "text": "The official program overview and 2027 application portal are linked below for families and educators to review the requirements and apply. Related local education coverage includes Pontotoc County schools’ separate Toyota Wellspring grant announcement.",
+      "fact_ids": [
+        "s5"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-stem-academy-applications-december-4-2026.jpg",
+    "sha256": "5979fbd1eeb247518f0fdb6d193a3cc99cd4ef460ce1263ac0d7094a94249df2",
+    "alt_text": "Original education graphic: summer 2027 STEM Academy in Oak Ridge, with applications due December 4, 2026, and travel, lodging, meals and supplies included.",
+    "credit": "Pontotoc News original editorial graphic",
+    "rights": "owned",
+    "rights_reference": "Original RGB typography and geometric panel created locally with Pillow and macOS Arial. No source photographs, logos, maps or people reproduced. Actual 1600x900 featured-image pixels inspected: complete legible text and uncropped panel."
+  },
+  "review": {
+    "reviewer": "Codex October29 afternoon editorial review",
+    "reviewed_at": "2026-10-29T21:06:15.254271+00:00",
+    "decision": "publish",
+    "checks": {
+      "source_support": true,
+      "public_facts_only": true,
+      "no_invented_quotes_or_context": true,
+      "identities": true,
+      "statistics": true,
+      "coherent_prose": true,
+      "image_rights": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "locality": true,
+      "dates": true
+    },
+    "headline_fact_ids": [
+      "s1",
+      "s2"
+    ],
+    "excerpt_fact_ids": [
+      "s1",
+      "s2",
+      "s3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s October29 afternoon recurring authority: publish additional worthwhile distinct verified public-facts local coverage, bounded article/image/request files only, after offline tests, authenticated all-status/source-event dry-run and final editorial/image review. No allegations/private sensitive material."
+  }
+}
