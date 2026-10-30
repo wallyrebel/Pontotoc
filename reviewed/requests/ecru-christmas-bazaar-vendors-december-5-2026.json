@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/ecru-christmas-bazaar-vendors-december-5-2026.json",
+  "article_sha256": "a64448a4768c6338b52317b590d2c3667a16f96f6db416be481bc837ed0919d5",
+  "mode": "dry-run",
+  "public_slug": "ecru-christmas-bazaar-vendors-december-5-2026",
+  "seo_review": {
+    "reviewer": "Codex October 30 morning editorial review",
+    "reviewed_at": "2026-10-30T14:06:38.349439+00:00",
+    "checks": {
+      "accurate_concise_description": true,
+      "meaningful_headline": true,
+      "canonical_and_source_links": true,
+      "no_keyword_stuffing": true,
+      "descriptive_slug": true,
+      "relevant_accessible_alt": true
+    }
+  }
+}

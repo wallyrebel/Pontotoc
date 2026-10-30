@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:ecru:2026-12-05:christmas-bazaar-vendor-registration"
+  ],
+  "title": "Christmas in Ecru bazaar seeks vendors; notices give different deadlines",
+  "excerpt": "The Dec. 5 bazaar advertises 30 vendor places at $25 each. Notices list Nov. 2 and Nov. 10 deadlines; applicants should confirm with organizers.",
+  "locality": "Christmas in Ecru bazaar at Blake Mounce Memorial Park, also called Ecru Park, 154 Central Avenue, Ecru, Mississippi. This is vendor recruitment, not a report of confirmed bookings.",
+  "sources": [
+    {
+      "id": "town",
+      "url": "https://www.facebook.com/1204361708550928/posts/1447590820894681",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7mX75E8w6.rss",
+      "title": "Town of Ecru’s shared vendor notice: November 10 deadline",
+      "publisher": "Town of Ecru / Ecru Community Events",
+      "role": "event",
+      "published_at": "2026-10-30T03:29:00Z",
+      "verified_at": "2026-10-30T14:06:38.349439+00:00"
+    },
+    {
+      "id": "event",
+      "url": "https://www.facebook.com/events/2236262883616671/",
+      "verification_url": "https://www.facebook.com/events/2236262883616671/",
+      "title": "Original Christmas Bazaar event: date, venue and November 2 deadline",
+      "publisher": "Ecru Community Events",
+      "role": "event",
+      "published_at": null,
+      "verified_at": "2026-10-30T14:06:38.349439+00:00"
+    },
+    {
+      "id": "related",
+      "url": "https://pontotocnews.com/pontotoc-news/ecru-trick-or-treat-route-parking-october-27-2026/",
+      "verification_url": "https://pontotocnews.com/pontotoc-news/ecru-trick-or-treat-route-parking-october-27-2026/",
+      "title": "More Ecru community coverage: trick-or-treat route and parking",
+      "publisher": "Pontotoc News",
+      "role": "background",
+      "published_at": null,
+      "verified_at": "2026-10-30T14:06:38.349439+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "e1",
+      "statement": "The Christmas in Ecru bazaar is advertised for December 5, 2026, from 10 a.m. to 2 p.m. CST at Blake Mounce Memorial Park, 154 Central Avenue, Ecru.",
+      "source_ids": [
+        "town",
+        "event"
+      ],
+      "evidence": "The original town share was opened publicly in Chrome. After dismissing a login invitation without signing in, the complete nested announcement was readable. The linked event header explicitly gives Saturday, December 5, 2026, 10 a.m.–2 p.m. CST at Blake Mounce Memorial Park–Ecru Park. Its location information lists 154 Central Avenue, Ecru, Mississippi. A default direct request returned HTTP 200 with only a brief title; the full actual public event was independently read in Chrome, including its expanded description. No source artwork was reused.",
+      "date_context": "The town share is timestamped October 30, 2026, at 03:29 UTC, which is October 29 at 10:29 p.m. CDT. Its full public nested caption and the linked event were read in Chrome without login on October 30 morning. The event header explicitly says December 5, 2026, 10 a.m.–2 p.m. CST. The November 10 and November 2 application deadlines conflict and are both disclosed. No closing hour is supplied.",
+      "locality": "Christmas in Ecru bazaar at Blake Mounce Memorial Park, also called Ecru Park, 154 Central Avenue, Ecru, Mississippi. This is vendor recruitment, not a report of confirmed bookings.",
+      "identities": "The Town of Ecru shared Ecru Community Events’ Christmas in Ecru committee announcement. No individual committee names or personal telephone numbers are reproduced. Readers are directed to the original public notices for committee application contacts.",
+      "statistics": "December 5, 2026; 10 a.m.–2 p.m. CST."
+    },
+    {
+      "id": "e2",
+      "statement": "The announcement advertises 30 vendor places at $25 per vendor.",
+      "source_ids": [
+        "town",
+        "event"
+      ],
+      "evidence": "The full shared caption and expanded event description both advertise 30 vendor spots and $25 per vendor. The article describes advertised capacity rather than asserting that 30 spaces remain unbooked at publication. No admission or acceptance guarantee is made.",
+      "date_context": "The town share is timestamped October 30, 2026, at 03:29 UTC, which is October 29 at 10:29 p.m. CDT. Its full public nested caption and the linked event were read in Chrome without login on October 30 morning. The event header explicitly says December 5, 2026, 10 a.m.–2 p.m. CST. The November 10 and November 2 application deadlines conflict and are both disclosed. No closing hour is supplied.",
+      "locality": "Christmas in Ecru bazaar at Blake Mounce Memorial Park, also called Ecru Park, 154 Central Avenue, Ecru, Mississippi. This is vendor recruitment, not a report of confirmed bookings.",
+      "identities": "The Town of Ecru shared Ecru Community Events’ Christmas in Ecru committee announcement. No individual committee names or personal telephone numbers are reproduced. Readers are directed to the original public notices for committee application contacts.",
+      "statistics": "30 advertised vendor places; $25 per vendor."
+    },
+    {
+      "id": "e3",
+      "statement": "The town’s shared caption gives November 10 as the application-and-payment deadline; the linked event description gives November 2. Applicants should confirm with organizers.",
+      "source_ids": [
+        "town",
+        "event"
+      ],
+      "evidence": "The full caption inside the town’s public share expressly says applications and payment are due November 10. The linked event’s expanded description expressly says November 2. Both were directly read in the same browser session. Neither date is silently selected. The saved town feed contains only Please share, but includes the exact permalink; the full source was read publicly in the browser.",
+      "date_context": "The town share is timestamped October 30, 2026, at 03:29 UTC, which is October 29 at 10:29 p.m. CDT. Its full public nested caption and the linked event were read in Chrome without login on October 30 morning. The event header explicitly says December 5, 2026, 10 a.m.–2 p.m. CST. The November 10 and November 2 application deadlines conflict and are both disclosed. No closing hour is supplied.",
+      "locality": "Christmas in Ecru bazaar at Blake Mounce Memorial Park, also called Ecru Park, 154 Central Avenue, Ecru, Mississippi. This is vendor recruitment, not a report of confirmed bookings.",
+      "identities": "The Town of Ecru shared Ecru Community Events’ Christmas in Ecru committee announcement. No individual committee names or personal telephone numbers are reproduced. Readers are directed to the original public notices for committee application contacts.",
+      "statistics": "Conflicting November 2 and November 10 deadlines; no closing hour asserted."
+    },
+    {
+      "id": "e4",
+      "statement": "The announcement offers applications through the listed committee contacts, accepts cash or checks payable to the Town of Ecru, and says not to deliver applications or vendor fees to Town Hall.",
+      "source_ids": [
+        "town",
+        "event"
+      ],
+      "evidence": "Both complete notices agree that prospective vendors can request an application through the listed committee contacts. They accept cash and checks payable to the Town of Ecru and expressly say not to take applications or fees to Town Hall. No application, message, comment or payment was submitted, and no personal contact information is published.",
+      "date_context": "The town share is timestamped October 30, 2026, at 03:29 UTC, which is October 29 at 10:29 p.m. CDT. Its full public nested caption and the linked event were read in Chrome without login on October 30 morning. The event header explicitly says December 5, 2026, 10 a.m.–2 p.m. CST. The November 10 and November 2 application deadlines conflict and are both disclosed. No closing hour is supplied.",
+      "locality": "Christmas in Ecru bazaar at Blake Mounce Memorial Park, also called Ecru Park, 154 Central Avenue, Ecru, Mississippi. This is vendor recruitment, not a report of confirmed bookings.",
+      "identities": "The Town of Ecru shared Ecru Community Events’ Christmas in Ecru committee announcement. No individual committee names or personal telephone numbers are reproduced. Readers are directed to the original public notices for committee application contacts.",
+      "statistics": "None asserted"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Organizers are seeking vendors for the Christmas in Ecru bazaar, scheduled for 10 a.m.–2 p.m. Saturday, Dec. 5, at Blake Mounce Memorial Park, also known as Ecru Park, at 154 Central Ave. The announcement advertises 30 vendor places at $25 each.",
+      "fact_ids": [
+        "e1",
+        "e2"
+      ]
+    },
+    {
+      "text": "Vendors should confirm the application deadline with organizers before making arrangements. The notice shared by the Town of Ecru says applications and payment are due Nov. 10, while the linked event’s description gives Nov. 2. The two published notices currently disagree.",
+      "fact_ids": [
+        "e3"
+      ]
+    },
+    {
+      "text": "The announcement directs prospective vendors to the Christmas in Ecru committee contacts listed in the original notice to request an application or ask questions. It says cash is accepted and checks should be payable to the Town of Ecru, but specifically instructs applicants not to take their paperwork or vendor fee to Town Hall.",
+      "fact_ids": [
+        "e4"
+      ]
+    },
+    {
+      "text": "The town’s shared notice and the original event listing are linked below so prospective vendors can read the instructions and contact organizers for confirmation.",
+      "fact_ids": [
+        "e3",
+        "e4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/ecru-christmas-bazaar-vendors-december-5-2026.jpg",
+    "sha256": "47e2634889a8944c9b1aead06ae14722dcd566f796e427e68e137496f5eca8df",
+    "alt_text": "Original Ecru bazaar graphic: December 5, 10 a.m.–2 p.m., $25 vendor fee and 30 places advertised; November 2 and November 10 deadlines conflict.",
+    "credit": "Pontotoc News original editorial graphic",
+    "rights": "owned",
+    "rights_reference": "Original 1600 by 900 RGB typography and geometric panels created locally with Pillow and macOS Arial. No third-party photos, source graphics, team logos or people reproduced. Actual featured-image pixels were inspected: complete, legible and uncropped."
+  },
+  "review": {
+    "reviewer": "Codex October 30 morning editorial review",
+    "reviewed_at": "2026-10-30T14:06:38.349439+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "image_rights": true,
+      "source_support": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "identities": true,
+      "locality": true,
+      "statistics": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true
+    },
+    "headline_fact_ids": [
+      "e1",
+      "e2",
+      "e3"
+    ],
+    "excerpt_fact_ids": [
+      "e1",
+      "e2",
+      "e3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s October 30 morning recurring authorization: useful distinct verified public-facts local coverage, bounded article/image/request files only; successful offline checks, authenticated all-status and source/event dry-run, editorial/image review, then serialized digest-bound publish. No allegations or private sensitive material."
+  }
+}
