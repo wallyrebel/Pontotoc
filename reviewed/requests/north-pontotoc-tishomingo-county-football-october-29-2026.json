@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/north-pontotoc-tishomingo-county-football-october-29-2026.json",
+  "article_sha256": "a18b5d93cc6de23c81f72b2b2814270804874a69d5c7ad8eb3fb01b47d4a2dc8",
+  "mode": "dry-run",
+  "public_slug": "north-pontotoc-tishomingo-county-football-october-29-2026",
+  "seo_review": {
+    "reviewer": "Codex October 30 morning editorial review",
+    "reviewed_at": "2026-10-30T14:06:38.349439+00:00",
+    "checks": {
+      "accurate_concise_description": true,
+      "meaningful_headline": true,
+      "canonical_and_source_links": true,
+      "no_keyword_stuffing": true,
+      "descriptive_slug": true,
+      "relevant_accessible_alt": true
+    }
+  }
+}

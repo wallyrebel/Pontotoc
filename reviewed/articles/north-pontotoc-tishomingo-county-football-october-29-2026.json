@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:north-pontotoc:tishomingo-county:2026-10-29:football-final"
+  ],
+  "title": "North Pontotoc falls 43–42 to Tishomingo County; playoff trip listed",
+  "excerpt": "North Pontotoc is 4–6 after Thursday’s home loss in Ecru. MaxPreps lists a playoff game at Senatobia for 7 p.m. Nov. 6.",
+  "locality": "North Pontotoc High School Vikings, Ecru in Pontotoc County, Mississippi; Tishomingo County Braves from Iuka. October 29 game hosted by North Pontotoc.",
+  "sources": [
+    {
+      "id": "game",
+      "url": "https://www.maxpreps.com/ms/football/game/north-pontotoc-ecru-vs-tishomingo-county-iuka/10-29-2026/?c=3e00f43f-c4ca-4f4f-9a29-5b21610406b5",
+      "verification_url": "https://www.maxpreps.com/ms/football/game/north-pontotoc-ecru-vs-tishomingo-county-iuka/10-29-2026/?c=3e00f43f-c4ca-4f4f-9a29-5b21610406b5",
+      "title": "MaxPreps: October 29 Tishomingo County–North Pontotoc final",
+      "publisher": "MaxPreps",
+      "role": "event",
+      "published_at": null,
+      "verified_at": "2026-10-30T14:06:38.349439+00:00"
+    },
+    {
+      "id": "next",
+      "url": "https://www.maxpreps.com/ms/football/game/north-pontotoc-ecru-vs-senatobia/11-6-2026/?c=48ae519b-88dc-4316-8915-d400e33e1844",
+      "verification_url": "https://www.maxpreps.com/ms/football/game/north-pontotoc-ecru-vs-senatobia/11-6-2026/?c=48ae519b-88dc-4316-8915-d400e33e1844",
+      "title": "MaxPreps: North Pontotoc at Senatobia, November 6 playoff listing",
+      "publisher": "MaxPreps",
+      "role": "event",
+      "published_at": null,
+      "verified_at": "2026-10-30T14:06:38.349439+00:00"
+    },
+    {
+      "id": "related",
+      "url": "https://pontotocnews.com/pontotoc-news/pontotoc-county-football-results-october-23-2026/",
+      "verification_url": "https://pontotocnews.com/pontotoc-news/pontotoc-county-football-results-october-23-2026/",
+      "title": "Related: North Pontotoc’s October 23 win over South Pontotoc",
+      "publisher": "Pontotoc News",
+      "role": "background",
+      "published_at": null,
+      "verified_at": "2026-10-30T14:06:38.349439+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "n1",
+      "statement": "Tishomingo County won 43–42 at North Pontotoc in Ecru on Thursday, October 29, a one-point decision.",
+      "source_ids": [
+        "game"
+      ],
+      "evidence": "The direct dated game page displays 43 Final 42, identifies North Pontotoc in Ecru as the home team and Tishomingo County of Iuka as the visiting winner, and explicitly dates the game October 29, 2026. Both current schedules also list this final. The one-point margin is calculated from 43 minus 42. No scoring plays, quarter scores, player statistics or quotes were inferred.",
+      "date_context": "The final is explicitly dated Thursday, October 29, 2026. Direct game and current 2026–27 schedule pages were read October 30 morning and returned HTTP 200. North Pontotoc and Senatobia schedules were updated October 30 at 12:47 GMT. The next game is explicitly November 6; the source’s CDT label was not repeated or converted.",
+      "locality": "North Pontotoc High School Vikings, Ecru in Pontotoc County, Mississippi; Tishomingo County Braves from Iuka. October 29 game hosted by North Pontotoc.",
+      "identities": "North Pontotoc Vikings and Tishomingo County Braves. No player names, scoring plays, quarter scores or quotations asserted. Senatobia Warriors are scheduled next opponent, not a completed result.",
+      "statistics": "Tishomingo County 43, North Pontotoc 42; one-point margin."
+    },
+    {
+      "id": "n2",
+      "statement": "The result leaves North Pontotoc 4–6 and Tishomingo County 5–4. North beat South Pontotoc 22–15 on October 23.",
+      "source_ids": [
+        "game",
+        "related"
+      ],
+      "evidence": "Game-page records 4–6 and 5–4 agree with counting wins and losses in the directly retrieved current North Pontotoc and Tishomingo County schedules. North’s October 23 result, 22–15 at South Pontotoc, also matches earlier local post 6139. The automated recap’s claim that the season finished is not repeated because the current schedule lists a playoff.",
+      "date_context": "The final is explicitly dated Thursday, October 29, 2026. Direct game and current 2026–27 schedule pages were read October 30 morning and returned HTTP 200. North Pontotoc and Senatobia schedules were updated October 30 at 12:47 GMT. The next game is explicitly November 6; the source’s CDT label was not repeated or converted.",
+      "locality": "North Pontotoc High School Vikings, Ecru in Pontotoc County, Mississippi; Tishomingo County Braves from Iuka. October 29 game hosted by North Pontotoc.",
+      "identities": "North Pontotoc Vikings and Tishomingo County Braves. No player names, scoring plays, quarter scores or quotations asserted. Senatobia Warriors are scheduled next opponent, not a completed result.",
+      "statistics": "North Pontotoc 4–6; Tishomingo County 5–4; October 23 result 22–15."
+    },
+    {
+      "id": "n3",
+      "statement": "MaxPreps lists North Pontotoc at Senatobia for a playoff game Friday, November 6, at 7 p.m.; both schools’ schedules corroborate the listing.",
+      "source_ids": [
+        "next"
+      ],
+      "evidence": "The exact dated next-game page says North Pontotoc has an away playoff game at Senatobia on Friday, November 6, at 7 p.m. Both current schedules independently list the same opponent, date, time and playoff designation. This is a scheduled fixture, not a completed result or assurance against later changes.",
+      "date_context": "The final is explicitly dated Thursday, October 29, 2026. Direct game and current 2026–27 schedule pages were read October 30 morning and returned HTTP 200. North Pontotoc and Senatobia schedules were updated October 30 at 12:47 GMT. The next game is explicitly November 6; the source’s CDT label was not repeated or converted.",
+      "locality": "North Pontotoc High School Vikings, Ecru in Pontotoc County, Mississippi; Tishomingo County Braves from Iuka. October 29 game hosted by North Pontotoc.",
+      "identities": "North Pontotoc Vikings and Tishomingo County Braves. No player names, scoring plays, quarter scores or quotations asserted. Senatobia Warriors are scheduled next opponent, not a completed result.",
+      "statistics": "November 6, 2026, at 7 p.m., as listed."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "North Pontotoc fell one point short against Tishomingo County on Thursday, Oct. 29, losing 43–42 at home in Ecru. MaxPreps lists the contest as a final, with the Braves taking the road conference win.",
+      "fact_ids": [
+        "n1"
+      ]
+    },
+    {
+      "text": "The result leaves the Vikings at 4–6 overall and Tishomingo County at 5–4. North Pontotoc had won 22–15 at South Pontotoc the previous Friday, Oct. 23; our earlier county football report is linked below.",
+      "fact_ids": [
+        "n2"
+      ]
+    },
+    {
+      "text": "North Pontotoc is scheduled to visit Senatobia for a playoff game at 7 p.m. Friday, Nov. 6, according to MaxPreps. The matchup appears on both schools’ current schedules. Supporters should check the linked game listing for changes.",
+      "fact_ids": [
+        "n3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/north-pontotoc-tishomingo-county-football-october-29-2026.jpg",
+    "sha256": "3545134be5ebb1a0a8e918fd78ff7b32b3b898b0b6597cc48c2ad8e7493ca65a",
+    "alt_text": "Original football result graphic: Tishomingo County 43, North Pontotoc 42 on October 29 in Ecru; North is 4–6 with a November 6 game listed at Senatobia.",
+    "credit": "Pontotoc News original editorial graphic",
+    "rights": "owned",
+    "rights_reference": "Original 1600 by 900 RGB typography and geometric panels created locally with Pillow and macOS Arial. No third-party photos, source graphics, team logos or people reproduced. Actual featured-image pixels were inspected: complete, legible and uncropped."
+  },
+  "review": {
+    "reviewer": "Codex October 30 morning editorial review",
+    "reviewed_at": "2026-10-30T14:06:38.349439+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "image_rights": true,
+      "source_support": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "identities": true,
+      "locality": true,
+      "statistics": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true
+    },
+    "headline_fact_ids": [
+      "n1",
+      "n3"
+    ],
+    "excerpt_fact_ids": [
+      "n1",
+      "n2",
+      "n3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s October 30 morning recurring authorization: useful distinct verified public-facts local coverage, bounded article/image/request files only; successful offline checks, authenticated all-status and source/event dry-run, editorial/image review, then serialized digest-bound publish. No allegations or private sensitive material."
+  }
+}
