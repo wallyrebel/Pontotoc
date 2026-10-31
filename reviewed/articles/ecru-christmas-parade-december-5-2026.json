@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:ecru:2026-12-05:christmas-parade-registration"
+  ],
+  "title": "Ecru Christmas parade set for Dec. 5; entries are free",
+  "excerpt": "Ecru’s parade starts at 6 p.m. Dec. 5 on Main Street, with lineup at 5 p.m. Entries are free; sign up at Town Hall or request an emailed form.",
+  "locality": "Ecru Christmas Parade on Main Street in Ecru, Pontotoc County, Mississippi, Saturday December 5, 2026.",
+  "sources": [
+    {
+      "id": "town",
+      "url": "https://www.facebook.com/1204361708550928/posts/1448241334162963",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7mX75E8w6.rss",
+      "role": "event",
+      "title": "Town of Ecru: Christmas parade date, lineup and free entries",
+      "publisher": "Town of Ecru",
+      "published_at": "2026-10-30T18:12:21Z",
+      "verified_at": "2026-10-31T14:01:51.367660+00:00"
+    },
+    {
+      "id": "related",
+      "url": "https://pontotocnews.com/pontotoc-news/ecru-christmas-bazaar-vendors-december-5-2026/",
+      "verification_url": "https://pontotocnews.com/pontotoc-news/ecru-christmas-bazaar-vendors-december-5-2026/",
+      "role": "background",
+      "title": "Related: Ecru Christmas bazaar vendor details and conflicting deadlines",
+      "publisher": "Pontotoc News",
+      "published_at": null,
+      "verified_at": "2026-10-31T14:01:51.367660+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "e1",
+      "statement": "Ecru’s Christmas parade is advertised for Saturday, December 5, 2026, at 6 p.m. on Main Street, with lineup beginning at 5 p.m.",
+      "source_ids": [
+        "town"
+      ],
+      "evidence": "Actual source pixels read ECRU CHRISTMAS PARADE, SATURDAY DECEMBER 5TH, 6:00 P.M., LINE UP BEGINS AT 5:00 P.M., MAIN STREET ECRU, MS. Full original public town caption was independently read in Chrome after dismissing a login invitation without signing in. Source publication year and weekday establish upcoming December 5, 2026; no time zone suffix invented.",
+      "date_context": "Town notice timestamp October 30, 2026, at 18:12:21 UTC (1:12:21 p.m. CDT), freshly read as an original public post in Chrome October 31 without login. Its actual graphic says Saturday December 5, 6:00 p.m., lineup begins 5:00 p.m., Main Street Ecru MS. The upcoming December 5 in the dated 2026 announcement is Saturday in 2026. No registration deadline or detailed route is supplied.",
+      "locality": "Ecru Christmas Parade on Main Street in Ecru, Pontotoc County, Mississippi, Saturday December 5, 2026.",
+      "identities": "Town of Ecru is the public announcing source and registration contact. No private contacts, entrants or bookings identified.",
+      "statistics": "December 5, 2026; 6 p.m. parade, 5 p.m. lineup."
+    },
+    {
+      "id": "e2",
+      "statement": "There is no entry fee; participants can sign up at Town Hall or request an emailed entry form.",
+      "source_ids": [
+        "town"
+      ],
+      "evidence": "Full original town caption and current saved feed both state No entry fee! Sign up at Town Hall or we can email an entry form. No application was submitted and no email address guessed.",
+      "date_context": "Town notice timestamp October 30, 2026, at 18:12:21 UTC (1:12:21 p.m. CDT), freshly read as an original public post in Chrome October 31 without login. Its actual graphic says Saturday December 5, 6:00 p.m., lineup begins 5:00 p.m., Main Street Ecru MS. The upcoming December 5 in the dated 2026 announcement is Saturday in 2026. No registration deadline or detailed route is supplied.",
+      "locality": "Ecru Christmas Parade on Main Street in Ecru, Pontotoc County, Mississippi, Saturday December 5, 2026.",
+      "identities": "Town of Ecru is the public announcing source and registration contact. No private contacts, entrants or bookings identified.",
+      "statistics": "Entry fee $0; no closing hour or entry deadline stated."
+    },
+    {
+      "id": "e3",
+      "statement": "The town invites floats, walking groups, bands, antique vehicles and horses.",
+      "source_ids": [
+        "town"
+      ],
+      "evidence": "Full caption expressly lists floats, walking groups, bands, antique vehicles, horses and other holiday participation. No requirements from Pontotoc city’s separate parade are transferred to Ecru.",
+      "date_context": "Town notice timestamp October 30, 2026, at 18:12:21 UTC (1:12:21 p.m. CDT), freshly read as an original public post in Chrome October 31 without login. Its actual graphic says Saturday December 5, 6:00 p.m., lineup begins 5:00 p.m., Main Street Ecru MS. The upcoming December 5 in the dated 2026 announcement is Saturday in 2026. No registration deadline or detailed route is supplied.",
+      "locality": "Ecru Christmas Parade on Main Street in Ecru, Pontotoc County, Mississippi, Saturday December 5, 2026.",
+      "identities": "Town of Ecru is the public announcing source and registration contact. No private contacts, entrants or bookings identified.",
+      "statistics": "None asserted"
+    },
+    {
+      "id": "e4",
+      "statement": "The notice names Main Street but does not provide a detailed route, exact lineup site or entry deadline; entrants can ask the town for those details.",
+      "source_ids": [
+        "town"
+      ],
+      "evidence": "Complete original caption and entire actual graphic inspected. They give only Main Street Ecru MS, 5 p.m. lineup and 6 p.m. parade. No route endpoints, staging address or entry deadline appear; article clearly identifies these as details to confirm rather than inventing them.",
+      "date_context": "Town notice timestamp October 30, 2026, at 18:12:21 UTC (1:12:21 p.m. CDT), freshly read as an original public post in Chrome October 31 without login. Its actual graphic says Saturday December 5, 6:00 p.m., lineup begins 5:00 p.m., Main Street Ecru MS. The upcoming December 5 in the dated 2026 announcement is Saturday in 2026. No registration deadline or detailed route is supplied.",
+      "locality": "Ecru Christmas Parade on Main Street in Ecru, Pontotoc County, Mississippi, Saturday December 5, 2026.",
+      "identities": "Town of Ecru is the public announcing source and registration contact. No private contacts, entrants or bookings identified.",
+      "statistics": "None asserted"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Ecru is accepting entries for its Christmas parade, advertised for 6 p.m. Saturday, Dec. 5, on Main Street. Lineup begins at 5 p.m., according to the Town of Ecru’s new announcement.",
+      "fact_ids": [
+        "e1"
+      ]
+    },
+    {
+      "text": "There is no entry fee. Participants can sign up at Town Hall or ask the town to email an entry form. The invitation welcomes floats, walking groups, bands, antique vehicles and horses.",
+      "fact_ids": [
+        "e2",
+        "e3"
+      ]
+    },
+    {
+      "text": "The notice names Main Street but does not give a detailed parade route, an exact lineup site or an entry deadline. Entrants should ask the town for those details when requesting a form. The original notice is linked below, along with separate coverage of the Christmas bazaar’s vendor registration.",
+      "fact_ids": [
+        "e4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/ecru-christmas-parade-december-5-2026.jpg",
+    "sha256": "0660739d30a9c9aa44f68a18d4f633777798d5b0d3d9a98c3484258bf060497f",
+    "alt_text": "Original Ecru parade graphic: December 5 on Main Street; parade at 6 p.m., lineup at 5 p.m., no entry fee, with forms available through the town.",
+    "credit": "Pontotoc News original editorial graphic",
+    "rights": "owned",
+    "rights_reference": "Original 1600 by 900 RGB typography and geometric panels created locally with Pillow and macOS Arial. No source artwork, team logos, third-party photographs or people reproduced. Actual final featured-image pixels inspected: legible, complete, correctly dated and uncropped."
+  },
+  "review": {
+    "reviewer": "Codex October 31 morning editorial review",
+    "reviewed_at": "2026-10-31T14:02:31.340658+00:00",
+    "decision": "publish",
+    "checks": {
+      "statistics": true,
+      "public_facts_only": true,
+      "locality": true,
+      "image_rights": true,
+      "source_support": true,
+      "dates": true,
+      "identities": true,
+      "no_invented_quotes_or_context": true,
+      "coherent_prose": true,
+      "no_allegations_or_private_sensitive_material": true
+    },
+    "headline_fact_ids": [
+      "e1",
+      "e2"
+    ],
+    "excerpt_fact_ids": [
+      "e1",
+      "e2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s October 31 recurring publication authorization: useful distinct verified local public-facts coverage; bounded article/image/request files only; offline checks, authenticated all-status/source-event dry-run, editorial/image review, then serialized digest-bound publish. No allegations or private sensitive material."
+  }
+}
