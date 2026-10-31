@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-county-state-cross-country-results-october-31-2026.json",
   "article_sha256": "563f6c3f5b8b344149a2363202ef1106e813b518a4380510e529259d8a2d9462",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-county-state-cross-country-results-october-31-2026",
   "seo_review": {
     "reviewer": "Codex October 31 afternoon editorial review",
