@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:columbus:2026-10-30:football-final"
+  ],
+  "title": "Pontotoc shuts out Columbus 49–0 on senior night",
+  "excerpt": "The Warriors improve to 7–2 overall and 3–1 in the division after Friday’s home win. Their next listed game is Nov. 5 at Lafayette.",
+  "locality": "Pontotoc High School Warriors home game against Columbus High School Falcons, Pontotoc, Mississippi, October 30, 2026.",
+  "sources": [
+    {
+      "id": "official",
+      "url": "https://www.facebook.com/1409956404473934/posts/1677097257759846",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7kh8MV2fT.rss",
+      "role": "event",
+      "title": "Pontotoc Athletics: official senior-night final and records",
+      "publisher": "Pontotoc Athletics",
+      "published_at": "2026-10-31T02:05:30Z",
+      "verified_at": "2026-10-31T14:01:51.367660+00:00"
+    },
+    {
+      "id": "game",
+      "url": "https://www.maxpreps.com/ms/football/game/columbus-vs-pontotoc/10-30-2026/?c=dba07649-09fe-496e-9b01-f2bee79f97a8",
+      "verification_url": "https://www.maxpreps.com/ms/football/game/columbus-vs-pontotoc/10-30-2026/?c=dba07649-09fe-496e-9b01-f2bee79f97a8",
+      "role": "event",
+      "title": "October 30 Columbus at Pontotoc: final and quarter scores",
+      "publisher": "MaxPreps",
+      "published_at": null,
+      "verified_at": "2026-10-31T14:01:51.367660+00:00"
+    },
+    {
+      "id": "next",
+      "url": "https://www.maxpreps.com/ms/football/game/lafayette-oxford-vs-pontotoc/11-5-2026/?c=8c70c284-d77f-48f7-959f-44a39bf9b23f",
+      "verification_url": "https://www.maxpreps.com/ms/football/game/lafayette-oxford-vs-pontotoc/11-5-2026/?c=8c70c284-d77f-48f7-959f-44a39bf9b23f",
+      "role": "event",
+      "title": "November 5 Pontotoc at Lafayette game listing",
+      "publisher": "MaxPreps",
+      "published_at": null,
+      "verified_at": "2026-10-31T14:01:51.367660+00:00"
+    },
+    {
+      "id": "related",
+      "url": "https://pontotocnews.com/pontotoc-news/pontotoc-county-football-results-october-23-2026/",
+      "verification_url": "https://pontotocnews.com/pontotoc-news/pontotoc-county-football-results-october-23-2026/",
+      "role": "background",
+      "title": "Earlier county football coverage: October 23 results",
+      "publisher": "Pontotoc News",
+      "published_at": null,
+      "verified_at": "2026-10-31T14:01:51.367660+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc beat Columbus 49–0 at home on senior night Friday, October 30, 2026.",
+      "source_ids": [
+        "official",
+        "game"
+      ],
+      "evidence": "The actual official final graphic reads FINAL, PONTOTOC 49, COLUMBUS 0 and senior night. Full directly retrieved dated MaxPreps game says Columbus lost away at Pontotoc 49–0 on 10/30. Current Pontotoc and Columbus schedules both independently show 49–0. No search snippet score used.",
+      "date_context": "Dated original game record explicitly October 30, 2026, Friday. Official athletics final posted October 31 at 02:05:30 UTC, October 30 at 9:05:30 p.m. CDT. Current direct 2026–27 schedules and actual final graphic corroborate the result; stale search-index 29–6 result was discarded. Next game is Thursday November 5; only listed local 7 p.m. time is repeated, not the source’s stale CDT suffix after fallback.",
+      "locality": "Pontotoc High School Warriors home game against Columbus High School Falcons, Pontotoc, Mississippi, October 30, 2026.",
+      "identities": "Pontotoc Warriors and Columbus Falcons; Lafayette Commodores are the next scheduled opponent. No player statistics, quotations or playoff-clinching claim.",
+      "statistics": "Pontotoc 49, Columbus 0."
+    },
+    {
+      "id": "f2",
+      "statement": "Pontotoc led 28–0 at halftime, scoring 21 points in the second quarter.",
+      "source_ids": [
+        "game"
+      ],
+      "evidence": "The full dated game box score lists Pontotoc quarters 7,21,14,7 and Columbus 0,0,0,0. Halftime total is 7+21=28. No unverified scoring plays or names inferred.",
+      "date_context": "Dated original game record explicitly October 30, 2026, Friday. Official athletics final posted October 31 at 02:05:30 UTC, October 30 at 9:05:30 p.m. CDT. Current direct 2026–27 schedules and actual final graphic corroborate the result; stale search-index 29–6 result was discarded. Next game is Thursday November 5; only listed local 7 p.m. time is repeated, not the source’s stale CDT suffix after fallback.",
+      "locality": "Pontotoc High School Warriors home game against Columbus High School Falcons, Pontotoc, Mississippi, October 30, 2026.",
+      "identities": "Pontotoc Warriors and Columbus Falcons; Lafayette Commodores are the next scheduled opponent. No player statistics, quotations or playoff-clinching claim.",
+      "statistics": "Second quarter 21–0; halftime 28–0."
+    },
+    {
+      "id": "f3",
+      "statement": "The win moves Pontotoc to 7–2 overall and 3–1 in the division. Pontotoc lost at New Hope the previous week.",
+      "source_ids": [
+        "official",
+        "game",
+        "related"
+      ],
+      "evidence": "Actual official final graphic states improve to 7-2 (3-1), and the later official division standings graphic explicitly labels overall 7-2 and division 3-1. The dated game and both current schedules agree; counting Pontotoc schedule gives seven wins and two losses, conference wins West Point/Caledonia/Columbus and loss New Hope. Earlier reviewed local post 6139 verifies the October 23 loss at New Hope; no additional score is repeated here.",
+      "date_context": "Dated original game record explicitly October 30, 2026, Friday. Official athletics final posted October 31 at 02:05:30 UTC, October 30 at 9:05:30 p.m. CDT. Current direct 2026–27 schedules and actual final graphic corroborate the result; stale search-index 29–6 result was discarded. Next game is Thursday November 5; only listed local 7 p.m. time is repeated, not the source’s stale CDT suffix after fallback.",
+      "locality": "Pontotoc High School Warriors home game against Columbus High School Falcons, Pontotoc, Mississippi, October 30, 2026.",
+      "identities": "Pontotoc Warriors and Columbus Falcons; Lafayette Commodores are the next scheduled opponent. No player statistics, quotations or playoff-clinching claim.",
+      "statistics": "Overall 7–2; division 3–1."
+    },
+    {
+      "id": "f4",
+      "statement": "Pontotoc is scheduled to visit Lafayette at 7 p.m. Thursday, November 5.",
+      "source_ids": [
+        "next",
+        "official"
+      ],
+      "evidence": "Full exact dated next-game page says away conference game at Lafayette (Oxford, MS), Thursday November 5, 7 p.m. Pontotoc official football page and both current MaxPreps schedules independently list same opponent, date and time. Official final graphic says regular season concludes next Thursday at Lafayette. This is a listed fixture, not a guaranteed time or playoff claim.",
+      "date_context": "Dated original game record explicitly October 30, 2026, Friday. Official athletics final posted October 31 at 02:05:30 UTC, October 30 at 9:05:30 p.m. CDT. Current direct 2026–27 schedules and actual final graphic corroborate the result; stale search-index 29–6 result was discarded. Next game is Thursday November 5; only listed local 7 p.m. time is repeated, not the source’s stale CDT suffix after fallback.",
+      "locality": "Pontotoc High School Warriors home game against Columbus High School Falcons, Pontotoc, Mississippi, October 30, 2026.",
+      "identities": "Pontotoc Warriors and Columbus Falcons; Lafayette Commodores are the next scheduled opponent. No player statistics, quotations or playoff-clinching claim.",
+      "statistics": "November 5, 2026, at 7 p.m., as listed."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc shut out Columbus 49–0 at home Friday, Oct. 30, giving the Warriors a senior-night win. The school’s athletics account posted the final, and the dated MaxPreps game record confirms the result.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The Warriors led 28–0 at halftime after scoring 21 points in the second quarter, according to the game’s quarter-by-quarter score. Columbus was held scoreless in all four periods.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "The victory moves Pontotoc to 7–2 overall and 3–1 in the division, the school’s final graphic reports. It follows the previous week’s loss at New Hope, covered in our earlier county football report linked below.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "Pontotoc is scheduled to close the regular season at Lafayette at 7 p.m. Thursday, Nov. 5. The official school schedule and both teams’ current listings agree on the date and time; the dated matchup is linked below for supporters to check for changes.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-columbus-football-october-30-2026.jpg",
+    "sha256": "612dbfb4a65670061c7dd7ba9f991dec871d73c5aaac1b02ea3ddd58297d5bd4",
+    "alt_text": "Original senior-night football graphic showing Pontotoc 49, Columbus 0; Warriors 7–2 overall and 3–1 in the division, with Lafayette listed next.",
+    "credit": "Pontotoc News original editorial graphic",
+    "rights": "owned",
+    "rights_reference": "Original 1600 by 900 RGB typography and geometric panels created locally with Pillow and macOS Arial. No source artwork, team logos, third-party photographs or people reproduced. Actual final featured-image pixels inspected: legible, complete, correctly dated and uncropped."
+  },
+  "review": {
+    "reviewer": "Codex October 31 morning editorial review",
+    "reviewed_at": "2026-10-31T14:02:31.340658+00:00",
+    "decision": "publish",
+    "checks": {
+      "statistics": true,
+      "public_facts_only": true,
+      "locality": true,
+      "image_rights": true,
+      "source_support": true,
+      "dates": true,
+      "identities": true,
+      "no_invented_quotes_or_context": true,
+      "coherent_prose": true,
+      "no_allegations_or_private_sensitive_material": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f3",
+      "f4"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s October 31 recurring publication authorization: useful distinct verified local public-facts coverage; bounded article/image/request files only; offline checks, authenticated all-status/source-event dry-run, editorial/image review, then serialized digest-bound publish. No allegations or private sensitive material."
+  }
+}
