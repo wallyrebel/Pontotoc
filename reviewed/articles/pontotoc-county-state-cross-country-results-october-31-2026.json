@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:2026-10-31:state-cross-country-team-results",
+    "ms:north-pontotoc:2026-10-31:state-cross-country-team-results",
+    "ms:south-pontotoc:2026-10-31:state-cross-country-team-results"
+  ],
+  "title": "Pontotoc girls third in Class 5A state cross-country results",
+  "excerpt": "Posted timing results list Pontotoc’s girls third and boys sixth in Class 5A. North and South Pontotoc also have Class 4A team finishes.",
+  "locality": "Pontotoc, North Pontotoc and South Pontotoc high-school teams from Pontotoc County, Mississippi; October 31 MHSAA state meet at Mississippi College’s Choctaw Trails Watson Cross Country Course.",
+  "sources": [
+    {
+      "id": "meet",
+      "url": "https://ms.milesplit.com/meets/772502-mhsaa-4a-5a-6a-7a-state-cross-country-championships-2026/info",
+      "verification_url": "https://ms.milesplit.com/meets/772502-mhsaa-4a-5a-6a-7a-state-cross-country-championships-2026/info",
+      "role": "event",
+      "title": "October 31 MHSAA state meet: date, course and timing provider",
+      "publisher": "MHSAA meet information / MileSplit",
+      "published_at": null,
+      "verified_at": "2026-10-31T21:04:58.911265+00:00"
+    },
+    {
+      "id": "g5",
+      "url": "https://milesplit.live/meets/772502/team-scores?div=2_F_5",
+      "verification_url": "https://milesplit.live/meets/772502/team-scores?div=2_F_5",
+      "role": "event",
+      "title": "Pirate Timing: scored Class 5A girls team results",
+      "publisher": "Pirate Timing / MileSplit Live",
+      "published_at": null,
+      "verified_at": "2026-10-31T21:04:58.911265+00:00"
+    },
+    {
+      "id": "b5",
+      "url": "https://milesplit.live/meets/772502/team-scores?div=2_M_6",
+      "verification_url": "https://milesplit.live/meets/772502/team-scores?div=2_M_6",
+      "role": "event",
+      "title": "Pirate Timing: scored Class 5A boys team results",
+      "publisher": "Pirate Timing / MileSplit Live",
+      "published_at": null,
+      "verified_at": "2026-10-31T21:04:58.911265+00:00"
+    },
+    {
+      "id": "g4",
+      "url": "https://milesplit.live/meets/772502/team-scores?div=1_F_7",
+      "verification_url": "https://milesplit.live/meets/772502/team-scores?div=1_F_7",
+      "role": "event",
+      "title": "Pirate Timing: scored Class 4A girls team results",
+      "publisher": "Pirate Timing / MileSplit Live",
+      "published_at": null,
+      "verified_at": "2026-10-31T21:04:58.911265+00:00"
+    },
+    {
+      "id": "b4",
+      "url": "https://milesplit.live/meets/772502/team-scores?div=1_M_8",
+      "verification_url": "https://milesplit.live/meets/772502/team-scores?div=1_M_8",
+      "role": "event",
+      "title": "Pirate Timing: scored Class 4A boys team results",
+      "publisher": "Pirate Timing / MileSplit Live",
+      "published_at": null,
+      "verified_at": "2026-10-31T21:04:58.911265+00:00"
+    },
+    {
+      "id": "related",
+      "url": "https://pontotocnews.com/pontotoc-news/pontotoc-county-cross-country-division-meets-october-22-2026/",
+      "verification_url": "https://pontotocnews.com/pontotoc-news/pontotoc-county-cross-country-division-meets-october-22-2026/",
+      "role": "background",
+      "title": "Earlier county cross-country coverage: division meet preview",
+      "publisher": "Pontotoc News",
+      "published_at": null,
+      "verified_at": "2026-10-31T21:04:58.911265+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "m1",
+      "statement": "The MHSAA Class 4A, 5A, 6A and 7A state cross-country meet was held Saturday October 31, 2026, at Mississippi College’s Choctaw Trails Watson Cross Country Course.",
+      "source_ids": [
+        "meet"
+      ],
+      "evidence": "Full original meet information explicitly gives Saturday October 31, 2026 and the named course; it credits Pirate Timing and links directly to live event 772502. School calendar also lists state cross-country October 31. The article uses the exact course name and does not choose between the platform’s Jackson location label and the school calendar’s Clinton label.",
+      "date_context": "Saturday October 31, 2026 is explicit on the original 2026 meet information page, which names the Mississippi College Choctaw Trails Watson course. The original Pirate Timing/MileSplit Live event 772502 was opened in Chrome October 31 afternoon. Its Class 4A and 5A girls and boys events are each labeled Finals and Scored; all four full team tables were read. The separate static meet-results page says results are not posted yet, but directly links to this current live timing source. These are attributed posted team scores as checked that afternoon, not an invented claim about later ratification. No generic cached meet preview used as result evidence.",
+      "locality": "Pontotoc, North Pontotoc and South Pontotoc high-school teams from Pontotoc County, Mississippi; October 31 MHSAA state meet at Mississippi College’s Choctaw Trails Watson Cross Country Course.",
+      "identities": "Pontotoc High School Warriors in Class 5A; North Pontotoc Vikings and South Pontotoc Cougars in Class 4A. Pirate Timing is credited by the original meet page. No athlete identity, individual placing, personal data, record, quotation or medal claim asserted.",
+      "statistics": "None asserted"
+    },
+    {
+      "id": "p1",
+      "statement": "Pontotoc’s girls are listed third in scored Class 5A team results with 87 points; Brookhaven leads the table with 41 points.",
+      "source_ids": [
+        "g5"
+      ],
+      "evidence": "Full actual public Chrome team-scores table selected Girls 5A: Brookhaven row1 41; Caledonia row2 43; Pontotoc row3 87. Pontotoc scorer positions 3+12+22+24+26 sum to87. These scorer positions are not presented as individual overall places.",
+      "date_context": "Saturday October 31, 2026 is explicit on the original 2026 meet information page, which names the Mississippi College Choctaw Trails Watson course. The original Pirate Timing/MileSplit Live event 772502 was opened in Chrome October 31 afternoon. Its Class 4A and 5A girls and boys events are each labeled Finals and Scored; all four full team tables were read. The separate static meet-results page says results are not posted yet, but directly links to this current live timing source. These are attributed posted team scores as checked that afternoon, not an invented claim about later ratification. No generic cached meet preview used as result evidence.",
+      "locality": "Pontotoc, North Pontotoc and South Pontotoc high-school teams from Pontotoc County, Mississippi; October 31 MHSAA state meet at Mississippi College’s Choctaw Trails Watson Cross Country Course.",
+      "identities": "Pontotoc High School Warriors in Class 5A; North Pontotoc Vikings and South Pontotoc Cougars in Class 4A. Pirate Timing is credited by the original meet page. No athlete identity, individual placing, personal data, record, quotation or medal claim asserted.",
+      "statistics": "Pontotoc third,87 points; Brookhaven first,41 points."
+    },
+    {
+      "id": "p2",
+      "statement": "Pontotoc’s boys are listed sixth in scored Class 5A team results with 145 points; Caledonia leads the table with 29 points.",
+      "source_ids": [
+        "b5"
+      ],
+      "evidence": "Full actual public Chrome team-scores table selected Boys 5A: Caledonia row1 29; Lafayette row2 35; Brookhaven row3 112; Sumrall row4 119; North Pike row5 125; Pontotoc row6 145. Pontotoc scorer positions16+22+31+36+40=145. No cross-class comparison or individual result inferred.",
+      "date_context": "Saturday October 31, 2026 is explicit on the original 2026 meet information page, which names the Mississippi College Choctaw Trails Watson course. The original Pirate Timing/MileSplit Live event 772502 was opened in Chrome October 31 afternoon. Its Class 4A and 5A girls and boys events are each labeled Finals and Scored; all four full team tables were read. The separate static meet-results page says results are not posted yet, but directly links to this current live timing source. These are attributed posted team scores as checked that afternoon, not an invented claim about later ratification. No generic cached meet preview used as result evidence.",
+      "locality": "Pontotoc, North Pontotoc and South Pontotoc high-school teams from Pontotoc County, Mississippi; October 31 MHSAA state meet at Mississippi College’s Choctaw Trails Watson Cross Country Course.",
+      "identities": "Pontotoc High School Warriors in Class 5A; North Pontotoc Vikings and South Pontotoc Cougars in Class 4A. Pirate Timing is credited by the original meet page. No athlete identity, individual placing, personal data, record, quotation or medal claim asserted.",
+      "statistics": "Pontotoc sixth,145 points; Caledonia first,29 points."
+    },
+    {
+      "id": "n1",
+      "statement": "North Pontotoc is listed seventh in both Class 4A team races, with 230 points for the girls and 222 for the boys.",
+      "source_ids": [
+        "g4",
+        "b4"
+      ],
+      "evidence": "Full scored Girls4A table NorthPontotoc row7 230 (12+20+63+64+71); Boys4A table NorthPontotoc row7 222 (15+17+39+60+91). Class, gender, row and score were checked separately; 230 and222 are not swapped.",
+      "date_context": "Saturday October 31, 2026 is explicit on the original 2026 meet information page, which names the Mississippi College Choctaw Trails Watson course. The original Pirate Timing/MileSplit Live event 772502 was opened in Chrome October 31 afternoon. Its Class 4A and 5A girls and boys events are each labeled Finals and Scored; all four full team tables were read. The separate static meet-results page says results are not posted yet, but directly links to this current live timing source. These are attributed posted team scores as checked that afternoon, not an invented claim about later ratification. No generic cached meet preview used as result evidence.",
+      "locality": "Pontotoc, North Pontotoc and South Pontotoc high-school teams from Pontotoc County, Mississippi; October 31 MHSAA state meet at Mississippi College’s Choctaw Trails Watson Cross Country Course.",
+      "identities": "Pontotoc High School Warriors in Class 5A; North Pontotoc Vikings and South Pontotoc Cougars in Class 4A. Pirate Timing is credited by the original meet page. No athlete identity, individual placing, personal data, record, quotation or medal claim asserted.",
+      "statistics": "Girls seventh,230; boys seventh,222."
+    },
+    {
+      "id": "s1",
+      "statement": "South Pontotoc is listed ninth in Class 4A girls with 259 points and twelfth in Class 4A boys with 321 points.",
+      "source_ids": [
+        "g4",
+        "b4"
+      ],
+      "evidence": "Full scored Girls4A table SouthPontotoc row9 259 (37+40+46+66+70); Boys4A table SouthPontotoc row12 321 (38+45+75+80+83). Both names and exact table ranks read directly, not inferred from school abbreviations on a live scoreboard.",
+      "date_context": "Saturday October 31, 2026 is explicit on the original 2026 meet information page, which names the Mississippi College Choctaw Trails Watson course. The original Pirate Timing/MileSplit Live event 772502 was opened in Chrome October 31 afternoon. Its Class 4A and 5A girls and boys events are each labeled Finals and Scored; all four full team tables were read. The separate static meet-results page says results are not posted yet, but directly links to this current live timing source. These are attributed posted team scores as checked that afternoon, not an invented claim about later ratification. No generic cached meet preview used as result evidence.",
+      "locality": "Pontotoc, North Pontotoc and South Pontotoc high-school teams from Pontotoc County, Mississippi; October 31 MHSAA state meet at Mississippi College’s Choctaw Trails Watson Cross Country Course.",
+      "identities": "Pontotoc High School Warriors in Class 5A; North Pontotoc Vikings and South Pontotoc Cougars in Class 4A. Pirate Timing is credited by the original meet page. No athlete identity, individual placing, personal data, record, quotation or medal claim asserted.",
+      "statistics": "Girls ninth,259; boys twelfth,321."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc’s girls are listed third in Class 5A with 87 points in Saturday’s state cross-country team results posted by Pirate Timing on MileSplit Live. The Oct. 31 meet took place at Mississippi College’s Choctaw Trails Watson Cross Country Course.",
+      "fact_ids": [
+        "m1",
+        "p1"
+      ]
+    },
+    {
+      "text": "The Warriors’ boys are listed sixth in Class 5A with 145 points. Brookhaven led the girls’ team standings with 41 points, while Caledonia topped the boys’ table with 29.",
+      "fact_ids": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "text": "North Pontotoc is listed seventh in both Class 4A races. The Vikings’ girls scored 230 points and the boys scored 222 in the posted team standings.",
+      "fact_ids": [
+        "n1"
+      ]
+    },
+    {
+      "text": "South Pontotoc’s girls are listed ninth in Class 4A with 259 points, and the Cougars’ boys are twelfth with 321. The linked tables provide the timing provider’s scored team results as checked Saturday afternoon.",
+      "fact_ids": [
+        "s1"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-county-state-cross-country-results-october-31-2026.jpg",
+    "sha256": "10aa2291de2d20f923285a7780f26b5bf0d2a22f5af526c3cd248348e0e8d636",
+    "alt_text": "Original state cross-country table: Pontotoc Class 5A girls third and boys sixth; North Class 4A seventh in both; South girls ninth and boys twelfth.",
+    "credit": "Pontotoc News original editorial graphic",
+    "rights": "owned",
+    "rights_reference": "Original 1600 by 900 RGB table, typography and geometric panels created locally with Pillow and macOS Arial. No source art, school logos, third-party photographs or people reproduced. Actual final image pixels inspected: all school/class/girls/boys rows and scores legible, correctly aligned and uncropped."
+  },
+  "review": {
+    "reviewer": "Codex October 31 afternoon editorial review",
+    "reviewed_at": "2026-10-31T21:05:41.962405+00:00",
+    "decision": "publish",
+    "checks": {
+      "locality": true,
+      "public_facts_only": true,
+      "image_rights": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "no_invented_quotes_or_context": true,
+      "dates": true,
+      "identities": true,
+      "source_support": true,
+      "statistics": true,
+      "coherent_prose": true
+    },
+    "headline_fact_ids": [
+      "p1"
+    ],
+    "excerpt_fact_ids": [
+      "p1",
+      "p2",
+      "n1",
+      "s1"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s October 31 recurring publication authorization: useful distinct verified local public-facts coverage; bounded article/image/request files only; offline checks, authenticated all-status/source-event dry-run, editorial/image review, then serialized digest-bound publish. No allegations or private sensitive material."
+  }
+}
