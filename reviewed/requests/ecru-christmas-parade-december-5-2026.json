@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/ecru-christmas-parade-december-5-2026.json",
   "article_sha256": "8104d65eef612af721d6c2d61ba02c879c0aa5fb9bc4826bcce3dc12143e710a",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "ecru-christmas-parade-december-5-2026",
   "seo_review": {
     "reviewer": "Codex October 31 morning editorial review",
