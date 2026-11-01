@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:2026-10-31:basketball-jamboree-results"
+  ],
+  "title": "Pontotoc boys beat West Union; girls win two jamboree games",
+  "excerpt": "Pontotoc’s preseason boys results included a 41–21 win and a 45–45 tie. The girls recorded wins against Starkville and Choctaw Central.",
+  "locality": "Pontotoc High School basketball teams from Pontotoc, Mississippi, in the October 31, 2026 preseason jamboree.",
+  "sources": [
+    {
+      "id": "boys",
+      "url": "https://www.facebook.com/1409956404473934/posts/1678303457639226",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7kh8MV2fT.rss",
+      "role": "event",
+      "title": "Pontotoc Athletics shares Hardwired 662’s boys jamboree results",
+      "publisher": "Pontotoc Athletics / Hardwired 662",
+      "published_at": "2026-11-01T04:08:21+00:00",
+      "verified_at": "2026-11-01T15:08:45.272825+00:00"
+    },
+    {
+      "id": "girls",
+      "url": "https://www.facebook.com/1409956404473934/posts/1678303234305915",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7kh8MV2fT.rss",
+      "role": "event",
+      "title": "Pontotoc Athletics shares Hardwired 662’s girls jamboree results",
+      "publisher": "Pontotoc Athletics / Hardwired 662",
+      "published_at": "2026-11-01T04:08:11+00:00",
+      "verified_at": "2026-11-01T15:08:45.272825+00:00"
+    },
+    {
+      "id": "earlier",
+      "url": "https://pontotocnews.com/pontotoc-news/pontotoc-basketball-soccer-cross-country-week-october-26-2026/",
+      "verification_url": "https://pontotocnews.com/pontotoc-news/pontotoc-basketball-soccer-cross-country-week-october-26-2026/",
+      "role": "background",
+      "title": "Earlier schedule: Pontotoc’s October 26 sports week",
+      "publisher": "Pontotoc News",
+      "published_at": null,
+      "verified_at": "2026-11-01T15:08:45.272825+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "b1",
+      "statement": "Pontotoc’s boys recorded a 41–21 win against West Union and a 45–45 tie with Tupelo at Saturday’s preseason jamboree, according to the Hardwired 662 caption shared by Pontotoc Athletics.",
+      "source_ids": [
+        "boys"
+      ],
+      "evidence": "Full original nested public caption read in actual Chrome, not the empty RSS caption: boys tied Tupelo at45 and beat WestUnion41–21. Source is a coach-interview caption by Hardwired662, explicitly shared by official PontotocAthletics. No quarter scores, players or coach quotes inferred; video playback itself failed, so the reported results are attributed to full text caption, not a claimed viewing of spoken video.",
+      "date_context": "Both full interview captions explicitly refer to Saturday’s jamboree. Official Pontotoc Athletics shares are dated November 1 at04:08:11 and04:08:21UTC in the saved feed, which is October31 at11:08p.m.CDT before the overnight clock change. The October26 local schedule preview already announced the October31 jamboree. No exact playing or interview time, gym address or regular-season date inferred.",
+      "locality": "Pontotoc High School basketball teams from Pontotoc, Mississippi, in the October 31, 2026 preseason jamboree.",
+      "identities": "Pontotoc boys and girls basketball teams; boys opponents West Union and Tupelo, girls opponents Starkville and Choctaw Central. No individual athlete, quoted coach speech or season record asserted.",
+      "statistics": "Pontotoc41,WestUnion21;Pontotoc45,Tupelo45."
+    },
+    {
+      "id": "b2",
+      "statement": "The companion caption reports Pontotoc girls jamboree wins against Starkville and Choctaw Central, without providing scores.",
+      "source_ids": [
+        "girls"
+      ],
+      "evidence": "Full public nested original caption in Chrome explicitly says Saturday jamboree wins againstStarkvilleandChoctawCentral. No numerical girls scores given, so none invented. Video playback unavailable; no quotation or unobserved video claim made.",
+      "date_context": "Both full interview captions explicitly refer to Saturday’s jamboree. Official Pontotoc Athletics shares are dated November 1 at04:08:11 and04:08:21UTC in the saved feed, which is October31 at11:08p.m.CDT before the overnight clock change. The October26 local schedule preview already announced the October31 jamboree. No exact playing or interview time, gym address or regular-season date inferred.",
+      "locality": "Pontotoc High School basketball teams from Pontotoc, Mississippi, in the October 31, 2026 preseason jamboree.",
+      "identities": "Pontotoc boys and girls basketball teams; boys opponents West Union and Tupelo, girls opponents Starkville and Choctaw Central. No individual athlete, quoted coach speech or season record asserted.",
+      "statistics": "Two girls jamboree wins; no numerical scores asserted."
+    },
+    {
+      "id": "b3",
+      "statement": "The reported outcomes are from the October31 preseason jamboree, which was included in the earlier local weekly schedule.",
+      "source_ids": [
+        "boys",
+        "girls",
+        "earlier"
+      ],
+      "evidence": "Both current full captions say Saturdayjamboree; saved absolute official-share times convert toOctober31eveningCDT. Earlier schedule6163 announcedSaturdayOctober31basketballjamboree. The new report distinguishes preseason outcomes from season records and links the prior schedule neutrally.",
+      "date_context": "Both full interview captions explicitly refer to Saturday’s jamboree. Official Pontotoc Athletics shares are dated November 1 at04:08:11 and04:08:21UTC in the saved feed, which is October31 at11:08p.m.CDT before the overnight clock change. The October26 local schedule preview already announced the October31 jamboree. No exact playing or interview time, gym address or regular-season date inferred.",
+      "locality": "Pontotoc High School basketball teams from Pontotoc, Mississippi, in the October 31, 2026 preseason jamboree.",
+      "identities": "Pontotoc boys and girls basketball teams; boys opponents West Union and Tupelo, girls opponents Starkville and Choctaw Central. No individual athlete, quoted coach speech or season record asserted.",
+      "statistics": "None asserted"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc’s basketball teams came out of Saturday’s preseason jamboree with a boys win and tie and two girls wins, according to Hardwired 662 interview captions shared by Pontotoc Athletics. The jamboree was held Oct. 31.",
+      "fact_ids": [
+        "b1",
+        "b2",
+        "b3"
+      ]
+    },
+    {
+      "text": "The boys beat West Union 41–21 and tied Tupelo 45–45, the boys interview caption reports. Both outcomes came in preseason play.",
+      "fact_ids": [
+        "b1",
+        "b3"
+      ]
+    },
+    {
+      "text": "The girls interview caption reports wins against Starkville and Choctaw Central but does not give scores. Our earlier weekly schedule, linked below, previewed the jamboree.",
+      "fact_ids": [
+        "b2",
+        "b3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-basketball-jamboree-results-october-31-2026.jpg",
+    "sha256": "627d8fdf16df771fdd511e2da98ff1c6864a877fb769e17fcf452d349f10d850",
+    "alt_text": "Original preseason basketball graphic: Pontotoc boys beat West Union 41–21 and tied Tupelo 45–45; girls won against Starkville and Choctaw Central on October 31.",
+    "credit": "Pontotoc News original editorial graphic",
+    "rights": "owned",
+    "rights_reference": "Original 1600 by 900 RGB typography and geometric panels created locally with Pillow and macOS Arial. Actual final pixels inspected: all factual labels, dates and attribution are legible and uncropped. No school or store logos, source artwork, photographs or people reused."
+  },
+  "review": {
+    "reviewer": "Codex November 1 morning editorial review",
+    "reviewed_at": "2026-11-01T15:08:45.272825+00:00",
+    "decision": "publish",
+    "checks": {
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "coherent_prose": true,
+      "statistics": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "identities": true,
+      "image_rights": true,
+      "dates": true,
+      "locality": true,
+      "source_support": true
+    },
+    "headline_fact_ids": [
+      "b1",
+      "b2"
+    ],
+    "excerpt_fact_ids": [
+      "b1",
+      "b2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s November 1 recurring authority: useful distinct verified public-facts coverage; bounded article/image/request files; offline checks, authenticated all-status/source-event dry-run, editorial/image review, then serialized digest-bound publish. No allegations or private sensitive material."
+  }
+}
