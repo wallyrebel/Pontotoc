@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/mccoys-grocery-ecru-closing-time-november-2-2026.json",
+  "article_sha256": "9ddf3ba11c35193f74c41564f50c1dea76b7b8754eb5c6e43e329b4f7ead728b",
+  "mode": "dry-run",
+  "public_slug": "mccoys-grocery-ecru-closing-time-november-2-2026",
+  "seo_review": {
+    "reviewer": "Codex November 1 morning editorial review",
+    "reviewed_at": "2026-11-01T15:08:45.272825+00:00",
+    "checks": {
+      "relevant_accessible_alt": true,
+      "meaningful_headline": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true,
+      "descriptive_slug": true,
+      "accurate_concise_description": true
+    }
+  }
+}

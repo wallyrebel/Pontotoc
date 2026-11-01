@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:ecru:mccoys-grocery:2026-11-02:closing-time-change"
+  ],
+  "title": "McCoy’s Grocery in Ecru announces 6:30 p.m. closing from Nov. 2",
+  "excerpt": "McCoy’s Grocery says its 6:30 p.m. closing time begins Monday, Nov. 2. The store is at 338 Main Street in Ecru.",
+  "locality": "McCoy’s Grocery, 338 Main Street, Ecru, Pontotoc County, Mississippi.",
+  "sources": [
+    {
+      "id": "notice",
+      "url": "https://www.facebook.com/mccoysgrocery/posts/yall-come-shop-localbeginning-monday-november-22026-we-will-close-at-630-pm/1558793466052375/",
+      "verification_url": "https://www.facebook.com/mccoysgrocery/posts/yall-come-shop-localbeginning-monday-november-22026-we-will-close-at-630-pm/1558793466052375/",
+      "role": "event",
+      "title": "McCoy’s Grocery: November 2 closing-time announcement",
+      "publisher": "McCoy’s Grocery",
+      "published_at": null,
+      "verified_at": "2026-11-01T15:08:45.272825+00:00"
+    },
+    {
+      "id": "profile",
+      "url": "https://www.facebook.com/mccoysgrocery/",
+      "verification_url": "https://www.facebook.com/mccoysgrocery/",
+      "role": "background",
+      "title": "McCoy’s Grocery: public business address and telephone",
+      "publisher": "McCoy’s Grocery",
+      "published_at": null,
+      "verified_at": "2026-11-01T15:08:45.272825+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "m1",
+      "statement": "McCoy’s Grocery in Ecru announced a 6:30p.m.closing time beginning Monday November2,2026.",
+      "source_ids": [
+        "notice",
+        "profile"
+      ],
+      "evidence": "Full original public caption read in Chrome explicitly says BeginningMondayNovember2,2026wewillcloseat6:30pm. Original promotional graphic inspected for business identity only; no prices or source artwork reproduced. Direct original permalinkHTTP200. Business profile explicitly identifiesEcru.",
+      "date_context": "Original full business announcement explicitly gives Monday November2,2026 as the effective date; calendar date independently checked as Monday. Verified November1morningCST, so the change takes effect the next day. Browser shows relative post age3days; exact publication timestamp is not established and is null. No former closing time, opening time, seven-day applicability or day-specific exception inferred.",
+      "locality": "McCoy’s Grocery, 338 Main Street, Ecru, Pontotoc County, Mississippi.",
+      "identities": "McCoy’s Grocery, also identified on its own public profile as The Real Meat Market, in Ecru. Only public business address/telephone used; no private individual data.",
+      "statistics": "6:30p.m.;effectiveNovember2,2026."
+    },
+    {
+      "id": "m2",
+      "statement": "The store’s public profile lists338MainStreet,Ecru,and business telephone662-489-3161.",
+      "source_ids": [
+        "profile"
+      ],
+      "evidence": "Actual public Chrome Intro lists338MainStreet,POBox367,EcruMS and6624893161. Article uses street address and public business phone only. No email, owner history, present open/closed status or complete hours inferred. ProfileHTTP200; separately linked websiteDNSfailure disclosed in research and not used as evidence.",
+      "date_context": "Original full business announcement explicitly gives Monday November2,2026 as the effective date; calendar date independently checked as Monday. Verified November1morningCST, so the change takes effect the next day. Browser shows relative post age3days; exact publication timestamp is not established and is null. No former closing time, opening time, seven-day applicability or day-specific exception inferred.",
+      "locality": "McCoy’s Grocery, 338 Main Street, Ecru, Pontotoc County, Mississippi.",
+      "identities": "McCoy’s Grocery, also identified on its own public profile as The Real Meat Market, in Ecru. Only public business address/telephone used; no private individual data.",
+      "statistics": "Streetnumber338;businessphone662-489-3161."
+    },
+    {
+      "id": "m3",
+      "statement": "The announcement supplies the new closing time and effective date without a complete opening-time or day-by-day hours schedule.",
+      "source_ids": [
+        "notice"
+      ],
+      "evidence": "Entire original caption read, with no SeeMore truncation; no openingtime or weekdayexceptions stated. Article makes the limitation clear rather than representing the announcement as complete seven-day hours.",
+      "date_context": "Original full business announcement explicitly gives Monday November2,2026 as the effective date; calendar date independently checked as Monday. Verified November1morningCST, so the change takes effect the next day. Browser shows relative post age3days; exact publication timestamp is not established and is null. No former closing time, opening time, seven-day applicability or day-specific exception inferred.",
+      "locality": "McCoy’s Grocery, 338 Main Street, Ecru, Pontotoc County, Mississippi.",
+      "identities": "McCoy’s Grocery, also identified on its own public profile as The Real Meat Market, in Ecru. Only public business address/telephone used; no private individual data.",
+      "statistics": "None asserted"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "McCoy’s Grocery in Ecru says it will close at 6:30 p.m. beginning Monday, Nov. 2, according to an announcement on the store’s Facebook page.",
+      "fact_ids": [
+        "m1"
+      ]
+    },
+    {
+      "text": "The store lists its address as 338 Main Street in Ecru and its business telephone as 662-489-3161.",
+      "fact_ids": [
+        "m2"
+      ]
+    },
+    {
+      "text": "The announcement gives the new closing time and effective date but does not list opening times or day-specific exceptions. Customers needing those details can check with the store; the original notice and business profile are linked below.",
+      "fact_ids": [
+        "m3",
+        "m2"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/mccoys-grocery-ecru-closing-time-november-2-2026.jpg",
+    "sha256": "3d062726269ee208b5e42199667716e043e62e87894b36655f214be0a9f5e6ca",
+    "alt_text": "Original business notice graphic: McCoy’s Grocery in Ecru announces a 6:30 p.m. closing time beginning Monday, November 2, 2026.",
+    "credit": "Pontotoc News original editorial graphic",
+    "rights": "owned",
+    "rights_reference": "Original 1600 by 900 RGB typography and geometric panels created locally with Pillow and macOS Arial. Actual final pixels inspected: all factual labels, dates and attribution are legible and uncropped. No school or store logos, source artwork, photographs or people reused."
+  },
+  "review": {
+    "reviewer": "Codex November 1 morning editorial review",
+    "reviewed_at": "2026-11-01T15:08:45.272825+00:00",
+    "decision": "publish",
+    "checks": {
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "coherent_prose": true,
+      "statistics": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "identities": true,
+      "image_rights": true,
+      "dates": true,
+      "locality": true,
+      "source_support": true
+    },
+    "headline_fact_ids": [
+      "m1"
+    ],
+    "excerpt_fact_ids": [
+      "m1",
+      "m2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s November 1 recurring authority: useful distinct verified public-facts coverage; bounded article/image/request files; offline checks, authenticated all-status/source-event dry-run, editorial/image review, then serialized digest-bound publish. No allegations or private sensitive material."
+  }
+}
