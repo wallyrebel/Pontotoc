@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:south-pontotoc:booneville:2026-10-30:football-final"
+  ],
+  "title": "South Pontotoc falls 28–8 at Booneville",
+  "excerpt": "MaxPreps lists Friday’s game as a 28–8 Booneville win. The Cougars are 0–10, and the Blue Devils are 9–0.",
+  "locality": "South Pontotoc High School Cougars from Pontotoc County, Mississippi, visiting Booneville High School Blue Devils in Booneville, Mississippi, October 30, 2026.",
+  "sources": [
+    {
+      "id": "game",
+      "url": "https://www.maxpreps.com/ms/football/game/booneville-vs-south-pontotoc/10-30-2026/?c=3036979d-8f3f-49d8-87c6-27bade5b70d8",
+      "verification_url": "https://www.maxpreps.com/ms/football/game/booneville-vs-south-pontotoc/10-30-2026/?c=3036979d-8f3f-49d8-87c6-27bade5b70d8",
+      "role": "event",
+      "title": "MaxPreps: October 30 South Pontotoc at Booneville final",
+      "publisher": "MaxPreps",
+      "published_at": null,
+      "verified_at": "2026-11-01T00:39:08.254034+00:00"
+    },
+    {
+      "id": "south",
+      "url": "https://www.maxpreps.com/ms/pontotoc/south-pontotoc-cougars/football/schedule/",
+      "verification_url": "https://www.maxpreps.com/ms/pontotoc/south-pontotoc-cougars/football/schedule/",
+      "role": "event",
+      "title": "South Pontotoc’s updated 2026–27 football results",
+      "publisher": "MaxPreps",
+      "published_at": null,
+      "verified_at": "2026-11-01T00:39:08.254034+00:00"
+    },
+    {
+      "id": "booneville",
+      "url": "https://www.maxpreps.com/ms/booneville/booneville-blue-devils/football/schedule/",
+      "verification_url": "https://www.maxpreps.com/ms/booneville/booneville-blue-devils/football/schedule/",
+      "role": "event",
+      "title": "Booneville’s updated 2026–27 football results",
+      "publisher": "MaxPreps",
+      "published_at": null,
+      "verified_at": "2026-11-01T00:39:08.254034+00:00"
+    },
+    {
+      "id": "related",
+      "url": "https://pontotocnews.com/pontotoc-news/pontotoc-county-football-results-october-23-2026/",
+      "verification_url": "https://pontotocnews.com/pontotoc-news/pontotoc-county-football-results-october-23-2026/",
+      "role": "background",
+      "title": "Earlier county football report: South at North Pontotoc on October 23",
+      "publisher": "Pontotoc News",
+      "published_at": null,
+      "verified_at": "2026-11-01T00:39:08.254034+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "s1",
+      "statement": "South Pontotoc lost 28–8 at Booneville in a non-conference game Friday October30,2026.",
+      "source_ids": [
+        "game",
+        "south",
+        "booneville"
+      ],
+      "evidence": "Full direct dated game page and actual Chrome rendered score display read SouthPontotoc8 Final28 Booneville. Game Info explicitly says away non-conference game on10/30. The current South schedule lists10/30 atBooneville L28-8, and Booneville’s lists10/30 vsSouthPontotoc W28-8. The quarter-score cells are dashes and no quarter detail is invented.",
+      "date_context": "Game explicitly dated Friday October30,2026. First nightly direct read November1 around00:36UTC is October31 eveningCDT. Both current2026–27 schedules are marked updated November1 at00:09GMT, which is October31 at7:09p.m.CDT. Earlier research held the game without a reported result. The actual current full game and both schedules now show the final. No exact original score-publication timestamp is invented. The article remains part of October31 America/Chicago publication day before overnight fallback.",
+      "locality": "South Pontotoc High School Cougars from Pontotoc County, Mississippi, visiting Booneville High School Blue Devils in Booneville, Mississippi, October 30, 2026.",
+      "identities": "South Pontotoc Cougars and Booneville Blue Devils. No player identities, scoring plays, quarter scores, injuries, quotations, season-ended or playoff-status claims asserted.",
+      "statistics": "Booneville28,SouthPontotoc8."
+    },
+    {
+      "id": "s2",
+      "statement": "South Pontotoc is listed 0–10 overall and Booneville 9–0 following the result; both current schedules match the 28–8 final.",
+      "source_ids": [
+        "game",
+        "south",
+        "booneville"
+      ],
+      "evidence": "Actual full game headers show South0-10 and Booneville9-0. Both current2026–27 schedule headers agree. Counting South’s ten posted results yields ten losses; counting Booneville’s nine yields nine wins. Schedules both marked updated November1 at00:09GMT. No later playoff outcome or season-closure claim made.",
+      "date_context": "Game explicitly dated Friday October30,2026. First nightly direct read November1 around00:36UTC is October31 eveningCDT. Both current2026–27 schedules are marked updated November1 at00:09GMT, which is October31 at7:09p.m.CDT. Earlier research held the game without a reported result. The actual current full game and both schedules now show the final. No exact original score-publication timestamp is invented. The article remains part of October31 America/Chicago publication day before overnight fallback.",
+      "locality": "South Pontotoc High School Cougars from Pontotoc County, Mississippi, visiting Booneville High School Blue Devils in Booneville, Mississippi, October 30, 2026.",
+      "identities": "South Pontotoc Cougars and Booneville Blue Devils. No player identities, scoring plays, quarter scores, injuries, quotations, season-ended or playoff-status claims asserted.",
+      "statistics": "South0–10;Booneville9–0."
+    },
+    {
+      "id": "s3",
+      "statement": "South Pontotoc’s previous game was a 22–15 loss to North Pontotoc on October23.",
+      "source_ids": [
+        "south",
+        "related"
+      ],
+      "evidence": "South’s current schedule lists10/23 vsNorthPontotoc L22-15 immediately before10/30 atBooneville. The earlier reviewed local county report6139, freshly matched to its unchanged public body, reports the same October23 final. This is brief context, not a duplicate of that report.",
+      "date_context": "Game explicitly dated Friday October30,2026. First nightly direct read November1 around00:36UTC is October31 eveningCDT. Both current2026–27 schedules are marked updated November1 at00:09GMT, which is October31 at7:09p.m.CDT. Earlier research held the game without a reported result. The actual current full game and both schedules now show the final. No exact original score-publication timestamp is invented. The article remains part of October31 America/Chicago publication day before overnight fallback.",
+      "locality": "South Pontotoc High School Cougars from Pontotoc County, Mississippi, visiting Booneville High School Blue Devils in Booneville, Mississippi, October 30, 2026.",
+      "identities": "South Pontotoc Cougars and Booneville Blue Devils. No player identities, scoring plays, quarter scores, injuries, quotations, season-ended or playoff-status claims asserted.",
+      "statistics": "October23 NorthPontotoc22,South15."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "South Pontotoc lost 28–8 at Booneville on Friday, Oct. 30, according to the final now posted by MaxPreps. The game was listed as a non-conference road contest for the Cougars.",
+      "fact_ids": [
+        "s1"
+      ]
+    },
+    {
+      "text": "The Cougars are listed at 0–10 overall following the result, while Booneville is 9–0. Both teams’ updated schedules match the 28–8 final.",
+      "fact_ids": [
+        "s2"
+      ]
+    },
+    {
+      "text": "South Pontotoc’s previous game was a 22–15 loss to North Pontotoc on Oct. 23. Our earlier county football report, linked below, covers that matchup.",
+      "fact_ids": [
+        "s3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/south-pontotoc-booneville-football-october-30-2026.jpg",
+    "sha256": "a1795662f6ba7da406467fb23d1ecd71c5e142606476cecf762411712d0369cb",
+    "alt_text": "Original football result graphic: Booneville 28, South Pontotoc 8 on October 30; South is 0–10 and Booneville 9–0, as listed by MaxPreps.",
+    "credit": "Pontotoc News original editorial graphic",
+    "rights": "owned",
+    "rights_reference": "Original 1600 by 900 RGB typography and geometric panels created locally with Pillow and macOS Arial. No source artwork, school logos, third-party photographs or people reproduced. Actual final featured-image pixels inspected: score, records, game date and check date complete, legible and uncropped."
+  },
+  "review": {
+    "reviewer": "Codex October 31 nightly editorial review",
+    "reviewed_at": "2026-11-01T00:39:39.252708+00:00",
+    "decision": "publish",
+    "checks": {
+      "image_rights": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "coherent_prose": true,
+      "dates": true,
+      "public_facts_only": true,
+      "statistics": true,
+      "locality": true,
+      "no_invented_quotes_or_context": true,
+      "source_support": true,
+      "identities": true
+    },
+    "headline_fact_ids": [
+      "s1"
+    ],
+    "excerpt_fact_ids": [
+      "s1",
+      "s2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s October 31 recurring publication authorization: useful distinct verified local public-facts coverage; bounded article/image/request files only; offline checks, authenticated all-status/source-event dry-run, editorial/image review, then serialized digest-bound publish. No allegations or private sensitive material."
+  }
+}
