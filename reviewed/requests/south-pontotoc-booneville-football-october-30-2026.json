@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/south-pontotoc-booneville-football-october-30-2026.json",
   "article_sha256": "e468ba6cef5795a51eec85749c2176480dfdc69c2bc61785ded420e814c8e3f8",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "south-pontotoc-booneville-football-october-30-2026",
   "seo_review": {
     "reviewer": "Codex October 31 nightly editorial review",
