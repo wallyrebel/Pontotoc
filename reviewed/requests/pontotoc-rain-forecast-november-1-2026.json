@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-rain-forecast-november-1-2026.json",
+  "article_sha256": "fe519cddea341b784bc89e87cc7a0cce1925f0f3ac8248dba43b4fdcb6bdcc16",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-rain-forecast-november-1-2026",
+  "seo_review": {
+    "reviewer": "Codex November 1 morning editorial review",
+    "reviewed_at": "2026-11-01T15:26:42.845340+00:00",
+    "checks": {
+      "relevant_accessible_alt": true,
+      "meaningful_headline": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true,
+      "descriptive_slug": true,
+      "accurate_concise_description": true
+    }
+  }
+}

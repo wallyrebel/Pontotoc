@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:2026-11-01:morning-county-rain-forecast"
+  ],
+  "title": "Pontotoc forecast: Sunday rain, another round Tuesday night",
+  "excerpt": "The updated county forecast gives rain a 70 percent chance for the rest of Sunday, with another 90 percent chance Tuesday night.",
+  "locality": "Pontotoc County, Mississippi, including the city of Pontotoc; NWS forecast zoneMSZ015.",
+  "sources": [
+    {
+      "id": "county",
+      "url": "https://api.weather.gov/products/7a1458c1-1e5d-4472-b14a-3f900bf5cb53",
+      "verification_url": "https://api.weather.gov/products/7a1458c1-1e5d-4472-b14a-3f900bf5cb53",
+      "role": "event",
+      "title": "NWS November 1 zone forecast: see the Pontotoc section",
+      "publisher": "National Weather Service Memphis",
+      "published_at": "2026-11-01T15:06:00+00:00",
+      "verified_at": "2026-11-01T15:26:42.845340+00:00"
+    },
+    {
+      "id": "discussion",
+      "url": "https://api.weather.gov/products/cc02e0c0-f0ca-4730-8d70-5b730ca4a02d",
+      "verification_url": "https://api.weather.gov/products/cc02e0c0-f0ca-4730-8d70-5b730ca4a02d",
+      "role": "event",
+      "title": "NWS November 1 morning forecast discussion",
+      "publisher": "National Weather Service Memphis",
+      "published_at": "2026-11-01T12:15:00+00:00",
+      "verified_at": "2026-11-01T15:08:45.272825+00:00"
+    },
+    {
+      "id": "earlier",
+      "url": "https://pontotocnews.com/pontotoc-news/pontotoc-halloween-rain-forecast-october-29-2026/",
+      "verification_url": "https://pontotocnews.com/pontotoc-news/pontotoc-halloween-rain-forecast-october-29-2026/",
+      "role": "background",
+      "title": "Earlier outlook: forecast issued October 29",
+      "publisher": "Pontotoc News",
+      "published_at": null,
+      "verified_at": "2026-11-01T15:08:45.272825+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "w1",
+      "statement": "The NWS9:06a.m.CSTNovember1PontotocCountyforecast calls for showerslikelylateSundaymorning,thenchanceofshowersafternoon;70%rainchancefortherestofSundayandhighsupper60s.",
+      "source_ids": [
+        "county"
+      ],
+      "evidence": "Read full newly dated immutableZFPandisolatedPontotocMSZ015section. RESTOFTODAYexplicitshowerslikelylatethismorning,chanceafternoon,upper60s,and70percent. The earlierunsubmitted6:05forecast90%wasreplacedbeforeintake. No thunderstormclaimretainedfortheupdatedSundayperiod; no guaranteedrainendtimeorobservedrainfalltotalasserted.",
+      "date_context": "Latest original NWSZFP issuedNovember1at15:06UTC;PontotocMSZ015sectionexplicit9:06a.m.CSTSundayNovember1,2026. Before any weather intake submission, fresh latest-product check found this newerforecast,replacingtheunsubmitted6:05a.m.draft. Full newcountysection read; restofSundayrainchance70%,no morningthunderstormchanceinupdatedperiod. DatedAFD6:15a.m.CSTsupportsMondaybreak. RelativeforecastdaysanchorSundayNov1,MondayNov2,TuesdayNov3,WednesdayNov4. Older6187datedOct29preserved.",
+      "locality": "Pontotoc County, Mississippi, including the city of Pontotoc; NWS forecast zoneMSZ015.",
+      "identities": "National Weather Service Memphis; Pontotoc County forecast zoneMSZ015. No private individual or damage report asserted.",
+      "statistics": "RestofSunday70%rainchance;highsupper60s."
+    },
+    {
+      "id": "w2",
+      "statement": "Sunday night’s rain chance is20%with lowsupper50s; Monday is forecastmostlycloudywith highsmid70s.",
+      "source_ids": [
+        "county"
+      ],
+      "evidence": "FullPontotocTONIGHTsection20%showers,upper50s;MONDAYmostlycloudy,mid70s. No claimofzeroMondayrainrisk derived from absentprobability; headline/body saybriefbreak/drier supportedAFD.",
+      "date_context": "Latest original NWSZFP issuedNovember1at15:06UTC;PontotocMSZ015sectionexplicit9:06a.m.CSTSundayNovember1,2026. Before any weather intake submission, fresh latest-product check found this newerforecast,replacingtheunsubmitted6:05a.m.draft. Full newcountysection read; restofSundayrainchance70%,no morningthunderstormchanceinupdatedperiod. DatedAFD6:15a.m.CSTsupportsMondaybreak. RelativeforecastdaysanchorSundayNov1,MondayNov2,TuesdayNov3,WednesdayNov4. Older6187datedOct29preserved.",
+      "locality": "Pontotoc County, Mississippi, including the city of Pontotoc; NWS forecast zoneMSZ015.",
+      "identities": "National Weather Service Memphis; Pontotoc County forecast zoneMSZ015. No private individual or damage report asserted.",
+      "statistics": "Sundaynight20%;Mondayhighsmid70s."
+    },
+    {
+      "id": "w3",
+      "statement": "The county forecast has a20%rainchanceTuesdayafternoon,90%Tuesdaynightwithshowersandchanceofthunderstorms,and70%Wednesday; NWSdiscussiondescribesbriefMondaybreakbeforenextwidespreadrainround.",
+      "source_ids": [
+        "county",
+        "discussion"
+      ],
+      "evidence": "Read entire datedcountyTUESDAY/TUESDAYNIGHT/WEDNESDAYand fullAFD. CountyTuesnight90%, distinctfrompointforecast80%; no mixing. AFD6:13a.m.CSTkeymessagesbriefMondaybreakandshowers/thunderstormssecondhalfTuesdayintoWednesday. No regional1–2inchamounts presented aslocal totals; no severeweathercertainty,burnbanrescissionordroughtreliefclaim.",
+      "date_context": "Latest original NWSZFP issuedNovember1at15:06UTC;PontotocMSZ015sectionexplicit9:06a.m.CSTSundayNovember1,2026. Before any weather intake submission, fresh latest-product check found this newerforecast,replacingtheunsubmitted6:05a.m.draft. Full newcountysection read; restofSundayrainchance70%,no morningthunderstormchanceinupdatedperiod. DatedAFD6:15a.m.CSTsupportsMondaybreak. RelativeforecastdaysanchorSundayNov1,MondayNov2,TuesdayNov3,WednesdayNov4. Older6187datedOct29preserved.",
+      "locality": "Pontotoc County, Mississippi, including the city of Pontotoc; NWS forecast zoneMSZ015.",
+      "identities": "National Weather Service Memphis; Pontotoc County forecast zoneMSZ015. No private individual or damage report asserted.",
+      "statistics": "Tuesday20%;Tuesdaynight90%;Wednesday70%."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Rain remains in Pontotoc County’s Sunday forecast, with another round expected Tuesday night. The National Weather Service’s 9:06 a.m. CST forecast for Nov. 1 calls for showers likely late Sunday morning, followed by a chance of afternoon showers. The rain chance for the rest of Sunday is 70 percent, with highs in the upper 60s.",
+      "fact_ids": [
+        "w1",
+        "w3"
+      ]
+    },
+    {
+      "text": "The county forecast lowers the shower chance to 20 percent Sunday night, with lows in the upper 50s. Monday is expected to be mostly cloudy with highs in the mid 70s; the NWS morning discussion describes a brief break from the rain.",
+      "fact_ids": [
+        "w2",
+        "w3"
+      ]
+    },
+    {
+      "text": "Rain chances increase again after Monday. Tuesday has a 20 percent chance of afternoon showers, rising to 90 percent Tuesday night with showers and a chance of thunderstorms. Wednesday’s rain chance is 70 percent. These figures come from the Pontotoc County section of the dated forecast linked below.",
+      "fact_ids": [
+        "w3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-rain-forecast-november-1-2026.jpg",
+    "sha256": "8a4afcb150f8fc4aa965fc7bada9e7b7258a356d66c6b0bc46ee091d60354108",
+    "alt_text": "Original Pontotoc County forecast graphic dated November 1 at 9:06 a.m. CST: rest of Sunday 70 percent rain chance, Monday mostly cloudy, Tuesday night 90 percent and Wednesday 70 percent.",
+    "credit": "Pontotoc News original editorial graphic",
+    "rights": "owned",
+    "rights_reference": "Original 1600 by 900 RGB typography and geometric panels created locally with Pillow and macOS Arial. Actual final pixels inspected: all factual labels, dates and attribution are legible and uncropped. No school or store logos, source artwork, photographs or people reused."
+  },
+  "review": {
+    "reviewer": "Codex November 1 morning editorial review",
+    "reviewed_at": "2026-11-01T15:26:42.845340+00:00",
+    "decision": "publish",
+    "checks": {
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "coherent_prose": true,
+      "statistics": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "identities": true,
+      "image_rights": true,
+      "dates": true,
+      "locality": true,
+      "source_support": true
+    },
+    "headline_fact_ids": [
+      "w1",
+      "w3"
+    ],
+    "excerpt_fact_ids": [
+      "w1",
+      "w3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s November 1 recurring authority: useful distinct verified public-facts coverage; bounded article/image/request files; offline checks, authenticated all-status/source-event dry-run, editorial/image review, then serialized digest-bound publish. No allegations or private sensitive material."
+  }
+}
