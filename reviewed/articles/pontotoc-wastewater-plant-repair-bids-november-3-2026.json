@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:city:p26-520:2026-11-03:wastewater-treatment-plant-rehab-bid"
+  ],
+  "title": "Pontotoc wastewater plant repair bids due Tuesday",
+  "excerpt": "Bids for repairs and replacement of Pontotoc wastewater treatment plant equipment are due at 2 p.m. Nov. 3 at City Hall.",
+  "locality": "City of Pontotoc, Pontotoc County, Mississippi; City Hall at 116 North Main Street.",
+  "sources": [
+    {
+      "id": "notice",
+      "url": "https://www.esiplans.com/projects/21076/details/p26-520-wastewater-treatment-plant-rehab",
+      "verification_url": "https://www.esiplans.com/projects/21076/details/p26-520-wastewater-treatment-plant-rehab",
+      "role": "event",
+      "title": "Original advertisement: Pontotoc wastewater treatment plant rehabilitation bids",
+      "publisher": "Engineering Solutions, Inc. public planroom",
+      "published_at": null,
+      "verified_at": "2026-11-01T22:07:22.155575+00:00"
+    },
+    {
+      "id": "related",
+      "url": "https://pontotocnews.com/pontotoc-news/ms-336-safety-project-bid-tabulation-october-2026/",
+      "verification_url": "https://pontotocnews.com/pontotoc-news/ms-336-safety-project-bid-tabulation-october-2026/",
+      "role": "background",
+      "title": "Related public-works coverage: MS 336 safety-project bid tabulation",
+      "publisher": "Pontotoc News",
+      "published_at": null,
+      "verified_at": "2026-11-01T22:07:22.155575+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc seeks bids for repairs and replacement of wastewater treatment plant equipment, due November 3, 2026 at 2 p.m.",
+      "source_ids": [
+        "notice"
+      ],
+      "evidence": "Read the entire public engineer advertisement. It identifies the owner as City of Pontotoc, the project as P26-520 Wastewater Treatment Plant Rehab / 21076, and the scope as replacing and repairing plant equipment. Deadline explicitly November 3, 2026, 2 p.m.",
+      "date_context": "Advertisement explicitly sets Tuesday, November 3, 2026 at 2:00 p.m.; this is local Pontotoc time (America/Chicago, CST on November 3). Verified November 1, 2026; listing currently says Accepting Bids. Source publication timestamp is not provided; advertisement dates shown as 10/6 and 10/13 are not treated as an exact publication timestamp.",
+      "locality": "City of Pontotoc, Pontotoc County, Mississippi; City Hall at 116 North Main Street.",
+      "identities": "City of Pontotoc; Engineering Solutions, Inc.; Mike Falkner is listed as project contact.",
+      "statistics": "November 3, 2026 at 2 p.m.; project P26-520 / 21076."
+    },
+    {
+      "id": "f2",
+      "statement": "The public project listing remains marked Accepting Bids on Sunday, November 1.",
+      "source_ids": [
+        "notice"
+      ],
+      "evidence": "Original planroom details display Status: Accepting Bids, and Bid Nov 3, 2026 2:00pm. This is an observation of the listing, not confirmation of any subsequent award.",
+      "date_context": "Advertisement explicitly sets Tuesday, November 3, 2026 at 2:00 p.m.; this is local Pontotoc time (America/Chicago, CST on November 3). Verified November 1, 2026; listing currently says Accepting Bids. Source publication timestamp is not provided; advertisement dates shown as 10/6 and 10/13 are not treated as an exact publication timestamp.",
+      "locality": "City of Pontotoc, Pontotoc County, Mississippi; City Hall at 116 North Main Street.",
+      "identities": "City of Pontotoc; Engineering Solutions, Inc.; Mike Falkner is listed as project contact.",
+      "statistics": "None asserted"
+    },
+    {
+      "id": "f3",
+      "statement": "Sealed bids go to City Hall at 116 North Main Street; electronic bids are also permitted.",
+      "source_ids": [
+        "notice"
+      ],
+      "evidence": "Full advertisement specifies sealed or electronic bids and gives City Hall, 116 N. Main St., Pontotoc, MS 38863 as the sealed-bid receiving location. Submission details should be taken from original documents; no electronic address invented.",
+      "date_context": "Advertisement explicitly sets Tuesday, November 3, 2026 at 2:00 p.m.; this is local Pontotoc time (America/Chicago, CST on November 3). Verified November 1, 2026; listing currently says Accepting Bids. Source publication timestamp is not provided; advertisement dates shown as 10/6 and 10/13 are not treated as an exact publication timestamp.",
+      "locality": "City of Pontotoc, Pontotoc County, Mississippi; City Hall at 116 North Main Street.",
+      "identities": "City of Pontotoc; Engineering Solutions, Inc.; Mike Falkner is listed as project contact.",
+      "statistics": "116 North Main Street, Pontotoc, MS 38863."
+    },
+    {
+      "id": "f4",
+      "statement": "The notice permits up to 60 days to review bids and bidder qualifications and reserves the city’s right to reject bids.",
+      "source_ids": [
+        "notice"
+      ],
+      "evidence": "Final advertisement paragraph allows bids to be held up to 60 days from opening before contract award; city may reject any or all bids. No award, project cost or construction start date asserted.",
+      "date_context": "Advertisement explicitly sets Tuesday, November 3, 2026 at 2:00 p.m.; this is local Pontotoc time (America/Chicago, CST on November 3). Verified November 1, 2026; listing currently says Accepting Bids. Source publication timestamp is not provided; advertisement dates shown as 10/6 and 10/13 are not treated as an exact publication timestamp.",
+      "locality": "City of Pontotoc, Pontotoc County, Mississippi; City Hall at 116 North Main Street.",
+      "identities": "City of Pontotoc; Engineering Solutions, Inc.; Mike Falkner is listed as project contact.",
+      "statistics": "Up to 60 days after opening for bid review."
+    },
+    {
+      "id": "f5",
+      "statement": "Engineering Solutions lists Mike Falkner as project contact.",
+      "source_ids": [
+        "notice"
+      ],
+      "evidence": "Company and Contacts section names Engineering Solutions, Inc. and Mike Falkner. No personal/private contact data used.",
+      "date_context": "Advertisement explicitly sets Tuesday, November 3, 2026 at 2:00 p.m.; this is local Pontotoc time (America/Chicago, CST on November 3). Verified November 1, 2026; listing currently says Accepting Bids. Source publication timestamp is not provided; advertisement dates shown as 10/6 and 10/13 are not treated as an exact publication timestamp.",
+      "locality": "City of Pontotoc, Pontotoc County, Mississippi; City Hall at 116 North Main Street.",
+      "identities": "City of Pontotoc; Engineering Solutions, Inc.; Mike Falkner is listed as project contact.",
+      "statistics": "None asserted"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc is seeking bids for equipment repairs and replacements at its wastewater treatment plant, with proposals due at 2 p.m. Tuesday, Nov. 3.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The city’s advertisement in Engineering Solutions’ public planroom identifies the project as wastewater treatment plant rehabilitation. The listing remained open for bids Sunday, Nov. 1.",
+      "fact_ids": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "text": "Sealed bids are to be received at City Hall, 116 N. Main St. The advertisement also permits electronic bids. Contractors should consult the original project listing and bid documents for submission instructions.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "The notice allows the city to hold bids for up to 60 days after opening while reviewing proposals and contractor qualifications. It also reserves the city’s right to reject bids.",
+      "fact_ids": [
+        "f4"
+      ]
+    },
+    {
+      "text": "Engineering Solutions lists Mike Falkner as the project contact.",
+      "fact_ids": [
+        "f5"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-wastewater-plant-repair-bids-november-3-2026.png",
+    "sha256": "f2fe30c213893c9f91511e11bd7b509b14ef286a8c4fce0f61227857dd341ee5",
+    "alt_text": "Original Pontotoc bid-deadline graphic: wastewater plant repair bids due Tuesday, November 3, 2026 at 2 p.m., City Hall, 116 North Main Street.",
+    "credit": "Pontotoc News original editorial graphic",
+    "rights": "owned",
+    "rights_reference": "Original 1600 by 900 RGB typography graphic rendered locally with Pillow and macOS Arial; final pixels inspected for readable, uncropped deadline, locality, address and source. No third-party artwork, logos, photographs or Facebook assets used."
+  },
+  "review": {
+    "reviewer": "Codex November 1 afternoon editorial review",
+    "reviewed_at": "2026-11-01T22:07:22.155575+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s authority to publish useful verified Pontotoc public-facts articles; parent delegated this distinct original-engineer-source deadline story for November 1 afternoon. Bounded article, image and request only; offline tests, authenticated dry-run, editorial/image review then serialized publish. No Facebook operation."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-wastewater-plant-repair-bids-november-3-2026.json",
+  "article_sha256": "a3430635d04f40a6ec7a19d7c5735da138b204db5cf304d05a2ea9f601df4eb2",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-wastewater-plant-repair-bids-november-3-2026",
+  "seo_review": {
+    "reviewer": "Codex November 1 afternoon editorial review",
+    "reviewed_at": "2026-11-01T22:07:22.155575+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}
