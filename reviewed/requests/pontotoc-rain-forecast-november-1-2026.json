@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-rain-forecast-november-1-2026.json",
   "article_sha256": "fe519cddea341b784bc89e87cc7a0cce1925f0f3ac8248dba43b4fdcb6bdcc16",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-rain-forecast-november-1-2026",
   "seo_review": {
     "reviewer": "Codex November 1 morning editorial review",
