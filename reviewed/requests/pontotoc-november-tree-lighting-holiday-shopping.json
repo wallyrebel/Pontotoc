@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-november-tree-lighting-holiday-shopping.json",
   "article_sha256": "5fff6f775765674d11341920b0b9a261d213835caaae0b31a8214d1544e83383",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-november-tree-lighting-holiday-shopping",
   "seo_review": {
     "reviewer": "Codex November 2 afternoon editorial review",
