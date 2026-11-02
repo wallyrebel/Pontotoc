@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/mississippi-ucc-filing-portal-november-2-2026.json",
+  "article_sha256": "c3df7f610343139d1f723178fdd55fc5f7c9e5531ac653d54164944da1a4d4df",
+  "mode": "dry-run",
+  "public_slug": "mississippi-ucc-filing-portal-november-2-2026",
+  "seo_review": {
+    "reviewer": "Codex November 2 morning editorial review",
+    "reviewed_at": "2026-11-02T16:03:52.265694+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}

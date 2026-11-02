@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:statewide:sos:2026-11-02:ucc-portal-transition"
+  ],
+  "title": "Statewide: Mississippi directs UCC filers to new portal",
+  "excerpt": "The Secretary of State directs UCC filing and search customers to a new portal effective Nov. 2; its notice says the old system no longer accepts new filings.",
+  "locality": "Statewide Mississippi business-services update; relevant to UCC filing and search customers, including those in Pontotoc County. No local filing count asserted.",
+  "sources": [
+    {
+      "id": "transition",
+      "url": "https://www.sos.ms.gov/ucc-system-go-live",
+      "verification_url": "https://www.sos.ms.gov/ucc-system-go-live",
+      "role": "event",
+      "title": "Official notice: new UCC filing and search portal",
+      "publisher": "Mississippi Secretary of State’s Office",
+      "published_at": null,
+      "verified_at": "2026-11-02T16:03:52.265694+00:00"
+    },
+    {
+      "id": "overview",
+      "url": "https://www.sos.ms.gov/business-services-external-affairs/uniform-commercial-code",
+      "verification_url": "https://www.sos.ms.gov/business-services-external-affairs/uniform-commercial-code",
+      "role": "background",
+      "title": "Official overview: Uniform Commercial Code filing services",
+      "publisher": "Mississippi Secretary of State’s Office",
+      "published_at": null,
+      "verified_at": "2026-11-02T16:03:52.265694+00:00"
+    },
+    {
+      "id": "related",
+      "url": "https://pontotocnews.com/pontotoc-news/pontotoc-wastewater-plant-repair-bids-november-3-2026/",
+      "verification_url": "https://pontotocnews.com/pontotoc-news/pontotoc-wastewater-plant-repair-bids-november-3-2026/",
+      "role": "background",
+      "title": "Related Pontotoc public notice: wastewater equipment bid deadline",
+      "publisher": "Pontotoc News",
+      "published_at": null,
+      "verified_at": "2026-11-02T16:03:52.265694+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "u1",
+      "statement": "The Secretary of State directs UCC customers to a new portal beginning November 2, 2026, with a transition announced for 8 a.m. CST.",
+      "source_ids": [
+        "transition",
+        "overview"
+      ],
+      "evidence": "Read complete canonical transition notice and complete official UCC overview. Both specify November 2, 2026 at 8 a.m. CST; overview heading says system now available. Scope is statewide, not a city-only system.",
+      "date_context": "Agency notice explicitly sets transition for Monday November 2, 2026 at 8 a.m. CST, before verification refreshed at 16:03 UTC. Official overview heading says New UCC Filing System Now Available while body retains future-tense launch language. Article attributes the directive and announced transition; no independent portal uptime, successful transaction, account migration or filing completion claimed. Source publication timestamps not supplied and explicitly null.",
+      "locality": "Statewide Mississippi business-services update; relevant to UCC filing and search customers, including those in Pontotoc County. No local filing count asserted.",
+      "identities": "Mississippi Secretary of State’s Office; Business Services Division. No private customer or transaction named.",
+      "statistics": "November 2, 2026 at 8 a.m. CST; no transaction statistics."
+    },
+    {
+      "id": "u2",
+      "statement": "The notice says the new application replaces the previous system, has an updated interface and the previous system no longer accepts new filings.",
+      "source_ids": [
+        "transition"
+      ],
+      "evidence": "Full notice expressly states these changes and directs customers to use the new portal for filings, searches and other available UCC services. Portal is linked from original notice; no claim of independently verified portal availability.",
+      "date_context": "Agency notice explicitly sets transition for Monday November 2, 2026 at 8 a.m. CST, before verification refreshed at 16:03 UTC. Official overview heading says New UCC Filing System Now Available while body retains future-tense launch language. Article attributes the directive and announced transition; no independent portal uptime, successful transaction, account migration or filing completion claimed. Source publication timestamps not supplied and explicitly null.",
+      "locality": "Statewide Mississippi business-services update; relevant to UCC filing and search customers, including those in Pontotoc County. No local filing count asserted.",
+      "identities": "Mississippi Secretary of State’s Office; Business Services Division. No private customer or transaction named.",
+      "statistics": "None asserted."
+    },
+    {
+      "id": "u3",
+      "statement": "The notice directs customers to portal instructions for account registration, account access and available subscriptions.",
+      "source_ids": [
+        "transition"
+      ],
+      "evidence": "Read Account Access and System Transition section. No inference of account migration steps, universal new-account requirement, subscription cost or new legal filing requirement.",
+      "date_context": "Agency notice explicitly sets transition for Monday November 2, 2026 at 8 a.m. CST, before verification refreshed at 16:03 UTC. Official overview heading says New UCC Filing System Now Available while body retains future-tense launch language. Article attributes the directive and announced transition; no independent portal uptime, successful transaction, account migration or filing completion claimed. Source publication timestamps not supplied and explicitly null.",
+      "locality": "Statewide Mississippi business-services update; relevant to UCC filing and search customers, including those in Pontotoc County. No local filing count asserted.",
+      "identities": "Mississippi Secretary of State’s Office; Business Services Division. No private customer or transaction named.",
+      "statistics": "None asserted."
+    },
+    {
+      "id": "u4",
+      "statement": "UCC means Uniform Commercial Code; the overview describes filing services covering financing statements for manufactured homes, transmitting utilities and farm liens.",
+      "source_ids": [
+        "transition",
+        "overview"
+      ],
+      "evidence": "Notice spells out UCC; complete official overview names these document categories. Article reports categories only, with no legal/financial advice, eligibility decision or customer-specific determination.",
+      "date_context": "Agency notice explicitly sets transition for Monday November 2, 2026 at 8 a.m. CST, before verification refreshed at 16:03 UTC. Official overview heading says New UCC Filing System Now Available while body retains future-tense launch language. Article attributes the directive and announced transition; no independent portal uptime, successful transaction, account migration or filing completion claimed. Source publication timestamps not supplied and explicitly null.",
+      "locality": "Statewide Mississippi business-services update; relevant to UCC filing and search customers, including those in Pontotoc County. No local filing count asserted.",
+      "identities": "Mississippi Secretary of State’s Office; Business Services Division. No private customer or transaction named.",
+      "statistics": "None asserted."
+    },
+    {
+      "id": "u5",
+      "statement": "Business Services Division offers assistance at 601-359-1633.",
+      "source_ids": [
+        "transition",
+        "overview"
+      ],
+      "evidence": "Both original pages publish the same Business Services assistance telephone. Official public business contact, not private personal information.",
+      "date_context": "Agency notice explicitly sets transition for Monday November 2, 2026 at 8 a.m. CST, before verification refreshed at 16:03 UTC. Official overview heading says New UCC Filing System Now Available while body retains future-tense launch language. Article attributes the directive and announced transition; no independent portal uptime, successful transaction, account migration or filing completion claimed. Source publication timestamps not supplied and explicitly null.",
+      "locality": "Statewide Mississippi business-services update; relevant to UCC filing and search customers, including those in Pontotoc County. No local filing count asserted.",
+      "identities": "Mississippi Secretary of State’s Office; Business Services Division. No private customer or transaction named.",
+      "statistics": "Public assistance telephone 601-359-1633."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "The Mississippi Secretary of State’s Office is directing Uniform Commercial Code filing and search customers to a new online portal starting Monday, Nov. 2, a statewide change for business filers.",
+      "fact_ids": [
+        "u1",
+        "u4"
+      ]
+    },
+    {
+      "text": "The office’s transition notice sets the change for 8 a.m. CST and says the previous system is no longer accepting new filings. The new application replaces the old online filing system and has an updated interface.",
+      "fact_ids": [
+        "u1",
+        "u2"
+      ]
+    },
+    {
+      "text": "Customers should use the new portal for filings, searches and other available UCC services, the notice says. It provides the link and directs users to follow the portal’s instructions for account registration, account access and subscription services.",
+      "fact_ids": [
+        "u2",
+        "u3"
+      ]
+    },
+    {
+      "text": "UCC stands for Uniform Commercial Code. The Secretary of State’s overview describes the office as filing officer for documents that include financing statements for manufactured homes, transmitting utilities and farm liens.",
+      "fact_ids": [
+        "u4"
+      ]
+    },
+    {
+      "text": "The Business Services Division offers assistance at 601-359-1633. The official transition notice and agency overview are linked below.",
+      "fact_ids": [
+        "u5"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/mississippi-ucc-filing-portal-november-2-2026.png",
+    "sha256": "34a2e0b590d1f6ea6af3363e099525ba20f2d6f086cba3a3af6fc6f49d54ec39",
+    "alt_text": "Original statewide business graphic announcing the Mississippi UCC filing and search portal transition effective Monday, November 2, 2026, citing the Secretary of State.",
+    "credit": "Pontotoc News original editorial graphic",
+    "rights": "owned",
+    "rights_reference": "Original 1600 by 900 RGB typography and geometric layout rendered locally with Pillow and macOS Arial. Actual final pixels inspected for accurate dates, labels, locality, readable type and uncropped content. No third-party photographs, logos, source artwork or Facebook assets reused."
+  },
+  "review": {
+    "reviewer": "Codex November 2 morning editorial review",
+    "reviewed_at": "2026-11-02T16:03:52.265694+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "u1",
+      "u2"
+    ],
+    "excerpt_fact_ids": [
+      "u1",
+      "u2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s recurring authority to publish useful distinct verified public-facts coverage on Pontotoc News. November 2 morning run: bounded article/image/request only, offline checks, authenticated all-status/source-event dry-run, final editorial/image review then serialized publish. No Facebook asset operation."
+  }
+}
