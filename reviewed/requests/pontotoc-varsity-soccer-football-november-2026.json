@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-varsity-soccer-football-november-2026.json",
+  "article_sha256": "7ef639cc685f77611477983f9dc72a67bfd2d331934f4446feece25862b9648b",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-varsity-soccer-football-november-2026",
+  "seo_review": {
+    "reviewer": "Codex November 2 morning editorial review",
+    "reviewed_at": "2026-11-02T16:03:52.265694+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}

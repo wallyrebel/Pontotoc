@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:athletics:2026-11-02:midweek-varsity-schedule"
+  ],
+  "title": "Pontotoc hosts Ripley soccer Tuesday; football visits Lafayette Thursday",
+  "excerpt": "Pontotoc girls soccer hosts Ripley Nov. 3 at 5 p.m. Football visits Lafayette Nov. 5 at 7 p.m., with varsity soccer also at New Albany.",
+  "locality": "Pontotoc High School, Pontotoc, Mississippi; away varsity football at Lafayette and away varsity soccer at New Albany, Mississippi.",
+  "sources": [
+    {
+      "id": "athletics",
+      "url": "https://www.pontotocathletics.com/calendar",
+      "verification_url": "https://www.pontotocathletics.com/calendar",
+      "role": "event",
+      "title": "Pontotoc High School official athletics schedule",
+      "publisher": "Pontotoc High School / Mascot Media",
+      "published_at": null,
+      "verified_at": "2026-11-02T16:03:52.265694+00:00"
+    },
+    {
+      "id": "ical",
+      "url": "https://mmboltapi.azurewebsites.net/api/v2/events/downloadcalendar/2552763/0",
+      "verification_url": "https://mmboltapi.azurewebsites.net/api/v2/events/downloadcalendar/2552763/0",
+      "role": "event",
+      "title": "School-linked calendar download: dated 2026 events",
+      "publisher": "Pontotoc High School / Mascot Media",
+      "published_at": null,
+      "verified_at": "2026-11-02T16:03:52.265694+00:00"
+    },
+    {
+      "id": "related",
+      "url": "https://pontotocnews.com/pontotoc-news/pontotoc-basketball-jamboree-results-october-31-2026/",
+      "verification_url": "https://pontotocnews.com/pontotoc-news/pontotoc-basketball-jamboree-results-october-31-2026/",
+      "role": "background",
+      "title": "Related results: Pontotoc’s October 31 basketball jamboree",
+      "publisher": "Pontotoc News",
+      "published_at": null,
+      "verified_at": "2026-11-02T16:03:52.265694+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "s1",
+      "statement": "Pontotoc varsity girls soccer hosts Ripley Tuesday November 3, 2026 at 5 p.m. CST.",
+      "source_ids": [
+        "athletics",
+        "ical"
+      ],
+      "evidence": "Read complete official athletics calendar and full linked ICS. Girls Varsity Soccer vs Ripley is November 3 at 5 p.m.; UID 4938865, DTSTART 20261103T230000Z, LOCATION Pontotoc High School. No boys kickoff inferred from this girls entry.",
+      "date_context": "Verified Monday November 2, 2026, refreshed after reconnection at 16:03 UTC. Upcoming games Tuesday November 3 and Thursday November 5, 2026. School public ICS confirms 2026 UTC DTSTART; converted with America/Chicago, CST (UTC minus six) after November 1 clock change. Saturday basketball excluded because district calendar block and athletics start times differ. Monday JV excluded because source times differ. This is a selected varsity midweek preview, not an exhaustive county schedule.",
+      "locality": "Pontotoc High School, Pontotoc, Mississippi; away varsity football at Lafayette and away varsity soccer at New Albany, Mississippi.",
+      "identities": "Pontotoc High School Warriors; Ripley High School; Lafayette; New Albany High School. No individual players or coaches named.",
+      "statistics": "November 3, 2026 at 5 p.m. CST; no records or scores asserted."
+    },
+    {
+      "id": "s2",
+      "statement": "Pontotoc varsity football visits Lafayette Thursday November 5, 2026 at 7 p.m. CST.",
+      "source_ids": [
+        "athletics",
+        "ical"
+      ],
+      "evidence": "Official listing Football - Varsity at Lafayette Nov 5 at 7 p.m.; ICS UID 4389570, DTSTART 20261106T010000Z = November 5 at 7 p.m. CST. District event 49985050 corroborates. No standings, playoff or classification claim.",
+      "date_context": "Verified Monday November 2, 2026, refreshed after reconnection at 16:03 UTC. Upcoming games Tuesday November 3 and Thursday November 5, 2026. School public ICS confirms 2026 UTC DTSTART; converted with America/Chicago, CST (UTC minus six) after November 1 clock change. Saturday basketball excluded because district calendar block and athletics start times differ. Monday JV excluded because source times differ. This is a selected varsity midweek preview, not an exhaustive county schedule.",
+      "locality": "Pontotoc High School, Pontotoc, Mississippi; away varsity football at Lafayette and away varsity soccer at New Albany, Mississippi.",
+      "identities": "Pontotoc High School Warriors; Ripley High School; Lafayette; New Albany High School. No individual players or coaches named.",
+      "statistics": "November 5, 2026 at 7 p.m. CST; no score or record asserted."
+    },
+    {
+      "id": "s3",
+      "statement": "Pontotoc varsity girls and boys soccer visit New Albany Thursday November 5, girls at 5 p.m. and boys at 8 p.m. CST.",
+      "source_ids": [
+        "athletics",
+        "ical"
+      ],
+      "evidence": "Read complete varsity entries, separating JV. Girls varsity UID 4938866 DTSTART 20261105T230000Z; boys varsity UID 4938732 DTSTART 20261106T020000Z; both LOCATION New Albany High School. Boys JV at 7 p.m. is not substituted for varsity at 8 p.m.",
+      "date_context": "Verified Monday November 2, 2026, refreshed after reconnection at 16:03 UTC. Upcoming games Tuesday November 3 and Thursday November 5, 2026. School public ICS confirms 2026 UTC DTSTART; converted with America/Chicago, CST (UTC minus six) after November 1 clock change. Saturday basketball excluded because district calendar block and athletics start times differ. Monday JV excluded because source times differ. This is a selected varsity midweek preview, not an exhaustive county schedule.",
+      "locality": "Pontotoc High School, Pontotoc, Mississippi; away varsity football at Lafayette and away varsity soccer at New Albany, Mississippi.",
+      "identities": "Pontotoc High School Warriors; Ripley High School; Lafayette; New Albany High School. No individual players or coaches named.",
+      "statistics": "November 5, girls varsity 5 p.m. CST; boys varsity 8 p.m. CST."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc has varsity soccer at home Tuesday and a football trip to Lafayette on Thursday as its November schedule gets underway, according to the school’s athletics calendar.",
+      "fact_ids": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "text": "The varsity girls soccer team is scheduled to host Ripley at 5 p.m. Tuesday, Nov. 3.",
+      "fact_ids": [
+        "s1"
+      ]
+    },
+    {
+      "text": "Pontotoc’s varsity football game at Lafayette is listed for 7 p.m. Thursday, Nov. 5.",
+      "fact_ids": [
+        "s2"
+      ]
+    },
+    {
+      "text": "The varsity soccer teams also travel Thursday. At New Albany, the girls are scheduled for 5 p.m. and the boys for 8 p.m. All start times are Central Standard Time.",
+      "fact_ids": [
+        "s3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-varsity-soccer-football-november-2026.png",
+    "sha256": "707536ba437399887417fa39be8c896aa920b6e095bc920d9ed0326e4f41a8ed",
+    "alt_text": "Original Pontotoc sports graphic showing Ripley at Pontotoc girls varsity soccer Nov. 3 at 5 p.m. and Pontotoc at Lafayette football Nov. 5 at 7 p.m. CST.",
+    "credit": "Pontotoc News original editorial graphic",
+    "rights": "owned",
+    "rights_reference": "Original 1600 by 900 RGB typography and geometric layout rendered locally with Pillow and macOS Arial. Actual final pixels inspected for accurate dates, labels, locality, readable type and uncropped content. No third-party photographs, logos, source artwork or Facebook assets reused."
+  },
+  "review": {
+    "reviewer": "Codex November 2 morning editorial review",
+    "reviewed_at": "2026-11-02T16:03:52.265694+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "s1",
+      "s2"
+    ],
+    "excerpt_fact_ids": [
+      "s1",
+      "s2",
+      "s3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s recurring authority to publish useful distinct verified public-facts coverage on Pontotoc News. November 2 morning run: bounded article/image/request only, offline checks, authenticated all-status/source-event dry-run, final editorial/image review then serialized publish. No Facebook asset operation."
+  }
+}
