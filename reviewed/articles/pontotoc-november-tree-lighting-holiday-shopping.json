@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:2026-11-19:christmas-tree-lighting",
+    "ms:pontotoc:2026-11-22:christmas-open-house",
+    "ms:pontotoc:2026-11-26:feast-then-fashion"
+  ],
+  "title": "Pontotoc tree lighting set for Nov. 19; holiday shopping events follow",
+  "excerpt": "The Chamber lists the Nov. 19 tree lighting at 6 p.m., Open House Nov. 22 from noon–5 p.m., and Feast Then Fashion Nov. 26.",
+  "locality": "Pontotoc, Mississippi; the tree-lighting venue is Pontotoc Community House. No street address, shop list or additional venue inferred.",
+  "sources": [
+    {
+      "id": "calendar",
+      "url": "https://pontotocchamber.com/event-page-in-progress/",
+      "verification_url": "https://pontotocchamber.com/event-page-in-progress/",
+      "role": "event",
+      "title": "Official Chamber calendar: November 2026 holiday events",
+      "publisher": "Pontotoc County Chamber of Commerce",
+      "published_at": null,
+      "verified_at": "2026-11-02T22:56:21.938053+00:00"
+    },
+    {
+      "id": "related",
+      "url": "https://pontotocnews.com/pontotoc-news/pontotoc-christmas-parade-registration-december-2026/",
+      "verification_url": "https://pontotocnews.com/pontotoc-news/pontotoc-christmas-parade-registration-december-2026/",
+      "role": "background",
+      "title": "Related coverage: Pontotoc Christmas parade registration",
+      "publisher": "Pontotoc News",
+      "published_at": null,
+      "verified_at": "2026-11-02T22:56:21.938053+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "h1",
+      "statement": "Pontotoc’s annual Christmas tree lighting is scheduled for Thursday November 19, 2026 at 6 p.m. at Pontotoc Community House.",
+      "source_ids": [
+        "calendar"
+      ],
+      "evidence": "Read complete official event calendar, including its 2026 heading and both repeated November sections. The Annual Christmas Tree Lighting entry explicitly gives Thursday November 19, 6 pm and Pontotoc Community House. No ceremony end time, admission price, street address or weather policy stated.",
+      "date_context": "All reported events are future dates in November 2026. Original calendar is explicitly headed COMMUNITY EVENTS FOR 2026 and official homepage links it as 2026 Events Schedule. Independently checked date/weekdays: Thursday November 19, Sunday November 22, Thursday November 26. Times refer to local Pontotoc time (America/Chicago, CST). Source is undated, publication timestamp explicitly null. Verified November 2 afternoon; saved Chamber feed text dated November 2 independently corroborates the three dates. No Facebook graphic facts or asset exports used.",
+      "locality": "Pontotoc, Mississippi; the tree-lighting venue is Pontotoc Community House. No street address, shop list or additional venue inferred.",
+      "identities": "Pontotoc County Chamber of Commerce / Main Street; Pontotoc Community House; Pontotoc Retailers; Santa as part of the announced ceremony plans. No individual organizer or participating shop inferred.",
+      "statistics": "November 19, 2026 at 6 p.m. CST; no attendance statistics."
+    },
+    {
+      "id": "h2",
+      "statement": "The Chamber calendar lists cookies, cocoa, caroling, popcorn and Santa among the plans for the tree-lighting ceremony.",
+      "source_ids": [
+        "calendar"
+      ],
+      "evidence": "Full text of tree-lighting entry lists these five elements. Reported as plans in a future schedule, not an observation that the event has occurred or a guarantee of quantities, free admission or availability.",
+      "date_context": "All reported events are future dates in November 2026. Original calendar is explicitly headed COMMUNITY EVENTS FOR 2026 and official homepage links it as 2026 Events Schedule. Independently checked date/weekdays: Thursday November 19, Sunday November 22, Thursday November 26. Times refer to local Pontotoc time (America/Chicago, CST). Source is undated, publication timestamp explicitly null. Verified November 2 afternoon; saved Chamber feed text dated November 2 independently corroborates the three dates. No Facebook graphic facts or asset exports used.",
+      "locality": "Pontotoc, Mississippi; the tree-lighting venue is Pontotoc Community House. No street address, shop list or additional venue inferred.",
+      "identities": "Pontotoc County Chamber of Commerce / Main Street; Pontotoc Community House; Pontotoc Retailers; Santa as part of the announced ceremony plans. No individual organizer or participating shop inferred.",
+      "statistics": "None asserted."
+    },
+    {
+      "id": "h3",
+      "statement": "Christmas Open House is scheduled for Sunday November 22, 2026 from noon to 5 p.m. in Pontotoc.",
+      "source_ids": [
+        "calendar"
+      ],
+      "evidence": "Read full Christmas OPEN HOUSE entry under November: Sunday November 22, noon to 5 pm, shop Pontotoc. No named shops, price offers or universal shop participation inferred.",
+      "date_context": "All reported events are future dates in November 2026. Original calendar is explicitly headed COMMUNITY EVENTS FOR 2026 and official homepage links it as 2026 Events Schedule. Independently checked date/weekdays: Thursday November 19, Sunday November 22, Thursday November 26. Times refer to local Pontotoc time (America/Chicago, CST). Source is undated, publication timestamp explicitly null. Verified November 2 afternoon; saved Chamber feed text dated November 2 independently corroborates the three dates. No Facebook graphic facts or asset exports used.",
+      "locality": "Pontotoc, Mississippi; the tree-lighting venue is Pontotoc Community House. No street address, shop list or additional venue inferred.",
+      "identities": "Pontotoc County Chamber of Commerce / Main Street; Pontotoc Community House; Pontotoc Retailers; Santa as part of the announced ceremony plans. No individual organizer or participating shop inferred.",
+      "statistics": "November 22, 2026, noon–5 p.m. CST."
+    },
+    {
+      "id": "h4",
+      "statement": "Feast Then Fashion is scheduled for Thanksgiving night, Thursday November 26, 2026, presented by Pontotoc Retailers; hours vary.",
+      "source_ids": [
+        "calendar"
+      ],
+      "evidence": "Read full FEAST THEN FASHION entry: Thursday November 26, Thanksgiving night, hours will vary, presented by the Pontotoc Retailers. No common start/end time, participating-shop list or specific sale inferred.",
+      "date_context": "All reported events are future dates in November 2026. Original calendar is explicitly headed COMMUNITY EVENTS FOR 2026 and official homepage links it as 2026 Events Schedule. Independently checked date/weekdays: Thursday November 19, Sunday November 22, Thursday November 26. Times refer to local Pontotoc time (America/Chicago, CST). Source is undated, publication timestamp explicitly null. Verified November 2 afternoon; saved Chamber feed text dated November 2 independently corroborates the three dates. No Facebook graphic facts or asset exports used.",
+      "locality": "Pontotoc, Mississippi; the tree-lighting venue is Pontotoc Community House. No street address, shop list or additional venue inferred.",
+      "identities": "Pontotoc County Chamber of Commerce / Main Street; Pontotoc Community House; Pontotoc Retailers; Santa as part of the announced ceremony plans. No individual organizer or participating shop inferred.",
+      "statistics": "November 26, 2026; hours vary, no shared start time asserted."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc’s annual Christmas tree lighting is scheduled for 6 p.m. Thursday, Nov. 19, at the Pontotoc Community House, followed by two holiday shopping events later in the month.",
+      "fact_ids": [
+        "h1",
+        "h3",
+        "h4"
+      ]
+    },
+    {
+      "text": "The Chamber’s 2026 events schedule lists cookies, cocoa, caroling, popcorn and Santa among the plans for the lighting ceremony.",
+      "fact_ids": [
+        "h2"
+      ]
+    },
+    {
+      "text": "Christmas Open House is set for noon to 5 p.m. Sunday, Nov. 22, in Pontotoc.",
+      "fact_ids": [
+        "h3"
+      ]
+    },
+    {
+      "text": "Feast Then Fashion follows on Thanksgiving night, Thursday, Nov. 26. The shopping event is presented by the Pontotoc Retailers. The Chamber says hours will vary.",
+      "fact_ids": [
+        "h4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-november-tree-lighting-holiday-shopping.jpg",
+    "sha256": "d91a09dd4126cd4129c5ca6b3b22191c630b66b0cbd7557dc1576c732bbde07e",
+    "alt_text": "Original Pontotoc November 2026 holiday graphic: Nov. 19 tree lighting at 6 p.m.; Nov. 22 Open House noon–5 p.m.; Nov. 26 Feast Then Fashion, hours vary.",
+    "credit": "Pontotoc News original editorial graphic",
+    "rights": "owned",
+    "rights_reference": "Original 1600 by 900 RGB typography and geometric layout created locally with Pillow and macOS Arial, saved as high-quality JPEG. Actual final pixels inspected for all three accurate dates, weekdays, times, venue and attribution, readable and uncropped. No source artwork, logos, photographs or Facebook assets reused."
+  },
+  "review": {
+    "reviewer": "Codex November 2 afternoon editorial review",
+    "reviewed_at": "2026-11-02T22:56:21.938053+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "h1",
+      "h3",
+      "h4"
+    ],
+    "excerpt_fact_ids": [
+      "h1",
+      "h3",
+      "h4"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s recurring authority to publish useful distinct verified Pontotoc public-facts coverage. November 2 afternoon: one holiday-events report from original Chamber text; only bounded article/image/request files; offline checks, authenticated all-status dry-run, editorial/image review then serialized publish. No Facebook asset operation."
+  }
+}
