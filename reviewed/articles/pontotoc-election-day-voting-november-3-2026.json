@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:2026-11-03:general-election-voting-reminder",
+    "ms:pontotoc:2026-11-02:absentee-ballot-report"
+  ],
+  "title": "Pontotoc polls close at 7 p.m.; 704 absentee ballots received",
+  "excerpt": "Polls are open until 7 p.m. Tuesday, Nov. 3. The state’s Nov. 2 report lists 704 absentee ballots received in Pontotoc County.",
+  "locality": "Pontotoc County, Mississippi; Mississippi general-election polling hours and state procedures apply locally. No polling-place street address or individual registration status inferred.",
+  "sources": [
+    {
+      "id": "notice",
+      "url": "https://www.sos.ms.gov/news/election-day-reminders-2026-general-election",
+      "verification_url": "https://www.sos.ms.gov/news/election-day-reminders-2026-general-election",
+      "role": "event",
+      "title": "Secretary of State: 2026 Election Day reminders",
+      "publisher": "Mississippi Secretary of State",
+      "published_at": null,
+      "verified_at": "2026-11-03T15:06:23.031014+00:00"
+    },
+    {
+      "id": "report",
+      "url": "https://www.sos.ms.gov/news/2026-november-general-election-absentee-report-november-2",
+      "verification_url": "https://www.sos.ms.gov/news/2026-november-general-election-absentee-report-november-2",
+      "role": "event",
+      "title": "Secretary of State: November 2 absentee report",
+      "publisher": "Mississippi Secretary of State",
+      "published_at": null,
+      "verified_at": "2026-11-03T15:06:23.031014+00:00"
+    },
+    {
+      "id": "table",
+      "url": "https://mcusercontent.com/c9f52743f930fd93605c3a79c/files/fc9c84ad-5e19-b95c-f885-441f58003f98/Absentee_Report_11_2.pdf",
+      "verification_url": "https://mcusercontent.com/c9f52743f930fd93605c3a79c/files/fc9c84ad-5e19-b95c-f885-441f58003f98/Absentee_Report_11_2.pdf",
+      "role": "event",
+      "title": "Official November 2 county table: Pontotoc on page 2",
+      "publisher": "Mississippi Secretary of State / SEMS",
+      "published_at": null,
+      "verified_at": "2026-11-03T15:06:23.031014+00:00"
+    },
+    {
+      "id": "portal",
+      "url": "https://myelectionday.sos.state.ms.us/VoterOutreach/Pages/VOSearch.aspx",
+      "verification_url": "https://myelectionday.sos.state.ms.us/VoterOutreach/Pages/VOSearch.aspx",
+      "role": "background",
+      "title": "Official My Election Day polling-place lookup",
+      "publisher": "Mississippi Secretary of State",
+      "published_at": null,
+      "verified_at": "2026-11-03T15:06:23.031014+00:00"
+    },
+    {
+      "id": "related",
+      "url": "https://pontotocnews.com/pontotoc-news/pontotoc-absentee-voting-november-election-2026/",
+      "verification_url": "https://pontotocnews.com/pontotoc-news/pontotoc-absentee-voting-november-election-2026/",
+      "role": "background",
+      "title": "Earlier Pontotoc absentee report: October 12 snapshot",
+      "publisher": "Pontotoc News",
+      "published_at": null,
+      "verified_at": "2026-11-03T15:06:23.031014+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "e1",
+      "statement": "General-election polls are open 7 a.m.–7 p.m. Tuesday November 3; voters in line at 7 p.m. are entitled to cast a ballot.",
+      "source_ids": [
+        "notice"
+      ],
+      "evidence": "Read complete original October26 SOS Election Day Reminders for 2026 General Election. Explicit November3 date, open7close7 and legal right for any voter in line at7. Fresh Town of Ecru saved-feed text November3 independently repeats county polling location and hours, but no Facebook asset or graphic-only fact used.",
+      "date_context": "Tuesday November 3, 2026 Election Day; all clock times are local CST, America/Chicago. Original SOS reminders published October 26, 2026; latest administrative report and PDF dated November 2. Source pages give dates without clock times, so published_at remains null rather than inventing a timestamp. Verified November 3 morning, before polls close. November 10 deadlines explicitly read in the 2026 notice.",
+      "locality": "Pontotoc County, Mississippi; Mississippi general-election polling hours and state procedures apply locally. No polling-place street address or individual registration status inferred.",
+      "identities": "Mississippi Secretary of State; Statewide Election Management System; Pontotoc County Circuit Clerk; eligible voters. No candidate endorsement, result, allegation or individual voter data.",
+      "statistics": "7 a.m.–7 p.m. CST, November3,2026."
+    },
+    {
+      "id": "e2",
+      "statement": "November2 official county report lists712 absentee ballots sent and704 received in Pontotoc County; received means completed ballots returned to circuit clerk offices.",
+      "source_ids": [
+        "report",
+        "table"
+      ],
+      "evidence": "Read original November2 SOS report and linked three-page SEMS PDF. Rendered page2 and inspected actual pixels, title/date/election/column labels/Pontotoc row: absentee votercount712, sent712, received704, accepted704, rejected0, notreturned8. Article reports only sent712/received704 as November2 administrative snapshot. No election-day turnout, tabulated votes, candidate result or later return count inferred. Earlier post6049 concerns October12 count82; this is a new dated count plus ElectionDay service report.",
+      "date_context": "Tuesday November 3, 2026 Election Day; all clock times are local CST, America/Chicago. Original SOS reminders published October 26, 2026; latest administrative report and PDF dated November 2. Source pages give dates without clock times, so published_at remains null rather than inventing a timestamp. Verified November 3 morning, before polls close. November 10 deadlines explicitly read in the 2026 notice.",
+      "locality": "Pontotoc County, Mississippi; Mississippi general-election polling hours and state procedures apply locally. No polling-place street address or individual registration status inferred.",
+      "identities": "Mississippi Secretary of State; Statewide Election Management System; Pontotoc County Circuit Clerk; eligible voters. No candidate endorsement, result, allegation or individual voter data.",
+      "statistics": "712 sent;704 received as of November2,2026. No percentage computed."
+    },
+    {
+      "id": "e3",
+      "statement": "Voters can verify polling place with the circuit clerk or My Election Day portal; state elections questions hotline is1-800-829-6786.",
+      "source_ids": [
+        "notice",
+        "portal"
+      ],
+      "evidence": "Read complete SOS notice and linked official MyElectionDay public landingpage, HTTP200, which says residential address lookup locates polling place and recommends county-clerk confirmation. No address, CAPTCHA, form or voter record submitted. Hotline read from original notice.",
+      "date_context": "Tuesday November 3, 2026 Election Day; all clock times are local CST, America/Chicago. Original SOS reminders published October 26, 2026; latest administrative report and PDF dated November 2. Source pages give dates without clock times, so published_at remains null rather than inventing a timestamp. Verified November 3 morning, before polls close. November 10 deadlines explicitly read in the 2026 notice.",
+      "locality": "Pontotoc County, Mississippi; Mississippi general-election polling hours and state procedures apply locally. No polling-place street address or individual registration status inferred.",
+      "identities": "Mississippi Secretary of State; Statewide Election Management System; Pontotoc County Circuit Clerk; eligible voters. No candidate endorsement, result, allegation or individual voter data.",
+      "statistics": "None asserted."
+    },
+    {
+      "id": "e4",
+      "statement": "Photo ID is required at polls; voter without acceptable photo ID is entitled to affidavit ballot. Those who forgot ID must present acceptable photo ID to circuit clerk by November10.",
+      "source_ids": [
+        "notice"
+      ],
+      "evidence": "Read full original2026 notice under Voter PhotoID and VoterID AffidavitBallotDeadline. Scope deadline specifically to voters who forgotID; no other affidavit eligibility or legal determination inferred. Separate acceptable-ID list timed out and no ID-type examples are included.",
+      "date_context": "Tuesday November 3, 2026 Election Day; all clock times are local CST, America/Chicago. Original SOS reminders published October 26, 2026; latest administrative report and PDF dated November 2. Source pages give dates without clock times, so published_at remains null rather than inventing a timestamp. Verified November 3 morning, before polls close. November 10 deadlines explicitly read in the 2026 notice.",
+      "locality": "Pontotoc County, Mississippi; Mississippi general-election polling hours and state procedures apply locally. No polling-place street address or individual registration status inferred.",
+      "identities": "Mississippi Secretary of State; Statewide Election Management System; Pontotoc County Circuit Clerk; eligible voters. No candidate endorsement, result, allegation or individual voter data.",
+      "statistics": "November10,2026 deadline stated by SOS for forgotten-ID affidavit ballots."
+    },
+    {
+      "id": "e5",
+      "statement": "Mail absentee ballots must be postmarked by November3 and received by circuit clerk offices by November10.",
+      "source_ids": [
+        "notice",
+        "report"
+      ],
+      "evidence": "Read explicit Mail-In Absentee Voting Deadline in original2026notice and November2report postmark reminder. No extension, in-person absentee availability or universal absentee eligibility asserted.",
+      "date_context": "Tuesday November 3, 2026 Election Day; all clock times are local CST, America/Chicago. Original SOS reminders published October 26, 2026; latest administrative report and PDF dated November 2. Source pages give dates without clock times, so published_at remains null rather than inventing a timestamp. Verified November 3 morning, before polls close. November 10 deadlines explicitly read in the 2026 notice.",
+      "locality": "Pontotoc County, Mississippi; Mississippi general-election polling hours and state procedures apply locally. No polling-place street address or individual registration status inferred.",
+      "identities": "Mississippi Secretary of State; Statewide Election Management System; Pontotoc County Circuit Clerk; eligible voters. No candidate endorsement, result, allegation or individual voter data.",
+      "statistics": "PostmarkNovember3; receiptNovember10,2026."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc County voters have until 7 p.m. Tuesday, Nov. 3, to vote in the general election. Polls opened at 7 a.m., and anyone in line when they close at 7 p.m. is entitled to cast a ballot, according to the Mississippi Secretary of State.",
+      "fact_ids": [
+        "e1"
+      ]
+    },
+    {
+      "text": "The state’s Nov. 2 report lists 712 absentee ballots sent and 704 received in Pontotoc County. The received total records completed absentee ballots returned to circuit clerk offices as of Monday.",
+      "fact_ids": [
+        "e2"
+      ]
+    },
+    {
+      "text": "Voters can confirm their polling place with the county circuit clerk or through the Secretary of State’s My Election Day portal. Election questions can also be directed to the state hotline at 1-800-829-6786.",
+      "fact_ids": [
+        "e3"
+      ]
+    },
+    {
+      "text": "The state requires photo identification at the polls. A voter without an acceptable photo ID is entitled to cast an affidavit ballot. Voters who cast one because they forgot their ID must present an acceptable photo ID to their circuit clerk’s office by Nov. 10, the Secretary of State says.",
+      "fact_ids": [
+        "e4"
+      ]
+    },
+    {
+      "text": "Mail-in absentee ballots must be postmarked by Election Day, Nov. 3, and received by circuit clerk offices by Nov. 10.",
+      "fact_ids": [
+        "e5"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-election-day-voting-november-3-2026.jpg",
+    "sha256": "f5c9a25fae6d95105f9f0587251c991d9803020044a4a4c823a11bcd8cd7f2e3",
+    "alt_text": "Original Pontotoc Election Day graphic: polls close at 7 p.m. Nov. 3; voters in line by 7 may vote; bring an acceptable photo ID.",
+    "credit": "Pontotoc News original editorial graphic",
+    "rights": "owned",
+    "rights_reference": "Original 1600 by 900 RGB typography and geometric layout rendered locally with Pillow and Arial. Actual final pixels inspected: readable, uncropped and consistent with the verified facts. No source photos, graphics, logos or Facebook assets reused."
+  },
+  "review": {
+    "reviewer": "Codex November 3 morning editorial review",
+    "reviewed_at": "2026-11-03T15:06:23.031014+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "e1",
+      "e2"
+    ],
+    "excerpt_fact_ids": [
+      "e1",
+      "e2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon recurring authority to publish useful verified Pontotoc news and clearly labeled statewide stories. November 3 morning assignment: bounded article/image/request files, offline checks, authenticated all-status dry-run, final editorial/pixel review then serialized publish. No unrelated code, schedules, access changes or blocked Facebook operation."
+  }
+}
