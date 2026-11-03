@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:2026-11-02:november-3-severe-storm-outlook"
+  ],
+  "title": "Isolated severe storms possible in Pontotoc Tuesday night",
+  "excerpt": "Monday’s official outlook includes Pontotoc in a marginal severe-storm risk for Nov. 3, with damaging winds the main regional concern.",
+  "locality": "Pontotoc, Mississippi; Pontotoc forecast zone MSZ015. Regional storm evolution and secondary hazards are explicitly attributed to north Mississippi / the Mid-South, without an exact local storm arrival time.",
+  "sources": [
+    {
+      "id": "spc",
+      "url": "https://www.spc.noaa.gov/products/outlook/archive/2026/day2otlk_20261102_1730.html",
+      "verification_url": "https://www.spc.noaa.gov/products/outlook/archive/2026/day2otlk_20261102_1730.html",
+      "role": "event",
+      "title": "SPC November 2 outlook for Tuesday, November 3",
+      "publisher": "NWS Storm Prediction Center",
+      "published_at": "2026-11-02T17:27:00+00:00",
+      "verified_at": "2026-11-03T01:33:25.981485+00:00"
+    },
+    {
+      "id": "afd",
+      "url": "https://api.weather.gov/products/38ffc302-fccc-4bd1-9923-ebdf7235221a",
+      "verification_url": "https://api.weather.gov/products/38ffc302-fccc-4bd1-9923-ebdf7235221a",
+      "role": "event",
+      "title": "NWS November 2 evening forecast discussion",
+      "publisher": "National Weather Service Memphis",
+      "published_at": "2026-11-03T00:02:00+00:00",
+      "verified_at": "2026-11-03T01:33:25.981485+00:00"
+    },
+    {
+      "id": "county",
+      "url": "https://api.weather.gov/products/abbd9404-728b-4ef4-90e1-0e754822e453",
+      "verification_url": "https://api.weather.gov/products/abbd9404-728b-4ef4-90e1-0e754822e453",
+      "role": "event",
+      "title": "NWS November 2 county forecast: see the Pontotoc section",
+      "publisher": "National Weather Service Memphis",
+      "published_at": "2026-11-03T00:06:00+00:00",
+      "verified_at": "2026-11-03T01:33:25.981485+00:00"
+    },
+    {
+      "id": "safety",
+      "url": "https://www.weather.gov/safety/thunderstorm-prepare",
+      "verification_url": "https://www.weather.gov/safety/thunderstorm-prepare",
+      "role": "background",
+      "title": "NWS severe-thunderstorm preparation guidance",
+      "publisher": "National Weather Service",
+      "published_at": null,
+      "verified_at": "2026-11-03T01:33:25.981485+00:00"
+    },
+    {
+      "id": "related",
+      "url": "https://pontotocnews.com/pontotoc-news/pontotoc-rain-forecast-november-1-2026/",
+      "verification_url": "https://pontotocnews.com/pontotoc-news/pontotoc-rain-forecast-november-1-2026/",
+      "role": "background",
+      "title": "Earlier coverage: November 1 rain forecast",
+      "publisher": "Pontotoc News",
+      "published_at": "2026-11-01T15:39:40+00:00",
+      "verified_at": "2026-11-03T01:33:25.981485+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "w1",
+      "statement": "Pontotoc is included in a marginal severe-thunderstorm risk for Tuesday November 3, with an isolated severe threat potentially continuing across north Mississippi Tuesday night.",
+      "source_ids": [
+        "spc",
+        "afd"
+      ],
+      "evidence": "Read complete original dated SPC HTML discussion and its categorical map metadata. Downloaded original official 1730Z categorical GeoJSON linked by SPC and independently tested Pontotoc point (-89.0067,34.2486) inside the MRGL polygon. Inspected actual original NWS Memphis severe-weather graphic pixels: November 3 valid date, marginal area includes Pontotoc vicinity west of Tupelo, primary damaging wind and secondary tornado/local heavy rain. No graphic or geographic asset is reused. SPC says isolated severe threat could persist into Tuesday night across northern MS. This materially updates post6217, which reports rain chances and chance of thunderstorms but no severe-risk outlook; no minor rain-percentage rewrite.",
+      "date_context": "Monday November 2, 2026 evening review, America/Chicago CST. Tuesday is November 3; Tuesday night extends into early November 4. SPC outlook issued 11:27 a.m. CST Nov. 2, valid 6 a.m. CST Nov. 3 through 6 a.m. Nov. 4. NWS AFD issued 6:02 p.m. CST Nov. 2 with discussion issued 1:04 p.m.; county forecast section 6:05 p.m. CST Nov. 2. UTC dates on NWS API products are November 3; do not mistake them for local publication dates.",
+      "locality": "Pontotoc, Mississippi; Pontotoc forecast zone MSZ015. Regional storm evolution and secondary hazards are explicitly attributed to north Mississippi / the Mid-South, without an exact local storm arrival time.",
+      "identities": "National Weather Service Memphis, Tennessee; NWS Storm Prediction Center Norman, Oklahoma; Pontotoc County Mississippi. No injured people, damage reports, storm reports or emergency declaration asserted.",
+      "statistics": "Marginal risk category; no numeric storm probability asserted."
+    },
+    {
+      "id": "w2",
+      "statement": "NWS Memphis expects storms to spread across the Mid-South late Tuesday afternoon into Tuesday night; damaging winds are the primary severe threat, with a tornado and localized heavy rain also possible.",
+      "source_ids": [
+        "afd"
+      ],
+      "evidence": "Read full 6:02 p.m. CST original AFD, including 1:04 p.m. discussion. Storms develop upstream and enter Mid-South late afternoon, spreading through remainder into Tuesday night. Limited instability and embedded circulations especially over north Mississippi Tuesday night; primary damaging wind, secondary tornado and localized heavy rainfall. Regional timing is not presented as a precise arrival window for Pontotoc.",
+      "date_context": "Monday November 2, 2026 evening review, America/Chicago CST. Tuesday is November 3; Tuesday night extends into early November 4. SPC outlook issued 11:27 a.m. CST Nov. 2, valid 6 a.m. CST Nov. 3 through 6 a.m. Nov. 4. NWS AFD issued 6:02 p.m. CST Nov. 2 with discussion issued 1:04 p.m.; county forecast section 6:05 p.m. CST Nov. 2. UTC dates on NWS API products are November 3; do not mistake them for local publication dates.",
+      "locality": "Pontotoc, Mississippi; Pontotoc forecast zone MSZ015. Regional storm evolution and secondary hazards are explicitly attributed to north Mississippi / the Mid-South, without an exact local storm arrival time.",
+      "identities": "National Weather Service Memphis, Tennessee; NWS Storm Prediction Center Norman, Oklahoma; Pontotoc County Mississippi. No injured people, damage reports, storm reports or emergency declaration asserted.",
+      "statistics": "None asserted."
+    },
+    {
+      "id": "w3",
+      "statement": "Pontotoc County forecast calls for a breezy Tuesday with southeast gusts up to 30 mph, followed by showers and a chance of thunderstorms Tuesday night.",
+      "source_ids": [
+        "county"
+      ],
+      "evidence": "Read complete original ZFP including exact MSZ015 Pontotoc section issued 6:05 p.m. CST. Tuesday mostly cloudy/breezy southeast15–20mph gusts30; Tuesdaynight showers/chance thunderstorms. Gust30 is ordinary forecast wind, not a severe-thunderstorm gust threshold or separate Wind Advisory. NWS Wind Advisory applies to Arkansas/Missouri only; no Mississippi advisory claimed.",
+      "date_context": "Monday November 2, 2026 evening review, America/Chicago CST. Tuesday is November 3; Tuesday night extends into early November 4. SPC outlook issued 11:27 a.m. CST Nov. 2, valid 6 a.m. CST Nov. 3 through 6 a.m. Nov. 4. NWS AFD issued 6:02 p.m. CST Nov. 2 with discussion issued 1:04 p.m.; county forecast section 6:05 p.m. CST Nov. 2. UTC dates on NWS API products are November 3; do not mistake them for local publication dates.",
+      "locality": "Pontotoc, Mississippi; Pontotoc forecast zone MSZ015. Regional storm evolution and secondary hazards are explicitly attributed to north Mississippi / the Mid-South, without an exact local storm arrival time.",
+      "identities": "National Weather Service Memphis, Tennessee; NWS Storm Prediction Center Norman, Oklahoma; Pontotoc County Mississippi. No injured people, damage reports, storm reports or emergency declaration asserted.",
+      "statistics": "Tuesday non-thunderstorm wind gusts up to30mph; no local rainfall amount or damage statistics."
+    },
+    {
+      "id": "w4",
+      "statement": "NWS preparation advice includes checking updated forecasts, receiving watches and warnings by local news or NOAA Weather Radio, and choosing a safe place to shelter.",
+      "source_ids": [
+        "safety"
+      ],
+      "evidence": "Read complete original NWS safety page. It advises checking forecasts regularly, listening to local news/NOAA Weather Radio for watches and warnings, planning with a safe room such as basement/storm cellar/interior lowest-floor windowless room. Paraphrased concise general advice without claiming local warning issuance.",
+      "date_context": "Monday November 2, 2026 evening review, America/Chicago CST. Tuesday is November 3; Tuesday night extends into early November 4. SPC outlook issued 11:27 a.m. CST Nov. 2, valid 6 a.m. CST Nov. 3 through 6 a.m. Nov. 4. NWS AFD issued 6:02 p.m. CST Nov. 2 with discussion issued 1:04 p.m.; county forecast section 6:05 p.m. CST Nov. 2. UTC dates on NWS API products are November 3; do not mistake them for local publication dates.",
+      "locality": "Pontotoc, Mississippi; Pontotoc forecast zone MSZ015. Regional storm evolution and secondary hazards are explicitly attributed to north Mississippi / the Mid-South, without an exact local storm arrival time.",
+      "identities": "National Weather Service Memphis, Tennessee; NWS Storm Prediction Center Norman, Oklahoma; Pontotoc County Mississippi. No injured people, damage reports, storm reports or emergency declaration asserted.",
+      "statistics": "None asserted."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Isolated severe thunderstorms are possible in the Pontotoc area Tuesday night, Nov. 3, as a storm system crosses the Mid-South. The Storm Prediction Center’s Monday outlook includes Pontotoc in a marginal risk area and says the isolated severe threat could continue into Tuesday night across north Mississippi.",
+      "fact_ids": [
+        "w1"
+      ]
+    },
+    {
+      "text": "The National Weather Service in Memphis identifies damaging winds as the main severe-weather concern. A tornado and localized heavy rain are also possible across the region. Its Monday evening discussion says storms are expected to enter the Mid-South late Tuesday afternoon and spread across the area into the night.",
+      "fact_ids": [
+        "w2"
+      ]
+    },
+    {
+      "text": "Ahead of the storms, the Pontotoc County forecast calls for a breezy Tuesday with southeast winds gusting up to 30 mph. Showers and a chance of thunderstorms are forecast Tuesday night.",
+      "fact_ids": [
+        "w3"
+      ]
+    },
+    {
+      "text": "Residents should keep up with updated forecasts and have a way to receive watches and warnings, such as local news or NOAA Weather Radio. NWS preparation guidance also recommends choosing a safe shelter location in advance.",
+      "fact_ids": [
+        "w4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-isolated-severe-storm-risk-november-3-2026.jpg",
+    "sha256": "ec69400c23db0cea0b446561235afa289c37283ce3343b8126eff40f8d96de7e",
+    "alt_text": "Original Pontotoc weather graphic: isolated severe storms possible Tuesday night, Nov. 3; marginal risk, with damaging wind the primary concern.",
+    "credit": "Pontotoc News original editorial graphic",
+    "rights": "owned",
+    "rights_reference": "Original 1600 by 900 RGB typography and geometric layout rendered locally with Pillow and Arial. No photographs, logos, official maps or Facebook assets reused. Actual final pixels inspected: correct November 3 Tuesday-night date, marginal risk and damaging-wind emphasis, readable and uncropped."
+  },
+  "review": {
+    "reviewer": "Codex November 2 nightly editorial review",
+    "reviewed_at": "2026-11-03T01:33:25.981485+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "w1"
+    ],
+    "excerpt_fact_ids": [
+      "w1",
+      "w2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon recurring authority to publish useful verified local news and materially updated weather, via November2nightly scan. New official severe-risk outlook, distinct from November1rain forecast; no minor-percentage rewrite. Only bounded article/image/request files, successful offline/authenticated allstatusdryrun and final editorial/pixel review before publish. No blocked Facebook operation."
+  }
+}
