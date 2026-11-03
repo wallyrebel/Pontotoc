@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:lafayette:oxford:2026-11-05:nws-skywarn-training"
+  ],
+  "title": "Regional: Free storm-spotter class set Thursday in Oxford",
+  "excerpt": "NWS Memphis lists a free public class Nov. 5 from 6–8 p.m. in Oxford. People may attend regardless of their county of residence.",
+  "locality": "Regional event in Oxford, Lafayette County, Mississippi; not a Pontotoc venue. NWS explicitly permits attendance regardless of county of residence, including Pontotoc residents. Address copied from the original schedule.",
+  "sources": [
+    {
+      "id": "schedule",
+      "url": "https://www.weather.gov/meg/skywarn-training",
+      "verification_url": "https://www.weather.gov/meg/skywarn-training",
+      "role": "event",
+      "title": "Official NWS Memphis fall 2026 class schedule",
+      "publisher": "National Weather Service Memphis",
+      "published_at": null,
+      "verified_at": "2026-11-03T15:20:09.452386+00:00"
+    },
+    {
+      "id": "program",
+      "url": "https://www.weather.gov/meg/skywarn",
+      "verification_url": "https://www.weather.gov/meg/skywarn",
+      "role": "background",
+      "title": "NWS Memphis: SKYWARN course topics and reporting program",
+      "publisher": "National Weather Service Memphis",
+      "published_at": null,
+      "verified_at": "2026-11-03T15:20:09.452386+00:00"
+    },
+    {
+      "id": "related",
+      "url": "https://pontotocnews.com/pontotoc-news/pontotoc-isolated-severe-storm-risk-november-3-2026/",
+      "verification_url": "https://pontotocnews.com/pontotoc-news/pontotoc-isolated-severe-storm-risk-november-3-2026/",
+      "role": "background",
+      "title": "Related local weather coverage: November 3 storm outlook",
+      "publisher": "Pontotoc News",
+      "published_at": null,
+      "verified_at": "2026-11-03T15:20:09.452386+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "s1",
+      "statement": "NWS Memphis schedules free public SKYWARN stormspotter class6–8p.m.ThursdayNovember5,2026 atNorthEastMississippiEPA,1389CooperativeWay,OxfordMississippi.",
+      "source_ids": [
+        "schedule"
+      ],
+      "evidence": "Read complete originalNWS2026schedule including allHTMLtable rows and headers; Lafayette currentrow explicitlyNovember5,6PM–8PM,host/address/OxfordMS38655. Intro saysfree/openpublic. Noevent-specificgraphicscarryadditionalfacts; sourcepagehasgenericSKYWARNbanner only. No registration or capacity statement inferred.",
+      "date_context": "Thursday November5,2026,6–8p.m. local CST America/Chicago, independently weekday-checked. OriginalNWS page explicitly Fall2026 in-person schedule; Oxford/Lafayette row current and not struckthrough, oldercompletedclasses struckthrough. VerifiedNovember3morning, upcoming2days. Undatedschedule and program pages have published_at null. FreshNovember2savedNWSfeed text promoted this as finalfallclass, but no Facebook graphic-only facts or assets used.",
+      "locality": "Regional event in Oxford, Lafayette County, Mississippi; not a Pontotoc venue. NWS explicitly permits attendance regardless of county of residence, including Pontotoc residents. Address copied from the original schedule.",
+      "identities": "National Weather Service Memphis; SKYWARN volunteer storm-spotter training; North East Mississippi EPA host location,1389CooperativeWay,OxfordMS38655. No instructor, certificate credential, registration requirement or storm-chasing activity inferred.",
+      "statistics": "November5,2026,6–8p.m.CST; admissionfree."
+    },
+    {
+      "id": "s2",
+      "statement": "NWS says classes open to anyone regardless of county of residence.",
+      "source_ids": [
+        "schedule"
+      ],
+      "evidence": "Read full originalpod-system explanation: classes open for anyone to attend regardlesscountyresidence. Supports regional relevance toPontotoc without claimingeventlocatedinPontotoc.",
+      "date_context": "Thursday November5,2026,6–8p.m. local CST America/Chicago, independently weekday-checked. OriginalNWS page explicitly Fall2026 in-person schedule; Oxford/Lafayette row current and not struckthrough, oldercompletedclasses struckthrough. VerifiedNovember3morning, upcoming2days. Undatedschedule and program pages have published_at null. FreshNovember2savedNWSfeed text promoted this as finalfallclass, but no Facebook graphic-only facts or assets used.",
+      "locality": "Regional event in Oxford, Lafayette County, Mississippi; not a Pontotoc venue. NWS explicitly permits attendance regardless of county of residence, including Pontotoc residents. Address copied from the original schedule.",
+      "identities": "National Weather Service Memphis; SKYWARN volunteer storm-spotter training; North East Mississippi EPA host location,1389CooperativeWay,OxfordMS38655. No instructor, certificate credential, registration requirement or storm-chasing activity inferred.",
+      "statistics": "None asserted."
+    },
+    {
+      "id": "s3",
+      "statement": "SKYWARN classes cover severe-thunderstorm characteristics, relevant cloudformations, effective reports and basicweather safety.",
+      "source_ids": [
+        "program"
+      ],
+      "evidence": "Read complete originalNWSMemphisAboutSKYWARN page and exactfourcourse-topicbullets. Paraphrased generalcoursecontent; no promiseofstormchasing/certification orauthority inferred.",
+      "date_context": "Thursday November5,2026,6–8p.m. local CST America/Chicago, independently weekday-checked. OriginalNWS page explicitly Fall2026 in-person schedule; Oxford/Lafayette row current and not struckthrough, oldercompletedclasses struckthrough. VerifiedNovember3morning, upcoming2days. Undatedschedule and program pages have published_at null. FreshNovember2savedNWSfeed text promoted this as finalfallclass, but no Facebook graphic-only facts or assets used.",
+      "locality": "Regional event in Oxford, Lafayette County, Mississippi; not a Pontotoc venue. NWS explicitly permits attendance regardless of county of residence, including Pontotoc residents. Address copied from the original schedule.",
+      "identities": "National Weather Service Memphis; SKYWARN volunteer storm-spotter training; North East Mississippi EPA host location,1389CooperativeWay,OxfordMS38655. No instructor, certificate credential, registration requirement or storm-chasing activity inferred.",
+      "statistics": "None asserted."
+    },
+    {
+      "id": "s4",
+      "statement": "NWS warns hazardousweather can cause postponement or cancellation onshortnotice.",
+      "source_ids": [
+        "schedule"
+      ],
+      "evidence": "Read complete ImportantNote beneath current2026schedule. Advisecheckingofficialschedulebeforetravel as practicalreaderaction, without assertinga cancellation or connectingthreatto thisparticulardate.",
+      "date_context": "Thursday November5,2026,6–8p.m. local CST America/Chicago, independently weekday-checked. OriginalNWS page explicitly Fall2026 in-person schedule; Oxford/Lafayette row current and not struckthrough, oldercompletedclasses struckthrough. VerifiedNovember3morning, upcoming2days. Undatedschedule and program pages have published_at null. FreshNovember2savedNWSfeed text promoted this as finalfallclass, but no Facebook graphic-only facts or assets used.",
+      "locality": "Regional event in Oxford, Lafayette County, Mississippi; not a Pontotoc venue. NWS explicitly permits attendance regardless of county of residence, including Pontotoc residents. Address copied from the original schedule.",
+      "identities": "National Weather Service Memphis; SKYWARN volunteer storm-spotter training; North East Mississippi EPA host location,1389CooperativeWay,OxfordMS38655. No instructor, certificate credential, registration requirement or storm-chasing activity inferred.",
+      "statistics": "None asserted."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "The National Weather Service in Memphis will hold a free storm-spotter class from 6 to 8 p.m. Thursday, Nov. 5, at North East Mississippi EPA, 1389 Cooperative Way in Oxford.",
+      "fact_ids": [
+        "s1"
+      ]
+    },
+    {
+      "text": "The SKYWARN class is open to the public. NWS says people may attend regardless of their county of residence, so the regional session is available to Pontotoc County residents as well.",
+      "fact_ids": [
+        "s2"
+      ]
+    },
+    {
+      "text": "The agency’s course description covers severe-thunderstorm characteristics, cloud formations associated with severe weather, how to report observations effectively and basic weather safety.",
+      "fact_ids": [
+        "s3"
+      ]
+    },
+    {
+      "text": "NWS cautions that hazardous weather can cause classes to be postponed or canceled on short notice. Prospective attendees should check the official schedule before traveling.",
+      "fact_ids": [
+        "s4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/oxford-free-skywarn-storm-spotter-training-november-5-2026.jpg",
+    "sha256": "a4f38781023ec92e4cf4dd3e619fa87ae4e00f8b170c452c1ca23de1275965f3",
+    "alt_text": "Original regional class graphic: free storm-spotter training in Oxford Thursday, Nov. 5, 6–8 p.m., at North East Mississippi EPA, 1389 Cooperative Way.",
+    "credit": "Pontotoc News original editorial graphic",
+    "rights": "owned",
+    "rights_reference": "Original1600by900RGB typography/geometric layout renderedlocally withPillow/Arial. No photos, officialmaps/logos, sourcegraphics orFacebookassetsreused. Finalpixelsinspectedbefore submission fordate/time/address/readability/cropping."
+  },
+  "review": {
+    "reviewer": "Codex November 3 morning editorial review",
+    "reviewed_at": "2026-11-03T15:20:09.452386+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "s1"
+    ],
+    "excerpt_fact_ids": [
+      "s1",
+      "s2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon recurring authority for useful verified Pontotoc news and clearly labeled regional coverage. Upcomingfreepublictraining explicitlywelcomesallcounties; distinctfrompublishedstormforecast. Onlyboundedarticle/image/request files, offlinechecks/authenticatedallstatusdryrun/finaleditorialimage reviewthenserializedpublish. ElectionDayrequestremainsdry-runblocked; nobypassedsourceoperation."
+  }
+}

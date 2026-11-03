@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/oxford-free-skywarn-storm-spotter-training-november-5-2026.json",
+  "article_sha256": "6241f48b9a84092a7274f3caa36f3ec2579f427c49237a3314a3163894082f16",
+  "mode": "dry-run",
+  "public_slug": "oxford-free-skywarn-storm-spotter-training-november-5-2026",
+  "seo_review": {
+    "reviewer": "Codex November 3 morning editorial review",
+    "reviewed_at": "2026-11-03T15:20:09.452386+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}
