@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/mississippi-mapp-gift-pediatric-critical-care-chair.json",
   "article_sha256": "8436be87725a75433b2e87de853f5c1da1266d4d8e75e41b5182313959b6511d",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "mississippi-mapp-gift-pediatric-critical-care-chair",
   "seo_review": {
     "reviewer": "Codex November 3 morning editorial review",
