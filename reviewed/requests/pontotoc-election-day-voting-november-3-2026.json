@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-election-day-voting-november-3-2026.json",
-  "article_sha256": "0701834ef23a501bb88f06841b6525a05d593147b5710a56c1a3121c2d9c2c6f",
+  "article_sha256": "6b1007b8f51a0d5befc49c3591bcb00879126fbc2efa654ad19ce0c73cbff2ce",
   "mode": "dry-run",
   "public_slug": "pontotoc-election-day-voting-november-3-2026",
   "seo_review": {
     "reviewer": "Codex November 3 morning editorial review",
-    "reviewed_at": "2026-11-03T15:12:48.823672+00:00",
+    "reviewed_at": "2026-11-03T22:01:18.620364+00:00",
     "checks": {
       "meaningful_headline": true,
       "accurate_concise_description": true,

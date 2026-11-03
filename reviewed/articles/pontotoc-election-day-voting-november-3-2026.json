@@ -16,7 +16,7 @@
       "title": "Official 2026 elections calendar: November deadlines on pages 13–14",
       "publisher": "Mississippi Secretary of State",
       "published_at": null,
-      "verified_at": "2026-11-03T15:12:48.823672+00:00"
+      "verified_at": "2026-11-03T22:01:18.620364+00:00"
     },
     {
       "id": "guide",
@@ -26,7 +26,7 @@
       "title": "Official 2026 Mississippi voter information guide",
       "publisher": "Mississippi Secretary of State",
       "published_at": null,
-      "verified_at": "2026-11-03T15:12:48.823672+00:00"
+      "verified_at": "2026-11-03T22:01:18.620364+00:00"
     },
     {
       "id": "report",
@@ -36,7 +36,7 @@
       "title": "Secretary of State: November 2 absentee report",
       "publisher": "Mississippi Secretary of State",
       "published_at": null,
-      "verified_at": "2026-11-03T15:06:23.031014+00:00"
+      "verified_at": "2026-11-03T22:01:18.620364+00:00"
     },
     {
       "id": "table",
@@ -46,7 +46,7 @@
       "title": "Official November 2 county table: Pontotoc on page 2",
       "publisher": "Mississippi Secretary of State / SEMS",
       "published_at": null,
-      "verified_at": "2026-11-03T15:06:23.031014+00:00"
+      "verified_at": "2026-11-03T22:01:18.620364+00:00"
     },
     {
       "id": "portal",
@@ -56,7 +56,7 @@
       "title": "Official My Election Day polling-place lookup",
       "publisher": "Mississippi Secretary of State",
       "published_at": null,
-      "verified_at": "2026-11-03T15:06:23.031014+00:00"
+      "verified_at": "2026-11-03T22:01:18.620364+00:00"
     },
     {
       "id": "related",
@@ -66,7 +66,7 @@
       "title": "Earlier Pontotoc absentee report: October 12 snapshot",
       "publisher": "Pontotoc News",
       "published_at": null,
-      "verified_at": "2026-11-03T15:06:23.031014+00:00"
+      "verified_at": "2026-11-03T22:01:18.620364+00:00"
     }
   ],
   "facts": [
@@ -78,7 +78,7 @@
         "guide"
       ],
       "evidence": "Independently read official2026elections calendar and actual rendered page13 November3 entry; explicitly pollsopen7a.m.–7p.m. Read/inspected2026 voter guide page1 WHERE TO VOTE, same hours. No in-line-at7 statement retained from unavailable notice.",
-      "date_context": "Tuesday November 3, 2026 Election Day, local CST America/Chicago. 2026 official elections calendar last revised September8,2026; November entries on pages13–14. 2026 voter guide independently read/rendered, both pages. November2 absentee report remains a Monday administrative snapshot. Exact publication clock times unknown, published_at null. First read-only preflight failed a source-availability guard before writes; revised report now relies on independently verified accessible official PDFs, with unsupported-by-these-PDFs in-line-at7 claim removed from prose, graphic and ledger. All source links still require fresh authenticated preflight.",
+      "date_context": "Tuesday November 3, 2026 Election Day, local CST America/Chicago. 2026 official elections calendar last revised September8,2026; November entries on pages13–14. 2026 voter guide independently read/rendered, both pages. November2 absentee report remains a Monday administrative snapshot. Exact publication clock times unknown, published_at null. First read-only preflight failed a source-availability guard before writes; revised report now relies on independently verified accessible official PDFs, with unsupported-by-these-PDFs in-line-at7 claim removed from prose, graphic and ledger. All source links still require fresh authenticated preflight. Afternoon November3 recheck before7p.m.CST: allsixexactURLsHTTP200withoutredirect onMac; allthreeofficialPDFbytesunchanged; originalNov2reportre-read. Newread-onlyauthenticatedpreflightstillrequired; previousguardnotweakened.",
       "locality": "Pontotoc County, Mississippi; Mississippi general-election polling hours and state procedures apply locally. No polling-place street address or individual registration status inferred.",
       "identities": "Mississippi Secretary of State; Statewide Election Management System; Pontotoc County Circuit Clerk; eligible voters. No candidate endorsement, result, allegation or individual voter data.",
       "statistics": "7 a.m.–7 p.m. CST, November3,2026."
@@ -91,7 +91,7 @@
         "table"
       ],
       "evidence": "Read original November2 SOS report and linked three-page SEMS PDF. Rendered page2 and inspected actual pixels, title/date/election/column labels/Pontotoc row: absentee votercount712, sent712, received704, accepted704, rejected0, notreturned8. Article reports only sent712/received704 as November2 administrative snapshot. No election-day turnout, tabulated votes, candidate result or later return count inferred. Earlier post6049 concerns October12 count82; this is a new dated count plus ElectionDay service report.",
-      "date_context": "Tuesday November 3, 2026 Election Day, local CST America/Chicago. 2026 official elections calendar last revised September8,2026; November entries on pages13–14. 2026 voter guide independently read/rendered, both pages. November2 absentee report remains a Monday administrative snapshot. Exact publication clock times unknown, published_at null. First read-only preflight failed a source-availability guard before writes; revised report now relies on independently verified accessible official PDFs, with unsupported-by-these-PDFs in-line-at7 claim removed from prose, graphic and ledger. All source links still require fresh authenticated preflight.",
+      "date_context": "Tuesday November 3, 2026 Election Day, local CST America/Chicago. 2026 official elections calendar last revised September8,2026; November entries on pages13–14. 2026 voter guide independently read/rendered, both pages. November2 absentee report remains a Monday administrative snapshot. Exact publication clock times unknown, published_at null. First read-only preflight failed a source-availability guard before writes; revised report now relies on independently verified accessible official PDFs, with unsupported-by-these-PDFs in-line-at7 claim removed from prose, graphic and ledger. All source links still require fresh authenticated preflight. Afternoon November3 recheck before7p.m.CST: allsixexactURLsHTTP200withoutredirect onMac; allthreeofficialPDFbytesunchanged; originalNov2reportre-read. Newread-onlyauthenticatedpreflightstillrequired; previousguardnotweakened.",
       "locality": "Pontotoc County, Mississippi; Mississippi general-election polling hours and state procedures apply locally. No polling-place street address or individual registration status inferred.",
       "identities": "Mississippi Secretary of State; Statewide Election Management System; Pontotoc County Circuit Clerk; eligible voters. No candidate endorsement, result, allegation or individual voter data.",
       "statistics": "712 sent;704 received as of November2,2026. No percentage computed."
@@ -104,7 +104,7 @@
         "portal"
       ],
       "evidence": "Official2026voter guide page1 directs voters to circuitclerk and lists elections hotline1-800-829-6786. Read official MyElectionDay portal HTTP200, address lookup and county-clerk confirmation instructions; no address, CAPTCHA or voter record submitted.",
-      "date_context": "Tuesday November 3, 2026 Election Day, local CST America/Chicago. 2026 official elections calendar last revised September8,2026; November entries on pages13–14. 2026 voter guide independently read/rendered, both pages. November2 absentee report remains a Monday administrative snapshot. Exact publication clock times unknown, published_at null. First read-only preflight failed a source-availability guard before writes; revised report now relies on independently verified accessible official PDFs, with unsupported-by-these-PDFs in-line-at7 claim removed from prose, graphic and ledger. All source links still require fresh authenticated preflight.",
+      "date_context": "Tuesday November 3, 2026 Election Day, local CST America/Chicago. 2026 official elections calendar last revised September8,2026; November entries on pages13–14. 2026 voter guide independently read/rendered, both pages. November2 absentee report remains a Monday administrative snapshot. Exact publication clock times unknown, published_at null. First read-only preflight failed a source-availability guard before writes; revised report now relies on independently verified accessible official PDFs, with unsupported-by-these-PDFs in-line-at7 claim removed from prose, graphic and ledger. All source links still require fresh authenticated preflight. Afternoon November3 recheck before7p.m.CST: allsixexactURLsHTTP200withoutredirect onMac; allthreeofficialPDFbytesunchanged; originalNov2reportre-read. Newread-onlyauthenticatedpreflightstillrequired; previousguardnotweakened.",
       "locality": "Pontotoc County, Mississippi; Mississippi general-election polling hours and state procedures apply locally. No polling-place street address or individual registration status inferred.",
       "identities": "Mississippi Secretary of State; Statewide Election Management System; Pontotoc County Circuit Clerk; eligible voters. No candidate endorsement, result, allegation or individual voter data.",
       "statistics": "None asserted."
@@ -117,7 +117,7 @@
         "calendar"
       ],
       "evidence": "Read/rendered2026voter guide page2 VOTING WITH PHOTOID: requirement, entitlement to affidavitballot, ID presentation within5businessdays. Official2026calendar pages13–14 explicitly Nov10 VoterIDAffidavitBallotDeadline5p.m. Scope photoID presentation to forgottenID, no religious-exemption or individual eligibility determination inferred.",
-      "date_context": "Tuesday November 3, 2026 Election Day, local CST America/Chicago. 2026 official elections calendar last revised September8,2026; November entries on pages13–14. 2026 voter guide independently read/rendered, both pages. November2 absentee report remains a Monday administrative snapshot. Exact publication clock times unknown, published_at null. First read-only preflight failed a source-availability guard before writes; revised report now relies on independently verified accessible official PDFs, with unsupported-by-these-PDFs in-line-at7 claim removed from prose, graphic and ledger. All source links still require fresh authenticated preflight.",
+      "date_context": "Tuesday November 3, 2026 Election Day, local CST America/Chicago. 2026 official elections calendar last revised September8,2026; November entries on pages13–14. 2026 voter guide independently read/rendered, both pages. November2 absentee report remains a Monday administrative snapshot. Exact publication clock times unknown, published_at null. First read-only preflight failed a source-availability guard before writes; revised report now relies on independently verified accessible official PDFs, with unsupported-by-these-PDFs in-line-at7 claim removed from prose, graphic and ledger. All source links still require fresh authenticated preflight. Afternoon November3 recheck before7p.m.CST: allsixexactURLsHTTP200withoutredirect onMac; allthreeofficialPDFbytesunchanged; originalNov2reportre-read. Newread-onlyauthenticatedpreflightstillrequired; previousguardnotweakened.",
       "locality": "Pontotoc County, Mississippi; Mississippi general-election polling hours and state procedures apply locally. No polling-place street address or individual registration status inferred.",
       "identities": "Mississippi Secretary of State; Statewide Election Management System; Pontotoc County Circuit Clerk; eligible voters. No candidate endorsement, result, allegation or individual voter data.",
       "statistics": "5p.m.CST November10,2026 deadline."
@@ -130,7 +130,7 @@
         "report"
       ],
       "evidence": "Official2026calendar pages13–14 November3postmark and November10receiptdeadline5p.m.; November2SOSreport independently remindspostmarkbyElectionDay. No extension or newabsentee eligibility inferred.",
-      "date_context": "Tuesday November 3, 2026 Election Day, local CST America/Chicago. 2026 official elections calendar last revised September8,2026; November entries on pages13–14. 2026 voter guide independently read/rendered, both pages. November2 absentee report remains a Monday administrative snapshot. Exact publication clock times unknown, published_at null. First read-only preflight failed a source-availability guard before writes; revised report now relies on independently verified accessible official PDFs, with unsupported-by-these-PDFs in-line-at7 claim removed from prose, graphic and ledger. All source links still require fresh authenticated preflight.",
+      "date_context": "Tuesday November 3, 2026 Election Day, local CST America/Chicago. 2026 official elections calendar last revised September8,2026; November entries on pages13–14. 2026 voter guide independently read/rendered, both pages. November2 absentee report remains a Monday administrative snapshot. Exact publication clock times unknown, published_at null. First read-only preflight failed a source-availability guard before writes; revised report now relies on independently verified accessible official PDFs, with unsupported-by-these-PDFs in-line-at7 claim removed from prose, graphic and ledger. All source links still require fresh authenticated preflight. Afternoon November3 recheck before7p.m.CST: allsixexactURLsHTTP200withoutredirect onMac; allthreeofficialPDFbytesunchanged; originalNov2reportre-read. Newread-onlyauthenticatedpreflightstillrequired; previousguardnotweakened.",
       "locality": "Pontotoc County, Mississippi; Mississippi general-election polling hours and state procedures apply locally. No polling-place street address or individual registration status inferred.",
       "identities": "Mississippi Secretary of State; Statewide Election Management System; Pontotoc County Circuit Clerk; eligible voters. No candidate endorsement, result, allegation or individual voter data.",
       "statistics": "PostmarkNovember3; receipt5p.m.CST November10,2026."
@@ -178,7 +178,7 @@
   },
   "review": {
     "reviewer": "Codex November 3 morning editorial review",
-    "reviewed_at": "2026-11-03T15:12:48.823672+00:00",
+    "reviewed_at": "2026-11-03T22:01:18.620364+00:00",
     "decision": "publish",
     "checks": {
       "dates": true,
