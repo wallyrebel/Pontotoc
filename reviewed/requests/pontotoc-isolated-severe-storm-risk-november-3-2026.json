@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-isolated-severe-storm-risk-november-3-2026.json",
   "article_sha256": "19de87f48f3280c5731ef3554434e56b7ac4544576f3c9467643532bb92e081e",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-isolated-severe-storm-risk-november-3-2026",
   "seo_review": {
     "reviewer": "Codex November2nightly editorial review",
