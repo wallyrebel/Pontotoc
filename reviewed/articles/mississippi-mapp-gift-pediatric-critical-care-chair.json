@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:ummc:2026-11-02:mapp-pediatric-critical-care-endowed-chair"
+  ],
+  "title": "Statewide: $1 million gift establishes pediatric critical-care chair",
+  "excerpt": "UMMC announced the Mapp Family Foundation gift Nov. 2. Dr. Vishwa Gajula holds the new pediatric critical-care chair at Children’s of Mississippi.",
+  "locality": "Clearly labeled statewide Mississippi health-institution funding news. Children’s of Mississippi / University of Mississippi Medical Center. No Pontotoc service expansion, local patient count or individual medical information asserted.",
+  "sources": [
+    {
+      "id": "announcement",
+      "url": "https://umc.edu/news/News_Articles/2026/11/Mapp-Foundation.html",
+      "verification_url": "https://umc.edu/news/News_Articles/2026/11/Mapp-Foundation.html",
+      "role": "event",
+      "title": "UMMC: Mapp family establishes pediatric critical-care chair",
+      "publisher": "University of Mississippi Medical Center",
+      "published_at": null,
+      "verified_at": "2026-11-03T15:06:23.031014+00:00"
+    },
+    {
+      "id": "related",
+      "url": "https://pontotocnews.com/pontotoc-news/ummc-cancer-center-groundbreaking-october-2026/",
+      "verification_url": "https://pontotocnews.com/pontotoc-news/ummc-cancer-center-groundbreaking-october-2026/",
+      "role": "background",
+      "title": "Related UMMC coverage: cancer center groundbreaking",
+      "publisher": "Pontotoc News",
+      "published_at": null,
+      "verified_at": "2026-11-03T15:06:23.031014+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "m1",
+      "statement": "UMMC announced a $1 million Mapp Family Foundation gift establishing the Mapp Family Endowed Chair in Pediatric Critical Care at Children’s of Mississippi.",
+      "source_ids": [
+        "announcement"
+      ],
+      "evidence": "Read complete original November2 UMMC news article, including narrative and image captions. Firstparagraph expressly gives Melinda/LouisMapp, foundation, $1Mgift, fullchairname. All public institutional funding facts paraphrased; no quotes or portrait reuse.",
+      "date_context": "UMMC original announcement explicitly published Monday November2,2026; verified TuesdayNovember3 morning. Only calendar publication date shown, exact clock time unknown and published_at null. Gift is reported as announced, with intended endowment purposes rather than independently audited transfer or completed care outcomes.",
+      "locality": "Clearly labeled statewide Mississippi health-institution funding news. Children’s of Mississippi / University of Mississippi Medical Center. No Pontotoc service expansion, local patient count or individual medical information asserted.",
+      "identities": "Mapp Family Foundation; Melinda and Louis Mapp as publicly named donors; Dr. Vishwa Gajula as chair holder; University of Mississippi Medical Center; Children’s of Mississippi. No private medical history or sensitive family material included.",
+      "statistics": "$1 million announced gift; no per-patient allocation or spending period inferred."
+    },
+    {
+      "id": "m2",
+      "statement": "Dr. Vishwa Gajula holds the endowed chair; UMMC says endowment is intended to support his team’s care and research for critically ill children.",
+      "source_ids": [
+        "announcement"
+      ],
+      "evidence": "Originalfirstparagraph names chairholderDrVishwaGajula; subsequentreport says endowment helps team strengthenwork, advance research and find betterways to care for hospital’s sickestchildren. Reported as intended support, not measured improvement or new clinical offering.",
+      "date_context": "UMMC original announcement explicitly published Monday November2,2026; verified TuesdayNovember3 morning. Only calendar publication date shown, exact clock time unknown and published_at null. Gift is reported as announced, with intended endowment purposes rather than independently audited transfer or completed care outcomes.",
+      "locality": "Clearly labeled statewide Mississippi health-institution funding news. Children’s of Mississippi / University of Mississippi Medical Center. No Pontotoc service expansion, local patient count or individual medical information asserted.",
+      "identities": "Mapp Family Foundation; Melinda and Louis Mapp as publicly named donors; Dr. Vishwa Gajula as chair holder; University of Mississippi Medical Center; Children’s of Mississippi. No private medical history or sensitive family material included.",
+      "statistics": "None asserted."
+    },
+    {
+      "id": "m3",
+      "statement": "UMMC describes endowed chairs as lasting support for physician leadership, mentoring future clinicians and innovation.",
+      "source_ids": [
+        "announcement"
+      ],
+      "evidence": "Read full attributed explanation by UMMC senior director of principalgifts SuzanneCrell. Concise paraphrase of lastinginvestment/facultyleadership, mentorship and innovation. No guarantee of outcomes or newstaffcount.",
+      "date_context": "UMMC original announcement explicitly published Monday November2,2026; verified TuesdayNovember3 morning. Only calendar publication date shown, exact clock time unknown and published_at null. Gift is reported as announced, with intended endowment purposes rather than independently audited transfer or completed care outcomes.",
+      "locality": "Clearly labeled statewide Mississippi health-institution funding news. Children’s of Mississippi / University of Mississippi Medical Center. No Pontotoc service expansion, local patient count or individual medical information asserted.",
+      "identities": "Mapp Family Foundation; Melinda and Louis Mapp as publicly named donors; Dr. Vishwa Gajula as chair holder; University of Mississippi Medical Center; Children’s of Mississippi. No private medical history or sensitive family material included.",
+      "statistics": "None asserted."
+    },
+    {
+      "id": "m4",
+      "statement": "UMMC says Mapp Family Foundation was established in Fairhope Alabama in2002 and moved to Hattiesburg in2025.",
+      "source_ids": [
+        "announcement"
+      ],
+      "evidence": "Read originalfoundationhistoryparagraph. Only public organizational locations/year used; personalvolunteering anecdotes, familymedicalstories and religiousquotes omitted.",
+      "date_context": "UMMC original announcement explicitly published Monday November2,2026; verified TuesdayNovember3 morning. Only calendar publication date shown, exact clock time unknown and published_at null. Gift is reported as announced, with intended endowment purposes rather than independently audited transfer or completed care outcomes.",
+      "locality": "Clearly labeled statewide Mississippi health-institution funding news. Children’s of Mississippi / University of Mississippi Medical Center. No Pontotoc service expansion, local patient count or individual medical information asserted.",
+      "identities": "Mapp Family Foundation; Melinda and Louis Mapp as publicly named donors; Dr. Vishwa Gajula as chair holder; University of Mississippi Medical Center; Children’s of Mississippi. No private medical history or sensitive family material included.",
+      "statistics": "Established2002; moved2025."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "A $1 million gift from the Mapp Family Foundation is establishing an endowed chair in pediatric critical care at Children’s of Mississippi, the University of Mississippi Medical Center announced Nov. 2. The gift extends Melinda and Louis Mapp’s support for the field.",
+      "fact_ids": [
+        "m1"
+      ]
+    },
+    {
+      "text": "Dr. Vishwa Gajula holds the Mapp Family Endowed Chair in Pediatric Critical Care. UMMC says the endowment will support his team’s work caring for critically ill children and advancing research.",
+      "fact_ids": [
+        "m2"
+      ]
+    },
+    {
+      "text": "The Medical Center describes endowed chairs as lasting investments in physician leadership, mentoring future clinicians and developing innovations in care.",
+      "fact_ids": [
+        "m3"
+      ]
+    },
+    {
+      "text": "The Mapp Family Foundation was established in Fairhope, Alabama, in 2002 and moved to Hattiesburg in 2025, according to UMMC.",
+      "fact_ids": [
+        "m4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/mississippi-mapp-gift-pediatric-critical-care-chair.jpg",
+    "sha256": "e3fda4324ee72be0d22ad47e13e4453930daca0ebb634029211c9d9b5be90a6a",
+    "alt_text": "Original statewide health graphic: Children’s of Mississippi announced a $1 million gift for the Mapp Family Endowed Chair in Pediatric Critical Care, held by Dr. Vishwa Gajula.",
+    "credit": "Pontotoc News original editorial graphic",
+    "rights": "owned",
+    "rights_reference": "Original 1600 by 900 RGB typography and geometric layout rendered locally with Pillow and Arial. Actual final pixels inspected: readable, uncropped and consistent with the verified facts. No source photos, graphics, logos or Facebook assets reused."
+  },
+  "review": {
+    "reviewer": "Codex November 3 morning editorial review",
+    "reviewed_at": "2026-11-03T15:06:23.031014+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "m1"
+    ],
+    "excerpt_fact_ids": [
+      "m1",
+      "m2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon recurring authority to publish useful verified Pontotoc news and clearly labeled statewide stories. November 3 morning assignment: bounded article/image/request files, offline checks, authenticated all-status dry-run, final editorial/pixel review then serialized publish. No unrelated code, schedules, access changes or blocked Facebook operation."
+  }
+}
