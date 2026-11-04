@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-choir-concert-warrior-rumble-november-2026.json",
   "article_sha256": "d297198c989742a7a891e5b350da7c784bbe5e31cf816d7f68f235506f839f6b",
-  "mode": "publish",
+  "mode": "dry-run",
   "public_slug": "pontotoc-choir-concert-warrior-rumble-november-2026",
   "seo_review": {
     "reviewer": "Codex November 4 SEO review",
