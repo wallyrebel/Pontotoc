@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:city-schools:2026-11-17:warriors-without-limits-parent-resource-night"
+  ],
+  "title": "Pontotoc parent resource night set Nov. 17 at elementary school",
+  "excerpt": "The district lists Warriors Without Limits, a special education parent resource night, for 5–6:30 p.m. Nov. 17 at Pontotoc Elementary School.",
+  "locality": "Pontotoc City School District, Mississippi; Pontotoc Elementary School,145FredDowdyAvenue,PontotocMS38863. Event belongs to the city district, distinct from county district. No student health, disability, service eligibility or private information reported.",
+  "sources": [
+    {
+      "id": "event",
+      "url": "https://www.pontotoc.school/apps/events/2026/11/17/57306126/?id=0",
+      "verification_url": "https://www.pontotoc.school/apps/events/2026/11/17/57306126/?id=0",
+      "role": "event",
+      "title": "Official Warriors Without Limits parent resource night listing",
+      "publisher": "Pontotoc City School District",
+      "published_at": null,
+      "verified_at": "2026-11-04T15:13:16.565928+00:00"
+    },
+    {
+      "id": "calendar",
+      "url": "https://www.pontotoc.school/apps/events/",
+      "verification_url": "https://www.pontotoc.school/apps/events/",
+      "role": "background",
+      "title": "Pontotoc City School District November 2026 calendar",
+      "publisher": "Pontotoc City School District",
+      "published_at": null,
+      "verified_at": "2026-11-04T15:13:16.565928+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "e1",
+      "statement": "City district lists Warriors Without Limits, special education parent resource night, TuesdayNovember17,2026.",
+      "source_ids": [
+        "event"
+      ],
+      "evidence": "Complete original event page heading/title and exactWhen field read; calendarNovember2026 repeatsmatchingeventunderNov17. Not derivedfromsocialcaptionorsearchsnippet alone. No event photo/flyer facts used.",
+      "date_context": "Original full event page and complete November2026calendar read via web retrieval onNovember4morning. Exact event starts TuesdayNovember17,2026 at5p.m.and ends6:30p.m.localCST/AmericaChicago; weekday checked. Publication timestamp absent, so published_at null. Mac directHTTP returns403 for event, calendar and linkedpublicICS, while web retrieval served complete original page text; no challenge or access barrier bypassed. Unchanged managed source-link guard must pass before publication. No future verification, registration/price/access/service promise or cancellation inferred.",
+      "locality": "Pontotoc City School District, Mississippi; Pontotoc Elementary School,145FredDowdyAvenue,PontotocMS38863. Event belongs to the city district, distinct from county district. No student health, disability, service eligibility or private information reported.",
+      "identities": "Warriors Without Limits is the exact event name; Special Education Parent Resource Night is exact subtitle. Pontotoc Elementary School and its145FredDowdyAve address are explicit venue; district140EducationDrive footer address is not the event venue. Public662-489-3336 number belongs to districtcentraloffice, not a claimed event-specific contact.",
+      "statistics": "November17,2026,Tuesday. No attendee count asserted."
+    },
+    {
+      "id": "e2",
+      "statement": "Event runs5–6:30p.m.atPontotocElementarySchool,145FredDowdyAvenue,Pontotoc.",
+      "source_ids": [
+        "event"
+      ],
+      "evidence": "ExactWhen andWhere fields on originaleventpage matchNovembercalendar. VenueaddressexplicitMS38863. No claimofservices, agenda, admission,registration, childcare, speaker or eligibility.",
+      "date_context": "Original full event page and complete November2026calendar read via web retrieval onNovember4morning. Exact event starts TuesdayNovember17,2026 at5p.m.and ends6:30p.m.localCST/AmericaChicago; weekday checked. Publication timestamp absent, so published_at null. Mac directHTTP returns403 for event, calendar and linkedpublicICS, while web retrieval served complete original page text; no challenge or access barrier bypassed. Unchanged managed source-link guard must pass before publication. No future verification, registration/price/access/service promise or cancellation inferred.",
+      "locality": "Pontotoc City School District, Mississippi; Pontotoc Elementary School,145FredDowdyAvenue,PontotocMS38863. Event belongs to the city district, distinct from county district. No student health, disability, service eligibility or private information reported.",
+      "identities": "Warriors Without Limits is the exact event name; Special Education Parent Resource Night is exact subtitle. Pontotoc Elementary School and its145FredDowdyAve address are explicit venue; district140EducationDrive footer address is not the event venue. Public662-489-3336 number belongs to districtcentraloffice, not a claimed event-specific contact.",
+      "statistics": "5:00PM–6:30PM localCST;145FredDowdyAvenue is venueaddress."
+    },
+    {
+      "id": "e3",
+      "statement": "Event page offers GoogleCalendar and iCalendarexports; districtfooterlistscentraloffice662-489-3336.",
+      "source_ids": [
+        "event"
+      ],
+      "evidence": "Read complete originalpage actionlinks CopytoGoogleCalendar and DownloadiCalEvent, and districtcontactfooter140EducationDrive/PontotocMS/6624893336. Reportsgeneralnumber only; not inventedasdedicatedeventhotline. PublicICSdidnotserveontheMac, so no successfuldownload claim; literalexportlink availability mustpasscurrentpageaccessgate.",
+      "date_context": "Original full event page and complete November2026calendar read via web retrieval onNovember4morning. Exact event starts TuesdayNovember17,2026 at5p.m.and ends6:30p.m.localCST/AmericaChicago; weekday checked. Publication timestamp absent, so published_at null. Mac directHTTP returns403 for event, calendar and linkedpublicICS, while web retrieval served complete original page text; no challenge or access barrier bypassed. Unchanged managed source-link guard must pass before publication. No future verification, registration/price/access/service promise or cancellation inferred.",
+      "locality": "Pontotoc City School District, Mississippi; Pontotoc Elementary School,145FredDowdyAvenue,PontotocMS38863. Event belongs to the city district, distinct from county district. No student health, disability, service eligibility or private information reported.",
+      "identities": "Warriors Without Limits is the exact event name; Special Education Parent Resource Night is exact subtitle. Pontotoc Elementary School and its145FredDowdyAve address are explicit venue; district140EducationDrive footer address is not the event venue. Public662-489-3336 number belongs to districtcentraloffice, not a claimed event-specific contact.",
+      "statistics": "Publicdistrictcentraloffice662-489-3336. Noneelseasserted."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc City School District lists Warriors Without Limits, a special education parent resource night, for Tuesday, Nov. 17.",
+      "fact_ids": [
+        "e1"
+      ]
+    },
+    {
+      "text": "The district calendar gives the time as 5 to 6:30 p.m. at Pontotoc Elementary School, 145 Fred Dowdy Avenue in Pontotoc.",
+      "fact_ids": [
+        "e2"
+      ]
+    },
+    {
+      "text": "Families can review the official event listing and use its Google Calendar or iCalendar links to save the date. The district’s central-office number is 662-489-3336.",
+      "fact_ids": [
+        "e3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-special-education-parent-resource-night-november-17.jpg",
+    "sha256": "45ee54a786060edc336b23d8965423fb9b346ef82eff1e9d8d3f73cd3c22de61",
+    "alt_text": "Original Warriors Without Limits parent resource night graphic: Tuesday, Nov. 17, 2026, 5–6:30 p.m., Pontotoc Elementary School, 145 Fred Dowdy Avenue.",
+    "credit": "Pontotoc News original editorial graphic",
+    "rights": "owned",
+    "rights_reference": "Original1600x900RGB code-rendered typography/geometric composition withPillow/macOSArial. Actualpixels inspectedNovember4morning; all date/time/title/venue/address text legible and unclipped. No sourcephotographs/logos, studentlikenesses, medicalimagery orFacebookassets reused."
+  },
+  "review": {
+    "reviewer": "Codex November 4 morning editorial review",
+    "reviewed_at": "2026-11-04T15:13:16.565928+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "e1",
+      "e2"
+    ],
+    "excerpt_fact_ids": [
+      "e1",
+      "e2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Recurring authorization for useful original verifiedPontotocpublicfacts. Newlocalparentresourceservice event absentfromlatest100posts andpubliceventIDsearch; shortnoticeusesonlysupportedfacts, no padding orservicespromise. Fulloriginalprimarypagesreadviaweb; Mac403recorded, unchangedmanagedauthenticatedallstatus/source-linkdryrun mustpass beforepublish. Originalimageinspected; onlyboundedarticle/image/request; no access/TLSbypass, code/schedule/credentialchanges."
+  }
+}
