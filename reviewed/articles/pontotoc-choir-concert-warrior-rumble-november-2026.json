@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:city-choir:2026-11-05:patriotic-concert",
+    "ms:pontotoc:city-choir:2026-11-14:warrior-rumble-benefit"
+  ],
+  "title": "Pontotoc choir concert set Nov. 5; Warrior Rumble benefit follows",
+  "excerpt": "Pontotoc City Choir’s Patriotic Concert is Nov. 5 at 6 p.m. at PJHS. A separate Warrior Rumble fundraiser follows Nov. 14 at the county Agri-Center.",
+  "locality": "Pontotoc, Mississippi: Pontotoc Junior High School auditorium and Pontotoc County Agri-Center.",
+  "sources": [
+    {
+      "id": "school",
+      "url": "https://phs.pontotoc.school/apps/news/article/2250742?categoryId=17400",
+      "verification_url": "https://phs.pontotoc.school/apps/news/article/2250742?categoryId=17400",
+      "role": "event",
+      "title": "Pontotoc High School: choir concert and Warrior Rumble notice",
+      "publisher": "Pontotoc High School",
+      "published_at": null,
+      "verified_at": "2026-11-04T22:12:29.388468+00:00"
+    },
+    {
+      "id": "epw",
+      "url": "https://www.epwwrestlingms.com/events/epw-wrestling-presents-warrior-rumble-fundraiser",
+      "verification_url": "https://www.epwwrestlingms.com/events/epw-wrestling-presents-warrior-rumble-fundraiser",
+      "role": "event",
+      "title": "EPW Wrestling: Nov. 14 Warrior Rumble details and tickets",
+      "publisher": "EPW Wrestling",
+      "published_at": null,
+      "verified_at": "2026-11-04T22:12:29.388468+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "The Pontotoc City Choir Patriotic Concert is Thursday November 5 at 6 p.m. in the PJHS auditorium.",
+      "source_ids": [
+        "school"
+      ],
+      "evidence": "School notice labeled (11/2) states THIS Thursday Night at 6pm in PJHS Auditorium. Full dated district calendar independently confirms November 5, 2026, 6–7 p.m. No admission price, repertoire or honoree asserted.",
+      "date_context": "Prepared Wednesday November 4, 2026. School notice is labeled (11/2), gives concert THIS Thursday at 6 p.m.; district event calendar explicitly confirms 11/5/2026, 6–7 p.m. (https://www.pontotoc.school/apps/events/2026/11/5/60789713/?REC_ID=60789713&id=0), read through web retrieval. Organizer independently states Nov. 14, 2026 at 7 p.m. Times are local Central Standard Time. Exact source publication timestamps unavailable and left null.",
+      "locality": "Pontotoc, Mississippi: Pontotoc Junior High School auditorium and Pontotoc County Agri-Center.",
+      "identities": "Pontotoc City Choir; Pontotoc High School; Pontotoc Junior High School; EPW Wrestling.",
+      "statistics": "Concert November 5 at 6 p.m."
+    },
+    {
+      "id": "f2",
+      "statement": "The school and EPW announce Warrior Rumble on Saturday November 14 at 7 p.m. at Pontotoc County Agri-Center, benefiting Pontotoc City Choir.",
+      "source_ids": [
+        "school",
+        "epw"
+      ],
+      "evidence": "School text and inspected school poster match organizer event date, bell time, venue and choir beneficiary. EPW event explicitly gives year 2026 and says proceeds benefit Pontotoc City Choir Program.",
+      "date_context": "Prepared Wednesday November 4, 2026. School notice is labeled (11/2), gives concert THIS Thursday at 6 p.m.; district event calendar explicitly confirms 11/5/2026, 6–7 p.m. (https://www.pontotoc.school/apps/events/2026/11/5/60789713/?REC_ID=60789713&id=0), read through web retrieval. Organizer independently states Nov. 14, 2026 at 7 p.m. Times are local Central Standard Time. Exact source publication timestamps unavailable and left null.",
+      "locality": "Pontotoc, Mississippi: Pontotoc Junior High School auditorium and Pontotoc County Agri-Center.",
+      "identities": "Pontotoc City Choir; Pontotoc High School; Pontotoc Junior High School; EPW Wrestling.",
+      "statistics": "Benefit November 14 at 7 p.m."
+    },
+    {
+      "id": "f3",
+      "statement": "EPW lists doors at 6 p.m., bell time 7 p.m., general admission $10, student general admission $5 and Golden Circle rows 1 and 2 at $15.",
+      "source_ids": [
+        "epw",
+        "school"
+      ],
+      "evidence": "Organizer Time & Location and ticket details read. School poster visually inspected confirms doors/bell time and ticket prices. Poster labels Golden Circle purchase through Mr. Adams, whereas organizer offers online checkout: article makes no claim about VIP purchase method.",
+      "date_context": "Prepared Wednesday November 4, 2026. School notice is labeled (11/2), gives concert THIS Thursday at 6 p.m.; district event calendar explicitly confirms 11/5/2026, 6–7 p.m. (https://www.pontotoc.school/apps/events/2026/11/5/60789713/?REC_ID=60789713&id=0), read through web retrieval. Organizer independently states Nov. 14, 2026 at 7 p.m. Times are local Central Standard Time. Exact source publication timestamps unavailable and left null.",
+      "locality": "Pontotoc, Mississippi: Pontotoc Junior High School auditorium and Pontotoc County Agri-Center.",
+      "identities": "Pontotoc City Choir; Pontotoc High School; Pontotoc Junior High School; EPW Wrestling.",
+      "statistics": "Doors 6 p.m.; bell 7 p.m.; general admission $10; students $5; Golden Circle $15 for rows 1 and 2."
+    },
+    {
+      "id": "f4",
+      "statement": "EPW lists the venue at 430 CJ Hardin Jr. Drive in Pontotoc and says the wrestling card is subject to change.",
+      "source_ids": [
+        "epw"
+      ],
+      "evidence": "Organizer Time & Location: Pontotoc County Agri-Center, 430 Cj Hardin Jr Dr, Pontotoc MS 38863; event text ends Card subject to change. No performer lineup asserted.",
+      "date_context": "Prepared Wednesday November 4, 2026. School notice is labeled (11/2), gives concert THIS Thursday at 6 p.m.; district event calendar explicitly confirms 11/5/2026, 6–7 p.m. (https://www.pontotoc.school/apps/events/2026/11/5/60789713/?REC_ID=60789713&id=0), read through web retrieval. Organizer independently states Nov. 14, 2026 at 7 p.m. Times are local Central Standard Time. Exact source publication timestamps unavailable and left null.",
+      "locality": "Pontotoc, Mississippi: Pontotoc Junior High School auditorium and Pontotoc County Agri-Center.",
+      "identities": "Pontotoc City Choir; Pontotoc High School; Pontotoc Junior High School; EPW Wrestling.",
+      "statistics": "Venue address 430 CJ Hardin Jr. Drive."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "The Pontotoc City Choir will present its Patriotic Concert at 6 p.m. Thursday, November 5, in the Pontotoc Junior High School auditorium, according to a school announcement.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "A separate event supporting the choir follows Saturday, November 14. Pontotoc City Choir and EPW Wrestling are hosting Warrior Rumble at the Pontotoc County Agri-Center, with the wrestling show scheduled to begin at 7 p.m. EPW says proceeds will benefit the Pontotoc City Choir program.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "For the November 14 wrestling fundraiser, EPW lists doors opening at 6 p.m. General admission is $10, student general admission is $5, and Golden Circle seating in the first two rows is $15. Those ticket prices apply to Warrior Rumble.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "The Agri-Center is at 430 CJ Hardin Jr. Drive in Pontotoc. The organizer’s event page includes ticket information and notes that the wrestling card is subject to change. The school’s original notice and the organizer’s details are linked below.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-choir-concert-warrior-rumble-november-2026.png",
+    "sha256": "7dede4ff662cc3350e94eb2304e173a50455a01c46c24e6878309baa8e44efaa",
+    "alt_text": "Original microphone and musical-note illustration with separate cards for the Nov. 5 Pontotoc choir concert and Nov. 14 Warrior Rumble benefit.",
+    "credit": "Pontotoc News original music illustration",
+    "rights": "owned",
+    "rights_reference": "Original 1600 by 900 RGB geometric microphone, abstract staff, notes and stars drawn locally with Pillow and macOS Arial fonts in build_choir.py. No source poster, school logo, photograph or EPW artwork reused. The original school poster was inspected for reporting evidence only."
+  },
+  "review": {
+    "reviewer": "Codex November 4 Pontotoc editorial review",
+    "reviewed_at": "2026-11-04T22:12:29.388468+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s standing Pontotoc daily publishing approval, with November 4 parent delegation explicitly authorizing a distinct verified choir concert/Warrior Rumble story after the weather article is reconciled. Submit one digest-bound request through the managed Action after all source, duplicate, image, offline and authenticated checks pass."
+  }
+}
