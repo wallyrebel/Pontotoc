@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:nws:2026-11-04-afternoon:fog-cooler-weekend-forecast"
+  ],
+  "title": "Pontotoc fog forecast overnight; cooler weather arrives this weekend",
+  "excerpt": "Pontotoc County’s forecast calls for fog overnight and Thursday morning, highs in the lower 70s Thursday and Friday, then a cooler weekend.",
+  "locality": "Pontotoc County, Mississippi; forecast predictions, not observed conditions.",
+  "sources": [
+    {
+      "id": "nws-forecast",
+      "url": "https://api.weather.gov/products/93fdb491-19fb-4cb1-8d77-af05054b9614",
+      "verification_url": "https://api.weather.gov/products/93fdb491-19fb-4cb1-8d77-af05054b9614",
+      "role": "event",
+      "title": "NWS Memphis: Nov. 4 county forecast (Pontotoc is MSZ015)",
+      "publisher": "National Weather Service Memphis",
+      "published_at": "2026-11-04T21:06:00+00:00",
+      "verified_at": "2026-11-04T22:08:21.116636+00:00"
+    },
+    {
+      "id": "nws-safety",
+      "url": "https://www.weather.gov/safety/fog-driving",
+      "verification_url": "https://www.weather.gov/safety/fog-driving",
+      "role": "background",
+      "title": "National Weather Service: driving in fog",
+      "publisher": "National Weather Service",
+      "published_at": null,
+      "verified_at": "2026-11-04T22:08:21.116636+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Areas of fog are forecast tonight and Thursday morning in Pontotoc County, with overnight lows in the mid 40s.",
+      "source_ids": [
+        "nws-forecast"
+      ],
+      "evidence": "MSZ015 TONIGHT: areas of fog, lows mid 40s; THURSDAY: areas of fog in morning.",
+      "date_context": "Forecast MSZ015 issued 3:05 p.m. CST Wednesday November 4, 2026; dated product issued 21:06 UTC. Thursday Nov. 5, Friday Nov. 6, Saturday Nov. 7, Sunday Nov. 8. NWS current product list and point forecast independently checked November 4.",
+      "locality": "Pontotoc County, Mississippi; forecast predictions, not observed conditions.",
+      "identities": "National Weather Service; Pontotoc County, Mississippi.",
+      "statistics": "Forecast lows mid 40s Fahrenheit."
+    },
+    {
+      "id": "f2",
+      "statement": "Thursday is forecast mostly sunny with highs in the lower 70s; Thursday night mostly clear with areas of fog and lows in the mid 40s; Friday patchy morning fog then sunny with highs in the lower 70s and north winds 5 to 10 mph.",
+      "source_ids": [
+        "nws-forecast"
+      ],
+      "evidence": "MSZ015 THURSDAY, THURSDAY NIGHT, FRIDAY sections read in full.",
+      "date_context": "Forecast MSZ015 issued 3:05 p.m. CST Wednesday November 4, 2026; dated product issued 21:06 UTC. Thursday Nov. 5, Friday Nov. 6, Saturday Nov. 7, Sunday Nov. 8. NWS current product list and point forecast independently checked November 4.",
+      "locality": "Pontotoc County, Mississippi; forecast predictions, not observed conditions.",
+      "identities": "National Weather Service; Pontotoc County, Mississippi.",
+      "statistics": "Forecast highs lower 70s F, Thursday-night lows mid 40s F; Friday north winds 5–10 mph."
+    },
+    {
+      "id": "f3",
+      "statement": "The weekend turns cooler: lower 60s highs both days, Saturday mostly sunny and Sunday mostly sunny; both overnight lows mid 30s. Friday night lows lower 40s.",
+      "source_ids": [
+        "nws-forecast"
+      ],
+      "evidence": "MSZ015 FRIDAY NIGHT through SUNDAY NIGHT read in full.",
+      "date_context": "Forecast MSZ015 issued 3:05 p.m. CST Wednesday November 4, 2026; dated product issued 21:06 UTC. Thursday Nov. 5, Friday Nov. 6, Saturday Nov. 7, Sunday Nov. 8. NWS current product list and point forecast independently checked November 4.",
+      "locality": "Pontotoc County, Mississippi; forecast predictions, not observed conditions.",
+      "identities": "National Weather Service; Pontotoc County, Mississippi.",
+      "statistics": "Friday-night lower 40s F; weekend highs lower 60s F and Saturday/Sunday-night lows mid 30s F."
+    },
+    {
+      "id": "f4",
+      "statement": "NWS recommends reducing speed, allowing extra time, using low beams and leaving more following distance when driving in fog.",
+      "source_ids": [
+        "nws-safety"
+      ],
+      "evidence": "NWS fog-driving page: slow down, allow extra time, low-beam headlights, avoid high-beam glare and allow distance.",
+      "date_context": "Undated standing NWS guidance, verified November 4, 2026.",
+      "locality": "General fog-driving guidance for motorists.",
+      "identities": "National Weather Service.",
+      "statistics": "None asserted"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Fog could affect the Thursday morning drive in Pontotoc County before a cooler weekend arrives. The National Weather Service’s Wednesday afternoon county forecast calls for areas of fog overnight November 4 and during the morning Thursday, November 5. Overnight temperatures are expected to fall into the mid 40s.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "Thursday should otherwise be mostly sunny, with afternoon temperatures reaching the lower 70s. More fog is forecast Thursday night, when lows return to the mid 40s. Friday’s outlook calls for patchy morning fog followed by sunshine, highs in the lower 70s and north winds of 5 to 10 mph.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "The bigger temperature change comes over the weekend. After Friday night lows in the lower 40s, Saturday and Sunday are forecast to reach only the lower 60s under mostly sunny skies. Saturday night and Sunday night lows are expected to drop into the mid 30s. These predictions come from the county forecast issued at 3:05 p.m. Central Standard Time November 4.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "If fog limits visibility, the weather service advises drivers to slow down, allow extra travel time, use low-beam headlights and leave more space behind the vehicle ahead. High beams can create glare that makes it harder to see the road.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-fog-cooler-weekend-november-4-2026.png",
+    "sha256": "9eed0b542b383e1efd66128105b2e5c14375f1e84583ff1271dd16328dd1b837",
+    "alt_text": "Original illustration of a road fading into fog, with Pontotoc forecast cards showing lower 70s Thursday and Friday and lower 60s over the weekend.",
+    "credit": "Pontotoc News original weather illustration; forecast data from NWS Memphis",
+    "rights": "owned",
+    "rights_reference": "Original 1600 by 900 RGB illustration drawn with geometric shapes and macOS Arial fonts in build_weather.py for this article. No source graphic, logo, photograph or third-party artwork reused. Abstract road is illustrative, not a report of observed fog or an actual Pontotoc scene."
+  },
+  "review": {
+    "reviewer": "Codex November 4 Pontotoc editorial review",
+    "reviewed_at": "2026-11-04T22:08:21.116636+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f3"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s standing authorization to publish useful Pontotoc articles daily (Oct. 18, 2026), reaffirmed in the November 4 delegated weather task. Proceed only after source, original image, offline tests, authenticated dry-run and final editorial review pass through the managed Action."
+  }
+}

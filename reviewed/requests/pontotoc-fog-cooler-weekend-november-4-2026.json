@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-fog-cooler-weekend-november-4-2026.json",
+  "article_sha256": "8d3b9351dc907907be6dad7269c2cf74a67b458acbc37086b6475f1a6b609a34",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-fog-cooler-weekend-november-2026",
+  "seo_review": {
+    "reviewer": "Codex November 4 SEO review",
+    "reviewed_at": "2026-11-04T22:08:21.116636+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}
