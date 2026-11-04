@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-special-education-parent-resource-night-november-17.json",
   "article_sha256": "1c1a22e845eaa8a31657551be30c3d9963f1ec53d0278ac925845fe4a4e7efd0",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-special-education-parent-resource-night-november-17",
   "seo_review": {
     "reviewer": "Codex November 4 morning editorial review",
