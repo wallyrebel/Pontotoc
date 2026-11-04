@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:2026-11-12:access-to-justice-legal-clinic"
+  ],
+  "title": "Pontotoc legal clinic listed Nov. 12; registration marked closed",
+  "excerpt": "The commission lists a free clinic at 12:30 p.m. Nov. 12 in Pontotoc. Its online registration is closed; contact the organizer to check availability.",
+  "locality": "Pontotoc County, Mississippi. Original event venue lists Pontotoc County Chancery Building, 34 South Liberty Street, Pontotoc MS 38863. Not Pontotoc County, Oklahoma; not the organizer’s Jackson mailing address.",
+  "sources": [
+    {
+      "id": "event",
+      "url": "https://www.msatjc.org/event/pontotoc-county-legal-clinic-2026-11-12-2026-11-13-90/register",
+      "verification_url": "https://www.msatjc.org/event/pontotoc-county-legal-clinic-2026-11-12-2026-11-13-90/register",
+      "role": "event",
+      "title": "Original Pontotoc County legal-clinic notice and registration status",
+      "publisher": "Mississippi Access to Justice Commission",
+      "published_at": null,
+      "verified_at": "2026-11-04T15:06:24.434518+00:00"
+    },
+    {
+      "id": "contact",
+      "url": "https://www.msatjc.org/contact-us",
+      "verification_url": "https://www.msatjc.org/contact-us",
+      "role": "background",
+      "title": "Official organizer contact information",
+      "publisher": "Mississippi Access to Justice Commission",
+      "published_at": null,
+      "verified_at": "2026-11-04T15:06:24.434518+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "c1",
+      "statement": "The commission lists a free Pontotoc County legal clinic for12:30p.m.ThursdayNovember12,2026 atPontotocCountyChanceryBuilding,34SouthLibertyStreet.",
+      "source_ids": [
+        "event"
+      ],
+      "evidence": "Complete original current event heading/start/sidebar address read; exact year/time explicit. Generic justice-building stock photo inspected as evidence only, contains no event facts and is not the Pontotoc venue; not reused. No event flyer or source-only graphic facts inferred.",
+      "date_context": "Read complete original event HTML November 4, 2026 morning America/Chicago. Displayed start Thursday November 12, 2026 at12:30p.m.US/Central independently weekday/time-zone checked; microdata start2026-11-12 18:30UTC agrees with12:30CST. Do not infer event duration or second-day session from URL ending2026-11-13. The current event is2026; unrelated2024footer boilerplate is not used. Publication timestamp not supplied, so published_at null. Registration status is a November4morning snapshot, not a cancellation, sold-out finding or promise of future availability.",
+      "locality": "Pontotoc County, Mississippi. Original event venue lists Pontotoc County Chancery Building, 34 South Liberty Street, Pontotoc MS 38863. Not Pontotoc County, Oklahoma; not the organizer’s Jackson mailing address.",
+      "identities": "Mississippi Access to Justice Commission is the stated organizer. Pontotoc County Chancery Building is the explicit2026event venue. First Chancery District project description is generalprogram context. Public organizer call/text number601-974-0470 confirmed on both event and contact pages. No individual client information, legal strategy, eligibility decision or representation guarantee.",
+      "statistics": "November12,2026,12:30p.m.CST; fee described asfree; no duration, capacity or attendance count asserted."
+    },
+    {
+      "id": "c2",
+      "statement": "The current event page marks registration closed; commission contact601-974-0470 accepts calls/texts.",
+      "source_ids": [
+        "event",
+        "contact"
+      ],
+      "evidence": "Exact current event banner says Event registration is closed. No explanation, cancellation, reopening date or walk-in availability given. Both original event organizer panel and official contact page list601-974-0470call/text. Advising readers to check directly before plans is reader guidance, not a claim of reopened registration.",
+      "date_context": "Read complete original event HTML November 4, 2026 morning America/Chicago. Displayed start Thursday November 12, 2026 at12:30p.m.US/Central independently weekday/time-zone checked; microdata start2026-11-12 18:30UTC agrees with12:30CST. Do not infer event duration or second-day session from URL ending2026-11-13. The current event is2026; unrelated2024footer boilerplate is not used. Publication timestamp not supplied, so published_at null. Registration status is a November4morning snapshot, not a cancellation, sold-out finding or promise of future availability.",
+      "locality": "Pontotoc County, Mississippi. Original event venue lists Pontotoc County Chancery Building, 34 South Liberty Street, Pontotoc MS 38863. Not Pontotoc County, Oklahoma; not the organizer’s Jackson mailing address.",
+      "identities": "Mississippi Access to Justice Commission is the stated organizer. Pontotoc County Chancery Building is the explicit2026event venue. First Chancery District project description is generalprogram context. Public organizer call/text number601-974-0470 confirmed on both event and contact pages. No individual client information, legal strategy, eligibility decision or representation guarantee.",
+      "statistics": "Status as ofWednesdaymorningNovember4,2026. Publiccall/text601-974-0470."
+    },
+    {
+      "id": "c3",
+      "statement": "Volunteer attorneys provide guidance for low-income people representing themselves because they cannot afford a lawyer.",
+      "source_ids": [
+        "event"
+      ],
+      "evidence": "Current event introduction explicitly describes purpose and FirstChanceryDistrictprogram. The article reports program purpose only; no advice to any person or claim of guaranteed eligibility, representation or court outcome.",
+      "date_context": "Read complete original event HTML November 4, 2026 morning America/Chicago. Displayed start Thursday November 12, 2026 at12:30p.m.US/Central independently weekday/time-zone checked; microdata start2026-11-12 18:30UTC agrees with12:30CST. Do not infer event duration or second-day session from URL ending2026-11-13. The current event is2026; unrelated2024footer boilerplate is not used. Publication timestamp not supplied, so published_at null. Registration status is a November4morning snapshot, not a cancellation, sold-out finding or promise of future availability.",
+      "locality": "Pontotoc County, Mississippi. Original event venue lists Pontotoc County Chancery Building, 34 South Liberty Street, Pontotoc MS 38863. Not Pontotoc County, Oklahoma; not the organizer’s Jackson mailing address.",
+      "identities": "Mississippi Access to Justice Commission is the stated organizer. Pontotoc County Chancery Building is the explicit2026event venue. First Chancery District project description is generalprogram context. Public organizer call/text number601-974-0470 confirmed on both event and contact pages. No individual client information, legal strategy, eligibility decision or representation guarantee.",
+      "statistics": "None asserted."
+    },
+    {
+      "id": "c4",
+      "statement": "The notice lists assistance topics and issue-specific document requirements.",
+      "source_ids": [
+        "event"
+      ],
+      "evidence": "Read all current event topic bullets and every expandable document section: childsupport,custody,divorce,namechanges,expungements amonglistedsubjects. Summarize selectedtopics only; direct readers to fullnotice and organizer. No detailed legal instructions, income threshold or ID/notarization rule generalized.",
+      "date_context": "Read complete original event HTML November 4, 2026 morning America/Chicago. Displayed start Thursday November 12, 2026 at12:30p.m.US/Central independently weekday/time-zone checked; microdata start2026-11-12 18:30UTC agrees with12:30CST. Do not infer event duration or second-day session from URL ending2026-11-13. The current event is2026; unrelated2024footer boilerplate is not used. Publication timestamp not supplied, so published_at null. Registration status is a November4morning snapshot, not a cancellation, sold-out finding or promise of future availability.",
+      "locality": "Pontotoc County, Mississippi. Original event venue lists Pontotoc County Chancery Building, 34 South Liberty Street, Pontotoc MS 38863. Not Pontotoc County, Oklahoma; not the organizer’s Jackson mailing address.",
+      "identities": "Mississippi Access to Justice Commission is the stated organizer. Pontotoc County Chancery Building is the explicit2026event venue. First Chancery District project description is generalprogram context. Public organizer call/text number601-974-0470 confirmed on both event and contact pages. No individual client information, legal strategy, eligibility decision or representation guarantee.",
+      "statistics": "None asserted."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "The Mississippi Access to Justice Commission lists a free Pontotoc County legal clinic for 12:30 p.m. Thursday, Nov. 12, at the Pontotoc County Chancery Building, 34 South Liberty Street.",
+      "fact_ids": [
+        "c1"
+      ]
+    },
+    {
+      "text": "Online registration is marked closed as of Wednesday morning, Nov. 4. People interested in attending should contact the commission at 601-974-0470 to check availability before making plans. The organizer accepts calls and texts at that number.",
+      "fact_ids": [
+        "c2"
+      ]
+    },
+    {
+      "text": "The clinic description says volunteer attorneys provide guidance for low-income people who are representing themselves in court because they cannot afford to hire a lawyer.",
+      "fact_ids": [
+        "c3"
+      ]
+    },
+    {
+      "text": "Listed topics include child support, custody, divorce, name changes and expungements. The notice also gives document requirements that vary by issue. Readers can review the full event page and confirm details with the commission.",
+      "fact_ids": [
+        "c4",
+        "c2"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-legal-clinic-november-12-registration-status.jpg",
+    "sha256": "5e6175e6617c6b806cc3116b3ca3428c4c4b47262a7ec358f65b2e34f1bd21c9",
+    "alt_text": "Original Pontotoc legal-clinic graphic: Nov. 12 at 12:30 p.m., registration marked closed as checked Nov. 4; contact the organizer before making plans.",
+    "credit": "Pontotoc News original editorial graphic",
+    "rights": "owned",
+    "rights_reference": "Original1600x900RGB typography/geometric graphic rendered locally withPillow/macOSArial. Actualpixels inspectedNovember4morning: legible fulltext, accurateThursday/date/time and prominentclosedregistrationstatus, no clipping. No sourcephoto, logo, stockimage, courthouse likeness orFacebookasset reused."
+  },
+  "review": {
+    "reviewer": "Codex November 4 morning editorial review",
+    "reviewed_at": "2026-11-04T15:06:24.434518+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "c1",
+      "c2"
+    ],
+    "excerpt_fact_ids": [
+      "c1",
+      "c2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Recurring authorization for useful verified Pontotoc public-facts news. Distinct local service notice; original clinic and organizer pages read fully, registrationclosed prominently disclosed. Administrative event reporting only, no legal advice or sensitive personal material. Publicsemanticsearch/latest100 find no overlap; exhaustive authenticatedallstatuspreflight required. Only boundedarticle/image/request, sameidentity on uncertainwrite, no source/TLSgate weakening, no unrelatedchanges."
+  }
+}

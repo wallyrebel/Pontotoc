@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-legal-clinic-november-12-registration-status.json",
+  "article_sha256": "08eb7c327216aa99c2d62c9fd507e2e0ef54e54f9d84378a040df972684b4a68",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-legal-clinic-november-12-registration-status",
+  "seo_review": {
+    "reviewer": "Codex November 4 morning editorial review",
+    "reviewed_at": "2026-11-04T15:06:24.434518+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}
