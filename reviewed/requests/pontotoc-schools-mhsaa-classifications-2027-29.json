@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-schools-mhsaa-classifications-2027-29.json",
+  "article_sha256": "ae2e9b693f38dc6eab1f12e1cdd8735c96bbf25ad471d692647ec61b3f44fa62",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-schools-mhsaa-classifications-2027-29",
+  "seo_review": {
+    "reviewer": "Codex November 4 nightly SEO review",
+    "reviewed_at": "2026-11-05T01:39:51.529535+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}

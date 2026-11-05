@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:mhsaa:2027-29:classification-release-2026-11-02"
+  ],
+  "title": "Pontotoc listed 5A, North and South 4A for 2027–29",
+  "excerpt": "MHSAA’s 2027–29 list places Pontotoc in 5A and North and South Pontotoc in 4A, with adjusted enrollments of 490, 398 and 353.",
+  "locality": "Pontotoc, North Pontotoc and South Pontotoc high schools, Pontotoc County area, Mississippi.",
+  "sources": [
+    {
+      "id": "release",
+      "url": "https://www.misshsaa.com/2026/11/02/2027-29-mhsaa-classifications/",
+      "verification_url": "https://www.misshsaa.com/2026/11/02/2027-29-mhsaa-classifications/",
+      "role": "event",
+      "title": "MHSAA: 2027–29 classification release",
+      "publisher": "Mississippi High School Activities Association",
+      "published_at": null,
+      "verified_at": "2026-11-05T01:39:51.529535+00:00"
+    },
+    {
+      "id": "table",
+      "url": "https://championship-manager-seven.vercel.app/api/embed/89c08abac6af8e5949dd8c5575aa6d73",
+      "verification_url": "https://championship-manager-seven.vercel.app/api/embed/89c08abac6af8e5949dd8c5575aa6d73",
+      "role": "event",
+      "title": "MHSAA: full 2027–29 classification and adjusted-enrollment table",
+      "publisher": "Mississippi High School Activities Association",
+      "published_at": null,
+      "verified_at": "2026-11-05T01:39:51.529535+00:00"
+    },
+    {
+      "id": "current",
+      "url": "https://www.misshsaa.com/2024/11/19/2025-27-football-regions/",
+      "verification_url": "https://www.misshsaa.com/2024/11/19/2025-27-football-regions/",
+      "role": "background",
+      "title": "MHSAA: 2025–27 football regions",
+      "publisher": "Mississippi High School Activities Association",
+      "published_at": null,
+      "verified_at": "2026-11-05T01:39:51.529535+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "The 2027–29 release lists Pontotoc in Class 5A and North Pontotoc and South Pontotoc in Class 4A.",
+      "source_ids": [
+        "release",
+        "table"
+      ],
+      "evidence": "Official release links the exact embedded table. Table Class 5A contains PONTOTOC HIGH SCHOOL; Class 4A contains North Pontotoc High School and South Pontotoc High School.",
+      "date_context": "Verified November 4, 2026 Central evening (November 5 UTC). New release is dated November 2, 2026 in its official URL and is explicitly for the 2027–29 future cycle. Comparison is the association’s 2025–27 football alignment, dated November 19, 2024. Exact publication times unavailable, left null. Release/current pages read via web retrieval but Mac publishing client returned HTTP 403; managed worker must pass source availability before any WordPress write.",
+      "locality": "Pontotoc, North Pontotoc and South Pontotoc high schools, Pontotoc County area, Mississippi.",
+      "identities": "Mississippi High School Activities Association; Pontotoc High School; North Pontotoc High School; South Pontotoc High School.",
+      "statistics": "Future 2027–29: Pontotoc 5A; North/South Pontotoc 4A."
+    },
+    {
+      "id": "f2",
+      "statement": "Adjusted enrollments are 490 for Pontotoc, 398 for North Pontotoc and 353 for South Pontotoc.",
+      "source_ids": [
+        "table"
+      ],
+      "evidence": "Read all three HTML table rows, verified their class sections; introductory text identifies adjusted enrollment. No alternative total enrollment or enrollment trend asserted.",
+      "date_context": "Verified November 4, 2026 Central evening (November 5 UTC). New release is dated November 2, 2026 in its official URL and is explicitly for the 2027–29 future cycle. Comparison is the association’s 2025–27 football alignment, dated November 19, 2024. Exact publication times unavailable, left null. Release/current pages read via web retrieval but Mac publishing client returned HTTP 403; managed worker must pass source availability before any WordPress write.",
+      "locality": "Pontotoc, North Pontotoc and South Pontotoc high schools, Pontotoc County area, Mississippi.",
+      "identities": "Mississippi High School Activities Association; Pontotoc High School; North Pontotoc High School; South Pontotoc High School.",
+      "statistics": "Adjusted enrollment 490, 398, 353 respectively."
+    },
+    {
+      "id": "f3",
+      "statement": "The table lists 24 schools in 5A and 40 in 4A; listed adjusted-enrollment lower thresholds are 467 for 5A and 306 for 4A.",
+      "source_ids": [
+        "table"
+      ],
+      "evidence": "Table heading Class 5A — 24 schools; Adjusted enrollment of 467 and above; Class 4A — 40 schools; Adjusted enrollment of 306 and above. These are lower thresholds within descending classes, not a claim that every school above306 is4A.",
+      "date_context": "Verified November 4, 2026 Central evening (November 5 UTC). New release is dated November 2, 2026 in its official URL and is explicitly for the 2027–29 future cycle. Comparison is the association’s 2025–27 football alignment, dated November 19, 2024. Exact publication times unavailable, left null. Release/current pages read via web retrieval but Mac publishing client returned HTTP 403; managed worker must pass source availability before any WordPress write.",
+      "locality": "Pontotoc, North Pontotoc and South Pontotoc high schools, Pontotoc County area, Mississippi.",
+      "identities": "Mississippi High School Activities Association; Pontotoc High School; North Pontotoc High School; South Pontotoc High School.",
+      "statistics": "5A: 24 schools, lower threshold467. 4A:40 schools, lower threshold306."
+    },
+    {
+      "id": "f4",
+      "statement": "The 2025–27 football alignment lists Pontotoc 5A and North/South Pontotoc 4A. The new table provides class/enrollment rather than future sports regions or schedules.",
+      "source_ids": [
+        "current",
+        "table"
+      ],
+      "evidence": "Official current football rows: Pontotoc class5 region1; North Pontotoc class4 region1; South Pontotoc class4 region1. New table inspected in full: class and enrollment columns only. No claim of an all-sport move, region membership or future opponents.",
+      "date_context": "Verified November 4, 2026 Central evening (November 5 UTC). New release is dated November 2, 2026 in its official URL and is explicitly for the 2027–29 future cycle. Comparison is the association’s 2025–27 football alignment, dated November 19, 2024. Exact publication times unavailable, left null. Release/current pages read via web retrieval but Mac publishing client returned HTTP 403; managed worker must pass source availability before any WordPress write.",
+      "locality": "Pontotoc, North Pontotoc and South Pontotoc high schools, Pontotoc County area, Mississippi.",
+      "identities": "Mississippi High School Activities Association; Pontotoc High School; North Pontotoc High School; South Pontotoc High School.",
+      "statistics": "Current 2025–27 football classes 5A/4A/4A; future table explicitly2027–29."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc High School is listed in Class 5A for the 2027–29 cycle, while North Pontotoc and South Pontotoc are listed in Class 4A in the Mississippi High School Activities Association’s new classification release.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The association’s linked table gives Pontotoc an adjusted enrollment of 490, North Pontotoc 398 and South Pontotoc 353. Those figures are the adjusted-enrollment numbers shown in the classification table.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "The released list places 24 schools in Class 5A and 40 in Class 4A. The listed lower enrollment threshold is 467 for 5A and 306 for 4A, with schools organized by adjusted enrollment within each class.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "The new release covers the future 2027–29 cycle. For current football context, the association’s 2025–27 alignment lists Pontotoc in 5A and North Pontotoc and South Pontotoc in 4A. The new classification table lists classes and enrollment; it does not list sport-specific regions or schedules.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-schools-mhsaa-classifications-2027-29.png",
+    "sha256": "7a4e6e5af2e4fd1a853ce5a270f91afbcb4a3872f1782a558a76ca78900c36d2",
+    "alt_text": "Original graphic showing Pontotoc 5A with adjusted enrollment 490, North Pontotoc 4A with 398, and South Pontotoc 4A with 353 for 2027–29.",
+    "credit": "Pontotoc News original graphic; classification data from MHSAA",
+    "rights": "owned",
+    "rights_reference": "Original 1600×900 RGB graphic created in build_classifications.py with locally drawn cards and macOS Arial typography. No MHSAA or school logos, source graphics or photographs reused."
+  },
+  "review": {
+    "reviewer": "Codex November 4 nightly Pontotoc editorial review",
+    "reviewed_at": "2026-11-05T01:39:51.529535+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s standing Pontotoc daily/nightly publishing authorization and November 4 nightly delegation permit a useful verified classification story only after all source, identity, image, offline and managed-worker dry-run checks pass. Stop if deployed source fetching fails; no source gate weakening."
+  }
+}
