@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:soccer:girls-varsity:2026-11-03:ripley-final",
+    "ms:north-pontotoc:basketball:boys-varsity:2026-11-03:nettleton-final",
+    "ms:north-pontotoc:basketball:girls-varsity:2026-11-03:nettleton-final"
+  ],
+  "title": "Local roundup: Pontotoc soccer shutout; North Pontotoc sweeps",
+  "excerpt": "Pontotoc girls soccer beat Ripley 7–0 on Nov. 3, while North Pontotoc basketball swept Nettleton, 63–55 in boys and 51–28 in girls.",
+  "locality": "Pontotoc girls varsity soccer at Pontotoc; North Pontotoc boys/girls varsity basketball at Ecru, Mississippi.",
+  "sources": [
+    {
+      "id": "soccer",
+      "url": "https://www.maxpreps.com/ms/soccer/girls/match/pontotoc-vs-ripley/11-3-2026/?c=a69bc1d7-cb9c-4151-9969-dc417b3c3faf",
+      "verification_url": "https://www.maxpreps.com/ms/soccer/girls/match/pontotoc-vs-ripley/11-3-2026/?c=a69bc1d7-cb9c-4151-9969-dc417b3c3faf",
+      "role": "event",
+      "title": "MaxPreps final: Ripley at Pontotoc girls soccer, Nov. 3",
+      "publisher": "MaxPreps",
+      "published_at": null,
+      "verified_at": "2026-11-05T01:43:17.689522+00:00"
+    },
+    {
+      "id": "boys",
+      "url": "https://www.maxpreps.com/ms/basketball/game/nettleton-vs-north-pontotoc-ecru/11-3-2026/?c=6438bdfa-dfd7-4d3a-a25c-c8605b8fc5c6",
+      "verification_url": "https://www.maxpreps.com/ms/basketball/game/nettleton-vs-north-pontotoc-ecru/11-3-2026/?c=6438bdfa-dfd7-4d3a-a25c-c8605b8fc5c6",
+      "role": "event",
+      "title": "MaxPreps final: Nettleton at North Pontotoc boys basketball, Nov. 3",
+      "publisher": "MaxPreps",
+      "published_at": null,
+      "verified_at": "2026-11-05T01:43:17.689522+00:00"
+    },
+    {
+      "id": "girls",
+      "url": "https://www.maxpreps.com/ms/basketball/girls/game/nettleton-vs-north-pontotoc-ecru/11-3-2026/?c=7d1597ed-6ae2-4f86-be83-9a4fd0b6c6ca",
+      "verification_url": "https://www.maxpreps.com/ms/basketball/girls/game/nettleton-vs-north-pontotoc-ecru/11-3-2026/?c=7d1597ed-6ae2-4f86-be83-9a4fd0b6c6ca",
+      "role": "event",
+      "title": "MaxPreps final: Nettleton at North Pontotoc girls basketball, Nov. 3",
+      "publisher": "MaxPreps",
+      "published_at": null,
+      "verified_at": "2026-11-05T01:43:17.689522+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc girls varsity soccer defeated visiting Ripley 7–0 November3 in a nonconference match.",
+      "source_ids": [
+        "soccer"
+      ],
+      "evidence": "Exact MaxPreps page heading Ripley Girls Varsity Soccer @ Pontotoc; Final Ripley0 Pontotoc7; GameInfo11/3awaynonconferencelossforRipley. PagebodydownloadedHTTP200 and inspected; no scorer or half-by-half Pontotoc score inferred.",
+      "date_context": "Games Tuesday November 3, 2026, Mississippi local time. Verified Wednesday November 4 Central evening, November 5 UTC. Each exact event URL specifies November3,2026 and original page body confirms11/3. Result pages have no reliable publication timestamp; explicit null. Records are attributed to result pages as checked November4, not independently reconstructed standings.",
+      "locality": "Pontotoc girls varsity soccer at Pontotoc; North Pontotoc boys/girls varsity basketball at Ecru, Mississippi.",
+      "identities": "Pontotoc Warriors girls varsity soccer; Ripley Tigers girls varsity soccer; North Pontotoc Vikings boys/girls varsity basketball; Nettleton Tigers boys/girls varsity basketball.",
+      "statistics": "Pontotoc7 Ripley0; November3,2026."
+    },
+    {
+      "id": "f2",
+      "statement": "North Pontotoc boys varsity basketball defeated visiting Nettleton 63–55 at Ecru November3 in a nonconference game.",
+      "source_ids": [
+        "boys"
+      ],
+      "evidence": "Exact MaxPreps page heading Nettleton Boys Varsity Basketball @ North Pontotoc; Final55/63; GameInfo11/3awaynonconferencelossforNettleton; EcruMS. HTTP200 fullbodyinspected.",
+      "date_context": "Games Tuesday November 3, 2026, Mississippi local time. Verified Wednesday November 4 Central evening, November 5 UTC. Each exact event URL specifies November3,2026 and original page body confirms11/3. Result pages have no reliable publication timestamp; explicit null. Records are attributed to result pages as checked November4, not independently reconstructed standings.",
+      "locality": "Pontotoc girls varsity soccer at Pontotoc; North Pontotoc boys/girls varsity basketball at Ecru, Mississippi.",
+      "identities": "Pontotoc Warriors girls varsity soccer; Ripley Tigers girls varsity soccer; North Pontotoc Vikings boys/girls varsity basketball; Nettleton Tigers boys/girls varsity basketball.",
+      "statistics": "NorthPontotoc63 Nettleton55; November3,2026."
+    },
+    {
+      "id": "f3",
+      "statement": "North Pontotoc girls varsity basketball defeated visiting Nettleton 51–28 at Ecru November3 in a nonconference game.",
+      "source_ids": [
+        "girls"
+      ],
+      "evidence": "Exact MaxPreps page heading Nettleton Girls Varsity Basketball @ North Pontotoc; Final28/51; GameInfo11/3awaynonconferencelossforNettleton. HTTP200 fullbodyinspected; no quarter scores asserted.",
+      "date_context": "Games Tuesday November 3, 2026, Mississippi local time. Verified Wednesday November 4 Central evening, November 5 UTC. Each exact event URL specifies November3,2026 and original page body confirms11/3. Result pages have no reliable publication timestamp; explicit null. Records are attributed to result pages as checked November4, not independently reconstructed standings.",
+      "locality": "Pontotoc girls varsity soccer at Pontotoc; North Pontotoc boys/girls varsity basketball at Ecru, Mississippi.",
+      "identities": "Pontotoc Warriors girls varsity soccer; Ripley Tigers girls varsity soccer; North Pontotoc Vikings boys/girls varsity basketball; Nettleton Tigers boys/girls varsity basketball.",
+      "statistics": "NorthPontotoc51 Nettleton28; November3,2026."
+    },
+    {
+      "id": "f4",
+      "statement": "The three MaxPreps result pages list Pontotoc girls soccer and North Pontotoc boys/girls basketball with 1–0 records as checked November4.",
+      "source_ids": [
+        "soccer",
+        "boys",
+        "girls"
+      ],
+      "evidence": "All three original event-page teamheadersread: Pontotoc1-0Warriors; NorthPontotoc1-0Vikings onboysandgirlseventpages. This is explicit source attribution, not assumed season opener or currentfuturestandings.",
+      "date_context": "Games Tuesday November 3, 2026, Mississippi local time. Verified Wednesday November 4 Central evening, November 5 UTC. Each exact event URL specifies November3,2026 and original page body confirms11/3. Result pages have no reliable publication timestamp; explicit null. Records are attributed to result pages as checked November4, not independently reconstructed standings.",
+      "locality": "Pontotoc girls varsity soccer at Pontotoc; North Pontotoc boys/girls varsity basketball at Ecru, Mississippi.",
+      "identities": "Pontotoc Warriors girls varsity soccer; Ripley Tigers girls varsity soccer; North Pontotoc Vikings boys/girls varsity basketball; Nettleton Tigers boys/girls varsity basketball.",
+      "statistics": "Each of the three local teams has a source-listed1–0 record ascheckedNov4."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc’s girls varsity soccer team recorded a shutout and North Pontotoc won both its boys and girls varsity basketball games Tuesday, November 3, according to MaxPreps final results. The local wins came against Ripley in soccer and Nettleton in basketball.",
+      "fact_ids": [
+        "f1",
+        "f2",
+        "f3"
+      ]
+    },
+    {
+      "text": "In girls soccer, Pontotoc defeated visiting Ripley 7–0. MaxPreps lists the contest as a nonconference varsity match played at Pontotoc.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "North Pontotoc’s boys basketball team beat Nettleton 63–55 at Ecru. The girls completed the sweep with a 51–28 victory over Nettleton. Both results are listed as home nonconference varsity games for North Pontotoc.",
+      "fact_ids": [
+        "f2",
+        "f3"
+      ]
+    },
+    {
+      "text": "As checked Wednesday evening, November 4, the MaxPreps result pages listed Pontotoc girls soccer and both North Pontotoc basketball teams with 1–0 records.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-soccer-north-basketball-results-november-3-2026.png",
+    "sha256": "696a9f1e364aff8b12c6b876ceab13ee8e7061e8fc39d135d5aabd155973bf22",
+    "alt_text": "Original Nov. 3 varsity results graphic: Pontotoc girls soccer 7–0 over Ripley, North Pontotoc boys basketball 63–55 and girls basketball 51–28 over Nettleton.",
+    "credit": "Pontotoc News original sports illustration; scores from MaxPreps",
+    "rights": "owned",
+    "rights_reference": "Original1600×900RGB scoreboardcards, soccerballandbasketball illustrationsdrawnlocallywithPillowandmacOSArial inbuild_roundup.py. No logos, photographs, screenshots or source art reused. No player likenesses."
+  },
+  "review": {
+    "reviewer": "Codex November4 nightly Pontotoc editorial review",
+    "reviewed_at": "2026-11-05T01:43:17.689522+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Jon’s standing Pontotoc publishing authorization and November4nightly parentdelegationexplicitlyapprovea clearlylabeled localroundupofthese independentlyverifiedfinals afteralloffline,source,image,all-statusdry-runandpublicverificationgates. Do notinventscorers,moments,records,orweakenchecks."
+  }
+}

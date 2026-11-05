@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-soccer-north-basketball-results-november-3-2026.json",
+  "article_sha256": "9188c4be2e535423ff7ab4e8d708b6fcef018ebcee984ab4bff8749f8a1c9bc1",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-soccer-north-basketball-results-november-3-2026",
+  "seo_review": {
+    "reviewer": "Codex November4 nightly SEOreview",
+    "reviewed_at": "2026-11-05T01:43:17.689522+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}
