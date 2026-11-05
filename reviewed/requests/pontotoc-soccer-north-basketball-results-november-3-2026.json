@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-soccer-north-basketball-results-november-3-2026.json",
   "article_sha256": "9188c4be2e535423ff7ab4e8d708b6fcef018ebcee984ab4bff8749f8a1c9bc1",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-soccer-north-basketball-results-november-3-2026",
   "seo_review": {
     "reviewer": "Codex November4 nightly SEOreview",
