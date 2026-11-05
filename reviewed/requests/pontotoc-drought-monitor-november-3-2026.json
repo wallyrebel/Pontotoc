@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-drought-monitor-november-3-2026.json",
+  "article_sha256": "2223d11b51e8ece1c6aac5cb93774b716c0738578903b7340290d1dfc6e5bba3",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-drought-monitor-november-3-2026",
+  "seo_review": {
+    "reviewer": "Codex November5 drought SEO review",
+    "reviewed_at": "2026-11-05T15:24:20.378586+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}
