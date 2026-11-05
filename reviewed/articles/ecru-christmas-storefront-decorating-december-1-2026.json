@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:ecru:christmas:2026-11-05:storefront-decorating-contest",
+    "ms:ecru:christmas:2026-11-05:painted-rock-scavenger-hunt-announcement"
+  ],
+  "title": "Ecru invites businesses to decorate storefronts by Dec. 1",
+  "excerpt": "Ecru businesses are invited to a Christmas storefront contest, with displays decorated by Dec. 1. The town also announced a painted-rock scavenger hunt.",
+  "locality": "Town of Ecru, Pontotoc County, Mississippi; local business storefronts.",
+  "sources": [
+    {
+      "id": "town",
+      "url": "https://www.facebook.com/1204361708550928/posts/1454025276917902",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7mX75E8w6.rss",
+      "role": "event",
+      "title": "Town of Ecru: Christmas storefront contest and scavenger-hunt announcement",
+      "publisher": "Town of Ecru",
+      "published_at": "2026-11-05T13:04:40+00:00",
+      "verified_at": "2026-11-05T15:11:49.993377+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Ecru invites local businesses to join a Christmas business window/front decorating contest; displays must be decorated by December1.",
+      "source_ids": [
+        "town"
+      ],
+      "evidence": "Full original caption in saved feed: BUSINESS WINDOW/ FRONT DECORATING CONTEST; invites local businesses; Must be decorated by Dec1st. Exactpermalink occurs in feed; direct Facebook page title and description also identify Town of Ecru.",
+      "date_context": "Original saved-town-feed post published Thursday November5,2026 at13:04:40UTC (7:04:40CST). Caption says displays must be decorated by Dec1st; upcoming December1,2026 independently checked asTuesday. Caption and exact attachedgraphic pixels read November5. The graphic says all month long but does not name a month, so article does not assign a month-long voting or hunt period. December1 is a decorating deadline, not an asserted registration deadline.",
+      "locality": "Town of Ecru, Pontotoc County, Mississippi; local business storefronts.",
+      "identities": "Town of Ecru; Christmas in Ecru organizers, described in the announcement as the Christmas Crew. No individual organizer names or contacts inferred.",
+      "statistics": "Decorating deadline December1,2026. Announcement November5,2026."
+    },
+    {
+      "id": "f2",
+      "statement": "Interested businesses are directed to contact any member of the Christmas Crew to participate.",
+      "source_ids": [
+        "town"
+      ],
+      "evidence": "Caption: BUSINESSES: If you would like to join the decorating competition, reach out to any member of the Christmas Crew to get involved. No separate sign-up deadline, fee, prize or named contact stated.",
+      "date_context": "Original saved-town-feed post published Thursday November5,2026 at13:04:40UTC (7:04:40CST). Caption says displays must be decorated by Dec1st; upcoming December1,2026 independently checked asTuesday. Caption and exact attachedgraphic pixels read November5. The graphic says all month long but does not name a month, so article does not assign a month-long voting or hunt period. December1 is a decorating deadline, not an asserted registration deadline.",
+      "locality": "Town of Ecru, Pontotoc County, Mississippi; local business storefronts.",
+      "identities": "Town of Ecru; Christmas in Ecru organizers, described in the announcement as the Christmas Crew. No individual organizer names or contacts inferred.",
+      "statistics": "None asserted"
+    },
+    {
+      "id": "f3",
+      "statement": "The announcement graphic advertises Facebook voting and an in-person vote during the Christmas parade.",
+      "source_ids": [
+        "town"
+      ],
+      "evidence": "Actual attached graphic inspected at research/ecru-decorating-2026/source-evidence-1.jpg: Business Front Window Contest; Voting will be available on Facebook all month and an in person vote will be available during the Christmas parade. No voting link, voting mechanics or specific month inferred.",
+      "date_context": "Original saved-town-feed post published Thursday November5,2026 at13:04:40UTC (7:04:40CST). Caption says displays must be decorated by Dec1st; upcoming December1,2026 independently checked asTuesday. Caption and exact attachedgraphic pixels read November5. The graphic says all month long but does not name a month, so article does not assign a month-long voting or hunt period. December1 is a decorating deadline, not an asserted registration deadline.",
+      "locality": "Town of Ecru, Pontotoc County, Mississippi; local business storefronts.",
+      "identities": "Town of Ecru; Christmas in Ecru organizers, described in the announcement as the Christmas Crew. No individual organizer names or contacts inferred.",
+      "statistics": "None asserted"
+    },
+    {
+      "id": "f4",
+      "statement": "The town also announces a Christmas scavenger hunt involving painted rocks hidden around town, with more details coming.",
+      "source_ids": [
+        "town"
+      ],
+      "evidence": "Caption names CHRISTMAS SCAVENGER HUNT, clues/surprises, More details coming soon. Attached graphic reads Town Scavenger Hunt; Painted rocks will be hidden around town. No invented start date, rules, prizes, number of rocks or event timetable.",
+      "date_context": "Original saved-town-feed post published Thursday November5,2026 at13:04:40UTC (7:04:40CST). Caption says displays must be decorated by Dec1st; upcoming December1,2026 independently checked asTuesday. Caption and exact attachedgraphic pixels read November5. The graphic says all month long but does not name a month, so article does not assign a month-long voting or hunt period. December1 is a decorating deadline, not an asserted registration deadline.",
+      "locality": "Town of Ecru, Pontotoc County, Mississippi; local business storefronts.",
+      "identities": "Town of Ecru; Christmas in Ecru organizers, described in the announcement as the Christmas Crew. No individual organizer names or contacts inferred.",
+      "statistics": "None asserted"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Ecru is inviting local businesses to enter a Christmas window and storefront decorating contest, with displays to be decorated by December 1. The Town of Ecru announced the competition Thursday, November 5, as part of Christmas in Ecru.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "Businesses interested in participating should reach out to any member of the Christmas Crew, according to the town’s announcement.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "The accompanying graphic advertises voting on Facebook and an in-person vote during the Christmas parade.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "The town also announced a Christmas scavenger hunt. Its graphic says painted rocks will be hidden around town, while the post promises more details to come.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/ecru-christmas-storefront-decorating-december-1-2026.png",
+    "sha256": "6d09d072341924595f4d55e70d510d69a753b6938ff07e1a925e7bf9b494eabe",
+    "alt_text": "Original illustration of a Christmas-decorated shop window beside Ecru contest details: displays decorated by December 1 and contact through the Christmas Crew.",
+    "credit": "Pontotoc News original Christmas storefront illustration",
+    "rights": "owned",
+    "rights_reference": "Original1600×900RGB shop-window, tree and light illustration drawn locally with Pillow and macOS Arial in build_ecru_decorating.py. Abstract storefront does not depict an identified business. No source graphic, photograph, logo or third-party artwork reused. Original town graphic inspected for reporting evidence only."
+  },
+  "review": {
+    "reviewer": "Codex November5 Pontotoc editorial review",
+    "reviewed_at": "2026-11-05T15:11:49.993377+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f4"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Standing human authorization to publish Pontotoc daily (October18) and current November5 delegation explicitly authorize this supplied Ecru contest article after source, original-image, offline, all-status authenticated dry-run and public checks pass. This is a distinct supplied article; no Ridge recheck or other request is included."
+  }
+}
