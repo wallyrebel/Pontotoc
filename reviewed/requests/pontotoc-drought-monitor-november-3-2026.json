@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-drought-monitor-november-3-2026.json",
   "article_sha256": "2223d11b51e8ece1c6aac5cb93774b716c0738578903b7340290d1dfc6e5bba3",
-  "mode": "publish",
+  "mode": "dry-run",
   "public_slug": "pontotoc-drought-monitor-november-3-2026",
   "seo_review": {
     "reviewer": "Codex November5 drought SEO review",
