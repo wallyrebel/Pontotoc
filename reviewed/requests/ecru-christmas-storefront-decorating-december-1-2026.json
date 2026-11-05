@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/ecru-christmas-storefront-decorating-december-1-2026.json",
   "article_sha256": "653221bb78e478e5cfde75b8665d8c409ec138f521a248576905569b5685a445",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "ecru-christmas-storefront-decorating-december-1-2026",
   "seo_review": {
     "reviewer": "Codex November5 SEO review",
