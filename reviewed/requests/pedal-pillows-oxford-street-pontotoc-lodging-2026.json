@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pedal-pillows-oxford-street-pontotoc-lodging-2026.json",
+  "article_sha256": "e8a6b020dd08250bec3243d52204bf0962c863c3bad913f20ba3fd264c2d7a09",
+  "mode": "dry-run",
+  "public_slug": "pedal-pillows-oxford-street-pontotoc-lodging-2026",
+  "seo_review": {
+    "reviewer": "Codex November5 business SEO review",
+    "reviewed_at": "2026-11-05T15:38:43.751172+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}

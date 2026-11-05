@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:pedal-and-pillows:2026-11-03:chamber-ribbon-cutting-announcement"
+  ],
+  "title": "Chamber welcomes Pedal & Pillows lodging cottage in Pontotoc",
+  "excerpt": "The Pontotoc Chamber congratulated Pedal & Pillows on its ribbon cutting in a Nov. 3 post, describing a new lodging cottage on Oxford Street.",
+  "locality": "Oxford Street, Pontotoc, Mississippi, as explicitly stated by the Pontotoc County Chamber Main Street.",
+  "sources": [
+    {
+      "id": "chamber",
+      "url": "https://www.facebook.com/1162843435852264/posts/1762480972555171",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7lo1260by.rss",
+      "role": "event",
+      "title": "Pontotoc County Chamber Main Street: Pedal & Pillows ribbon-cutting announcement",
+      "publisher": "Pontotoc County Chamber Main Street",
+      "published_at": "2026-11-03T15:08:20+00:00",
+      "verified_at": "2026-11-05T15:38:43.751172+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "The Chamber congratulated Pedal & Pillows on its ribbon cutting in a November 3 announcement.",
+      "source_ids": [
+        "chamber"
+      ],
+      "evidence": "Original caption: Congratulations to Pedal & Pillows on their ribbon cutting. Exact post ID found in the saved Chamber feed; source-report.json records full caption and original feed timestamp. Attached ribbon-cutting photos visually inspected.",
+      "date_context": "Original saved Chamber feed gives publication Tuesday November 3, 2026 at 15:08:20 UTC (9:08:20 CST). This is the announcement date, not an asserted ribbon-cutting or opening date. Full caption and all 12 attached photographs read; photos show ribbon cutting and cottage exterior/interiors, not a dated event notice. No names assigned to people. The caption does not establish owners, exact street number, booking contact, fees, capacity or an opening date; none asserted.",
+      "locality": "Oxford Street, Pontotoc, Mississippi, as explicitly stated by the Pontotoc County Chamber Main Street.",
+      "identities": "Pontotoc County Chamber Main Street; business spelling Pedal & Pillows also visible on photographed sign. No owner or participant identities inferred.",
+      "statistics": "None asserted"
+    },
+    {
+      "id": "f2",
+      "statement": "The Chamber describes a new short-term lodging cottage on Oxford Street for visitors to Pontotoc.",
+      "source_ids": [
+        "chamber"
+      ],
+      "evidence": "Caption says located on Oxford St. in Pontotoc; a new Air B&B for visitors; such a beautiful cottage. Article paraphrases the lodging type without claiming an independently verified Airbnb platform listing or booking availability.",
+      "date_context": "Original saved Chamber feed gives publication Tuesday November 3, 2026 at 15:08:20 UTC (9:08:20 CST). This is the announcement date, not an asserted ribbon-cutting or opening date. Full caption and all 12 attached photographs read; photos show ribbon cutting and cottage exterior/interiors, not a dated event notice. No names assigned to people. The caption does not establish owners, exact street number, booking contact, fees, capacity or an opening date; none asserted.",
+      "locality": "Oxford Street, Pontotoc, Mississippi, as explicitly stated by the Pontotoc County Chamber Main Street.",
+      "identities": "Pedal & Pillows; Pontotoc County Chamber Main Street.",
+      "statistics": "None asserted"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pedal & Pillows was welcomed by the Pontotoc County Chamber Main Street in a ribbon-cutting announcement posted Tuesday, November 3.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The Chamber described the business as a new short-term lodging cottage on Oxford Street in Pontotoc, offering a place for visitors to stay.",
+      "fact_ids": [
+        "f2"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pedal-pillows-oxford-street-pontotoc-lodging-2026.png",
+    "sha256": "1c1811c3d2d2b6a529993f51ff3f29fdf6d88420be6be407404259d92e8b9a95",
+    "alt_text": "Original business-brief illustration with abstract pillow and key symbols, naming Pedal & Pillows as a lodging cottage on Oxford Street in Pontotoc.",
+    "credit": "Pontotoc News original business-brief illustration",
+    "rights": "owned",
+    "rights_reference": "Original 1600 by 900 RGB typography, abstract pillow and key symbols drawn locally using Pillow and macOS Arial in build_pedal_brief.py. No source photographs, business logo or third-party artwork reused. Illustration is not a depiction of the actual cottage."
+  },
+  "review": {
+    "reviewer": "Codex November5 local business brief review",
+    "reviewed_at": "2026-11-05T15:38:43.751172+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Standing human daily Pontotoc publishing authorization and November5 delegation supply this local business brief for conditional publication after sufficient original facts, image rights, source access, duplicate checks, offline validation, authenticated dry run and serialized publication. Concise brief reports only established Chamber announcement and lodging location/type, without padding or invented opening dates/owners. Submit only after Ecru and drought are fully reconciled and verified."
+  }
+}
