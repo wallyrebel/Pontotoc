@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:catch-kids:2026-11-14:tanglefoot-trot"
+  ],
+  "title": "Tanglefoot Trot set for Nov. 14 in Pontotoc; sign up by Nov. 12",
+  "excerpt": "The Nov. 14 Tanglefoot Trot in Pontotoc offers 10K, 5K and one-mile options to support CATCH Kids. Online registration closes Nov. 12 at 9 p.m. Central.",
+  "locality": "Pontotoc, Mississippi; Tanglefoot Trail Gateway named in the organizer registration listing.",
+  "sources": [
+    {
+      "id": "registration",
+      "url": "https://runsignup.com/Race/MS/Pontotoc/TanglefootTrot",
+      "verification_url": "https://runsignup.com/Race/MS/Pontotoc/TanglefootTrot",
+      "role": "event",
+      "title": "Tanglefoot Trot 2026: event details and registration",
+      "publisher": "Tanglefoot Trot organizer registration listing on RunSignup",
+      "published_at": null,
+      "verified_at": "2026-11-05T22:06:46.356390+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "The 14th annual Tanglefoot Trot is scheduled for November 14, 2026, in Pontotoc along the Tanglefoot Trail, with 10K, 5K and one-mile fun-run options.",
+      "source_ids": [
+        "registration"
+      ],
+      "evidence": "Event name and date appear at top of the current page. Event description identifies the 14th annual event, distances and Pontotoc trail location.",
+      "date_context": "Undated event listing verified November 5, 2026. Event is Saturday November 14, 2026; listed times are CST (America/Chicago, UTC-6). Online registration closes Thursday November 12, 2026, at 9 p.m. CST. No race-day registration, individual-distance start times or finish time asserted.",
+      "locality": "Pontotoc, Mississippi; Tanglefoot Trail Gateway named in the organizer registration listing.",
+      "identities": "Tanglefoot Trot; CATCH Kids, Inc.; event organizer registration listing on RunSignup. No individual identities asserted.",
+      "statistics": "14th annual; distances 10K, 5K, 1 mile; date November 14, 2026."
+    },
+    {
+      "id": "f2",
+      "statement": "The registration listing gives a 9 a.m. CST start and an online-registration deadline of November 12, 2026, at 9 p.m. CST.",
+      "source_ids": [
+        "registration"
+      ],
+      "evidence": "Events block reads Time: 9:00AM CST; Registration ends November 12, 2026 at 9:00pm CST.",
+      "date_context": "Undated event listing verified November 5, 2026. Event is Saturday November 14, 2026; listed times are CST (America/Chicago, UTC-6). Online registration closes Thursday November 12, 2026, at 9 p.m. CST. No race-day registration, individual-distance start times or finish time asserted.",
+      "locality": "Pontotoc, Mississippi; Tanglefoot Trail Gateway named in the organizer registration listing.",
+      "identities": "Tanglefoot Trot; CATCH Kids, Inc.; event organizer registration listing on RunSignup. No individual identities asserted.",
+      "statistics": "9 a.m. CST start; registration deadline November 12, 2026, 9 p.m. CST."
+    },
+    {
+      "id": "f3",
+      "statement": "The event supports CATCH Kids, Inc., a nonprofit providing free medical and dental care to children in northeast Mississippi.",
+      "source_ids": [
+        "registration"
+      ],
+      "evidence": "Event description identifies CATCH Kids as beneficiary and describes its work. This is a description of the beneficiary, not medical guidance or an assertion about eligibility. No donation totals or unsupported impact measures asserted.",
+      "date_context": "Undated event listing verified November 5, 2026. Event is Saturday November 14, 2026; listed times are CST (America/Chicago, UTC-6). Online registration closes Thursday November 12, 2026, at 9 p.m. CST. No race-day registration, individual-distance start times or finish time asserted.",
+      "locality": "Pontotoc, Mississippi; Tanglefoot Trail Gateway named in the organizer registration listing.",
+      "identities": "Tanglefoot Trot; CATCH Kids, Inc.; event organizer registration listing on RunSignup. No individual identities asserted.",
+      "statistics": "None asserted"
+    },
+    {
+      "id": "f4",
+      "statement": "The registration page names Tanglefoot Trail Gateway in Pontotoc as the event location.",
+      "source_ids": [
+        "registration"
+      ],
+      "evidence": "Event location block names Tanglefoot Trail Gateway, Pontotoc, MS. The trail calendar supplies a different street address from RunSignup; article and graphic deliberately make no street-address claim. No course map, parking, check-in, weather or access details inferred.",
+      "date_context": "Undated event listing verified November 5, 2026. Event is Saturday November 14, 2026; listed times are CST (America/Chicago, UTC-6). Online registration closes Thursday November 12, 2026, at 9 p.m. CST. No race-day registration, individual-distance start times or finish time asserted.",
+      "locality": "Pontotoc, Mississippi; Tanglefoot Trail Gateway named in the organizer registration listing.",
+      "identities": "Tanglefoot Trot; CATCH Kids, Inc.; event organizer registration listing on RunSignup. No individual identities asserted.",
+      "statistics": "None asserted"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "The Tanglefoot Trot will return to Pontotoc on Saturday, November 14, with 10K, 5K and one-mile fun-run options benefiting CATCH Kids, Inc.",
+      "fact_ids": [
+        "f1",
+        "f3"
+      ]
+    },
+    {
+      "text": "The registration listing gives a 9 a.m. Central start and sets the online sign-up deadline for Thursday, November 12, at 9 p.m. Central. Participants can use the event registration page linked below to sign up.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Now in its 14th year, the event takes place along the Tanglefoot Trail. The registration page identifies the Tanglefoot Trail Gateway in Pontotoc as the event location.",
+      "fact_ids": [
+        "f1",
+        "f4"
+      ]
+    },
+    {
+      "text": "The fundraiser supports the nonprofit's work providing free medical and dental care to children in northeast Mississippi, according to the event description.",
+      "fact_ids": [
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/tanglefoot-trot-pontotoc-november-14-2026.png",
+    "sha256": "8d98af1458fef51f37bd49bd253208f5add7d9757b38f3fb897f525020417391",
+    "alt_text": "Original Tanglefoot Trot calendar illustration with an abstract trail, 10K, 5K and one-mile markers, and November 14 event and November 12 registration dates.",
+    "credit": "Pontotoc News original calendar illustration; abstract trail is not a course map",
+    "rights": "owned",
+    "rights_reference": "Original 1600 by 900 RGB typography and geometric illustration drawn locally with Pillow and macOS Arial by build_trot.py. No logos, third-party photographs or source artwork reused. Abstract trail is decorative and does not depict the actual course."
+  },
+  "review": {
+    "reviewer": "Codex November 5 local news editorial review",
+    "reviewed_at": "2026-11-05T22:06:46.356390+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Standing human authorization for daily Pontotoc News publication and November 5 publishing delegation. Conditional on offline checks, authenticated all-status dry run, source and image review and serialized managed Actions publication. Preserve deterministic identities and reconcile any uncertain write before retry."
+  }
+}

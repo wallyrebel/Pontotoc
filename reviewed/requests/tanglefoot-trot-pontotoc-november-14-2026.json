@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/tanglefoot-trot-pontotoc-november-14-2026.json",
+  "article_sha256": "d8ecdd70824c3ce1b44214f840bfeb468c0b342b98880ec26189528947b43d10",
+  "mode": "dry-run",
+  "public_slug": "tanglefoot-trot-pontotoc-november-14-2026",
+  "seo_review": {
+    "reviewer": "Codex November 5 local news editorial review",
+    "reviewed_at": "2026-11-05T22:06:46.356390+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}
