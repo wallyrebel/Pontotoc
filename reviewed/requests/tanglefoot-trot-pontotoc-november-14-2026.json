@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/tanglefoot-trot-pontotoc-november-14-2026.json",
   "article_sha256": "d8ecdd70824c3ce1b44214f840bfeb468c0b342b98880ec26189528947b43d10",
-  "mode": "publish",
+  "mode": "dry-run",
   "public_slug": "tanglefoot-trot-pontotoc-november-14-2026",
   "seo_review": {
     "reviewer": "Codex November 5 local news editorial review",
