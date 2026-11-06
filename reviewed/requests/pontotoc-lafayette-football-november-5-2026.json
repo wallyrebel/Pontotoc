@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-lafayette-football-november-5-2026.json",
+  "article_sha256": "66775c4fd552a8835eb1ca1d0267b25916fd1beded28886ac0bac467a4d1f545",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-lafayette-football-november-5-2026",
+  "seo_review": {
+    "reviewer": "Codex November 6 morning sports editorial review",
+    "reviewed_at": "2026-11-06T15:07:58.030131+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}

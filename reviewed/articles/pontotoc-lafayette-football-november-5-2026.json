@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:football:2026-11-05:lafayette-final"
+  ],
+  "title": "Jones rushes for 301 yards as Pontotoc edges Lafayette 49\u201348",
+  "excerpt": "Markavion Jones ran for 301 yards and three touchdowns as Pontotoc beat Lafayette 49\u201348 in Oxford on Nov. 5. The Warriors improved to 8\u20132.",
+  "locality": "Pontotoc High School, Pontotoc, Mississippi; November 5 away varsity football game at Lafayette in Oxford, Mississippi.",
+  "sources": [
+    {
+      "id": "game",
+      "url": "https://www.maxpreps.com/ms/football/game/lafayette-oxford-vs-pontotoc/11-5-2026/?c=8c70c284-d77f-48f7-959f-44a39bf9b23f",
+      "verification_url": "https://www.maxpreps.com/ms/football/game/lafayette-oxford-vs-pontotoc/11-5-2026/?c=8c70c284-d77f-48f7-959f-44a39bf9b23f",
+      "role": "event",
+      "title": "MaxPreps: Pontotoc at Lafayette final score and quarter-by-quarter box score",
+      "publisher": "MaxPreps",
+      "published_at": null,
+      "verified_at": "2026-11-06T15:07:58.030131+00:00"
+    },
+    {
+      "id": "stats",
+      "url": "https://www.maxpreps.com/ms/football/game/lafayette-oxford-vs-pontotoc/11-5-2026/?c=8c70c284-d77f-48f7-959f-44a39bf9b23f&tab=Stats",
+      "verification_url": "https://www.maxpreps.com/ms/football/game/lafayette-oxford-vs-pontotoc/11-5-2026/?c=8c70c284-d77f-48f7-959f-44a39bf9b23f&tab=Stats",
+      "role": "event",
+      "title": "MaxPreps: Pontotoc at Lafayette game statistics",
+      "publisher": "MaxPreps",
+      "published_at": null,
+      "verified_at": "2026-11-06T15:07:58.030131+00:00"
+    },
+    {
+      "id": "identity",
+      "url": "https://www.maxpreps.com/ms/pontotoc/pontotoc-warriors/athletes/markavion-jones/?careerid=3h7ujvdhask77",
+      "verification_url": "https://www.maxpreps.com/ms/pontotoc/pontotoc-warriors/athletes/markavion-jones/?careerid=3h7ujvdhask77",
+      "role": "background",
+      "title": "MaxPreps: Markavion Jones player profile and jersey identity",
+      "publisher": "MaxPreps",
+      "published_at": null,
+      "verified_at": "2026-11-06T15:07:58.030131+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc won 49\u201348 at Lafayette in Oxford on November 5, 2026.",
+      "source_ids": [
+        "game"
+      ],
+      "evidence": "Game Info says Pontotoc won its away game against Lafayette (Oxford, MS), 49-48; page marked Final and November 5, 2026. Score is a completed result, not a forecast.",
+      "date_context": "Game-specific page explicitly identifies November 5, 2026, Thursday, in Oxford. Verified November 6, 2026. No scoring-play chronology, game-winning play, overtime, playoff opponent, kickoff time or individual quote inferred.",
+      "locality": "Pontotoc High School, Pontotoc, Mississippi; November 5 away varsity football game at Lafayette in Oxford, Mississippi.",
+      "identities": "Pontotoc Warriors; Lafayette Commodores (Oxford). Markavion Jones identified as Pontotoc number 5 in the game table and linked player profile. No identities inferred from photographs.",
+      "statistics": "Pontotoc 49, Lafayette 48; margin 1 point."
+    },
+    {
+      "id": "f2",
+      "statement": "The teams were tied 28\u201328 after three quarters; Pontotoc scored 21 in the fourth and Lafayette 20.",
+      "source_ids": [
+        "game"
+      ],
+      "evidence": "Quarter box score is Pontotoc 14,7,7,21; Lafayette 0,14,14,20. Sums through third quarter both 28; totals 49 and 48. No sequence within fourth quarter inferred.",
+      "date_context": "Game-specific page explicitly identifies November 5, 2026, Thursday, in Oxford. Verified November 6, 2026. No scoring-play chronology, game-winning play, overtime, playoff opponent, kickoff time or individual quote inferred.",
+      "locality": "Pontotoc High School, Pontotoc, Mississippi; November 5 away varsity football game at Lafayette in Oxford, Mississippi.",
+      "identities": "Pontotoc Warriors; Lafayette Commodores (Oxford). Markavion Jones identified as Pontotoc number 5 in the game table and linked player profile. No identities inferred from photographs.",
+      "statistics": "PHS quarters 14+7+7+21=49; LHS 0+14+14+20=48; after three 28\u201328; fourth 21\u201320."
+    },
+    {
+      "id": "f3",
+      "statement": "Markavion Jones rushed for 301 yards and three touchdowns on 20 carries.",
+      "source_ids": [
+        "stats",
+        "identity"
+      ],
+      "evidence": "Rushing table row #5 M. Jones: Car20 Yds301 TD3; linked profile names Markavion Jones, Pontotoc #5. Table receiving row has 0 receptions alongside 81 yards and a touchdown and is internally inconsistent; all receiving and all-purpose claims omitted. Automated recap is not used as statistical authority.",
+      "date_context": "Game-specific page explicitly identifies November 5, 2026, Thursday, in Oxford. Verified November 6, 2026. No scoring-play chronology, game-winning play, overtime, playoff opponent, kickoff time or individual quote inferred.",
+      "locality": "Pontotoc High School, Pontotoc, Mississippi; November 5 away varsity football game at Lafayette in Oxford, Mississippi.",
+      "identities": "Pontotoc Warriors; Lafayette Commodores (Oxford). Markavion Jones identified as Pontotoc number 5 in the game table and linked player profile. No identities inferred from photographs.",
+      "statistics": "20 carries; 301 rushing yards; 3 rushing touchdowns."
+    },
+    {
+      "id": "f4",
+      "statement": "Pontotoc improved to 8\u20132; Lafayette fell to 8\u20133.",
+      "source_ids": [
+        "game"
+      ],
+      "evidence": "Records accompanying the final are Pontotoc8-2 and Lafayette8-3; completed-game recap repeats these records. No future game or postseason consequence asserted.",
+      "date_context": "Game-specific page explicitly identifies November 5, 2026, Thursday, in Oxford. Verified November 6, 2026. No scoring-play chronology, game-winning play, overtime, playoff opponent, kickoff time or individual quote inferred.",
+      "locality": "Pontotoc High School, Pontotoc, Mississippi; November 5 away varsity football game at Lafayette in Oxford, Mississippi.",
+      "identities": "Pontotoc Warriors; Lafayette Commodores (Oxford). Markavion Jones identified as Pontotoc number 5 in the game table and linked player profile. No identities inferred from photographs.",
+      "statistics": "Pontotoc 8 wins,2 losses; Lafayette 8 wins,3 losses."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc beat host Lafayette 49\u201348 in Oxford on Thursday, November 5, winning a football game that was tied entering the fourth quarter.",
+      "fact_ids": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "text": "Markavion Jones rushed for 301 yards and three touchdowns on 20 carries, according to the game statistics posted on MaxPreps.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "The quarter-by-quarter box score shows the teams level at 28\u201328 after three periods. Pontotoc scored 21 points in the fourth quarter, while Lafayette scored 20.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "The win moved the Warriors to 8\u20132. Lafayette fell to 8\u20133.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-lafayette-football-november-5-2026.png",
+    "sha256": "008635f6ed9a65485b68cd9e7db2bc65951ec3695061efee7651eabc902844e1",
+    "alt_text": "Original scoreboard graphic showing Pontotoc 49, Lafayette 48, final in Oxford on November 5, with a 28\u201328 tie after three quarters.",
+    "credit": "Pontotoc News original scoreboard graphic; result from MaxPreps",
+    "rights": "owned",
+    "rights_reference": "Original 1600 by 900 RGB typography and geometric scoreboard drawn locally with Pillow and macOS Arial by build_football_nov5.py. No team logos, player photographs or third-party artwork reused."
+  },
+  "review": {
+    "reviewer": "Codex November 6 morning sports editorial review",
+    "reviewed_at": "2026-11-06T15:07:58.030131+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f3"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f3",
+      "f4"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Human standing daily Pontotoc publishing authorization and November 6 morning delegation specifically authorize the verified football result through bounded v2 intake, subject to offline checks, authenticated all-status dry run, editorial/image review and serialized managed publication. Prior November 2 story is a weekly schedule, not this result; identities and sources checked for overlap."
+  }
+}
