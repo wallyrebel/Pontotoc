@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:north-pontotoc:basketball:boys-varsity:2026-11-05:mooreville-final",
+    "ms:north-pontotoc:basketball:girls-varsity:2026-11-05:mooreville-final",
+    "ms:south-pontotoc:basketball:girls-varsity:2026-11-05:byhalia-final"
+  ],
+  "title": "Basketball roundup: North boys edge Mooreville; South girls win",
+  "excerpt": "North Pontotoc boys won 55\u201354 at Mooreville Nov. 5. North\u2019s girls lost 59\u201340, while South Pontotoc girls won 69\u201325 at Byhalia.",
+  "locality": "North Pontotoc High School, Ecru, and South Pontotoc High School, Pontotoc County, Mississippi; November 5 road basketball games at Mooreville and Byhalia.",
+  "sources": [
+    {
+      "id": "north-boys",
+      "url": "https://www.maxpreps.com/ms/basketball/game/mooreville-vs-north-pontotoc-ecru/11-5-2026/?c=4e0090e6-1bef-4f38-990d-31e46f17f811",
+      "verification_url": "https://www.maxpreps.com/ms/basketball/game/mooreville-vs-north-pontotoc-ecru/11-5-2026/?c=4e0090e6-1bef-4f38-990d-31e46f17f811",
+      "role": "event",
+      "title": "MaxPreps final: North Pontotoc at Mooreville boys basketball, November 5",
+      "publisher": "MaxPreps",
+      "published_at": null,
+      "verified_at": "2026-11-06T15:24:26.843433+00:00"
+    },
+    {
+      "id": "north-girls",
+      "url": "https://www.maxpreps.com/ms/basketball/girls/game/mooreville-vs-north-pontotoc-ecru/11-5-2026/?c=03765484-3795-46e2-87b7-03ee5b0901e9",
+      "verification_url": "https://www.maxpreps.com/ms/basketball/girls/game/mooreville-vs-north-pontotoc-ecru/11-5-2026/?c=03765484-3795-46e2-87b7-03ee5b0901e9",
+      "role": "event",
+      "title": "MaxPreps final: North Pontotoc at Mooreville girls basketball, November 5",
+      "publisher": "MaxPreps",
+      "published_at": null,
+      "verified_at": "2026-11-06T15:24:26.843433+00:00"
+    },
+    {
+      "id": "south-girls",
+      "url": "https://www.maxpreps.com/ms/basketball/girls/game/byhalia-vs-south-pontotoc/11-5-2026/?c=6bdb5589-5529-4856-8f38-8a4251db3f89",
+      "verification_url": "https://www.maxpreps.com/ms/basketball/girls/game/byhalia-vs-south-pontotoc/11-5-2026/?c=6bdb5589-5529-4856-8f38-8a4251db3f89",
+      "role": "event",
+      "title": "MaxPreps final: South Pontotoc at Byhalia girls basketball, November 5",
+      "publisher": "MaxPreps",
+      "published_at": null,
+      "verified_at": "2026-11-06T15:24:26.843433+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "b1",
+      "statement": "North Pontotoc boys won 55\u201354 at Mooreville on November 5, a one-point margin.",
+      "source_ids": [
+        "north-boys"
+      ],
+      "evidence": "Game heading North Pontotoc Boys Varsity Basketball @ Mooreville. Final55-54; GameInfo11/5awaynonconferencewin. Quarter cells blank. One-point margin calculated55minus54.",
+      "date_context": "Thursday November 5, 2026, Mississippi local calendar date, verified November 6. Exact dated event URLs and embedded game data explicitly identify November 5, 2026. No source publication time or kickoff time inferred.",
+      "locality": "North Pontotoc High School, Ecru, and South Pontotoc High School, Pontotoc County, Mississippi; November 5 road basketball games at Mooreville and Byhalia.",
+      "identities": "North Pontotoc Vikings boys varsity and girls varsity basketball of Ecru; Mooreville Troopers; South Pontotoc Cougars girls varsity basketball; Byhalia Indians. No individual players or photographs asserted.",
+      "statistics": "North Pontotoc55, Mooreville54; one-point margin."
+    },
+    {
+      "id": "b2",
+      "statement": "North Pontotoc girls lost 59\u201340 at Mooreville on November 5.",
+      "source_ids": [
+        "north-girls"
+      ],
+      "evidence": "Game heading North Pontotoc Girls Varsity Basketball @ Mooreville. Final40-59; GameInfo11/5awaynonconferenceloss. Quarter cells blank.",
+      "date_context": "Thursday November 5, 2026, Mississippi local calendar date, verified November 6. Exact dated event URLs and embedded game data explicitly identify November 5, 2026. No source publication time or kickoff time inferred.",
+      "locality": "North Pontotoc High School, Ecru, and South Pontotoc High School, Pontotoc County, Mississippi; November 5 road basketball games at Mooreville and Byhalia.",
+      "identities": "North Pontotoc Vikings boys varsity and girls varsity basketball of Ecru; Mooreville Troopers; South Pontotoc Cougars girls varsity basketball; Byhalia Indians. No individual players or photographs asserted.",
+      "statistics": "Mooreville59, North Pontotoc40."
+    },
+    {
+      "id": "b3",
+      "statement": "South Pontotoc girls beat Byhalia 69\u201325 at Byhalia on November 5.",
+      "source_ids": [
+        "south-girls"
+      ],
+      "evidence": "Game heading South Pontotoc Girls Varsity Basketball @ Byhalia. Final69-25; GameInfo11/5awaynonconferencewin; dated November5,2026 ByhaliaMS. Basketball venue verified independently of disputed football listing.",
+      "date_context": "Thursday November 5, 2026, Mississippi local calendar date, verified November 6. Exact dated event URLs and embedded game data explicitly identify November 5, 2026. No source publication time or kickoff time inferred.",
+      "locality": "North Pontotoc High School, Ecru, and South Pontotoc High School, Pontotoc County, Mississippi; November 5 road basketball games at Mooreville and Byhalia.",
+      "identities": "North Pontotoc Vikings boys varsity and girls varsity basketball of Ecru; Mooreville Troopers; South Pontotoc Cougars girls varsity basketball; Byhalia Indians. No individual players or photographs asserted.",
+      "statistics": "South Pontotoc69, Byhalia25."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "North Pontotoc\u2019s boys basketball team edged Mooreville 55\u201354 on the road Thursday, November 5. The Vikings\u2019 one-point win is listed as a nonconference final in the MaxPreps game record.",
+      "fact_ids": [
+        "b1"
+      ]
+    },
+    {
+      "text": "North Pontotoc\u2019s girls also played at Mooreville, falling 59\u201340. MaxPreps lists that game as a final, giving the Troopers the girls victory while the Vikings won the boys matchup.",
+      "fact_ids": [
+        "b1",
+        "b2"
+      ]
+    },
+    {
+      "text": "South Pontotoc\u2019s girls won 69\u201325 at Byhalia the same night, according to their final game record.",
+      "fact_ids": [
+        "b1",
+        "b3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-county-basketball-results-november-5-2026.png",
+    "sha256": "1cebbaa231625c2f706f12c7d61da17b58edd78dc0147bde16acca3ce6d59b69",
+    "alt_text": "November 5 varsity basketball finals: North Pontotoc boys 55, Mooreville 54; Mooreville girls 59, North Pontotoc 40; South Pontotoc girls 69, Byhalia 25.",
+    "credit": "Pontotoc News original scoreboard graphic; finals from MaxPreps game records",
+    "rights": "owned",
+    "rights_reference": "Original 1600 by 900 RGB typographic score panels drawn with Pillow and macOS Arial in build_basketball_nov5.py. No logos, player photographs or third-party art reused."
+  },
+  "review": {
+    "reviewer": "Codex November 6 additional basketball editorial review",
+    "reviewed_at": "2026-11-06T15:24:26.843433+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "b1",
+      "b3"
+    ],
+    "excerpt_fact_ids": [
+      "b1",
+      "b2",
+      "b3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Standing human daily publishing authorization and explicit November6 delegation authorize this distinct November5 basketball roundup only after original-source and identity verification, no all-status/source/event duplicate, original image inspection, offline checks and authenticated dry-run. Separate from published November5 boys soccer and older November3 basketball; no disputed earlier score repeated."
+  }
+}
