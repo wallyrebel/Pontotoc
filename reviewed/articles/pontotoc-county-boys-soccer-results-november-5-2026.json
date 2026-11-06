@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:north-pontotoc:boys-soccer:2026-11-05:kosciusko-final",
+    "ms:pontotoc:boys-soccer:2026-11-05:new-albany-final"
+  ],
+  "title": "Boys soccer roundup: North Pontotoc wins 9\u20133; Pontotoc falls 4\u20131",
+  "excerpt": "North Pontotoc beat Kosciusko 9\u20133 in Ecru on Nov. 5, while Pontotoc lost 4\u20131 at New Albany in boys varsity soccer.",
+  "locality": "North Pontotoc High School, Ecru, Mississippi, and Pontotoc High School, Pontotoc, Mississippi; November 5 boys varsity soccer matches in Ecru and New Albany.",
+  "sources": [
+    {
+      "id": "north",
+      "url": "https://www.maxpreps.com/ms/soccer/match/kosciusko-vs-north-pontotoc-ecru/11-5-2026/?c=2d6c3c49-e3c1-4e1e-8651-06c8dfe30b95",
+      "verification_url": "https://www.maxpreps.com/ms/soccer/match/kosciusko-vs-north-pontotoc-ecru/11-5-2026/?c=2d6c3c49-e3c1-4e1e-8651-06c8dfe30b95",
+      "role": "event",
+      "title": "MaxPreps: Kosciusko at North Pontotoc boys soccer final",
+      "publisher": "MaxPreps",
+      "published_at": null,
+      "verified_at": "2026-11-06T15:10:09.226722+00:00"
+    },
+    {
+      "id": "pontotoc",
+      "url": "https://www.maxpreps.com/ms/soccer/match/new-albany-vs-pontotoc/11-5-2026/?c=871e962e-b887-4ebf-b131-afa3a8898787",
+      "verification_url": "https://www.maxpreps.com/ms/soccer/match/new-albany-vs-pontotoc/11-5-2026/?c=871e962e-b887-4ebf-b131-afa3a8898787",
+      "role": "event",
+      "title": "MaxPreps: Pontotoc at New Albany boys soccer final and box score",
+      "publisher": "MaxPreps",
+      "published_at": null,
+      "verified_at": "2026-11-06T15:10:09.226722+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "s1",
+      "statement": "North Pontotoc beat Kosciusko 9\u20133 at home in Ecru on November 5, 2026.",
+      "source_ids": [
+        "north"
+      ],
+      "evidence": "Match explicitly Boys Varsity Soccer; Kosciusko away at North Pontotoc (Ecru); November5, final 3\u20139. Half scores are blank and not inferred.",
+      "date_context": "Both dated match records explicitly identify November 5, 2026. Verified November 6, 2026; undated web record timestamps are not invented. No individual scorers, assists, unrecorded half scores, kickoff time, playoff implications or future games asserted.",
+      "locality": "North Pontotoc High School, Ecru, Mississippi, and Pontotoc High School, Pontotoc, Mississippi; November 5 boys varsity soccer matches in Ecru and New Albany.",
+      "identities": "North Pontotoc Vikings of Ecru; Kosciusko Whippets; Pontotoc Warriors; New Albany Bulldogs. Boys varsity soccer in each source. No individual identities or images inferred.",
+      "statistics": "North Pontotoc9, Kosciusko3."
+    },
+    {
+      "id": "s2",
+      "statement": "Pontotoc lost 4\u20131 at New Albany on November 5, trailing 3\u20131 at halftime.",
+      "source_ids": [
+        "pontotoc"
+      ],
+      "evidence": "Game Info says Pontotoc away non-conference at New Albany, lost4-1. Box score Pontotoc firsthalf1 secondhalf0; New Albany firsthalf3 secondhalf1.",
+      "date_context": "Both dated match records explicitly identify November 5, 2026. Verified November 6, 2026; undated web record timestamps are not invented. No individual scorers, assists, unrecorded half scores, kickoff time, playoff implications or future games asserted.",
+      "locality": "North Pontotoc High School, Ecru, Mississippi, and Pontotoc High School, Pontotoc, Mississippi; November 5 boys varsity soccer matches in Ecru and New Albany.",
+      "identities": "North Pontotoc Vikings of Ecru; Kosciusko Whippets; Pontotoc Warriors; New Albany Bulldogs. Boys varsity soccer in each source. No individual identities or images inferred.",
+      "statistics": "Final New Albany4, Pontotoc1; halftime New Albany3, Pontotoc1."
+    },
+    {
+      "id": "s3",
+      "statement": "The match records list North Pontotoc at 2\u20130 and Pontotoc at 1\u20131.",
+      "source_ids": [
+        "north",
+        "pontotoc"
+      ],
+      "evidence": "Records displayed beside the completed matches: North Pontotoc2-0 and Pontotoc1-1. Records refer to boys soccer, not football or girls soccer.",
+      "date_context": "Both dated match records explicitly identify November 5, 2026. Verified November 6, 2026; undated web record timestamps are not invented. No individual scorers, assists, unrecorded half scores, kickoff time, playoff implications or future games asserted.",
+      "locality": "North Pontotoc High School, Ecru, Mississippi, and Pontotoc High School, Pontotoc, Mississippi; November 5 boys varsity soccer matches in Ecru and New Albany.",
+      "identities": "North Pontotoc Vikings of Ecru; Kosciusko Whippets; Pontotoc Warriors; New Albany Bulldogs. Boys varsity soccer in each source. No individual identities or images inferred.",
+      "statistics": "North Pontotoc2 wins0 losses; Pontotoc1 win1 loss."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "North Pontotoc\u2019s boys soccer team beat Kosciusko 9\u20133 in Ecru on Thursday, November 5, according to the final match record on MaxPreps.",
+      "fact_ids": [
+        "s1"
+      ]
+    },
+    {
+      "text": "Pontotoc fell 4\u20131 at New Albany the same night. The Warriors trailed 3\u20131 at halftime, and New Albany added one goal in the second half while holding Pontotoc scoreless.",
+      "fact_ids": [
+        "s2"
+      ]
+    },
+    {
+      "text": "The records listed with the completed matches put North Pontotoc at 2\u20130 and Pontotoc at 1\u20131.",
+      "fact_ids": [
+        "s3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-county-boys-soccer-results-november-5-2026.png",
+    "sha256": "8a5de27655b5d55a3fa93946fc31be814f49cf429d10f94f5e0b3c215219d01b",
+    "alt_text": "Original boys soccer score graphic: North Pontotoc 9, Kosciusko 3 in Ecru; New Albany 4, Pontotoc 1 in New Albany, November 5 finals.",
+    "credit": "Pontotoc News original scoreboard graphic; finals from MaxPreps match records",
+    "rights": "owned",
+    "rights_reference": "Original 1600 by 900 RGB typography and geometric scoreboard drawn locally with Pillow and macOS Arial by build_soccer_nov5.py. No team logos, player photographs or source artwork reused."
+  },
+  "review": {
+    "reviewer": "Codex November 6 morning local roundup review",
+    "reviewed_at": "2026-11-06T15:10:09.226722+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "s1",
+      "s2"
+    ],
+    "excerpt_fact_ids": [
+      "s1",
+      "s2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Standing human authorization for daily Pontotoc publication and November6 morning delegation approve worthwhile local roundups after source support, original image review, offline checks, authenticated all-status dry run and serialized managed publication. These November5 boys soccer finals are distinct from earlier November3 girls soccer/basketball coverage and the separate football result. No disputed earlier basketball score repeated."
+  }
+}
