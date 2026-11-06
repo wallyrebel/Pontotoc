@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-county-boys-soccer-results-november-5-2026.json",
   "article_sha256": "460584506bdf7a527bd1d0890e59d1dd7dd5e47fb393c959bed76f866795c061",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-county-boys-soccer-results-november-5-2026",
   "seo_review": {
     "reviewer": "Codex November 6 morning local roundup review",
