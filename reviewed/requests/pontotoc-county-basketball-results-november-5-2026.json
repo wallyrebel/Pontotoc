@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-county-basketball-results-november-5-2026.json",
   "article_sha256": "3cbfb81291e1a213a80d38ae4624a057f3206c11c79bbe02fe4119de3ee02233",
-  "mode": "publish",
+  "mode": "dry-run",
   "public_slug": "pontotoc-county-basketball-results-november-5-2026",
   "seo_review": {
     "reviewer": "Codex November 6 additional basketball editorial review",
