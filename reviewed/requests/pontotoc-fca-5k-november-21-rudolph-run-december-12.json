@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-fca-5k-november-21-rudolph-run-december-12.json",
+  "article_sha256": "1649db02c5d345a8bce66fad5b084dab1ccdc655c9b2e7804e6ba7c40578a6ea",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-fca-5k-november-21-rudolph-run-december-12",
+  "seo_review": {
+    "reviewer": "Pontotoc News afternoon editorial shift",
+    "reviewed_at": "2026-11-17T22:17:06.097757+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}

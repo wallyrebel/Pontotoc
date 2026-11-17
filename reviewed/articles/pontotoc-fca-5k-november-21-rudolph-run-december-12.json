@@ -1,0 +1,140 @@
+{
+  "title": "Pontotoc\u2019s FCA 5K starts Saturday at Gateway Pavilion. The Rudolph Run follows Dec. 12",
+  "excerpt": "The FCA run and walk takes race-day entries at Gateway Pavilion. December\u2019s 5K and 10K start at the county library, with a separate registration deadline.",
+  "locality": "City of Pontotoc, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:fca:2026-11-21:5k",
+    "ms:pontotoc:pact:2026-12-12:rudolph-run"
+  ],
+  "sources": [
+    {
+      "id": "fca",
+      "title": "FCA Pontotoc 5K organizer registration and race-day instructions",
+      "url": "https://runsignup.com/Race/MS/Pontotoc/FCAPontotoc5K",
+      "publisher": "FCA Pontotoc 5K via RunSignup",
+      "role": "event",
+      "verification_url": "https://runsignup.com/Race/MS/Pontotoc/FCAPontotoc5K",
+      "published_at": null,
+      "verified_at": "2026-11-17T22:17:06.097757+00:00"
+    },
+    {
+      "id": "pact",
+      "title": "17th annual Rudolph Run registration and packet pickup",
+      "url": "https://runsignup.com/Race/MS/Pontotoc/13thAnnualRudolphRun10kRun5kWalkRun",
+      "publisher": "PACT via RunSignup",
+      "role": "event",
+      "verification_url": "https://runsignup.com/Race/MS/Pontotoc/13thAnnualRudolphRun10kRun5kWalkRun",
+      "published_at": null,
+      "verified_at": "2026-11-17T22:17:06.097757+00:00"
+    },
+    {
+      "id": "chamber",
+      "title": "Chamber\u2019s Rudolph Run flyer showing the December date",
+      "url": "https://www.facebook.com/1162843435852264/posts/1778013747668560",
+      "publisher": "Pontotoc County Chamber Main Street",
+      "role": "event",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7lo1260by.rss",
+      "published_at": "2026-11-16T19:00:18+00:00",
+      "verified_at": "2026-11-17T22:17:06.097757+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Runners and walkers can sign up under Pontotoc\u2019s Gateway Pavilion from 6:30 to 7:30 a.m. Saturday, Nov. 21, for the FCA 5K. The race starts at 8 a.m., five minutes after a scheduled start-line prayer. The organizer lists a $40 entry fee and says participants will receive bibs and timing chips.",
+      "source_ids": [
+        "fca"
+      ],
+      "evidence": "Organizer lists cost, race-day pavilion registration window, 7:55 prayer, 8:00 start, bibs and chips. Online cutoff displays vary, so none asserted.",
+      "date_context": "Local times on Saturday, November 21 and Saturday, December 12, 2026.",
+      "locality": "City of Pontotoc, Mississippi.",
+      "identities": "FCA Pontotoc 5K; PACT, the Pontotoc County affiliate of CREATE; Gateway Pavilion and Pontotoc County Library.",
+      "statistics": "Nov. 21, 6:30\u20137:30 a.m., 7:55 and 8 a.m.; $40; 5K."
+    },
+    {
+      "id": "f2",
+      "statement": "The 17th annual Rudolph Run is a separate event on Saturday, Dec. 12. Both the 10K run and the 5K walk or run start at 8:30 a.m. at the Pontotoc County Library, 111 North Main Street. The routes pass through downtown and a residential area before returning to the library.",
+      "source_ids": [
+        "pact",
+        "chamber"
+      ],
+      "evidence": "Organizer lists distances, starts and ends at library, North Main address, business and residential route. Visually verified Chamber flyer clearly reads December 12, 2026 at 8:30 AM.",
+      "date_context": "Local times on Saturday, November 21 and Saturday, December 12, 2026.",
+      "locality": "City of Pontotoc, Mississippi.",
+      "identities": "FCA Pontotoc 5K; PACT, the Pontotoc County affiliate of CREATE; Gateway Pavilion and Pontotoc County Library.",
+      "statistics": "17th, Dec. 12, 10K and 5K, 8:30 a.m., 111 North Main."
+    },
+    {
+      "id": "f3",
+      "statement": "PACT, the Pontotoc County affiliate of CREATE, lists a $35 entry fee for the Rudolph Run and a Dec. 1 online registration deadline. Runners can also register at the library from 7 to 8 a.m. on race day for an additional $5. Packet pickup is at the library during that same hour.",
+      "source_ids": [
+        "pact"
+      ],
+      "evidence": "Registration description identifies host, price, Dec 1 online cutoff, race-day $5 surcharge and 7\u20138 a.m. packet pickup and entries. No conflicting Dec 1 hour asserted.",
+      "date_context": "Local times on Saturday, November 21 and Saturday, December 12, 2026.",
+      "locality": "City of Pontotoc, Mississippi.",
+      "identities": "FCA Pontotoc 5K; PACT, the Pontotoc County affiliate of CREATE; Gateway Pavilion and Pontotoc County Library.",
+      "statistics": "$35, Dec. 1, $5, 7\u20138 a.m."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Runners and walkers can sign up under Pontotoc\u2019s Gateway Pavilion from 6:30 to 7:30 a.m. Saturday, Nov. 21, for the FCA 5K. The race starts at 8 a.m., five minutes after a scheduled start-line prayer. The organizer lists a $40 entry fee and says participants will receive bibs and timing chips.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The 17th annual Rudolph Run is a separate event on Saturday, Dec. 12. Both the 10K run and the 5K walk or run start at 8:30 a.m. at the Pontotoc County Library, 111 North Main Street. The routes pass through downtown and a residential area before returning to the library.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "PACT, the Pontotoc County affiliate of CREATE, lists a $35 entry fee for the Rudolph Run and a Dec. 1 online registration deadline. Runners can also register at the library from 7 to 8 a.m. on race day for an additional $5. Packet pickup is at the library during that same hour.",
+      "fact_ids": [
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-fca-5k-november-21-rudolph-run-december-12.png",
+    "sha256": "e8b3277d86dfc5589753fba76bf8c4304fedaf6ce777cc1d3aa883c236daabaf",
+    "alt_text": "The FCA 5K starts at Gateway Pavilion at 8 a.m. November 21. The Rudolph Run starts at the county library at 8:30 a.m. December 12.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original local editorial data graphic drawn using simple shapes and type. No outside images or marks used."
+  },
+  "review": {
+    "reviewer": "Pontotoc News afternoon editorial shift",
+    "reviewed_at": "2026-11-17T22:17:06.097757+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Standing November 17 Pontotoc News editorial shift authorization for reviewed public publication after authenticated preflight."
+  }
+}
