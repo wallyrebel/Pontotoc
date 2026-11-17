@@ -310,6 +310,17 @@ def plain(value):
     return " ".join(" ".join(parsed(value).words).split())
 
 
+def public_html(response):
+    # With a bare text/html header Requests assumes Latin-1. WordPress declares
+    # UTF-8 in the document itself, including on pages with smart apostrophes.
+    content_type = response.headers.get("Content-Type", "")
+    if "charset=" not in content_type.lower() and re.search(
+        rb"""<meta\s+charset\s*=\s*["']?utf-8\b""", response.content[:1024], re.I
+    ):
+        return response.content.decode("utf-8-sig")
+    return response.text
+
+
 def public_text(value):
     """WordPress texturizes quotes/dashes; preserve words while normalizing typography."""
     return (plain(value).translate(str.maketrans({"‘": "'", "’": "'", "“": '"', "”": '"',
@@ -558,7 +569,7 @@ class Transport:
         page_response = self.public(link)
         require("noindex" not in page_response.headers.get("X-Robots-Tag", "").lower(),
                 "Public article response is marked noindex")
-        page = page_response.text
+        page = public_html(page_response)
         require(public_text(a["title"]) in public_text(page) and all(public_text(p["text"]) in public_text(page)
                 for p in a["paragraphs"]), "Public page body mismatch")
         page_data = parsed(page)

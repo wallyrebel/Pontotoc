@@ -18,6 +18,13 @@ spec.loader.exec_module(rp)
 
 STATUSES = ["publish", "future", "draft", "pending", "private", "trash", "inherit", "auto-draft", "any"]
 
+def test_public_html_uses_wordpress_declared_charset():
+    response = requests.Response()
+    response.headers["Content-Type"] = "text/html"
+    response.encoding = "ISO-8859-1"
+    response._content = '<meta charset="UTF-8"/><p>Pontotoc’s results</p>'.encode()
+    assert rp.public_text(rp.public_html(response)) == "Pontotoc's results"
+
 
 @pytest.fixture
 def package(tmp_path, monkeypatch):
