@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/carnes-farms-pontotoc-opening-november-21.json",
   "article_sha256": "2b92b3ab83eb514a8f9f7b807fb6433acc78abdcc6092b395f359cd3870f6f1c",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "carnes-farms-pontotoc-opening-november-21",
   "seo_review": {
     "reviewer": "Pontotoc News editorial shift, November 17",
