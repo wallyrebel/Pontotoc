@@ -1,0 +1,136 @@
+{
+  "title": "Carnes Farms sets Nov. 21 opening for Pontotoc Christmas tree season",
+  "excerpt": "Carnes Farms will open from 10 a.m. to 5 p.m. Saturday, Nov. 21, at 164 Hurt-Wood Road in Pontotoc.",
+  "locality": "Carnes Farms, Pontotoc County, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:carnes-farms:2026-11-21:christmas-tree-season-opening"
+  ],
+  "sources": [
+    {
+      "id": "chamber",
+      "title": "Opening-day notice and hours",
+      "url": "https://www.facebook.com/1162843435852264/posts/1780425864094015",
+      "publisher": "Pontotoc County Chamber Main Street",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7lo1260by.rss",
+      "published_at": "2026-11-16T17:20:41+00:00",
+      "verified_at": "2026-11-17T21:57:53.872852+00:00",
+      "role": "event"
+    },
+    {
+      "id": "farm",
+      "title": "November 21, 2024 state agriculture department interview announcement",
+      "url": "https://agnet.mdac.ms.gov/agManage/uploads/1868.pdf",
+      "publisher": "Mississippi Department of Agriculture and Commerce",
+      "verification_url": "https://agnet.mdac.ms.gov/agManage/uploads/1868.pdf",
+      "published_at": null,
+      "verified_at": "2026-11-17T21:57:53.872852+00:00",
+      "role": "background"
+    },
+    {
+      "id": "market",
+      "title": "September 15, 2025 Mississippi Market Bulletin agritourism directory, page 19",
+      "url": "https://agnet.mdac.ms.gov/mdac_mmb_public/issues/2025/Sep15_2025..pdf",
+      "publisher": "Mississippi Department of Agriculture and Commerce",
+      "verification_url": "https://agnet.mdac.ms.gov/mdac_mmb_public/issues/2025/Sep15_2025..pdf",
+      "published_at": null,
+      "verified_at": "2026-11-17T21:57:53.872852+00:00",
+      "role": "background"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Carnes Farms will open its Christmas tree season Saturday, Nov. 21, at 164 Hurt-Wood Road in Pontotoc. Opening-day hours are 10 a.m. to 5 p.m., according to the announcement shared by Pontotoc County Chamber Main Street.",
+      "source_ids": [
+        "chamber"
+      ],
+      "evidence": "The Chamber post identifies the opening and address. Its original flyer, inspected visually, gives 10:00am\u20135:00pm on Saturday, November 21.",
+      "date_context": "Opening on Saturday, November 21, 2026. Historical dates are identified separately.",
+      "locality": "Carnes Farms, Pontotoc County, Mississippi.",
+      "identities": "Carnes Farms; Adam and Ali Carnes; Pontotoc County Chamber Main Street.",
+      "statistics": "Nov. 21, 10 a.m.\u20135 p.m.; 164 Hurt-Wood Road."
+    },
+    {
+      "id": "f2",
+      "statement": "Adam and Ali Carnes began growing Christmas trees in 2019. The first-generation farmers described how they established the farm in a 2024 interview for Freshly Picked, a Mississippi Department of Agriculture and Commerce podcast.",
+      "source_ids": [
+        "farm"
+      ],
+      "evidence": "The November 21, 2024 department release identifies the owners, the 2019 planting start, the podcast and their account of getting started.",
+      "date_context": "Opening on Saturday, November 21, 2026. Historical dates are identified separately.",
+      "locality": "Carnes Farms, Pontotoc County, Mississippi.",
+      "identities": "Carnes Farms; Adam and Ali Carnes; Pontotoc County Chamber Main Street.",
+      "statistics": "2019 and 2024."
+    },
+    {
+      "id": "f3",
+      "statement": "Visitors can reach Carnes Farms at 662-419-1286, the number listed in the state\u2019s agritourism directory. The hours in the Chamber announcement apply to opening day.",
+      "source_ids": [
+        "market",
+        "chamber"
+      ],
+      "evidence": "The Mississippi Market Bulletin agritourism directory lists the farm/business phone in Pontotoc County. The Chamber flyer labels the hours as opening day.",
+      "date_context": "Opening on Saturday, November 21, 2026. Historical dates are identified separately.",
+      "locality": "Carnes Farms, Pontotoc County, Mississippi.",
+      "identities": "Carnes Farms; Adam and Ali Carnes; Pontotoc County Chamber Main Street.",
+      "statistics": "Business telephone 662-419-1286."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Carnes Farms will open its Christmas tree season Saturday, Nov. 21, at 164 Hurt-Wood Road in Pontotoc. Opening-day hours are 10 a.m. to 5 p.m., according to the announcement shared by Pontotoc County Chamber Main Street.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "Adam and Ali Carnes began growing Christmas trees in 2019. The first-generation farmers described how they established the farm in a 2024 interview for Freshly Picked, a Mississippi Department of Agriculture and Commerce podcast.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Visitors can reach Carnes Farms at 662-419-1286, the number listed in the state\u2019s agritourism directory. The hours in the Chamber announcement apply to opening day.",
+      "fact_ids": [
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/carnes-farms-pontotoc-opening-november-21.png",
+    "sha256": "6399a4c61b70947bb4471ce5ee77946b0f389acea8fcb463ead0206fecc99722",
+    "alt_text": "Carnes Farms opening day in Pontotoc, Saturday, November 21, from 10 a.m. to 5 p.m. at 164 Hurt-Wood Road.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typographic illustration rendered for this article using simple shapes and Arial. No outside art or logos."
+  },
+  "review": {
+    "reviewer": "Pontotoc News editorial shift, November 17",
+    "reviewed_at": "2026-11-17T21:57:53.872852+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "November 17 instruction to publish qualified articles and run supplemental editorial shifts for Pontotoc News. Primary records, original image and public coverage checked for this article."
+  }
+}
