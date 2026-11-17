@@ -18,6 +18,7 @@ on:
         type: string
 
 env:
+  SINGLE_FEED: ${{ github.event.inputs.single_feed }}
   PYTHON_VERSION: '3.11'
 
 # Keep legacy inspection serialized with the reviewed publication route.
@@ -86,14 +87,11 @@ jobs:
           NOTIFICATION_EMAIL: ${{ secrets.NOTIFICATION_EMAIL }}
         run: |
           # Legacy inspection always runs without WordPress publication.
-          ARGS="--config feeds.yaml --dry-run"
-          
-          # Add single-feed flag if specified
-          if [ -n "${{ github.event.inputs.single_feed }}" ]; then
-            ARGS="$ARGS --single-feed '${{ github.event.inputs.single_feed }}'"
+          args=(--config feeds.yaml --dry-run)
+          if [[ -n "$SINGLE_FEED" ]]; then
+            args+=(--single-feed "$SINGLE_FEED")
           fi
-          
-          python -m rss_to_wp run $ARGS
+          python -m rss_to_wp run "${args[@]}"
 
       - name: Save database to cache
         uses: actions/cache/save@v4
@@ -107,7 +105,7 @@ jobs:
           echo "## RSS to WordPress Run Summary" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "- **Dry Run**: true (legacy publication retired)" >> $GITHUB_STEP_SUMMARY
-          echo "- **Single Feed**: ${{ github.event.inputs.single_feed || 'All feeds' }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Single Feed**: ${SINGLE_FEED:-All feeds}" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           
           if [ -f data/processed.db ]; then
