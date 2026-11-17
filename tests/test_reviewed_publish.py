@@ -26,6 +26,22 @@ def test_public_html_uses_wordpress_declared_charset():
     assert rp.public_text(rp.public_html(response)) == "Pontotoc's results"
 
 
+def test_read_timeout_retries_once_and_write_timeout_requires_reconciliation():
+    calls = []
+    class Session:
+        def request(self, method, *args, **kwargs):
+            calls.append(method)
+            if calls == ["GET", "GET"]:
+                return SimpleNamespace(status_code=200, json=lambda: {}, headers={})
+            raise requests.ReadTimeout()
+    transport = rp.Transport(Session())
+    assert transport.api("GET", "posts") == ({}, {})
+    with pytest.raises(requests.ReadTimeout) as problem:
+        transport.api("POST", "posts")
+    assert "response uncertain" in problem.value.reviewed_operation
+    assert calls == ["GET", "GET", "POST"]
+
+
 @pytest.fixture
 def package(tmp_path, monkeypatch):
     monkeypatch.setattr(rp, "ROOT", tmp_path)

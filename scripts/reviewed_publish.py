@@ -333,10 +333,29 @@ class Transport:
         self.public_get = public_get
 
     def api(self, method, endpoint, **kwargs):
-        response = self.session.request(method, BASE + "/wp-json/wp/v2/" + endpoint,
+        def request():
+            return self.session.request(method, BASE + "/wp-json/wp/v2/" + endpoint,
                                         timeout=TIMEOUT, allow_redirects=False, **kwargs)
+        label = f"WordPress {method} {endpoint}"
+        if method in {"GET", "OPTIONS"}:
+            response = self.read_request(request, label)
+        else:
+            try:
+                response = request()
+            except (requests.Timeout, requests.ConnectionError) as exc:
+                exc.reviewed_operation = label + " response uncertain; reconcile the exact request before retry"
+                raise
         require(response.status_code in {200, 201}, "WordPress REST request failed; reconcile before retry")
         return response.json(), response.headers
+
+    @staticmethod
+    def read_request(request, label):
+        for attempt in range(2):
+            try:
+                return request()
+            except (requests.Timeout, requests.ConnectionError):
+                if attempt == 1:
+                    raise Guard(label + " unavailable after two read attempts") from None
 
     def collection(self, kind):
         schema, _ = self.api("OPTIONS", kind)
@@ -454,7 +473,10 @@ class Transport:
 
     def public(self, value):
         url(value)
-        r = self.public_get(value, timeout=TIMEOUT, allow_redirects=False)
+        r = self.read_request(
+            lambda: self.public_get(value, timeout=TIMEOUT, allow_redirects=False),
+            "Public GET " + urlsplit(value).hostname,
+        )
         require(r.status_code == 200, "Public link unavailable or redirects; review canonical URL")
         require(len(r.content) <= 15_000_000, "Public response exceeds bound")
         return r
@@ -659,6 +681,8 @@ def main():
                     report = transport.run(a, apply=request["mode"] == "publish")
     except Exception as exc:
         report = {"verified": False, "error_type": type(exc).__name__}
+        if hasattr(exc, "reviewed_operation"):
+            report["operation"] = exc.reviewed_operation
         if isinstance(exc, Guard):
             report["guard_failure"] = str(exc)
             if hasattr(exc, "reconciliation"):
