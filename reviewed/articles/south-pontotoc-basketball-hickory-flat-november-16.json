@@ -1,0 +1,129 @@
+{
+  "title": "South Pontotoc girls reach 5\u20130 as Cougars sweep Hickory Flat",
+  "excerpt": "The girls led 41\u201313 at halftime of a 65\u201323 win. The boys pulled away after a two-point first quarter lead to win 63\u201334.",
+  "locality": "South Pontotoc High School, Pontotoc County, Mississippi; road basketball games in Hickory Flat, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:south-pontotoc:basketball:girls-varsity:2026-11-16:hickory-flat-final",
+    "ms:south-pontotoc:basketball:boys-varsity:2026-11-16:hickory-flat-final"
+  ],
+  "sources": [
+    {
+      "id": "girls",
+      "title": "November 16 girls' varsity box score, South Pontotoc at Hickory Flat",
+      "url": "https://www.maxpreps.com/ms/basketball/girls/game/hickory-flat-vs-south-pontotoc/11-16-2026/?c=512895d1-31f9-4295-8ee4-432082ad86e7",
+      "publisher": "MaxPreps",
+      "verification_url": "https://www.maxpreps.com/ms/basketball/girls/game/hickory-flat-vs-south-pontotoc/11-16-2026/?c=512895d1-31f9-4295-8ee4-432082ad86e7",
+      "published_at": null,
+      "verified_at": "2026-11-17T18:40:17.707840+00:00",
+      "role": "event"
+    },
+    {
+      "id": "boys",
+      "title": "November 16 boys' varsity box score, South Pontotoc at Hickory Flat",
+      "url": "https://www.maxpreps.com/ms/basketball/game/hickory-flat-vs-south-pontotoc/11-16-2026/?c=875342c5-1977-4f34-bbcb-131c64828ee2",
+      "publisher": "MaxPreps",
+      "verification_url": "https://www.maxpreps.com/ms/basketball/game/hickory-flat-vs-south-pontotoc/11-16-2026/?c=875342c5-1977-4f34-bbcb-131c64828ee2",
+      "published_at": null,
+      "verified_at": "2026-11-17T18:40:17.707840+00:00",
+      "role": "event"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "South Pontotoc\u2019s girls scored 21 points in the first quarter at Hickory Flat on Monday, nearly matching the Rebels\u2019 total for the night. The Cougars won 65\u201323 to move to 5\u20130, and the South Pontotoc boys completed the road sweep with a 63\u201334 win.",
+      "source_ids": [
+        "girls",
+        "boys"
+      ],
+      "evidence": "Girls' box score Q1 21\u20135, final 65\u201323; recap lists a 5\u20130 record. Boys' final 63\u201334. Both listed as away wins at Hickory Flat.",
+      "date_context": "Games on Monday, November 16, 2026, in Hickory Flat. The girls' listed next game is Thursday, November 19.",
+      "locality": "South Pontotoc High School, Pontotoc County, Mississippi; road basketball games in Hickory Flat, Mississippi.",
+      "identities": "South Pontotoc Cougars and host Hickory Flat Rebels, boys' and girls' varsity basketball.",
+      "statistics": "21, 23, 65\u201323, 5\u20130, 63\u201334."
+    },
+    {
+      "id": "f2",
+      "statement": "The girls added 20 points in the second quarter to take a 41\u201313 halftime lead, according to the MaxPreps box score. They held Hickory Flat to two points in the fourth. South Pontotoc is scheduled to host Lafayette on Thursday, Nov. 19.",
+      "source_ids": [
+        "girls"
+      ],
+      "evidence": "South Pontotoc quarters 21,20,16,8; Hickory Flat 5,8,8,2. Halftime sums 41,13. Game recap names Lafayette at home Thursday, November 19.",
+      "date_context": "Games on Monday, November 16, 2026, in Hickory Flat. The girls' listed next game is Thursday, November 19.",
+      "locality": "South Pontotoc High School, Pontotoc County, Mississippi; road basketball games in Hickory Flat, Mississippi.",
+      "identities": "South Pontotoc Cougars and host Hickory Flat Rebels, boys' and girls' varsity basketball.",
+      "statistics": "20, 41\u201313, two fourth-quarter points, Nov. 19."
+    },
+    {
+      "id": "f3",
+      "statement": "The boys\u2019 game was still close after one quarter, with South Pontotoc up 13\u201311. The Cougars held the Rebels to four points in the second quarter for a 26\u201315 halftime lead. South Pontotoc then scored 22 points in the fourth, its highest quarter of the night.",
+      "source_ids": [
+        "boys"
+      ],
+      "evidence": "Boys' quarter line 13,13,15,22 and 11,4,10,9. Halftime sums 26,15. Fourth-quarter 22 is highest of South Pontotoc's four totals.",
+      "date_context": "Games on Monday, November 16, 2026, in Hickory Flat. The girls' listed next game is Thursday, November 19.",
+      "locality": "South Pontotoc High School, Pontotoc County, Mississippi; road basketball games in Hickory Flat, Mississippi.",
+      "identities": "South Pontotoc Cougars and host Hickory Flat Rebels, boys' and girls' varsity basketball.",
+      "statistics": "13\u201311, four, 26\u201315, 22."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "South Pontotoc\u2019s girls scored 21 points in the first quarter at Hickory Flat on Monday, nearly matching the Rebels\u2019 total for the night. The Cougars won 65\u201323 to move to 5\u20130, and the South Pontotoc boys completed the road sweep with a 63\u201334 win.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The girls added 20 points in the second quarter to take a 41\u201313 halftime lead, according to the MaxPreps box score. They held Hickory Flat to two points in the fourth. South Pontotoc is scheduled to host Lafayette on Thursday, Nov. 19.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "The boys\u2019 game was still close after one quarter, with South Pontotoc up 13\u201311. The Cougars held the Rebels to four points in the second quarter for a 26\u201315 halftime lead. South Pontotoc then scored 22 points in the fourth, its highest quarter of the night.",
+      "fact_ids": [
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/south-pontotoc-basketball-hickory-flat-november-16.png",
+    "sha256": "e14a2648d3ea2ee3b07d45c19c355ff520230831aa747cd98873b8370a53cd8c",
+    "alt_text": "November 16 basketball finals at Hickory Flat. South Pontotoc won the girls\u2019 game 65\u201323 and the boys\u2019 game 63\u201334.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typographic illustration rendered for this article using simple shapes and Arial. No outside art or logos."
+  },
+  "review": {
+    "reviewer": "Pontotoc News editorial shift, November 17",
+    "reviewed_at": "2026-11-17T18:40:17.707840+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "November 17 instruction to publish qualified articles and run supplemental editorial shifts for Pontotoc News. Primary records, original image and public coverage checked for this article."
+  }
+}

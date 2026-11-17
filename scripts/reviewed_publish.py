@@ -122,7 +122,7 @@ def load_article(path):
             # Saved Facebook feeds are acceptable evidence when the permalink is login gated.
             require(urlsplit(s["url"]).hostname == "www.facebook.com" and
                     s["verification_url"] in {f["url"] for f in
-                        yaml.safe_load((ROOT / "feeds.yaml").read_text())["feeds"]},
+                        yaml.safe_load((ROOT / "feeds.yaml").read_bytes())["feeds"]},
                     "Alternative source evidence must be a saved Facebook feed")
         text(s["title"], 300)
         text(s["publisher"], 200)

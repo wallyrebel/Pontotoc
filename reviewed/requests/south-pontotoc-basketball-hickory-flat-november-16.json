@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/south-pontotoc-basketball-hickory-flat-november-16.json",
+  "article_sha256": "e51f9a168ef63bedb4e1e2707ec41e7b36cb6286d990d05f90e5e54f30e442fa",
+  "mode": "dry-run",
+  "public_slug": "south-pontotoc-basketball-hickory-flat-november-16",
+  "seo_review": {
+    "reviewer": "Pontotoc News editorial shift, November 17",
+    "reviewed_at": "2026-11-17T18:40:17.707840+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}

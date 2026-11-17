@@ -1,0 +1,4 @@
+# Editorial request digests refer to the exact committed article bytes.
+reviewed/articles/*.json text eol=lf
+reviewed/requests/*.json text eol=lf
+reviewed/site-pages/*.json text eol=lf
