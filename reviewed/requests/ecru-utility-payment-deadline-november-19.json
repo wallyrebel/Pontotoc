@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/ecru-utility-payment-deadline-november-19.json",
+  "article_sha256": "31583c18310acc3308aaf6b05a30d0a0896b44bbd914574f7cbd288ad10fa16b",
+  "mode": "dry-run",
+  "public_slug": "ecru-utility-payment-deadline-november-19",
+  "seo_review": {
+    "reviewer": "Pontotoc News editorial shift, November 17",
+    "reviewed_at": "2026-11-17T18:40:17.707840+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}

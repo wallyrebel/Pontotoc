@@ -1,0 +1,120 @@
+{
+  "title": "Ecru sets Thursday afternoon deadline for utility payments",
+  "excerpt": "The Town of Ecru says utility bills must be paid before 5 p.m. Nov. 19. Its reminder includes an online payment option.",
+  "locality": "Town of Ecru, Pontotoc County, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:ecru:utilities:2026-11-19:payment-deadline"
+  ],
+  "sources": [
+    {
+      "id": "town",
+      "title": "Town of Ecru\u2019s November 17 utility payment reminder",
+      "url": "https://www.facebook.com/1204361708550928/posts/1467061625614267",
+      "publisher": "Town of Ecru",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7mX75E8w6.rss",
+      "published_at": "2026-11-17T13:11:15+00:00",
+      "verified_at": "2026-11-17T18:40:17.707840+00:00",
+      "role": "event"
+    },
+    {
+      "id": "portal",
+      "title": "Mississippi EZPay utility payment portal",
+      "url": "https://msezpay.com/",
+      "publisher": "Mississippi EZPay",
+      "verification_url": "https://msezpay.com/",
+      "published_at": null,
+      "verified_at": "2026-11-17T18:40:17.707840+00:00",
+      "role": "background"
+    },
+    {
+      "id": "directory",
+      "title": "Town of Ecru municipal contact listing",
+      "url": "https://www.mmlonline.com/members/municipalities/Ecru/",
+      "publisher": "Mississippi Municipal League",
+      "verification_url": "https://www.mmlonline.com/members/municipalities/Ecru/",
+      "published_at": null,
+      "verified_at": "2026-11-17T18:40:17.707840+00:00",
+      "role": "background"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Ecru utility bills must be paid before 5 p.m. Thursday, Nov. 19, the town told customers in a payment reminder Tuesday.",
+      "source_ids": [
+        "town"
+      ],
+      "evidence": "The November 17 town notice explicitly says payment before 5:00 pm Thursday November 19 and links the EZPay portal.",
+      "date_context": "Town notice on Tuesday, November 17, 2026, sets a local Thursday, November 19, 2026 deadline.",
+      "locality": "Town of Ecru, Pontotoc County, Mississippi.",
+      "identities": "Town of Ecru, Mississippi; Mississippi EZPay; Mississippi Municipal League.",
+      "statistics": "Before 5 p.m., Nov. 19."
+    },
+    {
+      "id": "f2",
+      "statement": "For online payment, the town directs customers to Mississippi EZPay. Choose the utility bill option and select Town of Ecru from the list of providers. Residents with questions for the town can call 662-489-3881, the number listed in the Mississippi Municipal League\u2019s directory.",
+      "source_ids": [
+        "town",
+        "portal",
+        "directory"
+      ],
+      "evidence": "Town notice links msezpay.com. Its provider list includes Town of Ecru. The Municipal League directory lists the town phone as (662) 489-3881.",
+      "date_context": "Town notice on Tuesday, November 17, 2026, sets a local Thursday, November 19, 2026 deadline.",
+      "locality": "Town of Ecru, Pontotoc County, Mississippi.",
+      "identities": "Town of Ecru, Mississippi; Mississippi EZPay; Mississippi Municipal League.",
+      "statistics": "Municipal phone 662-489-3881."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Ecru utility bills must be paid before 5 p.m. Thursday, Nov. 19, the town told customers in a payment reminder Tuesday.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "For online payment, the town directs customers to Mississippi EZPay. Choose the utility bill option and select Town of Ecru from the list of providers. Residents with questions for the town can call 662-489-3881, the number listed in the Mississippi Municipal League\u2019s directory.",
+      "fact_ids": [
+        "f2"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/ecru-utility-payment-deadline-november-19.png",
+    "sha256": "90c5bb210089b1d4bb29154429a426f1dd8f17386e32c1ca4fc011806a0f4fee",
+    "alt_text": "Ecru utility payment reminder for Thursday, November 19, 2026, before 5 p.m.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typographic illustration rendered for this article using simple shapes and Arial. No outside art or logos."
+  },
+  "review": {
+    "reviewer": "Pontotoc News editorial shift, November 17",
+    "reviewed_at": "2026-11-17T18:40:17.707840+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "November 17 instruction to publish qualified articles and run supplemental editorial shifts for Pontotoc News. Primary records, original image and public coverage checked for this article."
+  }
+}
