@@ -1,0 +1,137 @@
+{
+  "title": "MDOT lists Black Zion Road median and two more Pontotoc County projects",
+  "excerpt": "MDOT\u2019s proposed schedule lists a median at U.S. 278, an I-22 traffic systems project in January and resurfacing on two state routes in February.",
+  "locality": "Pontotoc County, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:mdot:2026-11-17:proposed-project-schedule"
+  ],
+  "sources": [
+    {
+      "id": "mdot",
+      "title": "MDOT\u2019s proposed project schedule, updated November 17",
+      "url": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+      "publisher": "Mississippi Department of Transportation",
+      "role": "event",
+      "verification_url": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+      "published_at": null,
+      "verified_at": "2026-11-17T22:17:06.097757+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "A directional median at U.S. 278 and Mississippi 342, also known as Black Zion Road, is on the Mississippi Department of Transportation\u2019s November project list for Pontotoc County. The agency identifies it as work for state crews. Its Nov. 17 schedule also lists work on Interstate 22 and two state routes early next year.",
+      "source_ids": [
+        "mdot"
+      ],
+      "evidence": "November 2026 District 1 row 107253/301500: median at US 278 at MS 342/Black Zion Road, directional median, state forces. January and February entries are county-specific.",
+      "date_context": "MDOT listing updated November 17, 2026; proposed months extend into 2027.",
+      "locality": "Pontotoc County, Mississippi.",
+      "identities": "Mississippi Department of Transportation, District 1; U.S. 278, MS 342, I-22, MS 9 and MS 770.",
+      "statistics": "November 2026; U.S. 278; MS 342; I-22."
+    },
+    {
+      "id": "f2",
+      "statement": "The I-22 project is listed for January 2027. Its Pontotoc County segment runs from the Lee County line to the Union County line. MDOT calls the work an intelligent transportation systems project. A separate Lee County entry continues from the Pontotoc County line to Tupelo\u2019s western city limits.",
+      "source_ids": [
+        "mdot"
+      ],
+      "evidence": "January rows 110229/308000 in Pontotoc and 110229/305100 in Lee specify exact endpoints and ITS designation.",
+      "date_context": "MDOT listing updated November 17, 2026; proposed months extend into 2027.",
+      "locality": "Pontotoc County, Mississippi.",
+      "identities": "Mississippi Department of Transportation, District 1; U.S. 278, MS 342, I-22, MS 9 and MS 770.",
+      "statistics": "January 2027; I-22."
+    },
+    {
+      "id": "f3",
+      "statement": "For February, MDOT lists milling and resurfacing on two stretches of highway. One is Mississippi 9 from Mississippi 341 to Mississippi 15. The other is Mississippi 770 from Mississippi 338 to Mississippi 15.",
+      "source_ids": [
+        "mdot"
+      ],
+      "evidence": "February 2027 row 110384/301000 lists both route segments under Mill & Overlay.",
+      "date_context": "MDOT listing updated November 17, 2026; proposed months extend into 2027.",
+      "locality": "Pontotoc County, Mississippi.",
+      "identities": "Mississippi Department of Transportation, District 1; U.S. 278, MS 342, I-22, MS 9 and MS 770.",
+      "statistics": "February 2027; MS 9, 341, 15, 770 and 338."
+    },
+    {
+      "id": "f4",
+      "statement": "The months on the list are proposed. MDOT says projects can move earlier or later as it revises the schedule. The listings give no day for work to begin or for a lane to close.",
+      "source_ids": [
+        "mdot"
+      ],
+      "evidence": "The page expressly describes a proposed list that can move earlier or later and provides months, not closure or start dates.",
+      "date_context": "MDOT listing updated November 17, 2026; proposed months extend into 2027.",
+      "locality": "Pontotoc County, Mississippi.",
+      "identities": "Mississippi Department of Transportation, District 1; U.S. 278, MS 342, I-22, MS 9 and MS 770.",
+      "statistics": "No exact dates asserted."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "A directional median at U.S. 278 and Mississippi 342, also known as Black Zion Road, is on the Mississippi Department of Transportation\u2019s November project list for Pontotoc County. The agency identifies it as work for state crews. Its Nov. 17 schedule also lists work on Interstate 22 and two state routes early next year.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The I-22 project is listed for January 2027. Its Pontotoc County segment runs from the Lee County line to the Union County line. MDOT calls the work an intelligent transportation systems project. A separate Lee County entry continues from the Pontotoc County line to Tupelo\u2019s western city limits.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "For February, MDOT lists milling and resurfacing on two stretches of highway. One is Mississippi 9 from Mississippi 341 to Mississippi 15. The other is Mississippi 770 from Mississippi 338 to Mississippi 15.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "The months on the list are proposed. MDOT says projects can move earlier or later as it revises the schedule. The listings give no day for work to begin or for a lane to close.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-mdot-black-zion-road-i22-ms9-projects.png",
+    "sha256": "63d68d14b8c526e0c8a2ca95816a468cf089e609e30a390418cf86b1ff2ada42",
+    "alt_text": "Proposed MDOT work in Pontotoc County: Black Zion Road median in November, I-22 systems in January and resurfacing on MS 9 and MS 770 in February.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original local editorial data graphic drawn using simple shapes and type. No outside images or marks used."
+  },
+  "review": {
+    "reviewer": "Pontotoc News afternoon editorial shift",
+    "reviewed_at": "2026-11-17T22:17:06.097757+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Standing November 17 Pontotoc News editorial shift authorization for reviewed public publication after authenticated preflight."
+  }
+}

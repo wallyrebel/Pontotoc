@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-mdot-black-zion-road-i22-ms9-projects.json",
+  "article_sha256": "71efa395d4f8f3762849d14c2455655c57b6cbbd89a8ba732db2def961f45e5e",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-mdot-black-zion-road-i22-ms9-projects",
+  "seo_review": {
+    "reviewer": "Pontotoc News afternoon editorial shift",
+    "reviewed_at": "2026-11-17T22:17:06.097757+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}
