@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-schools-thanksgiving-break-november-2026.json",
+  "article_sha256": "a4a9b689837424a373a8fa9eb69cbff3378b3cfafe267c8eea36a2d18cc90aa9",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-schools-thanksgiving-break-november-2026",
+  "seo_review": {
+    "reviewer": "Pontotoc News afternoon editorial shift",
+    "reviewed_at": "2026-11-17T22:26:06.984549+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}

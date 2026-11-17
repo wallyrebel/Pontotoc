@@ -1,0 +1,160 @@
+{
+  "title": "Pontotoc city and county schools close for Thanksgiving week, Nov. 23\u201327",
+  "excerpt": "Both school districts list the full week off. December brings county exams and a shortened day for city students before winter break.",
+  "locality": "Pontotoc City School District and Pontotoc County School District, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:city-schools:2026-11-23:thanksgiving",
+    "ms:pontotoc:county-schools:2026-11-23:thanksgiving"
+  ],
+  "sources": [
+    {
+      "id": "city",
+      "title": "City district\u2019s Thanksgiving break listing",
+      "url": "https://www.pontotoc.school/apps/events/2026/11/23/51058403/?id=0&id=5&id=6",
+      "publisher": "Pontotoc City School District",
+      "role": "event",
+      "verification_url": "https://www.pontotoc.school/apps/events/2026/11/23/51058403/?id=0&id=5&id=6",
+      "published_at": null,
+      "verified_at": "2026-11-17T22:26:06.984549+00:00"
+    },
+    {
+      "id": "county",
+      "title": "County district\u2019s Thanksgiving holidays listing",
+      "url": "https://www.pcsd.ms/calendar/9121143/thanksgiving-holidays",
+      "publisher": "Pontotoc County School District",
+      "role": "event",
+      "verification_url": "https://www.pcsd.ms/calendar/9121143/thanksgiving-holidays",
+      "published_at": null,
+      "verified_at": "2026-11-17T22:26:06.984549+00:00"
+    },
+    {
+      "id": "year",
+      "title": "City school district\u2019s 2026\u201327 year calendar",
+      "url": "https://3.files.edl.io/0b21/26/06/12/165834-68063600-6b85-43b2-ba5e-09086dd31c5a.png",
+      "publisher": "Pontotoc City School District",
+      "role": "background",
+      "verification_url": "https://3.files.edl.io/0b21/26/06/12/165834-68063600-6b85-43b2-ba5e-09086dd31c5a.png",
+      "published_at": null,
+      "verified_at": "2026-11-17T22:26:06.984549+00:00"
+    },
+    {
+      "id": "exams",
+      "title": "County school examination dates",
+      "url": "https://www.pcsd.ms/calendar/9121132/exams",
+      "publisher": "Pontotoc County School District",
+      "role": "background",
+      "verification_url": "https://www.pcsd.ms/calendar/9121132/exams",
+      "published_at": null,
+      "verified_at": "2026-11-17T22:26:06.984549+00:00"
+    },
+    {
+      "id": "semester",
+      "title": "County first semester end date",
+      "url": "https://www.pcsd.ms/calendar/9121151/end-1st-semester",
+      "publisher": "Pontotoc County School District",
+      "role": "background",
+      "verification_url": "https://www.pcsd.ms/calendar/9121151/end-1st-semester",
+      "published_at": null,
+      "verified_at": "2026-11-17T22:26:06.984549+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Families in both Pontotoc school districts can plan for a full week away from class at Thanksgiving. The city and county calendars mark Monday, Nov. 23, through Friday, Nov. 27, as school holidays. With the weekends on either side, that gives students nine consecutive days away from class.",
+      "source_ids": [
+        "county",
+        "city"
+      ],
+      "evidence": "Both local districts list the same Monday-to-Friday break. The intervening weekdays and two adjacent weekends span Nov. 21\u201329 inclusive.",
+      "date_context": "Published school calendars for November and December 2026 and the return in January 2027.",
+      "locality": "Pontotoc City School District and Pontotoc County School District, Mississippi.",
+      "identities": "Pontotoc City School District and Pontotoc County School District.",
+      "statistics": "Nov. 23\u201327, 2026; nine days including weekends."
+    },
+    {
+      "id": "f2",
+      "statement": "In the city district, students are scheduled to return Monday, Nov. 30. The next shortened school day is Friday, Dec. 18, which the city calendar marks as a 60% day. Winter break begins Monday, Dec. 21.",
+      "source_ids": [
+        "year"
+      ],
+      "evidence": "The original city calendar shows November 30 as a regular weekday, December 18 in purple (60% day) and December 21 as the first Christmas break date.",
+      "date_context": "Published school calendars for November and December 2026 and the return in January 2027.",
+      "locality": "Pontotoc City School District and Pontotoc County School District, Mississippi.",
+      "identities": "Pontotoc City School District and Pontotoc County School District.",
+      "statistics": "Nov. 30; Dec. 18 and 21; 60%."
+    },
+    {
+      "id": "f3",
+      "statement": "County families have two exam dates to keep in view after Thanksgiving. The district lists exams for Thursday and Friday, Dec. 17\u201318, and identifies that Friday as the last day of its first semester.",
+      "source_ids": [
+        "exams",
+        "semester"
+      ],
+      "evidence": "Two individual county calendar entries list the exam window and last day of the first semester.",
+      "date_context": "Published school calendars for November and December 2026 and the return in January 2027.",
+      "locality": "Pontotoc City School District and Pontotoc County School District, Mississippi.",
+      "identities": "Pontotoc City School District and Pontotoc County School District.",
+      "statistics": "Dec. 17\u201318, 2026."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Families in both Pontotoc school districts can plan for a full week away from class at Thanksgiving. The city and county calendars mark Monday, Nov. 23, through Friday, Nov. 27, as school holidays. With the weekends on either side, that gives students nine consecutive days away from class.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "In the city district, students are scheduled to return Monday, Nov. 30. The next shortened school day is Friday, Dec. 18, which the city calendar marks as a 60% day. Winter break begins Monday, Dec. 21.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "County families have two exam dates to keep in view after Thanksgiving. The district lists exams for Thursday and Friday, Dec. 17\u201318, and identifies that Friday as the last day of its first semester.",
+      "fact_ids": [
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-schools-thanksgiving-break-november-2026.png",
+    "sha256": "839cf4e205588eba12ffbf035a6f0c1fe20ed40bc94243e5276fed8b6c10dac1",
+    "alt_text": "November 23\u201327 is Thanksgiving break for both districts. County exams fall December 17\u201318, and city schools have a shortened day December 18.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original local editorial data graphic drawn using simple shapes and type. No outside images or marks used."
+  },
+  "review": {
+    "reviewer": "Pontotoc News afternoon editorial shift",
+    "reviewed_at": "2026-11-17T22:26:06.984549+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Standing November 17 Pontotoc News editorial shift authorization for reviewed public publication after authenticated preflight."
+  }
+}
