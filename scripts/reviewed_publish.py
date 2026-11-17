@@ -334,8 +334,10 @@ class Transport:
 
     def api(self, method, endpoint, **kwargs):
         def request():
+            # WordPress creates responsive image sizes during an upload.
+            timeout = (TIMEOUT[0], 150) if method == "POST" and endpoint == "media" else TIMEOUT
             return self.session.request(method, BASE + "/wp-json/wp/v2/" + endpoint,
-                                        timeout=TIMEOUT, allow_redirects=False, **kwargs)
+                                        timeout=timeout, allow_redirects=False, **kwargs)
         label = f"WordPress {method} {endpoint}"
         if method in {"GET", "OPTIONS"}:
             response = self.read_request(request, label)
@@ -555,12 +557,17 @@ class Transport:
         if image is None:
             image_slug = "pontotoc-reviewed-media-" + a["article_id"] + "-" + a["image"]["sha256"]
             data = scoped_path(a["image"]["path"], "reviewed/assets").read_bytes()
-            self.api("POST", "media", data={"slug": image_slug,
-                "description": "pontotoc-reviewed-media:" + a["article_id"] + ":" + a["image"]["sha256"],
-                "alt_text": a["image"]["alt_text"], "caption": a["image"]["credit"]},
-                files={"file": (image_slug + "." + a["image"]["extension"], data, a["image"]["mime"])})
+            try:
+                self.api("POST", "media", data={"slug": image_slug,
+                    "description": "pontotoc-reviewed-media:" + a["article_id"] + ":" + a["image"]["sha256"],
+                    "alt_text": a["image"]["alt_text"], "caption": a["image"]["credit"]},
+                    files={"file": (image_slug + "." + a["image"]["extension"], data, a["image"]["mime"])})
+            except requests.ReadTimeout:
+                # Never repeat an uncertain upload. The exhaustive lookup below
+                # verifies ownership, both digests and actual served pixels.
+                pass
             post, image = self.preflight(a, self.collection("posts"), self.collection("media"))
-            require(image is not None, "Uploaded media not found; stop and reconcile")
+            require(post and image, "Reviewed post or uploaded media not found; stop and reconcile")
         # Resume missing metadata without changing a published article.
         if image.get("alt_text") != a["image"]["alt_text"]:
             require(post["status"] == "draft", "Published media metadata differs")

@@ -172,6 +172,28 @@ def test_success_and_repeat_are_idempotent(package):
     assert b.writes == []
 
 
+@pytest.mark.parametrize("committed", [True, False])
+def test_slow_image_upload_is_reconciled_without_repeating_it(package, committed):
+    article, backend, transport = setup(package)
+    original = backend.request
+    attempts = []
+    def slow_media(method, url, **kwargs):
+        if method == "POST" and url.endswith("/media"):
+            attempts.append(url)
+            if committed:
+                original(method, url, **kwargs)
+            raise requests.ReadTimeout()
+        return original(method, url, **kwargs)
+    backend.request = slow_media
+    if committed:
+        assert transport.run(article, apply=True)["verified"]
+    else:
+        with pytest.raises(rp.Guard, match="uploaded media not found"):
+            transport.run(article, apply=True)
+        assert backend.posts[0]["status"] == "draft"
+    assert len(attempts) == 1
+
+
 @pytest.mark.parametrize("stage", ["posts", "media", "posts/10", "publish"])
 def test_unknown_write_outcome_resumes_without_recreate(package, stage):
     a, b, t = setup(package)
