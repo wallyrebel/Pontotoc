@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-cleveland-central-playoff-football-november-13.json",
+  "article_sha256": "f5a187e257f9dd05eab45956cfe13710d05ebfb58d4207c466184bc3418550b5",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-cleveland-central-playoff-football-november-13",
+  "seo_review": {
+    "reviewer": "Pontotoc News afternoon editorial shift",
+    "reviewed_at": "2026-11-17T22:26:06.984549+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}

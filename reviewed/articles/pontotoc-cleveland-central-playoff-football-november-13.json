@@ -1,0 +1,196 @@
+{
+  "title": "Cleveland Central answers Pontotoc\u2019s third-quarter rally to end Warriors\u2019 season",
+  "excerpt": "A safety and a Kyan Roberson touchdown put Pontotoc ahead in the third quarter. The Warriors finished 8\u20133 after a 22\u201316 home playoff loss.",
+  "locality": "Pontotoc High School, Pontotoc, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:football:2026-11-13:cleveland-central-playoff-final"
+  ],
+  "sources": [
+    {
+      "id": "box",
+      "title": "Cleveland Central at Pontotoc, final and quarter-by-quarter box score",
+      "url": "https://www.maxpreps.com/ms/football/game/cleveland-central-vs-pontotoc/11-13-2026/?c=dccf8e5a-47ec-46fd-ab99-f22bf8a42b17",
+      "publisher": "MaxPreps game scorekeepers",
+      "role": "event",
+      "verification_url": "https://www.maxpreps.com/ms/football/game/cleveland-central-vs-pontotoc/11-13-2026/?c=dccf8e5a-47ec-46fd-ab99-f22bf8a42b17",
+      "published_at": null,
+      "verified_at": "2026-11-17T22:26:06.984549+00:00"
+    },
+    {
+      "id": "final",
+      "title": "Pontotoc Athletics final score and season record",
+      "url": "https://www.facebook.com/1409956404473934/posts/1694131422723096",
+      "publisher": "Pontotoc Athletics",
+      "role": "event",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7kh8MV2fT.rss",
+      "published_at": "2026-11-14T03:32:55+00:00",
+      "verified_at": "2026-11-17T22:26:06.984549+00:00"
+    },
+    {
+      "id": "first",
+      "title": "Pontotoc Athletics on the Ashley-to-Hill touchdown",
+      "url": "https://www.facebook.com/1409956404473934/posts/1694023839400521",
+      "publisher": "Pontotoc Athletics",
+      "role": "event",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7kh8MV2fT.rss",
+      "published_at": "2026-11-14T01:24:04+00:00",
+      "verified_at": "2026-11-17T22:26:06.984549+00:00"
+    },
+    {
+      "id": "safety",
+      "title": "Pontotoc Athletics third-quarter safety update",
+      "url": "https://www.facebook.com/1409956404473934/posts/1694087502727488",
+      "publisher": "Pontotoc Athletics",
+      "role": "event",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7kh8MV2fT.rss",
+      "published_at": "2026-11-14T02:33:23+00:00",
+      "verified_at": "2026-11-17T22:26:06.984549+00:00"
+    },
+    {
+      "id": "roberson",
+      "title": "Pontotoc Athletics on Roberson\u2019s go-ahead touchdown",
+      "url": "https://www.facebook.com/1409956404473934/posts/1694090559393849",
+      "publisher": "Pontotoc Athletics",
+      "role": "event",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7kh8MV2fT.rss",
+      "published_at": "2026-11-14T02:38:00+00:00",
+      "verified_at": "2026-11-17T22:26:06.984549+00:00"
+    },
+    {
+      "id": "fourth",
+      "title": "Pontotoc Athletics fourth-quarter scoring update",
+      "url": "https://www.facebook.com/1409956404473934/posts/1694110809391824",
+      "publisher": "Pontotoc Athletics",
+      "role": "event",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7kh8MV2fT.rss",
+      "published_at": "2026-11-14T03:05:39+00:00",
+      "verified_at": "2026-11-17T22:26:06.984549+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc took the lead twice against Cleveland Central, the second time on a Kyan Roberson touchdown early in the third quarter. The visiting Wolves answered in the fourth to win 22\u201316 on Friday, Nov. 13, ending the Warriors\u2019 season at 8\u20133 in the first round of the Class 5A football playoffs.",
+      "source_ids": [
+        "box",
+        "final",
+        "first",
+        "roberson",
+        "fourth"
+      ],
+      "evidence": "The school\u2019s first- and third-quarter updates give Pontotoc two leads. School final says first-round Class 5A and 8\u20133; quarter box confirms final, date and host.",
+      "date_context": "Friday evening, November 13, 2026, in Pontotoc. School updates posted that evening Central time.",
+      "locality": "Pontotoc High School, Pontotoc, Mississippi.",
+      "identities": "Pontotoc Warriors, Cleveland Central Wolves, Nolan Ashley, Tay Hill, Kyan Roberson.",
+      "statistics": "Nov. 13; 22\u201316; 8\u20133; first round; Class 5A."
+    },
+    {
+      "id": "f2",
+      "statement": "Nolan Ashley\u2019s 12-yard touchdown pass to Tay Hill gave Pontotoc a chance to take its first lead. The Warriors converted for two points and were up 8\u20136 with 4:09 left in the first quarter. Cleveland Central scored all eight points of the second quarter to take a 14\u20138 lead into halftime.",
+      "source_ids": [
+        "first",
+        "box"
+      ],
+      "evidence": "School scoring update gives pass, players, conversion, score and time. Submitted quarter totals show the visitors scoring eight in the second and Pontotoc zero.",
+      "date_context": "Friday evening, November 13, 2026, in Pontotoc. School updates posted that evening Central time.",
+      "locality": "Pontotoc High School, Pontotoc, Mississippi.",
+      "identities": "Pontotoc Warriors, Cleveland Central Wolves, Nolan Ashley, Tay Hill, Kyan Roberson.",
+      "statistics": "12 yards; 8\u20136; 4:09; 14\u20138 at halftime."
+    },
+    {
+      "id": "f3",
+      "statement": "The Warriors erased that deficit with two scoring plays less than two minutes apart. A safety with 10:37 remaining in the third cut the margin to 14\u201310. Roberson\u2019s touchdown with 8:59 left put Pontotoc ahead 16\u201314, a lead the Warriors carried into the fourth quarter.",
+      "source_ids": [
+        "safety",
+        "roberson",
+        "box"
+      ],
+      "evidence": "School gives times, scores and Roberson attribution. The scoring plays were 1:38 apart. Quarter table confirms the lead through the third.",
+      "date_context": "Friday evening, November 13, 2026, in Pontotoc. School updates posted that evening Central time.",
+      "locality": "Pontotoc High School, Pontotoc, Mississippi.",
+      "identities": "Pontotoc Warriors, Cleveland Central Wolves, Nolan Ashley, Tay Hill, Kyan Roberson.",
+      "statistics": "10:37 and 8:59 in the third; 14\u201310; 16\u201314."
+    },
+    {
+      "id": "f4",
+      "statement": "With 9:51 remaining in the game, Cleveland Central had reclaimed the lead at 22\u201316. Pontotoc held the Wolves to those eight points in the second half, but the Warriors did not score again.",
+      "source_ids": [
+        "fourth",
+        "box",
+        "final"
+      ],
+      "evidence": "Fourth-quarter school update gives time and score. Final and quarter totals confirm no further scoring and eight second-half points for the Wolves.",
+      "date_context": "Friday evening, November 13, 2026, in Pontotoc. School updates posted that evening Central time.",
+      "locality": "Pontotoc High School, Pontotoc, Mississippi.",
+      "identities": "Pontotoc Warriors, Cleveland Central Wolves, Nolan Ashley, Tay Hill, Kyan Roberson.",
+      "statistics": "9:51 in the fourth; 22\u201316; eight second-half points."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc took the lead twice against Cleveland Central, the second time on a Kyan Roberson touchdown early in the third quarter. The visiting Wolves answered in the fourth to win 22\u201316 on Friday, Nov. 13, ending the Warriors\u2019 season at 8\u20133 in the first round of the Class 5A football playoffs.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "Nolan Ashley\u2019s 12-yard touchdown pass to Tay Hill gave Pontotoc a chance to take its first lead. The Warriors converted for two points and were up 8\u20136 with 4:09 left in the first quarter. Cleveland Central scored all eight points of the second quarter to take a 14\u20138 lead into halftime.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "The Warriors erased that deficit with two scoring plays less than two minutes apart. A safety with 10:37 remaining in the third cut the margin to 14\u201310. Roberson\u2019s touchdown with 8:59 left put Pontotoc ahead 16\u201314, a lead the Warriors carried into the fourth quarter.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "With 9:51 remaining in the game, Cleveland Central had reclaimed the lead at 22\u201316. Pontotoc held the Wolves to those eight points in the second half, but the Warriors did not score again.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-cleveland-central-playoff-football-november-13.png",
+    "sha256": "1c2cfac554370218e6162d745489f7700457498b7570924e2fc742de66c90216",
+    "alt_text": "Cleveland Central led 14\u20138 at halftime. Pontotoc led 16\u201314 after three quarters. Cleveland Central won 22\u201316.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original local editorial data graphic drawn using simple shapes and type. No outside images or marks used."
+  },
+  "review": {
+    "reviewer": "Pontotoc News afternoon editorial shift",
+    "reviewed_at": "2026-11-17T22:26:06.984549+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f3",
+      "f4"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f3",
+      "f4"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Standing November 17 Pontotoc News editorial shift authorization for reviewed public publication after authenticated preflight."
+  }
+}
