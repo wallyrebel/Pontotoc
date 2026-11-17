@@ -1,0 +1,151 @@
+{
+  "title": "North and South Pontotoc move into separate basketball regions in 2027",
+  "excerpt": "New Albany stays on North Pontotoc\u2019s region slate. South Pontotoc draws four new opponents, while Pontotoc High keeps all five of its current region opponents.",
+  "locality": "Pontotoc, North Pontotoc and South Pontotoc high schools in Pontotoc County, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:mhsaa:2027-29:basketball-region-assignments"
+  ],
+  "sources": [
+    {
+      "id": "new",
+      "title": "MHSAA basketball region assignments for 2027\u201329",
+      "url": "https://championship-manager-seven.vercel.app/api/embed/fe963e6212188f10d745ddda1b51fdc9",
+      "publisher": "Mississippi High School Activities Association",
+      "role": "event",
+      "verification_url": "https://championship-manager-seven.vercel.app/api/embed/fe963e6212188f10d745ddda1b51fdc9",
+      "published_at": null,
+      "verified_at": "2026-11-17T22:26:06.984549+00:00"
+    },
+    {
+      "id": "current",
+      "title": "MHSAA basketball region assignments for 2025\u201327",
+      "url": "https://www.misshsaa.com/2024/11/19/2025-27-basketball-regions/",
+      "publisher": "Mississippi High School Activities Association",
+      "role": "background",
+      "verification_url": "https://www.misshsaa.com/2024/11/19/2025-27-basketball-regions/",
+      "published_at": null,
+      "verified_at": "2026-11-17T22:26:06.984549+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "This winter is the last in the current cycle that North Pontotoc and South Pontotoc will face each other as region opponents in basketball. The Mississippi High School Activities Association has placed them in separate Class 4A regions for the 2027\u201328 and 2028\u201329 seasons. They currently share Region 1 with Corinth, New Albany and Tishomingo County.",
+      "source_ids": [
+        "new",
+        "current"
+      ],
+      "evidence": "The two MHSAA basketball tables show both schools under 4A Region 1 in 2025\u201327 and under separate headings in 2027\u201329.",
+      "date_context": "Basketball region assignments for 2025\u201327 compared with the 2027\u201329 cycle released November 4, 2026.",
+      "locality": "Pontotoc, North Pontotoc and South Pontotoc high schools in Pontotoc County, Mississippi.",
+      "identities": "Mississippi High School Activities Association and the three Pontotoc County-area high schools.",
+      "statistics": "2025\u201327 and 2027\u201329; Class 4A; Region 1."
+    },
+    {
+      "id": "f2",
+      "statement": "North Pontotoc will move to Region 2. New Albany makes the move with North, while Byhalia, Clarksdale and Senatobia round out the five-team group. New Albany is the only one of North\u2019s current region opponents that will stay on its region schedule.",
+      "source_ids": [
+        "new",
+        "current"
+      ],
+      "evidence": "The 4A Region 2 listing names these five schools. Only New Albany and North appear together in both cycles.",
+      "date_context": "Basketball region assignments for 2025\u201327 compared with the 2027\u201329 cycle released November 4, 2026.",
+      "locality": "Pontotoc, North Pontotoc and South Pontotoc high schools in Pontotoc County, Mississippi.",
+      "identities": "Mississippi High School Activities Association and the three Pontotoc County-area high schools.",
+      "statistics": "Region 2; five teams; one returning opponent."
+    },
+    {
+      "id": "f3",
+      "statement": "South Pontotoc will play in Region 4 with Amory, Houston, Louisville and Shannon. All four will be new region opponents for South.",
+      "source_ids": [
+        "new",
+        "current"
+      ],
+      "evidence": "The new Region 4 contains these five schools. Neither the region table nor the current table is a fixture schedule; any nonregion meeting would be a separate scheduling decision.",
+      "date_context": "Basketball region assignments for 2025\u201327 compared with the 2027\u201329 cycle released November 4, 2026.",
+      "locality": "Pontotoc, North Pontotoc and South Pontotoc high schools in Pontotoc County, Mississippi.",
+      "identities": "Mississippi High School Activities Association and the three Pontotoc County-area high schools.",
+      "statistics": "Region 4; four new region opponents."
+    },
+    {
+      "id": "f4",
+      "statement": "Pontotoc High\u2019s region schedule will look more familiar. The Warriors remain in Class 5A Region 1 with Caledonia, Columbus, Lafayette, New Hope and West Point, the same five opponents listed for the current cycle.",
+      "source_ids": [
+        "new",
+        "current"
+      ],
+      "evidence": "The 5A Region 1 group is identical on both official basketball lists.",
+      "date_context": "Basketball region assignments for 2025\u201327 compared with the 2027\u201329 cycle released November 4, 2026.",
+      "locality": "Pontotoc, North Pontotoc and South Pontotoc high schools in Pontotoc County, Mississippi.",
+      "identities": "Mississippi High School Activities Association and the three Pontotoc County-area high schools.",
+      "statistics": "Class 5A; Region 1; five opponents."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "This winter is the last in the current cycle that North Pontotoc and South Pontotoc will face each other as region opponents in basketball. The Mississippi High School Activities Association has placed them in separate Class 4A regions for the 2027\u201328 and 2028\u201329 seasons. They currently share Region 1 with Corinth, New Albany and Tishomingo County.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "North Pontotoc will move to Region 2. New Albany makes the move with North, while Byhalia, Clarksdale and Senatobia round out the five-team group. New Albany is the only one of North\u2019s current region opponents that will stay on its region schedule.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "South Pontotoc will play in Region 4 with Amory, Houston, Louisville and Shannon. All four will be new region opponents for South.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "Pontotoc High\u2019s region schedule will look more familiar. The Warriors remain in Class 5A Region 1 with Caledonia, Columbus, Lafayette, New Hope and West Point, the same five opponents listed for the current cycle.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-north-south-basketball-regions-2027-29.png",
+    "sha256": "c779f720928b32fb55dab27e56ac8f6e8e62b2ba157e7215308c72707ce870e8",
+    "alt_text": "North Pontotoc moves to 4A Region 2 and South Pontotoc to 4A Region 4. Pontotoc stays in 5A Region 1.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original local editorial data graphic drawn using simple shapes and type. No outside images or marks used."
+  },
+  "review": {
+    "reviewer": "Pontotoc News afternoon editorial shift",
+    "reviewed_at": "2026-11-17T22:26:06.984549+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ],
+    "excerpt_fact_ids": [
+      "f2",
+      "f3",
+      "f4"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Standing November 17 Pontotoc News editorial shift authorization for reviewed public publication after authenticated preflight."
+  }
+}
