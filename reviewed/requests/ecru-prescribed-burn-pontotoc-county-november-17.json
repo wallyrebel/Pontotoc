@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/ecru-prescribed-burn-pontotoc-county-november-17.json",
   "article_sha256": "a33268f5ca7a8667651023c847c84a468a6eeb7abe6992115972c95713a192cc",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "ecru-prescribed-burn-pontotoc-county-november-17",
   "seo_review": {
     "reviewer": "Pontotoc News afternoon desk",
