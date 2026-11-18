@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-swim-team-yard-sign-sale-december-4.json",
+  "article_sha256": "ad6f2b5677547a57869b0153fb153c8857dc64948ac1e6c2057c4479d3f31ff8",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-swim-team-yard-sign-sale-december-4",
+  "seo_review": {
+    "reviewer": "Pontotoc News recovery editor",
+    "reviewed_at": "2026-11-18T19:01:45.627204+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}

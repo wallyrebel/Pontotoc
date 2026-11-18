@@ -1,0 +1,126 @@
+{
+  "title": "Pontotoc swimmers sell $25 yard signs to help pay for championship rings",
+  "excerpt": "The sale runs through Dec. 4. Designs include signs for the Class of 2027, district schools, sports and the arts.",
+  "locality": "Pontotoc City Schools in Pontotoc, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:swim-team:2026-11-16:warrior-yard-sign-sale"
+  ],
+  "sources": [
+    {
+      "id": "athletics",
+      "title": "Pontotoc Athletics announces the swim team\u2019s yard sign sale",
+      "url": "https://www.facebook.com/1409956404473934/posts/1698982088904696",
+      "publisher": "Pontotoc Athletics",
+      "role": "event",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7kh8MV2fT.rss",
+      "published_at": "2026-11-17T16:35:40+00:00",
+      "verified_at": "2026-11-18T19:01:45.627204+00:00"
+    },
+    {
+      "id": "meet",
+      "title": "2026 Class I and Class II state swimming results",
+      "url": "https://www.misshsaa.com/2026/10/18/mhsaa-class-i-ii-swim-championship-results/",
+      "publisher": "Mississippi High School Activities Association",
+      "role": "background",
+      "verification_url": "https://www.misshsaa.com/2026/10/18/mhsaa-class-i-ii-swim-championship-results/",
+      "published_at": null,
+      "verified_at": "2026-11-18T19:01:45.627204+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc High School swimmers are selling $25 yard signs through Friday, Dec. 4, to help buy championship rings. The team also plans to use the proceeds for remaining program expenses and the next swim season, Pontotoc Athletics announced Tuesday.",
+      "source_ids": [
+        "athletics"
+      ],
+      "evidence": "The November 17 team announcement lists all three uses of the proceeds, the cost per one-sided sign and sale dates.",
+      "date_context": "Sale November 16 through December 4, 2026. The state meet took place October 17, 2026, in Tupelo.",
+      "locality": "Pontotoc City Schools in Pontotoc, Mississippi.",
+      "identities": "Pontotoc High School swim team, Pearl River Central and West Jones.",
+      "statistics": "November 17, December 4 and $25."
+    },
+    {
+      "id": "f2",
+      "statement": "The one-sided signs come in designs for individual schools as well as teams and clubs. Families can choose a Class of 2027 senior sign, for example, or one for band, choir, drama, gaming or JROTC. The school\u2019s announcement shows the designs, including a state champion swimming sign.",
+      "source_ids": [
+        "athletics"
+      ],
+      "evidence": "The source graphic was inspected. Its rows show Class of 2027 Senior, gaming, JROTC, choir, drama, band, individual schools and State Champion Swimming. The text identifies one-sided signs.",
+      "date_context": "Sale November 16 through December 4, 2026. The state meet took place October 17, 2026, in Tupelo.",
+      "locality": "Pontotoc City Schools in Pontotoc, Mississippi.",
+      "identities": "Pontotoc High School swim team, Pearl River Central and West Jones.",
+      "statistics": "Class of 2027."
+    },
+    {
+      "id": "f3",
+      "statement": "The championship behind the fundraiser came down to a tie. Pontotoc and Pearl River Central each scored 85 points in the Class II boys meet on Oct. 17 at the Tupelo Aquatic Center. West Jones was third with 77.5. The Pontotoc girls finished fifth in their Class II meet with 44 points.",
+      "source_ids": [
+        "meet"
+      ],
+      "evidence": "MHSAA lists two boys co-champions, both at 85, and West Jones at 77.5. The Class II girls table places Pontotoc fifth with 44. The venue and date appear with the results.",
+      "date_context": "Sale November 16 through December 4, 2026. The state meet took place October 17, 2026, in Tupelo.",
+      "locality": "Pontotoc City Schools in Pontotoc, Mississippi.",
+      "identities": "Pontotoc High School swim team, Pearl River Central and West Jones.",
+      "statistics": "Oct. 17; 85, 77.5 and 44 points."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc High School swimmers are selling $25 yard signs through Friday, Dec. 4, to help buy championship rings. The team also plans to use the proceeds for remaining program expenses and the next swim season, Pontotoc Athletics announced Tuesday.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The one-sided signs come in designs for individual schools as well as teams and clubs. Families can choose a Class of 2027 senior sign, for example, or one for band, choir, drama, gaming or JROTC. The school\u2019s announcement shows the designs, including a state champion swimming sign.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "The championship behind the fundraiser came down to a tie. Pontotoc and Pearl River Central each scored 85 points in the Class II boys meet on Oct. 17 at the Tupelo Aquatic Center. West Jones was third with 77.5. The Pontotoc girls finished fifth in their Class II meet with 44 points.",
+      "fact_ids": [
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-swim-team-yard-sign-sale-december-4.png",
+    "sha256": "b2463be643ca37c0d063408e67eb29c208fcacc2c0a012262059a3aa35083ac8",
+    "alt_text": "Pontotoc swim team yard signs cost $25 each. The sale ends Friday, December 4.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original local editorial data graphic drawn using simple shapes and type. No outside images or marks used."
+  },
+  "review": {
+    "reviewer": "Pontotoc News recovery editor",
+    "reviewed_at": "2026-11-18T19:01:45.627204+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Standing November 18 newsroom recovery shift authorization for reviewed Pontotoc News publication following authenticated preflight."
+  }
+}
