@@ -16,27 +16,17 @@
       "role": "event",
       "verification_url": "https://campussuite-storage.s3.amazonaws.com/prod/1559325/e879b6d6-64d1-11f1-aef4-0a58a9feac02/3124886/13c25a72-86b6-11f1-92eb-0226f35e3f99/file/2026-2027%20Student%20Handbook.pdf",
       "published_at": null,
-      "verified_at": "2026-11-18T22:17:32.310765+00:00"
+      "verified_at": "2026-11-18T22:41:55.007365+00:00"
     },
     {
       "id": "citybreak",
-      "title": "City district\u2019s November Thanksgiving break notice",
-      "url": "https://www.pontotoc.school/apps/events/2026/11/23/51058403/?id=0",
-      "verification_url": "https://www.pontotoc.school/apps/events/2026/11/23/51058403/?id=0",
+      "title": "City student handbook (PDF), school calendar on page 4",
+      "url": "https://4.files.edl.io/31ad/07/17/26/182828-b7fea764-3e92-45dc-ae85-e8e8adc09141.pdf",
+      "verification_url": "https://4.files.edl.io/31ad/07/17/26/182828-b7fea764-3e92-45dc-ae85-e8e8adc09141.pdf",
       "publisher": "Pontotoc City School District",
       "role": "event",
       "published_at": null,
-      "verified_at": "2026-11-18T22:17:32.310765+00:00"
-    },
-    {
-      "id": "year",
-      "title": "City school district\u2019s 2026\u201327 year calendar",
-      "url": "https://3.files.edl.io/0b21/26/06/12/165834-68063600-6b85-43b2-ba5e-09086dd31c5a.png",
-      "publisher": "Pontotoc City School District",
-      "role": "background",
-      "verification_url": "https://3.files.edl.io/0b21/26/06/12/165834-68063600-6b85-43b2-ba5e-09086dd31c5a.png",
-      "published_at": null,
-      "verified_at": "2026-11-18T22:17:32.310765+00:00"
+      "verified_at": "2026-11-18T22:41:55.007365+00:00"
     }
   ],
   "facts": [
@@ -47,7 +37,7 @@
         "county",
         "citybreak"
       ],
-      "evidence": "Page 6 of the Pontotoc County student handbook, 2026\u201327 calendar, reads November 23\u201327 Thanksgiving Holiday. The city Thanksgiving event independently gives the inclusive dates. Nov. 21\u201322 and 28\u201329 are weekends.",
+      "evidence": "County handbook page 6 lists November 23\u201327 as Thanksgiving Holiday. City handbook page 4 separately lists November 23\u201327 as Thanksgiving Break with an asterisk meaning no students. The district event was verified independently. November 21\u201322 and 28\u201329 are weekends.",
       "date_context": "Published school calendars for November and December 2026 and the return in January 2027.",
       "locality": "Pontotoc City School District and Pontotoc County School District, Mississippi.",
       "identities": "Pontotoc City School District and Pontotoc County School District.",
@@ -55,24 +45,24 @@
     },
     {
       "id": "f2",
-      "statement": "The city calendar marks Monday, Nov. 30, as a regular school day. It lists Friday, Dec. 18, as a 60% day and Monday, Dec. 21, as the start of Christmas break.",
+      "statement": "The city district lists its second progress report for Wednesday, Nov. 18. After Thanksgiving, Pontotoc Junior High and Pontotoc High School have exams scheduled for Dec. 14\u201318. Friday, Dec. 18, is a 60% school day and the end of the city district\u2019s first semester.",
       "source_ids": [
-        "year"
+        "citybreak"
       ],
-      "evidence": "The original city calendar shows November 30 as a regular weekday, December 18 in purple (60% day) and December 21 as the first Christmas break date.",
+      "evidence": "The first-semester table on page 4 of the city handbook lists November 18 for the second progress report, December 14\u201318 for PJHS and PHS exams, and December 18 as a 60% day and end of the first semester. The table marks assessment dates tentative.",
       "date_context": "Published school calendars for November and December 2026 and the return in January 2027.",
       "locality": "Pontotoc City School District and Pontotoc County School District, Mississippi.",
       "identities": "Pontotoc City School District and Pontotoc County School District.",
-      "statistics": "Nov. 30; Dec. 18 and 21; 60%."
+      "statistics": "Nov. 18, Dec. 14\u201318, Dec. 18, 60%."
     },
     {
       "id": "f3",
       "statement": "For county students, exams fall Thursday and Friday, Dec. 17\u201318. The county student handbook lists Dec. 21 as the start of Christmas holidays. Both districts mark Tuesday, Jan. 5, as the day students return for the second semester.",
       "source_ids": [
         "county",
-        "year"
+        "citybreak"
       ],
-      "evidence": "County handbook PDF page 6 lists December 17\u201318 exams, December 21\u201331 Christmas Holiday, January 1\u20134 holidays for students and January 5 classes resume. City year calendar labels January 5 as the second semester start.",
+      "evidence": "The county handbook lists December 17\u201318 exams, December 21\u201331 Christmas Holiday, January 1\u20134 holidays for students and January 5 classes resume. City handbook page 4 lists January 5 as student return and beginning of term 3.",
       "date_context": "Published school calendars for November and December 2026 and the return in January 2027.",
       "locality": "Pontotoc City School District and Pontotoc County School District, Mississippi.",
       "identities": "Pontotoc City School District and Pontotoc County School District.",
@@ -87,7 +77,7 @@
       ]
     },
     {
-      "text": "The city calendar marks Monday, Nov. 30, as a regular school day. It lists Friday, Dec. 18, as a 60% day and Monday, Dec. 21, as the start of Christmas break.",
+      "text": "The city district lists its second progress report for Wednesday, Nov. 18. After Thanksgiving, Pontotoc Junior High and Pontotoc High School have exams scheduled for Dec. 14\u201318. Friday, Dec. 18, is a 60% school day and the end of the city district\u2019s first semester.",
       "fact_ids": [
         "f2"
       ]
@@ -109,7 +99,7 @@
   },
   "review": {
     "reviewer": "Pontotoc News afternoon desk",
-    "reviewed_at": "2026-11-18T22:17:32.310765+00:00",
+    "reviewed_at": "2026-11-18T22:41:55.007365+00:00",
     "decision": "publish",
     "checks": {
       "dates": true,
@@ -135,6 +125,6 @@
   "submission": {
     "kind": "assistant_review",
     "publish_intent": true,
-    "reference": "Authorized November 18 afternoon edition. The city\u2019s dated event and the county\u2019s original 2026\u201327 handbook establish both closures. Public calendar, archive and failed read-only run reconciled. Original event keys and graphic retained."
+    "reference": "Authorized November 18 afternoon edition. Both original district handbooks visually reviewed, including city progress reports and the two different exam windows. Previous city web event returned 403 on the managed runner. Event keys, approved graphic and public slug retained."
   }
 }
