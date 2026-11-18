@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc-county:powerlifting:2026-12-11:strongest-invitational"
+  ],
+  "title": "County powerlifting invitational brings three schools to Pontotoc Dec. 11",
+  "excerpt": "Pontotoc will host North Pontotoc and South Pontotoc at the Pontotoc Agri Center for the county’s Strongest Powerlifting Invitational on Dec. 11.",
+  "locality": "Pontotoc Agri Center, Pontotoc County, Mississippi; Pontotoc, North Pontotoc and South Pontotoc high school powerlifting.",
+  "sources": [
+    {
+      "id": "athletics",
+      "url": "https://www.facebook.com/1409956404473934/posts/1699376898865215",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7kh8MV2fT.rss",
+      "role": "event",
+      "title": "Pontotoc Athletics: county powerlifting invitational announcement",
+      "publisher": "Pontotoc Athletics",
+      "published_at": "2026-11-18T01:43:29+00:00",
+      "verified_at": "2026-11-18T15:05:26.320623+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "event",
+      "statement": "Pontotoc, North Pontotoc and South Pontotoc will meet in the Pontotoc County’s Strongest Powerlifting Invitational on Friday, December 11, at the Pontotoc Agri Center, according to an announcement shared by Pontotoc Athletics.",
+      "source_ids": [
+        "athletics"
+      ],
+      "evidence": "Full saved-feed caption says Pontotoc County’s Strongest; Warriors vs Vikings vs Cougars; December11,2026; Pontotoc Agri Center. Actual poster pixels explicitly say Powerlifting Invitational and Friday December11,2026.",
+      "date_context": "Event Friday December11,2026; shared November17,2026 at7:43p.m.CST (Nov18 01:43:29UTC). No contest results asserted.",
+      "locality": "Pontotoc Agri Center, Pontotoc County, Mississippi; Pontotoc, North Pontotoc and South Pontotoc high school powerlifting.",
+      "identities": "Pontotoc Warriors, North Pontotoc Vikings and South Pontotoc Cougars. No individual student identities asserted.",
+      "statistics": "December11,2026; three named teams; no scores or session times asserted."
+    },
+    {
+      "id": "host",
+      "statement": "The Pontotoc Warriors will host the invitational, whose poster names the Warriors, North Pontotoc Vikings and South Pontotoc Cougars as the participating teams. The announcement was shared Tuesday evening, November 17, and identifies the competition date as December 11, 2026.",
+      "source_ids": [
+        "athletics"
+      ],
+      "evidence": "Actual poster labels each school/team and Hosted by Pontotoc Warriors. Feed pubDate Wed18Nov2026 01:43:29UTC converts to TuesdayNov17 7:43p.m.CST. Caption session shorthand is omitted; no admission/registration or athlete details invented.",
+      "date_context": "Event Friday December11,2026; shared November17,2026 at7:43p.m.CST (Nov18 01:43:29UTC). No contest results asserted.",
+      "locality": "Pontotoc Agri Center, Pontotoc County, Mississippi; Pontotoc, North Pontotoc and South Pontotoc high school powerlifting.",
+      "identities": "Pontotoc Warriors, North Pontotoc Vikings and South Pontotoc Cougars. No individual student identities asserted.",
+      "statistics": "Three schools; no individual statistics asserted."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc, North Pontotoc and South Pontotoc will meet in the Pontotoc County’s Strongest Powerlifting Invitational on Friday, December 11, at the Pontotoc Agri Center, according to an announcement shared by Pontotoc Athletics.",
+      "fact_ids": [
+        "event"
+      ]
+    },
+    {
+      "text": "The Pontotoc Warriors will host the invitational, whose poster names the Warriors, North Pontotoc Vikings and South Pontotoc Cougars as the participating teams. The announcement was shared Tuesday evening, November 17, and identifies the competition date as December 11, 2026.",
+      "fact_ids": [
+        "host"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-county-powerlifting-invitational-december-11-2026.png",
+    "sha256": "1a40f695a14c9882654af06a9d88529c7f2fe9cbb85a09d2a0a8257c3070c74a",
+    "alt_text": "Original event card for the December 11, 2026 powerlifting invitational at Pontotoc Agri Center, featuring Pontotoc, North Pontotoc and South Pontotoc.",
+    "credit": "Pontotoc News original event graphic",
+    "rights": "owned",
+    "rights_reference": "Original 1600×900 typographic graphic drawn from verified public facts with simple lines, colors and macOS Arial. No source poster, logo, student photograph or third-party art reproduced. Source poster inspected for research only."
+  },
+  "review": {
+    "reviewer": "Codex November18 morning editorial review",
+    "reviewed_at": "2026-11-18T15:05:26.320623+00:00",
+    "decision": "publish",
+    "checks": {
+      "image_rights": true,
+      "coherent_prose": true,
+      "source_support": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "identities": true,
+      "dates": true,
+      "statistics": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "locality": true
+    },
+    "headline_fact_ids": [
+      "event"
+    ],
+    "excerpt_fact_ids": [
+      "event",
+      "host"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Owner saved recurring Pontotoc publication authorization and November18 morning delegation. Distinct current original local announcement; requires offline checks, actual graphic inspection, authenticated all-status preflight, final editorial review and serialized publication."
+  }
+}
