@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:ecru:2026-11-17:christmas-parade-grand-marshal-jerry-horton"
+  ],
+  "title": "Ecru names Jerry Horton grand marshal of Dec. 5 Christmas parade",
+  "excerpt": "Jerry Horton will lead Ecru’s Christmas parade downtown on Dec. 5. The town’s announcement highlights his local and state public service.",
+  "locality": "Ecru, Pontotoc County, Mississippi.",
+  "sources": [
+    {
+      "id": "town",
+      "url": "https://www.facebook.com/1204361708550928/posts/1467383502248746",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7mX75E8w6.rss",
+      "role": "event",
+      "title": "Town of Ecru announces 2026 Christmas parade grand marshal",
+      "publisher": "Town of Ecru",
+      "published_at": "2026-11-17T20:23:49+00:00",
+      "verified_at": "2026-11-18T15:10:48.147178+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Jerry Horton will serve as grand marshal of the 2026 Ecru Christmas Parade, the town announced Tuesday. He is scheduled to lead the parade through downtown Ecru on Saturday, December 5.",
+      "source_ids": [
+        "town"
+      ],
+      "evidence": "Full original town post expressly announces JerryHorton as2026GrandMarshal and says he will lead parade through Downtown onDecember5. DateDecember5,2026 isSaturday. Photo inspected for source context only; no identity inferred from face.",
+      "date_context": "Town announcement November17,2026 at20:23:49UTC (2:23p.m.CST). Parade SaturdayDecember5,2026. Past public service described as attributed in town announcement, no employment dates inferred.",
+      "locality": "Ecru, Pontotoc County, Mississippi.",
+      "identities": "Jerry Horton; Town of Ecru; former elected public roles explicitly named in the official announcement. No private individual information or face identification.",
+      "statistics": "ParadeDecember5,2026; no result asserted."
+    },
+    {
+      "id": "f2",
+      "statement": "The town’s announcement highlighted Horton’s public service as an Ecru alderman and vice mayor, a member of the Mississippi House of Representatives for two terms, and Pontotoc County superintendent of education for three terms.",
+      "source_ids": [
+        "town"
+      ],
+      "evidence": "Full town text says EcruAlderman andViceMayor,two termsMSHouse,three termsPontotocCountySuperintendent. Article attributes biography to announcement; no exact years, ages, private affiliations or sensitive data included.",
+      "date_context": "Town announcement November17,2026 at20:23:49UTC (2:23p.m.CST). Parade SaturdayDecember5,2026. Past public service described as attributed in town announcement, no employment dates inferred.",
+      "locality": "Ecru, Pontotoc County, Mississippi.",
+      "identities": "Jerry Horton; Town of Ecru; former elected public roles explicitly named in the official announcement. No private individual information or face identification.",
+      "statistics": "Two House terms;three county superintendent terms, attributed to town announcement."
+    },
+    {
+      "id": "f3",
+      "statement": "The announcement also noted the Horton Trophy, named in his honor and awarded to the winner of an annual football game between Pontotoc County schools.",
+      "source_ids": [
+        "town"
+      ],
+      "evidence": "Full official town announcement expressly describes Horton Trophy named in his honor and awarded to winner of annual football game between Pontotoc County schools. No past winner, game opponents or result asserted.",
+      "date_context": "Town announcement November17,2026 at20:23:49UTC (2:23p.m.CST). Parade SaturdayDecember5,2026. Past public service described as attributed in town announcement, no employment dates inferred.",
+      "locality": "Ecru, Pontotoc County, Mississippi.",
+      "identities": "Jerry Horton; Town of Ecru; former elected public roles explicitly named in the official announcement. No private individual information or face identification.",
+      "statistics": "No game score, participant or result asserted."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Jerry Horton will serve as grand marshal of the 2026 Ecru Christmas Parade, the town announced Tuesday. He is scheduled to lead the parade through downtown Ecru on Saturday, December 5.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The town’s announcement highlighted Horton’s public service as an Ecru alderman and vice mayor, a member of the Mississippi House of Representatives for two terms, and Pontotoc County superintendent of education for three terms.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "The announcement also noted the Horton Trophy, named in his honor and awarded to the winner of an annual football game between Pontotoc County schools.",
+      "fact_ids": [
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/ecru-christmas-parade-jerry-horton-grand-marshal-2026.png",
+    "sha256": "df4315088467ac495243b367a4c98964c2fd296f0673a0cb2ec32847f75312ad",
+    "alt_text": "Original Ecru Christmas Parade card naming Jerry Horton as 2026 grand marshal, with Saturday, December 5 and downtown Ecru.",
+    "credit": "Pontotoc News original editorial graphic",
+    "rights": "owned",
+    "rights_reference": "Original1600×900 typography and simple color/line composition drawn with macOS Arial. No likeness, town source portrait, third-party photograph, logo or illustration reproduced. Source photograph inspected for research context only."
+  },
+  "review": {
+    "reviewer": "Codex November18 morning editorial review",
+    "reviewed_at": "2026-11-18T15:10:48.147178+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Owner saved recurring publication authorization; November18morning run. New November17grandmarshal designation is a material update distinct from earlier Oct31parade logistics and Nov5storefront contest. Preserve those posts and require exhaustive all-status/source/event preflight, offline checks, original image review and managed dry-run before publish."
+  }
+}

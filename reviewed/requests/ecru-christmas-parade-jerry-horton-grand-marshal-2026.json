@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/ecru-christmas-parade-jerry-horton-grand-marshal-2026.json",
+  "article_sha256": "c6acabfdaf3bdf0c72d2b32d3222141f94931d334da951a27e60631ad88304cd",
+  "mode": "dry-run",
+  "public_slug": "ecru-christmas-parade-jerry-horton-grand-marshal-2026",
+  "seo_review": {
+    "reviewer": "Codex November18morning SEOreview",
+    "reviewed_at": "2026-11-18T15:10:48.147178+00:00",
+    "checks": {
+      "relevant_accessible_alt": true,
+      "canonical_and_source_links": true,
+      "accurate_concise_description": true,
+      "descriptive_slug": true,
+      "meaningful_headline": true,
+      "no_keyword_stuffing": true
+    }
+  }
+}
