@@ -1,5 +1,5 @@
 {
-  "title": "Pontotoc city and county schools close for Thanksgiving week, Nov. 23\u201327",
+  "title": "Pontotoc city and county schools close for Thanksgiving week, Nov. 23–27",
   "excerpt": "Both school districts list the full week off. December brings county exams and a shortened day for city students before winter break.",
   "locality": "Pontotoc City School District and Pontotoc County School District, Mississippi.",
   "schema_version": 1,
@@ -9,34 +9,24 @@
   ],
   "sources": [
     {
-      "id": "city",
-      "title": "City district\u2019s Thanksgiving break listing",
-      "url": "https://www.pontotoc.school/apps/events/2026/11/23/51058403/?id=0&id=5&id=6",
-      "publisher": "Pontotoc City School District",
-      "role": "event",
-      "verification_url": "https://www.pontotoc.school/apps/events/2026/11/23/51058403/?id=0&id=5&id=6",
-      "published_at": null,
-      "verified_at": "2026-11-17T22:26:06.984549+00:00"
-    },
-    {
       "id": "county",
-      "title": "County district\u2019s Thanksgiving holidays listing",
+      "title": "County district’s Thanksgiving holidays listing",
       "url": "https://www.pcsd.ms/calendar/9121143/thanksgiving-holidays",
       "publisher": "Pontotoc County School District",
       "role": "event",
       "verification_url": "https://www.pcsd.ms/calendar/9121143/thanksgiving-holidays",
       "published_at": null,
-      "verified_at": "2026-11-17T22:26:06.984549+00:00"
+      "verified_at": "2026-11-18T15:05:26.320623+00:00"
     },
     {
       "id": "year",
-      "title": "City school district\u2019s 2026\u201327 year calendar",
+      "title": "City school district’s 2026–27 year calendar",
       "url": "https://3.files.edl.io/0b21/26/06/12/165834-68063600-6b85-43b2-ba5e-09086dd31c5a.png",
       "publisher": "Pontotoc City School District",
-      "role": "background",
+      "role": "event",
       "verification_url": "https://3.files.edl.io/0b21/26/06/12/165834-68063600-6b85-43b2-ba5e-09086dd31c5a.png",
       "published_at": null,
-      "verified_at": "2026-11-17T22:26:06.984549+00:00"
+      "verified_at": "2026-11-18T15:05:26.320623+00:00"
     },
     {
       "id": "exams",
@@ -46,7 +36,7 @@
       "role": "background",
       "verification_url": "https://www.pcsd.ms/calendar/9121132/exams",
       "published_at": null,
-      "verified_at": "2026-11-17T22:26:06.984549+00:00"
+      "verified_at": "2026-11-18T15:05:26.320623+00:00"
     },
     {
       "id": "semester",
@@ -56,7 +46,7 @@
       "role": "background",
       "verification_url": "https://www.pcsd.ms/calendar/9121151/end-1st-semester",
       "published_at": null,
-      "verified_at": "2026-11-17T22:26:06.984549+00:00"
+      "verified_at": "2026-11-18T15:05:26.320623+00:00"
     }
   ],
   "facts": [
@@ -65,17 +55,17 @@
       "statement": "Families in both Pontotoc school districts can plan for a full week away from class at Thanksgiving. The city and county calendars mark Monday, Nov. 23, through Friday, Nov. 27, as school holidays. With the weekends on either side, that gives students nine consecutive days away from class.",
       "source_ids": [
         "county",
-        "city"
+        "year"
       ],
-      "evidence": "Both local districts list the same Monday-to-Friday break. The intervening weekdays and two adjacent weekends span Nov. 21\u201329 inclusive.",
+      "evidence": "County event title explicitly dates Thanksgiving holidays November 23–27, 2026. The original city district 2026–27 calendar image was inspected at full resolution: Nov23–27 are yellow school holidays, with the label Thanksgiving Break. The adjacent weekends span Nov21–29 inclusive.",
       "date_context": "Published school calendars for November and December 2026 and the return in January 2027.",
       "locality": "Pontotoc City School District and Pontotoc County School District, Mississippi.",
       "identities": "Pontotoc City School District and Pontotoc County School District.",
-      "statistics": "Nov. 23\u201327, 2026; nine days including weekends."
+      "statistics": "Nov. 23–27, 2026; nine days including weekends."
     },
     {
       "id": "f2",
-      "statement": "In the city district, students are scheduled to return Monday, Nov. 30. The next shortened school day is Friday, Dec. 18, which the city calendar marks as a 60% day. Winter break begins Monday, Dec. 21.",
+      "statement": "The city calendar marks Monday, Nov. 30, as a regular school day. It lists Friday, Dec. 18, as a 60% day and Monday, Dec. 21, as the start of Christmas break.",
       "source_ids": [
         "year"
       ],
@@ -87,7 +77,7 @@
     },
     {
       "id": "f3",
-      "statement": "County families have two exam dates to keep in view after Thanksgiving. The district lists exams for Thursday and Friday, Dec. 17\u201318, and identifies that Friday as the last day of its first semester.",
+      "statement": "County families have two exam dates to keep in view after Thanksgiving. The district lists exams for Thursday and Friday, Dec. 17–18, and identifies that Friday as the last day of its first semester.",
       "source_ids": [
         "exams",
         "semester"
@@ -96,7 +86,7 @@
       "date_context": "Published school calendars for November and December 2026 and the return in January 2027.",
       "locality": "Pontotoc City School District and Pontotoc County School District, Mississippi.",
       "identities": "Pontotoc City School District and Pontotoc County School District.",
-      "statistics": "Dec. 17\u201318, 2026."
+      "statistics": "Dec. 17–18, 2026."
     }
   ],
   "paragraphs": [
@@ -107,13 +97,13 @@
       ]
     },
     {
-      "text": "In the city district, students are scheduled to return Monday, Nov. 30. The next shortened school day is Friday, Dec. 18, which the city calendar marks as a 60% day. Winter break begins Monday, Dec. 21.",
+      "text": "The city calendar marks Monday, Nov. 30, as a regular school day. It lists Friday, Dec. 18, as a 60% day and Monday, Dec. 21, as the start of Christmas break.",
       "fact_ids": [
         "f2"
       ]
     },
     {
-      "text": "County families have two exam dates to keep in view after Thanksgiving. The district lists exams for Thursday and Friday, Dec. 17\u201318, and identifies that Friday as the last day of its first semester.",
+      "text": "County families have two exam dates to keep in view after Thanksgiving. The district lists exams for Thursday and Friday, Dec. 17–18, and identifies that Friday as the last day of its first semester.",
       "fact_ids": [
         "f3"
       ]
@@ -122,14 +112,14 @@
   "image": {
     "path": "reviewed/assets/pontotoc-schools-thanksgiving-break-november-2026.png",
     "sha256": "839cf4e205588eba12ffbf035a6f0c1fe20ed40bc94243e5276fed8b6c10dac1",
-    "alt_text": "November 23\u201327 is Thanksgiving break for both districts. County exams fall December 17\u201318, and city schools have a shortened day December 18.",
+    "alt_text": "November 23–27 is Thanksgiving break for both districts. County exams fall December 17–18, and city schools have a shortened day December 18.",
     "credit": "Pontotoc News original graphic",
     "rights": "owned",
     "rights_reference": "Original local editorial data graphic drawn using simple shapes and type. No outside images or marks used."
   },
   "review": {
-    "reviewer": "Pontotoc News afternoon editorial shift",
-    "reviewed_at": "2026-11-17T22:26:06.984549+00:00",
+    "reviewer": "Codex November 18 morning editorial review",
+    "reviewed_at": "2026-11-18T15:05:26.320623+00:00",
     "decision": "publish",
     "checks": {
       "dates": true,
@@ -155,6 +145,6 @@
   "submission": {
     "kind": "assistant_review",
     "publish_intent": true,
-    "reference": "Standing November 17 Pontotoc News editorial shift authorization for reviewed public publication after authenticated preflight."
+    "reference": "Owner saved recurring Pontotoc publication authorization; November18 morning run. Existing held event keys preserved; accessible original district calendar replaces unavailable city event link. All-status dry-run and final review required before publication."
   }
 }
