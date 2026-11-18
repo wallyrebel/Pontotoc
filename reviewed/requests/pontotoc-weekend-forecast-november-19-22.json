@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-weekend-forecast-november-19-22.json",
   "article_sha256": "5856e9d7f0a647c2aa2f0c54eb8f16bd461a97d2c565c528803621e439700c06",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-weekend-forecast-november-19-22",
   "seo_review": {
     "reviewer": "Pontotoc News afternoon desk",
