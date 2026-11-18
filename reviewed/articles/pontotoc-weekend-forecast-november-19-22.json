@@ -1,0 +1,162 @@
+{
+  "title": "Pontotoc gets three mild days before Sunday showers and a cooler Monday",
+  "excerpt": "Highs near 71 are forecast Thursday through Saturday. Patchy fog may form Saturday night, and Sunday brings a 30% chance of showers.",
+  "locality": "Pontotoc and Pontotoc County, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:nws:2026-11-18:afternoon-weekend-forecast"
+  ],
+  "sources": [
+    {
+      "id": "zone",
+      "title": "November 18 county forecast, including Pontotoc",
+      "url": "https://api.weather.gov/products/b1607d20-43f1-4c31-8ec0-e5a5f0bb7fb2",
+      "publisher": "National Weather Service Memphis",
+      "role": "event",
+      "verification_url": "https://api.weather.gov/products/b1607d20-43f1-4c31-8ec0-e5a5f0bb7fb2",
+      "published_at": "2026-11-18T21:06:00+00:00",
+      "verified_at": "2026-11-18T22:09:35.445350+00:00"
+    },
+    {
+      "id": "discussion",
+      "title": "November 18 Memphis forecast discussion",
+      "url": "https://api.weather.gov/products/ef89d6de-7343-4953-9399-485b60811b0e",
+      "publisher": "National Weather Service Memphis",
+      "role": "event",
+      "verification_url": "https://api.weather.gov/products/ef89d6de-7343-4953-9399-485b60811b0e",
+      "published_at": "2026-11-18T17:18:00+00:00",
+      "verified_at": "2026-11-18T22:09:35.445350+00:00"
+    },
+    {
+      "id": "point",
+      "title": "Current National Weather Service forecast for Pontotoc",
+      "url": "https://forecast.weather.gov/MapClick.php?lat=34.25&lon=-89.00",
+      "publisher": "National Weather Service Memphis",
+      "role": "background",
+      "verification_url": "https://forecast.weather.gov/MapClick.php?lat=34.25&lon=-89.00",
+      "published_at": null,
+      "verified_at": "2026-11-18T22:09:35.445350+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc has three afternoons near 71 degrees ahead before a cold front brings a chance of showers Sunday. The National Weather Service\u2019s Wednesday afternoon forecast calls for sunshine Thursday, mostly sunny skies Friday and more clouds by Saturday.",
+      "source_ids": [
+        "zone",
+        "point",
+        "discussion"
+      ],
+      "evidence": "County zone and city point both forecast low 70s Thursday through Saturday. The 11:18 a.m. Memphis discussion explains the Sunday front.",
+      "date_context": "Afternoon forecast Wednesday, Nov. 18, 2026, covering Nov. 19\u201324. All times Central.",
+      "locality": "Pontotoc and Pontotoc County, Mississippi.",
+      "identities": "National Weather Service Memphis forecast office; city and county of Pontotoc.",
+      "statistics": "Nov. 19\u201322; near 71 degrees Fahrenheit."
+    },
+    {
+      "id": "f2",
+      "statement": "Evenings will warm more slowly. The city forecast puts Thursday night\u2019s low near 49 degrees and Friday night\u2019s near 54. For people out late Saturday or on the road early Sunday, forecasters flag patchy fog. The county forecast puts Saturday night\u2019s low in the mid-50s.",
+      "source_ids": [
+        "zone",
+        "point"
+      ],
+      "evidence": "City grid shows lows of 49 and 54. County bulletin lists patchy fog Saturday night and Sunday morning with a Saturday night low in the mid-50s.",
+      "date_context": "Afternoon forecast Wednesday, Nov. 18, 2026, covering Nov. 19\u201324. All times Central.",
+      "locality": "Pontotoc and Pontotoc County, Mississippi.",
+      "identities": "National Weather Service Memphis forecast office; city and county of Pontotoc.",
+      "statistics": "49 and 54 degrees; mid-50s."
+    },
+    {
+      "id": "f3",
+      "statement": "The county forecast gives Sunday a 30% chance of showers. By Sunday evening the chance drops to 20%, with a thunderstorm also possible. The Memphis forecast office expects any rain with the front to fall short of what the region needs to break the drought.",
+      "source_ids": [
+        "zone",
+        "discussion"
+      ],
+      "evidence": "County bulletin gives 30 percent Sunday, 20 percent Sunday night and a slight thunderstorm chance. The dated regional discussion explicitly rules out drought-breaking amounts in this forecast.",
+      "date_context": "Afternoon forecast Wednesday, Nov. 18, 2026, covering Nov. 19\u201324. All times Central.",
+      "locality": "Pontotoc and Pontotoc County, Mississippi.",
+      "identities": "National Weather Service Memphis forecast office; city and county of Pontotoc.",
+      "statistics": "30% and 20%."
+    },
+    {
+      "id": "f4",
+      "statement": "Monday marks the bigger change in temperature. The city forecast puts the afternoon high near 59, about 12 degrees below Saturday\u2019s forecast high. Monday night\u2019s low is near 36, followed by a mostly sunny Tuesday with a high near 57.",
+      "source_ids": [
+        "point",
+        "zone"
+      ],
+      "evidence": "Public grid issued 21:05 UTC lists 71 Saturday, 59 Monday, 36 Monday night and 57 Tuesday. County zone independently forecasts cooler Monday and an upper-50s high Tuesday.",
+      "date_context": "Afternoon forecast Wednesday, Nov. 18, 2026, covering Nov. 19\u201324. All times Central.",
+      "locality": "Pontotoc and Pontotoc County, Mississippi.",
+      "identities": "National Weather Service Memphis forecast office; city and county of Pontotoc.",
+      "statistics": "71, 59, 36 and 57 degrees; 12-degree difference."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc has three afternoons near 71 degrees ahead before a cold front brings a chance of showers Sunday. The National Weather Service\u2019s Wednesday afternoon forecast calls for sunshine Thursday, mostly sunny skies Friday and more clouds by Saturday.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "Evenings will warm more slowly. The city forecast puts Thursday night\u2019s low near 49 degrees and Friday night\u2019s near 54. For people out late Saturday or on the road early Sunday, forecasters flag patchy fog. The county forecast puts Saturday night\u2019s low in the mid-50s.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "The county forecast gives Sunday a 30% chance of showers. By Sunday evening the chance drops to 20%, with a thunderstorm also possible. The Memphis forecast office expects any rain with the front to fall short of what the region needs to break the drought.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "Monday marks the bigger change in temperature. The city forecast puts the afternoon high near 59, about 12 degrees below Saturday\u2019s forecast high. Monday night\u2019s low is near 36, followed by a mostly sunny Tuesday with a high near 57.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-weekend-forecast-november-19-22.png",
+    "sha256": "72e136feacad5fd961bcaea47cd5f017efe0f69ce1a292094cbe8ad0899614b2",
+    "alt_text": "Pontotoc forecast for Nov. 19\u201323. Highs near 71 Thursday through Saturday, a 30% chance of showers Sunday and a Monday high near 59.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original local editorial data graphic drawn using simple shapes and type. No outside images or marks used."
+  },
+  "review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-18T22:09:35.445350+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f3",
+      "f4"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 18 Pontotoc News afternoon public edition after editorial review and authenticated preflight."
+  }
+}
