@@ -26,6 +26,18 @@ def test_public_html_uses_wordpress_declared_charset():
     assert rp.public_text(rp.public_html(response)) == "Pontotoc's results"
 
 
+@pytest.mark.parametrize("status", [301, 403])
+def test_public_verifier_identifies_newsroom_and_reports_only_host_and_status(status):
+    def external_get(url, **kwargs):
+        assert kwargs["headers"] == {"User-Agent": "PontotocNews-SourceVerifier/1.0 (+https://pontotocnews.com/contact-us/)"}
+        assert kwargs["allow_redirects"] is False
+        return SimpleNamespace(status_code=status)
+
+    with pytest.raises(rp.Guard) as error:
+        rp.Transport(None, external_get).public("https://district.example/notices?item=test")
+    assert str(error.value) == f"Public GET district.example returned HTTP {status}; review canonical URL"
+
+
 def test_read_timeout_retries_once_and_write_timeout_requires_reconciliation():
     calls = []
     class Session:

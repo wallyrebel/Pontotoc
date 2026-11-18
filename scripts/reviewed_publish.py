@@ -475,11 +475,13 @@ class Transport:
 
     def public(self, value):
         url(value)
+        host = urlsplit(value).hostname
         r = self.read_request(
-            lambda: self.public_get(value, timeout=TIMEOUT, allow_redirects=False),
-            "Public GET " + urlsplit(value).hostname,
+            lambda: self.public_get(value, timeout=TIMEOUT, allow_redirects=False,
+                                    headers={"User-Agent": f"PontotocNews-SourceVerifier/1.0 (+{BASE}/contact-us/)"}),
+            "Public GET " + host,
         )
-        require(r.status_code == 200, "Public link unavailable or redirects; review canonical URL")
+        require(r.status_code == 200, f"Public GET {host} returned HTTP {r.status_code}; review canonical URL")
         require(len(r.content) <= 15_000_000, "Public response exceeds bound")
         return r
 
