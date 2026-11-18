@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-basketball-alcorn-central-louisville-november-17.json",
+  "article_sha256": "5550815e4e261ba99f4eb4a878537efbf42a54e5f2a8ebe7f79e788f595f909b",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-basketball-alcorn-central-louisville-november-17",
+  "seo_review": {
+    "reviewer": "Pontotoc News evening recovery editor",
+    "reviewed_at": "2026-11-18T04:12:09.591718+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}

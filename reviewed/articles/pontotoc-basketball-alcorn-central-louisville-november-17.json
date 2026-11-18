@@ -1,0 +1,169 @@
+{
+  "title": "North Pontotoc holds off Alcorn Central 31-26 as Pontotoc girls beat Louisville",
+  "excerpt": "The Vikings won the third quarter 12-4 in Glen. In Pontotoc, the Warriors handed Louisville its first loss, 59-53.",
+  "locality": "Ecru and Pontotoc, Mississippi; the North Pontotoc boys played at Alcorn Central in Glen.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:north-pontotoc:alcorn-central:boys-basketball:2026-11-17",
+    "ms:pontotoc:louisville:girls-basketball:2026-11-17"
+  ],
+  "sources": [
+    {
+      "id": "north",
+      "title": "North Pontotoc at Alcorn Central, final and quarter scores",
+      "url": "https://www.maxpreps.com/ms/basketball/game/alcorn-central-glen-vs-north-pontotoc-ecru/11-17-2026/?c=41f34b5a-c7e6-4ea9-8e00-c314e1205c02",
+      "publisher": "MaxPreps game scorecard, final submitted by C. Whitten",
+      "role": "event",
+      "verification_url": "https://www.maxpreps.com/ms/basketball/game/alcorn-central-glen-vs-north-pontotoc-ecru/11-17-2026/?c=41f34b5a-c7e6-4ea9-8e00-c314e1205c02",
+      "published_at": null,
+      "verified_at": "2026-11-18T04:12:09.591718+00:00"
+    },
+    {
+      "id": "girls",
+      "title": "Louisville at Pontotoc, girls varsity final",
+      "url": "https://www.maxpreps.com/ms/basketball/girls/game/louisville-vs-pontotoc/11-17-2026/?c=6a8fdf89-2816-4333-81e1-2f36e3fef288",
+      "publisher": "MaxPreps game scorecard, final submitted by T. Miller",
+      "role": "event",
+      "verification_url": "https://www.maxpreps.com/ms/basketball/girls/game/louisville-vs-pontotoc/11-17-2026/?c=6a8fdf89-2816-4333-81e1-2f36e3fef288",
+      "published_at": null,
+      "verified_at": "2026-11-18T04:12:09.591718+00:00"
+    },
+    {
+      "id": "ns",
+      "title": "North Pontotoc boys varsity schedule",
+      "url": "https://www.maxpreps.com/ms/ecru/north-pontotoc-vikings/basketball/schedule/",
+      "publisher": "North Pontotoc team schedule on MaxPreps",
+      "role": "event",
+      "verification_url": "https://www.maxpreps.com/ms/ecru/north-pontotoc-vikings/basketball/schedule/",
+      "published_at": null,
+      "verified_at": "2026-11-18T04:12:09.591718+00:00"
+    },
+    {
+      "id": "ps",
+      "title": "Pontotoc girls varsity schedule",
+      "url": "https://www.maxpreps.com/ms/pontotoc/pontotoc-warriors/basketball/girls/schedule/",
+      "publisher": "Pontotoc team schedule on MaxPreps",
+      "role": "event",
+      "verification_url": "https://www.maxpreps.com/ms/pontotoc/pontotoc-warriors/basketball/girls/schedule/",
+      "published_at": null,
+      "verified_at": "2026-11-18T04:12:09.591718+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "North Pontotoc took a one-point halftime lead into the locker room Tuesday in Glen, then outscored Alcorn Central 12-4 in the third quarter to win 31-26. The same night, the Pontotoc girls won at home, beating previously unbeaten Louisville 59-53.",
+      "source_ids": [
+        "north",
+        "girls"
+      ],
+      "evidence": "North game final and quarter scores: visiting Vikings 6/8/12/5, host 6/7/4/9. Louisville record shown at game end 6-1; Pontotoc 3-1.",
+      "date_context": "Final varsity scores for Tuesday, November 17, 2026. Future games are listed separately.",
+      "locality": "Ecru and Pontotoc, Mississippi; the North Pontotoc boys played at Alcorn Central in Glen.",
+      "identities": "North Pontotoc Vikings, Alcorn Central Golden Bears, Pontotoc Warriors and Louisville Wildcats.",
+      "statistics": "14-13 at halftime; 12-4 third; 31-26 and 59-53 finals."
+    },
+    {
+      "id": "f2",
+      "statement": "The Vikings and Golden Bears finished the first quarter tied at six. North Pontotoc led 14-13 at halftime and 26-17 going into the fourth. Alcorn Central won the final quarter 9-5, cutting the margin to five. North Pontotoc moved to 5-1 and Alcorn Central to 1-2.",
+      "source_ids": [
+        "north"
+      ],
+      "evidence": "Quarter and final rows support the cumulative scoring arithmetic. Records displayed next to teams on the final game card.",
+      "date_context": "Final varsity scores for Tuesday, November 17, 2026. Future games are listed separately.",
+      "locality": "Ecru and Pontotoc, Mississippi; the North Pontotoc boys played at Alcorn Central in Glen.",
+      "identities": "North Pontotoc Vikings, Alcorn Central Golden Bears, Pontotoc Warriors and Louisville Wildcats.",
+      "statistics": "6-6; 14-13; 26-17; 9-5; records 5-1 and 1-2."
+    },
+    {
+      "id": "f3",
+      "statement": "For the Pontotoc girls, the six-point win followed a 55-51 loss to Decatur on Saturday. Tuesday\u2019s result put the Warriors at 3-1 and Louisville at 6-1. Pontotoc is scheduled to play at Tupelo on Thursday, Nov. 19, at 6 p.m.",
+      "source_ids": [
+        "girls",
+        "ps"
+      ],
+      "evidence": "Finals and postgame records on Nov. 17 event. Team schedule has Nov. 14 result and Nov. 19 away fixture.",
+      "date_context": "Final varsity scores for Tuesday, November 17, 2026. Future games are listed separately.",
+      "locality": "Ecru and Pontotoc, Mississippi; the North Pontotoc boys played at Alcorn Central in Glen.",
+      "identities": "North Pontotoc Vikings, Alcorn Central Golden Bears, Pontotoc Warriors and Louisville Wildcats.",
+      "statistics": "59-53; 55-51; 3-1 and 6-1; Nov. 19, 6 p.m."
+    },
+    {
+      "id": "f4",
+      "statement": "North Pontotoc also goes back on the road Thursday. The Vikings are scheduled to play at Water Valley at 7 p.m. before hosting Biggersville at 7:30 p.m. Friday, Nov. 20.",
+      "source_ids": [
+        "ns"
+      ],
+      "evidence": "Team varsity schedule lists venues, local times and consecutive Thursday/Friday games.",
+      "date_context": "Final varsity scores for Tuesday, November 17, 2026. Future games are listed separately.",
+      "locality": "Ecru and Pontotoc, Mississippi; the North Pontotoc boys played at Alcorn Central in Glen.",
+      "identities": "North Pontotoc Vikings, Alcorn Central Golden Bears, Pontotoc Warriors and Louisville Wildcats.",
+      "statistics": "Nov. 19, 7 p.m.; Nov. 20, 7:30 p.m."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "North Pontotoc took a one-point halftime lead into the locker room Tuesday in Glen, then outscored Alcorn Central 12-4 in the third quarter to win 31-26. The same night, the Pontotoc girls won at home, beating previously unbeaten Louisville 59-53.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The Vikings and Golden Bears finished the first quarter tied at six. North Pontotoc led 14-13 at halftime and 26-17 going into the fourth. Alcorn Central won the final quarter 9-5, cutting the margin to five. North Pontotoc moved to 5-1 and Alcorn Central to 1-2.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "For the Pontotoc girls, the six-point win followed a 55-51 loss to Decatur on Saturday. Tuesday\u2019s result put the Warriors at 3-1 and Louisville at 6-1. Pontotoc is scheduled to play at Tupelo on Thursday, Nov. 19, at 6 p.m.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "North Pontotoc also goes back on the road Thursday. The Vikings are scheduled to play at Water Valley at 7 p.m. before hosting Biggersville at 7:30 p.m. Friday, Nov. 20.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-basketball-alcorn-central-louisville-november-17.png",
+    "sha256": "af4ee88d2645ed056c4016850c9c905a93460a0d9e89946113529e77a40da2ab",
+    "alt_text": "November 17 varsity finals: North Pontotoc boys 31, Alcorn Central 26; Pontotoc girls 59, Louisville 53.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original local editorial data graphic drawn using simple shapes and type. No outside images or marks used."
+  },
+  "review": {
+    "reviewer": "Pontotoc News evening recovery editor",
+    "reviewed_at": "2026-11-18T04:12:09.591718+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Standing November 17 Pontotoc News editorial shift authorization for reviewed public publication after authenticated preflight."
+  }
+}
