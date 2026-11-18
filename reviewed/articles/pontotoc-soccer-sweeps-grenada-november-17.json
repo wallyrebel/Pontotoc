@@ -16,7 +16,7 @@
       "role": "event",
       "verification_url": "https://www.maxpreps.com/ms/soccer/girls/match/grenada-vs-pontotoc/11-17-2026/?c=04b87f24-b99f-4f86-a6b6-6949bb46b456",
       "published_at": null,
-      "verified_at": "2026-11-18T19:40:48.011444+00:00"
+      "verified_at": "2026-11-18T19:44:48.932918+00:00"
     },
     {
       "id": "boys",
@@ -26,7 +26,7 @@
       "role": "event",
       "verification_url": "https://www.maxpreps.com/ms/soccer/match/grenada-vs-pontotoc/11-17-2026/?c=d0520d7f-2b46-45fb-8664-997b2cc5d3e2",
       "published_at": null,
-      "verified_at": "2026-11-18T19:40:48.011444+00:00"
+      "verified_at": "2026-11-18T19:44:48.932918+00:00"
     },
     {
       "id": "gs",
@@ -36,7 +36,7 @@
       "role": "background",
       "verification_url": "https://www.maxpreps.com/ms/pontotoc/pontotoc-warriors/soccer/girls/winter/schedule/",
       "published_at": null,
-      "verified_at": "2026-11-18T19:40:48.011444+00:00"
+      "verified_at": "2026-11-18T19:44:48.932918+00:00"
     },
     {
       "id": "bs",
@@ -46,17 +46,7 @@
       "role": "background",
       "verification_url": "https://www.maxpreps.com/ms/pontotoc/pontotoc-warriors/soccer/winter/schedule/",
       "published_at": null,
-      "verified_at": "2026-11-18T19:40:48.011444+00:00"
-    },
-    {
-      "id": "school",
-      "title": "District calendar listing for the home soccer matches",
-      "url": "https://www.pontotoc.school/apps/events/2026/11/17/49985005/?id=0",
-      "publisher": "Pontotoc City School District",
-      "role": "background",
-      "verification_url": "https://www.pontotoc.school/apps/events/2026/11/17/49985005/?id=0",
-      "published_at": null,
-      "verified_at": "2026-11-18T19:40:48.011444+00:00"
+      "verified_at": "2026-11-18T19:44:48.932918+00:00"
     }
   ],
   "facts": [
@@ -66,9 +56,10 @@
       "source_ids": [
         "girls",
         "boys",
-        "school"
+        "gs",
+        "bs"
       ],
-      "evidence": "Both match sheets identify Grenada away at Pontotoc on Nov. 17 and report the final scores. The district calendar identifies the home fixture. Seven plus six is 13.",
+      "evidence": "Both match sheets identify Grenada away at Pontotoc on Nov. 17 and report the final scores. Team schedules show the girls at 5 and the boys at 7. Seven plus six is 13.",
       "date_context": "Tuesday, November 17, 2026. Next listed home games Thursday, November 19, Central time.",
       "locality": "Pontotoc High School in Pontotoc, Mississippi.",
       "identities": "Pontotoc Warriors and Grenada Chargers varsity girls and boys soccer teams.",
@@ -150,7 +141,7 @@
   },
   "review": {
     "reviewer": "Pontotoc News supplemental editor",
-    "reviewed_at": "2026-11-18T19:40:48.011444+00:00",
+    "reviewed_at": "2026-11-18T19:44:48.932918+00:00",
     "decision": "publish",
     "checks": {
       "dates": true,
