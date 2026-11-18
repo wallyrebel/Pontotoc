@@ -1,0 +1,158 @@
+{
+  "title": "Pontotoc County schools set Dec. 2 meeting for bidders on school internet equipment",
+  "excerpt": "The district will open bids Dec. 15. Vendors must attend the Dec. 2 meeting to qualify and can send an optional letter of intent by Dec. 1.",
+  "locality": "Pontotoc County School District, Pontotoc, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:county-schools:fy2027:erate-470-270003006"
+  ],
+  "sources": [
+    {
+      "id": "rfp",
+      "title": "Pontotoc County\u2019s request for proposals and bid timeline (Word document)",
+      "url": "https://publicdata.usac.org/EPC/Prd/Form470/270003006/128588/22846594-Pontotoc%20County%20C2%20RFP%202027%20FINAL.docx",
+      "publisher": "Pontotoc County School District",
+      "role": "event",
+      "verification_url": "https://publicdata.usac.org/EPC/Prd/Form470/270003006/128588/22846594-Pontotoc%20County%20C2%20RFP%202027%20FINAL.docx",
+      "published_at": null,
+      "verified_at": "2026-11-18T22:33:45.161352+00:00"
+    },
+    {
+      "id": "form",
+      "title": "District\u2019s certified 2027 E-Rate Form 470 (PDF)",
+      "url": "https://publicdata.usac.org/EPC/Prd/Form470/270003006/128588/22846612-USAC_FCC_FORM_470_APPLICATION_270003006_CERTIFIED.pdf",
+      "publisher": "Pontotoc County School District",
+      "role": "event",
+      "verification_url": "https://publicdata.usac.org/EPC/Prd/Form470/270003006/128588/22846612-USAC_FCC_FORM_470_APPLICATION_270003006_CERTIFIED.pdf",
+      "published_at": null,
+      "verified_at": "2026-11-18T22:33:45.161352+00:00"
+    },
+    {
+      "id": "program",
+      "title": "What Category Two E-Rate funding covers",
+      "url": "https://www.usac.org/e-rate/applicant-process/before-you-begin/eligible-services-overview/",
+      "publisher": "Universal Service Administrative Company",
+      "role": "background",
+      "verification_url": "https://www.usac.org/e-rate/applicant-process/before-you-begin/eligible-services-overview/",
+      "published_at": null,
+      "verified_at": "2026-11-18T22:33:45.161352+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Companies seeking to supply internet equipment and services to Pontotoc County schools must attend a vendor meeting at 1 p.m. Wednesday, Dec. 2. The district will take questions at its office at 354 Center Ridge Drive in Pontotoc, where it will open bids on Tuesday, Dec. 15.",
+      "source_ids": [
+        "rfp",
+        "form"
+      ],
+      "evidence": "The district\u2019s original RFP specifies the office address, mandatory attendance, question-and-answer purpose and bid opening there. The Form 470 identifies the school district and Category Two service requests.",
+      "date_context": "District competition for funding year 2027. Meeting and bid deadlines are December 2026 in Pontotoc, Central time.",
+      "locality": "Pontotoc County School District, Pontotoc, Mississippi.",
+      "identities": "Pontotoc County School District, Universal Service Administrative Company and Central Bidding.",
+      "statistics": "1 p.m. Dec. 2 and Dec. 15, 2026; 354 Center Ridge Drive."
+    },
+    {
+      "id": "f2",
+      "statement": "There is an earlier date for vendors who want advance notice of a change to the meeting. The district asks them to submit an optional letter of intent by 11:59 p.m. Tuesday, Dec. 1. The letter puts a vendor on the notification list if the meeting time changes and leaves the decision to submit a bid open.",
+      "source_ids": [
+        "rfp"
+      ],
+      "evidence": "Intent to Bid section explicitly makes the letter optional, says it does not commit the vendor, and says senders will be notified if unforeseen circumstances change the meeting time or date. The bid timeline specifies Dec. 1 at 11:59 p.m.",
+      "date_context": "District competition for funding year 2027. Meeting and bid deadlines are December 2026 in Pontotoc, Central time.",
+      "locality": "Pontotoc County School District, Pontotoc, Mississippi.",
+      "identities": "Pontotoc County School District, Universal Service Administrative Company and Central Bidding.",
+      "statistics": "11:59 p.m. Dec. 1."
+    },
+    {
+      "id": "f3",
+      "statement": "Sealed bids must reach the district by 2:30 p.m. Dec. 15, when the opening begins in the board room. Vendors can mail or hand-deliver a sealed envelope marked for the 2027 E-Rate bid, or submit a Category Two bid electronically through Central Bidding. The district\u2019s request for proposals includes the full envelope instructions.",
+      "source_ids": [
+        "rfp"
+      ],
+      "evidence": "District RFP invitation and submission sections give receipt time, board-room location, mailing and delivery options, labeling instructions and the permitted electronic route.",
+      "date_context": "District competition for funding year 2027. Meeting and bid deadlines are December 2026 in Pontotoc, Central time.",
+      "locality": "Pontotoc County School District, Pontotoc, Mississippi.",
+      "identities": "Pontotoc County School District, Universal Service Administrative Company and Central Bidding.",
+      "statistics": "2:30 p.m. Dec. 15; 2027 funding year."
+    },
+    {
+      "id": "f4",
+      "statement": "The district filed the request under the federal E-Rate program. Its Category Two funding helps schools pay for eligible connections that distribute broadband inside school buildings. The county\u2019s public filing is listed under application number 270003006.",
+      "source_ids": [
+        "program",
+        "form"
+      ],
+      "evidence": "USAC describes discounts for eligible internal connections. The certified FCC Form 470 bears this exact public application number and funding year.",
+      "date_context": "District competition for funding year 2027. Meeting and bid deadlines are December 2026 in Pontotoc, Central time.",
+      "locality": "Pontotoc County School District, Pontotoc, Mississippi.",
+      "identities": "Pontotoc County School District, Universal Service Administrative Company and Central Bidding.",
+      "statistics": "Application 270003006."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Companies seeking to supply internet equipment and services to Pontotoc County schools must attend a vendor meeting at 1 p.m. Wednesday, Dec. 2. The district will take questions at its office at 354 Center Ridge Drive in Pontotoc, where it will open bids on Tuesday, Dec. 15.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "There is an earlier date for vendors who want advance notice of a change to the meeting. The district asks them to submit an optional letter of intent by 11:59 p.m. Tuesday, Dec. 1. The letter puts a vendor on the notification list if the meeting time changes and leaves the decision to submit a bid open.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Sealed bids must reach the district by 2:30 p.m. Dec. 15, when the opening begins in the board room. Vendors can mail or hand-deliver a sealed envelope marked for the 2027 E-Rate bid, or submit a Category Two bid electronically through Central Bidding. The district\u2019s request for proposals includes the full envelope instructions.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "The district filed the request under the federal E-Rate program. Its Category Two funding helps schools pay for eligible connections that distribute broadband inside school buildings. The county\u2019s public filing is listed under application number 270003006.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-county-schools-erate-vendor-meeting-december-2.png",
+    "sha256": "9389b797ed936becc30cbb809263c2dbf17c4dba309ec4cca08bf7af2f6ef2e2",
+    "alt_text": "Pontotoc County\u2019s 2027 E-Rate procurement. Optional letter due Dec. 1, mandatory meeting Dec. 2 and bid opening Dec. 15.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original local editorial data graphic drawn using simple shapes and type. No outside images or marks used."
+  },
+  "review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-18T22:33:45.161352+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f4"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 18 Pontotoc News afternoon public edition after editorial review and authenticated preflight."
+  }
+}
