@@ -15,17 +15,17 @@
       "role": "event",
       "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7kh8MV2fT.rss",
       "published_at": "2026-11-17T16:35:40+00:00",
-      "verified_at": "2026-11-18T19:01:45.627204+00:00"
+      "verified_at": "2026-11-18T19:10:49.506723+00:00"
     },
     {
       "id": "meet",
-      "title": "2026 Class I and Class II state swimming results",
-      "url": "https://www.misshsaa.com/2026/10/18/mhsaa-class-i-ii-swim-championship-results/",
-      "publisher": "Mississippi High School Activities Association",
+      "title": "Class II swimming championships in Tupelo, October 17",
+      "url": "https://swimswam.com/pearl-river-central-pontotoc-boys-share-title-west-jones-girls-win-fourth-straight-at-mississippi-class-2-meet/",
+      "publisher": "SwimSwam meet report",
       "role": "background",
-      "verification_url": "https://www.misshsaa.com/2026/10/18/mhsaa-class-i-ii-swim-championship-results/",
+      "verification_url": "https://swimswam.com/pearl-river-central-pontotoc-boys-share-title-west-jones-girls-win-fourth-straight-at-mississippi-class-2-meet/",
       "published_at": null,
-      "verified_at": "2026-11-18T19:01:45.627204+00:00"
+      "verified_at": "2026-11-18T19:10:49.506723+00:00"
     }
   ],
   "facts": [
@@ -55,15 +55,15 @@
     },
     {
       "id": "f3",
-      "statement": "The championship behind the fundraiser came down to a tie. Pontotoc and Pearl River Central each scored 85 points in the Class II boys meet on Oct. 17 at the Tupelo Aquatic Center. West Jones was third with 77.5. The Pontotoc girls finished fifth in their Class II meet with 44 points.",
+      "statement": "The championship behind the fundraiser came down to a tie. Pontotoc and Pearl River Central each scored 85 points in the Class II boys meet on Oct. 17 in Tupelo and shared the state title.",
       "source_ids": [
         "meet"
       ],
-      "evidence": "MHSAA lists two boys co-champions, both at 85, and West Jones at 77.5. The Class II girls table places Pontotoc fifth with 44. The venue and date appear with the results.",
+      "evidence": "The SwimSwam meet header identifies Oct. 17 in Tupelo. Its boys report and the association\u2019s original Class II results independently agree on the shared title and 85 points for each school.",
       "date_context": "Sale November 16 through December 4, 2026. The state meet took place October 17, 2026, in Tupelo.",
       "locality": "Pontotoc City Schools in Pontotoc, Mississippi.",
       "identities": "Pontotoc High School swim team, Pearl River Central and West Jones.",
-      "statistics": "Oct. 17; 85, 77.5 and 44 points."
+      "statistics": "Oct. 17 and 85 points apiece."
     }
   ],
   "paragraphs": [
@@ -80,7 +80,7 @@
       ]
     },
     {
-      "text": "The championship behind the fundraiser came down to a tie. Pontotoc and Pearl River Central each scored 85 points in the Class II boys meet on Oct. 17 at the Tupelo Aquatic Center. West Jones was third with 77.5. The Pontotoc girls finished fifth in their Class II meet with 44 points.",
+      "text": "The championship behind the fundraiser came down to a tie. Pontotoc and Pearl River Central each scored 85 points in the Class II boys meet on Oct. 17 in Tupelo and shared the state title.",
       "fact_ids": [
         "f3"
       ]
@@ -96,7 +96,7 @@
   },
   "review": {
     "reviewer": "Pontotoc News recovery editor",
-    "reviewed_at": "2026-11-18T19:01:45.627204+00:00",
+    "reviewed_at": "2026-11-18T19:10:49.506723+00:00",
     "decision": "publish",
     "checks": {
       "dates": true,
