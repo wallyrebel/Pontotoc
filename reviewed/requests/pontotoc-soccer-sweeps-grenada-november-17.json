@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-soccer-sweeps-grenada-november-17.json",
+  "article_sha256": "34c3f579b7a48a7f32b05ee1bbedb5116ae45b684e91ed6d3adddb4ce15b30d2",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-soccer-sweeps-grenada-november-17",
+  "seo_review": {
+    "reviewer": "Pontotoc News supplemental editor",
+    "reviewed_at": "2026-11-18T19:40:48.011444+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}

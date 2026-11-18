@@ -1,0 +1,180 @@
+{
+  "title": "Pontotoc girls beat Grenada 7\u20130, boys win 6\u20130 in home soccer sweep",
+  "excerpt": "The girls matched their seven-goal opener against Ripley. The boys scored more against Grenada than in any of their first four reported matches.",
+  "locality": "Pontotoc High School in Pontotoc, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:varsity-girls-soccer:2026-11-17:grenada",
+    "ms:pontotoc:varsity-boys-soccer:2026-11-17:grenada"
+  ],
+  "sources": [
+    {
+      "id": "girls",
+      "title": "Grenada at Pontotoc, girls varsity match sheet",
+      "url": "https://www.maxpreps.com/ms/soccer/girls/match/grenada-vs-pontotoc/11-17-2026/?c=04b87f24-b99f-4f86-a6b6-6949bb46b456",
+      "publisher": "MaxPreps match record",
+      "role": "event",
+      "verification_url": "https://www.maxpreps.com/ms/soccer/girls/match/grenada-vs-pontotoc/11-17-2026/?c=04b87f24-b99f-4f86-a6b6-6949bb46b456",
+      "published_at": null,
+      "verified_at": "2026-11-18T19:40:48.011444+00:00"
+    },
+    {
+      "id": "boys",
+      "title": "Grenada at Pontotoc, boys varsity match sheet",
+      "url": "https://www.maxpreps.com/ms/soccer/match/grenada-vs-pontotoc/11-17-2026/?c=d0520d7f-2b46-45fb-8664-997b2cc5d3e2",
+      "publisher": "MaxPreps match record",
+      "role": "event",
+      "verification_url": "https://www.maxpreps.com/ms/soccer/match/grenada-vs-pontotoc/11-17-2026/?c=d0520d7f-2b46-45fb-8664-997b2cc5d3e2",
+      "published_at": null,
+      "verified_at": "2026-11-18T19:40:48.011444+00:00"
+    },
+    {
+      "id": "gs",
+      "title": "Pontotoc varsity girls soccer results and schedule",
+      "url": "https://www.maxpreps.com/ms/pontotoc/pontotoc-warriors/soccer/girls/winter/schedule/",
+      "publisher": "Pontotoc varsity girls on MaxPreps",
+      "role": "background",
+      "verification_url": "https://www.maxpreps.com/ms/pontotoc/pontotoc-warriors/soccer/girls/winter/schedule/",
+      "published_at": null,
+      "verified_at": "2026-11-18T19:40:48.011444+00:00"
+    },
+    {
+      "id": "bs",
+      "title": "Pontotoc varsity boys soccer results and schedule",
+      "url": "https://www.maxpreps.com/ms/pontotoc/pontotoc-warriors/soccer/winter/schedule/",
+      "publisher": "Pontotoc varsity boys on MaxPreps",
+      "role": "background",
+      "verification_url": "https://www.maxpreps.com/ms/pontotoc/pontotoc-warriors/soccer/winter/schedule/",
+      "published_at": null,
+      "verified_at": "2026-11-18T19:40:48.011444+00:00"
+    },
+    {
+      "id": "school",
+      "title": "District calendar listing for the home soccer matches",
+      "url": "https://www.pontotoc.school/apps/events/2026/11/17/49985005/?id=0",
+      "publisher": "Pontotoc City School District",
+      "role": "background",
+      "verification_url": "https://www.pontotoc.school/apps/events/2026/11/17/49985005/?id=0",
+      "published_at": null,
+      "verified_at": "2026-11-18T19:40:48.011444+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc\u2019s varsity soccer teams sent Grenada home without a goal Tuesday. The girls won 7\u20130 in the first match and the boys followed with a 6\u20130 win. The Warriors scored 13 goals between the two games on their home field.",
+      "source_ids": [
+        "girls",
+        "boys",
+        "school"
+      ],
+      "evidence": "Both match sheets identify Grenada away at Pontotoc on Nov. 17 and report the final scores. The district calendar identifies the home fixture. Seven plus six is 13.",
+      "date_context": "Tuesday, November 17, 2026. Next listed home games Thursday, November 19, Central time.",
+      "locality": "Pontotoc High School in Pontotoc, Mississippi.",
+      "identities": "Pontotoc Warriors and Grenada Chargers varsity girls and boys soccer teams.",
+      "statistics": "Nov. 17; 7\u20130 and 6\u20130; 13 goals."
+    },
+    {
+      "id": "f2",
+      "statement": "The girls matched the seven goals they scored against Ripley in their Nov. 3 home opener. Tuesday was their third shutout in five reported games, after the win over Ripley and a 2\u20130 win at Southaven. Grenada\u2019s keeper was credited with 15 saves in Tuesday\u2019s match.",
+      "source_ids": [
+        "girls",
+        "gs"
+      ],
+      "evidence": "The girls match sheet credits the opposing keeper with 15 saves and seven goals allowed. The five result rows show shutouts against Ripley, Southaven and Grenada.",
+      "date_context": "Tuesday, November 17, 2026. Next listed home games Thursday, November 19, Central time.",
+      "locality": "Pontotoc High School in Pontotoc, Mississippi.",
+      "identities": "Pontotoc Warriors and Grenada Chargers varsity girls and boys soccer teams.",
+      "statistics": "Nov. 3; seven goals, three shutouts, five games, 2\u20130, 15 saves."
+    },
+    {
+      "id": "f3",
+      "statement": "For the boys, six goals marked their highest total in five reported games. They had scored three against Ripley, one at New Albany, one at Southaven and one against North Pontotoc. Their previous shutout was the 1\u20130 win at Southaven on Nov. 10.",
+      "source_ids": [
+        "boys",
+        "bs"
+      ],
+      "evidence": "The boys schedule records 3\u20132, 1\u20134, 1\u20130, 1\u20133 and 6\u20130, in that order.",
+      "date_context": "Tuesday, November 17, 2026. Next listed home games Thursday, November 19, Central time.",
+      "locality": "Pontotoc High School in Pontotoc, Mississippi.",
+      "identities": "Pontotoc Warriors and Grenada Chargers varsity girls and boys soccer teams.",
+      "statistics": "Six goals, five matches, three and one goals; 1\u20130 on Nov. 10."
+    },
+    {
+      "id": "f4",
+      "statement": "Both Pontotoc schedules list Strayhorn at home Thursday, Nov. 19. The girls are scheduled for 5 p.m. and the boys for 7 p.m.",
+      "source_ids": [
+        "gs",
+        "bs"
+      ],
+      "evidence": "Each schedule lists a home match against Strayhorn for Nov. 19. The girls row shows 5 p.m. and the boys row shows 7 p.m.",
+      "date_context": "Tuesday, November 17, 2026. Next listed home games Thursday, November 19, Central time.",
+      "locality": "Pontotoc High School in Pontotoc, Mississippi.",
+      "identities": "Pontotoc Warriors and Grenada Chargers varsity girls and boys soccer teams.",
+      "statistics": "Nov. 19, 5 p.m. and 7 p.m."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc\u2019s varsity soccer teams sent Grenada home without a goal Tuesday. The girls won 7\u20130 in the first match and the boys followed with a 6\u20130 win. The Warriors scored 13 goals between the two games on their home field.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The girls matched the seven goals they scored against Ripley in their Nov. 3 home opener. Tuesday was their third shutout in five reported games, after the win over Ripley and a 2\u20130 win at Southaven. Grenada\u2019s keeper was credited with 15 saves in Tuesday\u2019s match.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "For the boys, six goals marked their highest total in five reported games. They had scored three against Ripley, one at New Albany, one at Southaven and one against North Pontotoc. Their previous shutout was the 1\u20130 win at Southaven on Nov. 10.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "Both Pontotoc schedules list Strayhorn at home Thursday, Nov. 19. The girls are scheduled for 5 p.m. and the boys for 7 p.m.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-soccer-sweeps-grenada-november-17.png",
+    "sha256": "863cc4b2cd981d77ce3de0bee988b8f7fc8906d75d8723b1297a8d035f65ad22",
+    "alt_text": "Final scores from Nov. 17. Pontotoc girls beat Grenada 7\u20130 and Pontotoc boys won 6\u20130.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original local editorial data graphic drawn using simple shapes and type. No outside images or marks used."
+  },
+  "review": {
+    "reviewer": "Pontotoc News supplemental editor",
+    "reviewed_at": "2026-11-18T19:40:48.011444+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f2",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "November 18 supplemental editorial shift authorizing public release after authenticated preflight."
+  }
+}
