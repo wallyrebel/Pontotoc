@@ -1,0 +1,129 @@
+{
+  "title": "Ecru reports prescribed burn near Toccopola as county burn ban continues",
+  "excerpt": "The state lists Pontotoc County\u2019s ban through Friday, Nov. 20. Its three exemptions leave household brush piles and backyard fire pits under the ban.",
+  "locality": "Pontotoc County, Mississippi, including the Thaxton and Toccopola area.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:ecru:2026-11-17:thaxton-toccopola-prescribed-burn"
+  ],
+  "sources": [
+    {
+      "id": "town",
+      "title": "Ecru\u2019s Nov. 17 notice about the prescribed burn",
+      "url": "https://www.facebook.com/1204361708550928/posts/1467448202242276",
+      "publisher": "Town of Ecru",
+      "role": "event",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7mX75E8w6.rss",
+      "published_at": "2026-11-17T22:17:22+00:00",
+      "verified_at": "2026-11-18T22:09:35.445409+00:00"
+    },
+    {
+      "id": "rules",
+      "title": "Mississippi Forestry Commission county burn-ban table and exemption key",
+      "url": "https://www.mfc.ms.gov/burning-info/burn-bans/",
+      "publisher": "Mississippi Forestry Commission",
+      "role": "background",
+      "verification_url": "https://www.mfc.ms.gov/burning-info/burn-bans/",
+      "published_at": null,
+      "verified_at": "2026-11-18T22:09:35.445409+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "The Town of Ecru identified smoke in the Thaxton and Toccopola area Tuesday as coming from a prescribed burn. Pontotoc County\u2019s wider burn ban remains in effect. On Wednesday, the Mississippi Forestry Commission still listed Friday, Nov. 20, as the end date for the county order.",
+      "source_ids": [
+        "town",
+        "rules"
+      ],
+      "evidence": "Town describes a prescribed burn in the Thaxon/Toccopola area and shared a photograph of a smoke plume. Thaxton is the local town spelling. The live county table shows Pontotoc, 10/20/26, 11/20/26, codes 1, 2 and 4.",
+      "date_context": "Ecru notice Nov. 17, checked Nov. 18. State table on Nov. 18 lists the order through Nov. 20, 2026.",
+      "locality": "Pontotoc County, Mississippi, including the Thaxton and Toccopola area.",
+      "identities": "Town of Ecru and Mississippi Forestry Commission.",
+      "statistics": "Nov. 17, 18 and 20."
+    },
+    {
+      "id": "f2",
+      "statement": "Ecru said prescribed burns can reduce vegetation that would otherwise fuel larger fires. Pontotoc County\u2019s order exempts the Forestry Commission and certified burn managers. A third exemption covers commercial contractors using heavy construction equipment when their burns meet state environmental regulations.",
+      "source_ids": [
+        "town",
+        "rules"
+      ],
+      "evidence": "Town explains why prescribed burning can be used during a ban. County row codes 1, 2 and 4 match the named categories on the commission\u2019s exemption key. Neither the operator nor an acreage is claimed.",
+      "date_context": "Ecru notice Nov. 17, checked Nov. 18. State table on Nov. 18 lists the order through Nov. 20, 2026.",
+      "locality": "Pontotoc County, Mississippi, including the Thaxton and Toccopola area.",
+      "identities": "Town of Ecru and Mississippi Forestry Commission.",
+      "statistics": "Three exemptions, codes 1, 2 and 4."
+    },
+    {
+      "id": "f3",
+      "statement": "Residents clearing yards still have to leave brush piles unburned. The commission also lists fire pits, burn barrels and campfires among the activities covered by a ban. It says orders expire at midnight on the listed date. Its county table is the place to check for an extension before making weekend plans.",
+      "source_ids": [
+        "rules"
+      ],
+      "evidence": "Commission includes debris burning, campfires, fire pits and burn barrels and specifies expiry at midnight on the stated date. The public table reports the current entry.",
+      "date_context": "Ecru notice Nov. 17, checked Nov. 18. State table on Nov. 18 lists the order through Nov. 20, 2026.",
+      "locality": "Pontotoc County, Mississippi, including the Thaxton and Toccopola area.",
+      "identities": "Town of Ecru and Mississippi Forestry Commission.",
+      "statistics": "Midnight on the listed expiration date."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "The Town of Ecru identified smoke in the Thaxton and Toccopola area Tuesday as coming from a prescribed burn. Pontotoc County\u2019s wider burn ban remains in effect. On Wednesday, the Mississippi Forestry Commission still listed Friday, Nov. 20, as the end date for the county order.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "Ecru said prescribed burns can reduce vegetation that would otherwise fuel larger fires. Pontotoc County\u2019s order exempts the Forestry Commission and certified burn managers. A third exemption covers commercial contractors using heavy construction equipment when their burns meet state environmental regulations.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Residents clearing yards still have to leave brush piles unburned. The commission also lists fire pits, burn barrels and campfires among the activities covered by a ban. It says orders expire at midnight on the listed date. Its county table is the place to check for an extension before making weekend plans.",
+      "fact_ids": [
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/ecru-prescribed-burn-pontotoc-county-november-17.png",
+    "sha256": "4e909457bd3bcdadebb453ceab4843f2e714df4a0bd8ed63b9d821bb0770a1e6",
+    "alt_text": "Nov. 17 prescribed burn reported by Ecru. Pontotoc County\u2019s burn ban was listed through Nov. 20 and covers brush piles and fire pits.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original local editorial data graphic drawn using simple shapes and type. No outside images or marks used."
+  },
+  "review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-18T22:09:35.445409+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 18 Pontotoc News afternoon public edition after editorial review and authenticated preflight."
+  }
+}
