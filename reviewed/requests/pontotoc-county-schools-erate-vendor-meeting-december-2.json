@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-county-schools-erate-vendor-meeting-december-2.json",
   "article_sha256": "18ecd45e62bfd5daad9a9641ea09cf88c1860fbd2eec93b206bfdcaeffa51fef",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-county-schools-erate-vendor-meeting-december-2",
   "seo_review": {
     "reviewer": "Pontotoc News afternoon desk",
