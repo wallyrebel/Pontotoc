@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-electric-ingomar-mitchell-robbins-internship.json",
+  "article_sha256": "c4309d2790a70d1fedb22024044dd6bd9e82b313846c3a573e70d2477e43a21a",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-electric-ingomar-mitchell-robbins-internship",
+  "seo_review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-18T22:13:46.224641+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}

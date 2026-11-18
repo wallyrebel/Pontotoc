@@ -1,0 +1,149 @@
+{
+  "title": "Ingomar junior Mitchell Robbins meets Pontotoc Electric crews ahead of internship",
+  "excerpt": "The local cooperative introduced Robbins to its crews Monday. His school district joined the regional IMPACTO career program in 2021.",
+  "locality": "Pontotoc Electric Power Association in northeast Mississippi and Ingomar in Union County.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:pepa:2026-11-16:mitchell-robbins-impacto-crew-introduction"
+  ],
+  "sources": [
+    {
+      "id": "pepa",
+      "title": "Pontotoc Electric\u2019s Nov. 16 introduction of Mitchell Robbins",
+      "url": "https://www.facebook.com/1527354935929168/posts/1835203045144354",
+      "publisher": "Pontotoc Electric Power Association",
+      "role": "event",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7nECOb1qN.rss",
+      "published_at": "2026-11-16T22:20:30+00:00",
+      "verified_at": "2026-11-18T22:13:46.224641+00:00"
+    },
+    {
+      "id": "school",
+      "title": "School districts\u2019 announcement of the IMPACTO partnership",
+      "url": "https://www.newalbanyschools.us/new-albany-union-county-school-districts-announce-partnership/",
+      "publisher": "New Albany School District",
+      "role": "background",
+      "verification_url": "https://www.newalbanyschools.us/new-albany-union-county-school-districts-announce-partnership/",
+      "published_at": null,
+      "verified_at": "2026-11-18T22:13:46.224641+00:00"
+    },
+    {
+      "id": "profile",
+      "title": "Student internship profiles, including utility placements",
+      "url": "https://www.newalbanyschools.us/student-intern-profiles/",
+      "publisher": "New Albany School District",
+      "role": "background",
+      "verification_url": "https://www.newalbanyschools.us/student-intern-profiles/",
+      "published_at": null,
+      "verified_at": "2026-11-18T22:13:46.224641+00:00"
+    },
+    {
+      "id": "territory",
+      "title": "Pontotoc Electric\u2019s service area",
+      "url": "https://pepa.com/community/",
+      "publisher": "Pontotoc Electric Power Association",
+      "role": "background",
+      "verification_url": "https://pepa.com/community/",
+      "published_at": null,
+      "verified_at": "2026-11-18T22:13:46.224641+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Mitchell Robbins, a junior at Ingomar, met Pontotoc Electric Power Association crews Monday morning as he prepared for his IMPACTO internship, the cooperative said. The utility serves part of Union County, where Ingomar is located, and all of Pontotoc and Ecru in neighboring Pontotoc County.",
+      "source_ids": [
+        "pepa",
+        "territory",
+        "school"
+      ],
+      "evidence": "PEPA\u2019s dated post names the student, school, class year and purpose of the morning introduction. The utility lists both counties and the two incorporated cities as part of its service area. Union County participates in IMPACTO.",
+      "date_context": "Crew introduction Monday morning, Nov. 16, 2026. Program design and past placements are explicitly historical.",
+      "locality": "Pontotoc Electric Power Association in northeast Mississippi and Ingomar in Union County.",
+      "identities": "Mitchell Robbins, Pontotoc Electric Power Association, New Albany School District, Union County School District, Jacob Hogue and New Albany Light, Gas & Water.",
+      "statistics": "Nov. 16, 2026."
+    },
+    {
+      "id": "f2",
+      "statement": "New Albany schools started IMPACTO in 2018, and Union County schools joined in December 2021. The districts described a two-year track for juniors and seniors that pairs a career-readiness class with a 100-hour summer internship. Students could also pursue industry credentials or college credit.",
+      "source_ids": [
+        "school"
+      ],
+      "evidence": "The district announcement records the launch and partnership dates, grade levels, two-year design, career readiness, optional industry certifications and dual enrollment, and a 100-hour summer project. These are program details as described in 2021.",
+      "date_context": "Crew introduction Monday morning, Nov. 16, 2026. Program design and past placements are explicitly historical.",
+      "locality": "Pontotoc Electric Power Association in northeast Mississippi and Ingomar in Union County.",
+      "identities": "Mitchell Robbins, Pontotoc Electric Power Association, New Albany School District, Union County School District, Jacob Hogue and New Albany Light, Gas & Water.",
+      "statistics": "2018; December 2021; two years; 100 hours."
+    },
+    {
+      "id": "f3",
+      "statement": "The school district\u2019s earlier intern profiles show what a utility placement has involved locally. At New Albany Light, Gas & Water, then-junior Jacob Hogue worked on rights of way and alongside crews responsible for repairs and construction.",
+      "source_ids": [
+        "profile",
+        "pepa"
+      ],
+      "evidence": "Previous school profile lists Hogue as a junior doing right-of-way work with the trouble crew and construction crew. The 2026 PEPA introduction describes a separate student and host.",
+      "date_context": "Crew introduction Monday morning, Nov. 16, 2026. Program design and past placements are explicitly historical.",
+      "locality": "Pontotoc Electric Power Association in northeast Mississippi and Ingomar in Union County.",
+      "identities": "Mitchell Robbins, Pontotoc Electric Power Association, New Albany School District, Union County School District, Jacob Hogue and New Albany Light, Gas & Water.",
+      "statistics": "None asserted."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Mitchell Robbins, a junior at Ingomar, met Pontotoc Electric Power Association crews Monday morning as he prepared for his IMPACTO internship, the cooperative said. The utility serves part of Union County, where Ingomar is located, and all of Pontotoc and Ecru in neighboring Pontotoc County.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "New Albany schools started IMPACTO in 2018, and Union County schools joined in December 2021. The districts described a two-year track for juniors and seniors that pairs a career-readiness class with a 100-hour summer internship. Students could also pursue industry credentials or college credit.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "The school district\u2019s earlier intern profiles show what a utility placement has involved locally. At New Albany Light, Gas & Water, then-junior Jacob Hogue worked on rights of way and alongside crews responsible for repairs and construction.",
+      "fact_ids": [
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-electric-ingomar-mitchell-robbins-internship.png",
+    "sha256": "491c811cb0fe5e79f3c381cc1412afcc40cea1134d26903827c085635a261962",
+    "alt_text": "Ingomar junior Mitchell Robbins met Pontotoc Electric crews Nov. 16 to prepare for his IMPACTO internship.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original local editorial data graphic drawn using simple shapes and type. No outside images or marks used."
+  },
+  "review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-18T22:13:46.224641+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 18 Pontotoc News afternoon public edition after editorial review and authenticated preflight."
+  }
+}
