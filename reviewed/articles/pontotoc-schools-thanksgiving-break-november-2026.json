@@ -10,13 +10,13 @@
   "sources": [
     {
       "id": "county",
-      "title": "County district\u2019s Thanksgiving holidays listing",
-      "url": "https://www.pcsd.ms/calendar/9121143/thanksgiving-holidays",
+      "title": "County student handbook (PDF), school calendar on page 6",
+      "url": "https://campussuite-storage.s3.amazonaws.com/prod/1559325/e879b6d6-64d1-11f1-aef4-0a58a9feac02/3124886/13c25a72-86b6-11f1-92eb-0226f35e3f99/file/2026-2027%20Student%20Handbook.pdf",
       "publisher": "Pontotoc County School District",
       "role": "event",
-      "verification_url": "https://www.pcsd.ms/calendar/9121143/thanksgiving-holidays",
+      "verification_url": "https://campussuite-storage.s3.amazonaws.com/prod/1559325/e879b6d6-64d1-11f1-aef4-0a58a9feac02/3124886/13c25a72-86b6-11f1-92eb-0226f35e3f99/file/2026-2027%20Student%20Handbook.pdf",
       "published_at": null,
-      "verified_at": "2026-11-18T22:06:30.638915+00:00"
+      "verified_at": "2026-11-18T22:17:32.310765+00:00"
     },
     {
       "id": "citybreak",
@@ -26,7 +26,7 @@
       "publisher": "Pontotoc City School District",
       "role": "event",
       "published_at": null,
-      "verified_at": "2026-11-18T22:06:30.638915+00:00"
+      "verified_at": "2026-11-18T22:17:32.310765+00:00"
     },
     {
       "id": "year",
@@ -36,27 +36,7 @@
       "role": "background",
       "verification_url": "https://3.files.edl.io/0b21/26/06/12/165834-68063600-6b85-43b2-ba5e-09086dd31c5a.png",
       "published_at": null,
-      "verified_at": "2026-11-18T22:06:30.638915+00:00"
-    },
-    {
-      "id": "exams",
-      "title": "County school examination dates",
-      "url": "https://www.pcsd.ms/calendar/9121132/exams",
-      "publisher": "Pontotoc County School District",
-      "role": "background",
-      "verification_url": "https://www.pcsd.ms/calendar/9121132/exams",
-      "published_at": null,
-      "verified_at": "2026-11-18T22:06:30.638915+00:00"
-    },
-    {
-      "id": "semester",
-      "title": "County first semester end date",
-      "url": "https://www.pcsd.ms/calendar/9121151/end-1st-semester",
-      "publisher": "Pontotoc County School District",
-      "role": "background",
-      "verification_url": "https://www.pcsd.ms/calendar/9121151/end-1st-semester",
-      "published_at": null,
-      "verified_at": "2026-11-18T22:06:30.638915+00:00"
+      "verified_at": "2026-11-18T22:17:32.310765+00:00"
     }
   ],
   "facts": [
@@ -67,7 +47,7 @@
         "county",
         "citybreak"
       ],
-      "evidence": "Each district has a separate date-specific Thanksgiving closure listing for Nov. 23\u201327. Nov. 21\u201322 and 28\u201329 are weekends. The October article covers a different break and used the year calendar only.",
+      "evidence": "Page 6 of the Pontotoc County student handbook, 2026\u201327 calendar, reads November 23\u201327 Thanksgiving Holiday. The city Thanksgiving event independently gives the inclusive dates. Nov. 21\u201322 and 28\u201329 are weekends.",
       "date_context": "Published school calendars for November and December 2026 and the return in January 2027.",
       "locality": "Pontotoc City School District and Pontotoc County School District, Mississippi.",
       "identities": "Pontotoc City School District and Pontotoc County School District.",
@@ -87,16 +67,16 @@
     },
     {
       "id": "f3",
-      "statement": "County families have two exam dates to keep in view after Thanksgiving. The district lists exams for Thursday and Friday, Dec. 17\u201318, and identifies that Friday as the last day of its first semester.",
+      "statement": "For county students, exams fall Thursday and Friday, Dec. 17\u201318. The county student handbook lists Dec. 21 as the start of Christmas holidays. Both districts mark Tuesday, Jan. 5, as the day students return for the second semester.",
       "source_ids": [
-        "exams",
-        "semester"
+        "county",
+        "year"
       ],
-      "evidence": "Two individual county calendar entries list the exam window and last day of the first semester.",
+      "evidence": "County handbook PDF page 6 lists December 17\u201318 exams, December 21\u201331 Christmas Holiday, January 1\u20134 holidays for students and January 5 classes resume. City year calendar labels January 5 as the second semester start.",
       "date_context": "Published school calendars for November and December 2026 and the return in January 2027.",
       "locality": "Pontotoc City School District and Pontotoc County School District, Mississippi.",
       "identities": "Pontotoc City School District and Pontotoc County School District.",
-      "statistics": "Dec. 17\u201318, 2026."
+      "statistics": "Dec. 17\u201318, 21 and Jan. 5."
     }
   ],
   "paragraphs": [
@@ -113,7 +93,7 @@
       ]
     },
     {
-      "text": "County families have two exam dates to keep in view after Thanksgiving. The district lists exams for Thursday and Friday, Dec. 17\u201318, and identifies that Friday as the last day of its first semester.",
+      "text": "For county students, exams fall Thursday and Friday, Dec. 17\u201318. The county student handbook lists Dec. 21 as the start of Christmas holidays. Both districts mark Tuesday, Jan. 5, as the day students return for the second semester.",
       "fact_ids": [
         "f3"
       ]
@@ -129,7 +109,7 @@
   },
   "review": {
     "reviewer": "Pontotoc News afternoon desk",
-    "reviewed_at": "2026-11-18T22:06:30.638915+00:00",
+    "reviewed_at": "2026-11-18T22:17:32.310765+00:00",
     "decision": "publish",
     "checks": {
       "dates": true,
@@ -155,6 +135,6 @@
   "submission": {
     "kind": "assistant_review",
     "publish_intent": true,
-    "reference": "Authorized November 18 afternoon edition. November city and county event notices independently establish Thanksgiving dates. Existing event keys and original graphic retained. December city dates come from the annual calendar."
+    "reference": "Authorized November 18 afternoon edition. The city\u2019s dated event and the county\u2019s original 2026\u201327 handbook establish both closures. Public calendar, archive and failed read-only run reconciled. Original event keys and graphic retained."
   }
 }
