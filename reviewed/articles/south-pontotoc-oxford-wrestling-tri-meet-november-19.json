@@ -1,0 +1,154 @@
+{
+  "title": "South Pontotoc wrestlers draw French Camp and Oxford in Thursday tri-meet",
+  "excerpt": "The boys wrestle twice and the girls face Oxford. The first dual starts at 6 p.m. at Oxford High School, with South Pontotoc taking the mat in the second.",
+  "locality": "South Pontotoc wrestlers from Pontotoc County, competing in Oxford, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:south-wrestling:2026-11-19:oxford-french-camp-tri-meet"
+  ],
+  "sources": [
+    {
+      "id": "host",
+      "title": "Oxford Chargers Wrestling\u2019s home-opener announcement and match order",
+      "url": "https://stayhappening.com/e/oxford-home-opener-tri-meet-E2IT03OSJC5",
+      "publisher": "Oxford Chargers Wrestling, event notice carried by StayHappening",
+      "role": "event",
+      "verification_url": "https://stayhappening.com/e/oxford-home-opener-tri-meet-E2IT03OSJC5",
+      "published_at": null,
+      "verified_at": "2026-11-19T01:34:38.845134+00:00"
+    },
+    {
+      "id": "school",
+      "title": "Oxford High School\u2019s boys and girls wrestling schedule",
+      "url": "https://ohs.oxfordsd.org/arts-and-activities/activities-at-ohs/ohs-wrestling/schedule",
+      "publisher": "Oxford High School",
+      "role": "event",
+      "verification_url": "https://ohs.oxfordsd.org/arts-and-activities/activities-at-ohs/ohs-wrestling/schedule",
+      "published_at": null,
+      "verified_at": "2026-11-19T01:34:38.845134+00:00"
+    },
+    {
+      "id": "clock",
+      "title": "Oxford High School\u2019s calendar with the 6 p.m. start",
+      "url": "https://ohs.oxfordsd.org/ohs-calendar",
+      "publisher": "Oxford High School",
+      "role": "background",
+      "verification_url": "https://ohs.oxfordsd.org/ohs-calendar",
+      "published_at": null,
+      "verified_at": "2026-11-19T01:34:38.845134+00:00"
+    },
+    {
+      "id": "venue",
+      "title": "November 19 event and Oxford High School Gym address",
+      "url": "https://ms.wrestlingtournaments.org/view.cfm?ID=120830",
+      "publisher": "WrestlingTournaments.org",
+      "role": "background",
+      "verification_url": "https://ms.wrestlingtournaments.org/view.cfm?ID=120830",
+      "published_at": null,
+      "verified_at": "2026-11-19T01:34:38.845134+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "South Pontotoc\u2019s boys will wrestle twice Thursday night at Oxford High School, with the girls\u2019 dual against the host Chargers between the two boys\u2019 matches. Wrestling starts at 6 p.m. in the high school gym at 101 Charger Loop in Oxford.",
+      "source_ids": [
+        "host",
+        "school",
+        "clock",
+        "venue"
+      ],
+      "evidence": "The host names all four duals and the gym. The school calendar sets the start at 6 p.m. and the venue directory gives the street address.",
+      "date_context": "Thursday, November 19, 2026. Times Central.",
+      "locality": "South Pontotoc wrestlers from Pontotoc County, competing in Oxford, Mississippi.",
+      "identities": "South Pontotoc, Oxford High School, French Camp Academy and Oxford Chargers Wrestling.",
+      "statistics": "Nov. 19, 6 p.m., 101 Charger Loop; two South boys duals."
+    },
+    {
+      "id": "f2",
+      "statement": "Oxford and French Camp open the meet with a boys\u2019 dual. French Camp stays on the mat to face South Pontotoc in the second dual. Fans coming primarily for the Cougars should use the 6 p.m. opening as their guide. The host lists the order of matches without assigning a separate start time to South\u2019s first appearance.",
+      "source_ids": [
+        "host",
+        "clock"
+      ],
+      "evidence": "Host\u2019s order has Oxford boys\u2013French Camp first and French Camp boys\u2013South Pontotoc second. One overall start time is provided.",
+      "date_context": "Thursday, November 19, 2026. Times Central.",
+      "locality": "South Pontotoc wrestlers from Pontotoc County, competing in Oxford, Mississippi.",
+      "identities": "South Pontotoc, Oxford High School, French Camp Academy and Oxford Chargers Wrestling.",
+      "statistics": "First and second duals; 6 p.m."
+    },
+    {
+      "id": "f3",
+      "statement": "The South Pontotoc and Oxford girls meet third, followed by the boys from the same two schools in the last dual. It is the first home date on Oxford\u2019s boys\u2019 and girls\u2019 wrestling schedule, following its Nov. 14 trip to Memphis for the Tiger Tussle.",
+      "source_ids": [
+        "host",
+        "school"
+      ],
+      "evidence": "Host lists these opponents in positions three and four and identifies the event as its home opener. Oxford\u2019s schedule lists the previous event in Memphis.",
+      "date_context": "Thursday, November 19, 2026. Times Central.",
+      "locality": "South Pontotoc wrestlers from Pontotoc County, competing in Oxford, Mississippi.",
+      "identities": "South Pontotoc, Oxford High School, French Camp Academy and Oxford Chargers Wrestling.",
+      "statistics": "Third and fourth duals; Nov. 14."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "South Pontotoc\u2019s boys will wrestle twice Thursday night at Oxford High School, with the girls\u2019 dual against the host Chargers between the two boys\u2019 matches. Wrestling starts at 6 p.m. in the high school gym at 101 Charger Loop in Oxford.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "Oxford and French Camp open the meet with a boys\u2019 dual. French Camp stays on the mat to face South Pontotoc in the second dual. Fans coming primarily for the Cougars should use the 6 p.m. opening as their guide. The host lists the order of matches without assigning a separate start time to South\u2019s first appearance.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "The South Pontotoc and Oxford girls meet third, followed by the boys from the same two schools in the last dual. It is the first home date on Oxford\u2019s boys\u2019 and girls\u2019 wrestling schedule, following its Nov. 14 trip to Memphis for the Tiger Tussle.",
+      "fact_ids": [
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/south-pontotoc-oxford-wrestling-tri-meet-november-19.png",
+    "sha256": "912cb9c82c2fd2084afc10a5ac3b38343a163a5a74b87d8b67f0b35fc1777267",
+    "alt_text": "South Pontotoc\u2019s boys wrestle second and fourth and the girls wrestle third at Oxford on Nov. 19. Wrestling begins at 6 p.m.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original local editorial data graphic drawn using simple shapes and type. No outside images or marks used."
+  },
+  "review": {
+    "reviewer": "Pontotoc News evening desk",
+    "reviewed_at": "2026-11-19T01:34:38.845134+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 18 supplemental editorial shift and approved publication after authenticated dry run."
+  }
+}

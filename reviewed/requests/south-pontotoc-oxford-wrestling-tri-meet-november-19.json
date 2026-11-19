@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/south-pontotoc-oxford-wrestling-tri-meet-november-19.json",
+  "article_sha256": "9328e1cdf09cb3ae7110d17bb64a5bf6492b48c736fd71d80b7dd5ff7df5d4a6",
+  "mode": "dry-run",
+  "public_slug": "south-pontotoc-oxford-wrestling-tri-meet-november-19",
+  "seo_review": {
+    "reviewer": "Pontotoc News evening desk",
+    "reviewed_at": "2026-11-19T01:34:38.845134+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}
