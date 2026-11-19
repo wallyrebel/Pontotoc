@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pepa:bruce-office:2026-11-19:thanksgiving-meal-closure"
+  ],
+  "title": "PEPA Bruce office closes for one hour Thursday; dispatcher stays available",
+  "excerpt": "PEPA’s Bruce office will close from 11:30 a.m. to 12:30 p.m. Nov. 19 for its employee Thanksgiving meal. An outage and emergency dispatcher remains available.",
+  "locality": "PEPA Bruce office, Bruce, Calhoun County, Mississippi; regional utility notice from Pontotoc Electric Power Association.",
+  "sources": [
+    {
+      "id": "first",
+      "url": "https://www.facebook.com/1527354935929168/posts/1836558851675440",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7nECOb1qN.rss",
+      "role": "event",
+      "title": "PEPA Bruce office Thanksgiving meal notice",
+      "publisher": "Pontotoc Electric Power Association",
+      "published_at": "2026-11-17T23:46:02+00:00",
+      "verified_at": "2026-11-19T01:38:55.813924+00:00"
+    },
+    {
+      "id": "reminder",
+      "url": "https://www.facebook.com/1527354935929168/posts/1837464018251590",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7nECOb1qN.rss",
+      "role": "event",
+      "title": "PEPA Bruce office Thanksgiving meal notice — reminder",
+      "publisher": "Pontotoc Electric Power Association",
+      "published_at": "2026-11-18T18:00:05+00:00",
+      "verified_at": "2026-11-19T01:38:55.813924+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "hours",
+      "statement": "Pontotoc Electric Power Association’s Bruce office will close from 11:30 a.m. to 12:30 p.m. Thursday, November 19, for an employee Thanksgiving meal, according to the cooperative’s notices.",
+      "source_ids": [
+        "first",
+        "reminder"
+      ],
+      "evidence": "Full official saved-feed caption identifies Bruce location, employee Thanksgiving meal and ThursdayNovember19. Actual source graphic explicitly says Bruce location will be closed November19,11:30A.M.–12:30P.M. Both notices use byte-identical graphic, inspected as actual pixels.",
+      "date_context": "Closure ThursdayNovember19,2026,11:30a.m.–12:30p.m.Mississippi localCST. Notices publishedNov17at23:46:02UTC andNov18at18:00:05UTC. CurrentrunNov18eveningCST. No claim about other office schedules or actual outages.",
+      "locality": "PEPA Bruce office, Bruce, Calhoun County, Mississippi; regional utility notice from Pontotoc Electric Power Association.",
+      "identities": "Pontotoc Electric Power Association; Bruce office. No people identified from the source photograph.",
+      "statistics": "One-hour office closure,11:30a.m.–12:30p.m.,November19,2026."
+    },
+    {
+      "id": "dispatch",
+      "statement": "A dispatcher will remain on duty for outages or emergencies during the meal. PEPA lists 662-983-2727 as the number to reach the Bruce dispatcher.",
+      "source_ids": [
+        "first",
+        "reminder"
+      ],
+      "evidence": "Both original captions say PEPA dispatcher will be on duty for emergencies or outages and provide662-983-2727. Public business emergency contact only; no actual outage alleged.",
+      "date_context": "Closure ThursdayNovember19,2026,11:30a.m.–12:30p.m.Mississippi localCST. Notices publishedNov17at23:46:02UTC andNov18at18:00:05UTC. CurrentrunNov18eveningCST. No claim about other office schedules or actual outages.",
+      "locality": "PEPA Bruce office, Bruce, Calhoun County, Mississippi; regional utility notice from Pontotoc Electric Power Association.",
+      "identities": "PEPA Bruce dispatcher, a public business service contact.",
+      "statistics": "Public business number662-983-2727; no outagecount or customeraccount information asserted."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc Electric Power Association’s Bruce office will close from 11:30 a.m. to 12:30 p.m. Thursday, November 19, for an employee Thanksgiving meal, according to the cooperative’s notices.",
+      "fact_ids": [
+        "hours"
+      ]
+    },
+    {
+      "text": "A dispatcher will remain on duty for outages or emergencies during the meal. PEPA lists 662-983-2727 as the number to reach the Bruce dispatcher.",
+      "fact_ids": [
+        "dispatch"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pepa-bruce-office-closure-november-19-2026.png",
+    "sha256": "a21c201e2ce6b748a065ed932fbe6ad1be701ae5120338f7fb5f7a13d1ff5226",
+    "alt_text": "Original PEPA Bruce office service card: closed November 19, 2026, from 11:30 a.m. to 12:30 p.m.; outage and emergency dispatcher at 662-983-2727.",
+    "credit": "Pontotoc News original service graphic",
+    "rights": "owned",
+    "rights_reference": "Original1600×900typographic service card created from verified public facts using simple colors, lines and macOS Arial. No source food photograph, people, PEPA logo or third-party artwork reproduced. Source graphic inspected for research only."
+  },
+  "review": {
+    "reviewer": "Codex November18nightly editorial review",
+    "reviewed_at": "2026-11-19T01:38:55.813924+00:00",
+    "decision": "publish",
+    "checks": {
+      "locality": true,
+      "image_rights": true,
+      "coherent_prose": true,
+      "public_facts_only": true,
+      "statistics": true,
+      "source_support": true,
+      "identities": true,
+      "no_invented_quotes_or_context": true,
+      "dates": true,
+      "no_allegations_or_private_sensitive_material": true
+    },
+    "headline_fact_ids": [
+      "hours",
+      "dispatch"
+    ],
+    "excerpt_fact_ids": [
+      "hours",
+      "dispatch"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Owner saved recurring Pontotoc nightly news authorization and Nov18nightly delegation. Time-sensitive regional utility service notice for Bruceoffice only. Two reminders treated as one stable event. Requires no all-status/source/event duplicate, offlinechecks, sourceandownedimagepixelinspection, successfulauthenticateddryrun and finalreview before serialized publication."
+  }
+}
