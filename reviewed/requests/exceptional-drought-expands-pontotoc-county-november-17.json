@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/exceptional-drought-expands-pontotoc-county-november-17.json",
   "article_sha256": "8b8e66f8d69c18647f53dd252c02d7de9aa3d795ad0d4cc19525313ccc40cb2a",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "exceptional-drought-expands-pontotoc-county-november-17",
   "seo_review": {
     "reviewer": "Pontotoc News morning desk",
