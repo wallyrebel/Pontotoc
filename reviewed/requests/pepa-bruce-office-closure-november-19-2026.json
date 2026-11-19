@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pepa-bruce-office-closure-november-19-2026.json",
   "article_sha256": "66a195c1eb2496ccf8a0838cf64f9ecd5b99cf751fa58dfd0f05d7340248c110",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pepa-bruce-office-closure-november-19-2026",
   "seo_review": {
     "reviewer": "Codex November18nightly SEO review",
