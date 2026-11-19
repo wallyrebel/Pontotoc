@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-santa-photos-handprint-ornaments-lifted-nutrition.json",
+  "article_sha256": "120245f8e5c7e9268229af5f49abad53dc313f3db23de5c5492736d63e475cf1",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-santa-photos-handprint-ornaments-lifted-nutrition",
+  "seo_review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-19T22:06:45.400036+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}

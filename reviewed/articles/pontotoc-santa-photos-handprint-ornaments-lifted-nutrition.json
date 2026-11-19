@@ -1,0 +1,127 @@
+{
+  "title": "Saturday Santa visit in Pontotoc offers free photos and $15 handprint ornaments",
+  "excerpt": "Families can bring a camera and letters to Santa to Lifted Nutrition from 10 a.m. to noon Nov. 21. Cookies and milk are free for children.",
+  "locality": "Lifted Nutrition, Pontotoc, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:lifted-nutrition:2026-11-21:santa-photos-ornament-pop-up"
+  ],
+  "sources": [
+    {
+      "id": "event",
+      "title": "Santa visit announcement and ornament-price flyer",
+      "url": "https://www.facebook.com/1162843435852264/posts/1783329023803699",
+      "publisher": "Lifted Nutrition announcement shared by Pontotoc County Chamber Main Street",
+      "role": "event",
+      "verified_at": "2026-11-19T22:06:45.400036+00:00",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7lo1260by.rss",
+      "published_at": "2026-11-18T15:52:43+00:00"
+    },
+    {
+      "id": "address",
+      "title": "Lifted Nutrition location on West Reynolds Street",
+      "url": "https://www.restaurantji.com/ms/pontotoc/lifted-nutrition-pontotoc-/",
+      "publisher": "Restaurantji location directory",
+      "role": "background",
+      "verified_at": "2026-11-19T22:06:45.400036+00:00",
+      "verification_url": "https://www.restaurantji.com/ms/pontotoc/lifted-nutrition-pontotoc-/",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Children can visit Santa and Mrs. Claus at Lifted Nutrition in Pontotoc from 10 a.m. to noon Saturday, Nov. 21. Families can take their own photos for free. A handprint ornament made during the same two-hour visit costs $15.",
+      "source_ids": [
+        "event"
+      ],
+      "evidence": "The host announcement offers free photos and asks visitors to bring a camera. The accompanying flyer gives the date, time and per-ornament price.",
+      "statistics": "Nov. 21; 10 a.m. to noon; $15 per ornament.",
+      "date_context": "Chamber feed post Wednesday, Nov. 18, about Saturday, Nov. 21, 2026. Local times.",
+      "locality": "Lifted Nutrition, Pontotoc, Mississippi.",
+      "identities": "Lifted Nutrition, Morgan Voyles and the Pontotoc County Chamber Main Street feed."
+    },
+    {
+      "id": "f2",
+      "statement": "The shop is at 269 W. Reynolds St. The organizers ask families to bring a camera for pictures at the balloon arch and invite children to bring letters to leave in Santa\u2019s mailbox. Cookies and milk will be available to children at no charge.",
+      "source_ids": [
+        "event",
+        "address"
+      ],
+      "evidence": "The directory lists the street address. The post mentions the arch, mailbox, treats and milk. The inspected flyer specifies cookies.",
+      "statistics": "269 W. Reynolds St.",
+      "date_context": "Chamber feed post Wednesday, Nov. 18, about Saturday, Nov. 21, 2026. Local times.",
+      "locality": "Lifted Nutrition, Pontotoc, Mississippi.",
+      "identities": "Lifted Nutrition, Morgan Voyles and the Pontotoc County Chamber Main Street feed."
+    },
+    {
+      "id": "f3",
+      "statement": "Morgan Voyles will offer the handprint ornaments during the Santa visit. The shop lists its regular Saturday hours as 8 a.m. to 3 p.m., so families who want a photo or an ornament should plan around the shorter morning event.",
+      "source_ids": [
+        "event"
+      ],
+      "evidence": "The post identifies the ornament maker, the two-hour pop-up and the longer business hours.",
+      "statistics": "Shop 8 a.m. to 3 p.m.; pop-up 10 a.m. to noon.",
+      "date_context": "Chamber feed post Wednesday, Nov. 18, about Saturday, Nov. 21, 2026. Local times.",
+      "locality": "Lifted Nutrition, Pontotoc, Mississippi.",
+      "identities": "Lifted Nutrition, Morgan Voyles and the Pontotoc County Chamber Main Street feed."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Children can visit Santa and Mrs. Claus at Lifted Nutrition in Pontotoc from 10 a.m. to noon Saturday, Nov. 21. Families can take their own photos for free. A handprint ornament made during the same two-hour visit costs $15.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The shop is at 269 W. Reynolds St. The organizers ask families to bring a camera for pictures at the balloon arch and invite children to bring letters to leave in Santa\u2019s mailbox. Cookies and milk will be available to children at no charge.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Morgan Voyles will offer the handprint ornaments during the Santa visit. The shop lists its regular Saturday hours as 8 a.m. to 3 p.m., so families who want a photo or an ornament should plan around the shorter morning event.",
+      "fact_ids": [
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-santa-photos-handprint-ornaments-lifted-nutrition.png",
+    "sha256": "b362cb04cca08c58a7397a32e844f53f4b5e58be112b315f326439c11500959d",
+    "alt_text": "Saturday at Lifted Nutrition. Santa visits from 10 a.m. to noon. Photos are free and handprint ornaments cost $15 each.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-19T22:06:45.400036+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 19 afternoon Pontotoc News editorial shift. Publish this reviewed package after successful authenticated preflight."
+  }
+}
