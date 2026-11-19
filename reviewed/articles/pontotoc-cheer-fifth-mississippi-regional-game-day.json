@@ -1,0 +1,137 @@
+{
+  "title": "Pontotoc cheer finishes a tenth of a point out of fourth at Mississippi Regional",
+  "excerpt": "The Warriors placed fifth out of seven in small varsity non-tumbling game day. Pontotoc earned the division\u2019s second-highest raw score.",
+  "locality": "Pontotoc High School of Pontotoc, Mississippi, at the Mississippi Regional in Jackson.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:phs-cheer:2026-11-14:mississippi-regional-game-day-final"
+  ],
+  "sources": [
+    {
+      "id": "results",
+      "title": "Complete regional final, with raw scores, deductions and places",
+      "url": "https://tv.varsity.com/events/16156290-2026-uca-uda-mississippi-regional/results/view-all?facets=%7B%22class%22%3A%22Cheer%22%2C%22division%22%3A%22Small+Varsity+Non+Tumbling+Game+Day%22%2C%22roundName%22%3A%22Finals%22%7D",
+      "publisher": "Varsity TV",
+      "role": "event",
+      "verified_at": "2026-11-19T15:08:33.056639+00:00",
+      "verification_url": "https://tv.varsity.com/events/16156290-2026-uca-uda-mississippi-regional/results/view-all?facets=%7B%22class%22%3A%22Cheer%22%2C%22division%22%3A%22Small+Varsity+Non+Tumbling+Game+Day%22%2C%22roundName%22%3A%22Finals%22%7D",
+      "published_at": null
+    },
+    {
+      "id": "school",
+      "title": "Pontotoc City School District November events",
+      "url": "https://www.pontotoc.school/apps/events/2026/11/?id=0&id=4",
+      "publisher": "Pontotoc City School District",
+      "role": "background",
+      "verified_at": "2026-11-19T15:08:33.056639+00:00",
+      "verification_url": "https://www.pontotoc.school/apps/events/2026/11/?id=0&id=4",
+      "published_at": null
+    },
+    {
+      "id": "state",
+      "title": "State cheer and dance competition dates",
+      "url": "https://www.misshsaa.com/2026/06/18/spirit-dates-for-2026-2027-school-year/",
+      "publisher": "Mississippi High School Activities Association",
+      "role": "background",
+      "verified_at": "2026-11-19T15:08:33.056639+00:00",
+      "verification_url": "https://www.misshsaa.com/2026/06/18/spirit-dates-for-2026-2027-school-year/",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "One tenth of a point separated Pontotoc from fourth place in the small varsity non-tumbling game day final at the Mississippi Regional in Jackson. The Warriors finished fifth among seven cheer teams with 77.4 points. McLaurin took fourth with 77.5.",
+      "source_ids": [
+        "results",
+        "school"
+      ],
+      "evidence": "Full division table lists seven teams and fourth/fifth scores. District calendar lists cheer in Jackson Nov. 14.",
+      "statistics": "0.1 point; fifth of seven; 77.4 and 77.5.",
+      "date_context": "School calendar lists Jackson on Saturday, Nov. 14, 2026. Regional Nov. 14\u201315. State schedule release Nov. 23 and cheer competition Dec. 12.",
+      "locality": "Pontotoc High School of Pontotoc, Mississippi, at the Mississippi Regional in Jackson.",
+      "identities": "Pontotoc High School, McLaurin, Starkville Academy, Union, Forrest County Agricultural, Myrtle and the Mississippi High School Activities Association."
+    },
+    {
+      "id": "f2",
+      "statement": "Pontotoc\u2019s 79.4 raw score was second only to Starkville Academy\u2019s 81.1. A two-point deduction dropped the Warriors behind McLaurin, which took no deductions. Starkville Academy won the division, followed by Union at 79.2 and Forrest County Agricultural at 78.5. Myrtle finished sixth with 73.6.",
+      "source_ids": [
+        "results"
+      ],
+      "evidence": "Reviewed all seven organizer rows and compared raw column to event score. Starkville Academy had zero deduction.",
+      "statistics": "79.4; 81.1; 2; 79.2; 78.5; 73.6.",
+      "date_context": "School calendar lists Jackson on Saturday, Nov. 14, 2026. Regional Nov. 14\u201315. State schedule release Nov. 23 and cheer competition Dec. 12.",
+      "locality": "Pontotoc High School of Pontotoc, Mississippi, at the Mississippi Regional in Jackson.",
+      "identities": "Pontotoc High School, McLaurin, Starkville Academy, Union, Forrest County Agricultural, Myrtle and the Mississippi High School Activities Association."
+    },
+    {
+      "id": "f3",
+      "statement": "The next date for fans following the state cheer competition is Monday, Nov. 23. The Mississippi High School Activities Association plans to release the competition schedule after 2 p.m. that day. The junior high, junior varsity and varsity cheer competitions are set for Saturday, Dec. 12.",
+      "source_ids": [
+        "state"
+      ],
+      "evidence": "MHSAA lists the schedule release Nov. 23 after 2 and cheer JH/JV/V Dec. 12. No individual school appearance is asserted.",
+      "statistics": "Nov. 23 after 2 p.m.; Dec. 12.",
+      "date_context": "School calendar lists Jackson on Saturday, Nov. 14, 2026. Regional Nov. 14\u201315. State schedule release Nov. 23 and cheer competition Dec. 12.",
+      "locality": "Pontotoc High School of Pontotoc, Mississippi, at the Mississippi Regional in Jackson.",
+      "identities": "Pontotoc High School, McLaurin, Starkville Academy, Union, Forrest County Agricultural, Myrtle and the Mississippi High School Activities Association."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "One tenth of a point separated Pontotoc from fourth place in the small varsity non-tumbling game day final at the Mississippi Regional in Jackson. The Warriors finished fifth among seven cheer teams with 77.4 points. McLaurin took fourth with 77.5.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "Pontotoc\u2019s 79.4 raw score was second only to Starkville Academy\u2019s 81.1. A two-point deduction dropped the Warriors behind McLaurin, which took no deductions. Starkville Academy won the division, followed by Union at 79.2 and Forrest County Agricultural at 78.5. Myrtle finished sixth with 73.6.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "The next date for fans following the state cheer competition is Monday, Nov. 23. The Mississippi High School Activities Association plans to release the competition schedule after 2 p.m. that day. The junior high, junior varsity and varsity cheer competitions are set for Saturday, Dec. 12.",
+      "fact_ids": [
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-cheer-fifth-mississippi-regional-game-day.png",
+    "sha256": "6aa7fe076360188fb7b9216881d5e9fb2992828f2508f7f31edec0b58b811ee2",
+    "alt_text": "McLaurin scored 77.5, Pontotoc 77.4 and Myrtle 73.6 in the small varsity non-tumbling game day final.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-19T15:08:33.056639+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "November 19 authorized morning editorial shift. Publish the reviewed article after the authenticated read-only preflight."
+  }
+}
