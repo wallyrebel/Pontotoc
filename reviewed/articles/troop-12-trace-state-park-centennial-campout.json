@@ -1,0 +1,156 @@
+{
+  "title": "Troop 12 asks for Friday RSVPs for its 100th anniversary at Trace State Park",
+  "excerpt": "The Dec. 5 gathering starts at 2 p.m. Scouts, alumni and families can come for the afternoon, order dinner or camp overnight.",
+  "locality": "Trace State Park in Pontotoc County, Mississippi. The park uses a Belden mailing address.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:trace-state-park:2026-12-05:troop-12-centennial-campout"
+  ],
+  "sources": [
+    {
+      "id": "troop",
+      "title": "Troop 12 centennial campout registration and meal choices",
+      "url": "https://form.jotform.com/262767862060059",
+      "publisher": "Troop 12",
+      "role": "event",
+      "verified_at": "2026-11-19T22:06:45.400036+00:00",
+      "verification_url": "https://form.jotform.com/262767862060059",
+      "published_at": null
+    },
+    {
+      "id": "park",
+      "title": "Trace State Park entrance, directions and contact information",
+      "url": "https://www.mdwfp.com/parks-destinations/park/trace-state-park",
+      "publisher": "Mississippi Department of Wildlife, Fisheries, and Parks",
+      "role": "background",
+      "verified_at": "2026-11-19T22:06:45.400036+00:00",
+      "verification_url": "https://www.mdwfp.com/parks-destinations/park/trace-state-park",
+      "published_at": null
+    },
+    {
+      "id": "county",
+      "title": "Trace State Park Lake location in Pontotoc County",
+      "url": "https://www.mdwfp.com/fishing-boating/lakes/trace-state-park-lake",
+      "publisher": "Mississippi Department of Wildlife, Fisheries, and Parks",
+      "role": "background",
+      "verified_at": "2026-11-19T22:06:45.400036+00:00",
+      "verification_url": "https://www.mdwfp.com/fishing-boating/lakes/trace-state-park-lake",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Troop 12 is asking Scouts, former members, families and friends to RSVP by Friday, Nov. 20, for its 100th anniversary gathering at Trace State Park in Pontotoc County. The celebration begins at 2 p.m. Saturday, Dec. 5.",
+      "source_ids": [
+        "troop",
+        "county"
+      ],
+      "evidence": "The registration form gives the deadline, audience, date and start time. The state places the park lake in Pontotoc County.",
+      "statistics": "100th anniversary; Nov. 20; Dec. 5 at 2 p.m.",
+      "date_context": "RSVP Friday, Nov. 20, for Saturday, Dec. 5, 2026. Times are local.",
+      "locality": "Trace State Park in Pontotoc County, Mississippi. The park uses a Belden mailing address.",
+      "identities": "Troop 12 and the Mississippi Department of Wildlife, Fisheries, and Parks."
+    },
+    {
+      "id": "f2",
+      "statement": "The troop says December will be its 905th consecutive month of camping. Scouts will have a designated camping area. Alumni, relatives and friends can camp, too, or join the afternoon festivities without staying overnight.",
+      "source_ids": [
+        "troop"
+      ],
+      "evidence": "Organizers describe their consecutive monthly campout count, kickoff and separate Scout camping area.",
+      "statistics": "905th consecutive monthly campout.",
+      "date_context": "RSVP Friday, Nov. 20, for Saturday, Dec. 5, 2026. Times are local.",
+      "locality": "Trace State Park in Pontotoc County, Mississippi. The park uses a Belden mailing address.",
+      "identities": "Troop 12 and the Mississippi Department of Wildlife, Fisheries, and Parks."
+    },
+    {
+      "id": "f3",
+      "statement": "Guests planning to eat with the troop can reserve dinner for $17 per person. A commemorative patch costs $10. The registration form asks guests to enter quantities even if they plan to pay at the gathering so organizers know how much food to order.",
+      "source_ids": [
+        "troop"
+      ],
+      "evidence": "The organizer form lists the meal and patch prices and explains the pay-at-event reservation option.",
+      "statistics": "$17 meal; $10 patch.",
+      "date_context": "RSVP Friday, Nov. 20, for Saturday, Dec. 5, 2026. Times are local.",
+      "locality": "Trace State Park in Pontotoc County, Mississippi. The park uses a Belden mailing address.",
+      "identities": "Troop 12 and the Mississippi Department of Wildlife, Fisheries, and Parks."
+    },
+    {
+      "id": "f4",
+      "statement": "The park lists its entrance at 2139 Faulkner Road, Belden. Drivers coming from the Natchez Trace Parkway can follow Mississippi 6/U.S. 278 west to Faulkner Road, then continue two miles to the park office. The state cautions that navigation apps may otherwise send visitors down narrow dirt roads.",
+      "source_ids": [
+        "park"
+      ],
+      "evidence": "Park office address and official approach via Highway 6/278 to Faulkner Road.",
+      "statistics": "2139 Faulkner Road; two miles on Faulkner Road.",
+      "date_context": "RSVP Friday, Nov. 20, for Saturday, Dec. 5, 2026. Times are local.",
+      "locality": "Trace State Park in Pontotoc County, Mississippi. The park uses a Belden mailing address.",
+      "identities": "Troop 12 and the Mississippi Department of Wildlife, Fisheries, and Parks."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Troop 12 is asking Scouts, former members, families and friends to RSVP by Friday, Nov. 20, for its 100th anniversary gathering at Trace State Park in Pontotoc County. The celebration begins at 2 p.m. Saturday, Dec. 5.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The troop says December will be its 905th consecutive month of camping. Scouts will have a designated camping area. Alumni, relatives and friends can camp, too, or join the afternoon festivities without staying overnight.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Guests planning to eat with the troop can reserve dinner for $17 per person. A commemorative patch costs $10. The registration form asks guests to enter quantities even if they plan to pay at the gathering so organizers know how much food to order.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "The park lists its entrance at 2139 Faulkner Road, Belden. Drivers coming from the Natchez Trace Parkway can follow Mississippi 6/U.S. 278 west to Faulkner Road, then continue two miles to the park office. The state cautions that navigation apps may otherwise send visitors down narrow dirt roads.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/troop-12-trace-state-park-centennial-campout.png",
+    "sha256": "45ecbeccdc7feb2de34a6cc61734a22f47db300c97331694944850304ad1a698",
+    "alt_text": "Troop 12 campout dates. RSVP Nov. 20 for the Dec. 5 gathering at 2 p.m. Dinner costs $17.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-19T22:06:45.400036+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 19 afternoon Pontotoc News editorial shift. Publish this reviewed package after successful authenticated preflight."
+  }
+}
