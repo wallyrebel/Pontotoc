@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-food-depot-november-distribution-december-signup.json",
   "article_sha256": "41e3bda1de5623a43dadcd90829bbb6ae8727608236fce0ab73d051af048ce2f",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-food-depot-november-distribution-december-signup",
   "seo_review": {
     "reviewer": "Pontotoc News morning desk",
