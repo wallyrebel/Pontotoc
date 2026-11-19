@@ -1,0 +1,193 @@
+{
+  "title": "UMMC wins imaging education award. How the Jackson and Tupelo programs compare",
+  "excerpt": "UMMC sets a Feb. 15 application deadline for its traditional radiologic sciences degree. Itawamba Community College offers a five-semester associate degree in Tupelo.",
+  "locality": "Statewide education in Mississippi, with radiography training in nearby Tupelo for Pontotoc County readers.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:ummc:2026:minnies-radiologic-sciences-program-award",
+    "ms:ummc:2026:mri-ten-year-first-time-pass-rate"
+  ],
+  "sources": [
+    {
+      "id": "award",
+      "title": "UMMC reports the national imaging education award and graduate outcomes",
+      "url": "https://www.umc.edu/news/News_Articles/2026/11/Rad-Sci-Minnie.html",
+      "publisher": "University of Mississippi Medical Center",
+      "role": "event",
+      "verified_at": "2026-11-19T22:09:24.423100+00:00",
+      "verification_url": "https://www.umc.edu/news/News_Articles/2026/11/Rad-Sci-Minnie.html",
+      "published_at": null
+    },
+    {
+      "id": "mri",
+      "title": "UMMC reports 10 years of first-attempt MRI exam results",
+      "url": "https://www.umc.edu/news/News_Articles/2026/11/MRI-Pass-Rate.html",
+      "publisher": "University of Mississippi Medical Center",
+      "role": "event",
+      "verified_at": "2026-11-19T22:09:24.423100+00:00",
+      "verification_url": "https://www.umc.edu/news/News_Articles/2026/11/MRI-Pass-Rate.html",
+      "published_at": null
+    },
+    {
+      "id": "icc",
+      "title": "Itawamba Community College radiologic technology program and adviser",
+      "url": "https://www.iccms.edu/Programs-of-Study/School-of-Health-Science/Radiologic-Technology",
+      "publisher": "Itawamba Community College",
+      "role": "background",
+      "verified_at": "2026-11-19T22:09:24.423100+00:00",
+      "verification_url": "https://www.iccms.edu/Programs-of-Study/School-of-Health-Science/Radiologic-Technology",
+      "published_at": null
+    },
+    {
+      "id": "accreditor",
+      "title": "Accreditor directory for the ICC radiography program in Tupelo",
+      "url": "https://www.jrcert.org/programs/itawamba-community-college/",
+      "publisher": "Joint Review Committee on Education in Radiologic Technology",
+      "role": "background",
+      "verified_at": "2026-11-19T22:09:24.423100+00:00",
+      "verification_url": "https://www.jrcert.org/programs/itawamba-community-college/",
+      "published_at": null
+    },
+    {
+      "id": "rules",
+      "title": "UMMC radiologic sciences requirements for fall 2027 entry",
+      "url": "https://www.umc.edu/shrp/Radiologic%20Sciences/Admissions/Admission%20Requirements1.html",
+      "publisher": "University of Mississippi Medical Center",
+      "role": "background",
+      "verified_at": "2026-11-19T22:09:24.423100+00:00",
+      "verification_url": "https://www.umc.edu/shrp/Radiologic%20Sciences/Admissions/Admission%20Requirements1.html",
+      "published_at": null
+    },
+    {
+      "id": "apply",
+      "title": "UMMC traditional program application and fee deadline",
+      "url": "https://umc.edu/shrp/Radiologic%20Sciences/Admissions/Application%20Procedure%20-%20Traditional.html",
+      "publisher": "University of Mississippi Medical Center",
+      "role": "background",
+      "verified_at": "2026-11-19T22:09:24.423100+00:00",
+      "verification_url": "https://umc.edu/shrp/Radiologic%20Sciences/Admissions/Application%20Procedure%20-%20Traditional.html",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "The University of Mississippi Medical Center in Jackson won AuntMinnie.com\u2019s 2026 award for Best Radiologic Sciences Program. For Pontotoc County students considering a career taking X-rays, UMMC offers a bachelor\u2019s degree. Closer to home, Itawamba Community College offers an associate degree in Tupelo.",
+      "source_ids": [
+        "award",
+        "icc",
+        "accreditor"
+      ],
+      "evidence": "UMMC identifies the named trade-publication award and its bachelor\u2019s program. ICC offers an entry-level associate degree; the accreditor lists its Tupelo address.",
+      "statistics": "2026 award; two programs compared.",
+      "date_context": "UMMC reported the award on Nov. 16 and MRI results on Nov. 9, 2026. The cited admission standards apply to fall 2027.",
+      "locality": "Statewide education in Mississippi, with radiography training in nearby Tupelo for Pontotoc County readers.",
+      "identities": "University of Mississippi Medical Center, Itawamba Community College, AuntMinnie.com and the Joint Review Committee on Education in Radiologic Technology."
+    },
+    {
+      "id": "f2",
+      "statement": "ICC admits one class each fall. Students complete five semesters for an Associate of Applied Science and become eligible for the American Registry of Radiologic Technologists exam. The program requires prerequisites and an ACT score of at least 18. ICC lists a health science adviser at 662-620-5239 for questions about the program.",
+      "source_ids": [
+        "icc"
+      ],
+      "evidence": "ICC lists its intake, degree, professional exam, minimum ACT and adviser phone.",
+      "statistics": "Five semesters; ACT minimum 18; 662-620-5239.",
+      "date_context": "UMMC reported the award on Nov. 16 and MRI results on Nov. 9, 2026. The cited admission standards apply to fall 2027.",
+      "locality": "Statewide education in Mississippi, with radiography training in nearby Tupelo for Pontotoc County readers.",
+      "identities": "University of Mississippi Medical Center, Itawamba Community College, AuntMinnie.com and the Joint Review Committee on Education in Radiologic Technology."
+    },
+    {
+      "id": "f3",
+      "statement": "UMMC\u2019s traditional bachelor\u2019s program lasts 22 months. Applicants for fall 2027 need at least 60 hours of qualifying college credit, a cumulative GPA of 3.0 and an ACT superscore of at least 18. The university requires scores from all four ACT sections, including science. Application materials and the $25 fee are due Feb. 15.",
+      "source_ids": [
+        "award",
+        "rules",
+        "apply"
+      ],
+      "evidence": "UMMC lists the duration, entry-cycle educational criteria, science score requirement, fee and receipt deadline for traditional admissions.",
+      "statistics": "22 months; 60 semester hours; 3.0 GPA; ACT superscore 18; $25; Feb. 15.",
+      "date_context": "UMMC reported the award on Nov. 16 and MRI results on Nov. 9, 2026. The cited admission standards apply to fall 2027.",
+      "locality": "Statewide education in Mississippi, with radiography training in nearby Tupelo for Pontotoc County readers.",
+      "identities": "University of Mississippi Medical Center, Itawamba Community College, AuntMinnie.com and the Joint Review Committee on Education in Radiologic Technology."
+    },
+    {
+      "id": "f4",
+      "statement": "UMMC reports that 95.6% of graduates of its traditional program passed their certification exam on the first attempt within six months of graduation. Its separate master\u2019s program in magnetic resonance imaging also reported results this month. Every graduate passed the MRI credentialing exam on the first try for 10 straight years.",
+      "source_ids": [
+        "award",
+        "mri"
+      ],
+      "evidence": "UMMC reports the undergraduate and graduate results separately. The Nov. 9 MRI report identifies the decade of first-attempt passes.",
+      "statistics": "95.6% first-time rate within six months; 10 consecutive years for the MRI program.",
+      "date_context": "UMMC reported the award on Nov. 16 and MRI results on Nov. 9, 2026. The cited admission standards apply to fall 2027.",
+      "locality": "Statewide education in Mississippi, with radiography training in nearby Tupelo for Pontotoc County readers.",
+      "identities": "University of Mississippi Medical Center, Itawamba Community College, AuntMinnie.com and the Joint Review Committee on Education in Radiologic Technology."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "The University of Mississippi Medical Center in Jackson won AuntMinnie.com\u2019s 2026 award for Best Radiologic Sciences Program. For Pontotoc County students considering a career taking X-rays, UMMC offers a bachelor\u2019s degree. Closer to home, Itawamba Community College offers an associate degree in Tupelo.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "ICC admits one class each fall. Students complete five semesters for an Associate of Applied Science and become eligible for the American Registry of Radiologic Technologists exam. The program requires prerequisites and an ACT score of at least 18. ICC lists a health science adviser at 662-620-5239 for questions about the program.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "UMMC\u2019s traditional bachelor\u2019s program lasts 22 months. Applicants for fall 2027 need at least 60 hours of qualifying college credit, a cumulative GPA of 3.0 and an ACT superscore of at least 18. The university requires scores from all four ACT sections, including science. Application materials and the $25 fee are due Feb. 15.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "UMMC reports that 95.6% of graduates of its traditional program passed their certification exam on the first attempt within six months of graduation. Its separate master\u2019s program in magnetic resonance imaging also reported results this month. Every graduate passed the MRI credentialing exam on the first try for 10 straight years.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/mississippi-radiologic-sciences-award-imaging-programs-tupelo-jackson.png",
+    "sha256": "ef3d186c5a56d01805e5d193200684e6d523f8613d00423dcca4da5b20f33dbd",
+    "alt_text": "ICC offers a five-semester associate degree. UMMC offers a 22-month traditional bachelor\u2019s track and sets a Feb. 15 application deadline.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-19T22:09:24.423100+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ],
+    "excerpt_fact_ids": [
+      "f2",
+      "f3",
+      "f1"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 19 afternoon Pontotoc News editorial shift. Publish this reviewed package after successful authenticated preflight."
+  }
+}

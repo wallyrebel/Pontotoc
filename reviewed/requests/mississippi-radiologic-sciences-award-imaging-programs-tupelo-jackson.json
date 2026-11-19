@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/mississippi-radiologic-sciences-award-imaging-programs-tupelo-jackson.json",
+  "article_sha256": "ab84e5ae5e77cf022d918334cadb8aee91147da488386c9e04329f38ed1eb8d5",
+  "mode": "dry-run",
+  "public_slug": "mississippi-radiologic-sciences-award-imaging-programs-tupelo-jackson",
+  "seo_review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-19T22:09:24.423100+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}
