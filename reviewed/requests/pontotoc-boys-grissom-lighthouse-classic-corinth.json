@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-boys-grissom-lighthouse-classic-corinth.json",
+  "article_sha256": "47887e1292a74b02fc5c4f0b823647230137f290149d10fde387483491695df2",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-boys-grissom-lighthouse-classic-corinth",
+  "seo_review": {
+    "reviewer": "Pontotoc News supplemental desk",
+    "reviewed_at": "2026-11-19T19:36:44.444795+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}

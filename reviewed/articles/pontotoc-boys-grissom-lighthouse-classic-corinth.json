@@ -1,0 +1,177 @@
+{
+  "title": "Pontotoc boys draw Huntsville\u2019s Grissom in the Lighthouse Classic",
+  "excerpt": "After a 68\u201334 home win over Louisville, the Warriors will face Grissom at 11:30 a.m. the day after Thanksgiving in Corinth.",
+  "locality": "Pontotoc High School in Pontotoc, Mississippi. The Lighthouse Classic game is in Corinth, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:phs-boys-basketball:2026-11-27:lighthouse-grissom",
+    "ms:pontotoc:phs-boys-basketball:2026-11-17:louisville-final"
+  ],
+  "sources": [
+    {
+      "id": "fixture",
+      "title": "Pontotoc\u2013Grissom game listing",
+      "url": "https://www.maxpreps.com/inter-state/basketball/game/grissom-huntsville-al-vs-pontotoc-ms/11-27-2026/?c=e5562aab-4494-4de0-8172-3657cf27cfba",
+      "publisher": "MaxPreps team schedule",
+      "role": "event",
+      "verified_at": "2026-11-19T19:36:44.444795+00:00",
+      "verification_url": "https://www.maxpreps.com/inter-state/basketball/game/grissom-huntsville-al-vs-pontotoc-ms/11-27-2026/?c=e5562aab-4494-4de0-8172-3657cf27cfba",
+      "published_at": null
+    },
+    {
+      "id": "classic",
+      "title": "Lighthouse Classic schedule, admission and directions",
+      "url": "https://lighthouseclassic.com/",
+      "publisher": "Lighthouse Classic",
+      "role": "event",
+      "verified_at": "2026-11-19T19:36:44.444795+00:00",
+      "verification_url": "https://lighthouseclassic.com/",
+      "published_at": null
+    },
+    {
+      "id": "score",
+      "title": "Nov. 17 Louisville\u2013Pontotoc boys box score",
+      "url": "https://www.maxpreps.com/ms/basketball/game/louisville-vs-pontotoc/11-17-2026/?c=107a071d-20ce-4709-8c7d-6c12a46d4254",
+      "publisher": "MaxPreps game record",
+      "role": "event",
+      "verified_at": "2026-11-19T19:36:44.444795+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/basketball/game/louisville-vs-pontotoc/11-17-2026/?c=107a071d-20ce-4709-8c7d-6c12a46d4254",
+      "published_at": null
+    },
+    {
+      "id": "warriors",
+      "title": "Pontotoc boys basketball results and schedule",
+      "url": "https://www.maxpreps.com/ms/pontotoc/pontotoc-warriors/basketball/schedule/",
+      "publisher": "Pontotoc team schedule on MaxPreps",
+      "role": "background",
+      "verified_at": "2026-11-19T19:36:44.444795+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/pontotoc/pontotoc-warriors/basketball/schedule/",
+      "published_at": null
+    },
+    {
+      "id": "tigers",
+      "title": "Grissom boys basketball results and schedule",
+      "url": "https://www.maxpreps.com/al/huntsville/grissom-tigers/basketball/schedule/",
+      "publisher": "Grissom team schedule on MaxPreps",
+      "role": "background",
+      "verified_at": "2026-11-19T19:36:44.444795+00:00",
+      "verification_url": "https://www.maxpreps.com/al/huntsville/grissom-tigers/basketball/schedule/",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc\u2019s boys will play Grissom of Huntsville, Alabama, at 11:30 a.m. Friday, Nov. 27, in Corinth. The Warriors have the second game of the Lighthouse Classic at Corinth High School. Alcorn Central and Holly Springs open the day at 10 a.m.",
+      "source_ids": [
+        "fixture",
+        "classic"
+      ],
+      "evidence": "Neutral site, both team names, date and time match the organizer\u2019s Friday lineup.",
+      "statistics": "Nov. 27; 10 and 11:30 a.m.; second game.",
+      "date_context": "Boys basketball, November 2026. Completed games are identified separately from upcoming games.",
+      "locality": "Pontotoc High School in Pontotoc, Mississippi. The Lighthouse Classic game is in Corinth, Mississippi.",
+      "identities": "Pontotoc Warriors, Grissom Tigers of Huntsville, Louisville Wildcats, DeSoto Central, Lake Cormorant, Tupelo, Alcorn Central and Holly Springs."
+    },
+    {
+      "id": "f2",
+      "statement": "The Warriors head into Thursday\u2019s trip to Tupelo coming off a 68\u201334 home win over Louisville on Tuesday. It was the most Pontotoc had scored in its first three games. The Warriors opened with a 55\u201344 win over Lake Cormorant and lost 63\u201344 to DeSoto Central.",
+      "source_ids": [
+        "score",
+        "warriors"
+      ],
+      "evidence": "The boys box score for Nov. 17 and the first three finals on the Warriors schedule agree. The 59\u201353 Louisville result previously published was the girls game.",
+      "statistics": "68\u201334; 55\u201344; 63\u201344; three games.",
+      "date_context": "Boys basketball, November 2026. Completed games are identified separately from upcoming games.",
+      "locality": "Pontotoc High School in Pontotoc, Mississippi. The Lighthouse Classic game is in Corinth, Mississippi.",
+      "identities": "Pontotoc Warriors, Grissom Tigers of Huntsville, Louisville Wildcats, DeSoto Central, Lake Cormorant, Tupelo, Alcorn Central and Holly Springs."
+    },
+    {
+      "id": "f3",
+      "statement": "Grissom also won by more than 30 points in its most recent game, beating St. John Paul II 71\u201336 on Monday. The Tigers list Sparkman, LeFlore and North Little Rock before their meeting with Pontotoc.",
+      "source_ids": [
+        "tigers"
+      ],
+      "evidence": "The Grissom schedule lists the Nov. 16 result and Nov. 20, 23 and 24 opponents before Nov. 27.",
+      "statistics": "71\u201336, a 35-point margin.",
+      "date_context": "Boys basketball, November 2026. Completed games are identified separately from upcoming games.",
+      "locality": "Pontotoc High School in Pontotoc, Mississippi. The Lighthouse Classic game is in Corinth, Mississippi.",
+      "identities": "Pontotoc Warriors, Grissom Tigers of Huntsville, Louisville Wildcats, DeSoto Central, Lake Cormorant, Tupelo, Alcorn Central and Holly Springs."
+    },
+    {
+      "id": "f4",
+      "statement": "For fans traveling to Corinth, the gym is at 1310 N. Harper Road. The organizer lists admission at $20 for adults and $10 for students in kindergarten through 12th grade, with children 5 and younger admitted free. A one-day pass that allows fans to leave and return costs $25.",
+      "source_ids": [
+        "classic"
+      ],
+      "evidence": "Read organizer\u2019s tickets and directions sections, including K\u201312, under-six and single-day come-and-go prices.",
+      "statistics": "1310; $20, $10 and $25; grade 12; age 5.",
+      "date_context": "Boys basketball, November 2026. Completed games are identified separately from upcoming games.",
+      "locality": "Pontotoc High School in Pontotoc, Mississippi. The Lighthouse Classic game is in Corinth, Mississippi.",
+      "identities": "Pontotoc Warriors, Grissom Tigers of Huntsville, Louisville Wildcats, DeSoto Central, Lake Cormorant, Tupelo, Alcorn Central and Holly Springs."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc\u2019s boys will play Grissom of Huntsville, Alabama, at 11:30 a.m. Friday, Nov. 27, in Corinth. The Warriors have the second game of the Lighthouse Classic at Corinth High School. Alcorn Central and Holly Springs open the day at 10 a.m.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The Warriors head into Thursday\u2019s trip to Tupelo coming off a 68\u201334 home win over Louisville on Tuesday. It was the most Pontotoc had scored in its first three games. The Warriors opened with a 55\u201344 win over Lake Cormorant and lost 63\u201344 to DeSoto Central.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Grissom also won by more than 30 points in its most recent game, beating St. John Paul II 71\u201336 on Monday. The Tigers list Sparkman, LeFlore and North Little Rock before their meeting with Pontotoc.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "For fans traveling to Corinth, the gym is at 1310 N. Harper Road. The organizer lists admission at $20 for adults and $10 for students in kindergarten through 12th grade, with children 5 and younger admitted free. A one-day pass that allows fans to leave and return costs $25.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-boys-grissom-lighthouse-classic-corinth.png",
+    "sha256": "f1d143cce86818cf239bb7428a0e30494298c70934c650b75bf9fdc0a65b7057",
+    "alt_text": "Pontotoc plays Grissom at 11:30 a.m. Nov. 27 in Corinth. Adult admission is $20, K\u201312 is $10 and children 5 and younger get in free.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News supplemental desk",
+    "reviewed_at": "2026-11-19T19:36:44.444795+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 19 supplemental shift. Publish the reviewed copy after an authenticated read-only preflight."
+  }
+}
