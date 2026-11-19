@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/ecru-police-license-plate-reader-agreement-transportation-commission.json",
   "article_sha256": "e6b54faebf791c7271c9d799eb82d28eac396b6bb8537ef874b73a6013a3cd38",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "ecru-police-license-plate-reader-agreement-transportation-commission",
   "seo_review": {
     "reviewer": "Pontotoc News afternoon desk",
