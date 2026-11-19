@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-markavion-jones-season-yards-north-all-star-roster.json",
+  "article_sha256": "92b85df3fdec71e8b20557e5c0c6336c2dac7a53aaa5e56d0e8f6b47ac231292",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-markavion-jones-season-yards-north-all-star-roster",
+  "seo_review": {
+    "reviewer": "Pontotoc News evening desk",
+    "reviewed_at": "2026-11-19T03:57:03.548398+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}

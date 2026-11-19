@@ -1,0 +1,152 @@
+{
+  "title": "Pontotoc\u2019s Markavion Jones tops 2,000 all-purpose yards, joins North all-star backfield",
+  "excerpt": "Jones ran for 1,769 yards and 16 touchdowns. He is one of three Warriors on the numbered North roster for the Dec. 19 Bernard Blackwell Classic.",
+  "locality": "Pontotoc High School football in Pontotoc, Mississippi. The all-star game is in Gulfport.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:football:2026:markavion-jones-senior-season-totals",
+    "ms:pontotoc:football:2026-12-19:markavion-jones-north-roster"
+  ],
+  "sources": [
+    {
+      "id": "season",
+      "title": "Markavion Jones\u2019s 2026 senior season statistics",
+      "url": "https://www.maxpreps.com/ms/pontotoc/pontotoc-warriors/athletes/markavion-jones/football/stats/?careerid=3h7ujvdhask77",
+      "publisher": "Pontotoc player statistics on MaxPreps",
+      "role": "event",
+      "verification_url": "https://www.maxpreps.com/ms/pontotoc/pontotoc-warriors/athletes/markavion-jones/football/stats/?careerid=3h7ujvdhask77",
+      "published_at": null,
+      "verified_at": "2026-11-19T03:57:03.548398+00:00"
+    },
+    {
+      "id": "roster",
+      "title": "Mississippi Association of Coaches numbered North roster (image)",
+      "url": "https://mscoaches.com/sites/default/files/2026%20BBC%20North%20All-Star%20Football%20Team.jpg",
+      "publisher": "Mississippi Association of Coaches",
+      "role": "event",
+      "verification_url": "https://mscoaches.com/sites/default/files/2026%20BBC%20North%20All-Star%20Football%20Team.jpg",
+      "published_at": null,
+      "verified_at": "2026-11-19T03:57:03.548398+00:00"
+    },
+    {
+      "id": "game",
+      "title": "Bernard Blackwell Classic game and ticket information",
+      "url": "https://mscoaches.com/index.php/sports/football/bernard-blackwell-northsouth-all-star-game",
+      "publisher": "Mississippi Association of Coaches",
+      "role": "background",
+      "verification_url": "https://mscoaches.com/index.php/sports/football/bernard-blackwell-northsouth-all-star-game",
+      "published_at": null,
+      "verified_at": "2026-11-19T03:57:03.548398+00:00"
+    },
+    {
+      "id": "team",
+      "title": "Pontotoc team leaders and season record",
+      "url": "https://www.maxpreps.com/ms/pontotoc/pontotoc-warriors/football/stats/",
+      "publisher": "Pontotoc team statistics on MaxPreps",
+      "role": "background",
+      "verification_url": "https://www.maxpreps.com/ms/pontotoc/pontotoc-warriors/football/stats/",
+      "published_at": null,
+      "verified_at": "2026-11-19T03:57:03.548398+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Markavion Jones finished his senior season at Pontotoc with 2,009 all-purpose yards, enough to cross the 2,000-yard mark on the strength of his kickoff returns. The running back accounted for 1,897 yards from scrimmage and another 112 on kickoff returns in 11 games. He has one more game on his calendar as a member of the North all-star backfield.",
+      "source_ids": [
+        "season",
+        "roster"
+      ],
+      "evidence": "Player statistics give 1,769 rushing, 128 receiving, 112 kickoff-return and 2,009 total all-purpose yards. The North lists Jones at running back.",
+      "date_context": "Final 2026 senior season numbers for an 11-game season. All-star game on Dec. 19, 2026, Central time.",
+      "locality": "Pontotoc High School football in Pontotoc, Mississippi. The all-star game is in Gulfport.",
+      "identities": "Pontotoc seniors Markavion Jones, Keontae Griffis and Gage Luther; Mississippi Association of Coaches.",
+      "statistics": "11 games; 1,897 plus 112 equals 2,009 yards."
+    },
+    {
+      "id": "f2",
+      "statement": "On the ground, Jones carried 192 times for 1,769 yards and 16 touchdowns. He averaged 9.2 yards per carry, broke an 85-yard run and reached 100 yards rushing in six games. He added 128 yards and a touchdown on six catches for the Warriors, who finished 8\u20133.",
+      "source_ids": [
+        "season",
+        "team"
+      ],
+      "evidence": "Senior rushing row lists 192 carries, 1,769 yards, 9.2 average, 85 long, six 100-yard games and 16 touchdowns. Senior receiving row gives six catches, 128 yards and one touchdown. The team record was 8\u20133.",
+      "date_context": "Final 2026 senior season numbers for an 11-game season. All-star game on Dec. 19, 2026, Central time.",
+      "locality": "Pontotoc High School football in Pontotoc, Mississippi. The all-star game is in Gulfport.",
+      "identities": "Pontotoc seniors Markavion Jones, Keontae Griffis and Gage Luther; Mississippi Association of Coaches.",
+      "statistics": "192 rushes; 1,769 yards; 16 TD; 9.2 average; 85 long; six 100-yard games; six receptions; 128 yards; one receiving score; 8\u20133."
+    },
+    {
+      "id": "f3",
+      "statement": "The Mississippi Association of Coaches lists three Pontotoc players on its numbered roster for the Bernard Blackwell Classic. Jones is No. 33 at running back, Keontae Griffis is No. 1 at defensive back and Gage Luther is No. 74 on the offensive line. The North plays the South at 11:30 a.m. Saturday, Dec. 19, at Gulfport High School Stadium. The association lists tickets at $10 through GoFan or at the gate.",
+      "source_ids": [
+        "roster",
+        "game"
+      ],
+      "evidence": "Numbered North raster directly inspected. Lists Griffis 1 DB, Jones 33 RB and Luther 74 OL, all Pontotoc. MAC competition page confirms kickoff date/time, venue and admission.",
+      "date_context": "Final 2026 senior season numbers for an 11-game season. All-star game on Dec. 19, 2026, Central time.",
+      "locality": "Pontotoc High School football in Pontotoc, Mississippi. The all-star game is in Gulfport.",
+      "identities": "Pontotoc seniors Markavion Jones, Keontae Griffis and Gage Luther; Mississippi Association of Coaches.",
+      "statistics": "Three; Nos. 1, 33 and 74; 11:30 a.m., Dec. 19; $10."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Markavion Jones finished his senior season at Pontotoc with 2,009 all-purpose yards, enough to cross the 2,000-yard mark on the strength of his kickoff returns. The running back accounted for 1,897 yards from scrimmage and another 112 on kickoff returns in 11 games. He has one more game on his calendar as a member of the North all-star backfield.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "On the ground, Jones carried 192 times for 1,769 yards and 16 touchdowns. He averaged 9.2 yards per carry, broke an 85-yard run and reached 100 yards rushing in six games. He added 128 yards and a touchdown on six catches for the Warriors, who finished 8\u20133.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "The Mississippi Association of Coaches lists three Pontotoc players on its numbered roster for the Bernard Blackwell Classic. Jones is No. 33 at running back, Keontae Griffis is No. 1 at defensive back and Gage Luther is No. 74 on the offensive line. The North plays the South at 11:30 a.m. Saturday, Dec. 19, at Gulfport High School Stadium. The association lists tickets at $10 through GoFan or at the gate.",
+      "fact_ids": [
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-markavion-jones-season-yards-north-all-star-roster.png",
+    "sha256": "d7e38a258c33554e2e59383ba1956d719c5fceeafed3b9d9dd1cfbd9d23fd743",
+    "alt_text": "Markavion Jones gained 2,009 all-purpose yards for Pontotoc in 2026, with 1,769 rushing, 128 receiving and 112 on kickoff returns.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original local editorial data graphic drawn using simple shapes and type. No outside images or marks used."
+  },
+  "review": {
+    "reviewer": "Pontotoc News evening desk",
+    "reviewed_at": "2026-11-19T03:57:03.548398+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f3"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 18 supplemental editorial shift and approved publication after authenticated dry run."
+  }
+}
