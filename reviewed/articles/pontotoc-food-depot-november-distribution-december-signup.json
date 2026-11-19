@@ -1,0 +1,129 @@
+{
+  "title": "Pontotoc Food Depot lists Nov. 21 pickup and a separate December sign-up",
+  "excerpt": "The depot\u2019s regular schedule puts pickup and new applications on different Saturdays. A separate pantry on Highway 15 serves Pontotoc County residents on weekdays.",
+  "locality": "Pontotoc and Pontotoc County, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:churches-united-food-depot:2026-11-21:monthly-distribution-and-next-intake"
+  ],
+  "sources": [
+    {
+      "id": "coalition",
+      "title": "Hunger Coalition\u2019s Pontotoc pantry locations, hours and phones",
+      "url": "https://hungercoalitionnems.org/food-pantries-list/",
+      "publisher": "Hunger Coalition of Northeast Mississippi",
+      "role": "event",
+      "verified_at": "2026-11-19T15:08:33.056639+00:00",
+      "verification_url": "https://hungercoalitionnems.org/food-pantries-list/",
+      "published_at": null
+    },
+    {
+      "id": "chamber",
+      "title": "Pontotoc Chamber guide to monthly Food Depot registration",
+      "url": "https://pontotocchamber.com/relocation/",
+      "publisher": "Pontotoc County Chamber Main Street",
+      "role": "background",
+      "verified_at": "2026-11-19T15:08:33.056639+00:00",
+      "verification_url": "https://pontotocchamber.com/relocation/",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Saturday, Nov. 21, is the November pickup date under the Churches United Food Depot\u2019s regular third-Saturday schedule in Pontotoc. The Hunger Coalition of Northeast Mississippi lists hours of 8 to 10 a.m. at 24 S. Liberty St. Anyone making a trip can confirm arrangements with the depot at 662-419-3673.",
+      "source_ids": [
+        "coalition"
+      ],
+      "evidence": "Coalition partner entry names depot, location, phone and third Saturday 8\u201310; Nov. 21 is third Saturday.",
+      "statistics": "Nov. 21; 8\u201310 a.m.; 24 S. Liberty St.; 662-419-3673.",
+      "date_context": "The third Saturday of November 2026 is November 21. The next first Saturday is December 5. Times are regular posted hours.",
+      "locality": "Pontotoc and Pontotoc County, Mississippi.",
+      "identities": "Churches United Food Depot of Pontotoc County, Hunger Coalition of Northeast Mississippi, and Pontotoc Baptist Association Food Pantry."
+    },
+    {
+      "id": "f2",
+      "statement": "People seeking to sign up for monthly food assistance have a separate date. The depot takes applications from 8 to 10 a.m. on the first Saturday of each month, which next falls on Dec. 5. The Chamber places the registration office at the corner of Marion and Liberty streets.",
+      "source_ids": [
+        "chamber",
+        "coalition"
+      ],
+      "evidence": "Both sources distinguish first-Saturday application from distribution; Chamber identifies office intersection. Calendar checked.",
+      "statistics": "Dec. 5; 8\u201310 a.m.",
+      "date_context": "The third Saturday of November 2026 is November 21. The next first Saturday is December 5. Times are regular posted hours.",
+      "locality": "Pontotoc and Pontotoc County, Mississippi.",
+      "identities": "Churches United Food Depot of Pontotoc County, Hunger Coalition of Northeast Mississippi, and Pontotoc Baptist Association Food Pantry."
+    },
+    {
+      "id": "f3",
+      "statement": "For people seeking food during the week, the Pontotoc Baptist Association Food Pantry is a separate operation at 254 Highway 15 North. The Hunger Coalition lists its regular Tuesday and Thursday hours as 9 to 11 a.m. With Thanksgiving falling on a Thursday, call the pantry at 662-489-1251 to check holiday hours before visiting.",
+      "source_ids": [
+        "coalition"
+      ],
+      "evidence": "Partner directory gives regular hours, number and address. No Thanksgiving opening or closure is asserted.",
+      "statistics": "254 Highway 15 North; 9\u201311 a.m.; 662-489-1251.",
+      "date_context": "The third Saturday of November 2026 is November 21. The next first Saturday is December 5. Times are regular posted hours.",
+      "locality": "Pontotoc and Pontotoc County, Mississippi.",
+      "identities": "Churches United Food Depot of Pontotoc County, Hunger Coalition of Northeast Mississippi, and Pontotoc Baptist Association Food Pantry."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Saturday, Nov. 21, is the November pickup date under the Churches United Food Depot\u2019s regular third-Saturday schedule in Pontotoc. The Hunger Coalition of Northeast Mississippi lists hours of 8 to 10 a.m. at 24 S. Liberty St. Anyone making a trip can confirm arrangements with the depot at 662-419-3673.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "People seeking to sign up for monthly food assistance have a separate date. The depot takes applications from 8 to 10 a.m. on the first Saturday of each month, which next falls on Dec. 5. The Chamber places the registration office at the corner of Marion and Liberty streets.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "For people seeking food during the week, the Pontotoc Baptist Association Food Pantry is a separate operation at 254 Highway 15 North. The Hunger Coalition lists its regular Tuesday and Thursday hours as 9 to 11 a.m. With Thanksgiving falling on a Thursday, call the pantry at 662-489-1251 to check holiday hours before visiting.",
+      "fact_ids": [
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-food-depot-november-distribution-december-signup.png",
+    "sha256": "2942dd77fbeb6905b2b7a94b670ec99077af2fd6f0f24cdbb4db124c99b7bbd5",
+    "alt_text": "Food Depot schedule in Pontotoc lists Nov. 21 for pickup and Dec. 5 for applications, both 8 to 10 a.m.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-19T15:08:33.056639+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "November 19 authorized morning editorial shift. Publish the reviewed article after the authenticated read-only preflight."
+  }
+}
