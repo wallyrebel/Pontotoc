@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-wrestling-center-hill-new-albany-home-opener.json",
   "article_sha256": "5f298fa664366cddf7000bc19052edcf743f5f8e1e98aa78036b12e335d542f7",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-wrestling-center-hill-new-albany-home-opener",
   "seo_review": {
     "reviewer": "Pontotoc News morning desk",
