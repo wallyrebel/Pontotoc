@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-cheer-fifth-mississippi-regional-game-day.json",
   "article_sha256": "e3c07d01136c3b5df2c1a66feb919280369439977e5d173db35c4655d622e246",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-cheer-fifth-mississippi-regional-game-day",
   "seo_review": {
     "reviewer": "Pontotoc News morning desk",
