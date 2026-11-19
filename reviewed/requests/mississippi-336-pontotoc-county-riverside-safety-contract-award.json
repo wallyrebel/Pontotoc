@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/mississippi-336-pontotoc-county-riverside-safety-contract-award.json",
   "article_sha256": "0f164090e37bcf6560caab240439ff987ecc7430f65ea87ad2f44d21417cdc3f",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "mississippi-336-pontotoc-county-riverside-safety-contract-award",
   "seo_review": {
     "reviewer": "Pontotoc News afternoon desk",
