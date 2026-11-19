@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/troop-12-trace-state-park-centennial-campout.json",
   "article_sha256": "96e0fd155dca57ef3cc0cf7e4c90e61ba14070a85c0c48edbed5eaf5d658b582",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "troop-12-trace-state-park-centennial-campout",
   "seo_review": {
     "reviewer": "Pontotoc News afternoon desk",
