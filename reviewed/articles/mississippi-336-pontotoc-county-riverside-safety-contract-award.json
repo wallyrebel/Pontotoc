@@ -1,0 +1,146 @@
+{
+  "title": "State awards $335,270 for safety work on Mississippi 336 in Pontotoc County",
+  "excerpt": "Riverside Traffic Systems will install audible edge striping, reflective pavement markers and roadside signs between U.S. 278 and Apostolic Circle.",
+  "locality": "Mississippi 336 between U.S. 278 and Apostolic Circle in Pontotoc County, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:mdot:2026-11-10:110210301-contract-award"
+  ],
+  "sources": [
+    {
+      "id": "award",
+      "title": "Official MDOT awards for the Oct. 27 letting, action taken Nov. 10 (page 3)",
+      "url": "https://mdot.ms.gov/bidsystem_data/20261027/LETDOCS/20261027BidAwards.pdf",
+      "publisher": "Mississippi Department of Transportation",
+      "role": "event",
+      "verified_at": "2026-11-19T22:13:07.041305+00:00",
+      "verification_url": "https://mdot.ms.gov/bidsystem_data/20261027/LETDOCS/20261027BidAwards.pdf",
+      "published_at": null
+    },
+    {
+      "id": "items",
+      "title": "Original Call 14 bid tabulation with quantities and state estimate",
+      "url": "https://mdot.ms.gov/bidsystem_data/20261027/TABULATIONS/110210301000.pdf",
+      "publisher": "Mississippi Department of Transportation",
+      "role": "background",
+      "verified_at": "2026-11-19T22:13:07.041305+00:00",
+      "verification_url": "https://mdot.ms.gov/bidsystem_data/20261027/TABULATIONS/110210301000.pdf",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Riverside Traffic Systems, Inc., of New Albany has won the $335,270 contract for safety improvements on Mississippi 336 between U.S. 278 and Apostolic Circle in Pontotoc County. The Mississippi Transportation Commission awarded the work Nov. 10, according to the state\u2019s contract award report.",
+      "source_ids": [
+        "award"
+      ],
+      "evidence": "The report header names the commission action date. Page 3 associates the route, endpoints, contractor, city and price with 110210301.",
+      "statistics": "$335,270; Nov. 10; MS 336; U.S. 278.",
+      "date_context": "Bids opened Oct. 27, 2026. The commission acted Nov. 10, 2026.",
+      "locality": "Mississippi 336 between U.S. 278 and Apostolic Circle in Pontotoc County, Mississippi.",
+      "identities": "Mississippi Transportation Commission, Mississippi Department of Transportation and Riverside Traffic Systems, Inc."
+    },
+    {
+      "id": "f2",
+      "statement": "The plans call for 11 miles of audible striping along the road edges. The bid sheet also lists 1,140 raised reflective pavement markers, including 400 yellow markers and 740 clear ones. Those quantities count the markings to be installed along the route.",
+      "source_ids": [
+        "items"
+      ],
+      "evidence": "Bid rows 0110 through 0140 give 11 stripe miles, 260 two-way clear markers, 400 yellow and 480 one-way clear. Clear total 740; overall total 1,140.",
+      "statistics": "11 stripe miles; 260 + 480 clear; 400 yellow; 1,140 total.",
+      "date_context": "Bids opened Oct. 27, 2026. The commission acted Nov. 10, 2026.",
+      "locality": "Mississippi 336 between U.S. 278 and Apostolic Circle in Pontotoc County, Mississippi.",
+      "identities": "Mississippi Transportation Commission, Mississippi Department of Transportation and Riverside Traffic Systems, Inc."
+    },
+    {
+      "id": "f3",
+      "statement": "The state listed an estimate of $364,575.75 when it opened bids on Oct. 27. Riverside\u2019s award is $29,305.75 below that figure. The bid also covers aluminum roadside signs and square-tube signposts.",
+      "source_ids": [
+        "items",
+        "award"
+      ],
+      "evidence": "The MDOT tabulation header gives the estimate and letting date. Rows 0030 and 0040 specify sign material and posts. Estimate minus award equals $29,305.75.",
+      "statistics": "$364,575.75 estimate; $335,270 award; $29,305.75 difference.",
+      "date_context": "Bids opened Oct. 27, 2026. The commission acted Nov. 10, 2026.",
+      "locality": "Mississippi 336 between U.S. 278 and Apostolic Circle in Pontotoc County, Mississippi.",
+      "identities": "Mississippi Transportation Commission, Mississippi Department of Transportation and Riverside Traffic Systems, Inc."
+    },
+    {
+      "id": "f4",
+      "statement": "Drivers looking for the work in MDOT records can find it under project 110210301. The award report identifies the contractor and the section of highway. It gives no construction start date or lane-closure schedule.",
+      "source_ids": [
+        "award"
+      ],
+      "evidence": "Page 3 identifies the project and contractor. The award entry contains no start date or lane schedule.",
+      "statistics": "MDOT project 110210301.",
+      "date_context": "Bids opened Oct. 27, 2026. The commission acted Nov. 10, 2026.",
+      "locality": "Mississippi 336 between U.S. 278 and Apostolic Circle in Pontotoc County, Mississippi.",
+      "identities": "Mississippi Transportation Commission, Mississippi Department of Transportation and Riverside Traffic Systems, Inc."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Riverside Traffic Systems, Inc., of New Albany has won the $335,270 contract for safety improvements on Mississippi 336 between U.S. 278 and Apostolic Circle in Pontotoc County. The Mississippi Transportation Commission awarded the work Nov. 10, according to the state\u2019s contract award report.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The plans call for 11 miles of audible striping along the road edges. The bid sheet also lists 1,140 raised reflective pavement markers, including 400 yellow markers and 740 clear ones. Those quantities count the markings to be installed along the route.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "The state listed an estimate of $364,575.75 when it opened bids on Oct. 27. Riverside\u2019s award is $29,305.75 below that figure. The bid also covers aluminum roadside signs and square-tube signposts.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "Drivers looking for the work in MDOT records can find it under project 110210301. The award report identifies the contractor and the section of highway. It gives no construction start date or lane-closure schedule.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/mississippi-336-pontotoc-county-riverside-safety-contract-award.png",
+    "sha256": "6470ee9acf548aa56a4be856af18ade6abf05c461edfbe6592badfc35f6fa840",
+    "alt_text": "Mississippi 336 safety contract in Pontotoc County. The $335,270 award covers 11 miles of audible edge striping and 1,140 raised markers.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-19T22:13:07.041305+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 19 afternoon Pontotoc News editorial shift. Publish this reviewed package after successful authenticated preflight."
+  }
+}
