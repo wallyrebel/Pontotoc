@@ -1,0 +1,159 @@
+{
+  "title": "Pontotoc post office closes Thanksgiving Day. Here are the holiday mailing dates",
+  "excerpt": "Regular delivery and counter service resume Friday, Nov. 27. USPS gives three December send-by dates for cards and packages traveling within the lower 48 states.",
+  "locality": "U.S. Postal Service in Pontotoc, Mississippi, with national service dates applying locally.",
+  "schema_version": 1,
+  "event_keys": [
+    "us:usps:2026-11-26:thanksgiving-retail-and-delivery",
+    "us:usps:2026-12:holiday-send-by-dates"
+  ],
+  "sources": [
+    {
+      "id": "holiday",
+      "title": "USPS Thanksgiving closing and Friday service notice",
+      "url": "https://about.usps.com/newsroom/national-releases/2026/1117-usps-to-close-for-thanksgiving-holiday-on-nov-26.htm",
+      "publisher": "U.S. Postal Service",
+      "role": "event",
+      "verified_at": "2026-11-19T22:09:24.423100+00:00",
+      "verification_url": "https://about.usps.com/newsroom/national-releases/2026/1117-usps-to-close-for-thanksgiving-holiday-on-nov-26.htm",
+      "published_at": null
+    },
+    {
+      "id": "dates",
+      "title": "USPS recommended 2026 holiday mailing dates by service and destination",
+      "url": "https://about.usps.com/newsroom/national-releases/2026/0922-usps-recommends-2026-holiday-mailing-shipping-dates.htm",
+      "publisher": "U.S. Postal Service",
+      "role": "event",
+      "verified_at": "2026-11-19T22:09:24.423100+00:00",
+      "verification_url": "https://about.usps.com/newsroom/national-releases/2026/0922-usps-recommends-2026-holiday-mailing-shipping-dates.htm",
+      "published_at": null
+    },
+    {
+      "id": "location",
+      "title": "Federal record identifying the Pontotoc postal facility on Highway 15 North",
+      "url": "https://docs.house.gov/billsthisweek/20220509/BILLS-117hr209-SUS.pdf",
+      "publisher": "U.S. House of Representatives",
+      "role": "background",
+      "verified_at": "2026-11-19T22:09:24.423100+00:00",
+      "verification_url": "https://docs.house.gov/billsthisweek/20220509/BILLS-117hr209-SUS.pdf",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "The post office at 305 Highway 15 North in Pontotoc will close Thursday, Nov. 26, for Thanksgiving. Regular mail delivery and service at the counter resume Friday, Nov. 27, according to the U.S. Postal Service.",
+      "source_ids": [
+        "holiday",
+        "location"
+      ],
+      "evidence": "The Nov. 17 announcement applies to all post offices. The House document identifies the Pontotoc facility by street address.",
+      "statistics": "305 Highway 15 North; Nov. 26 and 27.",
+      "date_context": "USPS announced Thanksgiving service Nov. 17 and the 2026 holiday mailing dates Sept. 22.",
+      "locality": "U.S. Postal Service in Pontotoc, Mississippi, with national service dates applying locally.",
+      "identities": "U.S. Postal Service and the Pontotoc post office."
+    },
+    {
+      "id": "f2",
+      "statement": "Anyone who needs postage while the counter is closed can use Click-N-Ship to prepare and print a prepaid shipping label. USPS also takes stamp orders, mail-hold requests and post office box renewals online during the holiday.",
+      "source_ids": [
+        "holiday"
+      ],
+      "evidence": "USPS lists Click-N-Ship, stamp ordering, Hold Mail and PO Box renewals among holiday online services.",
+      "statistics": "No quantities asserted.",
+      "date_context": "USPS announced Thanksgiving service Nov. 17 and the 2026 holiday mailing dates Sept. 22.",
+      "locality": "U.S. Postal Service in Pontotoc, Mississippi, with national service dates applying locally.",
+      "identities": "U.S. Postal Service and the Pontotoc post office."
+    },
+    {
+      "id": "f3",
+      "statement": "For cards and packages traveling within the lower 48 states, USPS recommends mailing by Thursday, Dec. 17, for expected arrival before Christmas if using First-Class Mail or Ground Advantage.",
+      "source_ids": [
+        "dates"
+      ],
+      "evidence": "The contiguous U.S. table gives Dec. 17 for both services and describes the dates as recommendations for expected delivery before Dec. 25.",
+      "statistics": "48 contiguous states; Dec. 17 and 25.",
+      "date_context": "USPS announced Thanksgiving service Nov. 17 and the 2026 holiday mailing dates Sept. 22.",
+      "locality": "U.S. Postal Service in Pontotoc, Mississippi, with national service dates applying locally.",
+      "identities": "U.S. Postal Service and the Pontotoc post office."
+    },
+    {
+      "id": "f4",
+      "statement": "The recommended date for Priority Mail is Friday, Dec. 18. For Priority Mail Express it is Saturday, Dec. 19. Ground shipments outside the lower 48 can take longer. USPS says Ground Advantage between the contiguous states and places including Alaska, Hawaii and Puerto Rico can take 10 days or more.",
+      "source_ids": [
+        "dates"
+      ],
+      "evidence": "USPS lists Dec. 18 and 19 for the two Priority services and a 10-day-or-longer ground service expectation for specified destinations.",
+      "statistics": "Dec. 18; Dec. 19; 10 days or more.",
+      "date_context": "USPS announced Thanksgiving service Nov. 17 and the 2026 holiday mailing dates Sept. 22.",
+      "locality": "U.S. Postal Service in Pontotoc, Mississippi, with national service dates applying locally.",
+      "identities": "U.S. Postal Service and the Pontotoc post office."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "The post office at 305 Highway 15 North in Pontotoc will close Thursday, Nov. 26, for Thanksgiving. Regular mail delivery and service at the counter resume Friday, Nov. 27, according to the U.S. Postal Service.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "Anyone who needs postage while the counter is closed can use Click-N-Ship to prepare and print a prepaid shipping label. USPS also takes stamp orders, mail-hold requests and post office box renewals online during the holiday.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "For cards and packages traveling within the lower 48 states, USPS recommends mailing by Thursday, Dec. 17, for expected arrival before Christmas if using First-Class Mail or Ground Advantage.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "The recommended date for Priority Mail is Friday, Dec. 18. For Priority Mail Express it is Saturday, Dec. 19. Ground shipments outside the lower 48 can take longer. USPS says Ground Advantage between the contiguous states and places including Alaska, Hawaii and Puerto Rico can take 10 days or more.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-post-office-thanksgiving-holiday-mailing-dates.png",
+    "sha256": "83bb79f77c4755f4e0bc366b6948156e99e750d48bf9891193818c916b283e4f",
+    "alt_text": "USPS send-by dates in the lower 48 states are Dec. 17 for First-Class and Ground Advantage, Dec. 18 for Priority Mail and Dec. 19 for Priority Mail Express.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-19T22:09:24.423100+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f3",
+      "f4"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f3",
+      "f4"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 19 afternoon Pontotoc News editorial shift. Publish this reviewed package after successful authenticated preflight."
+  }
+}

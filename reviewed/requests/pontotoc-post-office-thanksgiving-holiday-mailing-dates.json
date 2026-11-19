@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-post-office-thanksgiving-holiday-mailing-dates.json",
+  "article_sha256": "07fd274358ec5bea6fc0cf811743dd0bdf61286328e80594c31ce0d2be4ee49f",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-post-office-thanksgiving-holiday-mailing-dates",
+  "seo_review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-19T22:09:24.423100+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}
