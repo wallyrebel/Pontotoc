@@ -1,0 +1,116 @@
+{
+  "title": "Pontotoc opens wrestling season at home against Center Hill and New Albany",
+  "excerpt": "The Warriors open Thursday, Nov. 19. Their December schedule includes a return trip to New Albany and two dates with other Pontotoc County schools.",
+  "locality": "Pontotoc High School in Pontotoc, Mississippi, with home and away opponents identified.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:phs-wrestling:2026-11-19:home-opener-and-season-schedule"
+  ],
+  "sources": [
+    {
+      "id": "poster",
+      "title": "Pontotoc Athletics\u2019 original wrestling schedule and opening-night announcement",
+      "url": "https://www.facebook.com/1409956404473934/posts/1700009172135321",
+      "publisher": "Pontotoc Athletics",
+      "role": "event",
+      "verified_at": "2026-11-19T15:08:33.056639+00:00",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7kh8MV2fT.rss",
+      "published_at": "2026-11-18T15:28:50+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc High School opens its wrestling season at home Thursday, Nov. 19, with Center Hill and New Albany on the schedule. The Warriors will see New Albany twice in their first two dates, with a return trip to New Albany on Tuesday, Dec. 1.",
+      "source_ids": [
+        "poster"
+      ],
+      "evidence": "School caption confirms Thursday opener. The accompanying 2026\u201327 schedule lists Nov. 19 at home vs both opponents, then Dec. 1 at New Albany.",
+      "statistics": "Nov. 19; Dec. 1; two dates.",
+      "date_context": "School announcement November 18 for the 2026\u201327 season. Dates stated here are in November and December 2026.",
+      "locality": "Pontotoc High School in Pontotoc, Mississippi, with home and away opponents identified.",
+      "identities": "Pontotoc Warriors wrestling, Center Hill, New Albany, South Pontotoc, South Panola and North Pontotoc."
+    },
+    {
+      "id": "f2",
+      "statement": "South Pontotoc and South Panola visit the Warriors on Thursday, Dec. 3. Two weeks later, on Dec. 17, Pontotoc travels to North Pontotoc for the Battle for the Belt. Those are the first dates on the Warriors\u2019 schedule with the other two county programs.",
+      "source_ids": [
+        "poster"
+      ],
+      "evidence": "December entries read home South Pontotoc and South Panola on 3 and at North Pontotoc \u2013 Battle For The Belt on 17. No earlier date names either.",
+      "statistics": "Dec. 3 and 17; two weeks.",
+      "date_context": "School announcement November 18 for the 2026\u201327 season. Dates stated here are in November and December 2026.",
+      "locality": "Pontotoc High School in Pontotoc, Mississippi, with home and away opponents identified.",
+      "identities": "Pontotoc Warriors wrestling, Center Hill, New Albany, South Pontotoc, South Panola and North Pontotoc."
+    },
+    {
+      "id": "f3",
+      "statement": "Between the two county matchups, Pontotoc goes to Tupelo on Tuesday, Dec. 8. The Warriors also list the Oxford Challenge on Saturday, Dec. 12, as an individual event for boys. The school\u2019s published schedule gives opponents and locations but leaves the opening-night start time unlisted.",
+      "source_ids": [
+        "poster"
+      ],
+      "evidence": "Poster lists Dec. 8 at Tupelo and Dec. 12 at Oxford Challenge \u2013 Individual Boys. No time is printed for the opener.",
+      "statistics": "Dec. 8 and 12.",
+      "date_context": "School announcement November 18 for the 2026\u201327 season. Dates stated here are in November and December 2026.",
+      "locality": "Pontotoc High School in Pontotoc, Mississippi, with home and away opponents identified.",
+      "identities": "Pontotoc Warriors wrestling, Center Hill, New Albany, South Pontotoc, South Panola and North Pontotoc."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc High School opens its wrestling season at home Thursday, Nov. 19, with Center Hill and New Albany on the schedule. The Warriors will see New Albany twice in their first two dates, with a return trip to New Albany on Tuesday, Dec. 1.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "South Pontotoc and South Panola visit the Warriors on Thursday, Dec. 3. Two weeks later, on Dec. 17, Pontotoc travels to North Pontotoc for the Battle for the Belt. Those are the first dates on the Warriors\u2019 schedule with the other two county programs.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Between the two county matchups, Pontotoc goes to Tupelo on Tuesday, Dec. 8. The Warriors also list the Oxford Challenge on Saturday, Dec. 12, as an individual event for boys. The school\u2019s published schedule gives opponents and locations but leaves the opening-night start time unlisted.",
+      "fact_ids": [
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-wrestling-center-hill-new-albany-home-opener.png",
+    "sha256": "eaa1ae70f2cfc5eba487f6b103614567ebffcebd392fdd5e9e010ca5cb2815f9",
+    "alt_text": "Pontotoc opens at home Nov. 19 against Center Hill and New Albany, visits New Albany Dec. 1, then hosts South Pontotoc and South Panola Dec. 3.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-19T15:08:33.056639+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "November 19 authorized morning editorial shift. Publish the reviewed article after the authenticated read-only preflight."
+  }
+}
