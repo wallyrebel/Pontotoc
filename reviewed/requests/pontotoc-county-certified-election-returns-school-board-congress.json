@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-county-certified-election-returns-school-board-congress.json",
   "article_sha256": "a2133aa5a88956b5694032aa041cf670b1b25f760da21b46ab52009fc5dfc1cd",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-county-certified-election-returns-school-board-congress",
   "seo_review": {
     "reviewer": "Pontotoc News morning desk",
