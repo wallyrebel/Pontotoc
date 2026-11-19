@@ -1,0 +1,146 @@
+{
+  "title": "Allen Roye draws 1,081 votes for Pontotoc County school board in certified returns",
+  "excerpt": "The county\u2019s official Nov. 3 returns also show how Pontotoc voted for U.S. Senate, U.S. House and the Mississippi Court of Appeals.",
+  "locality": "Pontotoc County, Mississippi. All vote totals are for this county.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:election:2026-11-03:certified-county-results"
+  ],
+  "sources": [
+    {
+      "id": "returns",
+      "title": "Certified Pontotoc County returns, including precinct totals (PDF)",
+      "url": "https://www.sos.ms.gov/elections/electionresults/2026General/Pontotoc%20County.pdf",
+      "publisher": "Pontotoc County Election Commission",
+      "role": "event",
+      "verified_at": "2026-11-19T15:08:33.056639+00:00",
+      "verification_url": "https://www.sos.ms.gov/elections/electionresults/2026General/Pontotoc%20County.pdf",
+      "published_at": null
+    },
+    {
+      "id": "index",
+      "title": "Mississippi\u2019s official county-by-county reports",
+      "url": "https://www.sos.ms.gov/elections/electionresults_aspx/elections_results_2026_county.aspx",
+      "publisher": "Mississippi Secretary of State",
+      "role": "background",
+      "verified_at": "2026-11-19T15:08:33.056639+00:00",
+      "verification_url": "https://www.sos.ms.gov/elections/electionresults_aspx/elections_results_2026_county.aspx",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Allen Roye received 1,081 votes for the District 5 seat on the Pontotoc County school board. He was the only candidate listed for the seat in the Nov. 3 general election. The county\u2019s five election commissioners signed the official returns on Nov. 12.",
+      "source_ids": [
+        "returns"
+      ],
+      "evidence": "Read the signed certification on page 1 and the school district row and TOTAL column on page 7.",
+      "statistics": "1,081; District 5; five signatories; Nov. 3 and 12.",
+      "date_context": "General election November 3, 2026. County commissioners signed the certification November 12.",
+      "locality": "Pontotoc County, Mississippi. All vote totals are for this county.",
+      "identities": "Pontotoc County Election Commission and candidates named on its certified returns."
+    },
+    {
+      "id": "f2",
+      "statement": "In the U.S. Senate race, Republican Cindy Hyde-Smith carried Pontotoc County with 7,504 votes. Democrat Scott Colom received 2,664 and independent Ty Pinkins received 242. The three candidates drew 10,410 votes in the county.",
+      "source_ids": [
+        "returns"
+      ],
+      "evidence": "Page 4 Senate rows, party labels and TOTAL column. 7,504 plus 2,664 plus 242 equals 10,410.",
+      "statistics": "7,504; 2,664; 242; 10,410.",
+      "date_context": "General election November 3, 2026. County commissioners signed the certification November 12.",
+      "locality": "Pontotoc County, Mississippi. All vote totals are for this county.",
+      "identities": "Pontotoc County Election Commission and candidates named on its certified returns."
+    },
+    {
+      "id": "f3",
+      "statement": "Republican Trent Kelly led the county vote in the 1st Congressional District with 7,872. Democrat Cliff Johnson received 2,395 and Libertarian Johnny Baucom received 134. In the contested District 1, Position 1 race for the Mississippi Court of Appeals, county voters gave John Weddle 7,024 votes and Derek Dewayne Hopson Jr. 2,493.",
+      "source_ids": [
+        "returns"
+      ],
+      "evidence": "Page 4 congressional and appeals rows, candidate labels and TOTAL column. Each figure is countywide.",
+      "statistics": "1st District; 7,872; 2,395; 134; District 1, Position 1; 7,024; 2,493.",
+      "date_context": "General election November 3, 2026. County commissioners signed the certification November 12.",
+      "locality": "Pontotoc County, Mississippi. All vote totals are for this county.",
+      "identities": "Pontotoc County Election Commission and candidates named on its certified returns."
+    },
+    {
+      "id": "f4",
+      "statement": "Readers looking up their own precinct can find the congressional and Senate breakdowns on pages 2 through 4 of the county\u2019s report. School board figures appear on pages 5 through 7. The Mississippi Secretary of State also posts the reports for the other counties.",
+      "source_ids": [
+        "returns",
+        "index"
+      ],
+      "evidence": "Printed report is seven pages with federal rows in first three tables and school board rows in last three. State index has separate county links.",
+      "statistics": "Pages 2\u20134 and 5\u20137.",
+      "date_context": "General election November 3, 2026. County commissioners signed the certification November 12.",
+      "locality": "Pontotoc County, Mississippi. All vote totals are for this county.",
+      "identities": "Pontotoc County Election Commission and candidates named on its certified returns."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Allen Roye received 1,081 votes for the District 5 seat on the Pontotoc County school board. He was the only candidate listed for the seat in the Nov. 3 general election. The county\u2019s five election commissioners signed the official returns on Nov. 12.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "In the U.S. Senate race, Republican Cindy Hyde-Smith carried Pontotoc County with 7,504 votes. Democrat Scott Colom received 2,664 and independent Ty Pinkins received 242. The three candidates drew 10,410 votes in the county.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Republican Trent Kelly led the county vote in the 1st Congressional District with 7,872. Democrat Cliff Johnson received 2,395 and Libertarian Johnny Baucom received 134. In the contested District 1, Position 1 race for the Mississippi Court of Appeals, county voters gave John Weddle 7,024 votes and Derek Dewayne Hopson Jr. 2,493.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "Readers looking up their own precinct can find the congressional and Senate breakdowns on pages 2 through 4 of the county\u2019s report. School board figures appear on pages 5 through 7. The Mississippi Secretary of State also posts the reports for the other counties.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-county-certified-election-returns-school-board-congress.png",
+    "sha256": "e2542383c48df78191b359362a33cbca6f6270040f38cf4c5f28e976c0db4d27",
+    "alt_text": "County Senate votes were 7,504 for Cindy Hyde-Smith, 2,664 for Scott Colom and 242 for Ty Pinkins.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-19T15:08:33.056639+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "November 19 authorized morning editorial shift. Publish the reviewed article after the authenticated read-only preflight."
+  }
+}
