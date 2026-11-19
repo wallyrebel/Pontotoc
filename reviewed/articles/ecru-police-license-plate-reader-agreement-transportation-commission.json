@@ -1,0 +1,157 @@
+{
+  "title": "State commission authorizes agreement with Ecru police on license plate readers",
+  "excerpt": "All three transportation commissioners voted yes Nov. 10. The vote authorizes the executive director to sign an agreement covering state highway right-of-way.",
+  "locality": "Ecru Police Department in Pontotoc County, Mississippi. The commission acted at its state meeting.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:ecru:2026-11-10:mdot-police-right-of-way-equipment-memorandum"
+  ],
+  "sources": [
+    {
+      "id": "minutes",
+      "title": "Official November 10 Mississippi Transportation Commission minutes (Word document)",
+      "url": "https://mdot.ms.gov/documents/Commission%20Minutes/2026/11%20November/Commission%20Minutes--November%2010,%202026.doc",
+      "publisher": "Mississippi Department of Transportation",
+      "role": "event",
+      "verified_at": "2026-11-19T22:16:26.828802+00:00",
+      "verification_url": "https://mdot.ms.gov/documents/Commission%20Minutes/2026/11%20November/Commission%20Minutes--November%2010,%202026.doc",
+      "published_at": null
+    },
+    {
+      "id": "index",
+      "title": "MDOT public document index and date for the meeting minutes",
+      "url": "https://mdot.ms.gov/portal/documents",
+      "publisher": "Mississippi Department of Transportation",
+      "role": "background",
+      "verified_at": "2026-11-19T22:16:26.828802+00:00",
+      "verification_url": "https://mdot.ms.gov/portal/documents",
+      "published_at": null
+    },
+    {
+      "id": "records",
+      "title": "How to request records from the Mississippi Department of Transportation",
+      "url": "https://mdot.ms.gov/portal/public_records_request",
+      "publisher": "Mississippi Department of Transportation",
+      "role": "background",
+      "verified_at": "2026-11-19T22:16:26.828802+00:00",
+      "verification_url": "https://mdot.ms.gov/portal/public_records_request",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Mississippi\u2019s three transportation commissioners voted Nov. 10 to authorize an agreement with the Ecru Police Department for automatic license plate readers or other permanently mounted law enforcement equipment on state highway right-of-way. MDOT\u2019s public index lists Nov. 19 as the update date for the meeting minutes.",
+      "source_ids": [
+        "minutes",
+        "index"
+      ],
+      "evidence": "The adopted motion lists Ecru in Pontotoc County and authorizes the executive director to execute a memorandum. The index row shows a Nov. 19 update.",
+      "statistics": "Three commissioners; Nov. 10 vote; Nov. 19 index date.",
+      "date_context": "The commission met Nov. 10, 2026. The official document index lists the minutes as updated Nov. 19, 2026.",
+      "locality": "Ecru Police Department in Pontotoc County, Mississippi. The commission acted at its state meeting.",
+      "identities": "Mississippi Transportation Commission; Ecru Police Department; commissioners Willie Simmons, John Caldwell and Charles Busby."
+    },
+    {
+      "id": "f2",
+      "statement": "Willie Simmons, John Caldwell and Charles Busby each voted yes. The motion authorizes the executive director to sign a memorandum of understanding with the Ecru department. It also names the Pelahatchie Police Department in Rankin County for an agreement of its own.",
+      "source_ids": [
+        "minutes"
+      ],
+      "evidence": "Commission minutes record each affirmative vote, both departments and their counties.",
+      "statistics": "Three yes votes; two police departments named.",
+      "date_context": "The commission met Nov. 10, 2026. The official document index lists the minutes as updated Nov. 19, 2026.",
+      "locality": "Ecru Police Department in Pontotoc County, Mississippi. The commission acted at its state meeting.",
+      "identities": "Mississippi Transportation Commission; Ecru Police Department; commissioners Willie Simmons, John Caldwell and Charles Busby."
+    },
+    {
+      "id": "f3",
+      "statement": "The vote gives state officials authority to make the agreement. The minutes do not say whether Ecru has installed any readers, when equipment might go into service or what the local project would cost.",
+      "source_ids": [
+        "minutes"
+      ],
+      "evidence": "The motion describes authority and the allowed equipment category; it gives no installation status, timetable or project price.",
+      "statistics": "No device count, installation date or cost asserted.",
+      "date_context": "The commission met Nov. 10, 2026. The official document index lists the minutes as updated Nov. 19, 2026.",
+      "locality": "Ecru Police Department in Pontotoc County, Mississippi. The commission acted at its state meeting.",
+      "identities": "Mississippi Transportation Commission; Ecru Police Department; commissioners Willie Simmons, John Caldwell and Charles Busby."
+    },
+    {
+      "id": "f4",
+      "statement": "Readers can request MDOT\u2019s records on the agreement through the department\u2019s public records form. The department asks for details such as the location and time period. The Nov. 10 meeting date and the Ecru Police Department identify the item in the commission minutes.",
+      "source_ids": [
+        "minutes",
+        "records"
+      ],
+      "evidence": "MDOT requests specific dates and locations. Ecru and the meeting date identify the motion.",
+      "statistics": "Nov. 10, 2026.",
+      "date_context": "The commission met Nov. 10, 2026. The official document index lists the minutes as updated Nov. 19, 2026.",
+      "locality": "Ecru Police Department in Pontotoc County, Mississippi. The commission acted at its state meeting.",
+      "identities": "Mississippi Transportation Commission; Ecru Police Department; commissioners Willie Simmons, John Caldwell and Charles Busby."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Mississippi\u2019s three transportation commissioners voted Nov. 10 to authorize an agreement with the Ecru Police Department for automatic license plate readers or other permanently mounted law enforcement equipment on state highway right-of-way. MDOT\u2019s public index lists Nov. 19 as the update date for the meeting minutes.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "Willie Simmons, John Caldwell and Charles Busby each voted yes. The motion authorizes the executive director to sign a memorandum of understanding with the Ecru department. It also names the Pelahatchie Police Department in Rankin County for an agreement of its own.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "The vote gives state officials authority to make the agreement. The minutes do not say whether Ecru has installed any readers, when equipment might go into service or what the local project would cost.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "Readers can request MDOT\u2019s records on the agreement through the department\u2019s public records form. The department asks for details such as the location and time period. The Nov. 10 meeting date and the Ecru Police Department identify the item in the commission minutes.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/ecru-police-license-plate-reader-agreement-transportation-commission.png",
+    "sha256": "18cd65cf14f81222f3615c5c3e5692f5620a3f67ece81162be3342ea083f3163",
+    "alt_text": "Ecru agreement received three yes votes at the Nov. 10 transportation commission meeting. The public index dates the minutes update to Nov. 19.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-19T22:16:26.828802+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 19 afternoon Pontotoc News editorial shift. Publish this reviewed package after successful authenticated preflight."
+  }
+}
