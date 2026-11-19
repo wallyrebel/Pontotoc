@@ -1,0 +1,147 @@
+{
+  "title": "Six firms bid on Pontotoc wastewater repairs, with $4,403 between the two lowest base bids",
+  "excerpt": "Century Construction Group submitted the lowest base price. Hemphill has the lower combined price if the city includes two replacement sludge pumps.",
+  "locality": "City of Pontotoc wastewater treatment plant in Pontotoc, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:city:2026-11-03:p26-520-certified-bid-results"
+  ],
+  "sources": [
+    {
+      "id": "cert",
+      "title": "Certified bid tabulation for Pontotoc wastewater treatment plant rehabilitation (two pages)",
+      "url": "https://www.esiplans.com/preview/document/21076/146995",
+      "publisher": "Engineering Solutions, Inc.",
+      "role": "event",
+      "verified_at": "2026-11-19T22:13:07.041305+00:00",
+      "verification_url": "https://www.esiplans.com/preview/document/21076/146995",
+      "published_at": null
+    },
+    {
+      "id": "notice",
+      "title": "Original city advertisement and project document index",
+      "url": "https://www.esiplans.com/projects/21076/details/p26-520-wastewater-treatment-plant-rehab",
+      "publisher": "City of Pontotoc via Engineering Solutions",
+      "role": "background",
+      "verified_at": "2026-11-19T22:13:07.041305+00:00",
+      "verification_url": "https://www.esiplans.com/projects/21076/details/p26-520-wastewater-treatment-plant-rehab",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Six contractors submitted prices for equipment work at Pontotoc\u2019s wastewater treatment plant. Century Construction Group of Tupelo listed the lowest base bid at $589,341, followed by Hemphill Construction of Florence at $593,744. The difference is $4,403, according to the certified bid sheet for the Nov. 3 opening.",
+      "source_ids": [
+        "cert"
+      ],
+      "evidence": "Six rows on page 1. Century and Hemphill are the two smallest amounts in the base-bid column; their difference is $4,403.",
+      "statistics": "6 bids; $589,341; $593,744; $4,403.",
+      "date_context": "Nov. 3, 2026 bid opening at 2 p.m. The signed tabulation reports submitted prices.",
+      "locality": "City of Pontotoc wastewater treatment plant in Pontotoc, Mississippi.",
+      "identities": "City of Pontotoc; Engineering Solutions, Inc.; Century Construction Group, Inc.; Hemphill Construction Co., Inc."
+    },
+    {
+      "id": "f2",
+      "statement": "The base project covers two replacement sewer pumps, rebuilding a mechanical screen and replacing the grit drive, grit pump and V-force baffles. The city requested a separate price for replacing two sludge pumps.",
+      "source_ids": [
+        "cert",
+        "notice"
+      ],
+      "evidence": "Page 2 lists base items 1 through 3 and a separate sludge-pump alternate, item 4.",
+      "statistics": "Two sewer pumps and two alternate sludge pumps.",
+      "date_context": "Nov. 3, 2026 bid opening at 2 p.m. The signed tabulation reports submitted prices.",
+      "locality": "City of Pontotoc wastewater treatment plant in Pontotoc, Mississippi.",
+      "identities": "City of Pontotoc; Engineering Solutions, Inc.; Century Construction Group, Inc.; Hemphill Construction Co., Inc."
+    },
+    {
+      "id": "f3",
+      "statement": "Including the sludge pumps would reverse the order of those two bids. Century priced the alternate at $134,284, bringing its combined price to $723,625. Hemphill listed $63,412 for the alternate, or $657,156 with the base work. The totals depend on which work the city selects.",
+      "source_ids": [
+        "cert"
+      ],
+      "evidence": "Add each bidder\u2019s certified base and alternate. Century 589341+134284=723625. Hemphill 593744+63412=657156.",
+      "statistics": "$134,284 and $63,412 alternates; $723,625 and $657,156 combined.",
+      "date_context": "Nov. 3, 2026 bid opening at 2 p.m. The signed tabulation reports submitted prices.",
+      "locality": "City of Pontotoc wastewater treatment plant in Pontotoc, Mississippi.",
+      "identities": "City of Pontotoc; Engineering Solutions, Inc.; Century Construction Group, Inc.; Hemphill Construction Co., Inc."
+    },
+    {
+      "id": "f4",
+      "statement": "Engineering Solutions certified the prices received for the city. The original bid notice allows up to 60 days after the opening for review of proposals and contractor qualifications. The tabulation identifies bidders and prices without naming a contractor for the work.",
+      "source_ids": [
+        "cert",
+        "notice"
+      ],
+      "evidence": "The engineer\u2019s signed certification describes the tabulation; the original advertisement allows a review period of up to 60 days.",
+      "statistics": "Up to 60 days after opening.",
+      "date_context": "Nov. 3, 2026 bid opening at 2 p.m. The signed tabulation reports submitted prices.",
+      "locality": "City of Pontotoc wastewater treatment plant in Pontotoc, Mississippi.",
+      "identities": "City of Pontotoc; Engineering Solutions, Inc.; Century Construction Group, Inc.; Hemphill Construction Co., Inc."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Six contractors submitted prices for equipment work at Pontotoc\u2019s wastewater treatment plant. Century Construction Group of Tupelo listed the lowest base bid at $589,341, followed by Hemphill Construction of Florence at $593,744. The difference is $4,403, according to the certified bid sheet for the Nov. 3 opening.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The base project covers two replacement sewer pumps, rebuilding a mechanical screen and replacing the grit drive, grit pump and V-force baffles. The city requested a separate price for replacing two sludge pumps.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Including the sludge pumps would reverse the order of those two bids. Century priced the alternate at $134,284, bringing its combined price to $723,625. Hemphill listed $63,412 for the alternate, or $657,156 with the base work. The totals depend on which work the city selects.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "Engineering Solutions certified the prices received for the city. The original bid notice allows up to 60 days after the opening for review of proposals and contractor qualifications. The tabulation identifies bidders and prices without naming a contractor for the work.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-wastewater-plant-certified-bids-pump-repairs.png",
+    "sha256": "8580da167d150dc8ad560195c45699794c1ce77aea6303ed46051b9650d9a649",
+    "alt_text": "Century bid $589,341 and Hemphill bid $593,744 for the base project at the Pontotoc wastewater plant. The difference is $4,403.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-19T22:13:07.041305+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 19 afternoon Pontotoc News editorial shift. Publish this reviewed package after successful authenticated preflight."
+  }
+}
