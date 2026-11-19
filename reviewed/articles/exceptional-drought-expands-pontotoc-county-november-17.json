@@ -1,0 +1,139 @@
+{
+  "title": "Exceptional drought expands to nearly a quarter of Pontotoc County",
+  "excerpt": "The share of Pontotoc County in the most intense drought category rose from 13.36% to 22.75% in a week. All of the county remains in severe drought or worse.",
+  "locality": "Pontotoc County, Mississippi, with statewide comparison.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:usdm:2026-11-17:county-drought-assessment"
+  ],
+  "sources": [
+    {
+      "id": "county",
+      "title": "Pontotoc County figures for Nov. 10 and 17 (CSV)",
+      "url": "https://usdmdataservices.unl.edu/api/CountyStatistics/GetDroughtSeverityStatisticsByAreaPercent?aoi=28115&startdate=11/10/2026&enddate=11/17/2026&statisticsType=1",
+      "publisher": "U.S. Drought Monitor",
+      "role": "event",
+      "verified_at": "2026-11-19T15:05:11.596199+00:00",
+      "verification_url": "https://usdmdataservices.unl.edu/api/CountyStatistics/GetDroughtSeverityStatisticsByAreaPercent?aoi=28115&startdate=11/10/2026&enddate=11/17/2026&statisticsType=1",
+      "published_at": null
+    },
+    {
+      "id": "map",
+      "title": "Mississippi drought map for Nov. 17",
+      "url": "https://droughtmonitor.unl.edu/data/png/20261117/20261117_MS_trd.png",
+      "publisher": "U.S. Drought Monitor",
+      "role": "event",
+      "verified_at": "2026-11-19T15:05:11.596199+00:00",
+      "verification_url": "https://droughtmonitor.unl.edu/data/png/20261117/20261117_MS_trd.png",
+      "published_at": null
+    },
+    {
+      "id": "state",
+      "title": "Mississippi figures for Nov. 10 and 17 (CSV)",
+      "url": "https://usdmdataservices.unl.edu/api/StateStatistics/GetDroughtSeverityStatisticsByAreaPercent?aoi=28&startdate=11/10/2026&enddate=11/17/2026&statisticsType=1",
+      "publisher": "U.S. Drought Monitor",
+      "role": "background",
+      "verified_at": "2026-11-19T15:05:11.596199+00:00",
+      "verification_url": "https://usdmdataservices.unl.edu/api/StateStatistics/GetDroughtSeverityStatisticsByAreaPercent?aoi=28&startdate=11/10/2026&enddate=11/17/2026&statisticsType=1",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Nearly a quarter of Pontotoc County is now in exceptional drought, the most intense category on the U.S. Drought Monitor\u2019s scale. The map released Thursday puts 22.75% of the county in that category as of Nov. 17, up from 13.36% on Nov. 10.",
+      "source_ids": [
+        "county",
+        "map"
+      ],
+      "evidence": "County FIPS 28115, D4 cumulative area in successive weeks. The dated map supplies the category legend.",
+      "statistics": "22.75%, 13.36%, Nov. 10 and 17.",
+      "date_context": "Weekly assessments for November 10 and 17, 2026, with the latter map released Thursday, November 19.",
+      "locality": "Pontotoc County, Mississippi, with statewide comparison.",
+      "identities": "U.S. Drought Monitor, Pontotoc County and the state of Mississippi."
+    },
+    {
+      "id": "f2",
+      "statement": "The change also shows up one step down the scale. Extreme drought or worse now covers 87.77% of the county, up from 74.65% a week earlier. The rest of Pontotoc County is in severe drought. These percentages measure land area, and the extreme-or-worse figure includes the areas in exceptional drought.",
+      "source_ids": [
+        "county",
+        "map"
+      ],
+      "evidence": "Both county D2 values are 100.00; cumulative D3 increased; D4 is contained within D3 or worse.",
+      "statistics": "87.77%, 74.65%, 100% in D2 or worse.",
+      "date_context": "Weekly assessments for November 10 and 17, 2026, with the latter map released Thursday, November 19.",
+      "locality": "Pontotoc County, Mississippi, with statewide comparison.",
+      "identities": "U.S. Drought Monitor, Pontotoc County and the state of Mississippi."
+    },
+    {
+      "id": "f3",
+      "statement": "Across Mississippi, exceptional drought spread from 7.45% of the state to 27.75% over the same week. That puts the statewide share above Pontotoc County\u2019s. But severe drought or worse still covers a larger share of Pontotoc County than of Mississippi as a whole, where the figure is 80.06%.",
+      "source_ids": [
+        "county",
+        "state"
+      ],
+      "evidence": "State D4 7.45 and 27.75, D2 80.06 vs county D2 100.00.",
+      "statistics": "7.45%, 27.75%, 80.06%.",
+      "date_context": "Weekly assessments for November 10 and 17, 2026, with the latter map released Thursday, November 19.",
+      "locality": "Pontotoc County, Mississippi, with statewide comparison.",
+      "identities": "U.S. Drought Monitor, Pontotoc County and the state of Mississippi."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Nearly a quarter of Pontotoc County is now in exceptional drought, the most intense category on the U.S. Drought Monitor\u2019s scale. The map released Thursday puts 22.75% of the county in that category as of Nov. 17, up from 13.36% on Nov. 10.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The change also shows up one step down the scale. Extreme drought or worse now covers 87.77% of the county, up from 74.65% a week earlier. The rest of Pontotoc County is in severe drought. These percentages measure land area, and the extreme-or-worse figure includes the areas in exceptional drought.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Across Mississippi, exceptional drought spread from 7.45% of the state to 27.75% over the same week. That puts the statewide share above Pontotoc County\u2019s. But severe drought or worse still covers a larger share of Pontotoc County than of Mississippi as a whole, where the figure is 80.06%.",
+      "fact_ids": [
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/exceptional-drought-expands-pontotoc-county-november-17.png",
+    "sha256": "0c3d9f0f129604d5709642c04e86bc71593b1b88f948ccff7c9f51140931140e",
+    "alt_text": "Exceptional drought grew from 13.36% to 22.75% of Pontotoc County. Severe drought or worse covered the entire county in both weeks.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-19T15:05:11.596199+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "November 19 authorized morning editorial shift. Publish the reviewed article after the authenticated read-only preflight."
+  }
+}
