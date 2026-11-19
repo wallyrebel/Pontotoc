@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc-county:usdm:2026-11-17:weekly-drought-assessment"
+  ],
+  "title": "Exceptional drought expands to 22.75% of Pontotoc County",
+  "excerpt": "The Nov. 19 Drought Monitor release puts 87.77% of the county in extreme drought or worse. Exceptional drought expanded from 13.36% to 22.75%.",
+  "locality": "Pontotoc County, Mississippi, FIPS 28115; not Pontotoc County, Oklahoma.",
+  "sources": [
+    {
+      "id": "county",
+      "url": "https://usdmdataservices.unl.edu/api/CountyStatistics/GetDroughtSeverityStatisticsByAreaPercent?aoi=28115&startdate=11/10/2026&enddate=11/17/2026&statisticsType=1",
+      "verification_url": "https://usdmdataservices.unl.edu/api/CountyStatistics/GetDroughtSeverityStatisticsByAreaPercent?aoi=28115&startdate=11/10/2026&enddate=11/17/2026&statisticsType=1",
+      "role": "event",
+      "title": "Pontotoc County drought statistics: November 10 and 17, 2026",
+      "publisher": "U.S. Drought Monitor / National Drought Mitigation Center",
+      "published_at": null,
+      "verified_at": "2026-11-19T15:03:17.151346+00:00"
+    },
+    {
+      "id": "map",
+      "url": "https://droughtmonitor.unl.edu/data/png/20261117/20261117_ms_text.png",
+      "verification_url": "https://droughtmonitor.unl.edu/data/png/20261117/20261117_ms_text.png",
+      "role": "event",
+      "title": "November 17 Mississippi drought map, released November 19 (PNG)",
+      "publisher": "U.S. Drought Monitor",
+      "published_at": null,
+      "verified_at": "2026-11-19T15:03:17.151346+00:00"
+    },
+    {
+      "id": "method",
+      "url": "https://droughtmonitor.unl.edu/About/AbouttheData/StatisticsExplanation.aspx",
+      "verification_url": "https://droughtmonitor.unl.edu/About/AbouttheData/StatisticsExplanation.aspx",
+      "role": "background",
+      "title": "How cumulative drought-area statistics work",
+      "publisher": "U.S. Drought Monitor",
+      "published_at": null,
+      "verified_at": "2026-11-19T15:03:17.151346+00:00"
+    },
+    {
+      "id": "categories",
+      "url": "https://droughtmonitor.unl.edu/About/AbouttheData/DroughtClassification.aspx",
+      "verification_url": "https://droughtmonitor.unl.edu/About/AbouttheData/DroughtClassification.aspx",
+      "role": "background",
+      "title": "Drought Monitor category definitions",
+      "publisher": "U.S. Drought Monitor",
+      "published_at": null,
+      "verified_at": "2026-11-19T15:03:17.151346+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Exceptional drought now covers 22.75% of Pontotoc County, up from 13.36% a week earlier, according to the U.S. Drought Monitor update released Thursday, November 19. That is an increase of 9.39 percentage points in D4, the monitor’s most intense drought category.",
+      "source_ids": [
+        "county",
+        "map",
+        "categories"
+      ],
+      "evidence": "Original official county API returns D4 22.75 for 20261117 and 13.36 for 20261110. Decimal subtraction gives 9.39 percentage points. Actual dated state-map pixels confirm Nov. 19 release, Nov. 17 assessment, D4 exceptional category.",
+      "date_context": "Map data valid November 17, 2026 at 7 a.m. EST (6 a.m. CST); released Thursday November 19. Comparison week November 10. No forecast, new burn restriction, crop loss, water shortage or resident count asserted.",
+      "locality": "Pontotoc County, Mississippi, FIPS 28115; not Pontotoc County, Oklahoma.",
+      "identities": "U.S. Drought Monitor; National Drought Mitigation Center; Pontotoc County, Mississippi.",
+      "statistics": "22.75% versus 13.36%; increase 9.39 percentage points."
+    },
+    {
+      "id": "f2",
+      "statement": "The county’s broader area in extreme drought or worse also grew, from 74.65% to 87.77%. The entire county remains in severe drought or worse. The latest figures describe conditions on November 17, compared with November 10.",
+      "source_ids": [
+        "county",
+        "categories"
+      ],
+      "evidence": "API cumulative D3 values 87.77 and 74.65; current D2 100.00. Category table labels D2 severe and D3 extreme.",
+      "date_context": "Map data valid November 17, 2026 at 7 a.m. EST (6 a.m. CST); released Thursday November 19. Comparison week November 10. No forecast, new burn restriction, crop loss, water shortage or resident count asserted.",
+      "locality": "Pontotoc County, Mississippi, FIPS 28115; not Pontotoc County, Oklahoma.",
+      "identities": "U.S. Drought Monitor; National Drought Mitigation Center; Pontotoc County, Mississippi.",
+      "statistics": "87.77% versus 74.65% in D3 or worse; 100.00% in D2 or worse."
+    },
+    {
+      "id": "f3",
+      "statement": "These percentages measure county land area. The extreme-or-worse total includes the land classified as exceptional drought, so those two figures should not be added together. They do not represent percentages of residents or households.",
+      "source_ids": [
+        "county",
+        "method"
+      ],
+      "evidence": "API endpoint explicitly requests AreaPercent and statisticsType=1; official explanation distinguishes percent-area cumulative statistics from population and single-category statistics. D3 includes D3 and D4.",
+      "date_context": "Map data valid November 17, 2026 at 7 a.m. EST (6 a.m. CST); released Thursday November 19. Comparison week November 10. No forecast, new burn restriction, crop loss, water shortage or resident count asserted.",
+      "locality": "Pontotoc County, Mississippi, FIPS 28115; not Pontotoc County, Oklahoma.",
+      "identities": "U.S. Drought Monitor; National Drought Mitigation Center; Pontotoc County, Mississippi.",
+      "statistics": "Percent of county land area; cumulative thresholds, not additive."
+    },
+    {
+      "id": "f4",
+      "statement": "The Drought Monitor maps broad conditions, and local conditions can vary. The dated state map and county data are linked below so readers can distinguish this week’s assessment from a forecast of future rainfall.",
+      "source_ids": [
+        "map"
+      ],
+      "evidence": "Actual map footnote says it focuses on broad-scale conditions and local conditions may vary; map explicitly gives assessment date. No rainfall prediction inferred.",
+      "date_context": "Map data valid November 17, 2026 at 7 a.m. EST (6 a.m. CST); released Thursday November 19. Comparison week November 10. No forecast, new burn restriction, crop loss, water shortage or resident count asserted.",
+      "locality": "Pontotoc County, Mississippi, FIPS 28115; not Pontotoc County, Oklahoma.",
+      "identities": "U.S. Drought Monitor; National Drought Mitigation Center; Pontotoc County, Mississippi.",
+      "statistics": "None asserted."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Exceptional drought now covers 22.75% of Pontotoc County, up from 13.36% a week earlier, according to the U.S. Drought Monitor update released Thursday, November 19. That is an increase of 9.39 percentage points in D4, the monitor’s most intense drought category.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The county’s broader area in extreme drought or worse also grew, from 74.65% to 87.77%. The entire county remains in severe drought or worse. The latest figures describe conditions on November 17, compared with November 10.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "These percentages measure county land area. The extreme-or-worse total includes the land classified as exceptional drought, so those two figures should not be added together. They do not represent percentages of residents or households.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "The Drought Monitor maps broad conditions, and local conditions can vary. The dated state map and county data are linked below so readers can distinguish this week’s assessment from a forecast of future rainfall.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-county-exceptional-drought-november-19-2026.png",
+    "sha256": "b571a50d773d13010cc2d1683da95f9df4d3e91e9f0e93d8de808ea2e15c0f48",
+    "alt_text": "Original chart comparing Pontotoc County land in exceptional drought: 13.36% on November 10 and 22.75% on November 17, 2026.",
+    "credit": "Pontotoc News original chart; data: U.S. Drought Monitor",
+    "rights": "owned",
+    "rights_reference": "Original 1600x900 chart rendered from verified official county statistics using simple type, bars and colors. No original map, agency logos or third-party artwork reproduced. Official dated map inspected for evidence only."
+  },
+  "review": {
+    "reviewer": "Codex November 19 morning editorial review",
+    "reviewed_at": "2026-11-19T15:03:17.151346+00:00",
+    "decision": "publish",
+    "checks": {
+      "public_facts_only": true,
+      "statistics": true,
+      "coherent_prose": true,
+      "source_support": true,
+      "dates": true,
+      "locality": true,
+      "no_invented_quotes_or_context": true,
+      "identities": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Owner saved recurring Pontotoc publication authorization and November 19 morning delegation. Requires original-source and image inspection, fact-ledger review, offline tests, exhaustive authenticated all-status/source/event reconciliation, successful dry-run and final editorial review before serialized publication."
+  }
+}
