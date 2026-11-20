@@ -1,0 +1,149 @@
+{
+  "title": "Pontotoc Ag Center offers 24-hour deer testing drop-off as gun season opens",
+  "excerpt": "The state lists a freezer on C.J. Hardin Jr. Drive and uses U.S. 278 as the boundary for chronic wasting disease restrictions in Pontotoc County.",
+  "locality": "Pontotoc County, Mississippi, including land north of U.S. 278.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:mdwfp:2026-11-21:deer-season-cwd-zone-testing"
+  ],
+  "sources": [
+    {
+      "id": "zone",
+      "title": "State notice defining the 2026\u201327 disease management zones",
+      "url": "https://www.mdwfp.com/news/2026-2027-mississippi-cwd-management-zones",
+      "publisher": "Mississippi Department of Wildlife, Fisheries and Parks",
+      "role": "event",
+      "verified_at": "2026-11-20T22:02:21.258134+00:00",
+      "verification_url": "https://www.mdwfp.com/news/2026-2027-mississippi-cwd-management-zones",
+      "published_at": null
+    },
+    {
+      "id": "season",
+      "title": "2026\u201327 Mississippi deer season dates",
+      "url": "https://www.mdwfp.com/wildlife-hunting/hunting-seasons-and-bag-limits",
+      "publisher": "Mississippi Department of Wildlife, Fisheries and Parks",
+      "role": "background",
+      "verified_at": "2026-11-20T22:02:21.258134+00:00",
+      "verification_url": "https://www.mdwfp.com/wildlife-hunting/hunting-seasons-and-bag-limits",
+      "published_at": null
+    },
+    {
+      "id": "directory",
+      "title": "State testing locations, addresses and hours",
+      "url": "https://xnet2.mdwfp.com/CWDSampleLocation/SampleLocPublic/index",
+      "publisher": "Mississippi Department of Wildlife, Fisheries and Parks",
+      "role": "background",
+      "verified_at": "2026-11-20T22:02:21.258134+00:00",
+      "verification_url": "https://xnet2.mdwfp.com/CWDSampleLocation/SampleLocPublic/index",
+      "published_at": null
+    },
+    {
+      "id": "guide",
+      "title": "2026\u201327 chronic wasting disease guide and testing information",
+      "url": "https://www.mdwfp.com/sites/default/files/2026-09/2026-27%20CWD%20Guide.pdf",
+      "publisher": "Mississippi Department of Wildlife, Fisheries and Parks",
+      "role": "background",
+      "verified_at": "2026-11-20T22:02:21.258134+00:00",
+      "verification_url": "https://www.mdwfp.com/sites/default/files/2026-09/2026-27%20CWD%20Guide.pdf",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc County hunters have a local, around-the-clock drop-off for chronic wasting disease testing as the regular deer gun season opens Saturday, Nov. 21. The state wildlife department lists the Pontotoc Ag Center at 430 C.J. Hardin Jr. Drive. Its online directory gives the site\u2019s hours as 24 hours, and its printed season guide lists the same address.",
+      "source_ids": [
+        "directory",
+        "guide",
+        "season"
+      ],
+      "evidence": "Matched the Pontotoc row in the live hours directory to site 12 in the season guide and checked the Nov. 21 opening in the dated season table.",
+      "statistics": "24 hours; 430 C.J. Hardin Jr. Drive; Nov. 21.",
+      "date_context": "State 2026\u201327 guide and directory checked Nov. 20 for the opening of the Nov. 21 season.",
+      "locality": "Pontotoc County, Mississippi, including land north of U.S. 278.",
+      "identities": "Mississippi Department of Wildlife, Fisheries and Parks and the Pontotoc Ag Center."
+    },
+    {
+      "id": "f2",
+      "statement": "U.S. 278 marks an important boundary within the county. Land north of the highway in Pontotoc County falls within the North Mississippi chronic wasting disease management zone. The state bans supplemental feeding in the zone, including the use of feeders, salt licks and mineral licks. It also restricts moving whole deer carcasses out of the zone.",
+      "source_ids": [
+        "zone"
+      ],
+      "evidence": "The September notice explicitly names the portion of Pontotoc County north of Highway 278 and lists the feeding and transport restrictions.",
+      "statistics": "U.S. 278.",
+      "date_context": "State 2026\u201327 guide and directory checked Nov. 20 for the opening of the Nov. 21 season.",
+      "locality": "Pontotoc County, Mississippi, including land north of U.S. 278.",
+      "identities": "Mississippi Department of Wildlife, Fisheries and Parks and the Pontotoc Ag Center."
+    },
+    {
+      "id": "f3",
+      "statement": "The department encourages hunters to submit deer for testing. Its season guide also lists participating taxidermists as an option. Results are usually available within two weeks of collection and can be checked through the department\u2019s chronic wasting disease website.",
+      "source_ids": [
+        "zone",
+        "guide"
+      ],
+      "evidence": "State notice encourages testing. Guide explains two submission routes and the usual results interval and points to the state results site.",
+      "statistics": "Usually two weeks.",
+      "date_context": "State 2026\u201327 guide and directory checked Nov. 20 for the opening of the Nov. 21 season.",
+      "locality": "Pontotoc County, Mississippi, including land north of U.S. 278.",
+      "identities": "Mississippi Department of Wildlife, Fisheries and Parks and the Pontotoc Ag Center."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc County hunters have a local, around-the-clock drop-off for chronic wasting disease testing as the regular deer gun season opens Saturday, Nov. 21. The state wildlife department lists the Pontotoc Ag Center at 430 C.J. Hardin Jr. Drive. Its online directory gives the site\u2019s hours as 24 hours, and its printed season guide lists the same address.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "U.S. 278 marks an important boundary within the county. Land north of the highway in Pontotoc County falls within the North Mississippi chronic wasting disease management zone. The state bans supplemental feeding in the zone, including the use of feeders, salt licks and mineral licks. It also restricts moving whole deer carcasses out of the zone.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "The department encourages hunters to submit deer for testing. Its season guide also lists participating taxidermists as an option. Results are usually available within two weeks of collection and can be checked through the department\u2019s chronic wasting disease website.",
+      "fact_ids": [
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-deer-testing-ag-center-highway-278-zone.png",
+    "sha256": "4e867a6ec99a4e76065e8fbb7519faff6736d9e91730e66a68403859646bfc46",
+    "alt_text": "The state lists a 24-hour deer testing drop-off at the Pontotoc Ag Center, 430 C.J. Hardin Jr. Drive.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-20T22:02:21.258134+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized Nov. 20 afternoon editorial shift. Publish after authenticated dry run and final review of the unchanged package."
+  }
+}
