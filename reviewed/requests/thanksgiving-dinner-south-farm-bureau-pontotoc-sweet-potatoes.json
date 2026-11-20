@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/thanksgiving-dinner-south-farm-bureau-pontotoc-sweet-potatoes.json",
+  "article_sha256": "a33fe4eb9121b3612763eafae1e8ebcc3ee5d7b29c323dd8284e1bda18641e63",
+  "mode": "dry-run",
+  "public_slug": "thanksgiving-dinner-south-farm-bureau-pontotoc-sweet-potatoes",
+  "seo_review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-20T22:09:51.935203+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}

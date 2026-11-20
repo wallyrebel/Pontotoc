@@ -1,0 +1,128 @@
+{
+  "title": "Thanksgiving dinner for 10 averages $54.33 in the South, Farm Bureau finds",
+  "excerpt": "Sweet potatoes, a Pontotoc County crop, averaged $4.20 for three pounds nationwide. The survey also tracked turkey prices before Thanksgiving-week sales.",
+  "locality": "Southern U.S. retail prices, with agricultural context from Pontotoc and neighboring Calhoun and Chickasaw counties in Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:afbf:2026-11-18:thanksgiving-market-basket-and-local-crop"
+  ],
+  "sources": [
+    {
+      "id": "survey",
+      "title": "Farm Bureau\u2019s Nov. 18 Thanksgiving price survey and item breakdown",
+      "url": "https://www.fb.org/news-release/cost-of-thanksgiving-dinner-increases-remains-below-2022-record-high",
+      "publisher": "American Farm Bureau Federation",
+      "role": "event",
+      "verified_at": "2026-11-20T22:09:51.935203+00:00",
+      "verification_url": "https://www.fb.org/news-release/cost-of-thanksgiving-dinner-increases-remains-below-2022-record-high",
+      "published_at": null
+    },
+    {
+      "id": "census",
+      "title": "Mississippi agricultural census, Table 29, sweet potatoes harvested for sale",
+      "url": "https://www.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Mississippi/st28_2_029_029.pdf",
+      "publisher": "USDA National Agricultural Statistics Service",
+      "role": "background",
+      "verified_at": "2026-11-20T22:09:51.935203+00:00",
+      "verification_url": "https://www.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Mississippi/st28_2_029_029.pdf",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "A Thanksgiving dinner for 10 averaged $54.33 in the South in the American Farm Bureau Federation\u2019s annual grocery survey. That comes to about $5.43 a person. The South had the lowest total of the four regions, $4.30 below the national average of $58.63. Volunteer shoppers recorded prices in the first week of November, ahead of holiday-week promotions.",
+      "source_ids": [
+        "survey"
+      ],
+      "evidence": "Checked survey timing, number of servings, national price and all four regional totals. Rounded 54.33 divided by 10; subtracted 54.33 from 58.63.",
+      "statistics": "$54.33; 10 people; $5.43; $4.30 difference; $58.63 national.",
+      "date_context": "Survey prices checked the first week of November 2026 and released Nov. 18, ahead of Thanksgiving on Nov. 26. County production figures are from the 2022 agricultural census.",
+      "locality": "Southern U.S. retail prices, with agricultural context from Pontotoc and neighboring Calhoun and Chickasaw counties in Mississippi.",
+      "identities": "American Farm Bureau Federation volunteer shoppers and USDA National Agricultural Statistics Service."
+    },
+    {
+      "id": "f2",
+      "statement": "One item on the list grows close to home. Four Pontotoc County farms harvested 350 acres of sweet potatoes for sale in 2022, according to the U.S. Census of Agriculture. Neighboring Calhoun County recorded 14,127 acres and Chickasaw County 5,660 that year. At grocery stores in this November\u2019s national survey, three pounds of sweet potatoes averaged $4.20, up 5 percent from a year earlier.",
+      "source_ids": [
+        "survey",
+        "census"
+      ],
+      "evidence": "Read the sweet potatoes section and its 2022 total-harvested columns for all three counties. The retail figure is the national price, with no inference about a particular store or grower.",
+      "statistics": "2022: 4 farms and 350 acres in Pontotoc, 14,127 acres in Calhoun, 5,660 acres in Chickasaw. Three pounds at $4.20, up 5%.",
+      "date_context": "Survey prices checked the first week of November 2026 and released Nov. 18, ahead of Thanksgiving on Nov. 26. County production figures are from the 2022 agricultural census.",
+      "locality": "Southern U.S. retail prices, with agricultural context from Pontotoc and neighboring Calhoun and Chickasaw counties in Mississippi.",
+      "identities": "American Farm Bureau Federation volunteer shoppers and USDA National Agricultural Statistics Service."
+    },
+    {
+      "id": "f3",
+      "statement": "Turkey accounted for about two-fifths of the national meal cost. A 16-pound frozen bird averaged $23.68, or $1.48 a pound. The shopping list also included stuffing, rolls, vegetables, cranberries and pumpkin pie with whipped cream. For a larger spread, Farm Bureau priced a second basket with boneless ham, russet potatoes and green beans added. That brought the Southern total to $76.91, or $22.58 more for the same 10 servings.",
+      "source_ids": [
+        "survey"
+      ],
+      "evidence": "Checked turkey weight and price, menu and expanded Southern basket against the federation\u2019s release. 23.68/58.63 is about 40 percent; 76.91 minus 54.33 is 22.58.",
+      "statistics": "16 pounds; $23.68; $1.48 per pound; $76.91; $22.58.",
+      "date_context": "Survey prices checked the first week of November 2026 and released Nov. 18, ahead of Thanksgiving on Nov. 26. County production figures are from the 2022 agricultural census.",
+      "locality": "Southern U.S. retail prices, with agricultural context from Pontotoc and neighboring Calhoun and Chickasaw counties in Mississippi.",
+      "identities": "American Farm Bureau Federation volunteer shoppers and USDA National Agricultural Statistics Service."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "A Thanksgiving dinner for 10 averaged $54.33 in the South in the American Farm Bureau Federation\u2019s annual grocery survey. That comes to about $5.43 a person. The South had the lowest total of the four regions, $4.30 below the national average of $58.63. Volunteer shoppers recorded prices in the first week of November, ahead of holiday-week promotions.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "One item on the list grows close to home. Four Pontotoc County farms harvested 350 acres of sweet potatoes for sale in 2022, according to the U.S. Census of Agriculture. Neighboring Calhoun County recorded 14,127 acres and Chickasaw County 5,660 that year. At grocery stores in this November\u2019s national survey, three pounds of sweet potatoes averaged $4.20, up 5 percent from a year earlier.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Turkey accounted for about two-fifths of the national meal cost. A 16-pound frozen bird averaged $23.68, or $1.48 a pound. The shopping list also included stuffing, rolls, vegetables, cranberries and pumpkin pie with whipped cream. For a larger spread, Farm Bureau priced a second basket with boneless ham, russet potatoes and green beans added. That brought the Southern total to $76.91, or $22.58 more for the same 10 servings.",
+      "fact_ids": [
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/thanksgiving-dinner-south-farm-bureau-pontotoc-sweet-potatoes.png",
+    "sha256": "5a1fdc3e746a8e5a7b92f138e5efa0a8e20c20f3b063b69ac2f2c9742ae694e1",
+    "alt_text": "Farm Bureau\u2019s Thanksgiving basket for 10 averaged $54.33 in the South and $58.63 nationally. The expanded Southern basket averaged $76.91.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-20T22:09:51.935203+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized Nov. 20 afternoon editorial shift. Publish after authenticated dry run and final review of the unchanged package."
+  }
+}
