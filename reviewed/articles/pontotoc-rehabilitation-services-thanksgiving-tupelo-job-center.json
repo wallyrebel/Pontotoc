@@ -1,0 +1,174 @@
+{
+  "title": "State vocational rehabilitation offices close Nov. 26\u201327. How Pontotoc job seekers can reach a counselor",
+  "excerpt": "The Tupelo WIN Job Center in Belden lists Tuesday morning hours for disability employment services. The state also takes requests for information online.",
+  "locality": "Pontotoc County, Mississippi, and the nearby Tupelo WIN Job Center in Belden.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:mdrs:2026-11-26:thanksgiving-service-closure-and-access"
+  ],
+  "sources": [
+    {
+      "id": "notice",
+      "title": "Rehabilitation Services Thanksgiving closure, Nov. 26\u201327",
+      "url": "https://www.mdrs.ms.gov/mdrs-events/offices-closed-thanksgiving-holiday-3",
+      "publisher": "Mississippi Department of Rehabilitation Services",
+      "role": "event",
+      "verified_at": "2026-11-20T22:05:03.365771+00:00",
+      "verification_url": "https://www.mdrs.ms.gov/mdrs-events/offices-closed-thanksgiving-holiday-3",
+      "published_at": null
+    },
+    {
+      "id": "county",
+      "title": "WIN Job Center locations serving Pontotoc County",
+      "url": "https://mdes.ms.gov/win-job-centers/pontotoc-win-job-center/",
+      "publisher": "Mississippi Department of Employment Security",
+      "role": "background",
+      "verified_at": "2026-11-20T22:05:03.365771+00:00",
+      "verification_url": "https://mdes.ms.gov/win-job-centers/pontotoc-win-job-center/",
+      "published_at": null
+    },
+    {
+      "id": "tupelo",
+      "title": "Tupelo WIN Job Center service hours and telephone numbers",
+      "url": "https://mdes.ms.gov/win-job-centers/tupelo-win-job-center/",
+      "publisher": "Mississippi Department of Employment Security",
+      "role": "background",
+      "verified_at": "2026-11-20T22:05:03.365771+00:00",
+      "verification_url": "https://mdes.ms.gov/win-job-centers/tupelo-win-job-center/",
+      "published_at": null
+    },
+    {
+      "id": "finder",
+      "title": "Rehabilitation Services office and WIN center addresses",
+      "url": "https://www.mdrs.ms.gov/contact-us/location-finder",
+      "publisher": "Mississippi Department of Rehabilitation Services",
+      "role": "background",
+      "verified_at": "2026-11-20T22:05:03.365771+00:00",
+      "verification_url": "https://www.mdrs.ms.gov/contact-us/location-finder",
+      "published_at": null
+    },
+    {
+      "id": "faq",
+      "title": "How to request a vocational rehabilitation appointment",
+      "url": "https://www.mdrs.ms.gov/contact-us/faqs",
+      "publisher": "Mississippi Department of Rehabilitation Services",
+      "role": "background",
+      "verified_at": "2026-11-20T22:05:03.365771+00:00",
+      "verification_url": "https://www.mdrs.ms.gov/contact-us/faqs",
+      "published_at": null
+    },
+    {
+      "id": "online",
+      "title": "Request information about rehabilitation services",
+      "url": "https://www.mdrs.ms.gov/contact-us/request-services",
+      "publisher": "Mississippi Department of Rehabilitation Services",
+      "role": "background",
+      "verified_at": "2026-11-20T22:05:03.365771+00:00",
+      "verification_url": "https://www.mdrs.ms.gov/contact-us/request-services",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc County residents seeking employment help for a disability have a Tuesday morning option before the Thanksgiving holiday. The Tupelo WIN Job Center in Belden normally offers those services from 9 a.m. to noon on Tuesdays. The Mississippi Department of Rehabilitation Services, which provides them, will close all of its offices Thursday and Friday, Nov. 26\u201327.",
+      "source_ids": [
+        "notice",
+        "county",
+        "tupelo"
+      ],
+      "evidence": "The official event spans both dates and applies to MDRS offices statewide. The county directory links to Tupelo, whose service listing names MDRS and its normal Tuesday hours.",
+      "statistics": "Nov. 26\u201327; Tuesdays 9 a.m. to noon.",
+      "date_context": "Thursday and Friday, Nov. 26\u201327, 2026. Regular Tuesday service hours checked Nov. 20.",
+      "locality": "Pontotoc County, Mississippi, and the nearby Tupelo WIN Job Center in Belden.",
+      "identities": "Mississippi Department of Rehabilitation Services and the Tupelo WIN Job Center."
+    },
+    {
+      "id": "f2",
+      "statement": "The state employment agency directs Pontotoc County residents to the Tupelo center, among its nearby locations. The center is at 3200 Adams Farm Road, Suite 2, in Belden. Residents considering a visit on Tuesday, Nov. 24, can call 662-842-4371 to confirm the holiday-week schedule and ask for a counselor appointment. The department asks callers to mention any interpreter or other accommodation they need for the visit.",
+      "source_ids": [
+        "county",
+        "tupelo",
+        "finder",
+        "faq"
+      ],
+      "evidence": "Verified the Belden address in the current office finder and the disability-services phone number on the center page. Nov. 24 is a Tuesday. The article describes posted normal hours and directs readers to confirm.",
+      "statistics": "3200 Adams Farm Road, Suite 2; Nov. 24; 662-842-4371.",
+      "date_context": "Thursday and Friday, Nov. 26\u201327, 2026. Regular Tuesday service hours checked Nov. 20.",
+      "locality": "Pontotoc County, Mississippi, and the nearby Tupelo WIN Job Center in Belden.",
+      "identities": "Mississippi Department of Rehabilitation Services and the Tupelo WIN Job Center."
+    },
+    {
+      "id": "f3",
+      "statement": "People who prefer to start from home can use the department\u2019s online Request Services form. It lets residents select their county and request information about work or independent-living support. A staff member follows up to discuss services. For help finding the appropriate office, the department lists 1-800-443-1000.",
+      "source_ids": [
+        "online",
+        "faq"
+      ],
+      "evidence": "The public online form is an information request followed by staff contact, separate from the counselor appointment. The agency FAQ lists the statewide telephone number.",
+      "statistics": "1-800-443-1000.",
+      "date_context": "Thursday and Friday, Nov. 26\u201327, 2026. Regular Tuesday service hours checked Nov. 20.",
+      "locality": "Pontotoc County, Mississippi, and the nearby Tupelo WIN Job Center in Belden.",
+      "identities": "Mississippi Department of Rehabilitation Services and the Tupelo WIN Job Center."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc County residents seeking employment help for a disability have a Tuesday morning option before the Thanksgiving holiday. The Tupelo WIN Job Center in Belden normally offers those services from 9 a.m. to noon on Tuesdays. The Mississippi Department of Rehabilitation Services, which provides them, will close all of its offices Thursday and Friday, Nov. 26\u201327.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The state employment agency directs Pontotoc County residents to the Tupelo center, among its nearby locations. The center is at 3200 Adams Farm Road, Suite 2, in Belden. Residents considering a visit on Tuesday, Nov. 24, can call 662-842-4371 to confirm the holiday-week schedule and ask for a counselor appointment. The department asks callers to mention any interpreter or other accommodation they need for the visit.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "People who prefer to start from home can use the department\u2019s online Request Services form. It lets residents select their county and request information about work or independent-living support. A staff member follows up to discuss services. For help finding the appropriate office, the department lists 1-800-443-1000.",
+      "fact_ids": [
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-rehabilitation-services-thanksgiving-tupelo-job-center.png",
+    "sha256": "41c39364e2de998a0ad9e70025f0f223019f3164c54876274af3bb8f8ee9b486",
+    "alt_text": "The Belden WIN center lists Tuesday disability services from 9 a.m. to noon. Call 662-842-4371 before visiting.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-20T22:05:03.365771+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized Nov. 20 afternoon editorial shift. Publish after authenticated dry run and final review of the unchanged package."
+  }
+}

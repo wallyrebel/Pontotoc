@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-rehabilitation-services-thanksgiving-tupelo-job-center.json",
+  "article_sha256": "7eef46428bf38ce58dc49f41c86b8a14f93735ee3ca80dabb103c1764aae58c7",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-rehabilitation-services-thanksgiving-tupelo-job-center",
+  "seo_review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-20T22:05:03.365771+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}
