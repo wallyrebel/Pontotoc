@@ -1,0 +1,208 @@
+{
+  "title": "Pontotoc opens wrestling season with two wins as South Pontotoc earns pins in Oxford",
+  "excerpt": "The Warriors beat Center Hill 75\u20136 and New Albany 76\u20133. At the Oxford tri-meet, three South Pontotoc wrestlers pinned French Camp opponents.",
+  "locality": "Pontotoc High School in Pontotoc, and Oxford High School in Oxford, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:warriors-wrestling:2026-11-19:center-hill-home-result",
+    "ms:pontotoc:warriors-wrestling:2026-11-19:new-albany-home-result",
+    "ms:pontotoc:south-wrestling:2026-11-19:oxford-french-camp-results"
+  ],
+  "sources": [
+    {
+      "id": "school",
+      "title": "Pontotoc Warrior Wrestling team scorecard",
+      "url": "https://www.facebook.com/1409956404473934/posts/1702142298588675",
+      "publisher": "Pontotoc Warrior Wrestling via Pontotoc Athletics",
+      "role": "event",
+      "verified_at": "2026-11-20T15:07:29.673210+00:00",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7kh8MV2fT.rss",
+      "published_at": "2026-11-20T12:20:03+00:00"
+    },
+    {
+      "id": "home",
+      "title": "Nov. 19 individual results in Pontotoc",
+      "url": "https://www.usawmembership.com/usaw_results/20285/results",
+      "publisher": "USA Wrestling",
+      "role": "event",
+      "verified_at": "2026-11-20T15:07:29.673210+00:00",
+      "verification_url": "https://www.usawmembership.com/usaw_results/20285/results",
+      "published_at": null
+    },
+    {
+      "id": "oxford",
+      "title": "Nov. 19 individual results in Oxford",
+      "url": "https://www.usawmembership.com/usaw_results/20273/results",
+      "publisher": "USA Wrestling",
+      "role": "event",
+      "verified_at": "2026-11-20T15:07:29.673210+00:00",
+      "verification_url": "https://www.usawmembership.com/usaw_results/20273/results",
+      "published_at": null
+    },
+    {
+      "id": "oxgirls",
+      "title": "Oxford meet results, including girls at 145 pounds",
+      "url": "https://www.usawmembership.com/usaw_results/20273/results?page=2",
+      "publisher": "USA Wrestling",
+      "role": "event",
+      "verified_at": "2026-11-20T15:07:29.673210+00:00",
+      "verification_url": "https://www.usawmembership.com/usaw_results/20273/results?page=2",
+      "published_at": null
+    },
+    {
+      "id": "oxheavy",
+      "title": "Oxford meet results, including girls at 185 pounds",
+      "url": "https://www.usawmembership.com/usaw_results/20273/results?page=3",
+      "publisher": "USA Wrestling",
+      "role": "event",
+      "verified_at": "2026-11-20T15:07:29.673210+00:00",
+      "verification_url": "https://www.usawmembership.com/usaw_results/20273/results?page=3",
+      "published_at": null
+    },
+    {
+      "id": "preview",
+      "title": "Pontotoc\u2019s opening-night preview and December wrestling schedule",
+      "url": "https://pontotocnews.com/pontotoc-news/pontotoc-wrestling-center-hill-new-albany-home-opener/",
+      "publisher": "Pontotoc News",
+      "role": "background",
+      "verified_at": "2026-11-20T15:07:29.673210+00:00",
+      "verification_url": "https://pontotocnews.com/pontotoc-news/pontotoc-wrestling-center-hill-new-albany-home-opener/",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc gave up just nine team points across two duals in its home wrestling opener Thursday. The Warriors beat Center Hill 75\u20136 and New Albany 76\u20133, according to the team\u2019s scorecard.",
+      "source_ids": [
+        "school",
+        "home",
+        "preview"
+      ],
+      "evidence": "Inspected the team graphic for the two final scores. The meet record gives Nov. 19 and the season preview identifies it as the home opener.",
+      "statistics": "75\u20136 and 76\u20133; opponents earned six plus three team points.",
+      "date_context": "Thursday, Nov. 19, 2026 results. Scheduled return visit Tuesday, Dec. 1.",
+      "locality": "Pontotoc High School in Pontotoc, and Oxford High School in Oxford, Mississippi.",
+      "identities": "Pontotoc, New Albany, Center Hill, South Pontotoc, French Camp and Oxford varsity wrestlers."
+    },
+    {
+      "id": "f2",
+      "statement": "Against New Albany, Pontotoc\u2019s Aiden Stone pinned Caden Derryberry in 2 minutes, 24 seconds at 113 pounds. Cesar Lopez recorded a faster fall at 126, pinning Daniel Peters in 1:43. At 132, Evan Parker beat Chanapon Weaver by technical fall, 23\u20138, in four minutes.",
+      "source_ids": [
+        "home"
+      ],
+      "evidence": "The meet lists Stone and Lopez with falls and Parker with a technical fall. Times, scores, weight classes and names checked against the individual results.",
+      "statistics": "113 pounds, 2:24; 126 pounds, 1:43; 132 pounds, 23\u20138 at 4:00.",
+      "date_context": "Thursday, Nov. 19, 2026 results. Scheduled return visit Tuesday, Dec. 1.",
+      "locality": "Pontotoc High School in Pontotoc, and Oxford High School in Oxford, Mississippi.",
+      "identities": "Pontotoc, New Albany, Center Hill, South Pontotoc, French Camp and Oxford varsity wrestlers."
+    },
+    {
+      "id": "f3",
+      "statement": "South Pontotoc had three pins against French Camp at a separate meet in Oxford. Javion Anderson stopped Sterling Petty in 3:36 at 106 pounds. Bentlee Alward pinned Hunter Dodd in 1:09 at 126, and Caspian Call pinned Hayden Swindle in 1:07 at 132.",
+      "source_ids": [
+        "oxford"
+      ],
+      "evidence": "USA Wrestling lists each named fall, opponent, time and weight in the Nov. 19 Oxford tri-meet. These are selected individual results.",
+      "statistics": "3:36 at 106; 1:09 at 126; 1:07 at 132.",
+      "date_context": "Thursday, Nov. 19, 2026 results. Scheduled return visit Tuesday, Dec. 1.",
+      "locality": "Pontotoc High School in Pontotoc, and Oxford High School in Oxford, Mississippi.",
+      "identities": "Pontotoc, New Albany, Center Hill, South Pontotoc, French Camp and Oxford varsity wrestlers."
+    },
+    {
+      "id": "f4",
+      "statement": "In the girls matches against Oxford, South Pontotoc\u2019s Kennedi Crowley won by fall in 1:54 at 145 pounds. Keeleigh Crowley needed just 49 seconds to pin Oxford\u2019s Nhari Jones at 185.",
+      "source_ids": [
+        "oxgirls",
+        "oxheavy"
+      ],
+      "evidence": "The girls results on pages two and three list both falls, weight classes, opponents and times.",
+      "statistics": "145 pounds at 1:54; 185 pounds at 0:49.",
+      "date_context": "Thursday, Nov. 19, 2026 results. Scheduled return visit Tuesday, Dec. 1.",
+      "locality": "Pontotoc High School in Pontotoc, and Oxford High School in Oxford, Mississippi.",
+      "identities": "Pontotoc, New Albany, Center Hill, South Pontotoc, French Camp and Oxford varsity wrestlers."
+    },
+    {
+      "id": "f5",
+      "statement": "Pontotoc and New Albany meet again Tuesday, Dec. 1, this time in New Albany. The Warriors are due back home Thursday, Dec. 3, when South Pontotoc and South Panola visit.",
+      "source_ids": [
+        "preview"
+      ],
+      "evidence": "The earlier report links the school schedule and gives opponents, dates and locations.",
+      "statistics": "Dec. 1 and Dec. 3.",
+      "date_context": "Thursday, Nov. 19, 2026 results. Scheduled return visit Tuesday, Dec. 1.",
+      "locality": "Pontotoc High School in Pontotoc, and Oxford High School in Oxford, Mississippi.",
+      "identities": "Pontotoc, New Albany, Center Hill, South Pontotoc, French Camp and Oxford varsity wrestlers."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc gave up just nine team points across two duals in its home wrestling opener Thursday. The Warriors beat Center Hill 75\u20136 and New Albany 76\u20133, according to the team\u2019s scorecard.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "Against New Albany, Pontotoc\u2019s Aiden Stone pinned Caden Derryberry in 2 minutes, 24 seconds at 113 pounds. Cesar Lopez recorded a faster fall at 126, pinning Daniel Peters in 1:43. At 132, Evan Parker beat Chanapon Weaver by technical fall, 23\u20138, in four minutes.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "South Pontotoc had three pins against French Camp at a separate meet in Oxford. Javion Anderson stopped Sterling Petty in 3:36 at 106 pounds. Bentlee Alward pinned Hunter Dodd in 1:09 at 126, and Caspian Call pinned Hayden Swindle in 1:07 at 132.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "In the girls matches against Oxford, South Pontotoc\u2019s Kennedi Crowley won by fall in 1:54 at 145 pounds. Keeleigh Crowley needed just 49 seconds to pin Oxford\u2019s Nhari Jones at 185.",
+      "fact_ids": [
+        "f4"
+      ]
+    },
+    {
+      "text": "Pontotoc and New Albany meet again Tuesday, Dec. 1, this time in New Albany. The Warriors are due back home Thursday, Dec. 3, when South Pontotoc and South Panola visit.",
+      "fact_ids": [
+        "f5"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-wrestling-center-hill-new-albany-oxford-results.png",
+    "sha256": "c4c6a387df2a94fcf7dbdb196499e04d89353726290776cbe98bb00723cd9b53",
+    "alt_text": "Pontotoc won 75 to 6 against Center Hill and 76 to 3 against New Albany. The Warriors travel to New Albany Dec. 1.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-20T15:07:29.673210+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f3"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized Nov. 20, 2026 Pontotoc News morning editorial shift. Publish reviewed copy after authenticated preflight."
+  }
+}
