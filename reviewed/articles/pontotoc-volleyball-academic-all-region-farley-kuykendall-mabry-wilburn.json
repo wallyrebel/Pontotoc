@@ -1,0 +1,139 @@
+{
+  "title": "Four Pontotoc volleyball players earn Class 5A academic all-region honors",
+  "excerpt": "Meredith Farley, Gracie Kuykendall, A\u2019mia Mabry and Tara Wilburn represent Pontotoc on the Region 1 academic list.",
+  "locality": "Pontotoc High School, Pontotoc, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:warriors-volleyball:2026-11-19:region-one-academic-honors"
+  ],
+  "sources": [
+    {
+      "id": "award",
+      "title": "Pontotoc Athletics\u2019 academic all-region announcement and honorees",
+      "url": "https://www.facebook.com/1409956404473934/posts/1701177612018477",
+      "publisher": "Pontotoc Athletics",
+      "role": "event",
+      "verified_at": "2026-11-20T19:35:20.307929+00:00",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7kh8MV2fT.rss",
+      "published_at": "2026-11-19T16:23:25+00:00"
+    },
+    {
+      "id": "roster",
+      "title": "Pontotoc varsity volleyball roster",
+      "url": "https://www.maxpreps.com/ms/pontotoc/pontotoc-warriors/volleyball/roster/",
+      "publisher": "Pontotoc team roster on MaxPreps",
+      "role": "background",
+      "verified_at": "2026-11-20T19:35:20.307929+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/pontotoc/pontotoc-warriors/volleyball/roster/",
+      "published_at": null
+    },
+    {
+      "id": "season",
+      "title": "Pontotoc varsity volleyball schedule and results",
+      "url": "https://www.maxpreps.com/ms/pontotoc/pontotoc-warriors/volleyball/schedule/",
+      "publisher": "Pontotoc team schedule on MaxPreps",
+      "role": "background",
+      "verified_at": "2026-11-20T19:35:20.307929+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/pontotoc/pontotoc-warriors/volleyball/schedule/",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Three seniors and a junior from Pontotoc\u2019s volleyball team earned academic all-region honors this fall. Pontotoc Athletics named Meredith Farley, Gracie Kuykendall, A\u2019mia Mabry and Tara Wilburn in its announcement Thursday.",
+      "source_ids": [
+        "award",
+        "roster"
+      ],
+      "evidence": "Read all four names directly from the school\u2019s Region 1 award graphic. Matched each to the current roster, using the school\u2019s spelling of A\u2019mia.",
+      "statistics": "Four athletes; three seniors and one junior.",
+      "date_context": "School announcement Nov. 19, 2026, following the fall varsity season.",
+      "locality": "Pontotoc High School, Pontotoc, Mississippi.",
+      "identities": "Pontotoc varsity volleyball, the four named honorees and Class 5A Region 1."
+    },
+    {
+      "id": "f2",
+      "statement": "Mabry, the junior, wore No. 2. Farley wore No. 4, Kuykendall No. 7 and Wilburn No. 1. Kuykendall played libero and defensive specialist, and Wilburn was listed as a setter and defensive specialist.",
+      "source_ids": [
+        "roster"
+      ],
+      "evidence": "Current varsity roster records jersey numbers, class and positions for all four.",
+      "statistics": "Numbers 2, 4, 7 and 1.",
+      "date_context": "School announcement Nov. 19, 2026, following the fall varsity season.",
+      "locality": "Pontotoc High School, Pontotoc, Mississippi.",
+      "identities": "Pontotoc varsity volleyball, the four named honorees and Class 5A Region 1."
+    },
+    {
+      "id": "f3",
+      "statement": "The Class 5A Region 1 announcement named 16 players, four apiece from Pontotoc, Caledonia, New Hope and Lafayette. Caledonia was also Pontotoc\u2019s final playoff opponent. The Warriors swept Cleveland Central on Oct. 6 before losing in three sets at Caledonia on Oct. 8. They finished 21\u20138 overall and 7\u20133 in the district.",
+      "source_ids": [
+        "award",
+        "season"
+      ],
+      "evidence": "Counted four names under each of four school headings. Checked both dated playoff games and season record on the completed team schedule.",
+      "statistics": "16 honorees; four schools; 3\u20130 both matches; 21\u20138 and 7\u20133.",
+      "date_context": "School announcement Nov. 19, 2026, following the fall varsity season.",
+      "locality": "Pontotoc High School, Pontotoc, Mississippi.",
+      "identities": "Pontotoc varsity volleyball, the four named honorees and Class 5A Region 1."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Three seniors and a junior from Pontotoc\u2019s volleyball team earned academic all-region honors this fall. Pontotoc Athletics named Meredith Farley, Gracie Kuykendall, A\u2019mia Mabry and Tara Wilburn in its announcement Thursday.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "Mabry, the junior, wore No. 2. Farley wore No. 4, Kuykendall No. 7 and Wilburn No. 1. Kuykendall played libero and defensive specialist, and Wilburn was listed as a setter and defensive specialist.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "The Class 5A Region 1 announcement named 16 players, four apiece from Pontotoc, Caledonia, New Hope and Lafayette. Caledonia was also Pontotoc\u2019s final playoff opponent. The Warriors swept Cleveland Central on Oct. 6 before losing in three sets at Caledonia on Oct. 8. They finished 21\u20138 overall and 7\u20133 in the district.",
+      "fact_ids": [
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-volleyball-academic-all-region-farley-kuykendall-mabry-wilburn.png",
+    "sha256": "bf6c798fe904d04a319a9eea43d805a0784adc075e8a8c2c5223ec455e49ecf0",
+    "alt_text": "Pontotoc\u2019s four academic all-region selections are Meredith Farley, Gracie Kuykendall, A\u2019mia Mabry and Tara Wilburn.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News supplemental desk",
+    "reviewed_at": "2026-11-20T19:35:20.307929+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f3"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 20 supplemental editorial shift. Publish the reviewed package after authenticated preflight and final review."
+  }
+}
