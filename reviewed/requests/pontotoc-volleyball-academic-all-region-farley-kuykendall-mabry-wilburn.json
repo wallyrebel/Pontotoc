@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-volleyball-academic-all-region-farley-kuykendall-mabry-wilburn.json",
   "article_sha256": "c27ab3827a25f68d062258031daa47946e12234bf306853f84fc21c6393554e8",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-volleyball-academic-all-region-farley-kuykendall-mabry-wilburn",
   "seo_review": {
     "reviewer": "Pontotoc News supplemental desk",
