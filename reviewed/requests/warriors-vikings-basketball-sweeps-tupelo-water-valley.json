@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/warriors-vikings-basketball-sweeps-tupelo-water-valley.json",
   "article_sha256": "b02d5c0d53d24ab2b8e915f50b6260d5a8249fb0167ea6e0ac8e7ea5d65c6290",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "warriors-vikings-basketball-sweeps-tupelo-water-valley",
   "seo_review": {
     "reviewer": "Pontotoc News morning desk",
