@@ -1,0 +1,230 @@
+{
+  "title": "South Pontotoc girls reach 6\u20130 as Cougars sweep Lafayette. Pontotoc shuts out Strayhorn twice",
+  "excerpt": "The South Pontotoc boys won their fourth straight basketball game, and the Pontotoc girls scored six times after halftime in a 7\u20130 soccer win.",
+  "locality": "Basketball at South Pontotoc, soccer at Pontotoc and at Tupelo Christian Prep in Belden.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:south-pontotoc:2026-11-19:lafayette-basketball",
+    "ms:pontotoc:pontotoc-high:2026-11-19:strayhorn-soccer",
+    "ms:pontotoc:south-pontotoc:2026-11-19:tupelo-christian-girls-soccer"
+  ],
+  "sources": [
+    {
+      "id": "girls",
+      "title": "Lafayette at South Pontotoc, girls basketball",
+      "url": "https://www.maxpreps.com/ms/basketball/girls/game/lafayette-oxford-vs-south-pontotoc/11-19-2026/?c=c8b30dc0-488d-4b74-a7d2-6742d3c3519f",
+      "publisher": "Team game record on MaxPreps",
+      "role": "event",
+      "verified_at": "2026-11-20T04:11:17.290812+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/basketball/girls/game/lafayette-oxford-vs-south-pontotoc/11-19-2026/?c=c8b30dc0-488d-4b74-a7d2-6742d3c3519f",
+      "published_at": null
+    },
+    {
+      "id": "boys",
+      "title": "Lafayette at South Pontotoc, boys basketball",
+      "url": "https://www.maxpreps.com/ms/basketball/game/lafayette-oxford-vs-south-pontotoc/11-19-2026/?c=e907f421-9ea5-4240-b947-9c3a2eeaaef3",
+      "publisher": "Team game record on MaxPreps",
+      "role": "event",
+      "verified_at": "2026-11-20T04:11:17.290812+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/basketball/game/lafayette-oxford-vs-south-pontotoc/11-19-2026/?c=e907f421-9ea5-4240-b947-9c3a2eeaaef3",
+      "published_at": null
+    },
+    {
+      "id": "gs",
+      "title": "South Pontotoc girls basketball schedule",
+      "url": "https://www.maxpreps.com/ms/pontotoc/south-pontotoc-cougars/basketball/girls/schedule/",
+      "publisher": "Team game record on MaxPreps",
+      "role": "background",
+      "verified_at": "2026-11-20T04:11:17.290812+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/pontotoc/south-pontotoc-cougars/basketball/girls/schedule/",
+      "published_at": null
+    },
+    {
+      "id": "bs",
+      "title": "South Pontotoc boys basketball schedule",
+      "url": "https://www.maxpreps.com/ms/pontotoc/south-pontotoc-cougars/basketball/schedule/",
+      "publisher": "Team game record on MaxPreps",
+      "role": "background",
+      "verified_at": "2026-11-20T04:11:17.290812+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/pontotoc/south-pontotoc-cougars/basketball/schedule/",
+      "published_at": null
+    },
+    {
+      "id": "pg",
+      "title": "Strayhorn at Pontotoc, girls soccer",
+      "url": "https://www.maxpreps.com/ms/soccer/girls/match/pontotoc-vs-strayhorn-sarah/11-19-2026/?c=218c4a05-e101-4b7e-944e-a71da497b8c7",
+      "publisher": "Team game record on MaxPreps",
+      "role": "event",
+      "verified_at": "2026-11-20T04:11:17.290812+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/soccer/girls/match/pontotoc-vs-strayhorn-sarah/11-19-2026/?c=218c4a05-e101-4b7e-944e-a71da497b8c7",
+      "published_at": null
+    },
+    {
+      "id": "pb",
+      "title": "Strayhorn at Pontotoc, boys soccer",
+      "url": "https://www.maxpreps.com/ms/soccer/match/pontotoc-vs-strayhorn-sarah/11-19-2026/?c=27beae77-f21f-415a-878d-bd35652b15d4",
+      "publisher": "Team game record on MaxPreps",
+      "role": "event",
+      "verified_at": "2026-11-20T04:11:17.290812+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/soccer/match/pontotoc-vs-strayhorn-sarah/11-19-2026/?c=27beae77-f21f-415a-878d-bd35652b15d4",
+      "published_at": null
+    },
+    {
+      "id": "pgs",
+      "title": "Pontotoc girls soccer schedule",
+      "url": "https://www.maxpreps.com/ms/pontotoc/pontotoc-warriors/soccer/girls/winter/schedule/",
+      "publisher": "Team game record on MaxPreps",
+      "role": "background",
+      "verified_at": "2026-11-20T04:11:17.290812+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/pontotoc/pontotoc-warriors/soccer/girls/winter/schedule/",
+      "published_at": null
+    },
+    {
+      "id": "pbs",
+      "title": "Pontotoc boys soccer schedule",
+      "url": "https://www.maxpreps.com/ms/pontotoc/pontotoc-warriors/soccer/winter/schedule/",
+      "publisher": "Team game record on MaxPreps",
+      "role": "background",
+      "verified_at": "2026-11-20T04:11:17.290812+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/pontotoc/pontotoc-warriors/soccer/winter/schedule/",
+      "published_at": null
+    },
+    {
+      "id": "sg",
+      "title": "South Pontotoc at Tupelo Christian Prep, girls soccer",
+      "url": "https://www.maxpreps.com/ms/soccer/girls/match/south-pontotoc-vs-tupelo-christian-prep-belden/11-19-2026/?c=aea36e7b-3f6d-4c7b-b42b-0c298d804502",
+      "publisher": "Team game record on MaxPreps",
+      "role": "event",
+      "verified_at": "2026-11-20T04:11:17.290812+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/soccer/girls/match/south-pontotoc-vs-tupelo-christian-prep-belden/11-19-2026/?c=aea36e7b-3f6d-4c7b-b42b-0c298d804502",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "South Pontotoc beat Lafayette twice at home Thursday night. The girls won 62\u201342 to reach 6\u20130, and the boys won 66\u201354 for their fourth straight victory. On the soccer field, Pontotoc\u2019s girls and boys both shut out visiting Strayhorn.",
+      "source_ids": [
+        "girls",
+        "boys",
+        "bs",
+        "pg",
+        "pb"
+      ],
+      "evidence": "The two basketball boxes provide home designation, finals and records. The boys schedule confirms four wins in succession. Both soccer boxes show clean sheets.",
+      "statistics": "62\u201342; 6\u20130; 66\u201354; four consecutive wins.",
+      "date_context": "Thursday night, Nov. 19, 2026. Next basketball games Monday, Nov. 23.",
+      "locality": "Basketball at South Pontotoc, soccer at Pontotoc and at Tupelo Christian Prep in Belden.",
+      "identities": "South Pontotoc Cougars, Lafayette Commodores, Pontotoc Warriors, Strayhorn Mustangs and Tupelo Christian Prep Eagles."
+    },
+    {
+      "id": "f2",
+      "statement": "The girls have won each of their first six basketball games by at least 20 points. Lafayette scored more against them than any of their first five opponents, but Thursday\u2019s 20-point margin still left the Cougars unbeaten. The South Pontotoc boys are 4\u20132 after following two opening losses with wins over Bruce, Mantachie, Hickory Flat and Lafayette.",
+      "source_ids": [
+        "girls",
+        "gs",
+        "boys",
+        "bs"
+      ],
+      "evidence": "The girls schedule lists six margins of 44, 59, 33, 31, 42 and 20. The boys schedule gives the win sequence and the game record lists 4\u20132.",
+      "statistics": "Six games; 20-point minimum; 4\u20132.",
+      "date_context": "Thursday night, Nov. 19, 2026. Next basketball games Monday, Nov. 23.",
+      "locality": "Basketball at South Pontotoc, soccer at Pontotoc and at Tupelo Christian Prep in Belden.",
+      "identities": "South Pontotoc Cougars, Lafayette Commodores, Pontotoc Warriors, Strayhorn Mustangs and Tupelo Christian Prep Eagles."
+    },
+    {
+      "id": "f3",
+      "statement": "In Pontotoc, the Warrior girls led Strayhorn 1\u20130 at halftime and scored six times after the break to win 7\u20130. It was their second 7\u20130 home win in three days, following Tuesday\u2019s victory over Grenada. The Warrior boys won 3\u20130 Thursday after beating Grenada 6\u20130 on Tuesday.",
+      "source_ids": [
+        "pg",
+        "pb",
+        "pgs",
+        "pbs"
+      ],
+      "evidence": "The girls box gives one goal before halftime and six after it. The boys box confirms three goals. Both schedules list Tuesday\u2019s home shutouts.",
+      "statistics": "1\u20130 at half; 7\u20130 and 3\u20130 Thursday; 7\u20130 and 6\u20130 Tuesday.",
+      "date_context": "Thursday night, Nov. 19, 2026. Next basketball games Monday, Nov. 23.",
+      "locality": "Basketball at South Pontotoc, soccer at Pontotoc and at Tupelo Christian Prep in Belden.",
+      "identities": "South Pontotoc Cougars, Lafayette Commodores, Pontotoc Warriors, Strayhorn Mustangs and Tupelo Christian Prep Eagles."
+    },
+    {
+      "id": "f4",
+      "statement": "On the road in Belden, South Pontotoc\u2019s girls soccer team scored both of its goals in the second half of a 9\u20132 loss at Tupelo Christian Prep. The Eagles led 6\u20130 at the break. South Pontotoc\u2019s next varsity basketball games are Monday, when the girls face Shannon at 11:30 a.m. and the boys meet Alcorn Central at 12:45 p.m.",
+      "source_ids": [
+        "sg",
+        "gs",
+        "bs"
+      ],
+      "evidence": "The soccer box provides both halves and the final. Each basketball team schedule lists the opponent and start time Nov. 23.",
+      "statistics": "6\u20130 at half; 9\u20132 final; 11:30 a.m. and 12:45 p.m.",
+      "date_context": "Thursday night, Nov. 19, 2026. Next basketball games Monday, Nov. 23.",
+      "locality": "Basketball at South Pontotoc, soccer at Pontotoc and at Tupelo Christian Prep in Belden.",
+      "identities": "South Pontotoc Cougars, Lafayette Commodores, Pontotoc Warriors, Strayhorn Mustangs and Tupelo Christian Prep Eagles."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "South Pontotoc beat Lafayette twice at home Thursday night. The girls won 62\u201342 to reach 6\u20130, and the boys won 66\u201354 for their fourth straight victory. On the soccer field, Pontotoc\u2019s girls and boys both shut out visiting Strayhorn.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The girls have won each of their first six basketball games by at least 20 points. Lafayette scored more against them than any of their first five opponents, but Thursday\u2019s 20-point margin still left the Cougars unbeaten. The South Pontotoc boys are 4\u20132 after following two opening losses with wins over Bruce, Mantachie, Hickory Flat and Lafayette.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "In Pontotoc, the Warrior girls led Strayhorn 1\u20130 at halftime and scored six times after the break to win 7\u20130. It was their second 7\u20130 home win in three days, following Tuesday\u2019s victory over Grenada. The Warrior boys won 3\u20130 Thursday after beating Grenada 6\u20130 on Tuesday.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "On the road in Belden, South Pontotoc\u2019s girls soccer team scored both of its goals in the second half of a 9\u20132 loss at Tupelo Christian Prep. The Eagles led 6\u20130 at the break. South Pontotoc\u2019s next varsity basketball games are Monday, when the girls face Shannon at 11:30 a.m. and the boys meet Alcorn Central at 12:45 p.m.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-lafayette-basketball-strayhorn-soccer-november-19.png",
+    "sha256": "631ccc1f40e7a4c2f40e3e3102253038987070cabb2741bcda7366420dd0042a",
+    "alt_text": "South Pontotoc beat Lafayette 62\u201342 in girls basketball and 66\u201354 in boys basketball. Pontotoc beat Strayhorn 7\u20130 and 3\u20130 in soccer.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News evening desk",
+    "reviewed_at": "2026-11-20T04:11:17.290812+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 19 evening newsroom recovery. Publish after authenticated preflight."
+  }
+}
