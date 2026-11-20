@@ -1,0 +1,138 @@
+{
+  "title": "Dec. 7 is the deadline for Pontotoc farms under USDA\u2019s April drought designation",
+  "excerpt": "Pontotoc was listed as a neighboring county eligible for emergency credit. A separate November notice gives other north Mississippi counties a July deadline.",
+  "locality": "Pontotoc County and neighboring Lafayette and Union counties, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:usda-fsa:2026-12-07:april-22-drought-loan-deadline"
+  ],
+  "sources": [
+    {
+      "id": "april",
+      "title": "April 22 drought designation and December filing deadline",
+      "url": "https://www.fsa.usda.gov/news-events/news/04-22-2026/usda-designates-21-mississippi-counties-natural-disaster-areas-due-0",
+      "publisher": "USDA Farm Service Agency",
+      "role": "event",
+      "verified_at": "2026-11-20T19:35:20.307929+00:00",
+      "verification_url": "https://www.fsa.usda.gov/news-events/news/04-22-2026/usda-designates-21-mississippi-counties-natural-disaster-areas-due-0",
+      "published_at": null
+    },
+    {
+      "id": "nov",
+      "title": "November drought designation S6460 and county list",
+      "url": "https://www.fsa.usda.gov/news-events/news/11-16-2026/usda-designates-four-mississippi-counties-natural-disaster-areas",
+      "publisher": "USDA Farm Service Agency",
+      "role": "event",
+      "verified_at": "2026-11-20T19:35:20.307929+00:00",
+      "verification_url": "https://www.fsa.usda.gov/news-events/news/11-16-2026/usda-designates-four-mississippi-counties-natural-disaster-areas",
+      "published_at": null
+    },
+    {
+      "id": "office",
+      "title": "Find a Farm Service Agency office by state and county",
+      "url": "https://www.farmers.gov/contact",
+      "publisher": "USDA Farmers.gov",
+      "role": "background",
+      "verified_at": "2026-11-20T19:35:20.307929+00:00",
+      "verification_url": "https://www.farmers.gov/contact",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc County farmers seeking emergency loans for losses covered by USDA\u2019s April 22 drought designation have until Monday, Dec. 7, to apply. The Farm Service Agency named Pontotoc as a county adjoining a designated disaster area. Calhoun and Lafayette were among the 21 Mississippi counties listed as primary disaster areas.",
+      "source_ids": [
+        "april"
+      ],
+      "evidence": "April notice explicitly lists Pontotoc under contiguous Mississippi counties, Calhoun and Lafayette under primary counties, and December 7 as deadline.",
+      "statistics": "April 22; Dec. 7; 21 primary counties.",
+      "date_context": "April 22 and Nov. 16, 2026 notices, with separate deadlines Dec. 7, 2026 and July 6, 2027.",
+      "locality": "Pontotoc County and neighboring Lafayette and Union counties, Mississippi.",
+      "identities": "USDA Farm Service Agency and farm operators affected by the designated drought."
+    },
+    {
+      "id": "f2",
+      "statement": "A second USDA notice issued Nov. 16 carries a later deadline that applies to a different group of counties. It names Alcorn, Benton, Marshall and Tippah as the primary counties and includes Lafayette and Union as neighbors. Pontotoc is absent from that notice, so its July 6, 2027, deadline does not extend the filing window under the April designation.",
+      "source_ids": [
+        "april",
+        "nov"
+      ],
+      "evidence": "Compared complete primary and contiguous lists and the deadlines in the two notices. No claim about other independent designations.",
+      "statistics": "Nov. 16; four primary counties; July 6, 2027.",
+      "date_context": "April 22 and Nov. 16, 2026 notices, with separate deadlines Dec. 7, 2026 and July 6, 2027.",
+      "locality": "Pontotoc County and neighboring Lafayette and Union counties, Mississippi.",
+      "identities": "USDA Farm Service Agency and farm operators affected by the designated drought."
+    },
+    {
+      "id": "f3",
+      "statement": "The loans can help replace essential equipment or livestock lost in a disaster. FSA reviews each application, including the operation\u2019s losses, available collateral and ability to repay. Producers with questions about filing a notice of loss can select Mississippi and Pontotoc County in USDA\u2019s service center locator to find the local office.",
+      "source_ids": [
+        "april",
+        "office"
+      ],
+      "evidence": "The April notice specifies eligible uses and review criteria and directs readers to their local office. The locator provides state and county selection.",
+      "statistics": "None asserted.",
+      "date_context": "April 22 and Nov. 16, 2026 notices, with separate deadlines Dec. 7, 2026 and July 6, 2027.",
+      "locality": "Pontotoc County and neighboring Lafayette and Union counties, Mississippi.",
+      "identities": "USDA Farm Service Agency and farm operators affected by the designated drought."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc County farmers seeking emergency loans for losses covered by USDA\u2019s April 22 drought designation have until Monday, Dec. 7, to apply. The Farm Service Agency named Pontotoc as a county adjoining a designated disaster area. Calhoun and Lafayette were among the 21 Mississippi counties listed as primary disaster areas.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "A second USDA notice issued Nov. 16 carries a later deadline that applies to a different group of counties. It names Alcorn, Benton, Marshall and Tippah as the primary counties and includes Lafayette and Union as neighbors. Pontotoc is absent from that notice, so its July 6, 2027, deadline does not extend the filing window under the April designation.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "The loans can help replace essential equipment or livestock lost in a disaster. FSA reviews each application, including the operation\u2019s losses, available collateral and ability to repay. Producers with questions about filing a notice of loss can select Mississippi and Pontotoc County in USDA\u2019s service center locator to find the local office.",
+      "fact_ids": [
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-farm-drought-loans-december-application-deadline.png",
+    "sha256": "54103889ba09404829381e66a184ec1ba3ee27a4c040ad7faf73eaf00479659b",
+    "alt_text": "The April 22 drought designation lists Pontotoc as a contiguous county and gives Dec. 7, 2026, as its loan application deadline.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News supplemental desk",
+    "reviewed_at": "2026-11-20T19:35:20.307929+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 20 supplemental editorial shift. Publish the reviewed package after authenticated preflight and final review."
+  }
+}

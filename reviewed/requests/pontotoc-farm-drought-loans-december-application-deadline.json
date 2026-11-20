@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-farm-drought-loans-december-application-deadline.json",
+  "article_sha256": "0fe37538095eecf5195600a2d7ebb06ce319abff5cdb2f7dd2ddb7a67e45a9ab",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-farm-drought-loans-december-application-deadline",
+  "seo_review": {
+    "reviewer": "Pontotoc News supplemental desk",
+    "reviewed_at": "2026-11-20T19:35:20.307929+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}
