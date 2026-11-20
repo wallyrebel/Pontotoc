@@ -1,0 +1,157 @@
+{
+  "title": "Pontotoc County forecast calls for upper 20s Thanksgiving morning",
+  "excerpt": "Sunday\u2019s front is expected to take daytime highs from the mid-70s to around 60 on Monday. The coldest night in the county forecast comes just before Thanksgiving.",
+  "locality": "Pontotoc County, Mississippi. The Memphis forecast office provides the regional outlook.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:nws-memphis:2026-11-20:thanksgiving-morning-freeze-outlook"
+  ],
+  "sources": [
+    {
+      "id": "zfp",
+      "title": "Friday morning county forecast. See the Pontotoc section, MSZ015",
+      "url": "https://api.weather.gov/products/c06c6af6-2efe-414a-861a-54088afbac4c",
+      "publisher": "National Weather Service Memphis",
+      "role": "event",
+      "verified_at": "2026-11-20T15:08:20.489390+00:00",
+      "verification_url": "https://api.weather.gov/products/c06c6af6-2efe-414a-861a-54088afbac4c",
+      "published_at": "2026-11-20T15:06:00+00:00"
+    },
+    {
+      "id": "afd",
+      "title": "Memphis forecasters\u2019 discussion of the front and Thanksgiving cold",
+      "url": "https://api.weather.gov/products/e196250c-eea6-49f3-a9df-38f699fce499",
+      "publisher": "National Weather Service Memphis",
+      "role": "event",
+      "verified_at": "2026-11-20T15:08:20.489390+00:00",
+      "verification_url": "https://api.weather.gov/products/e196250c-eea6-49f3-a9df-38f699fce499",
+      "published_at": "2026-11-20T11:44:00+00:00"
+    },
+    {
+      "id": "plants",
+      "title": "Mississippi State Extension guide to protecting plants from cold",
+      "url": "https://extension.msstate.edu/publications/protecting-plants-cold-temperatures",
+      "publisher": "Mississippi State University Extension Service",
+      "role": "background",
+      "verified_at": "2026-11-20T15:08:20.489390+00:00",
+      "verification_url": "https://extension.msstate.edu/publications/protecting-plants-cold-temperatures",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc County could wake up to temperatures in the upper 20s on Thanksgiving morning. The National Weather Service\u2019s Friday forecast puts the coldest stretch overnight Wednesday, Nov. 25, followed by sunshine and a high in the mid-50s on Thanksgiving Day.",
+      "source_ids": [
+        "zfp"
+      ],
+      "evidence": "The Pontotoc zone lists Wednesday night in the upper 20s and Thanksgiving Day sunny with highs in the mid-50s.",
+      "statistics": "Nov. 25\u201326; upper 20s to mid-50s.",
+      "date_context": "Friday, Nov. 20, 2026 morning forecast, valid through Thanksgiving Day, Nov. 26. Central time.",
+      "locality": "Pontotoc County, Mississippi. The Memphis forecast office provides the regional outlook.",
+      "identities": "National Weather Service Memphis and Mississippi State University Extension Service."
+    },
+    {
+      "id": "f2",
+      "statement": "The change starts Sunday. After a high in the mid-70s, the county has a 30% chance of afternoon showers and a 40% chance of rain that evening. The Memphis forecast office expects a cold front late Sunday and says a few thunderstorms are possible across the Mid-South.",
+      "source_ids": [
+        "zfp",
+        "afd"
+      ],
+      "evidence": "Pontotoc county zone specifies day/evening rain chances. The regional discussion places the front and potential thunderstorms late Sunday.",
+      "statistics": "Sunday, Nov. 22; mid-70s; 30% then 40%.",
+      "date_context": "Friday, Nov. 20, 2026 morning forecast, valid through Thanksgiving Day, Nov. 26. Central time.",
+      "locality": "Pontotoc County, Mississippi. The Memphis forecast office provides the regional outlook.",
+      "identities": "National Weather Service Memphis and Mississippi State University Extension Service."
+    },
+    {
+      "id": "f3",
+      "statement": "Monday\u2019s high is forecast around 60, with upper 30s that night. Another chance of showers arrives after midnight Tuesday. The county forecast keeps rain chances at 20% Wednesday morning and evening. Forecasters say the midweek storm track is still uncertain.",
+      "source_ids": [
+        "zfp",
+        "afd"
+      ],
+      "evidence": "Pontotoc zone forecast for Monday through Wednesday night; Memphis discussion describes the spread in midweek low tracks.",
+      "statistics": "High around 60; upper 30s Monday night; 20% rain chances.",
+      "date_context": "Friday, Nov. 20, 2026 morning forecast, valid through Thanksgiving Day, Nov. 26. Central time.",
+      "locality": "Pontotoc County, Mississippi. The Memphis forecast office provides the regional outlook.",
+      "identities": "National Weather Service Memphis and Mississippi State University Extension Service."
+    },
+    {
+      "id": "f4",
+      "statement": "For gardeners leaving town before the holiday, Mississippi State University Extension recommends moving tender potted plants into a sheltered place before a freeze. Roots in containers lose heat more readily than roots in the ground. For plants that must stay outside, Extension suggests grouping the pots and wrapping their sides to help protect the roots.",
+      "source_ids": [
+        "plants"
+      ],
+      "evidence": "Extension explains container root exposure and advises shelter, grouping and wrapping pots to reduce heat loss.",
+      "statistics": "None asserted.",
+      "date_context": "Friday, Nov. 20, 2026 morning forecast, valid through Thanksgiving Day, Nov. 26. Central time.",
+      "locality": "Pontotoc County, Mississippi. The Memphis forecast office provides the regional outlook.",
+      "identities": "National Weather Service Memphis and Mississippi State University Extension Service."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc County could wake up to temperatures in the upper 20s on Thanksgiving morning. The National Weather Service\u2019s Friday forecast puts the coldest stretch overnight Wednesday, Nov. 25, followed by sunshine and a high in the mid-50s on Thanksgiving Day.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The change starts Sunday. After a high in the mid-70s, the county has a 30% chance of afternoon showers and a 40% chance of rain that evening. The Memphis forecast office expects a cold front late Sunday and says a few thunderstorms are possible across the Mid-South.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Monday\u2019s high is forecast around 60, with upper 30s that night. Another chance of showers arrives after midnight Tuesday. The county forecast keeps rain chances at 20% Wednesday morning and evening. Forecasters say the midweek storm track is still uncertain.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "For gardeners leaving town before the holiday, Mississippi State University Extension recommends moving tender potted plants into a sheltered place before a freeze. Roots in containers lose heat more readily than roots in the ground. For plants that must stay outside, Extension suggests grouping the pots and wrapping their sides to help protect the roots.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-thanksgiving-morning-freeze-november-26.png",
+    "sha256": "3456bf4af2139860d83f5f342f712ce23f2968cac996ebe1c65c9b47957da81c",
+    "alt_text": "Pontotoc County highs drop from the mid-70s Sunday to around 60 Monday. Thanksgiving morning temperatures could reach the upper 20s.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-20T15:08:20.489390+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized Nov. 20, 2026 Pontotoc News morning editorial shift. Publish reviewed copy after authenticated preflight."
+  }
+}

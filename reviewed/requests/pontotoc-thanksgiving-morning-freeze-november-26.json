@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-thanksgiving-morning-freeze-november-26.json",
+  "article_sha256": "f4ab8004512f2966fe8ceef5e1ec96ae96bb5fb7c0468e8da2a41d5c89fe9e50",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-thanksgiving-morning-freeze-november-26",
+  "seo_review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-20T15:08:20.489390+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}
