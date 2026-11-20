@@ -1,0 +1,207 @@
+{
+  "title": "Pontotoc and North Pontotoc sweep road doubleheaders at Tupelo and Water Valley",
+  "excerpt": "Both boys teams won by five. The Lady Warriors moved to 4\u20131 with a 57\u201340 win, and the Lady Vikings held Water Valley to 26 points.",
+  "locality": "Pontotoc and North Pontotoc road basketball games in Tupelo and Water Valley, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:warriors-girls-basketball:2026-11-19:tupelo-final",
+    "ms:pontotoc:warriors-boys-basketball:2026-11-19:tupelo-final",
+    "ms:pontotoc:north-girls-basketball:2026-11-19:water-valley-final",
+    "ms:pontotoc:north-boys-basketball:2026-11-19:water-valley-final"
+  ],
+  "sources": [
+    {
+      "id": "pg",
+      "title": "Pontotoc at Tupelo, girls final",
+      "url": "https://www.maxpreps.com/ms/basketball/girls/game/pontotoc-vs-tupelo/11-19-2026/?c=c6ae34f0-3d3f-4181-a5e3-fae64c12a34c",
+      "publisher": "MaxPreps game scorecard",
+      "role": "event",
+      "verified_at": "2026-11-20T15:07:29.673210+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/basketball/girls/game/pontotoc-vs-tupelo/11-19-2026/?c=c6ae34f0-3d3f-4181-a5e3-fae64c12a34c",
+      "published_at": null
+    },
+    {
+      "id": "pb",
+      "title": "Pontotoc at Tupelo, boys final",
+      "url": "https://www.maxpreps.com/ms/basketball/game/pontotoc-vs-tupelo/11-19-2026/?c=4271be1e-33e9-4a8c-a033-2dee4622b666",
+      "publisher": "MaxPreps game scorecard",
+      "role": "event",
+      "verified_at": "2026-11-20T15:07:29.673210+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/basketball/game/pontotoc-vs-tupelo/11-19-2026/?c=4271be1e-33e9-4a8c-a033-2dee4622b666",
+      "published_at": null
+    },
+    {
+      "id": "ng",
+      "title": "North Pontotoc at Water Valley, girls final",
+      "url": "https://www.maxpreps.com/ms/basketball/girls/game/north-pontotoc-ecru-vs-water-valley/11-19-2026/?c=7a5110ab-e8f3-4ac8-b66c-df691e41cc28",
+      "publisher": "MaxPreps game scorecard",
+      "role": "event",
+      "verified_at": "2026-11-20T15:07:29.673210+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/basketball/girls/game/north-pontotoc-ecru-vs-water-valley/11-19-2026/?c=7a5110ab-e8f3-4ac8-b66c-df691e41cc28",
+      "published_at": null
+    },
+    {
+      "id": "nb",
+      "title": "North Pontotoc at Water Valley, boys final",
+      "url": "https://www.maxpreps.com/ms/basketball/game/north-pontotoc-ecru-vs-water-valley/11-19-2026/?c=70af1435-2cb1-444b-bdcb-1fe37ebdcbc3",
+      "publisher": "MaxPreps game scorecard",
+      "role": "event",
+      "verified_at": "2026-11-20T15:07:29.673210+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/basketball/game/north-pontotoc-ecru-vs-water-valley/11-19-2026/?c=70af1435-2cb1-444b-bdcb-1fe37ebdcbc3",
+      "published_at": null
+    },
+    {
+      "id": "school",
+      "title": "Lady Warriors final score and next opponent",
+      "url": "https://www.facebook.com/1409956404473934/posts/1701749978627907",
+      "publisher": "Pontotoc Athletics",
+      "role": "event",
+      "verified_at": "2026-11-20T15:07:29.673210+00:00",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7kh8MV2fT.rss",
+      "published_at": "2026-11-20T04:05:04+00:00"
+    },
+    {
+      "id": "ngsched",
+      "title": "North Pontotoc girls varsity results",
+      "url": "https://www.maxpreps.com/ms/ecru/north-pontotoc-vikings/basketball/girls/schedule/",
+      "publisher": "North Pontotoc varsity schedule on MaxPreps",
+      "role": "background",
+      "verified_at": "2026-11-20T15:07:29.673210+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/ecru/north-pontotoc-vikings/basketball/girls/schedule/",
+      "published_at": null
+    },
+    {
+      "id": "nbsched",
+      "title": "North Pontotoc boys varsity schedule",
+      "url": "https://www.maxpreps.com/ms/ecru/north-pontotoc-vikings/basketball/schedule/",
+      "publisher": "North Pontotoc varsity schedule on MaxPreps",
+      "role": "background",
+      "verified_at": "2026-11-20T15:07:29.673210+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/ecru/north-pontotoc-vikings/basketball/schedule/",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc and North Pontotoc each came home Thursday with two basketball wins. Both boys teams won by five points. The Warriors beat Tupelo 59\u201354, while the Vikings won 53\u201348 at Water Valley.",
+      "source_ids": [
+        "pg",
+        "pb",
+        "ng",
+        "nb"
+      ],
+      "evidence": "All four away games have completed scorecards. The margins of the two boys games were each five.",
+      "statistics": "59\u201354 and 53\u201348; both margins five.",
+      "date_context": "Thursday, November 19, 2026. Next dates Monday, Nov. 23 and Tuesday, Nov. 24.",
+      "locality": "Pontotoc and North Pontotoc road basketball games in Tupelo and Water Valley, Mississippi.",
+      "identities": "Pontotoc Warriors, Tupelo Golden Wave, North Pontotoc Vikings and Water Valley Blue Devils varsity teams."
+    },
+    {
+      "id": "f2",
+      "statement": "The Lady Warriors beat Tupelo 57\u201340 to reach 4\u20131. The Pontotoc boys are 3\u20131, and both Tupelo teams left the doubleheader at 1\u20132. The Lady Warriors\u2019 postgame announcement lists Center Hill as their next opponent on Tuesday, Nov. 24.",
+      "source_ids": [
+        "pg",
+        "pb",
+        "school"
+      ],
+      "evidence": "Verified both finals and all four record labels on the completed matchup pages. The school graphic lists the girls\u2019 record and Center Hill on Tuesday.",
+      "statistics": "57\u201340; 4\u20131; 3\u20131; 1\u20132; Nov. 24.",
+      "date_context": "Thursday, November 19, 2026. Next dates Monday, Nov. 23 and Tuesday, Nov. 24.",
+      "locality": "Pontotoc and North Pontotoc road basketball games in Tupelo and Water Valley, Mississippi.",
+      "identities": "Pontotoc Warriors, Tupelo Golden Wave, North Pontotoc Vikings and Water Valley Blue Devils varsity teams."
+    },
+    {
+      "id": "f3",
+      "statement": "North Pontotoc\u2019s girls won 51\u201326 at Water Valley, two nights after beating Alcorn Central 43\u201335 on the road. The Lady Vikings held those two opponents to 61 points combined and improved to 6\u20132.",
+      "source_ids": [
+        "ng",
+        "ngsched"
+      ],
+      "evidence": "Completed game and Nov. 17 schedule row give both away wins and the updated record. 35 plus 26 equals 61.",
+      "statistics": "51\u201326 and 43\u201335; 61 points allowed; 6\u20132.",
+      "date_context": "Thursday, November 19, 2026. Next dates Monday, Nov. 23 and Tuesday, Nov. 24.",
+      "locality": "Pontotoc and North Pontotoc road basketball games in Tupelo and Water Valley, Mississippi.",
+      "identities": "Pontotoc Warriors, Tupelo Golden Wave, North Pontotoc Vikings and Water Valley Blue Devils varsity teams."
+    },
+    {
+      "id": "f4",
+      "statement": "The Viking boys reached 6\u20131. Their five-point win over Water Valley followed another five-point road win, 31\u201326 at Alcorn Central on Tuesday. North Pontotoc\u2019s boys schedule lists Saltillo at noon Monday, Nov. 23.",
+      "source_ids": [
+        "nb",
+        "nbsched"
+      ],
+      "evidence": "Completed Water Valley scorecard and the boys\u2019 dated schedule give the record, prior game and next opponent and time.",
+      "statistics": "6\u20131; 31\u201326; noon Nov. 23.",
+      "date_context": "Thursday, November 19, 2026. Next dates Monday, Nov. 23 and Tuesday, Nov. 24.",
+      "locality": "Pontotoc and North Pontotoc road basketball games in Tupelo and Water Valley, Mississippi.",
+      "identities": "Pontotoc Warriors, Tupelo Golden Wave, North Pontotoc Vikings and Water Valley Blue Devils varsity teams."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc and North Pontotoc each came home Thursday with two basketball wins. Both boys teams won by five points. The Warriors beat Tupelo 59\u201354, while the Vikings won 53\u201348 at Water Valley.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The Lady Warriors beat Tupelo 57\u201340 to reach 4\u20131. The Pontotoc boys are 3\u20131, and both Tupelo teams left the doubleheader at 1\u20132. The Lady Warriors\u2019 postgame announcement lists Center Hill as their next opponent on Tuesday, Nov. 24.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "North Pontotoc\u2019s girls won 51\u201326 at Water Valley, two nights after beating Alcorn Central 43\u201335 on the road. The Lady Vikings held those two opponents to 61 points combined and improved to 6\u20132.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "The Viking boys reached 6\u20131. Their five-point win over Water Valley followed another five-point road win, 31\u201326 at Alcorn Central on Tuesday. North Pontotoc\u2019s boys schedule lists Saltillo at noon Monday, Nov. 23.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/warriors-vikings-basketball-sweeps-tupelo-water-valley.png",
+    "sha256": "c0e4253f757f965a29bb950c89604a870416d07ea2e6f0870d8b246642a5eeb0",
+    "alt_text": "Pontotoc girls won 57\u201340 and boys won 59\u201354 at Tupelo. North Pontotoc girls won 51\u201326 and boys won 53\u201348 at Water Valley.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-20T15:07:29.673210+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized Nov. 20, 2026 Pontotoc News morning editorial shift. Publish reviewed copy after authenticated preflight."
+  }
+}
