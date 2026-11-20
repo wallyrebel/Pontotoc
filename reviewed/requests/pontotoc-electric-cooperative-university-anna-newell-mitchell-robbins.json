@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-electric-cooperative-university-anna-newell-mitchell-robbins.json",
+  "article_sha256": "294cbe4bb5996aed7c68f0eae1af194034a13e80946a795b6e47f4956aa9b72d",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-electric-cooperative-university-anna-newell-mitchell-robbins",
+  "seo_review": {
+    "reviewer": "Pontotoc News evening desk",
+    "reviewed_at": "2026-11-20T03:58:09.852578+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}

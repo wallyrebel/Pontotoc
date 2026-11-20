@@ -1,0 +1,128 @@
+{
+  "title": "South Pontotoc\u2019s Anna Newell and Ingomar\u2019s Mitchell Robbins advance in electric co-op program",
+  "excerpt": "Outside judges selected the two students at Pontotoc Electric Power Association\u2019s Cooperative University on Nov. 18.",
+  "locality": "Pontotoc Electric Power Association service area in northeast Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:pepa:2026-11-18:cooperative-university-selection"
+  ],
+  "sources": [
+    {
+      "id": "local",
+      "title": "Pontotoc Electric announces its Cooperative University selections",
+      "url": "https://www.facebook.com/1527354935929168/posts/1838800401451285",
+      "publisher": "Pontotoc Electric Power Association",
+      "role": "event",
+      "verified_at": "2026-11-20T03:58:09.852578+00:00",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7nECOb1qN.rss",
+      "published_at": "2026-11-19T20:33:47+00:00"
+    },
+    {
+      "id": "state",
+      "title": "How the Cooperative Youth Leaders Program works",
+      "url": "https://www.ecm.coop/cooperative-difference/cooperative-youth-leaders-program/",
+      "publisher": "Electric Cooperatives of Mississippi",
+      "role": "background",
+      "verified_at": "2026-11-20T03:58:09.852578+00:00",
+      "verification_url": "https://www.ecm.coop/cooperative-difference/cooperative-youth-leaders-program/",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Anna Newell of South Pontotoc High School and Mitchell Robbins of Ingomar Attendance Center will advance in Mississippi\u2019s electric cooperative youth leadership program. Pontotoc Electric Power Association announced the selections Thursday, a day after students represented their schools at its Cooperative University.",
+      "source_ids": [
+        "local",
+        "state"
+      ],
+      "evidence": "The co-op names both students, their schools and the preceding day\u2019s selection event. The state association identifies Cooperative University as the local stage.",
+      "statistics": "Nov. 18 event and Nov. 19 announcement.",
+      "date_context": "The cooperative announced the selections Nov. 19 after its Nov. 18 event.",
+      "locality": "Pontotoc Electric Power Association service area in northeast Mississippi.",
+      "identities": "Anna Newell of South Pontotoc High School and Mitchell Robbins of Ingomar Attendance Center."
+    },
+    {
+      "id": "f2",
+      "statement": "Judges from outside Pontotoc Electric made the selections. Each participating cooperative hosts its own local program or interviews. At that stage, students learn how electric cooperatives work and what they do in the communities they serve, according to Electric Cooperatives of Mississippi.",
+      "source_ids": [
+        "local",
+        "state"
+      ],
+      "evidence": "The local notice identifies outside judges. The state program describes the locally hosted first stage and the cooperative business model.",
+      "statistics": "Two local selections.",
+      "date_context": "The cooperative announced the selections Nov. 19 after its Nov. 18 event.",
+      "locality": "Pontotoc Electric Power Association service area in northeast Mississippi.",
+      "identities": "Anna Newell of South Pontotoc High School and Mitchell Robbins of Ingomar Attendance Center."
+    },
+    {
+      "id": "f3",
+      "statement": "The statewide program includes a spring leadership workshop in Jackson and a June youth tour in Washington, D.C. High school juniors who live in a participating cooperative\u2019s service area can ask their school guidance counselor how to apply.",
+      "source_ids": [
+        "state"
+      ],
+      "evidence": "The state association lists the spring and June programs and directs eligible juniors to school counselors. These are program details, not confirmed travel plans for individual students.",
+      "statistics": "Spring workshop and June tour.",
+      "date_context": "The cooperative announced the selections Nov. 19 after its Nov. 18 event.",
+      "locality": "Pontotoc Electric Power Association service area in northeast Mississippi.",
+      "identities": "Anna Newell of South Pontotoc High School and Mitchell Robbins of Ingomar Attendance Center."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Anna Newell of South Pontotoc High School and Mitchell Robbins of Ingomar Attendance Center will advance in Mississippi\u2019s electric cooperative youth leadership program. Pontotoc Electric Power Association announced the selections Thursday, a day after students represented their schools at its Cooperative University.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "Judges from outside Pontotoc Electric made the selections. Each participating cooperative hosts its own local program or interviews. At that stage, students learn how electric cooperatives work and what they do in the communities they serve, according to Electric Cooperatives of Mississippi.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "The statewide program includes a spring leadership workshop in Jackson and a June youth tour in Washington, D.C. High school juniors who live in a participating cooperative\u2019s service area can ask their school guidance counselor how to apply.",
+      "fact_ids": [
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-electric-cooperative-university-anna-newell-mitchell-robbins.png",
+    "sha256": "0a720e4b80eb378f731c1685cffb8f3848d6a3f41746934d37ed89a22d8a8763",
+    "alt_text": "Anna Newell of South Pontotoc and Mitchell Robbins of Ingomar advanced at Cooperative University.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News evening desk",
+    "reviewed_at": "2026-11-20T03:58:09.852578+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 19 evening newsroom recovery shift. Publish the reviewed package after authenticated preflight."
+  }
+}
