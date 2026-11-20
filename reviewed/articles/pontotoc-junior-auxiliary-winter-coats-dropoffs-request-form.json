@@ -1,0 +1,129 @@
+{
+  "title": "Pontotoc coat drive names six drop-off sites and opens requests for winter coats",
+  "excerpt": "Junior Auxiliary is collecting coats for children and adults through Nov. 29. Households can use the request form to arrange collection.",
+  "locality": "Pontotoc County, Mississippi, including the communities of Pontotoc and Ecru.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:junior-auxiliary:2026-11-29:warm-hearts-warm-coats"
+  ],
+  "sources": [
+    {
+      "id": "flyer",
+      "title": "Junior Auxiliary coat drive notice and six-location flyer",
+      "url": "https://www.facebook.com/1204361708550928/posts/1469953531991743",
+      "publisher": "Pontotoc Junior Auxiliary via the Town of Ecru",
+      "role": "event",
+      "verified_at": "2026-11-20T15:03:32.441641+00:00",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7mX75E8w6.rss",
+      "published_at": "2026-11-20T12:07:08+00:00"
+    },
+    {
+      "id": "form",
+      "title": "Request a coat through the Warm Hearts, Warm Coats form",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSdFTPXqSfGS4oDeit6GaS-qeNsv3wHUso7KXcZHsspk8dHs7w/viewform",
+      "publisher": "Pontotoc Junior Auxiliary",
+      "role": "event",
+      "verified_at": "2026-11-20T15:03:32.441641+00:00",
+      "verification_url": "https://docs.google.com/forms/d/e/1FAIpQLSdFTPXqSfGS4oDeit6GaS-qeNsv3wHUso7KXcZHsspk8dHs7w/viewform",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc Junior Auxiliary is collecting winter coats for children and adults through Sunday, Nov. 29. Residents can donate at six locations, and households that need coats can fill out the group\u2019s online request form.",
+      "source_ids": [
+        "flyer",
+        "form"
+      ],
+      "evidence": "Nov. 20 post gives audience and deadline. Six locations appear on the flyer. Its QR code resolves to the named public coat request form.",
+      "statistics": "Six sites; Sunday, Nov. 29.",
+      "date_context": "Announcement shared Nov. 20 for the Nov. 29, 2026 donation deadline.",
+      "locality": "Pontotoc County, Mississippi, including the communities of Pontotoc and Ecru.",
+      "identities": "Pontotoc Junior Auxiliary, First Choice Bank and participating collection sites."
+    },
+    {
+      "id": "f2",
+      "statement": "Two First Choice Bank locations are taking donations: the main branch in Pontotoc and the Ecru branch. The other four drop-off sites are Endville Baptist Church, Green Valley Baptist Church, Honey Pies and Ace & Co.",
+      "source_ids": [
+        "flyer"
+      ],
+      "evidence": "Read all six names from the original flyer. The accompanying announcement specifies the cities of the two bank branches.",
+      "statistics": "Two bank branches; four other sites.",
+      "date_context": "Announcement shared Nov. 20 for the Nov. 29, 2026 donation deadline.",
+      "locality": "Pontotoc County, Mississippi, including the communities of Pontotoc and Ecru.",
+      "identities": "Pontotoc Junior Auxiliary, First Choice Bank and participating collection sites."
+    },
+    {
+      "id": "f3",
+      "statement": "To request a coat, open the Warm Hearts, Warm Coats form linked below. It asks for a household name, email address and phone number. The organizers say they will contact applicants about a collection date after the form is submitted. Nov. 29 is the deadline for donations.",
+      "source_ids": [
+        "flyer",
+        "form"
+      ],
+      "evidence": "Verified the public blank form from the flyer QR code without entering information. The flyer explains follow-up and the announcement labels the donation deadline.",
+      "statistics": "Nov. 29 donation deadline.",
+      "date_context": "Announcement shared Nov. 20 for the Nov. 29, 2026 donation deadline.",
+      "locality": "Pontotoc County, Mississippi, including the communities of Pontotoc and Ecru.",
+      "identities": "Pontotoc Junior Auxiliary, First Choice Bank and participating collection sites."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc Junior Auxiliary is collecting winter coats for children and adults through Sunday, Nov. 29. Residents can donate at six locations, and households that need coats can fill out the group\u2019s online request form.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "Two First Choice Bank locations are taking donations: the main branch in Pontotoc and the Ecru branch. The other four drop-off sites are Endville Baptist Church, Green Valley Baptist Church, Honey Pies and Ace & Co.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "To request a coat, open the Warm Hearts, Warm Coats form linked below. It asks for a household name, email address and phone number. The organizers say they will contact applicants about a collection date after the form is submitted. Nov. 29 is the deadline for donations.",
+      "fact_ids": [
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-junior-auxiliary-winter-coats-dropoffs-request-form.png",
+    "sha256": "c5f254a8fa525f94c43c964ff84b13d40dbd7f81df62a5f8083fa7dfbcd4429c",
+    "alt_text": "Pontotoc Junior Auxiliary lists six donation sites and a Nov. 29 deadline. Households can request a coat online.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-20T15:03:32.441641+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized Nov. 20, 2026 Pontotoc News morning editorial shift. Publish reviewed copy after authenticated preflight."
+  }
+}

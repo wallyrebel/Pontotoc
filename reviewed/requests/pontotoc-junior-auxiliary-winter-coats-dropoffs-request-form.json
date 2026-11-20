@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-junior-auxiliary-winter-coats-dropoffs-request-form.json",
+  "article_sha256": "6d9d4f614bb81482221ed9566a502b4eaa9ea59dc05d0e6c08961bee4cd38e6e",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-junior-auxiliary-winter-coats-dropoffs-request-form",
+  "seo_review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-20T15:03:32.441641+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}
