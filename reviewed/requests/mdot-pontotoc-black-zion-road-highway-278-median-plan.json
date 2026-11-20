@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/mdot-pontotoc-black-zion-road-highway-278-median-plan.json",
   "article_sha256": "70070333c2669ed1849d55411024b473ca321c575bf908104c035e409c3b97b0",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "mdot-pontotoc-black-zion-road-highway-278-median-plan",
   "seo_review": {
     "reviewer": "Pontotoc News supplemental desk",
