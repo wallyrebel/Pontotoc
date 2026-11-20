@@ -1,0 +1,172 @@
+{
+  "title": "North and South Pontotoc will play for different football region titles in 2027",
+  "excerpt": "North keeps New Albany as a region rival. South draws four new opponents, while Pontotoc keeps its entire Class 5A group.",
+  "locality": "North Pontotoc in Ecru, South Pontotoc and Pontotoc High School in Pontotoc County, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:mhsaa-football:2026-11-04:2027-29-county-region-opponents"
+  ],
+  "sources": [
+    {
+      "id": "new",
+      "title": "MHSAA 2027\u201329 football regions",
+      "url": "https://www.misshsaa.com/2026/11/04/2027-29-football-regions/",
+      "publisher": "Mississippi High School Activities Association",
+      "role": "event",
+      "verified_at": "2026-11-20T22:02:21.258134+00:00",
+      "verification_url": "https://www.misshsaa.com/2026/11/04/2027-29-football-regions/",
+      "published_at": null
+    },
+    {
+      "id": "table",
+      "title": "New football assignments by school and class",
+      "url": "https://championship-manager-seven.vercel.app/api/embed/daaccd9eaf9ef78ce9ac85b3af2767e1",
+      "publisher": "MHSAA Championship Manager",
+      "role": "event",
+      "verified_at": "2026-11-20T22:02:21.258134+00:00",
+      "verification_url": "https://championship-manager-seven.vercel.app/api/embed/daaccd9eaf9ef78ce9ac85b3af2767e1",
+      "published_at": null
+    },
+    {
+      "id": "old",
+      "title": "MHSAA 2025\u201327 football assignments",
+      "url": "https://www.misshsaa.com/2024/11/19/2025-27-football-regions/",
+      "publisher": "Mississippi High School Activities Association",
+      "role": "background",
+      "verified_at": "2026-11-20T22:02:21.258134+00:00",
+      "verification_url": "https://www.misshsaa.com/2024/11/19/2025-27-football-regions/",
+      "published_at": null
+    },
+    {
+      "id": "season",
+      "title": "North Pontotoc varsity football results",
+      "url": "https://www.maxpreps.com/ms/ecru/north-pontotoc-vikings/football/schedule/",
+      "publisher": "North Pontotoc team schedule on MaxPreps",
+      "role": "background",
+      "verified_at": "2026-11-20T22:02:21.258134+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/ecru/north-pontotoc-vikings/football/schedule/",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "North Pontotoc\u2019s 22\u201315 football win at South Pontotoc on Oct. 23 counted in the Class 4A Region 1 standings for both teams. Starting in 2027, a meeting between the county rivals would be a nonregion game. The Mississippi High School Activities Association placed North in Region 2 and South in Region 4 for the 2027\u201329 cycle.",
+      "source_ids": [
+        "new",
+        "table",
+        "old",
+        "season"
+      ],
+      "evidence": "Compared the Vikings\u2019 final score and home/away listing with the two official alignment tables.",
+      "statistics": "Oct. 23; 22\u201315; Class 4A Regions 1, 2 and 4; 2027\u201329.",
+      "date_context": "2027\u201329 football alignment issued Nov. 4, 2026, compared with the 2025\u201327 cycle and the Oct. 23, 2026, rivalry game.",
+      "locality": "North Pontotoc in Ecru, South Pontotoc and Pontotoc High School in Pontotoc County, Mississippi.",
+      "identities": "MHSAA and the North Pontotoc Vikings, South Pontotoc Cougars and Pontotoc Warriors."
+    },
+    {
+      "id": "f2",
+      "statement": "New Albany is the one familiar region opponent for North. The Bulldogs and Vikings move together, joining Byhalia, Clarksdale and Senatobia. Corinth and Tishomingo County, two other members of North\u2019s old group, stay in Region 1.",
+      "source_ids": [
+        "table",
+        "old"
+      ],
+      "evidence": "Compared the complete old and future Region 1 and future Region 2 memberships.",
+      "statistics": "One returning region opponent.",
+      "date_context": "2027\u201329 football alignment issued Nov. 4, 2026, compared with the 2025\u201327 cycle and the Oct. 23, 2026, rivalry game.",
+      "locality": "North Pontotoc in Ecru, South Pontotoc and Pontotoc High School in Pontotoc County, Mississippi.",
+      "identities": "MHSAA and the North Pontotoc Vikings, South Pontotoc Cougars and Pontotoc Warriors."
+    },
+    {
+      "id": "f3",
+      "statement": "South gets an entirely different group. Its four region opponents will be Amory, Houston, Louisville and Shannon. That replaces a schedule of region games against North Pontotoc, New Albany, Corinth and Tishomingo County. The association\u2019s list sets the groups. It leaves game dates and any future North\u2013South nonregion matchup to the schools\u2019 schedules.",
+      "source_ids": [
+        "table",
+        "old",
+        "new"
+      ],
+      "evidence": "All four current opponents and all four future opponents are present in the respective tables. The new list gives no game dates.",
+      "statistics": "Four region opponents.",
+      "date_context": "2027\u201329 football alignment issued Nov. 4, 2026, compared with the 2025\u201327 cycle and the Oct. 23, 2026, rivalry game.",
+      "locality": "North Pontotoc in Ecru, South Pontotoc and Pontotoc High School in Pontotoc County, Mississippi.",
+      "identities": "MHSAA and the North Pontotoc Vikings, South Pontotoc Cougars and Pontotoc Warriors."
+    },
+    {
+      "id": "f4",
+      "statement": "Pontotoc High School has continuity in Class 5A. Caledonia, Columbus, Lafayette, New Hope and West Point all remain with the Warriors in Region 1. Of the three county teams, Pontotoc is the only one that keeps every region opponent.",
+      "source_ids": [
+        "table",
+        "old"
+      ],
+      "evidence": "Matched all six schools in the two Class 5A Region 1 tables.",
+      "statistics": "Class 5A Region 1; five returning opponents.",
+      "date_context": "2027\u201329 football alignment issued Nov. 4, 2026, compared with the 2025\u201327 cycle and the Oct. 23, 2026, rivalry game.",
+      "locality": "North Pontotoc in Ecru, South Pontotoc and Pontotoc High School in Pontotoc County, Mississippi.",
+      "identities": "MHSAA and the North Pontotoc Vikings, South Pontotoc Cougars and Pontotoc Warriors."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "North Pontotoc\u2019s 22\u201315 football win at South Pontotoc on Oct. 23 counted in the Class 4A Region 1 standings for both teams. Starting in 2027, a meeting between the county rivals would be a nonregion game. The Mississippi High School Activities Association placed North in Region 2 and South in Region 4 for the 2027\u201329 cycle.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "New Albany is the one familiar region opponent for North. The Bulldogs and Vikings move together, joining Byhalia, Clarksdale and Senatobia. Corinth and Tishomingo County, two other members of North\u2019s old group, stay in Region 1.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "South gets an entirely different group. Its four region opponents will be Amory, Houston, Louisville and Shannon. That replaces a schedule of region games against North Pontotoc, New Albany, Corinth and Tishomingo County. The association\u2019s list sets the groups. It leaves game dates and any future North\u2013South nonregion matchup to the schools\u2019 schedules.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "Pontotoc High School has continuity in Class 5A. Caledonia, Columbus, Lafayette, New Hope and West Point all remain with the Warriors in Region 1. Of the three county teams, Pontotoc is the only one that keeps every region opponent.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/north-south-pontotoc-football-region-opponents-2027.png",
+    "sha256": "c300afa7330001fb6e753cc01649c0318b4badbac93b430d8e24ee1894a3966c",
+    "alt_text": "North Pontotoc moves to 4A Region 2, South Pontotoc moves to 4A Region 4 and Pontotoc stays in 5A Region 1.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-20T22:02:21.258134+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f2",
+      "f3",
+      "f4"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized Nov. 20 afternoon editorial shift. Publish after authenticated dry run and final review of the unchanged package."
+  }
+}
