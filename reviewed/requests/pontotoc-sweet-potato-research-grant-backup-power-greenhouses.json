@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-sweet-potato-research-grant-backup-power-greenhouses.json",
+  "article_sha256": "7efc8783323d44666561a4256c8d2972fe53993bb674cd8bc67d8ccfdb10942f",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-sweet-potato-research-grant-backup-power-greenhouses",
+  "seo_review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-20T15:10:13.932485+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}

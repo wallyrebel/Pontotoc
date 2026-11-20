@@ -1,0 +1,148 @@
+{
+  "title": "Pontotoc sweet potato station gets $250,000 grant for backup power and new greenhouses",
+  "excerpt": "After a seven-day outage left staff tending plants around the clock, Mississippi State plans a generator, electrical upgrades and two replacement greenhouses.",
+  "locality": "Pontotoc Ridge-Flatwoods Branch Experiment Station on Mississippi 15 South in Pontotoc County, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:ridge-flatwoods-station:2026-11-19:nifa-greenhouses-backup-power"
+  ],
+  "sources": [
+    {
+      "id": "grant",
+      "title": "Mississippi State\u2019s Nov. 19 announcement of the Pontotoc grant",
+      "url": "https://www.msstate.edu/newsroom/article/2026/11/keeping-thanksgiving-sweet-msus-mafes-pontotoc-experiment-station-receives",
+      "publisher": "Mississippi State University",
+      "role": "event",
+      "verified_at": "2026-11-20T15:10:13.932485+00:00",
+      "verification_url": "https://www.msstate.edu/newsroom/article/2026/11/keeping-thanksgiving-sweet-msus-mafes-pontotoc-experiment-station-receives",
+      "published_at": null
+    },
+    {
+      "id": "station",
+      "title": "Pontotoc Ridge-Flatwoods Branch research and location",
+      "url": "https://www.mafes.msstate.edu/branches/north.php?location=pontotoc",
+      "publisher": "Mississippi Agricultural and Forestry Experiment Station",
+      "role": "background",
+      "verified_at": "2026-11-20T15:10:13.932485+00:00",
+      "verification_url": "https://www.mafes.msstate.edu/branches/north.php?location=pontotoc",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "A $250,000 federal grant will help put backup power in place and replace two greenhouses at Mississippi State University\u2019s sweet potato research station in Pontotoc County. During last winter\u2019s ice storm, the station was without electricity for seven days and staff kept watch around the clock to save its planting stock.",
+      "source_ids": [
+        "grant"
+      ],
+      "evidence": "MSU identifies the grant, generator and greenhouse replacements. Specialist Lorin Harvey describes the weeklong outage and round-the-clock coverage.",
+      "statistics": "$250,000; two greenhouses; seven days.",
+      "date_context": "Mississippi State announced the work Thursday, Nov. 19, 2026. Its completion estimate is within two years.",
+      "locality": "Pontotoc Ridge-Flatwoods Branch Experiment Station on Mississippi 15 South in Pontotoc County, Mississippi.",
+      "identities": "Mississippi State University, Lorin Harvey, the Mississippi Agricultural and Forestry Experiment Station, and USDA\u2019s National Institute of Food and Agriculture."
+    },
+    {
+      "id": "f2",
+      "statement": "Growers across the Southeast rely on the station for virus-tested sweet potato planting material. Its lab keeps that stock in temperature-controlled equipment. The new generator and electrical work at the lab and main office will give staff a way to protect it during another outage.",
+      "source_ids": [
+        "grant",
+        "station"
+      ],
+      "evidence": "The grant announcement describes the station\u2019s growers, controlled storage and electrical work. The branch profile confirms production of virus-tested planting material.",
+      "statistics": "None asserted.",
+      "date_context": "Mississippi State announced the work Thursday, Nov. 19, 2026. Its completion estimate is within two years.",
+      "locality": "Pontotoc Ridge-Flatwoods Branch Experiment Station on Mississippi 15 South in Pontotoc County, Mississippi.",
+      "identities": "Mississippi State University, Lorin Harvey, the Mississippi Agricultural and Forestry Experiment Station, and USDA\u2019s National Institute of Food and Agriculture."
+    },
+    {
+      "id": "f3",
+      "statement": "The two replacement greenhouses will have better drainage, extra lighting and shade cloths that adjust automatically. The U.S. Department of Agriculture\u2019s National Institute of Food and Agriculture awarded the grant. The Mississippi Agricultural and Forestry Experiment Station is also contributing funds. MSU expects the work to take up to two years.",
+      "source_ids": [
+        "grant"
+      ],
+      "evidence": "MSU names both funding sources, lists the greenhouse improvements and expects completion within two years.",
+      "statistics": "Two greenhouses; up to two years.",
+      "date_context": "Mississippi State announced the work Thursday, Nov. 19, 2026. Its completion estimate is within two years.",
+      "locality": "Pontotoc Ridge-Flatwoods Branch Experiment Station on Mississippi 15 South in Pontotoc County, Mississippi.",
+      "identities": "Mississippi State University, Lorin Harvey, the Mississippi Agricultural and Forestry Experiment Station, and USDA\u2019s National Institute of Food and Agriculture."
+    },
+    {
+      "id": "f4",
+      "statement": "The Pontotoc Ridge-Flatwoods Branch is at 8320 Highway 15 South. The greenhouse work complements a separate sweet potato storage building under construction there. Together, the facilities will let researchers follow the crop from young plants through storage after harvest.",
+      "source_ids": [
+        "grant",
+        "station"
+      ],
+      "evidence": "The branch profile gives the address. The university distinguishes the storage project from the new award and explains their roles in the crop cycle.",
+      "statistics": "8320 Highway 15 South.",
+      "date_context": "Mississippi State announced the work Thursday, Nov. 19, 2026. Its completion estimate is within two years.",
+      "locality": "Pontotoc Ridge-Flatwoods Branch Experiment Station on Mississippi 15 South in Pontotoc County, Mississippi.",
+      "identities": "Mississippi State University, Lorin Harvey, the Mississippi Agricultural and Forestry Experiment Station, and USDA\u2019s National Institute of Food and Agriculture."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "A $250,000 federal grant will help put backup power in place and replace two greenhouses at Mississippi State University\u2019s sweet potato research station in Pontotoc County. During last winter\u2019s ice storm, the station was without electricity for seven days and staff kept watch around the clock to save its planting stock.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "Growers across the Southeast rely on the station for virus-tested sweet potato planting material. Its lab keeps that stock in temperature-controlled equipment. The new generator and electrical work at the lab and main office will give staff a way to protect it during another outage.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "The two replacement greenhouses will have better drainage, extra lighting and shade cloths that adjust automatically. The U.S. Department of Agriculture\u2019s National Institute of Food and Agriculture awarded the grant. The Mississippi Agricultural and Forestry Experiment Station is also contributing funds. MSU expects the work to take up to two years.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "The Pontotoc Ridge-Flatwoods Branch is at 8320 Highway 15 South. The greenhouse work complements a separate sweet potato storage building under construction there. Together, the facilities will let researchers follow the crop from young plants through storage after harvest.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-sweet-potato-research-grant-backup-power-greenhouses.png",
+    "sha256": "3848a7f304e2bd20b9864fbf4f2b3a53aa223c6eb8a96627ad9bdb985f4848bd",
+    "alt_text": "A $250,000 grant will help replace two greenhouses and add backup power at the Pontotoc station, which lost power for seven days last winter.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-20T15:10:13.932485+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f3"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized Nov. 20, 2026 Pontotoc News morning editorial shift. Publish reviewed copy after authenticated preflight."
+  }
+}
