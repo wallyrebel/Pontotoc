@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-library-holiday-bow-workshop-december-7.json",
   "article_sha256": "233040af850f449af38c7db744f67cb707b6adf257f90df44abf9c82f246e266",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-library-holiday-bow-workshop-december-7",
   "seo_review": {
     "reviewer": "Pontotoc News morning desk",
