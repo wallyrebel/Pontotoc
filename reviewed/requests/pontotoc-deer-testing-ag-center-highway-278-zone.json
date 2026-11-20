@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-deer-testing-ag-center-highway-278-zone.json",
   "article_sha256": "bc49a05010fb31086b6caaefd88620c4d10debacf7945e83406dc819d1180a41",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-deer-testing-ag-center-highway-278-zone",
   "seo_review": {
     "reviewer": "Pontotoc News afternoon desk",
