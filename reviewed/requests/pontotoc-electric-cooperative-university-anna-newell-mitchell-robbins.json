@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-electric-cooperative-university-anna-newell-mitchell-robbins.json",
   "article_sha256": "294cbe4bb5996aed7c68f0eae1af194034a13e80946a795b6e47f4956aa9b72d",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-electric-cooperative-university-anna-newell-mitchell-robbins",
   "seo_review": {
     "reviewer": "Pontotoc News evening desk",
