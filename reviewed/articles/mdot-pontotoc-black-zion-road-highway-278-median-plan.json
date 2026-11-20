@@ -1,0 +1,156 @@
+{
+  "title": "MDOT lists a directional median for U.S. 278 at Black Zion Road in Pontotoc County",
+  "excerpt": "The state\u2019s November project list identifies median work at Mississippi 342. Its three-year safety plan shows how a U-turn design would change crossings there.",
+  "locality": "U.S. 278/Mississippi 6 at Mississippi 342 and Black Zion Road, Pontotoc County, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:mdot:2026-11:us278-ms342-black-zion-directional-median"
+  ],
+  "sources": [
+    {
+      "id": "list",
+      "title": "MDOT proposed project schedule, November 2026 through October 2027",
+      "url": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx/1000",
+      "publisher": "Mississippi Department of Transportation",
+      "role": "event",
+      "verified_at": "2026-11-20T19:40:11.019992+00:00",
+      "verification_url": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx/1000",
+      "published_at": null
+    },
+    {
+      "id": "plan",
+      "title": "MDOT 2026\u201328 three-year plan, safety program, printed page 27",
+      "url": "https://mdot.ms.gov/documents/Administration/Plan/3-Year%20Plan%20-%202026-2028.pdf",
+      "publisher": "Mississippi Department of Transportation",
+      "role": "background",
+      "verified_at": "2026-11-20T19:40:11.019992+00:00",
+      "verification_url": "https://mdot.ms.gov/documents/Administration/Plan/3-Year%20Plan%20-%202026-2028.pdf",
+      "published_at": null
+    },
+    {
+      "id": "guide",
+      "title": "How restricted crossing U-turn intersections work",
+      "url": "https://www.fhwa.dot.gov/publications/research/safety/09059/",
+      "publisher": "Federal Highway Administration",
+      "role": "background",
+      "verified_at": "2026-11-20T19:40:11.019992+00:00",
+      "verification_url": "https://www.fhwa.dot.gov/publications/research/safety/09059/",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Mississippi\u2019s transportation department lists a directional median for the U.S. 278 intersection with Mississippi 342 and Black Zion Road in Pontotoc County. The work appears under November in the department\u2019s proposed project schedule. The listing gives no date for crews to start or for traffic to change.",
+      "source_ids": [
+        "list"
+      ],
+      "evidence": "District 1 November row names the intersection, describes a directional median and identifies state forces. No traffic change date appears in the listing.",
+      "statistics": "U.S. 278; Mississippi 342; November 2026.",
+      "date_context": "November 2026 proposed project list checked Nov. 20; separate 2026\u201328 state plan describes the intersection in federal fiscal year 2027.",
+      "locality": "U.S. 278/Mississippi 6 at Mississippi 342 and Black Zion Road, Pontotoc County, Mississippi.",
+      "identities": "Mississippi Department of Transportation District 1 and the Federal Highway Administration."
+    },
+    {
+      "id": "f2",
+      "statement": "The department\u2019s three-year safety plan has a separate entry for the same intersection, where U.S. 278 also carries Mississippi 6. That entry describes a restricted crossing U-turn and gives a planning estimate of $1.75 million for federal fiscal year 2027. The November median listing gives no price for the state crew\u2019s work.",
+      "source_ids": [
+        "plan",
+        "list"
+      ],
+      "evidence": "Compared plan project 109484 at the same intersection with November entry 107253/301500. The estimate belongs to the three-year plan only.",
+      "statistics": "U.S. 278/Mississippi 6; $1.75 million; fiscal 2027.",
+      "date_context": "November 2026 proposed project list checked Nov. 20; separate 2026\u201328 state plan describes the intersection in federal fiscal year 2027.",
+      "locality": "U.S. 278/Mississippi 6 at Mississippi 342 and Black Zion Road, Pontotoc County, Mississippi.",
+      "identities": "Mississippi Department of Transportation District 1 and the Federal Highway Administration."
+    },
+    {
+      "id": "f3",
+      "statement": "In a restricted crossing U-turn design, a driver coming from a side road first turns right onto the divided highway. To go left, the driver uses a designated opening farther along the median to turn back. To continue across, the driver makes that same U-turn and then turns right onto the continuation of the side road.",
+      "source_ids": [
+        "guide"
+      ],
+      "evidence": "Federal Highway Administration describes the side-road through movement as right, U-turn and right, and the indirect left as right followed by U-turn. No claim about the placement of openings at this site.",
+      "statistics": "None asserted.",
+      "date_context": "November 2026 proposed project list checked Nov. 20; separate 2026\u201328 state plan describes the intersection in federal fiscal year 2027.",
+      "locality": "U.S. 278/Mississippi 6 at Mississippi 342 and Black Zion Road, Pontotoc County, Mississippi.",
+      "identities": "Mississippi Department of Transportation District 1 and the Federal Highway Administration."
+    },
+    {
+      "id": "f4",
+      "statement": "For now, MDOT identifies the median installation as state-forces work in District 1. The department says its proposed months can move as projects are revised. Drivers looking for a construction date will need a separate notice for this intersection.",
+      "source_ids": [
+        "list"
+      ],
+      "evidence": "The project row uses the terms State Forces and District 1. The agency explicitly describes the schedule as subject to continuous revision.",
+      "statistics": "District 1.",
+      "date_context": "November 2026 proposed project list checked Nov. 20; separate 2026\u201328 state plan describes the intersection in federal fiscal year 2027.",
+      "locality": "U.S. 278/Mississippi 6 at Mississippi 342 and Black Zion Road, Pontotoc County, Mississippi.",
+      "identities": "Mississippi Department of Transportation District 1 and the Federal Highway Administration."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Mississippi\u2019s transportation department lists a directional median for the U.S. 278 intersection with Mississippi 342 and Black Zion Road in Pontotoc County. The work appears under November in the department\u2019s proposed project schedule. The listing gives no date for crews to start or for traffic to change.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The department\u2019s three-year safety plan has a separate entry for the same intersection, where U.S. 278 also carries Mississippi 6. That entry describes a restricted crossing U-turn and gives a planning estimate of $1.75 million for federal fiscal year 2027. The November median listing gives no price for the state crew\u2019s work.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "In a restricted crossing U-turn design, a driver coming from a side road first turns right onto the divided highway. To go left, the driver uses a designated opening farther along the median to turn back. To continue across, the driver makes that same U-turn and then turns right onto the continuation of the side road.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "For now, MDOT identifies the median installation as state-forces work in District 1. The department says its proposed months can move as projects are revised. Drivers looking for a construction date will need a separate notice for this intersection.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/mdot-pontotoc-black-zion-road-highway-278-median-plan.png",
+    "sha256": "274eb1fb78b7d2eee7621ce3b75ff0405ed820aa7ab45d6350b9a26458f67b90",
+    "alt_text": "MDOT lists a directional median at U.S. 278 and Mississippi 342 at Black Zion Road in its November proposed project schedule.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News supplemental desk",
+    "reviewed_at": "2026-11-20T19:40:11.019992+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized Nov. 20 supplemental editorial shift. Publish reviewed copy only after authenticated preflight and final review."
+  }
+}
