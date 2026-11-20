@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-wrestling-center-hill-new-albany-oxford-results.json",
   "article_sha256": "7dd0c14b200eb89b6b8a21420e0ce006677e00a904c5716754c56d6c5f226d81",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-wrestling-center-hill-new-albany-oxford-results",
   "seo_review": {
     "reviewer": "Pontotoc News morning desk",
