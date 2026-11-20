@@ -1,0 +1,130 @@
+{
+  "title": "Pontotoc County Library opens sign-ups for a holiday bow workshop for seniors",
+  "excerpt": "Betty Crane will demonstrate floral arranging Dec. 7. The library will provide craft supplies and lunch, and seniors can reserve a place by phone or in person.",
+  "locality": "Pontotoc County Library in Pontotoc, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:county-library:2026-12-07:senior-craft-holiday-bows"
+  ],
+  "sources": [
+    {
+      "id": "flyer",
+      "title": "Senior Citizen Craft Day flyer shared by the Town of Ecru",
+      "url": "https://www.facebook.com/1204361708550928/posts/1469953151991781",
+      "publisher": "Pontotoc County Library via the Town of Ecru",
+      "role": "event",
+      "verified_at": "2026-11-20T15:03:32.441641+00:00",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7mX75E8w6.rss",
+      "published_at": "2026-11-20T12:06:47+00:00"
+    },
+    {
+      "id": "branch",
+      "title": "Pontotoc County Library address, phone and opening hours",
+      "url": "https://www.dixie.lib.ms.us/locations/pontotoc-county-library/",
+      "publisher": "Dixie Regional Library System",
+      "role": "background",
+      "verified_at": "2026-11-20T15:03:32.441641+00:00",
+      "verification_url": "https://www.dixie.lib.ms.us/locations/pontotoc-county-library/",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Seniors can sign up now to make a holiday bow at the Pontotoc County Library on Monday, Dec. 7. The workshop begins at 10 a.m. at 111 N. Main St. in Pontotoc.",
+      "source_ids": [
+        "flyer",
+        "branch"
+      ],
+      "evidence": "The library flyer gives the audience, activity, day, date and time. The library system confirms the branch address.",
+      "statistics": "Dec. 7 at 10 a.m.; 111 N. Main St.",
+      "date_context": "Notice shared Nov. 20 for Monday, Dec. 7, 2026. All times Central.",
+      "locality": "Pontotoc County Library in Pontotoc, Mississippi.",
+      "identities": "Pontotoc County Library, Betty Crane and the Dixie Regional Library System."
+    },
+    {
+      "id": "f2",
+      "statement": "Betty Crane, whom the library identifies as a master floral arranger, will give an arrangement demonstration. The library will provide supplies for participants to make their own bows, along with lunch.",
+      "source_ids": [
+        "flyer"
+      ],
+      "evidence": "The organizer flyer names Crane and distinguishes her arranging demonstration from the bow-making activity. It lists supplies and lunch as provided.",
+      "statistics": "None asserted.",
+      "date_context": "Notice shared Nov. 20 for Monday, Dec. 7, 2026. All times Central.",
+      "locality": "Pontotoc County Library in Pontotoc, Mississippi.",
+      "identities": "Pontotoc County Library, Betty Crane and the Dixie Regional Library System."
+    },
+    {
+      "id": "f3",
+      "statement": "Space is limited. To reserve a place, call the Pontotoc branch at 662-489-3960 or stop by the library. Its regular Friday hours are 9 a.m. to 5 p.m., and it opens Saturdays from 9 a.m. to 1 p.m.",
+      "source_ids": [
+        "flyer",
+        "branch"
+      ],
+      "evidence": "Both sources give the same branch phone number. The flyer instructs attendees to sign up by telephone or in person. The branch lists Friday and Saturday hours.",
+      "statistics": "662-489-3960; Friday 9\u20135; Saturday 9\u20131.",
+      "date_context": "Notice shared Nov. 20 for Monday, Dec. 7, 2026. All times Central.",
+      "locality": "Pontotoc County Library in Pontotoc, Mississippi.",
+      "identities": "Pontotoc County Library, Betty Crane and the Dixie Regional Library System."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Seniors can sign up now to make a holiday bow at the Pontotoc County Library on Monday, Dec. 7. The workshop begins at 10 a.m. at 111 N. Main St. in Pontotoc.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "Betty Crane, whom the library identifies as a master floral arranger, will give an arrangement demonstration. The library will provide supplies for participants to make their own bows, along with lunch.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Space is limited. To reserve a place, call the Pontotoc branch at 662-489-3960 or stop by the library. Its regular Friday hours are 9 a.m. to 5 p.m., and it opens Saturdays from 9 a.m. to 1 p.m.",
+      "fact_ids": [
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-library-holiday-bow-workshop-december-7.png",
+    "sha256": "504500188e06773f51f4a796735a99e072df5d0f7ee78249e71e4cd8a5a19714",
+    "alt_text": "Holiday bow workshop at the Pontotoc County Library on Dec. 7 at 10 a.m. Sign up by calling 662-489-3960.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-20T15:03:32.441641+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f3"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized Nov. 20, 2026 Pontotoc News morning editorial shift. Publish reviewed copy after authenticated preflight."
+  }
+}
