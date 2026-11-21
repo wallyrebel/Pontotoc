@@ -1,0 +1,157 @@
+{
+  "title": "Marshall and Genie Loeb give $1 million for Mississippi\u2019s new cancer center",
+  "excerpt": "The gift supports UMMC\u2019s cancer center in Jackson, where specialists will be able to see a patient together during one visit.",
+  "locality": "Statewide Mississippi health coverage. The medical center is in Jackson.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:ummc:2026-11-16:marshall-genie-loeb-cancer-center-gift"
+  ],
+  "sources": [
+    {
+      "id": "gift",
+      "title": "UMMC announcement of the Loeb gift",
+      "url": "https://www.umc.edu/news/News_Articles/2026/11/Marshall-Loeb.html",
+      "publisher": "University of Mississippi Medical Center",
+      "role": "event",
+      "verified_at": "2026-11-21T01:44:54.414711+00:00",
+      "verification_url": "https://www.umc.edu/news/News_Articles/2026/11/Marshall-Loeb.html",
+      "published_at": null
+    },
+    {
+      "id": "construction",
+      "title": "October groundbreaking and campaign funding",
+      "url": "https://www.umc.edu/news/News_Articles/2026/10/CCRI-Groundbreaking.html",
+      "publisher": "University of Mississippi Medical Center",
+      "role": "background",
+      "verified_at": "2026-11-21T01:44:54.414711+00:00",
+      "verification_url": "https://www.umc.edu/news/News_Articles/2026/10/CCRI-Groundbreaking.html",
+      "published_at": null
+    },
+    {
+      "id": "building",
+      "title": "Building plans for clinics and patient services",
+      "url": "https://abouttime.ms/itsabouttime/Building/Building.html",
+      "publisher": "UMMC cancer center campaign",
+      "role": "background",
+      "verified_at": "2026-11-21T01:44:54.414711+00:00",
+      "verification_url": "https://abouttime.ms/itsabouttime/Building/Building.html",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Marshall and Genie Loeb have given $1 million toward a new cancer center at the University of Mississippi Medical Center in Jackson. Marshall Loeb, whose sister Freddie Watson died of lymphoma, said her experience helped draw him to the project. UMMC announced the gift Nov. 16.",
+      "source_ids": [
+        "gift"
+      ],
+      "evidence": "The dated UMMC announcement names both donors, identifies the gift and describes Loeb\u2019s account of his sister.",
+      "statistics": "$1 million; Nov. 16.",
+      "date_context": "UMMC reported the gift Nov. 16, 2026, after the Oct. 22 groundbreaking. Clinical facilities are planned.",
+      "locality": "Statewide Mississippi health coverage. The medical center is in Jackson.",
+      "identities": "Marshall Loeb, Genie Loeb, Freddie Watson and the University of Mississippi Medical Center."
+    },
+    {
+      "id": "f2",
+      "statement": "The Loebs\u2019 gift goes to a $125 million fundraising campaign that helps pay for construction. UMMC broke ground Oct. 22. The campaign had already passed 80% of its goal by the groundbreaking, the medical center reported at the time. Sandy and John Black helped launch it with a $25 million gift.",
+      "source_ids": [
+        "gift",
+        "construction"
+      ],
+      "evidence": "October report records campaign progress before the Loeb announcement and identifies the Blacks\u2019 gift.",
+      "statistics": "$125 million; more than 80%; Oct. 22; $25 million.",
+      "date_context": "UMMC reported the gift Nov. 16, 2026, after the Oct. 22 groundbreaking. Clinical facilities are planned.",
+      "locality": "Statewide Mississippi health coverage. The medical center is in Jackson.",
+      "identities": "Marshall Loeb, Genie Loeb, Freddie Watson and the University of Mississippi Medical Center."
+    },
+    {
+      "id": "f3",
+      "statement": "For patients who travel to Jackson, one planned change is the chance to see several specialists in a single visit. UMMC\u2019s design calls for clinics where the care team can meet with a patient together. A resource center open to the public, a chapel and rooms for patient and family support groups are planned for the main floor.",
+      "source_ids": [
+        "building"
+      ],
+      "evidence": "The building plan describes multidisciplinary visits, public access to the resource center, the chapel and support groups.",
+      "statistics": "One visit.",
+      "date_context": "UMMC reported the gift Nov. 16, 2026, after the Oct. 22 groundbreaking. Clinical facilities are planned.",
+      "locality": "Statewide Mississippi health coverage. The medical center is in Jackson.",
+      "identities": "Marshall Loeb, Genie Loeb, Freddie Watson and the University of Mississippi Medical Center."
+    },
+    {
+      "id": "f4",
+      "statement": "The building will also house infusion suites, research labs and space for clinical trials. UMMC is pursuing National Cancer Institute designation, which would be a first for Mississippi. The designation is a goal for the center as construction gets underway.",
+      "source_ids": [
+        "gift",
+        "building",
+        "construction"
+      ],
+      "evidence": "UMMC distinguishes the planned facility from its ongoing effort to earn national designation.",
+      "statistics": "First for Mississippi if achieved.",
+      "date_context": "UMMC reported the gift Nov. 16, 2026, after the Oct. 22 groundbreaking. Clinical facilities are planned.",
+      "locality": "Statewide Mississippi health coverage. The medical center is in Jackson.",
+      "identities": "Marshall Loeb, Genie Loeb, Freddie Watson and the University of Mississippi Medical Center."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Marshall and Genie Loeb have given $1 million toward a new cancer center at the University of Mississippi Medical Center in Jackson. Marshall Loeb, whose sister Freddie Watson died of lymphoma, said her experience helped draw him to the project. UMMC announced the gift Nov. 16.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The Loebs\u2019 gift goes to a $125 million fundraising campaign that helps pay for construction. UMMC broke ground Oct. 22. The campaign had already passed 80% of its goal by the groundbreaking, the medical center reported at the time. Sandy and John Black helped launch it with a $25 million gift.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "For patients who travel to Jackson, one planned change is the chance to see several specialists in a single visit. UMMC\u2019s design calls for clinics where the care team can meet with a patient together. A resource center open to the public, a chapel and rooms for patient and family support groups are planned for the main floor.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "The building will also house infusion suites, research labs and space for clinical trials. UMMC is pursuing National Cancer Institute designation, which would be a first for Mississippi. The designation is a goal for the center as construction gets underway.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/loeb-million-dollar-gift-mississippi-cancer-center.png",
+    "sha256": "ee8057265c10df19ca475f4b476d81c2ebc3b15dffadc0aa084281d3aa054fe6",
+    "alt_text": "Marshall and Genie Loeb gave $1 million to the $125 million cancer center campaign. UMMC broke ground Oct. 22.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News evening desk",
+    "reviewed_at": "2026-11-21T01:44:54.414711+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 20 evening editorial shift. Publish after the authenticated read-only check and final editorial review."
+  }
+}
