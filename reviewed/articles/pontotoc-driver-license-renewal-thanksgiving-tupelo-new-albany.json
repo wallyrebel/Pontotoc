@@ -1,0 +1,172 @@
+{
+  "title": "Renewing a license Thanksgiving week? What Pontotoc drivers need to know before a trip to Tupelo or New Albany",
+  "excerpt": "Mississippi allows eligible drivers to renew online every other time. For those who need a station, the holiday changes the usual weekday schedule.",
+  "locality": "Pontotoc County, Mississippi, and nearby state driver service stations in Tupelo and New Albany.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:driver-services:2026-11-26:thanksgiving-renewal-stations"
+  ],
+  "sources": [
+    {
+      "id": "sos-order",
+      "title": "Governor\u2019s proclamation for Thanksgiving 2026",
+      "url": "https://www.sos.ms.gov/content/documents/ed_pubs/2026.thanksgiving.christmas.newyears.pdf",
+      "publisher": "Mississippi Governor\u2019s Office",
+      "role": "event",
+      "verified_at": "2026-11-21T22:10:44.229653+00:00",
+      "verification_url": "https://www.sos.ms.gov/content/documents/ed_pubs/2026.thanksgiving.christmas.newyears.pdf",
+      "published_at": null
+    },
+    {
+      "id": "permit",
+      "title": "Driver license station addresses, hours and contact number",
+      "url": "https://www.driverservicebureau.dps.ms.gov/drivers/driver_license_locations",
+      "publisher": "Mississippi Driver Service Bureau",
+      "role": "background",
+      "verified_at": "2026-11-21T22:10:44.229653+00:00",
+      "verification_url": "https://www.driverservicebureau.dps.ms.gov/drivers/driver_license_locations",
+      "published_at": null
+    },
+    {
+      "id": "driver-renew",
+      "title": "How to renew a Mississippi driver\u2019s license",
+      "url": "https://www.driverservicebureau.dps.ms.gov/node/298",
+      "publisher": "Mississippi Driver Service Bureau",
+      "role": "background",
+      "verified_at": "2026-11-21T22:10:44.229653+00:00",
+      "verification_url": "https://www.driverservicebureau.dps.ms.gov/node/298",
+      "published_at": null
+    },
+    {
+      "id": "online",
+      "title": "Driver self-service and renewal questions",
+      "url": "https://www.ms.gov/dps/license_renewal/FAQ/",
+      "publisher": "Mississippi Department of Public Safety",
+      "role": "background",
+      "verified_at": "2026-11-21T22:10:44.229653+00:00",
+      "verification_url": "https://www.ms.gov/dps/license_renewal/FAQ/",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc County drivers who renewed their Mississippi license online last time will need to visit a driver service station for their next renewal. Anyone planning a trip to Tupelo or New Albany over Thanksgiving has a shorter week to work with. State offices observe the holiday Thursday, Nov. 26, and the governor has left Friday\u2019s hours up to each agency.",
+      "source_ids": [
+        "driver-renew",
+        "sos-order",
+        "online"
+      ],
+      "evidence": "Renewal page requires alternating in-person and online renewals. Proclamation and DPS holiday exception establish the Thursday holiday and the separate Friday discretion.",
+      "statistics": "Nov. 26\u201327, 2026.",
+      "date_context": "November 21, 2026, ahead of Thanksgiving on November 26 and Friday, November 27. The governor signed the proclamation October 6.",
+      "locality": "Pontotoc County, Mississippi, and nearby state driver service stations in Tupelo and New Albany.",
+      "identities": "Mississippi Department of Public Safety, Mississippi Driver Service Bureau and Gov. Tate Reeves."
+    },
+    {
+      "id": "f2",
+      "statement": "The Tupelo station is at 589 Coley Road. In New Albany, the station is at 1103 Bratton Road. Both list regular weekday hours of 8 a.m. to 5 p.m. The Driver Service Bureau recommends making an appointment and lists 601-487-7028 as its contact number for north Mississippi stations.",
+      "source_ids": [
+        "permit",
+        "driver-renew"
+      ],
+      "evidence": "Official locations directory lists both addresses, hours and the North Mississippi contact number. The renewal page recommends appointments.",
+      "statistics": "589 Coley Road; 1103 Bratton Road; 8 a.m. to 5 p.m.; 601-487-7028.",
+      "date_context": "November 21, 2026, ahead of Thanksgiving on November 26 and Friday, November 27. The governor signed the proclamation October 6.",
+      "locality": "Pontotoc County, Mississippi, and nearby state driver service stations in Tupelo and New Albany.",
+      "identities": "Mississippi Department of Public Safety, Mississippi Driver Service Bureau and Gov. Tate Reeves."
+    },
+    {
+      "id": "f3",
+      "statement": "Check before making a Friday trip. The proclamation Gov. Tate Reeves signed Oct. 6 allows agency heads to close offices for all or part of Nov. 27 and to arrange staffing as needed. The proclamation gives no Friday opening time for either driver service station.",
+      "source_ids": [
+        "sos-order",
+        "permit"
+      ],
+      "evidence": "Read the signed one-page proclamation and both locations\u2019 regular schedules. The order leaves Friday\u2019s schedule to agency executives.",
+      "statistics": "Oct. 6 and Nov. 27, 2026.",
+      "date_context": "November 21, 2026, ahead of Thanksgiving on November 26 and Friday, November 27. The governor signed the proclamation October 6.",
+      "locality": "Pontotoc County, Mississippi, and nearby state driver service stations in Tupelo and New Albany.",
+      "identities": "Mississippi Department of Public Safety, Mississippi Driver Service Bureau and Gov. Tate Reeves."
+    },
+    {
+      "id": "f4",
+      "statement": "For drivers considering an online renewal, the last transaction matters. An eligible driver who renewed in person last time may renew online this time. A driver whose license carries restriction D, which requires a new examination, must go in person. Changing the last name on a license also requires an office visit with original documents supporting the change.",
+      "source_ids": [
+        "driver-renew",
+        "online"
+      ],
+      "evidence": "DPS self-service FAQ and current renewal page describe the alternating online option, restriction D and original documents for a last-name change.",
+      "statistics": "One online renewal between in-person renewals.",
+      "date_context": "November 21, 2026, ahead of Thanksgiving on November 26 and Friday, November 27. The governor signed the proclamation October 6.",
+      "locality": "Pontotoc County, Mississippi, and nearby state driver service stations in Tupelo and New Albany.",
+      "identities": "Mississippi Department of Public Safety, Mississippi Driver Service Bureau and Gov. Tate Reeves."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc County drivers who renewed their Mississippi license online last time will need to visit a driver service station for their next renewal. Anyone planning a trip to Tupelo or New Albany over Thanksgiving has a shorter week to work with. State offices observe the holiday Thursday, Nov. 26, and the governor has left Friday\u2019s hours up to each agency.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The Tupelo station is at 589 Coley Road. In New Albany, the station is at 1103 Bratton Road. Both list regular weekday hours of 8 a.m. to 5 p.m. The Driver Service Bureau recommends making an appointment and lists 601-487-7028 as its contact number for north Mississippi stations.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Check before making a Friday trip. The proclamation Gov. Tate Reeves signed Oct. 6 allows agency heads to close offices for all or part of Nov. 27 and to arrange staffing as needed. The proclamation gives no Friday opening time for either driver service station.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "For drivers considering an online renewal, the last transaction matters. An eligible driver who renewed in person last time may renew online this time. A driver whose license carries restriction D, which requires a new examination, must go in person. Changing the last name on a license also requires an office visit with original documents supporting the change.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-driver-license-renewal-thanksgiving-tupelo-new-albany.png",
+    "sha256": "e1e2dc5a9dec801344085c7ea2cb41884112302816345c44ba48d9bc352d2d6e",
+    "alt_text": "Tupelo\u2019s driver service station is at 589 Coley Road and New Albany\u2019s is at 1103 Bratton Road. Confirm hours before a trip Friday, November 27.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-21T22:10:44.229653+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f3",
+      "f4"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 21, 2026 afternoon editorial shift. Publish the identical reviewed package after authenticated preflight and final sign-off."
+  }
+}
