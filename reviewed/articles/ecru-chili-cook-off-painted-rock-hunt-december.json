@@ -1,0 +1,159 @@
+{
+  "title": "Ecru opens chili cook-off registration and unveils student-painted rocks for December hunt",
+  "excerpt": "Cooks can enter free for the Dec. 3 event at Pannell Park. North Pontotoc High School art students painted the rocks residents can look for around town throughout December.",
+  "locality": "Town of Ecru, Pontotoc County, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:ecru:2026-12-03:christmas-chili-cook-off",
+    "ms:pontotoc:ecru:2026-11-21:student-rocks-december-hunt-reveal"
+  ],
+  "sources": [
+    {
+      "id": "cook",
+      "title": "Christmas in Ecru cook-off and tree lighting",
+      "url": "https://www.facebook.com/1204361708550928/posts/1470976718556091",
+      "publisher": "Town of Ecru",
+      "role": "event",
+      "verified_at": "2026-11-21T19:47:41.130109+00:00",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7mX75E8w6.rss",
+      "published_at": "2026-11-21T11:52:58+00:00"
+    },
+    {
+      "id": "form",
+      "title": "Chili cook-off registration form",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSfhOSs0fYN4GTiEj5lCPVtsHwYaW054Thsw3QWhPev_anZbWg/viewform?usp=send_form",
+      "publisher": "Christmas in Ecru",
+      "role": "event",
+      "verified_at": "2026-11-21T19:47:41.130109+00:00",
+      "verification_url": "https://docs.google.com/forms/d/e/1FAIpQLSfhOSs0fYN4GTiEj5lCPVtsHwYaW054Thsw3QWhPev_anZbWg/viewform?usp=send_form",
+      "published_at": null
+    },
+    {
+      "id": "rocks",
+      "title": "Town photograph of the student-painted rocks",
+      "url": "https://www.facebook.com/1204361708550928/posts/1471243028529460",
+      "publisher": "Town of Ecru",
+      "role": "event",
+      "verified_at": "2026-11-21T19:47:41.130109+00:00",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7mX75E8w6.rss",
+      "published_at": "2026-11-21T16:55:34+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Ecru is taking entries for a chili cook-off that will follow the 6 p.m. Christmas tree lighting Thursday, Dec. 3, at Pannell Park. Entry is free, but cooks need to register in advance. Local churches will sing carols in the park that evening.",
+      "source_ids": [
+        "cook",
+        "form"
+      ],
+      "evidence": "Town post and inspected event flyer agree on the date, time and order. Public registration form identifies Pannell Park in Ecru and free entry.",
+      "statistics": "Dec. 3; 6 p.m.",
+      "date_context": "Town announcements on Saturday, Nov. 21, 2026, for December 2026. All times local.",
+      "locality": "Town of Ecru, Pontotoc County, Mississippi.",
+      "identities": "Town of Ecru, local churches, cook-off entrants and North Pontotoc High School art students."
+    },
+    {
+      "id": "f2",
+      "statement": "Teams will have tables, tasting bowls and utensils at the park. They will need to plan how to keep their chili warm without an electrical hookup. The town says it will provide no electricity, a condition cooks are asked to acknowledge on the registration form.",
+      "source_ids": [
+        "cook",
+        "form"
+      ],
+      "evidence": "Town lists supplied items and the no-electricity condition. Form requires acknowledgment.",
+      "statistics": "None asserted.",
+      "date_context": "Town announcements on Saturday, Nov. 21, 2026, for December 2026. All times local.",
+      "locality": "Town of Ecru, Pontotoc County, Mississippi.",
+      "identities": "Town of Ecru, local churches, cook-off entrants and North Pontotoc High School art students."
+    },
+    {
+      "id": "f3",
+      "statement": "The form asks how many people will participate on each team and approximately how much chili they expect to bring. Cooks can use the registration link below. Residents can also come to hear the carols and watch the lighting without entering a pot of chili.",
+      "source_ids": [
+        "cook",
+        "form"
+      ],
+      "evidence": "Registration asks for team size and anticipated gallons. Town invitation addresses cooks and visitors.",
+      "statistics": "None asserted.",
+      "date_context": "Town announcements on Saturday, Nov. 21, 2026, for December 2026. All times local.",
+      "locality": "Town of Ecru, Pontotoc County, Mississippi.",
+      "identities": "Town of Ecru, local churches, cook-off entrants and North Pontotoc High School art students."
+    },
+    {
+      "id": "f4",
+      "statement": "There is something to look for outside the park as well. North Pontotoc High School art students painted rocks for a scavenger hunt that will run around Ecru throughout December. In a photograph the town shared Saturday, a white snowflake fills a dark-blue rock and a snowman in a black hat stretches across a gray one.",
+      "source_ids": [
+        "rocks"
+      ],
+      "evidence": "Town credits the high school art students and specifies all of December. Both designs are visible in the inspected town photograph.",
+      "statistics": "December 2026.",
+      "date_context": "Town announcements on Saturday, Nov. 21, 2026, for December 2026. All times local.",
+      "locality": "Town of Ecru, Pontotoc County, Mississippi.",
+      "identities": "Town of Ecru, local churches, cook-off entrants and North Pontotoc High School art students."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Ecru is taking entries for a chili cook-off that will follow the 6 p.m. Christmas tree lighting Thursday, Dec. 3, at Pannell Park. Entry is free, but cooks need to register in advance. Local churches will sing carols in the park that evening.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "Teams will have tables, tasting bowls and utensils at the park. They will need to plan how to keep their chili warm without an electrical hookup. The town says it will provide no electricity, a condition cooks are asked to acknowledge on the registration form.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "The form asks how many people will participate on each team and approximately how much chili they expect to bring. Cooks can use the registration link below. Residents can also come to hear the carols and watch the lighting without entering a pot of chili.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "There is something to look for outside the park as well. North Pontotoc High School art students painted rocks for a scavenger hunt that will run around Ecru throughout December. In a photograph the town shared Saturday, a white snowflake fills a dark-blue rock and a snowman in a black hat stretches across a gray one.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/ecru-chili-cook-off-painted-rock-hunt-december.png",
+    "sha256": "2f888e1efba80d37b95f4fdbeb3fd3e2a28d20d72ac92345b1d7076fbd891bb3",
+    "alt_text": "Ecru tree lighting at 6 p.m. Dec. 3 in Pannell Park, followed by a chili cook-off with free advance registration.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-21T19:47:41.130109+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f4"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f4"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 21 supplemental editorial shift. Publish the reviewed article after successful authenticated dry run and final review."
+  }
+}
