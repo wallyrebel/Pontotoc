@@ -1,0 +1,179 @@
+{
+  "title": "Medicare sets 2027 Part B premium at $209.40. Where Pontotoc residents can get help",
+  "excerpt": "The standard monthly premium rises $6.50. Free counseling is available to Pontotoc County residents ahead of the Dec. 7 deadline for Medicare health and drug plan changes.",
+  "locality": "Pontotoc County, Mississippi; the Part B amounts apply nationwide.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:cms:2026-11-17:2027-part-b-costs-enrollment-help"
+  ],
+  "sources": [
+    {
+      "id": "partb",
+      "title": "2027 Medicare Part B premiums and deductibles",
+      "url": "https://www.cms.gov/newsroom/fact-sheets/2027-medicare-parts-b-premiums-deductibles",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "role": "event",
+      "verified_at": "2026-11-21T15:04:30.642055+00:00",
+      "verification_url": "https://www.cms.gov/newsroom/fact-sheets/2027-medicare-parts-b-premiums-deductibles",
+      "published_at": "2026-11-17T12:00:00Z"
+    },
+    {
+      "id": "medicare",
+      "title": "Medicare open enrollment dates and options",
+      "url": "https://www.medicare.gov/health-drug-plans/open-enrollment",
+      "publisher": "Medicare.gov",
+      "role": "background",
+      "verified_at": "2026-11-21T15:04:30.642055+00:00",
+      "verification_url": "https://www.medicare.gov/health-drug-plans/open-enrollment",
+      "published_at": null
+    },
+    {
+      "id": "mdhs",
+      "title": "Free Medicare counseling through Mississippi SHIP",
+      "url": "https://www.mdhs.ms.gov/aging/finding-services-for-older-adults/",
+      "publisher": "Mississippi Department of Human Services",
+      "role": "background",
+      "verified_at": "2026-11-21T15:04:30.642055+00:00",
+      "verification_url": "https://www.mdhs.ms.gov/aging/finding-services-for-older-adults/",
+      "published_at": null
+    },
+    {
+      "id": "mdhsdir",
+      "title": "State directory of Area Agencies on Aging",
+      "url": "https://www.mdhs.ms.gov/contact/",
+      "publisher": "Mississippi Department of Human Services",
+      "role": "background",
+      "verified_at": "2026-11-21T15:04:30.642055+00:00",
+      "verification_url": "https://www.mdhs.ms.gov/contact/",
+      "published_at": null
+    },
+    {
+      "id": "district",
+      "title": "County service areas for Mississippi\u2019s Area Agencies on Aging (PDF)",
+      "url": "https://www.mdhs.ms.gov/wp-content/uploads/2023/09/f3978f59dc496c1e919729f80be47367.pdf",
+      "publisher": "Mississippi Department of Human Services",
+      "role": "background",
+      "verified_at": "2026-11-21T15:04:30.642055+00:00",
+      "verification_url": "https://www.mdhs.ms.gov/wp-content/uploads/2023/09/f3978f59dc496c1e919729f80be47367.pdf",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc County residents reviewing Medicare coverage before Dec. 7 now have the 2027 figures for Part B, which covers physician visits and outpatient hospital services. The standard monthly premium will rise to $209.40 from $202.90. For someone paying the standard amount all year, that adds up to $78 more in premiums.",
+      "source_ids": [
+        "partb",
+        "medicare"
+      ],
+      "evidence": "The Nov. 17 federal notice gives both standard monthly premiums and the scope of Part B. The $6.50 difference multiplied by 12 is $78. Medicare confirms the enrollment deadline.",
+      "statistics": "Dec. 7; $209.40; $202.90; $78 over 12 months.",
+      "date_context": "The Nov. 17, 2026 federal announcement sets 2027 rates. The current open enrollment period ends Dec. 7, 2026.",
+      "locality": "Pontotoc County, Mississippi; the Part B amounts apply nationwide.",
+      "identities": "Centers for Medicare & Medicaid Services, Mississippi Department of Human Services and Three Rivers Area Agency on Aging."
+    },
+    {
+      "id": "f2",
+      "statement": "The annual Part B deductible will rise by $9, from $283 to $292. The premium and the deductible are separate costs. People with higher incomes can pay more than the standard monthly premium, and the federal notice lists those amounts by income and tax filing status.",
+      "source_ids": [
+        "partb"
+      ],
+      "evidence": "CMS gives both annual deductibles and publishes the separate income-related monthly premium table.",
+      "statistics": "$9; $283; $292.",
+      "date_context": "The Nov. 17, 2026 federal announcement sets 2027 rates. The current open enrollment period ends Dec. 7, 2026.",
+      "locality": "Pontotoc County, Mississippi; the Part B amounts apply nationwide.",
+      "identities": "Centers for Medicare & Medicaid Services, Mississippi Department of Human Services and Three Rivers Area Agency on Aging."
+    },
+    {
+      "id": "f3",
+      "statement": "The annual enrollment window covers choices such as switching Medicare Advantage plans or changing a Medicare drug plan. Medicare says the plan must receive a request by Monday, Dec. 7, for the change to take effect Jan. 1, 2027.",
+      "source_ids": [
+        "medicare"
+      ],
+      "evidence": "Medicare.gov distinguishes the permitted health and drug plan changes, receipt deadline and next-year effective date. Calendar confirms Monday.",
+      "statistics": "Dec. 7, 2026; Jan. 1, 2027.",
+      "date_context": "The Nov. 17, 2026 federal announcement sets 2027 rates. The current open enrollment period ends Dec. 7, 2026.",
+      "locality": "Pontotoc County, Mississippi; the Part B amounts apply nationwide.",
+      "identities": "Centers for Medicare & Medicaid Services, Mississippi Department of Human Services and Three Rivers Area Agency on Aging."
+    },
+    {
+      "id": "f4",
+      "statement": "For help comparing options, Mississippi\u2019s State Health Insurance Assistance Program can be reached at 844-822-4622. Its counselors offer free, confidential assistance regardless of income. Pontotoc County is served by the Three Rivers Area Agency on Aging. The state lists its local number as 662-489-2415.",
+      "source_ids": [
+        "mdhs",
+        "mdhsdir",
+        "district"
+      ],
+      "evidence": "State SHIP page gives the toll-free line and assistance terms. The state county directory lists Pontotoc in the Three Rivers service area, and the current contact page confirms the local phone number.",
+      "statistics": "844-822-4622; 662-489-2415.",
+      "date_context": "The Nov. 17, 2026 federal announcement sets 2027 rates. The current open enrollment period ends Dec. 7, 2026.",
+      "locality": "Pontotoc County, Mississippi; the Part B amounts apply nationwide.",
+      "identities": "Centers for Medicare & Medicaid Services, Mississippi Department of Human Services and Three Rivers Area Agency on Aging."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc County residents reviewing Medicare coverage before Dec. 7 now have the 2027 figures for Part B, which covers physician visits and outpatient hospital services. The standard monthly premium will rise to $209.40 from $202.90. For someone paying the standard amount all year, that adds up to $78 more in premiums.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The annual Part B deductible will rise by $9, from $283 to $292. The premium and the deductible are separate costs. People with higher incomes can pay more than the standard monthly premium, and the federal notice lists those amounts by income and tax filing status.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "The annual enrollment window covers choices such as switching Medicare Advantage plans or changing a Medicare drug plan. Medicare says the plan must receive a request by Monday, Dec. 7, for the change to take effect Jan. 1, 2027.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "For help comparing options, Mississippi\u2019s State Health Insurance Assistance Program can be reached at 844-822-4622. Its counselors offer free, confidential assistance regardless of income. Pontotoc County is served by the Three Rivers Area Agency on Aging. The state lists its local number as 662-489-2415.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-medicare-open-enrollment-part-b-costs.png",
+    "sha256": "da07af2ba6463222dcdcee8cd9067519fd5b61371e4a9ed6763d7a4eaa8cf76c",
+    "alt_text": "Medicare\u2019s 2027 standard Part B premium is $209.40 a month and its annual deductible is $292. Mississippi SHIP help is at 844-822-4622.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-21T15:04:30.642055+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f4"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f3",
+      "f4"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "November 21 authorized Pontotoc morning editorial shift; public release of this exact package after authenticated preflight and final review."
+  }
+}
