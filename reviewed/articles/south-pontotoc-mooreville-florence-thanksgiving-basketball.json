@@ -1,0 +1,264 @@
+{
+  "title": "South Pontotoc plays two against Mooreville in New Albany, Pontotoc boys face Florence in Booneville",
+  "excerpt": "South Pontotoc\u2019s girls take a 6\u20130 record into Thanksgiving week. The boys face Alcorn Central on Monday and join the girls against Mooreville on Tuesday.",
+  "locality": "South Pontotoc and Pontotoc high school varsity teams, with tournament games in New Albany and Booneville, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:south-varsity-basketball:2026-11-23:shannon-girls-alcorn-central-boys",
+    "ms:pontotoc:south-varsity-basketball:2026-11-24:mooreville-doubleheader",
+    "ms:pontotoc:warriors-boys-basketball:2026-11-23:florence",
+    "ms:pontotoc:warriors-girls-basketball:2026-11-24:center-hill"
+  ],
+  "sources": [
+    {
+      "id": "south-basketball-girls-24",
+      "title": "Mooreville\u2013South Pontotoc girls tournament listing",
+      "url": "https://www.maxpreps.com/ms/basketball/girls/game/mooreville-vs-south-pontotoc/11-24-2026/?c=4f26906b-ca2b-445e-b330-96e4bd97c837",
+      "publisher": "MaxPreps varsity game records",
+      "role": "event",
+      "verified_at": "2026-11-21T22:11:28.611162+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/basketball/girls/game/mooreville-vs-south-pontotoc/11-24-2026/?c=4f26906b-ca2b-445e-b330-96e4bd97c837",
+      "published_at": null
+    },
+    {
+      "id": "south-pontotoc-cougars-basketball-24",
+      "title": "South Pontotoc\u2013Mooreville boys tournament listing",
+      "url": "https://www.maxpreps.com/ms/basketball/game/mooreville-vs-south-pontotoc/11-24-2026/?c=782e8279-13a6-4ffb-b78f-887cecf511cf",
+      "publisher": "MaxPreps varsity game records",
+      "role": "event",
+      "verified_at": "2026-11-21T22:11:28.611162+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/basketball/game/mooreville-vs-south-pontotoc/11-24-2026/?c=782e8279-13a6-4ffb-b78f-887cecf511cf",
+      "published_at": null
+    },
+    {
+      "id": "south-basketball-girls-23",
+      "title": "Shannon\u2013South Pontotoc girls game",
+      "url": "https://www.maxpreps.com/ms/basketball/girls/game/shannon-vs-south-pontotoc/11-23-2026/?c=96139472-0f8c-4488-aa66-1fd9fa615ac5",
+      "publisher": "MaxPreps varsity game records",
+      "role": "event",
+      "verified_at": "2026-11-21T22:11:28.611162+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/basketball/girls/game/shannon-vs-south-pontotoc/11-23-2026/?c=96139472-0f8c-4488-aa66-1fd9fa615ac5",
+      "published_at": null
+    },
+    {
+      "id": "south-pontotoc-cougars-basketball-23",
+      "title": "South Pontotoc\u2013Alcorn Central boys tournament game",
+      "url": "https://www.maxpreps.com/ms/basketball/game/alcorn-central-glen-vs-south-pontotoc/11-23-2026/?c=90b397ca-b081-4b4f-9b23-f4e124916611",
+      "publisher": "MaxPreps varsity game records",
+      "role": "event",
+      "verified_at": "2026-11-21T22:11:28.611162+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/basketball/game/alcorn-central-glen-vs-south-pontotoc/11-23-2026/?c=90b397ca-b081-4b4f-9b23-f4e124916611",
+      "published_at": null
+    },
+    {
+      "id": "pontotoc-warriors-basketball-23",
+      "title": "Pontotoc\u2013Florence boys game in Booneville",
+      "url": "https://www.maxpreps.com/inter-state/basketball/game/florence-al-vs-pontotoc-ms/11-23-2026/?c=77cd264b-58b2-42de-be99-7fd996a1b7e4",
+      "publisher": "MaxPreps varsity game records",
+      "role": "event",
+      "verified_at": "2026-11-21T22:11:28.611162+00:00",
+      "verification_url": "https://www.maxpreps.com/inter-state/basketball/game/florence-al-vs-pontotoc-ms/11-23-2026/?c=77cd264b-58b2-42de-be99-7fd996a1b7e4",
+      "published_at": null
+    },
+    {
+      "id": "pontotoc-warriors-basketball-girls-24",
+      "title": "Pontotoc\u2013Center Hill girls game in Booneville",
+      "url": "https://www.maxpreps.com/ms/basketball/girls/game/center-hill-olive-branch-vs-pontotoc/11-24-2026/?c=b08a6022-03b0-4ed0-bbe9-a0223de039cc",
+      "publisher": "MaxPreps varsity game records",
+      "role": "event",
+      "verified_at": "2026-11-21T22:11:28.611162+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/basketball/girls/game/center-hill-olive-branch-vs-pontotoc/11-24-2026/?c=b08a6022-03b0-4ed0-bbe9-a0223de039cc",
+      "published_at": null
+    },
+    {
+      "id": "south-pontotoc-cougars-basketball-girls",
+      "title": "South Pontotoc girls results",
+      "url": "https://www.maxpreps.com/ms/pontotoc/south-pontotoc-cougars/basketball/girls/schedule/",
+      "publisher": "MaxPreps varsity game records",
+      "role": "background",
+      "verified_at": "2026-11-21T22:11:28.611162+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/pontotoc/south-pontotoc-cougars/basketball/girls/schedule/",
+      "published_at": null
+    },
+    {
+      "id": "south-pontotoc-cougars-basketball",
+      "title": "South Pontotoc boys results",
+      "url": "https://www.maxpreps.com/ms/pontotoc/south-pontotoc-cougars/basketball/schedule/",
+      "publisher": "MaxPreps varsity game records",
+      "role": "background",
+      "verified_at": "2026-11-21T22:11:28.611162+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/pontotoc/south-pontotoc-cougars/basketball/schedule/",
+      "published_at": null
+    },
+    {
+      "id": "mooreville",
+      "title": "Mooreville girls results",
+      "url": "https://www.maxpreps.com/ms/mooreville/mooreville-troopers/basketball/girls/schedule/",
+      "publisher": "MaxPreps varsity game records",
+      "role": "background",
+      "verified_at": "2026-11-21T22:11:28.611162+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/mooreville/mooreville-troopers/basketball/girls/schedule/",
+      "published_at": null
+    },
+    {
+      "id": "florence",
+      "title": "Florence boys results",
+      "url": "https://www.maxpreps.com/al/florence/florence-falcons/basketball/schedule/",
+      "publisher": "MaxPreps varsity game records",
+      "role": "background",
+      "verified_at": "2026-11-21T22:11:28.611162+00:00",
+      "verification_url": "https://www.maxpreps.com/al/florence/florence-falcons/basketball/schedule/",
+      "published_at": null
+    },
+    {
+      "id": "pontotoc-warriors-basketball",
+      "title": "Pontotoc boys results",
+      "url": "https://www.maxpreps.com/ms/pontotoc/pontotoc-warriors/basketball/schedule/",
+      "publisher": "MaxPreps varsity game records",
+      "role": "background",
+      "verified_at": "2026-11-21T22:11:28.611162+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/pontotoc/pontotoc-warriors/basketball/schedule/",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "South Pontotoc fans can catch both varsity teams against Mooreville in New Albany on Tuesday, Nov. 24. The girls tip off at 4:30 p.m. and the boys follow at 5:45 p.m. Both matchups are on the New Albany Thanksgiving Tournament schedule. All times are Central.",
+      "source_ids": [
+        "south-basketball-girls-24",
+        "south-pontotoc-cougars-basketball-24"
+      ],
+      "evidence": "Both game records identify the tournament in Game Details and list separate Tuesday tipoffs.",
+      "statistics": "Nov. 24; 4:30 and 5:45 p.m.",
+      "date_context": "Schedules checked Saturday, November 21 for games Monday, November 23 and Tuesday, November 24, 2026. All times Central.",
+      "locality": "South Pontotoc and Pontotoc high school varsity teams, with tournament games in New Albany and Booneville, Mississippi.",
+      "identities": "South Pontotoc Cougars, Pontotoc Warriors, Mooreville, Shannon, Alcorn Central, Florence of Alabama and Center Hill."
+    },
+    {
+      "id": "f2",
+      "statement": "The Cougars have different opponents Monday. The girls play Shannon at 11:30 a.m., while the boys face Alcorn Central at 12:45 p.m. in the New Albany tournament. South\u2019s boys carry a four-game winning streak into that matchup after starting the season with two losses. They scored at least 63 points in each of their last three wins.",
+      "source_ids": [
+        "south-basketball-girls-23",
+        "south-pontotoc-cougars-basketball-23",
+        "south-pontotoc-cougars-basketball"
+      ],
+      "evidence": "Separate Monday game records; boys season schedule lists four straight wins, most recently 66, 63 and 66 points.",
+      "statistics": "Nov. 23; 11:30 a.m. and 12:45 p.m.; four wins; 63 points.",
+      "date_context": "Schedules checked Saturday, November 21 for games Monday, November 23 and Tuesday, November 24, 2026. All times Central.",
+      "locality": "South Pontotoc and Pontotoc high school varsity teams, with tournament games in New Albany and Booneville, Mississippi.",
+      "identities": "South Pontotoc Cougars, Pontotoc Warriors, Mooreville, Shannon, Alcorn Central, Florence of Alabama and Center Hill."
+    },
+    {
+      "id": "f3",
+      "statement": "South\u2019s girls are 6\u20130. Lafayette, which scored 42 against them Thursday, is the only opponent to reach 40. Mooreville comes into the holiday week off a 71\u201356 win over Hatley and has a Monday game with Ripley before facing the Cougars. Mooreville and Ripley went to overtime in their first meeting Nov. 17, a 67\u201362 Ripley win.",
+      "source_ids": [
+        "south-pontotoc-cougars-basketball-girls",
+        "mooreville"
+      ],
+      "evidence": "Verified the six South finals and all three Mooreville dates in the two school records.",
+      "statistics": "6\u20130; 42; 71\u201356; Nov. 17; 67\u201362.",
+      "date_context": "Schedules checked Saturday, November 21 for games Monday, November 23 and Tuesday, November 24, 2026. All times Central.",
+      "locality": "South Pontotoc and Pontotoc high school varsity teams, with tournament games in New Albany and Booneville, Mississippi.",
+      "identities": "South Pontotoc Cougars, Pontotoc Warriors, Mooreville, Shannon, Alcorn Central, Florence of Alabama and Center Hill."
+    },
+    {
+      "id": "f4",
+      "statement": "Pontotoc\u2019s boys head to Booneville for a 4:30 p.m. game Monday against Florence of Alabama. Both teams reached the weekend at 3\u20131. The Warriors won 59\u201354 at Tupelo on Thursday, the same night Florence took its first loss, 84\u201370 to Bob Jones. The Falcons scored at least 70 in all four games.",
+      "source_ids": [
+        "pontotoc-warriors-basketball-23",
+        "florence",
+        "pontotoc-warriors-basketball"
+      ],
+      "evidence": "Booneville neutral game details and both teams\u2019 four finals. Florence scored 73, 83, 79 and 70.",
+      "statistics": "4:30 p.m.; 3\u20131; 59\u201354; 84\u201370.",
+      "date_context": "Schedules checked Saturday, November 21 for games Monday, November 23 and Tuesday, November 24, 2026. All times Central.",
+      "locality": "South Pontotoc and Pontotoc high school varsity teams, with tournament games in New Albany and Booneville, Mississippi.",
+      "identities": "South Pontotoc Cougars, Pontotoc Warriors, Mooreville, Shannon, Alcorn Central, Florence of Alabama and Center Hill."
+    },
+    {
+      "id": "f5",
+      "statement": "Pontotoc\u2019s girls are listed in Booneville against Center Hill at 1:30 p.m. Tuesday. The boys\u2019 schedule also carries a Tuesday Booneville tournament slot, but it had neither an opponent nor a tipoff time as of Saturday afternoon.",
+      "source_ids": [
+        "pontotoc-warriors-basketball-girls-24",
+        "pontotoc-warriors-basketball"
+      ],
+      "evidence": "Center Hill game details name Booneville and Tuesday at 1:30. Boys team schedule labels Tuesday TBA.",
+      "statistics": "1:30 p.m.; Nov. 24.",
+      "date_context": "Schedules checked Saturday, November 21 for games Monday, November 23 and Tuesday, November 24, 2026. All times Central.",
+      "locality": "South Pontotoc and Pontotoc high school varsity teams, with tournament games in New Albany and Booneville, Mississippi.",
+      "identities": "South Pontotoc Cougars, Pontotoc Warriors, Mooreville, Shannon, Alcorn Central, Florence of Alabama and Center Hill."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "South Pontotoc fans can catch both varsity teams against Mooreville in New Albany on Tuesday, Nov. 24. The girls tip off at 4:30 p.m. and the boys follow at 5:45 p.m. Both matchups are on the New Albany Thanksgiving Tournament schedule. All times are Central.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The Cougars have different opponents Monday. The girls play Shannon at 11:30 a.m., while the boys face Alcorn Central at 12:45 p.m. in the New Albany tournament. South\u2019s boys carry a four-game winning streak into that matchup after starting the season with two losses. They scored at least 63 points in each of their last three wins.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "South\u2019s girls are 6\u20130. Lafayette, which scored 42 against them Thursday, is the only opponent to reach 40. Mooreville comes into the holiday week off a 71\u201356 win over Hatley and has a Monday game with Ripley before facing the Cougars. Mooreville and Ripley went to overtime in their first meeting Nov. 17, a 67\u201362 Ripley win.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "Pontotoc\u2019s boys head to Booneville for a 4:30 p.m. game Monday against Florence of Alabama. Both teams reached the weekend at 3\u20131. The Warriors won 59\u201354 at Tupelo on Thursday, the same night Florence took its first loss, 84\u201370 to Bob Jones. The Falcons scored at least 70 in all four games.",
+      "fact_ids": [
+        "f4"
+      ]
+    },
+    {
+      "text": "Pontotoc\u2019s girls are listed in Booneville against Center Hill at 1:30 p.m. Tuesday. The boys\u2019 schedule also carries a Tuesday Booneville tournament slot, but it had neither an opponent nor a tipoff time as of Saturday afternoon.",
+      "fact_ids": [
+        "f5"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/south-pontotoc-mooreville-florence-thanksgiving-basketball.png",
+    "sha256": "4709002e5949a378977fa96598fa2341fd35f48d32edc55f0de27efa6f1d5cae",
+    "alt_text": "South Pontotoc meets Mooreville in New Albany on Tuesday, Nov. 24. Girls at 4:30 p.m., boys at 5:45 p.m. Central.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-21T22:11:28.611162+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f4"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 21, 2026 afternoon editorial shift. Publish the identical reviewed package after authenticated preflight and final sign-off."
+  }
+}
