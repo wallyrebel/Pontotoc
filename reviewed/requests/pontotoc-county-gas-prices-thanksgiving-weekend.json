@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-county-gas-prices-thanksgiving-weekend.json",
   "article_sha256": "69a5fbaf4a68a81ba8c74e76c6fb50e2119a892229f4c2ffbc6bdf0d21340692",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-county-gas-prices-thanksgiving-weekend",
   "seo_review": {
     "reviewer": "Pontotoc News morning desk",
