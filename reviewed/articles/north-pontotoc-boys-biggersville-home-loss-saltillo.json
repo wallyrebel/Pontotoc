@@ -1,0 +1,169 @@
+{
+  "title": "Biggersville hands North Pontotoc boys their first home loss, 56\u201354",
+  "excerpt": "The Vikings finished a three-game week 2\u20131. After home wins over Nettleton, Lafayette and Byhalia, they lost by two in Ecru and head to Saltillo on Monday.",
+  "locality": "North Pontotoc High School in Ecru, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:north-pontotoc-boys-basketball:2026-11-20:biggersville"
+  ],
+  "sources": [
+    {
+      "id": "box",
+      "title": "Biggersville at North Pontotoc, boys varsity final",
+      "url": "https://www.maxpreps.com/ms/basketball/game/biggersville-corinth-vs-north-pontotoc-ecru/11-20-2026/?c=3d27894f-aa43-46b6-b5eb-f3346595ee27",
+      "publisher": "MaxPreps",
+      "role": "event",
+      "verified_at": "2026-11-21T15:00:58.376912+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/basketball/game/biggersville-corinth-vs-north-pontotoc-ecru/11-20-2026/?c=3d27894f-aa43-46b6-b5eb-f3346595ee27",
+      "published_at": null
+    },
+    {
+      "id": "boys",
+      "title": "North Pontotoc boys results and schedule",
+      "url": "https://www.maxpreps.com/ms/ecru/north-pontotoc-vikings/basketball/schedule/",
+      "publisher": "MaxPreps",
+      "role": "background",
+      "verified_at": "2026-11-21T15:00:58.376912+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/ecru/north-pontotoc-vikings/basketball/schedule/",
+      "published_at": null
+    },
+    {
+      "id": "next",
+      "title": "North Pontotoc at Saltillo game listing",
+      "url": "https://www.maxpreps.com/ms/basketball/game/north-pontotoc-ecru-vs-saltillo/11-23-2026/?c=4603a14e-e7a3-4ae9-b594-1c0beee828a5",
+      "publisher": "MaxPreps",
+      "role": "background",
+      "verified_at": "2026-11-21T15:00:58.376912+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/basketball/game/north-pontotoc-ecru-vs-saltillo/11-23-2026/?c=4603a14e-e7a3-4ae9-b594-1c0beee828a5",
+      "published_at": null
+    },
+    {
+      "id": "saltsched",
+      "title": "Saltillo boys results and schedule",
+      "url": "https://www.maxpreps.com/ms/saltillo/saltillo-tigers/basketball/schedule/",
+      "publisher": "MaxPreps",
+      "role": "background",
+      "verified_at": "2026-11-21T15:00:58.376912+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/saltillo/saltillo-tigers/basketball/schedule/",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Biggersville beat North Pontotoc 56\u201354 on Friday in Ecru, handing the Vikings their first home loss of the boys basketball season. North Pontotoc finished the week with two road wins and a home loss, moving to 6\u20132 overall.",
+      "source_ids": [
+        "box",
+        "boys"
+      ],
+      "evidence": "Confirmed the final and record on the game sheet. The Vikings\u2019 ledger shows wins in all three earlier home games and two away wins this week.",
+      "statistics": "56\u201354; 6\u20132; 2\u20131 this week.",
+      "date_context": "Friday, Nov. 20 final; prior games in November and scheduled Nov. 23 game in Central time.",
+      "locality": "North Pontotoc High School in Ecru, Mississippi.",
+      "identities": "North Pontotoc Vikings, Biggersville Lions and Saltillo Tigers boys varsity teams."
+    },
+    {
+      "id": "f2",
+      "statement": "The Vikings had won their first three in Ecru by at least eight points. They beat Nettleton 63\u201355 on opening night, Lafayette 51\u201327 and Byhalia 73\u201357. Their only other loss this season came at Houston on Nov. 13.",
+      "source_ids": [
+        "boys"
+      ],
+      "evidence": "Read each home/away marker, opponent and result. The three home winning margins were eight, 24 and 16.",
+      "statistics": "63\u201355; 51\u201327; 73\u201357; Nov. 13.",
+      "date_context": "Friday, Nov. 20 final; prior games in November and scheduled Nov. 23 game in Central time.",
+      "locality": "North Pontotoc High School in Ecru, Mississippi.",
+      "identities": "North Pontotoc Vikings, Biggersville Lions and Saltillo Tigers boys varsity teams."
+    },
+    {
+      "id": "f3",
+      "statement": "Friday was the third straight game North Pontotoc played to a margin of five points or fewer. The Vikings held Alcorn Central to 26 points in a 31\u201326 win Tuesday, then beat Water Valley 53\u201348 on Thursday. They scored one more point against Biggersville the following night.",
+      "source_ids": [
+        "boys",
+        "box"
+      ],
+      "evidence": "Verified Nov. 17, 19 and 20 scores and checked margins of five, five and two.",
+      "statistics": "31\u201326; 53\u201348; 54 points Friday.",
+      "date_context": "Friday, Nov. 20 final; prior games in November and scheduled Nov. 23 game in Central time.",
+      "locality": "North Pontotoc High School in Ecru, Mississippi.",
+      "identities": "North Pontotoc Vikings, Biggersville Lions and Saltillo Tigers boys varsity teams."
+    },
+    {
+      "id": "f4",
+      "statement": "North Pontotoc travels to Saltillo for a noon game Monday, Nov. 23. The Tigers enter at 0\u20133. Two of their losses were within five points, 49\u201346 at Byers and 47\u201342 at home against Itawamba Agricultural.",
+      "source_ids": [
+        "next",
+        "saltsched"
+      ],
+      "evidence": "Opponent listing confirms away site, CST tip and records. Checked Saltillo\u2019s results and home/away labels.",
+      "statistics": "Noon Nov. 23; 0\u20133; 49\u201346 and 47\u201342.",
+      "date_context": "Friday, Nov. 20 final; prior games in November and scheduled Nov. 23 game in Central time.",
+      "locality": "North Pontotoc High School in Ecru, Mississippi.",
+      "identities": "North Pontotoc Vikings, Biggersville Lions and Saltillo Tigers boys varsity teams."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Biggersville beat North Pontotoc 56\u201354 on Friday in Ecru, handing the Vikings their first home loss of the boys basketball season. North Pontotoc finished the week with two road wins and a home loss, moving to 6\u20132 overall.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The Vikings had won their first three in Ecru by at least eight points. They beat Nettleton 63\u201355 on opening night, Lafayette 51\u201327 and Byhalia 73\u201357. Their only other loss this season came at Houston on Nov. 13.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Friday was the third straight game North Pontotoc played to a margin of five points or fewer. The Vikings held Alcorn Central to 26 points in a 31\u201326 win Tuesday, then beat Water Valley 53\u201348 on Thursday. They scored one more point against Biggersville the following night.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "North Pontotoc travels to Saltillo for a noon game Monday, Nov. 23. The Tigers enter at 0\u20133. Two of their losses were within five points, 49\u201346 at Byers and 47\u201342 at home against Itawamba Agricultural.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/north-pontotoc-boys-biggersville-home-loss-saltillo.png",
+    "sha256": "a950207437b06838682e00a40895ffe7cb547a558137031f4fa6fb26c51b5954",
+    "alt_text": "North Pontotoc\u2019s boys beat Alcorn Central 31\u201326 and Water Valley 53\u201348 before losing to Biggersville 56\u201354 in Ecru.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-21T15:00:58.376912+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f4"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "November 21 authorized Pontotoc morning editorial shift; public release of this exact package after authenticated preflight and final review."
+  }
+}
