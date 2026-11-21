@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-county-october-jobs-report-november-release.json",
   "article_sha256": "693b8e524865ad0532d954e9c1a571c148c49b4c9959f169b493e16cb914e817",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-county-october-jobs-report-november-release",
   "seo_review": {
     "reviewer": "Pontotoc News morning desk",
