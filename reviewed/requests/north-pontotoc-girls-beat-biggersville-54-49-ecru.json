@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/north-pontotoc-girls-beat-biggersville-54-49-ecru.json",
   "article_sha256": "e50b6849b556cc30c006edc8dd0375dcb90beb2a6d548966d551f70387969681",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "north-pontotoc-girls-beat-biggersville-54-49-ecru",
   "seo_review": {
     "reviewer": "Pontotoc News evening desk",
