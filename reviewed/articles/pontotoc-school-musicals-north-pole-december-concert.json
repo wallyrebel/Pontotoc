@@ -1,0 +1,153 @@
+{
+  "title": "D.T. Cox third graders bring the North Pole to the gym on Dec. 8",
+  "excerpt": "The evening musical in Pontotoc falls between two morning performances for second graders. The high school\u2019s Christmas concert opens the district\u2019s December music calendar.",
+  "locality": "Pontotoc City School District, including D.T. Cox Elementary School in Pontotoc, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:dt-cox:2026-12-08:third-grade-north-pole-musical",
+    "ms:pontotoc:city-schools:2026-12-08:second-grade-pod-one-musical",
+    "ms:pontotoc:city-schools:2026-12-10:second-grade-pod-two-musical",
+    "ms:pontotoc:high-school:2026-12-03:christmas-concert"
+  ],
+  "sources": [
+    {
+      "id": "north-pole",
+      "title": "North Pole musical at D.T. Cox Elementary",
+      "url": "https://dtc.pontotoc.school/apps/events/2026/12/8/61601518/?id=0",
+      "publisher": "D.T. Cox Elementary School",
+      "role": "event",
+      "verified_at": "2026-11-21T15:08:30.649603+00:00",
+      "verification_url": "https://dtc.pontotoc.school/apps/events/2026/12/8/61601518/?id=0",
+      "published_at": null
+    },
+    {
+      "id": "pod-one",
+      "title": "Second grade musical, Pod 1",
+      "url": "https://www.pontotoc.school/apps/events/2026/12/8/56072195/?id=0",
+      "publisher": "Pontotoc City School District",
+      "role": "event",
+      "verified_at": "2026-11-21T15:08:30.649603+00:00",
+      "verification_url": "https://www.pontotoc.school/apps/events/2026/12/8/56072195/?id=0",
+      "published_at": null
+    },
+    {
+      "id": "pod-two",
+      "title": "Second grade musical, Pod 2",
+      "url": "https://www.pontotoc.school/apps/events/2026/12/10/56072196/?id=0",
+      "publisher": "Pontotoc City School District",
+      "role": "event",
+      "verified_at": "2026-11-21T15:08:30.649603+00:00",
+      "verification_url": "https://www.pontotoc.school/apps/events/2026/12/10/56072196/?id=0",
+      "published_at": null
+    },
+    {
+      "id": "high-concert",
+      "title": "Pontotoc High School Christmas concert",
+      "url": "https://www.pontotoc.school/apps/events/2026/12/3/60745295/?id=0",
+      "publisher": "Pontotoc City School District",
+      "role": "event",
+      "verified_at": "2026-11-21T15:08:30.649603+00:00",
+      "verification_url": "https://www.pontotoc.school/apps/events/2026/12/3/60745295/?id=0",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Third graders at D.T. Cox Elementary School will perform their North Pole musical in the school gym Tuesday, Dec. 8, from 6 to 7 p.m. The school is at 304 Clark Street in Pontotoc.",
+      "source_ids": [
+        "north-pole"
+      ],
+      "evidence": "Campus notice names the students, gym and performance. Matched the date and time in the event to the campus address in the footer.",
+      "statistics": "Dec. 8; 6\u20137 p.m.; 304 Clark Street.",
+      "date_context": "December 2026 school calendar, checked Nov. 21. All listed times are local.",
+      "locality": "Pontotoc City School District, including D.T. Cox Elementary School in Pontotoc, Mississippi.",
+      "identities": "D.T. Cox third-grade music students, the district\u2019s second-grade groups and Pontotoc High School."
+    },
+    {
+      "id": "f2",
+      "statement": "The same Tuesday also brings the first of two second-grade performances on the city schools calendar. The group listed as Pod 1 performs from 9 to 10 a.m. Pod 2 has the same morning time two days later, on Thursday, Dec. 10. The gym location is confirmed for the third-grade evening show. The district\u2019s two morning listings give times only.",
+      "source_ids": [
+        "pod-one",
+        "pod-two",
+        "north-pole"
+      ],
+      "evidence": "Read each separate second-grade event. Both are at 9\u201310 a.m.; neither gives a room. The separate D.T. Cox notice explicitly names its gym.",
+      "statistics": "Dec. 8 and 10; 9\u201310 a.m. for each pod.",
+      "date_context": "December 2026 school calendar, checked Nov. 21. All listed times are local.",
+      "locality": "Pontotoc City School District, including D.T. Cox Elementary School in Pontotoc, Mississippi.",
+      "identities": "D.T. Cox third-grade music students, the district\u2019s second-grade groups and Pontotoc High School."
+    },
+    {
+      "id": "f3",
+      "statement": "Pontotoc High School\u2019s Christmas concert is the week before, on Thursday, Dec. 3. The district has posted the date and has yet to list a start time or venue. Families with questions about the Dec. 8 evening performance can reach D.T. Cox at 662-489-2454.",
+      "source_ids": [
+        "high-concert",
+        "north-pole"
+      ],
+      "evidence": "The high school concert has a date-only entry. The D.T. Cox campus event page gives the school\u2019s contact number.",
+      "statistics": "Dec. 3; 662-489-2454.",
+      "date_context": "December 2026 school calendar, checked Nov. 21. All listed times are local.",
+      "locality": "Pontotoc City School District, including D.T. Cox Elementary School in Pontotoc, Mississippi.",
+      "identities": "D.T. Cox third-grade music students, the district\u2019s second-grade groups and Pontotoc High School."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Third graders at D.T. Cox Elementary School will perform their North Pole musical in the school gym Tuesday, Dec. 8, from 6 to 7 p.m. The school is at 304 Clark Street in Pontotoc.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The same Tuesday also brings the first of two second-grade performances on the city schools calendar. The group listed as Pod 1 performs from 9 to 10 a.m. Pod 2 has the same morning time two days later, on Thursday, Dec. 10. The gym location is confirmed for the third-grade evening show. The district\u2019s two morning listings give times only.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Pontotoc High School\u2019s Christmas concert is the week before, on Thursday, Dec. 3. The district has posted the date and has yet to list a start time or venue. Families with questions about the Dec. 8 evening performance can reach D.T. Cox at 662-489-2454.",
+      "fact_ids": [
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-school-musicals-north-pole-december-concert.png",
+    "sha256": "daf551bcc812b1e35a43d9b5f13982ab496b63608c5d7148e6f54172e3f82679",
+    "alt_text": "December school musicals: second grade at 9 a.m. Dec. 8 and 10; D.T. Cox third graders perform in the gym at 6 p.m. Dec. 8.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-21T15:08:30.649603+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "November 21 authorized Pontotoc morning editorial shift; public release of this exact package after authenticated preflight and final review."
+  }
+}
