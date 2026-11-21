@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-school-musicals-north-pole-december-concert.json",
-  "article_sha256": "09f71e488cfcdfce386ceba4e21e66f22dc2487c19e9713be24c41abb8bed74b",
+  "article_sha256": "def83c3020ba25144376ce0a30d7a501bc4fdb565541bf9eef807958fa5b3714",
   "mode": "dry-run",
   "public_slug": "pontotoc-school-musicals-north-pole-december-concert",
   "seo_review": {
     "reviewer": "Pontotoc News morning desk",
-    "reviewed_at": "2026-11-21T15:08:30.649603+00:00",
+    "reviewed_at": "2026-11-21T15:22:39.100449+00:00",
     "checks": {
       "meaningful_headline": true,
       "accurate_concise_description": true,

@@ -11,13 +11,23 @@
   ],
   "sources": [
     {
-      "id": "north-pole",
-      "title": "North Pole musical at D.T. Cox Elementary",
-      "url": "https://dtc.pontotoc.school/apps/events/2026/12/8/61601518/?id=0",
-      "publisher": "D.T. Cox Elementary School",
+      "id": "district-musical",
+      "title": "D.T. Cox\u2019s North Pole musical on the district calendar",
+      "url": "https://www.pontotoc.school/apps/events/2026/12/8/61601518/?id=2",
+      "publisher": "Pontotoc City School District",
       "role": "event",
-      "verified_at": "2026-11-21T15:08:30.649603+00:00",
-      "verification_url": "https://dtc.pontotoc.school/apps/events/2026/12/8/61601518/?id=0",
+      "verified_at": "2026-11-21T15:22:39.100449+00:00",
+      "verification_url": "https://www.pontotoc.school/apps/events/2026/12/8/61601518/?id=2",
+      "published_at": null
+    },
+    {
+      "id": "district-directory",
+      "title": "School addresses, grades and phone numbers",
+      "url": "https://www.pontotoc.school/apps/pages/index.jsp?uREC_ID=2107687&type=d&pREC_ID=2151092",
+      "publisher": "Pontotoc City School District",
+      "role": "background",
+      "verified_at": "2026-11-21T15:22:39.100449+00:00",
+      "verification_url": "https://www.pontotoc.school/apps/pages/index.jsp?uREC_ID=2107687&type=d&pREC_ID=2151092",
       "published_at": null
     },
     {
@@ -26,7 +36,7 @@
       "url": "https://www.pontotoc.school/apps/events/2026/12/8/56072195/?id=0",
       "publisher": "Pontotoc City School District",
       "role": "event",
-      "verified_at": "2026-11-21T15:08:30.649603+00:00",
+      "verified_at": "2026-11-21T15:22:39.100449+00:00",
       "verification_url": "https://www.pontotoc.school/apps/events/2026/12/8/56072195/?id=0",
       "published_at": null
     },
@@ -36,7 +46,7 @@
       "url": "https://www.pontotoc.school/apps/events/2026/12/10/56072196/?id=0",
       "publisher": "Pontotoc City School District",
       "role": "event",
-      "verified_at": "2026-11-21T15:08:30.649603+00:00",
+      "verified_at": "2026-11-21T15:22:39.100449+00:00",
       "verification_url": "https://www.pontotoc.school/apps/events/2026/12/10/56072196/?id=0",
       "published_at": null
     },
@@ -46,7 +56,7 @@
       "url": "https://www.pontotoc.school/apps/events/2026/12/3/60745295/?id=0",
       "publisher": "Pontotoc City School District",
       "role": "event",
-      "verified_at": "2026-11-21T15:08:30.649603+00:00",
+      "verified_at": "2026-11-21T15:22:39.100449+00:00",
       "verification_url": "https://www.pontotoc.school/apps/events/2026/12/3/60745295/?id=0",
       "published_at": null
     }
@@ -56,9 +66,10 @@
       "id": "f1",
       "statement": "Third graders at D.T. Cox Elementary School will perform their North Pole musical in the school gym Tuesday, Dec. 8, from 6 to 7 p.m. The school is at 304 Clark Street in Pontotoc.",
       "source_ids": [
-        "north-pole"
+        "district-musical",
+        "district-directory"
       ],
-      "evidence": "Campus notice names the students, gym and performance. Matched the date and time in the event to the campus address in the footer.",
+      "evidence": "The campus and district publish the same event ID, title, gym, date and time. The district directory confirms the school address.",
       "statistics": "Dec. 8; 6\u20137 p.m.; 304 Clark Street.",
       "date_context": "December 2026 school calendar, checked Nov. 21. All listed times are local.",
       "locality": "Pontotoc City School District, including D.T. Cox Elementary School in Pontotoc, Mississippi.",
@@ -66,14 +77,14 @@
     },
     {
       "id": "f2",
-      "statement": "The same Tuesday also brings the first of two second-grade performances on the city schools calendar. The group listed as Pod 1 performs from 9 to 10 a.m. Pod 2 has the same morning time two days later, on Thursday, Dec. 10. The gym location is confirmed for the third-grade evening show. The district\u2019s two morning listings give times only.",
+      "statement": "The same Tuesday also brings the first of two second-grade performances on the city schools calendar. The group listed as Pod 1 performs from 9 to 10 a.m. Pod 2 has the same morning time two days later, on Thursday, Dec. 10. Families can check which group their child is in and where to go by calling Pontotoc Elementary, the district\u2019s K\u20132 school, at 662-489-4973.",
       "source_ids": [
         "pod-one",
         "pod-two",
-        "north-pole"
+        "district-directory"
       ],
-      "evidence": "Read each separate second-grade event. Both are at 9\u201310 a.m.; neither gives a room. The separate D.T. Cox notice explicitly names its gym.",
-      "statistics": "Dec. 8 and 10; 9\u201310 a.m. for each pod.",
+      "evidence": "The two event pages give 9\u201310 a.m., without locations. The district directory identifies Pontotoc Elementary as the K\u20132 school and lists its phone number.",
+      "statistics": "Dec. 8 and 10; 9\u201310 a.m.; 662-489-4973.",
       "date_context": "December 2026 school calendar, checked Nov. 21. All listed times are local.",
       "locality": "Pontotoc City School District, including D.T. Cox Elementary School in Pontotoc, Mississippi.",
       "identities": "D.T. Cox third-grade music students, the district\u2019s second-grade groups and Pontotoc High School."
@@ -83,9 +94,9 @@
       "statement": "Pontotoc High School\u2019s Christmas concert is the week before, on Thursday, Dec. 3. The district has posted the date and has yet to list a start time or venue. Families with questions about the Dec. 8 evening performance can reach D.T. Cox at 662-489-2454.",
       "source_ids": [
         "high-concert",
-        "north-pole"
+        "district-directory"
       ],
-      "evidence": "The high school concert has a date-only entry. The D.T. Cox campus event page gives the school\u2019s contact number.",
+      "evidence": "The high school concert has a date-only entry. The district directory confirms the D.T. Cox phone number.",
       "statistics": "Dec. 3; 662-489-2454.",
       "date_context": "December 2026 school calendar, checked Nov. 21. All listed times are local.",
       "locality": "Pontotoc City School District, including D.T. Cox Elementary School in Pontotoc, Mississippi.",
@@ -100,7 +111,7 @@
       ]
     },
     {
-      "text": "The same Tuesday also brings the first of two second-grade performances on the city schools calendar. The group listed as Pod 1 performs from 9 to 10 a.m. Pod 2 has the same morning time two days later, on Thursday, Dec. 10. The gym location is confirmed for the third-grade evening show. The district\u2019s two morning listings give times only.",
+      "text": "The same Tuesday also brings the first of two second-grade performances on the city schools calendar. The group listed as Pod 1 performs from 9 to 10 a.m. Pod 2 has the same morning time two days later, on Thursday, Dec. 10. Families can check which group their child is in and where to go by calling Pontotoc Elementary, the district\u2019s K\u20132 school, at 662-489-4973.",
       "fact_ids": [
         "f2"
       ]
@@ -122,7 +133,7 @@
   },
   "review": {
     "reviewer": "Pontotoc News morning desk",
-    "reviewed_at": "2026-11-21T15:08:30.649603+00:00",
+    "reviewed_at": "2026-11-21T15:22:39.100449+00:00",
     "decision": "publish",
     "checks": {
       "dates": true,
