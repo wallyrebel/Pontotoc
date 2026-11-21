@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-driver-license-renewal-thanksgiving-tupelo-new-albany.json",
   "article_sha256": "ef89ae0f96846db545909b660df0defa7c6e431812670e36bda17371a34ced97",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-driver-license-renewal-thanksgiving-tupelo-new-albany",
   "seo_review": {
     "reviewer": "Pontotoc News afternoon desk",
