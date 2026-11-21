@@ -1,0 +1,157 @@
+{
+  "title": "Pontotoc forecast turns sunny for Sunday\u2019s Christmas open house, with rain possible that evening",
+  "excerpt": "The Chamber\u2019s open house runs noon to 5 p.m. Sunday. The latest county forecast calls for highs in the mid-70s, then a 50% chance of evening showers.",
+  "locality": "Pontotoc County and the city of Pontotoc, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:nws-meg:2026-11-21:1505-sunday-open-house-forecast"
+  ],
+  "sources": [
+    {
+      "id": "ZFP",
+      "title": "Saturday afternoon forecast for Pontotoc County",
+      "url": "https://api.weather.gov/products/6162adb8-16a5-4d90-adb0-2b9ac8082f77",
+      "publisher": "National Weather Service Memphis",
+      "role": "event",
+      "verified_at": "2026-11-21T22:05:26.037292+00:00",
+      "verification_url": "https://api.weather.gov/products/6162adb8-16a5-4d90-adb0-2b9ac8082f77",
+      "published_at": null
+    },
+    {
+      "id": "chamber",
+      "title": "Pontotoc\u2019s Christmas open house hours",
+      "url": "https://pontotocchamber.com/event-page-in-progress/",
+      "publisher": "Pontotoc County Chamber Main Street",
+      "role": "background",
+      "verified_at": "2026-11-21T22:05:26.037292+00:00",
+      "verification_url": "https://pontotocchamber.com/event-page-in-progress/",
+      "published_at": null
+    },
+    {
+      "id": "previous",
+      "title": "Friday\u2019s county forecast",
+      "url": "https://api.weather.gov/products/c06c6af6-2efe-414a-861a-54088afbac4c",
+      "publisher": "National Weather Service Memphis",
+      "role": "background",
+      "verified_at": "2026-11-21T22:05:26.037292+00:00",
+      "verification_url": "https://api.weather.gov/products/c06c6af6-2efe-414a-861a-54088afbac4c",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Shoppers heading to Pontotoc\u2019s Christmas open house Sunday can expect sunshine and temperatures in the mid-70s. The Chamber lists the Nov. 22 event from noon to 5 p.m. The National Weather Service\u2019s Saturday afternoon forecast now puts the county\u2019s chance of showers in the evening.",
+      "source_ids": [
+        "ZFP",
+        "chamber"
+      ],
+      "evidence": "The Pontotoc section issued at 3:05 p.m. gives sunshine and mid-70s Sunday, then an evening rain chance. The Chamber schedule gives noon to 5 p.m.",
+      "statistics": "Nov. 22; noon\u20135 p.m.; mid-70s.",
+      "date_context": "Forecast issued Saturday, Nov. 21, at 3:05 p.m. CST for Nov. 22\u201326, 2026. The Chamber event is Sunday, Nov. 22.",
+      "locality": "Pontotoc County and the city of Pontotoc, Mississippi.",
+      "identities": "National Weather Service Memphis and Pontotoc County Chamber Main Street."
+    },
+    {
+      "id": "f2",
+      "statement": "Friday\u2019s county forecast had included a 30% chance of showers Sunday afternoon. In the update issued at 3:05 p.m. Saturday, forecasters give Pontotoc County a 50% chance of rain Sunday night, with an evening shower possible before winds turn northerly. Gusts could reach 20 mph after midnight, with temperatures falling to the mid-40s.",
+      "source_ids": [
+        "previous",
+        "ZFP"
+      ],
+      "evidence": "Compared the two dated county bulletins. Saturday: Sunday night 50%, mid-40s, northwest wind turning north with gusts to 20 mph after midnight.",
+      "statistics": "30%; 50%; 20 mph; mid-40s.",
+      "date_context": "Forecast issued Saturday, Nov. 21, at 3:05 p.m. CST for Nov. 22\u201326, 2026. The Chamber event is Sunday, Nov. 22.",
+      "locality": "Pontotoc County and the city of Pontotoc, Mississippi.",
+      "identities": "National Weather Service Memphis and Pontotoc County Chamber Main Street."
+    },
+    {
+      "id": "f3",
+      "statement": "By Monday afternoon, the county is expected to be about 15 degrees cooler than on Sunday. The forecast calls for a high around 60, with morning clouds giving way to mostly sunny skies and a north wind of 10 to 15 mph. Monday night\u2019s low is expected in the mid-30s.",
+      "source_ids": [
+        "ZFP"
+      ],
+      "evidence": "Compared Sunday mid-70s with Monday around 60; verified wind, clearing and Monday night low in the Pontotoc zone.",
+      "statistics": "About 15 degrees; around 60; 10\u201315 mph; mid-30s.",
+      "date_context": "Forecast issued Saturday, Nov. 21, at 3:05 p.m. CST for Nov. 22\u201326, 2026. The Chamber event is Sunday, Nov. 22.",
+      "locality": "Pontotoc County and the city of Pontotoc, Mississippi.",
+      "identities": "National Weather Service Memphis and Pontotoc County Chamber Main Street."
+    },
+    {
+      "id": "f4",
+      "statement": "The outlook for Thanksgiving morning has also edged warmer. Friday\u2019s bulletin called for upper 20s overnight Wednesday. Saturday\u2019s update puts that low in the lower 30s and keeps Thanksgiving Day mostly sunny, with a high in the mid-50s.",
+      "source_ids": [
+        "previous",
+        "ZFP"
+      ],
+      "evidence": "Friday and Saturday zone forecasts for Wednesday night and Thanksgiving Day.",
+      "statistics": "Upper 20s to lower 30s; mid-50s.",
+      "date_context": "Forecast issued Saturday, Nov. 21, at 3:05 p.m. CST for Nov. 22\u201326, 2026. The Chamber event is Sunday, Nov. 22.",
+      "locality": "Pontotoc County and the city of Pontotoc, Mississippi.",
+      "identities": "National Weather Service Memphis and Pontotoc County Chamber Main Street."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Shoppers heading to Pontotoc\u2019s Christmas open house Sunday can expect sunshine and temperatures in the mid-70s. The Chamber lists the Nov. 22 event from noon to 5 p.m. The National Weather Service\u2019s Saturday afternoon forecast now puts the county\u2019s chance of showers in the evening.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "Friday\u2019s county forecast had included a 30% chance of showers Sunday afternoon. In the update issued at 3:05 p.m. Saturday, forecasters give Pontotoc County a 50% chance of rain Sunday night, with an evening shower possible before winds turn northerly. Gusts could reach 20 mph after midnight, with temperatures falling to the mid-40s.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "By Monday afternoon, the county is expected to be about 15 degrees cooler than on Sunday. The forecast calls for a high around 60, with morning clouds giving way to mostly sunny skies and a north wind of 10 to 15 mph. Monday night\u2019s low is expected in the mid-30s.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "The outlook for Thanksgiving morning has also edged warmer. Friday\u2019s bulletin called for upper 20s overnight Wednesday. Saturday\u2019s update puts that low in the lower 30s and keeps Thanksgiving Day mostly sunny, with a high in the mid-50s.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-sunday-open-house-rain-evening-november-22.png",
+    "sha256": "3130acc5ea1ad814d8b236d18b3e7c3edf7eef70136ef677aa88a2683a4bfae3",
+    "alt_text": "Pontotoc\u2019s open house is noon to 5 p.m. Sunday. Sunny skies and mid-70s are forecast during the day, with a 50% chance of showers Sunday night.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-21T22:05:26.037292+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 21, 2026 afternoon editorial shift. Publish the identical reviewed package after authenticated preflight and final sign-off."
+  }
+}
