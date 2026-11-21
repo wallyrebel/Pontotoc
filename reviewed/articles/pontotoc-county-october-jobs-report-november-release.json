@@ -1,0 +1,178 @@
+{
+  "title": "Mississippi unemployment edges up to 3.4%. Pontotoc County figures are due Tuesday",
+  "excerpt": "The October estimate is statewide. In September, the latest county report, 404 Pontotoc County residents were unemployed out of a labor force of 11,869.",
+  "locality": "Mississippi statewide and Pontotoc County, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:workforce:2026-11-20:october-state-report-county-release-date"
+  ],
+  "sources": [
+    {
+      "id": "bldata",
+      "title": "Mississippi monthly employment and unemployment table",
+      "url": "https://data.bls.gov/timeseries/LASST280000000000003",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "role": "event",
+      "verified_at": "2026-11-21T15:09:37.256494+00:00",
+      "verification_url": "https://data.bls.gov/timeseries/LASST280000000000003",
+      "published_at": null
+    },
+    {
+      "id": "fedstate",
+      "title": "Mississippi seasonally adjusted unemployment series, updated Nov. 20",
+      "url": "https://fred.stlouisfed.org/series/MSUR",
+      "publisher": "Federal Reserve Bank of St. Louis",
+      "role": "background",
+      "verified_at": "2026-11-21T15:09:37.256494+00:00",
+      "verification_url": "https://fred.stlouisfed.org/series/MSUR",
+      "published_at": null
+    },
+    {
+      "id": "calendar",
+      "title": "Mississippi\u2019s 2026 labor data release calendar (PDF)",
+      "url": "https://www.mdes.ms.gov/media/455631/monthlyreleasedates.pdf",
+      "publisher": "Mississippi Department of Employment Security",
+      "role": "background",
+      "verified_at": "2026-11-21T15:09:37.256494+00:00",
+      "verification_url": "https://www.mdes.ms.gov/media/455631/monthlyreleasedates.pdf",
+      "published_at": null
+    },
+    {
+      "id": "county",
+      "title": "Mississippi Labor Market Data, September county estimates (PDF)",
+      "url": "https://mdes.ms.gov/media/23357/labormarketdata.pdf",
+      "publisher": "Mississippi Department of Employment Security",
+      "role": "background",
+      "verified_at": "2026-11-21T15:09:37.256494+00:00",
+      "verification_url": "https://mdes.ms.gov/media/23357/labormarketdata.pdf",
+      "published_at": null
+    },
+    {
+      "id": "fedcounty",
+      "title": "Pontotoc County monthly unemployment series",
+      "url": "https://fred.stlouisfed.org/series/MSPOURN",
+      "publisher": "Federal Reserve Bank of St. Louis",
+      "role": "background",
+      "verified_at": "2026-11-21T15:09:37.256494+00:00",
+      "verification_url": "https://fred.stlouisfed.org/series/MSPOURN",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Mississippi\u2019s unemployment rate rose from 3.3% in September to a preliminary 3.4% in October, according to federal figures released Friday. Pontotoc County\u2019s October numbers are on a different schedule. The Mississippi Department of Employment Security expects to release its state and local report Tuesday, Nov. 24, at about 1 p.m.",
+      "source_ids": [
+        "bldata",
+        "fedstate",
+        "calendar"
+      ],
+      "evidence": "The federal table shows seasonally adjusted rates and marks October preliminary. The state calendar labels the Nov. 24 release tentative and gives approximate website availability.",
+      "statistics": "3.3% to 3.4%; Nov. 20 and 24; about 1 p.m.",
+      "date_context": "State October 2026 estimate released Nov. 20, county October release scheduled Nov. 24; the available county figures describe September.",
+      "locality": "Mississippi statewide and Pontotoc County, Mississippi.",
+      "identities": "U.S. Bureau of Labor Statistics, Mississippi Department of Employment Security and Federal Reserve Bank of St. Louis."
+    },
+    {
+      "id": "f2",
+      "statement": "The latest state report for Pontotoc County counted 11,869 residents in the September labor force. Of those, 11,465 were employed and 404 were unemployed. That put the county\u2019s rate at 3.4%, up from 3.2% in August, when 380 residents were unemployed.",
+      "source_ids": [
+        "county",
+        "fedcounty"
+      ],
+      "evidence": "Read the county rows in the September preliminary and revised August tables, including labor force, employed, unemployed and rate. The county series independently confirms September.",
+      "statistics": "11,869; 11,465; 404; 3.4%; 3.2%; 380.",
+      "date_context": "State October 2026 estimate released Nov. 20, county October release scheduled Nov. 24; the available county figures describe September.",
+      "locality": "Mississippi statewide and Pontotoc County, Mississippi.",
+      "identities": "U.S. Bureau of Labor Statistics, Mississippi Department of Employment Security and Federal Reserve Bank of St. Louis."
+    },
+    {
+      "id": "f3",
+      "statement": "Compared with September a year earlier, Pontotoc County had 50 fewer unemployed residents and a smaller labor force. The September 2025 figures were 454 unemployed out of 12,359 people in the labor force, for a rate of 3.7%. The state tabulates workers by where they live.",
+      "source_ids": [
+        "county"
+      ],
+      "evidence": "The revised September 2025 Pontotoc row lists 454 unemployed and 12,359 in the labor force. The table is by place of residence. 454 minus 404 equals 50.",
+      "statistics": "50 fewer; 454; 12,359; 3.7%.",
+      "date_context": "State October 2026 estimate released Nov. 20, county October release scheduled Nov. 24; the available county figures describe September.",
+      "locality": "Mississippi statewide and Pontotoc County, Mississippi.",
+      "identities": "U.S. Bureau of Labor Statistics, Mississippi Department of Employment Security and Federal Reserve Bank of St. Louis."
+    },
+    {
+      "id": "f4",
+      "statement": "The county\u2019s September rate and the state\u2019s October rate happen to round to the same number. They measure different months, and the federal statewide figure accounts for seasonal patterns. The county series is published without that adjustment.",
+      "source_ids": [
+        "fedstate",
+        "fedcounty"
+      ],
+      "evidence": "Checked period and seasonal-adjustment labels on both BLS series at FRED.",
+      "statistics": "Both 3.4%, in different months.",
+      "date_context": "State October 2026 estimate released Nov. 20, county October release scheduled Nov. 24; the available county figures describe September.",
+      "locality": "Mississippi statewide and Pontotoc County, Mississippi.",
+      "identities": "U.S. Bureau of Labor Statistics, Mississippi Department of Employment Security and Federal Reserve Bank of St. Louis."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Mississippi\u2019s unemployment rate rose from 3.3% in September to a preliminary 3.4% in October, according to federal figures released Friday. Pontotoc County\u2019s October numbers are on a different schedule. The Mississippi Department of Employment Security expects to release its state and local report Tuesday, Nov. 24, at about 1 p.m.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The latest state report for Pontotoc County counted 11,869 residents in the September labor force. Of those, 11,465 were employed and 404 were unemployed. That put the county\u2019s rate at 3.4%, up from 3.2% in August, when 380 residents were unemployed.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Compared with September a year earlier, Pontotoc County had 50 fewer unemployed residents and a smaller labor force. The September 2025 figures were 454 unemployed out of 12,359 people in the labor force, for a rate of 3.7%. The state tabulates workers by where they live.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "The county\u2019s September rate and the state\u2019s October rate happen to round to the same number. They measure different months, and the federal statewide figure accounts for seasonal patterns. The county series is published without that adjustment.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-county-october-jobs-report-november-release.png",
+    "sha256": "c68b362f88ba6e192783c0e7b3552267c8e3f529c83f1b535394218f5d83aa3d",
+    "alt_text": "Pontotoc County\u2019s September labor force numbered 11,869. The state counted 11,465 residents employed and 404 unemployed.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-21T15:09:37.256494+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "November 21 authorized Pontotoc morning editorial shift; public release of this exact package after authenticated preflight and final review."
+  }
+}
