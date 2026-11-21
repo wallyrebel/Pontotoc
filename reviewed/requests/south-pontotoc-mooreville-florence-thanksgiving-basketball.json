@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/south-pontotoc-mooreville-florence-thanksgiving-basketball.json",
   "article_sha256": "79592e16fca0ea50677482d21164c43eb859002a7728e6c1fdfa57a602186cc7",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "south-pontotoc-mooreville-florence-thanksgiving-basketball",
   "seo_review": {
     "reviewer": "Pontotoc News afternoon desk",
