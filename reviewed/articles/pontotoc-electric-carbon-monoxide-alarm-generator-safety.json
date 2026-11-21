@@ -1,0 +1,156 @@
+{
+  "title": "Pontotoc Electric asks members to test carbon monoxide alarms and check expiration dates",
+  "excerpt": "Pontotoc Electric issued its reminder Friday. A generator used during an outage should run outdoors, at least 20 feet from doors, windows and garages.",
+  "locality": "Pontotoc Electric Power Association service area in Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:pepa:2026-11-20:carbon-monoxide-alarm-generator-reminder"
+  ],
+  "sources": [
+    {
+      "id": "pepa",
+      "title": "Pontotoc Electric\u2019s Nov. 20 safety reminder",
+      "url": "https://www.facebook.com/reel/1642333994241526/",
+      "publisher": "Pontotoc Electric Power Association",
+      "role": "event",
+      "verified_at": "2026-11-21T19:57:40.035785+00:00",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7nECOb1qN.rss",
+      "published_at": "2026-11-20T20:04:04+00:00"
+    },
+    {
+      "id": "fire",
+      "title": "Where to put carbon monoxide alarms",
+      "url": "https://www.usfa.fema.gov/prevention/life-safety-hazards/carbon-monoxide/index.html",
+      "publisher": "U.S. Fire Administration",
+      "role": "background",
+      "verified_at": "2026-11-21T19:57:40.035785+00:00",
+      "verification_url": "https://www.usfa.fema.gov/prevention/life-safety-hazards/carbon-monoxide/index.html",
+      "published_at": null
+    },
+    {
+      "id": "weather",
+      "title": "National Weather Service guidance for power outages",
+      "url": "https://www.weather.gov/safety/cold-during",
+      "publisher": "National Weather Service",
+      "role": "background",
+      "verified_at": "2026-11-21T19:57:40.035785+00:00",
+      "verification_url": "https://www.weather.gov/safety/cold-during",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc Electric Power Association is asking members to check two things on their carbon monoxide alarms as colder weather brings people indoors. Test the alarm each month and check the device\u2019s expiration date, the cooperative said in a Friday, Nov. 20, safety notice.",
+      "source_ids": [
+        "pepa"
+      ],
+      "evidence": "Cooperative\u2019s Nov. 20 post requests monthly testing and an expiration-date check.",
+      "statistics": "Nov. 20; monthly.",
+      "date_context": "PEPA issued its reminder Friday, November 20, 2026. National guidance supplies year-round safety context.",
+      "locality": "Pontotoc Electric Power Association service area in Mississippi.",
+      "identities": "Pontotoc Electric Power Association, National Weather Service and U.S. Fire Administration."
+    },
+    {
+      "id": "f2",
+      "statement": "Where an alarm sits matters. The U.S. Fire Administration recommends one on every floor of the home and outside each separate sleeping area. A furnace or heater that fails to vent properly can expose people to carbon monoxide, a poisonous gas they cannot see or smell.",
+      "source_ids": [
+        "fire"
+      ],
+      "evidence": "Fire Administration specifies location on each level, central placement outside each separate sleeping area, and danger from improperly vented equipment.",
+      "statistics": "Every floor and each separate sleeping area.",
+      "date_context": "PEPA issued its reminder Friday, November 20, 2026. National guidance supplies year-round safety context.",
+      "locality": "Pontotoc Electric Power Association service area in Mississippi.",
+      "identities": "Pontotoc Electric Power Association, National Weather Service and U.S. Fire Administration."
+    },
+    {
+      "id": "f3",
+      "statement": "For members who use a portable generator during an outage, the cooperative says to take it outdoors and keep it out of enclosed spaces. The National Weather Service gives a distance to allow when choosing a spot outside. Keep the generator at least 20 feet from any door, window or garage. The Fire Administration also advises keeping it away from vents.",
+      "source_ids": [
+        "pepa",
+        "fire",
+        "weather"
+      ],
+      "evidence": "Confirmed the local source graphic and post, the weather service\u2019s 20-foot recommendation and the Fire Administration\u2019s warning about vents.",
+      "statistics": "At least 20 feet.",
+      "date_context": "PEPA issued its reminder Friday, November 20, 2026. National guidance supplies year-round safety context.",
+      "locality": "Pontotoc Electric Power Association service area in Mississippi.",
+      "identities": "Pontotoc Electric Power Association, National Weather Service and U.S. Fire Administration."
+    },
+    {
+      "id": "f4",
+      "statement": "Households can also check the places where exhaust leaves the building. The Fire Administration lists vents for the furnace, fireplace, stove and clothes dryer among the openings to keep clear of snow and other debris.",
+      "source_ids": [
+        "fire"
+      ],
+      "evidence": "Fire Administration lists these four sets of vents and advises clearing obstructions.",
+      "statistics": "None asserted.",
+      "date_context": "PEPA issued its reminder Friday, November 20, 2026. National guidance supplies year-round safety context.",
+      "locality": "Pontotoc Electric Power Association service area in Mississippi.",
+      "identities": "Pontotoc Electric Power Association, National Weather Service and U.S. Fire Administration."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc Electric Power Association is asking members to check two things on their carbon monoxide alarms as colder weather brings people indoors. Test the alarm each month and check the device\u2019s expiration date, the cooperative said in a Friday, Nov. 20, safety notice.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "Where an alarm sits matters. The U.S. Fire Administration recommends one on every floor of the home and outside each separate sleeping area. A furnace or heater that fails to vent properly can expose people to carbon monoxide, a poisonous gas they cannot see or smell.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "For members who use a portable generator during an outage, the cooperative says to take it outdoors and keep it out of enclosed spaces. The National Weather Service gives a distance to allow when choosing a spot outside. Keep the generator at least 20 feet from any door, window or garage. The Fire Administration also advises keeping it away from vents.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "Households can also check the places where exhaust leaves the building. The Fire Administration lists vents for the furnace, fireplace, stove and clothes dryer among the openings to keep clear of snow and other debris.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-electric-carbon-monoxide-alarm-generator-safety.png",
+    "sha256": "008a2850e794884a3cdc5aba0106c0e4dfc429d7fae1afcb0616ed48bdad5107",
+    "alt_text": "Pontotoc Electric asks members to test carbon monoxide alarms monthly, check expiration dates and run portable generators only outdoors.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-21T19:57:40.035785+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 21 supplemental editorial shift. Publish the reviewed article after a successful authenticated dry run and final review."
+  }
+}

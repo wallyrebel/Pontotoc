@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-electric-carbon-monoxide-alarm-generator-safety.json",
+  "article_sha256": "35a1fcf031a6753d9e5d385b880452013b02de90496377c13273ce2b3f8a4ab2",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-electric-carbon-monoxide-alarm-generator-safety",
+  "seo_review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-21T19:57:40.035785+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}
