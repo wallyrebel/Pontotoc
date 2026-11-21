@@ -1,0 +1,145 @@
+{
+  "title": "Pontotoc County gas averages $3.50 a gallon heading into Thanksgiving week",
+  "excerpt": "AAA\u2019s Saturday figures put Pontotoc about 10 cents above the state average. Regular gas in neighboring Union County averaged $3.35.",
+  "locality": "Pontotoc County and neighboring counties in northeast Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:aaa:2026-11-21:thanksgiving-week-fuel-prices"
+  ],
+  "sources": [
+    {
+      "id": "gas",
+      "title": "AAA Mississippi daily prices and county map",
+      "url": "https://gasprices.aaa.com/?state=MS",
+      "publisher": "AAA",
+      "role": "event",
+      "verified_at": "2026-11-21T15:00:58.376912+00:00",
+      "verification_url": "https://gasprices.aaa.com/?state=MS",
+      "published_at": null
+    },
+    {
+      "id": "gasrelease",
+      "title": "AAA\u2019s Nov. 19 fuel report ahead of Thanksgiving",
+      "url": "https://gasprices.aaa.com/gas-prices-keep-dropping-as-thanksgiving-approaches/",
+      "publisher": "AAA",
+      "role": "background",
+      "verified_at": "2026-11-21T15:00:58.376912+00:00",
+      "verification_url": "https://gasprices.aaa.com/gas-prices-keep-dropping-as-thanksgiving-approaches/",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Regular gasoline averaged $3.50 a gallon in Pontotoc County on Saturday, about 10 cents above Mississippi\u2019s $3.40 average as Thanksgiving week approached. For a 15-gallon fill-up, the difference between those two averages comes to about $1.50.",
+      "source_ids": [
+        "gas"
+      ],
+      "evidence": "AAA\u2019s Nov. 21 Mississippi page gives $3.4012 statewide; its county map lists Pontotoc at $3.501. The exact 15-gallon difference is $1.497.",
+      "statistics": "$3.50; $3.40; 15 gallons; about $1.50.",
+      "date_context": "Saturday, Nov. 21, 2026; week-, month- and year-ago comparisons are for Mississippi.",
+      "locality": "Pontotoc County and neighboring counties in northeast Mississippi.",
+      "identities": "AAA county fuel-price map and statewide regular unleaded series."
+    },
+    {
+      "id": "f2",
+      "statement": "Among neighboring counties, Union averaged $3.35 and Lee $3.49. Prices were higher in Lafayette County at $3.55 and Chickasaw County at $3.58. The spread between Union and Chickasaw came to about $3.50 on 15 gallons, using county averages. Individual stations can charge more or less.",
+      "source_ids": [
+        "gas"
+      ],
+      "evidence": "Read the Union ($3.347), Lee ($3.487), Lafayette ($3.549) and Chickasaw ($3.581) labels from the same dated map. The unrounded spread times 15 equals $3.51.",
+      "statistics": "$3.35; $3.49; $3.55; $3.58; about $3.50 for 15 gallons.",
+      "date_context": "Saturday, Nov. 21, 2026; week-, month- and year-ago comparisons are for Mississippi.",
+      "locality": "Pontotoc County and neighboring counties in northeast Mississippi.",
+      "identities": "AAA county fuel-price map and statewide regular unleaded series."
+    },
+    {
+      "id": "f3",
+      "statement": "Mississippi\u2019s average fell roughly 16 cents in a week and 48 cents in a month. Even with those declines, a gallon still cost about 79 cents more than at this time last year, when the state average was $2.61. Those comparisons use the statewide series.",
+      "source_ids": [
+        "gas"
+      ],
+      "evidence": "Compared the Nov. 21 state average with $3.5562 a week ago, $3.8786 a month ago and $2.6138 a year ago. Rounded differences from full-precision data.",
+      "statistics": "About 16 cents, 48 cents and 79 cents; $2.61.",
+      "date_context": "Saturday, Nov. 21, 2026; week-, month- and year-ago comparisons are for Mississippi.",
+      "locality": "Pontotoc County and neighboring counties in northeast Mississippi.",
+      "identities": "AAA county fuel-price map and statewide regular unleaded series."
+    },
+    {
+      "id": "f4",
+      "statement": "Nationally, AAA\u2019s average was $3.66 Saturday, down from $3.72 in its Thursday report. At Saturday\u2019s prices, regular gas in Pontotoc County averaged about 16 cents less per gallon than it did nationwide.",
+      "source_ids": [
+        "gas",
+        "gasrelease"
+      ],
+      "evidence": "Nov. 21 national figure $3.6594, Thursday national figure $3.7212; subtract Pontotoc $3.501 for a 15.84-cent difference.",
+      "statistics": "$3.66; $3.72; about 16 cents.",
+      "date_context": "Saturday, Nov. 21, 2026; week-, month- and year-ago comparisons are for Mississippi.",
+      "locality": "Pontotoc County and neighboring counties in northeast Mississippi.",
+      "identities": "AAA county fuel-price map and statewide regular unleaded series."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Regular gasoline averaged $3.50 a gallon in Pontotoc County on Saturday, about 10 cents above Mississippi\u2019s $3.40 average as Thanksgiving week approached. For a 15-gallon fill-up, the difference between those two averages comes to about $1.50.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "Among neighboring counties, Union averaged $3.35 and Lee $3.49. Prices were higher in Lafayette County at $3.55 and Chickasaw County at $3.58. The spread between Union and Chickasaw came to about $3.50 on 15 gallons, using county averages. Individual stations can charge more or less.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Mississippi\u2019s average fell roughly 16 cents in a week and 48 cents in a month. Even with those declines, a gallon still cost about 79 cents more than at this time last year, when the state average was $2.61. Those comparisons use the statewide series.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "Nationally, AAA\u2019s average was $3.66 Saturday, down from $3.72 in its Thursday report. At Saturday\u2019s prices, regular gas in Pontotoc County averaged about 16 cents less per gallon than it did nationwide.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-county-gas-prices-thanksgiving-weekend.png",
+    "sha256": "544fa87bac34243f8ad2ae5d07f571bffa8f8c4d168f6130e5611df70bd42717",
+    "alt_text": "Nov. 21 average price per gallon of regular gasoline: $3.50 in Pontotoc County, $3.40 statewide and $3.66 nationally.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-21T15:00:58.376912+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "November 21 authorized Pontotoc morning editorial shift; public release of this exact package after authenticated preflight and final review."
+  }
+}
