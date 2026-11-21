@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/ecru-chili-cook-off-painted-rock-hunt-december.json",
   "article_sha256": "be989d6c9d9d135730b959e83fbacc00ef7ab9143e20c4e8576a755d084a31f5",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "ecru-chili-cook-off-painted-rock-hunt-december",
   "seo_review": {
     "reviewer": "Pontotoc News afternoon desk",
