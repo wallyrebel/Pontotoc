@@ -1,0 +1,168 @@
+{
+  "title": "North Pontotoc girls beat Biggersville 54\u201349 to finish a three-win week",
+  "excerpt": "The Vikings followed road wins at Alcorn Central and Water Valley with a five-point home win in Ecru, their closest victory of the season so far.",
+  "locality": "North Pontotoc High School in Ecru, Pontotoc County, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:varsity-girls-basketball:2026-11-20:north-pontotoc-biggersville"
+  ],
+  "sources": [
+    {
+      "id": "game",
+      "title": "Biggersville at North Pontotoc, girls final",
+      "url": "https://www.maxpreps.com/ms/basketball/girls/game/biggersville-corinth-vs-north-pontotoc-ecru/11-20-2026/?c=75f49b5d-dcd4-4801-bc44-050543a6b5d7",
+      "publisher": "Team-reported results on MaxPreps",
+      "role": "event",
+      "verified_at": "2026-11-21T01:54:17.105872+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/basketball/girls/game/biggersville-corinth-vs-north-pontotoc-ecru/11-20-2026/?c=75f49b5d-dcd4-4801-bc44-050543a6b5d7",
+      "published_at": null
+    },
+    {
+      "id": "home",
+      "title": "Vikings girls results and schedule",
+      "url": "https://www.maxpreps.com/ms/ecru/north-pontotoc-vikings/basketball/girls/schedule/",
+      "publisher": "Team-reported results on MaxPreps",
+      "role": "background",
+      "verified_at": "2026-11-21T01:54:17.105872+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/ecru/north-pontotoc-vikings/basketball/girls/schedule/",
+      "published_at": null
+    },
+    {
+      "id": "away",
+      "title": "Biggersville girls results",
+      "url": "https://www.maxpreps.com/ms/corinth/biggersville-lions/basketball/girls/schedule/",
+      "publisher": "Team-reported results on MaxPreps",
+      "role": "background",
+      "verified_at": "2026-11-21T01:54:17.105872+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/corinth/biggersville-lions/basketball/girls/schedule/",
+      "published_at": null
+    },
+    {
+      "id": "next",
+      "title": "North Pontotoc at Hamilton game listing",
+      "url": "https://www.maxpreps.com/ms/basketball/girls/game/hamilton-vs-north-pontotoc-ecru/11-30-2026/?c=b7e9d76f-bd8e-47a2-b9ec-6947df2959dd",
+      "publisher": "Team-reported results on MaxPreps",
+      "role": "background",
+      "verified_at": "2026-11-21T01:54:17.105872+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/basketball/girls/game/hamilton-vs-north-pontotoc-ecru/11-30-2026/?c=b7e9d76f-bd8e-47a2-b9ec-6947df2959dd",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "North Pontotoc\u2019s girls beat Biggersville 54\u201349 in Ecru on Friday, the Vikings\u2019 third win in four nights. After road victories at Alcorn Central on Tuesday and Water Valley on Thursday, they won their closest game of the three at home to move to 7\u20132.",
+      "source_ids": [
+        "game",
+        "home"
+      ],
+      "evidence": "Final and venue from the game sheet. Both earlier dates and road results are on the Vikings\u2019 schedule.",
+      "statistics": "54\u201349; third win in four nights; 7\u20132.",
+      "date_context": "Nov. 20, 2026, nonregion final with Nov. 17 and 19 results and the next scheduled dates.",
+      "locality": "North Pontotoc High School in Ecru, Pontotoc County, Mississippi.",
+      "identities": "North Pontotoc Vikings girls, Biggersville Lions girls, Alcorn Central, Water Valley, Hamilton and Tishomingo County."
+    },
+    {
+      "id": "f2",
+      "statement": "The five-point margin was also the narrowest of North Pontotoc\u2019s seven wins on its varsity schedule. The next closest was Tuesday\u2019s 43\u201335 win at Alcorn Central. At Water Valley, the Vikings won 51\u201326. Friday was their first home game since a 57\u201336 victory over Byhalia on Nov. 12.",
+      "source_ids": [
+        "game",
+        "home"
+      ],
+      "evidence": "Compared every posted victory and checked the venues between Nov. 12 and 20.",
+      "statistics": "Margins of five, eight and 25 points; 57\u201336.",
+      "date_context": "Nov. 20, 2026, nonregion final with Nov. 17 and 19 results and the next scheduled dates.",
+      "locality": "North Pontotoc High School in Ecru, Pontotoc County, Mississippi.",
+      "identities": "North Pontotoc Vikings girls, Biggersville Lions girls, Alcorn Central, Water Valley, Hamilton and Tishomingo County."
+    },
+    {
+      "id": "f3",
+      "statement": "Biggersville had scored at least 57 points in each of its four previous posted finals. The Lions won all four, including a 64\u201326 victory over Itawamba Agricultural on Nov. 14. Against North Pontotoc they finished eight points below their previous low.",
+      "source_ids": [
+        "away",
+        "game"
+      ],
+      "evidence": "The four earlier scores were 61, 59, 57 and 64. Friday\u2019s box score has 49.",
+      "statistics": "Four games; 57 minus 49 is eight.",
+      "date_context": "Nov. 20, 2026, nonregion final with Nov. 17 and 19 results and the next scheduled dates.",
+      "locality": "North Pontotoc High School in Ecru, Pontotoc County, Mississippi.",
+      "identities": "North Pontotoc Vikings girls, Biggersville Lions girls, Alcorn Central, Water Valley, Hamilton and Tishomingo County."
+    },
+    {
+      "id": "f4",
+      "statement": "The next game on North Pontotoc\u2019s posted girls schedule is at Hamilton at 6 p.m. Monday, Nov. 30. The Vikings return to Ecru for a region game with Tishomingo County at 6 p.m. Friday, Dec. 4.",
+      "source_ids": [
+        "home",
+        "next"
+      ],
+      "evidence": "Hamilton matchup confirms away venue and Central tipoff. Vikings\u2019 schedule marks Tishomingo County as a home region game.",
+      "statistics": "Nov. 30 and Dec. 4, both 6 p.m. Central.",
+      "date_context": "Nov. 20, 2026, nonregion final with Nov. 17 and 19 results and the next scheduled dates.",
+      "locality": "North Pontotoc High School in Ecru, Pontotoc County, Mississippi.",
+      "identities": "North Pontotoc Vikings girls, Biggersville Lions girls, Alcorn Central, Water Valley, Hamilton and Tishomingo County."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "North Pontotoc\u2019s girls beat Biggersville 54\u201349 in Ecru on Friday, the Vikings\u2019 third win in four nights. After road victories at Alcorn Central on Tuesday and Water Valley on Thursday, they won their closest game of the three at home to move to 7\u20132.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The five-point margin was also the narrowest of North Pontotoc\u2019s seven wins on its varsity schedule. The next closest was Tuesday\u2019s 43\u201335 win at Alcorn Central. At Water Valley, the Vikings won 51\u201326. Friday was their first home game since a 57\u201336 victory over Byhalia on Nov. 12.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Biggersville had scored at least 57 points in each of its four previous posted finals. The Lions won all four, including a 64\u201326 victory over Itawamba Agricultural on Nov. 14. Against North Pontotoc they finished eight points below their previous low.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "The next game on North Pontotoc\u2019s posted girls schedule is at Hamilton at 6 p.m. Monday, Nov. 30. The Vikings return to Ecru for a region game with Tishomingo County at 6 p.m. Friday, Dec. 4.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/north-pontotoc-girls-beat-biggersville-54-49-ecru.png",
+    "sha256": "aabd1de53c9600468dfcac8ae89c7ffb8c077bd5900ce6990654f378ad657f2e",
+    "alt_text": "North Pontotoc beat Alcorn Central 43\u201335, Water Valley 51\u201326 and Biggersville 54\u201349.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News evening desk",
+    "reviewed_at": "2026-11-21T01:54:17.105872+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 20 evening editorial shift. Publish after the authenticated read-only check and final editorial review."
+  }
+}
