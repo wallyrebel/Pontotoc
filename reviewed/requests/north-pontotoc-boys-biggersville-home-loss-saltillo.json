@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/north-pontotoc-boys-biggersville-home-loss-saltillo.json",
   "article_sha256": "206340262223e94741a2fad1b4d67ae4bee4e0951f05a67cd7e736b82ae0a1e7",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "north-pontotoc-boys-biggersville-home-loss-saltillo",
   "seo_review": {
     "reviewer": "Pontotoc News morning desk",
