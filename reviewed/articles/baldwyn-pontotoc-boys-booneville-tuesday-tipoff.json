@@ -1,0 +1,139 @@
+{
+  "title": "Baldwyn is Pontotoc\u2019s Tuesday opponent in Booneville, with boys tipoff set for 3 p.m.",
+  "excerpt": "Pontotoc Athletics\u2019 tournament flyer puts the Warriors\u2019 boys against Baldwyn right after the girls play Center Hill. Both games are in Booneville on Nov. 24.",
+  "locality": "Pontotoc High School varsity basketball in Booneville, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:warriors-boys-basketball:2026-11-24:baldwyn-booneville"
+  ],
+  "sources": [
+    {
+      "id": "flyer",
+      "title": "Pontotoc Athletics\u2019 Thanksgiving tournament flyer",
+      "url": "https://www.facebook.com/1409956404473934/posts/1702417851894453",
+      "publisher": "Pontotoc Athletics",
+      "role": "event",
+      "verified_at": "2026-11-22T01:41:46.489818+00:00",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7kh8MV2fT.rss",
+      "published_at": "2026-11-20T16:42:01+00:00"
+    },
+    {
+      "id": "pontotoc-warriors-basketball",
+      "title": "Pontotoc boys varsity schedule",
+      "url": "https://www.maxpreps.com/ms/pontotoc/pontotoc-warriors/basketball/schedule/",
+      "publisher": "MaxPreps varsity team records",
+      "role": "background",
+      "verified_at": "2026-11-22T01:41:46.489818+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/pontotoc/pontotoc-warriors/basketball/schedule/",
+      "published_at": null
+    },
+    {
+      "id": "pontotoc-warriors-basketball-girls",
+      "title": "Pontotoc girls varsity results",
+      "url": "https://www.maxpreps.com/ms/pontotoc/pontotoc-warriors/basketball/girls/schedule/",
+      "publisher": "MaxPreps varsity team records",
+      "role": "background",
+      "verified_at": "2026-11-22T01:41:46.489818+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/pontotoc/pontotoc-warriors/basketball/girls/schedule/",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc will play Baldwyn at 3 p.m. Tuesday, Nov. 24, in the Booneville Thanksgiving Tournament, according to the holiday schedule posted by Pontotoc Athletics. The boys\u2019 game follows Pontotoc\u2019s 1:30 p.m. girls game against Center Hill, giving Warriors fans two games in the same afternoon.",
+      "source_ids": [
+        "flyer"
+      ],
+      "evidence": "Read the school\u2019s graphic directly. The Tuesday cells under Booneville give opponents and times for both varsity teams.",
+      "statistics": "1:30 and 3 p.m. Central, Nov. 24.",
+      "date_context": "School flyer posted Friday, Nov. 20 for the Nov. 23\u201324 and Nov. 27 games in 2026.",
+      "locality": "Pontotoc High School varsity basketball in Booneville, Mississippi.",
+      "identities": "Pontotoc Warriors, Baldwyn Bearcats and Center Hill Mustangs."
+    },
+    {
+      "id": "f2",
+      "statement": "The school flyer fills in the opponent and tipoff that were still blank on the boys\u2019 online schedule when Pontotoc News checked it Saturday. The Warriors open the tournament Monday against Florence of Alabama at 4:30 p.m. The Baldwyn game is the second of their two days in Booneville.",
+      "source_ids": [
+        "flyer",
+        "pontotoc-warriors-basketball"
+      ],
+      "evidence": "Compared the school artwork with the team schedule, which shows a Tuesday TBA slot. Monday is confirmed on both.",
+      "statistics": "Nov. 23\u201324; 4:30 p.m.",
+      "date_context": "School flyer posted Friday, Nov. 20 for the Nov. 23\u201324 and Nov. 27 games in 2026.",
+      "locality": "Pontotoc High School varsity basketball in Booneville, Mississippi.",
+      "identities": "Pontotoc Warriors, Baldwyn Bearcats and Center Hill Mustangs."
+    },
+    {
+      "id": "f3",
+      "statement": "Both Pontotoc teams come in off road wins at Tupelo. The girls won 57\u201340 and enter the holiday week 4\u20131. The boys won 59\u201354 for their second straight victory and are 3\u20131. After the Booneville games, the boys face Grissom of Alabama at 11:30 a.m. Friday in the Lighthouse Classic at Corinth.",
+      "source_ids": [
+        "flyer",
+        "pontotoc-warriors-basketball",
+        "pontotoc-warriors-basketball-girls"
+      ],
+      "evidence": "Checked Thursday\u2019s finals and season results in both team schedules. The school flyer provides the Friday opponent, time and city.",
+      "statistics": "57\u201340; 4\u20131; 59\u201354; 3\u20131; 11:30 a.m. Nov. 27.",
+      "date_context": "School flyer posted Friday, Nov. 20 for the Nov. 23\u201324 and Nov. 27 games in 2026.",
+      "locality": "Pontotoc High School varsity basketball in Booneville, Mississippi.",
+      "identities": "Pontotoc Warriors, Baldwyn Bearcats and Center Hill Mustangs."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc will play Baldwyn at 3 p.m. Tuesday, Nov. 24, in the Booneville Thanksgiving Tournament, according to the holiday schedule posted by Pontotoc Athletics. The boys\u2019 game follows Pontotoc\u2019s 1:30 p.m. girls game against Center Hill, giving Warriors fans two games in the same afternoon.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The school flyer fills in the opponent and tipoff that were still blank on the boys\u2019 online schedule when Pontotoc News checked it Saturday. The Warriors open the tournament Monday against Florence of Alabama at 4:30 p.m. The Baldwyn game is the second of their two days in Booneville.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Both Pontotoc teams come in off road wins at Tupelo. The girls won 57\u201340 and enter the holiday week 4\u20131. The boys won 59\u201354 for their second straight victory and are 3\u20131. After the Booneville games, the boys face Grissom of Alabama at 11:30 a.m. Friday in the Lighthouse Classic at Corinth.",
+      "fact_ids": [
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/baldwyn-pontotoc-boys-booneville-tuesday-tipoff.png",
+    "sha256": "e09573f5d2c372734a7798566fdd2cae9f9ac4b28e4216e37541b796a0607bdd",
+    "alt_text": "Tuesday in Booneville. Pontotoc girls face Center Hill at 1:30 p.m. and Pontotoc boys face Baldwyn at 3 p.m. Central.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News evening desk",
+    "reviewed_at": "2026-11-22T01:41:46.489818+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 21 evening editorial shift. Publish the identical reviewed article after authenticated preflight and final review."
+  }
+}
