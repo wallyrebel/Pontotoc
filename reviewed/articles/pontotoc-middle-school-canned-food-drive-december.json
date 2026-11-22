@@ -1,0 +1,138 @@
+{
+  "title": "Pontotoc Middle School asks for canned food for local pantry through Dec. 12",
+  "excerpt": "Fifth and sixth graders are competing to collect the most items. The school\u2019s flyer suggests canned tuna, beans, fruit and other foods that keep on the shelf.",
+  "locality": "Pontotoc Middle School, 135 Education Drive, Pontotoc, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc-middle-school:2026-12-12:canned-food-drive"
+  ],
+  "sources": [
+    {
+      "id": "cans",
+      "title": "School announcement on the canned food drive and grade competition",
+      "url": "https://pms.pontotoc.school/apps/news/article/2257943?categoryId=17398",
+      "publisher": "Pontotoc Middle School",
+      "role": "event",
+      "verified_at": "2026-11-22T22:16:02.271114+00:00",
+      "verification_url": "https://pms.pontotoc.school/apps/news/article/2257943?categoryId=17398",
+      "published_at": null
+    },
+    {
+      "id": "flyer",
+      "title": "School flyer with dates, suggested foods and counselor contact",
+      "url": "https://3.files.edl.io/15c5/26/11/19/175305-6688bf32-d538-482b-a147-4cd3bcfe8780.png",
+      "publisher": "Pontotoc Middle School",
+      "role": "event",
+      "verified_at": "2026-11-22T22:16:02.271114+00:00",
+      "verification_url": "https://3.files.edl.io/15c5/26/11/19/175305-6688bf32-d538-482b-a147-4cd3bcfe8780.png",
+      "published_at": null
+    },
+    {
+      "id": "schoolcontact",
+      "title": "Middle school address and telephone number",
+      "url": "https://pms.pontotoc.school/apps/contact/",
+      "publisher": "Pontotoc Middle School",
+      "role": "background",
+      "verified_at": "2026-11-22T22:16:02.271114+00:00",
+      "verification_url": "https://pms.pontotoc.school/apps/contact/",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc Middle School is collecting canned food through Dec. 12 for a local pantry. Students will compete by grade, and the school plans to deliver the donations before Christmas break.",
+      "source_ids": [
+        "flyer",
+        "cans"
+      ],
+      "evidence": "The flyer gives the end date. The school identifies the beneficiary as a local pantry and gives the delivery window.",
+      "statistics": "Dec. 12.",
+      "date_context": "The school posted its notice Nov. 19, 2026. Its flyer gives Nov. 13 through Dec. 12 for the drive.",
+      "locality": "Pontotoc Middle School, 135 Education Drive, Pontotoc, Mississippi.",
+      "identities": "Pontotoc Middle School fifth and sixth grades and counselor Betsy Ritchie."
+    },
+    {
+      "id": "f2",
+      "statement": "The drive opened Nov. 13. The school is asking for nonperishable foods in cans and suggests sauces, soups, beans, tuna, vegetables and fruit. Each item counts toward the total for either fifth or sixth grade. The grade that brings in the most earns extra break time.",
+      "source_ids": [
+        "flyer",
+        "cans"
+      ],
+      "evidence": "Checked the accepted container, the recommended foods, the counting unit and the grade-level prize against the flyer.",
+      "statistics": "Nov. 13, grades five and six.",
+      "date_context": "The school posted its notice Nov. 19, 2026. Its flyer gives Nov. 13 through Dec. 12 for the drive.",
+      "locality": "Pontotoc Middle School, 135 Education Drive, Pontotoc, Mississippi.",
+      "identities": "Pontotoc Middle School fifth and sixth grades and counselor Betsy Ritchie."
+    },
+    {
+      "id": "f3",
+      "statement": "Dec. 12 falls on a Saturday. For questions about when to bring donations, the flyer lists school counselor Betsy Ritchie. Families can reach her through the middle school at 662-489-6056. The school is at 135 Education Drive in Pontotoc.",
+      "source_ids": [
+        "flyer",
+        "schoolcontact"
+      ],
+      "evidence": "Read counselor and seven-digit number on the flyer. Confirmed the area code and school address in its contact directory. Checked the weekday on the calendar.",
+      "statistics": "Dec. 12, 662-489-6056, 135 Education Drive.",
+      "date_context": "The school posted its notice Nov. 19, 2026. Its flyer gives Nov. 13 through Dec. 12 for the drive.",
+      "locality": "Pontotoc Middle School, 135 Education Drive, Pontotoc, Mississippi.",
+      "identities": "Pontotoc Middle School fifth and sixth grades and counselor Betsy Ritchie."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc Middle School is collecting canned food through Dec. 12 for a local pantry. Students will compete by grade, and the school plans to deliver the donations before Christmas break.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The drive opened Nov. 13. The school is asking for nonperishable foods in cans and suggests sauces, soups, beans, tuna, vegetables and fruit. Each item counts toward the total for either fifth or sixth grade. The grade that brings in the most earns extra break time.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Dec. 12 falls on a Saturday. For questions about when to bring donations, the flyer lists school counselor Betsy Ritchie. Families can reach her through the middle school at 662-489-6056. The school is at 135 Education Drive in Pontotoc.",
+      "fact_ids": [
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-middle-school-canned-food-drive-december.png",
+    "sha256": "4ddc73e2663a2310ba1153c8b3ae3c7bf68af9242a61be404e491df80a12493e",
+    "alt_text": "Pontotoc Middle School is collecting canned food through December 12. Suggested items include tuna, soup, beans and fruit. Contact counselor Betsy Ritchie at 662-489-6056.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-22T22:16:02.271114+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 22, 2026 afternoon editorial shift. Publish this identical article after successful authenticated preflight and final review."
+  }
+}

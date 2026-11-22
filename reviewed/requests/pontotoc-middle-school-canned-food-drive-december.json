@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-middle-school-canned-food-drive-december.json",
+  "article_sha256": "e16777ea495f762d3ab1f6017a912040bd3b94fc5642e717e093f67a4a01a3b2",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-middle-school-canned-food-drive-december",
+  "seo_review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-22T22:16:02.271114+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}
