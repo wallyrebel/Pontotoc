@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/baldwyn-pontotoc-boys-booneville-tuesday-tipoff.json",
   "article_sha256": "d27aee76f2f27d84453f5b4b6f8da7a1842c458b3309d826e3f360ca46a25231",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "baldwyn-pontotoc-boys-booneville-tuesday-tipoff",
   "seo_review": {
     "reviewer": "Pontotoc News evening desk",
