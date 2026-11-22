@@ -1,0 +1,194 @@
+{
+  "title": "North Pontotoc girls win shootout, boys reach 5\u20130 heading into Booneville soccer doubleheader",
+  "excerpt": "Mary Crotwell scored for the Vikings in a 1\u20131 draw before North won the shootout 3\u20131. The boys beat Mooreville 7\u20130 for their second shutout in three games.",
+  "locality": "North Pontotoc High School in Ecru, Mississippi, and the upcoming matches at Booneville.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:ecru:north-pontotoc-soccer:2026-11-17:mooreville-girls-shootout",
+    "ms:ecru:north-pontotoc-soccer:2026-11-17:mooreville-boys-final",
+    "ms:booneville:north-pontotoc-soccer:2026-12-01:varsity-doubleheader"
+  ],
+  "sources": [
+    {
+      "id": "vikingsgirlsmatch",
+      "title": "Mooreville at North Pontotoc, girls final and shootout",
+      "url": "https://www.maxpreps.com/ms/soccer/girls/match/mooreville-vs-north-pontotoc-ecru/11-17-2026/?c=4a5eb177-7e50-4d5f-acff-12fba4c2bacd",
+      "publisher": "MaxPreps varsity soccer records",
+      "role": "event",
+      "verified_at": "2026-11-22T15:12:53.373181+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/soccer/girls/match/mooreville-vs-north-pontotoc-ecru/11-17-2026/?c=4a5eb177-7e50-4d5f-acff-12fba4c2bacd",
+      "published_at": null
+    },
+    {
+      "id": "vikingsboysmatch",
+      "title": "Mooreville at North Pontotoc, boys final",
+      "url": "https://www.maxpreps.com/ms/soccer/match/mooreville-vs-north-pontotoc-ecru/11-17-2026/?c=8ddc7efe-f5f7-4973-b0c5-42b61ec3e458",
+      "publisher": "MaxPreps varsity soccer records",
+      "role": "event",
+      "verified_at": "2026-11-22T15:12:53.373181+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/soccer/match/mooreville-vs-north-pontotoc-ecru/11-17-2026/?c=8ddc7efe-f5f7-4973-b0c5-42b61ec3e458",
+      "published_at": null
+    },
+    {
+      "id": "vikingsgirlsnext",
+      "title": "North Pontotoc at Booneville, girls match",
+      "url": "https://www.maxpreps.com/ms/soccer/girls/match/booneville-vs-north-pontotoc-ecru/12-1-2026/?c=efc8d56e-abf4-4ef1-beb9-ca9536fa6f8a",
+      "publisher": "MaxPreps varsity soccer records",
+      "role": "event",
+      "verified_at": "2026-11-22T15:12:53.373181+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/soccer/girls/match/booneville-vs-north-pontotoc-ecru/12-1-2026/?c=efc8d56e-abf4-4ef1-beb9-ca9536fa6f8a",
+      "published_at": null
+    },
+    {
+      "id": "vikingsboysnext",
+      "title": "North Pontotoc at Booneville, boys match",
+      "url": "https://www.maxpreps.com/ms/soccer/match/booneville-vs-north-pontotoc-ecru/12-1-2026/?c=86e92798-291b-4daf-8ecc-c44da41b7002",
+      "publisher": "MaxPreps varsity soccer records",
+      "role": "event",
+      "verified_at": "2026-11-22T15:12:53.373181+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/soccer/match/booneville-vs-north-pontotoc-ecru/12-1-2026/?c=86e92798-291b-4daf-8ecc-c44da41b7002",
+      "published_at": null
+    },
+    {
+      "id": "vikingsboysseason",
+      "title": "North Pontotoc boys season results",
+      "url": "https://www.maxpreps.com/ms/ecru/north-pontotoc-vikings/soccer/winter/schedule/",
+      "publisher": "MaxPreps varsity soccer records",
+      "role": "background",
+      "verified_at": "2026-11-22T15:12:53.373181+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/ecru/north-pontotoc-vikings/soccer/winter/schedule/",
+      "published_at": null
+    },
+    {
+      "id": "booneboysseason",
+      "title": "Booneville boys season results",
+      "url": "https://www.maxpreps.com/ms/booneville/booneville-blue-devils/soccer/winter/schedule/",
+      "publisher": "MaxPreps varsity soccer records",
+      "role": "background",
+      "verified_at": "2026-11-22T15:12:53.373181+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/booneville/booneville-blue-devils/soccer/winter/schedule/",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "North Pontotoc takes two wins over Mooreville into its Thanksgiving soccer break. The girls won a shootout 3\u20131 after the teams finished level at 1\u20131 in Ecru on Nov. 17. The boys followed with a 7\u20130 win, their fifth straight to open the season.",
+      "source_ids": [
+        "vikingsgirlsmatch",
+        "vikingsboysmatch",
+        "vikingsboysseason"
+      ],
+      "evidence": "The girls final separates the 1\u20131 score from the 3\u20131 shootout. The boys final and five posted results agree.",
+      "statistics": "Nov. 17; 3\u20131 shootout; 1\u20131; 7\u20130; five wins.",
+      "date_context": "Games played November 17, next listed matches December 1. Schedules and final records checked November 22, 2026. All times Central.",
+      "locality": "North Pontotoc High School in Ecru, Mississippi, and the upcoming matches at Booneville.",
+      "identities": "North Pontotoc Vikings, Mooreville Troopers, Booneville Blue Devils, Mary Crotwell and Kyndall Roberts."
+    },
+    {
+      "id": "f2",
+      "statement": "Neither girls team scored in the first half, and each scored once in the second. North Pontotoc\u2019s goal went to Mary Crotwell, with Kyndall Roberts credited with the assist. They also lead the Vikings in those categories heading into the break. The Booneville matchup lists seven goals for Crotwell and three assists for Roberts.",
+      "source_ids": [
+        "vikingsgirlsmatch",
+        "vikingsgirlsnext"
+      ],
+      "evidence": "Verified score by half, matching player profile links, team, jersey numbers, and the season leaders in the upcoming matchup.",
+      "statistics": "One goal per side after halftime; seven season goals and three assists.",
+      "date_context": "Games played November 17, next listed matches December 1. Schedules and final records checked November 22, 2026. All times Central.",
+      "locality": "North Pontotoc High School in Ecru, Mississippi, and the upcoming matches at Booneville.",
+      "identities": "North Pontotoc Vikings, Mooreville Troopers, Booneville Blue Devils, Mary Crotwell and Kyndall Roberts."
+    },
+    {
+      "id": "f3",
+      "statement": "The North Pontotoc boys have scored 35 goals and allowed five in their five posted matches. They shut out Houston 8\u20130, won 3\u20131 at Pontotoc, then kept Mooreville off the board. The first two wins came against Tupelo Christian Prep and Kosciusko.",
+      "source_ids": [
+        "vikingsboysseason",
+        "vikingsboysnext"
+      ],
+      "evidence": "Season scores in order: 8\u20131, 9\u20133, 8\u20130, 3\u20131 and 7\u20130. Totals also match the Booneville game listing.",
+      "statistics": "35 goals for; five allowed; five matches.",
+      "date_context": "Games played November 17, next listed matches December 1. Schedules and final records checked November 22, 2026. All times Central.",
+      "locality": "North Pontotoc High School in Ecru, Mississippi, and the upcoming matches at Booneville.",
+      "identities": "North Pontotoc Vikings, Mooreville Troopers, Booneville Blue Devils, Mary Crotwell and Kyndall Roberts."
+    },
+    {
+      "id": "f4",
+      "statement": "Both Vikings teams are scheduled to play at Booneville on Tuesday, Dec. 1. The girls kick off at 5 p.m. and the boys at 7 p.m. Booneville\u2019s boys had five wins in five posted finals as of Sunday, including three shutouts. Their Nov. 20 game against Shannon still had no score on the Blue Devils\u2019 schedule.",
+      "source_ids": [
+        "vikingsgirlsnext",
+        "vikingsboysnext",
+        "booneboysseason"
+      ],
+      "evidence": "The two game listings give date and times. Booneville\u2019s listed finals include three clean sheets. Its Shannon row has no score.",
+      "statistics": "Dec. 1; 5 and 7 p.m.; five posted wins; three shutouts.",
+      "date_context": "Games played November 17, next listed matches December 1. Schedules and final records checked November 22, 2026. All times Central.",
+      "locality": "North Pontotoc High School in Ecru, Mississippi, and the upcoming matches at Booneville.",
+      "identities": "North Pontotoc Vikings, Mooreville Troopers, Booneville Blue Devils, Mary Crotwell and Kyndall Roberts."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "North Pontotoc takes two wins over Mooreville into its Thanksgiving soccer break. The girls won a shootout 3\u20131 after the teams finished level at 1\u20131 in Ecru on Nov. 17. The boys followed with a 7\u20130 win, their fifth straight to open the season.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "Neither girls team scored in the first half, and each scored once in the second. North Pontotoc\u2019s goal went to Mary Crotwell, with Kyndall Roberts credited with the assist. They also lead the Vikings in those categories heading into the break. The Booneville matchup lists seven goals for Crotwell and three assists for Roberts.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "The North Pontotoc boys have scored 35 goals and allowed five in their five posted matches. They shut out Houston 8\u20130, won 3\u20131 at Pontotoc, then kept Mooreville off the board. The first two wins came against Tupelo Christian Prep and Kosciusko.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "Both Vikings teams are scheduled to play at Booneville on Tuesday, Dec. 1. The girls kick off at 5 p.m. and the boys at 7 p.m. Booneville\u2019s boys had five wins in five posted finals as of Sunday, including three shutouts. Their Nov. 20 game against Shannon still had no score on the Blue Devils\u2019 schedule.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/north-pontotoc-mooreville-shootout-booneville-soccer.png",
+    "sha256": "7aad1e52fdfd9d056cd710c21080943d85fbc0efc98b43ad30ff346d10f94106",
+    "alt_text": "North Pontotoc visits Booneville December 1. Girls kickoff is 5 p.m. and boys kickoff is 7 p.m. Central. North won its previous boys match 7\u20130.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-22T15:12:53.373181+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f4"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 22, 2026 Pontotoc morning editorial shift. Publish the identical reviewed package after authenticated preflight."
+  }
+}
