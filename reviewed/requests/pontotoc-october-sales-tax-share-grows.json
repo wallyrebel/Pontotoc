@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-october-sales-tax-share-grows.json",
+  "article_sha256": "9a6fcd06697a9cbb10e2feb627fd66444ac1ce54c98eb500cc7b276c16e5abb1",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-october-sales-tax-share-grows",
+  "seo_review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-22T15:10:15.435176+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}

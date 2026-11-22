@@ -1,0 +1,156 @@
+{
+  "title": "Pontotoc\u2019s share of October sales tax collections rises $37,622",
+  "excerpt": "The city\u2019s share rose 12.6% from a year earlier. Ecru and Sherman also gained, while Algoma\u2019s share fell by about a fifth.",
+  "locality": "The Mississippi municipalities of Pontotoc, Ecru, Sherman, Algoma and Thaxton.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:dor:2026-10:municipal-sales-tax-diversions"
+  ],
+  "sources": [
+    {
+      "id": "oct",
+      "title": "October 2026 municipal sales tax report (PDF)",
+      "url": "https://www.dor.ms.gov/sites/default/files/statistics/stats_div1026.pdf",
+      "publisher": "Mississippi Department of Revenue",
+      "role": "event",
+      "verified_at": "2026-11-22T15:10:15.435176+00:00",
+      "verification_url": "https://www.dor.ms.gov/sites/default/files/statistics/stats_div1026.pdf",
+      "published_at": null
+    },
+    {
+      "id": "sep",
+      "title": "September 2026 municipal sales tax report (PDF)",
+      "url": "https://www.dor.ms.gov/sites/default/files/statistics/stats_div0926_0.pdf",
+      "publisher": "Mississippi Department of Revenue",
+      "role": "background",
+      "verified_at": "2026-11-22T15:10:15.435176+00:00",
+      "verification_url": "https://www.dor.ms.gov/sites/default/files/statistics/stats_div0926_0.pdf",
+      "published_at": null
+    },
+    {
+      "id": "dor",
+      "title": "Monthly reports by year",
+      "url": "https://www.dor.ms.gov/forms-resources/statistics-publications/diversions-cities-sales-tax-collections",
+      "publisher": "Mississippi Department of Revenue",
+      "role": "background",
+      "verified_at": "2026-11-22T15:10:15.435176+00:00",
+      "verification_url": "https://www.dor.ms.gov/forms-resources/statistics-publications/diversions-cities-sales-tax-collections",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc\u2019s share of the sales tax Mississippi collected in October was $336,838.80, up from $299,216.91 a year earlier. The $37,621.89 gain amounts to 12.6%, according to the Mississippi Department of Revenue\u2019s latest municipal report.",
+      "source_ids": [
+        "oct",
+        "dor"
+      ],
+      "evidence": "October row for Pontotoc, current and prior year. Difference and percentage calculated from unrounded figures. The index ended at October when checked.",
+      "statistics": "$336,838.80; $299,216.91; $37,621.89; 12.6%.",
+      "date_context": "October 2026 compared with October 2025. Year-to-date totals begin July 1. Checked November 22, 2026.",
+      "locality": "The Mississippi municipalities of Pontotoc, Ecru, Sherman, Algoma and Thaxton.",
+      "identities": "Mississippi Department of Revenue and the five municipalities named in its monthly table."
+    },
+    {
+      "id": "f2",
+      "statement": "October accounted for nearly all of the city\u2019s gain since July 1. At the end of September, Pontotoc was only $352.66 ahead of the same three months last year. With October included, its four-month total reached $1,367,981.51, up $37,974.55, or 2.9%.",
+      "source_ids": [
+        "sep",
+        "oct"
+      ],
+      "evidence": "September year-to-date columns show 1,031,142.71 and 1,030,790.05. October year-to-date columns show 1,367,981.51 and 1,330,006.96.",
+      "statistics": "$352.66; $1,367,981.51; $37,974.55; 2.9%.",
+      "date_context": "October 2026 compared with October 2025. Year-to-date totals begin July 1. Checked November 22, 2026.",
+      "locality": "The Mississippi municipalities of Pontotoc, Ecru, Sherman, Algoma and Thaxton.",
+      "identities": "Mississippi Department of Revenue and the five municipalities named in its monthly table."
+    },
+    {
+      "id": "f3",
+      "statement": "Sherman\u2019s October share rose to $70,673.01, a 12.4% gain from a year earlier. Ecru\u2019s rose 9.7% to $27,737.34. Thaxton was nearly even, with $4,402.11 this October and $4,397.78 last October. Algoma moved in the other direction, falling from $6,126.86 to $4,868.80, a drop of 20.5%.",
+      "source_ids": [
+        "oct"
+      ],
+      "evidence": "Rows for the four named towns on pages 1, 2, 5 and 6. Compared each with its own October 2025 column.",
+      "statistics": "Sherman 12.4%; Ecru 9.7%; Thaxton up $4.33; Algoma down 20.5%.",
+      "date_context": "October 2026 compared with October 2025. Year-to-date totals begin July 1. Checked November 22, 2026.",
+      "locality": "The Mississippi municipalities of Pontotoc, Ecru, Sherman, Algoma and Thaxton.",
+      "identities": "Mississippi Department of Revenue and the five municipalities named in its monthly table."
+    },
+    {
+      "id": "f4",
+      "statement": "The month on the report matters. Retailers collect tax from customers, send it to the state the following month, and the state pays the municipal share a month later. October labels the middle step. On that timetable, the report reflects September shopping and a November payment to the cities.",
+      "source_ids": [
+        "oct"
+      ],
+      "evidence": "The timing note on page 6 identifies the retail, remittance and municipal payment months and defines the report as month two.",
+      "statistics": "Three-month cycle: September, October, November.",
+      "date_context": "October 2026 compared with October 2025. Year-to-date totals begin July 1. Checked November 22, 2026.",
+      "locality": "The Mississippi municipalities of Pontotoc, Ecru, Sherman, Algoma and Thaxton.",
+      "identities": "Mississippi Department of Revenue and the five municipalities named in its monthly table."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc\u2019s share of the sales tax Mississippi collected in October was $336,838.80, up from $299,216.91 a year earlier. The $37,621.89 gain amounts to 12.6%, according to the Mississippi Department of Revenue\u2019s latest municipal report.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "October accounted for nearly all of the city\u2019s gain since July 1. At the end of September, Pontotoc was only $352.66 ahead of the same three months last year. With October included, its four-month total reached $1,367,981.51, up $37,974.55, or 2.9%.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Sherman\u2019s October share rose to $70,673.01, a 12.4% gain from a year earlier. Ecru\u2019s rose 9.7% to $27,737.34. Thaxton was nearly even, with $4,402.11 this October and $4,397.78 last October. Algoma moved in the other direction, falling from $6,126.86 to $4,868.80, a drop of 20.5%.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "The month on the report matters. Retailers collect tax from customers, send it to the state the following month, and the state pays the municipal share a month later. October labels the middle step. On that timetable, the report reflects September shopping and a November payment to the cities.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-october-sales-tax-share-grows.png",
+    "sha256": "9068c3aa3519218aa97fa9952264746c45f0b59392dab134a7d5621b6b6d0756",
+    "alt_text": "Pontotoc\u2019s October sales tax share rose from $299,216.91 in 2025 to $336,838.80 in 2026, a gain of $37,621.89.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-22T15:10:15.435176+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 22, 2026 Pontotoc morning editorial shift. Publish the identical reviewed package after authenticated preflight."
+  }
+}
