@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/flowers-on-main-ecru-sunday-christmas-open-house.json",
   "article_sha256": "56568544b9f99af6e241e04b20fa9ae385b142c422392c25b59b2321bec44ac8",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "flowers-on-main-ecru-sunday-christmas-open-house",
   "seo_review": {
     "reviewer": "Pontotoc News morning desk",
