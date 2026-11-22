@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/north-pontotoc-mooreville-shootout-booneville-soccer.json",
   "article_sha256": "3fb5aa0c55facbedd1e05be2000ac216f0803af999231f828ca8fba7c30efaca",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "north-pontotoc-mooreville-shootout-booneville-soccer",
   "seo_review": {
     "reviewer": "Pontotoc News morning desk",
