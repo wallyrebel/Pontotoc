@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-october-sales-tax-share-grows.json",
   "article_sha256": "9a6fcd06697a9cbb10e2feb627fd66444ac1ce54c98eb500cc7b276c16e5abb1",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-october-sales-tax-share-grows",
   "seo_review": {
     "reviewer": "Pontotoc News morning desk",
