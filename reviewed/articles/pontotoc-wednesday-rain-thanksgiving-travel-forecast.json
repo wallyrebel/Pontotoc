@@ -1,0 +1,156 @@
+{
+  "title": "Pontotoc\u2019s rain chance rises to 70% Wednesday, with clearing for Thanksgiving",
+  "excerpt": "Showers are most likely Wednesday morning. Sunday\u2019s forecast puts the colder night after Thanksgiving dinner, with lows in the upper 20s Thursday night.",
+  "locality": "Pontotoc County and the city of Pontotoc. Saturday\u2019s observed record was at the nearby Tupelo climate station.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:nws:2026-11-22:afternoon-thanksgiving-travel-outlook"
+  ],
+  "sources": [
+    {
+      "id": "countywx",
+      "title": "Sunday afternoon forecast bulletin, Pontotoc County section",
+      "url": "https://api.weather.gov/products/8483e36c-4fcf-44bf-9b67-87102754a7c5",
+      "publisher": "National Weather Service Memphis",
+      "role": "event",
+      "verified_at": "2026-11-22T22:06:29.838118+00:00",
+      "verification_url": "https://api.weather.gov/products/8483e36c-4fcf-44bf-9b67-87102754a7c5",
+      "published_at": "2026-11-22T21:06:00+00:00"
+    },
+    {
+      "id": "zones",
+      "title": "National Weather Service forecast for the city of Pontotoc",
+      "url": "https://forecast.weather.gov/MapClick.php?lat=34.25&lon=-89.00",
+      "publisher": "National Weather Service Memphis",
+      "role": "background",
+      "verified_at": "2026-11-22T22:06:29.838118+00:00",
+      "verification_url": "https://forecast.weather.gov/MapClick.php?lat=34.25&lon=-89.00",
+      "published_at": null
+    },
+    {
+      "id": "climate",
+      "title": "Tupelo daily climate report for Saturday, November 21",
+      "url": "https://api.weather.gov/products/4b513e00-bc76-4aa6-bf1d-4bb9a3874064",
+      "publisher": "National Weather Service Memphis",
+      "role": "event",
+      "verified_at": "2026-11-22T22:06:29.838118+00:00",
+      "verification_url": "https://api.weather.gov/products/4b513e00-bc76-4aa6-bf1d-4bb9a3874064",
+      "published_at": "2026-11-22T07:35:00+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Thanksgiving travelers in Pontotoc County have two different forecasts to plan around. Showers are likely Wednesday morning, with a 70% chance of rain over the course of the day. By Thanksgiving Day, the National Weather Service expects mostly sunny skies and highs in the mid-50s.",
+      "source_ids": [
+        "countywx"
+      ],
+      "evidence": "The Pontotoc section of Sunday\u2019s 3:05 p.m. bulletin separates likely morning showers from a chance in the afternoon.",
+      "statistics": "Wednesday 70%; Thursday highs in the mid-50s.",
+      "date_context": "Forecast issued Sunday, Nov. 22, 2026, at 3:05 p.m. Central, for Nov. 24\u201327. Tupelo climate observation was Saturday, Nov. 21.",
+      "locality": "Pontotoc County and the city of Pontotoc. Saturday\u2019s observed record was at the nearby Tupelo climate station.",
+      "identities": "National Weather Service Memphis, Pontotoc County forecast zone and Tupelo climate station."
+    },
+    {
+      "id": "f2",
+      "statement": "Rain is expected to move in late Tuesday night. The county forecast gives showers a 60% chance that night and puts the likeliest window after midnight. Wednesday afternoon should turn partly sunny, though showers remain possible. By Wednesday evening the rain chance drops to 20%.",
+      "source_ids": [
+        "countywx"
+      ],
+      "evidence": "Read Tuesday night through Wednesday night in the Pontotoc County zone.",
+      "statistics": "60% Tuesday night; 20% Wednesday night.",
+      "date_context": "Forecast issued Sunday, Nov. 22, 2026, at 3:05 p.m. Central, for Nov. 24\u201327. Tupelo climate observation was Saturday, Nov. 21.",
+      "locality": "Pontotoc County and the city of Pontotoc. Saturday\u2019s observed record was at the nearby Tupelo climate station.",
+      "identities": "National Weather Service Memphis, Pontotoc County forecast zone and Tupelo climate station."
+    },
+    {
+      "id": "f3",
+      "statement": "The colder of the two holiday nights now looks to be Thursday. For the city of Pontotoc, forecasters put Wednesday night\u2019s low near 35 degrees, Thanksgiving afternoon\u2019s high near 53 and Thursday night\u2019s low near 29. The county outlook calls for sunshine on Friday and highs in the upper 50s.",
+      "source_ids": [
+        "countywx",
+        "zones"
+      ],
+      "evidence": "Compared the Sunday point forecast for Pontotoc with the dated county bulletin. The upper-20s low follows Thanksgiving Day.",
+      "statistics": "35\u00b0F, 53\u00b0F, 29\u00b0F; upper 50s Friday.",
+      "date_context": "Forecast issued Sunday, Nov. 22, 2026, at 3:05 p.m. Central, for Nov. 24\u201327. Tupelo climate observation was Saturday, Nov. 21.",
+      "locality": "Pontotoc County and the city of Pontotoc. Saturday\u2019s observed record was at the nearby Tupelo climate station.",
+      "identities": "National Weather Service Memphis, Pontotoc County forecast zone and Tupelo climate station."
+    },
+    {
+      "id": "f4",
+      "statement": "The forecast follows a record-tying Saturday at nearby Tupelo. The weather service recorded 77 degrees there at 3:08 p.m. on Nov. 21, matching the mark set on that date in 1933. The normal high for that date at Tupelo is 62 degrees.",
+      "source_ids": [
+        "climate"
+      ],
+      "evidence": "The official daily climate table identifies Tupelo, MAXIMUM 77R, 3:08 p.m., prior 77 in 1933, normal 62.",
+      "statistics": "77\u00b0F, 3:08 p.m., 1933, 62\u00b0F.",
+      "date_context": "Forecast issued Sunday, Nov. 22, 2026, at 3:05 p.m. Central, for Nov. 24\u201327. Tupelo climate observation was Saturday, Nov. 21.",
+      "locality": "Pontotoc County and the city of Pontotoc. Saturday\u2019s observed record was at the nearby Tupelo climate station.",
+      "identities": "National Weather Service Memphis, Pontotoc County forecast zone and Tupelo climate station."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Thanksgiving travelers in Pontotoc County have two different forecasts to plan around. Showers are likely Wednesday morning, with a 70% chance of rain over the course of the day. By Thanksgiving Day, the National Weather Service expects mostly sunny skies and highs in the mid-50s.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "Rain is expected to move in late Tuesday night. The county forecast gives showers a 60% chance that night and puts the likeliest window after midnight. Wednesday afternoon should turn partly sunny, though showers remain possible. By Wednesday evening the rain chance drops to 20%.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "The colder of the two holiday nights now looks to be Thursday. For the city of Pontotoc, forecasters put Wednesday night\u2019s low near 35 degrees, Thanksgiving afternoon\u2019s high near 53 and Thursday night\u2019s low near 29. The county outlook calls for sunshine on Friday and highs in the upper 50s.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "The forecast follows a record-tying Saturday at nearby Tupelo. The weather service recorded 77 degrees there at 3:08 p.m. on Nov. 21, matching the mark set on that date in 1933. The normal high for that date at Tupelo is 62 degrees.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-wednesday-rain-thanksgiving-travel-forecast.png",
+    "sha256": "3b9ff1740dc7894177cb70d04a60140e695708d6ec340c346f8f1b92eac33680",
+    "alt_text": "Pontotoc County forecast. Rain chances are 60% Tuesday night and 70% Wednesday. Thanksgiving Day is expected to be mostly sunny with highs in the mid-50s.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-22T22:06:29.838118+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 22, 2026 afternoon editorial shift. Publish this identical article after successful authenticated preflight and final review."
+  }
+}

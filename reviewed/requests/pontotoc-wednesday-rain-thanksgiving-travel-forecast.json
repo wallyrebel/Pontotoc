@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-wednesday-rain-thanksgiving-travel-forecast.json",
+  "article_sha256": "56b02c603268ef7366ba9901de4bac83a8adf776960b281eb20b8dc8c6f2d91f",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-wednesday-rain-thanksgiving-travel-forecast",
+  "seo_review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-22T22:06:29.838118+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}
