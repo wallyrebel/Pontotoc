@@ -1,0 +1,150 @@
+{
+  "title": "Pontotoc\u2019s boys pose with their state banner. Three relay teams earned 44 of their 85 points",
+  "excerpt": "The Warriors tied Pearl River Central for the Class II swimming title. A freestyle relay win and two more relay podium finishes supplied over half of Pontotoc\u2019s points.",
+  "locality": "Pontotoc City School District, with state swimming finals at the Tupelo Aquatic Center.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:warriors-swimming:2026-11-20:championship-banner-relay-recognition"
+  ],
+  "sources": [
+    {
+      "id": "banner",
+      "title": "District photos of the swim team and championship banner",
+      "url": "https://www.facebook.com/1409956404473934/posts/1702516811884557",
+      "publisher": "Pontotoc City School District",
+      "role": "event",
+      "verified_at": "2026-11-22T01:41:46.489818+00:00",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7kh8MV2fT.rss",
+      "published_at": "2026-11-20T18:29:31+00:00"
+    },
+    {
+      "id": "swim",
+      "title": "Class II team standings and individual relay results",
+      "url": "https://www.misshsaa.com/2026/10/18/mhsaa-class-i-ii-swim-championship-results/",
+      "publisher": "Mississippi High School Activities Association",
+      "role": "background",
+      "verified_at": "2026-11-22T01:41:46.489818+00:00",
+      "verification_url": "https://www.misshsaa.com/2026/10/18/mhsaa-class-i-ii-swim-championship-results/",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc\u2019s boys swim team gathered behind a red state championship banner, with the trophy on the grass in front of them, in photos the school district shared Friday. The state meet results tell how close that title was. Pontotoc and Pearl River Central finished with 85 points apiece, and three relays supplied 44 of the Warriors\u2019 points.",
+      "source_ids": [
+        "banner",
+        "swim"
+      ],
+      "evidence": "Inspected the district group photograph and the Class II championship banner. MHSAA lists the co-champions at 85 and Pontotoc\u2019s three relay scores at 14, 18 and 12.",
+      "statistics": "85 apiece; 44 relay points.",
+      "date_context": "District photos posted Friday, Nov. 20, 2026. The state meet was October 17, 2026.",
+      "locality": "Pontotoc City School District, with state swimming finals at the Tupelo Aquatic Center.",
+      "identities": "Pontotoc boys swim team, Pearl River Central and Mississippi High School Activities Association."
+    },
+    {
+      "id": "f2",
+      "statement": "The Warriors\u2019 relay win came in the 200-yard freestyle at the Oct. 17 finals in Tupelo. Carson Poynor, Cason Cruse, Elijah Farris and Thomas Jefcoat finished in 1:39.87, nearly three seconds ahead of runner-up Warren Central. The win was worth 18 points. Pearl River Central finished fourth and earned 10.",
+      "source_ids": [
+        "swim"
+      ],
+      "evidence": "Class II event 32 lists PHS-MS, all four swimmers and the time. Warren Central swam 1:42.63; the margin was 2.76 seconds. Pearl River Central placed fourth.",
+      "statistics": "1:39.87; 18 points; 10 points.",
+      "date_context": "District photos posted Friday, Nov. 20, 2026. The state meet was October 17, 2026.",
+      "locality": "Pontotoc City School District, with state swimming finals at the Tupelo Aquatic Center.",
+      "identities": "Pontotoc boys swim team, Pearl River Central and Mississippi High School Activities Association."
+    },
+    {
+      "id": "f3",
+      "statement": "Jefcoat and Poynor also swam the 200 medley relay with Jett Pollard and Liam Rackley. They took second in 1:58.75, just under half a second ahead of Warren Central\u2019s 1:59.22. Pearl River Central won that event in 1:53.16.",
+      "source_ids": [
+        "swim"
+      ],
+      "evidence": "Class II event 4 finals include the four athletes, the first three times and 14 points for Pontotoc.",
+      "statistics": "1:58.75; 1:59.22; 1:53.16.",
+      "date_context": "District photos posted Friday, Nov. 20, 2026. The state meet was October 17, 2026.",
+      "locality": "Pontotoc City School District, with state swimming finals at the Tupelo Aquatic Center.",
+      "identities": "Pontotoc boys swim team, Pearl River Central and Mississippi High School Activities Association."
+    },
+    {
+      "id": "f4",
+      "statement": "The two teams went into the last boys relay six points apart. Pearl River Central won the 400 freestyle for 18 points. Cruse, Jake Cooley, Farris and Rackley finished third for Pontotoc in 3:57.55, earning the 12 points that left the teams level. West Jones finished third in the team standings with 77\u00bd.",
+      "source_ids": [
+        "swim"
+      ],
+      "evidence": "Final event 44 awards 18 for first and 12 for third. Subtracting those from each final total of 85 gives 67 and 73 before that relay. West Jones final score is 77.5.",
+      "statistics": "18; 12; 3:57.55; 85; 77.5.",
+      "date_context": "District photos posted Friday, Nov. 20, 2026. The state meet was October 17, 2026.",
+      "locality": "Pontotoc City School District, with state swimming finals at the Tupelo Aquatic Center.",
+      "identities": "Pontotoc boys swim team, Pearl River Central and Mississippi High School Activities Association."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc\u2019s boys swim team gathered behind a red state championship banner, with the trophy on the grass in front of them, in photos the school district shared Friday. The state meet results tell how close that title was. Pontotoc and Pearl River Central finished with 85 points apiece, and three relays supplied 44 of the Warriors\u2019 points.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The Warriors\u2019 relay win came in the 200-yard freestyle at the Oct. 17 finals in Tupelo. Carson Poynor, Cason Cruse, Elijah Farris and Thomas Jefcoat finished in 1:39.87, nearly three seconds ahead of runner-up Warren Central. The win was worth 18 points. Pearl River Central finished fourth and earned 10.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Jefcoat and Poynor also swam the 200 medley relay with Jett Pollard and Liam Rackley. They took second in 1:58.75, just under half a second ahead of Warren Central\u2019s 1:59.22. Pearl River Central won that event in 1:53.16.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "The two teams went into the last boys relay six points apart. Pearl River Central won the 400 freestyle for 18 points. Cruse, Jake Cooley, Farris and Rackley finished third for Pontotoc in 3:57.55, earning the 12 points that left the teams level. West Jones finished third in the team standings with 77\u00bd.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-swimmers-relay-points-state-championship-banner.png",
+    "sha256": "20fa2da8172b97ce2f1b7cd3639fd85711dd01134966b19f7afbc98fda0f609d",
+    "alt_text": "Pontotoc earned 14 points in the 200 medley relay, 18 in the 200 freestyle and 12 in the 400 freestyle in its 85-point state championship tie.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News evening desk",
+    "reviewed_at": "2026-11-22T01:41:46.489818+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2",
+      "f3",
+      "f4"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f3",
+      "f4"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 21 evening editorial shift. Publish the identical reviewed article after authenticated preflight and final review."
+  }
+}
