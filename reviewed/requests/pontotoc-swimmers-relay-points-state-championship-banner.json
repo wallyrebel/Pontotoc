@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-swimmers-relay-points-state-championship-banner.json",
   "article_sha256": "dfd16bdabc57d028666ad66b36c346093290119e41ca6db5f13efbed967694c9",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-swimmers-relay-points-state-championship-banner",
   "seo_review": {
     "reviewer": "Pontotoc News evening desk",
