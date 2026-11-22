@@ -1,0 +1,168 @@
+{
+  "title": "Gambrel wins in 15 seconds, Pate pins both opponents for North Pontotoc",
+  "excerpt": "Layla Gambrel won at 165 pounds and McKinzie Pate won twice at 235 in Tupelo. Aden Harden had the Vikings\u2019 quickest boys pin against Starkville.",
+  "locality": "North Pontotoc High School in Ecru, competing at the Tupelo tri-meet.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:north-pontotoc:wrestling:2026-11-19:tupelo-starkville-tri-meet"
+  ],
+  "sources": [
+    {
+      "id": "mat1",
+      "title": "Tupelo tri-meet results, girls\u2019 opening weights",
+      "url": "https://www.usawmembership.com/usaw_results/20295/results",
+      "publisher": "USA Wrestling",
+      "role": "event",
+      "verified_at": "2026-11-22T22:04:33.655275+00:00",
+      "verification_url": "https://www.usawmembership.com/usaw_results/20295/results",
+      "published_at": null
+    },
+    {
+      "id": "mat2",
+      "title": "Girls\u2019 upper weights and boys\u2019 opening weights",
+      "url": "https://www.usawmembership.com/usaw_results/20295/results?page=2",
+      "publisher": "USA Wrestling",
+      "role": "event",
+      "verified_at": "2026-11-22T22:04:33.655275+00:00",
+      "verification_url": "https://www.usawmembership.com/usaw_results/20295/results?page=2",
+      "published_at": null
+    },
+    {
+      "id": "mat3",
+      "title": "Boys\u2019 middle and upper weights",
+      "url": "https://www.usawmembership.com/usaw_results/20295/results?page=3",
+      "publisher": "USA Wrestling",
+      "role": "event",
+      "verified_at": "2026-11-22T22:04:33.655275+00:00",
+      "verification_url": "https://www.usawmembership.com/usaw_results/20295/results?page=3",
+      "published_at": null
+    },
+    {
+      "id": "mat4",
+      "title": "Final heavyweight results",
+      "url": "https://www.usawmembership.com/usaw_results/20295/results?page=4",
+      "publisher": "USA Wrestling",
+      "role": "event",
+      "verified_at": "2026-11-22T22:04:33.655275+00:00",
+      "verification_url": "https://www.usawmembership.com/usaw_results/20295/results?page=4",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "North Pontotoc\u2019s Layla Gambrel pinned Tupelo\u2019s Ivy Turnbo in 15 seconds at 165 pounds Thursday. Teammate McKinzie Pate won twice at 235 pounds, pinning an opponent from each of the other schools at the Nov. 19 wrestling meet in Tupelo.",
+      "source_ids": [
+        "mat2"
+      ],
+      "evidence": "Girls at 165 and 235. Gambrel also has a separate forfeit, excluded here.",
+      "statistics": "0:15; 165 and 235 pounds.",
+      "date_context": "Thursday, Nov. 19, 2026. Match times are elapsed minutes and seconds.",
+      "locality": "North Pontotoc High School in Ecru, competing at the Tupelo tri-meet.",
+      "identities": "North Pontotoc, Tupelo and Starkville varsity wrestlers as listed on the official results."
+    },
+    {
+      "id": "f2",
+      "statement": "Pate pinned Starkville\u2019s London Zollicoffer in 2 minutes, 48 seconds and Tupelo\u2019s Gabriella Holland in 46 seconds. At 185, North Pontotoc\u2019s Tori Matthews went the distance against Starkville\u2019s Caileigh Nichols and won a 10\u20134 decision.",
+      "source_ids": [
+        "mat2"
+      ],
+      "evidence": "Two falls at 235 and a decision at girls 185.",
+      "statistics": "2:48; 0:46; 185 pounds; 10\u20134.",
+      "date_context": "Thursday, Nov. 19, 2026. Match times are elapsed minutes and seconds.",
+      "locality": "North Pontotoc High School in Ecru, competing at the Tupelo tri-meet.",
+      "identities": "North Pontotoc, Tupelo and Starkville varsity wrestlers as listed on the official results."
+    },
+    {
+      "id": "f3",
+      "statement": "At the lighter weights, Khloe Forman beat Starkville\u2019s Taylor Moody by fall in 37 seconds at 132. Khloe Holcomb at 100 pounds, Harper Dunn at 114 and Daysia Walker at 126 also pinned their Starkville opponents.",
+      "source_ids": [
+        "mat1"
+      ],
+      "evidence": "All four are individual contested falls with named opponents.",
+      "statistics": "0:37; 132, 100, 114 and 126 pounds.",
+      "date_context": "Thursday, Nov. 19, 2026. Match times are elapsed minutes and seconds.",
+      "locality": "North Pontotoc High School in Ecru, competing at the Tupelo tri-meet.",
+      "identities": "North Pontotoc, Tupelo and Starkville varsity wrestlers as listed on the official results."
+    },
+    {
+      "id": "f4",
+      "statement": "Aden Harden had North Pontotoc\u2019s quickest boys pin against Starkville, stopping Roman Mitchell in 25 seconds at 175 pounds. Carson Hale won by fall in 1:17 at 165. Haze Swords beat Starkville\u2019s Jake Ruhl 14\u20137 at 106, and Jesus Lopez won a 9\u20132 decision against Jon Oliver at 132.",
+      "source_ids": [
+        "mat2",
+        "mat3",
+        "mat4"
+      ],
+      "evidence": "Compared every contested boys fall on pages 2 to 4 for the two named schools. Forfeits have no elapsed time.",
+      "statistics": "0:25 at 175; 1:17 at 165; 14\u20137 at 106; 9\u20132 at 132.",
+      "date_context": "Thursday, Nov. 19, 2026. Match times are elapsed minutes and seconds.",
+      "locality": "North Pontotoc High School in Ecru, competing at the Tupelo tri-meet.",
+      "identities": "North Pontotoc, Tupelo and Starkville varsity wrestlers as listed on the official results."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "North Pontotoc\u2019s Layla Gambrel pinned Tupelo\u2019s Ivy Turnbo in 15 seconds at 165 pounds Thursday. Teammate McKinzie Pate won twice at 235 pounds, pinning an opponent from each of the other schools at the Nov. 19 wrestling meet in Tupelo.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "Pate pinned Starkville\u2019s London Zollicoffer in 2 minutes, 48 seconds and Tupelo\u2019s Gabriella Holland in 46 seconds. At 185, North Pontotoc\u2019s Tori Matthews went the distance against Starkville\u2019s Caileigh Nichols and won a 10\u20134 decision.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "At the lighter weights, Khloe Forman beat Starkville\u2019s Taylor Moody by fall in 37 seconds at 132. Khloe Holcomb at 100 pounds, Harper Dunn at 114 and Daysia Walker at 126 also pinned their Starkville opponents.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "Aden Harden had North Pontotoc\u2019s quickest boys pin against Starkville, stopping Roman Mitchell in 25 seconds at 175 pounds. Carson Hale won by fall in 1:17 at 165. Haze Swords beat Starkville\u2019s Jake Ruhl 14\u20137 at 106, and Jesus Lopez won a 9\u20132 decision against Jon Oliver at 132.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/north-pontotoc-gambrel-pate-tupelo-tri-meet.png",
+    "sha256": "37e3fd89d5c5387b2e1992debc4e31b3ebc6403a788cb19f493b64a52f16f04d",
+    "alt_text": "Layla Gambrel pinned in 15 seconds, McKinzie Pate pinned in 2:48 and 0:46, and Aden Harden pinned in 25 seconds.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-22T22:04:33.655275+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f4"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 22, 2026 afternoon editorial shift. Publish this identical article after successful authenticated preflight and final review."
+  }
+}
