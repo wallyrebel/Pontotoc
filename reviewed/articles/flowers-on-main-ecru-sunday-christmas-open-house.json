@@ -1,0 +1,140 @@
+{
+  "title": "Flowers On Main in Ecru sets Sunday open house for 1 to 4 p.m.",
+  "excerpt": "The florist at 399 Main St. will tie bows on site. Its event overlaps with the Chamber\u2019s Christmas open house in Pontotoc, which runs noon to 5 p.m.",
+  "locality": "Ecru and Pontotoc, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:ecru:flowers-on-main:2026-11-22:christmas-open-house"
+  ],
+  "sources": [
+    {
+      "id": "ecru",
+      "title": "Town of Ecru\u2019s open house notice and dated flyer",
+      "url": "https://www.facebook.com/1204361708550928/posts/1471420618511701",
+      "publisher": "Town of Ecru",
+      "role": "event",
+      "verified_at": "2026-11-22T15:10:15.435176+00:00",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7mX75E8w6.rss",
+      "published_at": "2026-11-21T21:09:41+00:00"
+    },
+    {
+      "id": "shop",
+      "title": "Flowers On Main address and telephone",
+      "url": "https://www.flowershopdirectory.com/ms/ecru/flowers-on-main.html",
+      "publisher": "Flower Shop Directory",
+      "role": "background",
+      "verified_at": "2026-11-22T15:10:15.435176+00:00",
+      "verification_url": "https://www.flowershopdirectory.com/ms/ecru/flowers-on-main.html",
+      "published_at": null
+    },
+    {
+      "id": "chamber",
+      "title": "Christmas open house hours in Pontotoc",
+      "url": "https://pontotocchamber.com/event-page-in-progress/",
+      "publisher": "Pontotoc County Chamber Main Street",
+      "role": "background",
+      "verified_at": "2026-11-22T15:10:15.435176+00:00",
+      "verification_url": "https://pontotocchamber.com/event-page-in-progress/",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Flowers On Main will hold its ninth annual Christmas open house from 1 to 4 p.m. Sunday, Nov. 22, at 399 Main St. in Ecru. The town shared the florist\u2019s invitation Saturday. The date and hours appear on the accompanying flyer.",
+      "source_ids": [
+        "ecru",
+        "shop"
+      ],
+      "evidence": "Inspected the dated flyer. The post calls it the ninth annual event. Its pickup number exactly matches the florist\u2019s address and telephone listing.",
+      "statistics": "Ninth annual; Nov. 22; 1\u20134 p.m.; 399 Main St.",
+      "date_context": "Town notice shared Saturday, November 21. Both events take place Sunday, November 22, 2026, Central time.",
+      "locality": "Ecru and Pontotoc, Mississippi.",
+      "identities": "Flowers On Main, Town of Ecru and Pontotoc County Chamber Main Street."
+    },
+    {
+      "id": "f2",
+      "statement": "Staff will tie tree-topper bows and other bows on site. The shop will also take orders for silk cemetery arrangements, and the flyer lists mailbox toppers at $25. Anyone hoping to pick up an order during the open house can call the shop ahead at 662-200-2676.",
+      "source_ids": [
+        "ecru",
+        "shop"
+      ],
+      "evidence": "The flyer lists on-site bows, cemetery silks orders and $25 mailbox toppers. The caption invites advance pickup requests and supplies the shop number.",
+      "statistics": "$25; 662-200-2676.",
+      "date_context": "Town notice shared Saturday, November 21. Both events take place Sunday, November 22, 2026, Central time.",
+      "locality": "Ecru and Pontotoc, Mississippi.",
+      "identities": "Flowers On Main, Town of Ecru and Pontotoc County Chamber Main Street."
+    },
+    {
+      "id": "f3",
+      "statement": "Shoppers planning stops in both towns have a wider window in Pontotoc. The county Chamber lists its city Christmas open house from noon to 5 p.m., starting an hour before the Ecru florist opens and ending an hour after it closes.",
+      "source_ids": [
+        "ecru",
+        "chamber"
+      ],
+      "evidence": "The Chamber\u2019s November 22 entry gives noon\u20135 in Pontotoc, compared with 1\u20134 on the Ecru flyer.",
+      "statistics": "Noon\u20135 p.m.; one hour earlier and one hour later.",
+      "date_context": "Town notice shared Saturday, November 21. Both events take place Sunday, November 22, 2026, Central time.",
+      "locality": "Ecru and Pontotoc, Mississippi.",
+      "identities": "Flowers On Main, Town of Ecru and Pontotoc County Chamber Main Street."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Flowers On Main will hold its ninth annual Christmas open house from 1 to 4 p.m. Sunday, Nov. 22, at 399 Main St. in Ecru. The town shared the florist\u2019s invitation Saturday. The date and hours appear on the accompanying flyer.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "Staff will tie tree-topper bows and other bows on site. The shop will also take orders for silk cemetery arrangements, and the flyer lists mailbox toppers at $25. Anyone hoping to pick up an order during the open house can call the shop ahead at 662-200-2676.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Shoppers planning stops in both towns have a wider window in Pontotoc. The county Chamber lists its city Christmas open house from noon to 5 p.m., starting an hour before the Ecru florist opens and ending an hour after it closes.",
+      "fact_ids": [
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/flowers-on-main-ecru-sunday-christmas-open-house.png",
+    "sha256": "6f83988fc83e4f778a733e90d6d78fb1424d52a33909f8542d84c90b587dd626",
+    "alt_text": "Flowers On Main\u2019s November 22 open house runs 1 to 4 p.m. at 399 Main Street in Ecru. Pickup inquiries go to 662-200-2676.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-22T15:10:15.435176+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 22, 2026 Pontotoc morning editorial shift. Publish the identical reviewed package after authenticated preflight."
+  }
+}
