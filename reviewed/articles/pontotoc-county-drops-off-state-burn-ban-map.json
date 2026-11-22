@@ -1,0 +1,161 @@
+{
+  "title": "Pontotoc County drops off Mississippi\u2019s burn-ban map after Friday\u2019s expiration date",
+  "excerpt": "The state map still marks Lee, Chickasaw and Calhoun counties. The latest drought figures put more than a fifth of Pontotoc County in exceptional drought.",
+  "locality": "Pontotoc County and neighboring Lee, Chickasaw and Calhoun counties, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:forestry:2026-11-20:county-ban-expiration-map-update"
+  ],
+  "sources": [
+    {
+      "id": "banmap",
+      "title": "Forestry Commission county burn-ban map in effect at the Sunday check",
+      "url": "https://www.mfc.ms.gov/wp-content/uploads/2026/11/County-Burn-Bans-NEW-2026-11-20T230107.957-1024x1024.png",
+      "publisher": "Mississippi Forestry Commission",
+      "role": "event",
+      "verified_at": "2026-11-22T15:17:23.304309+00:00",
+      "verification_url": "https://www.mfc.ms.gov/wp-content/uploads/2026/11/County-Burn-Bans-NEW-2026-11-20T230107.957-1024x1024.png",
+      "published_at": null
+    },
+    {
+      "id": "bansource",
+      "title": "Commission\u2019s current burn-ban page and expiration policy",
+      "url": "https://www.mfc.ms.gov/burning-info/burn-bans/",
+      "publisher": "Mississippi Forestry Commission",
+      "role": "background",
+      "verified_at": "2026-11-22T15:17:23.304309+00:00",
+      "verification_url": "https://www.mfc.ms.gov/burning-info/burn-bans/",
+      "published_at": null
+    },
+    {
+      "id": "banarchive",
+      "title": "November 18 reporting on the previous county order",
+      "url": "https://pontotocnews.com/pontotoc-news/ecru-prescribed-burn-pontotoc-county-november-17/",
+      "publisher": "Pontotoc News",
+      "role": "background",
+      "verified_at": "2026-11-22T15:17:23.304309+00:00",
+      "verification_url": "https://pontotocnews.com/pontotoc-news/ecru-prescribed-burn-pontotoc-county-november-17/",
+      "published_at": null
+    },
+    {
+      "id": "droughtpercent",
+      "title": "Pontotoc County drought measurements for November 10 and 17",
+      "url": "https://usdmdataservices.unl.edu/api/CountyStatistics/GetDroughtSeverityStatisticsByAreaPercent?aoi=28115&startdate=11/10/2026&enddate=11/17/2026&statisticsType=1",
+      "publisher": "U.S. Drought Monitor",
+      "role": "background",
+      "verified_at": "2026-11-22T15:17:23.304309+00:00",
+      "verification_url": "https://usdmdataservices.unl.edu/api/CountyStatistics/GetDroughtSeverityStatisticsByAreaPercent?aoi=28115&startdate=11/10/2026&enddate=11/17/2026&statisticsType=1",
+      "published_at": null
+    },
+    {
+      "id": "board",
+      "title": "Pontotoc County Board of Supervisors contact information",
+      "url": "https://www.mssupervisors.org/ms-counties/pontotoc",
+      "publisher": "Mississippi Association of Supervisors",
+      "role": "background",
+      "verified_at": "2026-11-22T15:17:23.304309+00:00",
+      "verification_url": "https://www.mssupervisors.org/ms-counties/pontotoc",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc County was off the Mississippi Forestry Commission\u2019s county burn-ban map Sunday morning. The commission had previously listed the order through Friday, Nov. 20. Its policy sets expiration at midnight on the date listed.",
+      "source_ids": [
+        "banmap",
+        "bansource",
+        "banarchive"
+      ],
+      "evidence": "Inspected the current commission map and its county labels, checked the posted midnight rule and compared the November 18 report of the earlier table.",
+      "statistics": "Friday, Nov. 20; midnight; Sunday, Nov. 22.",
+      "date_context": "Commission map checked Sunday morning, November 22, after the previously listed November 20 expiration. Drought conditions as of November 17, 2026.",
+      "locality": "Pontotoc County and neighboring Lee, Chickasaw and Calhoun counties, Mississippi.",
+      "identities": "Mississippi Forestry Commission, U.S. Drought Monitor and Pontotoc County Board of Supervisors."
+    },
+    {
+      "id": "f2",
+      "statement": "The change stops at the county line. The commission still marks Lee County to the east and Chickasaw and Calhoun counties to the south. Residents with questions about a new Pontotoc County order can reach the Board of Supervisors at 662-489-3900. The commission says county boards generally request bans and the agency approves them.",
+      "source_ids": [
+        "banmap",
+        "board",
+        "bansource"
+      ],
+      "evidence": "Read the three neighboring red county labels on the official map. Cross-checked the board telephone in the association directory and the respective roles on the commission page.",
+      "statistics": "662-489-3900; three neighboring counties shown.",
+      "date_context": "Commission map checked Sunday morning, November 22, after the previously listed November 20 expiration. Drought conditions as of November 17, 2026.",
+      "locality": "Pontotoc County and neighboring Lee, Chickasaw and Calhoun counties, Mississippi.",
+      "identities": "Mississippi Forestry Commission, U.S. Drought Monitor and Pontotoc County Board of Supervisors."
+    },
+    {
+      "id": "f3",
+      "statement": "Dry conditions persist across Pontotoc County. In the Nov. 17 U.S. Drought Monitor figures, 22.75% of the county\u2019s land was in exceptional drought, up from 13.36% a week earlier. The share in extreme drought or worse reached 87.77%. The state map tracks county orders, while the drought figures describe conditions on the ground.",
+      "source_ids": [
+        "droughtpercent",
+        "banmap"
+      ],
+      "evidence": "D4 is exceptional and D3 or worse is extreme or exceptional. Used the Pontotoc County FIPS 28115 rows for Nov. 10 and Nov. 17.",
+      "statistics": "22.75%, 13.36%, 87.77%; Nov. 10 and Nov. 17.",
+      "date_context": "Commission map checked Sunday morning, November 22, after the previously listed November 20 expiration. Drought conditions as of November 17, 2026.",
+      "locality": "Pontotoc County and neighboring Lee, Chickasaw and Calhoun counties, Mississippi.",
+      "identities": "Mississippi Forestry Commission, U.S. Drought Monitor and Pontotoc County Board of Supervisors."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc County was off the Mississippi Forestry Commission\u2019s county burn-ban map Sunday morning. The commission had previously listed the order through Friday, Nov. 20. Its policy sets expiration at midnight on the date listed.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The change stops at the county line. The commission still marks Lee County to the east and Chickasaw and Calhoun counties to the south. Residents with questions about a new Pontotoc County order can reach the Board of Supervisors at 662-489-3900. The commission says county boards generally request bans and the agency approves them.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Dry conditions persist across Pontotoc County. In the Nov. 17 U.S. Drought Monitor figures, 22.75% of the county\u2019s land was in exceptional drought, up from 13.36% a week earlier. The share in extreme drought or worse reached 87.77%. The state map tracks county orders, while the drought figures describe conditions on the ground.",
+      "fact_ids": [
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-county-drops-off-state-burn-ban-map.png",
+    "sha256": "5c910a06c5f343bf5a264c9c88e7e15d0e787b77be6167a3b78294e075c24f9e",
+    "alt_text": "The state\u2019s November 22 map check shows no county ban for Pontotoc and shows bans for Lee, Chickasaw and Calhoun counties.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-22T15:17:23.304309+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f2",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 22, 2026 Pontotoc morning editorial shift. Publish the identical reviewed package after authenticated preflight."
+  }
+}

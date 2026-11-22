@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-county-drops-off-state-burn-ban-map.json",
+  "article_sha256": "0b014b7521f2be23a378e8fd10579e0ca6b5422990da7e1e4239186db8f9994d",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-county-drops-off-state-burn-ban-map",
+  "seo_review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-22T15:17:23.304309+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}
