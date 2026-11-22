@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/north-pontotoc-gambrel-pate-tupelo-tri-meet.json",
   "article_sha256": "02f13d0474c1439efdf2fd8a0f36edcbe828a0d029565e8a92dfd43b4b14331c",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "north-pontotoc-gambrel-pate-tupelo-tri-meet",
   "seo_review": {
     "reviewer": "Pontotoc News afternoon desk",
