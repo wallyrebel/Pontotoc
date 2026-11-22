@@ -1,0 +1,181 @@
+{
+  "title": "Pontotoc High students weigh Ole Miss scholarships and tuition-free coding in Water Valley",
+  "excerpt": "Ole Miss lists Jan. 10 as the deadline for two freshman applications. Base Camp Coding Academy asks prospective students to apply and find someone to nominate them.",
+  "locality": "Pontotoc High School, with postsecondary options in Oxford and Water Valley, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc-high:2026-11-17:career-readiness-college-coding-visits"
+  ],
+  "sources": [
+    {
+      "id": "admit",
+      "title": "Pontotoc High visit by Ole Miss admissions counselor Maison Smith",
+      "url": "https://phs.pontotoc.school/apps/news/article/2256896?categoryId=17400",
+      "publisher": "Pontotoc High School",
+      "role": "event",
+      "verified_at": "2026-11-22T22:17:27.648959+00:00",
+      "verification_url": "https://phs.pontotoc.school/apps/news/article/2256896?categoryId=17400",
+      "published_at": null
+    },
+    {
+      "id": "coding",
+      "title": "Pontotoc High visit by Base Camp director Sean Ennis",
+      "url": "https://phs.pontotoc.school/apps/news/article/2254372?categoryId=17400",
+      "publisher": "Pontotoc High School",
+      "role": "event",
+      "verified_at": "2026-11-22T22:17:27.648959+00:00",
+      "verification_url": "https://phs.pontotoc.school/apps/news/article/2254372?categoryId=17400",
+      "published_at": null
+    },
+    {
+      "id": "admissionsdates",
+      "title": "Fall 2027 application and orientation dates",
+      "url": "https://olemiss.edu/admissions/request-information/",
+      "publisher": "University of Mississippi",
+      "role": "background",
+      "verified_at": "2026-11-22T22:17:27.648959+00:00",
+      "verification_url": "https://olemiss.edu/admissions/request-information/",
+      "published_at": null
+    },
+    {
+      "id": "campapp",
+      "title": "Base Camp student application and nomination requirements",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSfY5xK5YUdItBgXdW3Ut-vwXzaIvMLldyvh6EN0KPHKBsMREg/viewform?usp=dialog",
+      "publisher": "Base Camp Coding Academy",
+      "role": "background",
+      "verified_at": "2026-11-22T22:17:27.648959+00:00",
+      "verification_url": "https://docs.google.com/forms/d/e/1FAIpQLSfY5xK5YUdItBgXdW3Ut-vwXzaIvMLldyvh6EN0KPHKBsMREg/viewform?usp=dialog",
+      "published_at": null
+    },
+    {
+      "id": "campnom",
+      "title": "Base Camp nomination form and interview process",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSeYvotFFGCVcbSArEV-OmfPbA9thHUtszlSSwnVps5-dHqiwQ/viewform?usp=dialog",
+      "publisher": "Base Camp Coding Academy",
+      "role": "background",
+      "verified_at": "2026-11-22T22:17:27.648959+00:00",
+      "verification_url": "https://docs.google.com/forms/d/e/1FAIpQLSeYvotFFGCVcbSArEV-OmfPbA9thHUtszlSSwnVps5-dHqiwQ/viewform?usp=dialog",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc High School\u2019s college and career readiness classes heard this month from two people who help students take their next step after graduation. Maison Smith, the Ole Miss admissions counselor for Northeast Mississippi, explained university applications and scholarships. In a separate visit, Base Camp Coding Academy director Sean Ennis described a tuition-free route into software development in Water Valley.",
+      "source_ids": [
+        "admit",
+        "coding",
+        "campnom"
+      ],
+      "evidence": "The two local school accounts identify the speakers, their roles, separate visits and topics. The academy confirms tuition coverage for admitted applicants.",
+      "statistics": "Two visits in November.",
+      "date_context": "School reports dated Nov. 10 and 17, 2026. University deadlines are for fall 2027 entry. The academy application asks about June 2027.",
+      "locality": "Pontotoc High School, with postsecondary options in Oxford and Water Valley, Mississippi.",
+      "identities": "Pontotoc High School college and career readiness classes, admissions counselor Maison Smith and Base Camp director Sean Ennis."
+    },
+    {
+      "id": "f2",
+      "statement": "For students considering Ole Miss in fall 2027, Jan. 10 is the deadline for both the Freshman Scholarship Application and the Competitive Academic Programs Application. The university advises applicants that processing an admission application can take three to four weeks at peak times once it has all the materials.",
+      "source_ids": [
+        "admissionsdates"
+      ],
+      "evidence": "The fall 2027 timeline identifies the pair of Jan. 10 applications and gives the peak processing estimate for undergraduate admission.",
+      "statistics": "Fall 2027, Jan. 10, three to four weeks.",
+      "date_context": "School reports dated Nov. 10 and 17, 2026. University deadlines are for fall 2027 entry. The academy application asks about June 2027.",
+      "locality": "Pontotoc High School, with postsecondary options in Oxford and Water Valley, Mississippi.",
+      "identities": "Pontotoc High School college and career readiness classes, admissions counselor Maison Smith and Base Camp director Sean Ennis."
+    },
+    {
+      "id": "f3",
+      "statement": "Smith also discussed housing, campus life and orientation, then quizzed students on their knowledge of Ole Miss. The university\u2019s housing application for fall 2027 opened Oct. 1. Orientation registration opens in March.",
+      "source_ids": [
+        "admit",
+        "admissionsdates"
+      ],
+      "evidence": "The school describes the visit and Kahoot game. The university calendar lists separate housing and orientation dates.",
+      "statistics": "Oct. 1, 2026, and March 2027.",
+      "date_context": "School reports dated Nov. 10 and 17, 2026. University deadlines are for fall 2027 entry. The academy application asks about June 2027.",
+      "locality": "Pontotoc High School, with postsecondary options in Oxford and Water Valley, Mississippi.",
+      "identities": "Pontotoc High School college and career readiness classes, admissions counselor Maison Smith and Base Camp director Sean Ennis."
+    },
+    {
+      "id": "f4",
+      "statement": "Base Camp holds classes in person in Water Valley, so applicants must be able to commute. The academy says applicants can start without programming experience. To get an interview, a student must submit an application and have a former teacher, employer or another qualified person submit a nomination. Friends and relatives cannot serve as nominators.",
+      "source_ids": [
+        "campapp",
+        "campnom",
+        "coding"
+      ],
+      "evidence": "Both public forms are linked by the academy. Cross-checked the commuting rule, experience requirement, exclusions and two submissions before the first interview.",
+      "statistics": "Two submissions before an interview.",
+      "date_context": "School reports dated Nov. 10 and 17, 2026. University deadlines are for fall 2027 entry. The academy application asks about June 2027.",
+      "locality": "Pontotoc High School, with postsecondary options in Oxford and Water Valley, Mississippi.",
+      "identities": "Pontotoc High School college and career readiness classes, admissions counselor Maison Smith and Base Camp director Sean Ennis."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc High School\u2019s college and career readiness classes heard this month from two people who help students take their next step after graduation. Maison Smith, the Ole Miss admissions counselor for Northeast Mississippi, explained university applications and scholarships. In a separate visit, Base Camp Coding Academy director Sean Ennis described a tuition-free route into software development in Water Valley.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "For students considering Ole Miss in fall 2027, Jan. 10 is the deadline for both the Freshman Scholarship Application and the Competitive Academic Programs Application. The university advises applicants that processing an admission application can take three to four weeks at peak times once it has all the materials.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Smith also discussed housing, campus life and orientation, then quizzed students on their knowledge of Ole Miss. The university\u2019s housing application for fall 2027 opened Oct. 1. Orientation registration opens in March.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "Base Camp holds classes in person in Water Valley, so applicants must be able to commute. The academy says applicants can start without programming experience. To get an interview, a student must submit an application and have a former teacher, employer or another qualified person submit a nomination. Friends and relatives cannot serve as nominators.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-high-ole-miss-scholarships-base-camp-coding.png",
+    "sha256": "4b2eb07349481f1337a6926ad9f8aead59b1472343afbec78468680fad13a2f2",
+    "alt_text": "Ole Miss freshman scholarship and competitive academic program forms are due January 10. Base Camp requires a student application and a nomination for its in-person program in Water Valley.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-22T22:17:27.648959+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2",
+      "f4"
+    ],
+    "excerpt_fact_ids": [
+      "f2",
+      "f4"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 22, 2026 afternoon editorial shift. Publish this identical article after successful authenticated preflight and final review."
+  }
+}
