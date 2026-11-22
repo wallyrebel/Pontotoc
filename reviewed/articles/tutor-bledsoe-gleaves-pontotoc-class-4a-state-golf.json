@@ -1,0 +1,146 @@
+{
+  "title": "Logan Tutor ties for 12th, Grady Bledsoe for 18th at Class 4A state golf",
+  "excerpt": "Two strokes separated South Pontotoc\u2019s Tutor and North Pontotoc\u2019s Bledsoe over 36 holes. South Pontotoc freshman Maddox Gleaves cut six strokes in the second round.",
+  "locality": "South Pontotoc and North Pontotoc high schools. The championship was held in Choctaw, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:2026-10-26:boys-class-4a-state-golf"
+  ],
+  "sources": [
+    {
+      "id": "scores",
+      "title": "MHSAA individual scorecard for Class 4A at Dancing Rabbit",
+      "url": "https://www.misshsaa.com/2026/11/22/ripley-wins-2026-boys-class-2a-golf-championship/",
+      "publisher": "Mississippi High School Activities Association",
+      "role": "event",
+      "verified_at": "2026-11-22T19:39:23.330815+00:00",
+      "verification_url": "https://www.misshsaa.com/2026/11/22/ripley-wins-2026-boys-class-2a-golf-championship/",
+      "published_at": "2026-11-22T17:41:55+00:00"
+    },
+    {
+      "id": "venue",
+      "title": "2026 Mississippi golf championship host sites",
+      "url": "https://www.misshsaa.com/2026/10/19/2026-golf-championship-host-sites/",
+      "publisher": "Mississippi High School Activities Association",
+      "role": "background",
+      "verified_at": "2026-11-22T19:39:23.330815+00:00",
+      "verification_url": "https://www.misshsaa.com/2026/10/19/2026-golf-championship-host-sites/",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "South Pontotoc senior Logan Tutor and North Pontotoc sophomore Grady Bledsoe finished two strokes apart at the Class 4A boys state golf championship. Tutor tied for 12th at 166 and Bledsoe tied for 18th at 168. The Mississippi High School Activities Association published the full results Sunday for the October tournament at Dancing Rabbit Golf Club in Choctaw.",
+      "source_ids": [
+        "scores",
+        "venue"
+      ],
+      "evidence": "The embedded 4A scorecard gives players, grades, rounds, venue and ranks. The separate host list assigns boys 4A to Dancing Rabbit and 2A to The Club at Ole Brook.",
+      "statistics": "T12, 166; T18, 168; two-stroke difference.",
+      "date_context": "Championship beginning October 26, 2026. The association published the detailed scorecard on Sunday, November 22, 2026.",
+      "locality": "South Pontotoc and North Pontotoc high schools. The championship was held in Choctaw, Mississippi.",
+      "identities": "Logan Tutor and Maddox Gleaves of South Pontotoc, Grady Bledsoe of North Pontotoc, and Spencer Kirk of Tishomingo County."
+    },
+    {
+      "id": "f2",
+      "statement": "Tutor opened with an 82 on the first 18 holes, three shots better than Bledsoe\u2019s 85. Bledsoe made one of those shots back in the second round, shooting 83 to Tutor\u2019s 84. Both finished in the top 20 of the 72 golfers who turned in two completed rounds.",
+      "source_ids": [
+        "scores"
+      ],
+      "evidence": "Individual rankings show both two-round lines. Scorecard explicitly counts 72 two-round finishers.",
+      "statistics": "82, 84; 85, 83; 72 finishers.",
+      "date_context": "Championship beginning October 26, 2026. The association published the detailed scorecard on Sunday, November 22, 2026.",
+      "locality": "South Pontotoc and North Pontotoc high schools. The championship was held in Choctaw, Mississippi.",
+      "identities": "Logan Tutor and Maddox Gleaves of South Pontotoc, Grady Bledsoe of North Pontotoc, and Spencer Kirk of Tishomingo County."
+    },
+    {
+      "id": "f3",
+      "statement": "South Pontotoc freshman Maddox Gleaves made the biggest second-round improvement of the three county golfers. He followed an opening 96 with a 90 to finish 45th at 186.",
+      "source_ids": [
+        "scores"
+      ],
+      "evidence": "Gleaves is the third and last North or South Pontotoc entry on the individual scorecard. Compared round-by-round changes for the three.",
+      "statistics": "96, 90, 186, six strokes, 45th.",
+      "date_context": "Championship beginning October 26, 2026. The association published the detailed scorecard on Sunday, November 22, 2026.",
+      "locality": "South Pontotoc and North Pontotoc high schools. The championship was held in Choctaw, Mississippi.",
+      "identities": "Logan Tutor and Maddox Gleaves of South Pontotoc, Grady Bledsoe of North Pontotoc, and Spencer Kirk of Tishomingo County."
+    },
+    {
+      "id": "f4",
+      "statement": "Tishomingo County sophomore Spencer Kirk won the individual title at 147, seven strokes ahead of two Ripley golfers who shared second. Ripley won the team title with 642 strokes. Neither Pontotoc County school appears in the 11-team standings.",
+      "source_ids": [
+        "scores"
+      ],
+      "evidence": "Scorecard lists Kirk first, two Ripley golfers at 154, and 11 ranked teams. Neither North nor South Pontotoc appears in that team table.",
+      "statistics": "147, 154, seven strokes; team score 642; 11 teams.",
+      "date_context": "Championship beginning October 26, 2026. The association published the detailed scorecard on Sunday, November 22, 2026.",
+      "locality": "South Pontotoc and North Pontotoc high schools. The championship was held in Choctaw, Mississippi.",
+      "identities": "Logan Tutor and Maddox Gleaves of South Pontotoc, Grady Bledsoe of North Pontotoc, and Spencer Kirk of Tishomingo County."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "South Pontotoc senior Logan Tutor and North Pontotoc sophomore Grady Bledsoe finished two strokes apart at the Class 4A boys state golf championship. Tutor tied for 12th at 166 and Bledsoe tied for 18th at 168. The Mississippi High School Activities Association published the full results Sunday for the October tournament at Dancing Rabbit Golf Club in Choctaw.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "Tutor opened with an 82 on the first 18 holes, three shots better than Bledsoe\u2019s 85. Bledsoe made one of those shots back in the second round, shooting 83 to Tutor\u2019s 84. Both finished in the top 20 of the 72 golfers who turned in two completed rounds.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "South Pontotoc freshman Maddox Gleaves made the biggest second-round improvement of the three county golfers. He followed an opening 96 with a 90 to finish 45th at 186.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "Tishomingo County sophomore Spencer Kirk won the individual title at 147, seven strokes ahead of two Ripley golfers who shared second. Ripley won the team title with 642 strokes. Neither Pontotoc County school appears in the 11-team standings.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/tutor-bledsoe-gleaves-pontotoc-class-4a-state-golf.png",
+    "sha256": "8a565a5affe94e29b9a57a793676bdfc7961ad20cd9408162db98bdbda18ed6b",
+    "alt_text": "Class 4A boys golf scores. Logan Tutor tied for 12th at 166, Grady Bledsoe tied for 18th at 168, and Maddox Gleaves finished 45th at 186.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News supplemental desk",
+    "reviewed_at": "2026-11-22T19:39:23.330815+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 22 supplemental editorial shift. Publish this reviewed article following authenticated preflight and final verification."
+  }
+}
