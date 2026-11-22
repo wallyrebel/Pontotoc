@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/tutor-bledsoe-gleaves-pontotoc-class-4a-state-golf.json",
   "article_sha256": "16d548064b61a93a759b43e5b3f9dc5bcf194853b1aa4562b50cc531739cac53",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "tutor-bledsoe-gleaves-pontotoc-class-4a-state-golf",
   "seo_review": {
     "reviewer": "Pontotoc News supplemental desk",
