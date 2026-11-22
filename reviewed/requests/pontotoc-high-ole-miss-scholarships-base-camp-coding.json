@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-high-ole-miss-scholarships-base-camp-coding.json",
   "article_sha256": "2e5fb6930d4d3df90d80a025643cf92d8789d35859b66174e5e69da98cbd57c9",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-high-ole-miss-scholarships-base-camp-coding",
   "seo_review": {
     "reviewer": "Pontotoc News afternoon desk",
