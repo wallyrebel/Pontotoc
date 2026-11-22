@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-sixth-graders-garden-harvest-trace-state-park-leaves.json",
+  "article_sha256": "e9729f195fc5680ab1854bd6dad0217e639973bca2cc301e818fe339723d523e",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-sixth-graders-garden-harvest-trace-state-park-leaves",
+  "seo_review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-22T22:17:27.648959+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}

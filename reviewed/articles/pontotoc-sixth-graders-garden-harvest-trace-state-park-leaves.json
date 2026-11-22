@@ -1,0 +1,178 @@
+{
+  "title": "Pontotoc sixth graders fill two tubs at harvest and identify trees from Trace State Park",
+  "excerpt": "The middle school\u2019s agriculture students tended peppers and tomatoes in raised beds. Their next project uses leaves collected on campus and at the state park.",
+  "locality": "Pontotoc Middle School garden and Trace State Park, visited by the sixth grade.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc-middle:2026-11-20:fall-harvest-leaf-booklets"
+  ],
+  "sources": [
+    {
+      "id": "ag7",
+      "title": "School report on the final pepper and tomato harvest",
+      "url": "https://pms.pontotoc.school/apps/news/article/2257951?categoryId=17398",
+      "publisher": "Pontotoc Middle School",
+      "role": "event",
+      "verified_at": "2026-11-22T22:17:27.648959+00:00",
+      "verification_url": "https://pms.pontotoc.school/apps/news/article/2257951?categoryId=17398",
+      "published_at": null
+    },
+    {
+      "id": "ag8",
+      "title": "School report on the leaf identification booklets",
+      "url": "https://pms.pontotoc.school/apps/news/article/2258015?categoryId=17398",
+      "publisher": "Pontotoc Middle School",
+      "role": "event",
+      "verified_at": "2026-11-22T22:17:27.648959+00:00",
+      "verification_url": "https://pms.pontotoc.school/apps/news/article/2258015?categoryId=17398",
+      "published_at": null
+    },
+    {
+      "id": "ag4",
+      "title": "August report on eight donated tomato plants",
+      "url": "https://pms.pontotoc.school/apps/news/article/2223638?categoryId=17398",
+      "publisher": "Pontotoc Middle School",
+      "role": "background",
+      "verified_at": "2026-11-22T22:17:27.648959+00:00",
+      "verification_url": "https://pms.pontotoc.school/apps/news/article/2223638?categoryId=17398",
+      "published_at": null
+    },
+    {
+      "id": "ag1",
+      "title": "First week in the school\u2019s raised beds",
+      "url": "https://pms.pontotoc.school/apps/news/article/2217131?categoryId=17398",
+      "publisher": "Pontotoc Middle School",
+      "role": "background",
+      "verified_at": "2026-11-22T22:17:27.648959+00:00",
+      "verification_url": "https://pms.pontotoc.school/apps/news/article/2217131?categoryId=17398",
+      "published_at": null
+    },
+    {
+      "id": "agpark",
+      "title": "October sixth-grade science trip to Trace State Park",
+      "url": "https://pms.pontotoc.school/apps/news/article/2249354?categoryId=17398",
+      "publisher": "Pontotoc Middle School",
+      "role": "background",
+      "verified_at": "2026-11-22T22:17:27.648959+00:00",
+      "verification_url": "https://pms.pontotoc.school/apps/news/article/2249354?categoryId=17398",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc Middle School\u2019s sixth-grade agriculture students filled two tubs with peppers and tomatoes in their final harvest of the season, the school reported Nov. 19. A second report on Nov. 20 described what those students are doing with leaves they collected on campus and at Trace State Park.",
+      "source_ids": [
+        "ag7",
+        "ag8"
+      ],
+      "evidence": "Two tubs of the combined produce. The Friday report describes leaves collected at both locations.",
+      "statistics": "Two tubs, sixth grade, Nov. 19 and 20.",
+      "date_context": "The school reported its final harvest Nov. 19 and its leaf project Nov. 20, 2026. Earlier school reports date to August and October.",
+      "locality": "Pontotoc Middle School garden and Trace State Park, visited by the sixth grade.",
+      "identities": "Pontotoc Middle School sixth-grade agriculture class, teacher Mrs. Whitworth and named park presenters."
+    },
+    {
+      "id": "f2",
+      "statement": "The garden work began in August. During the first three days of school, students cleared raised beds and tended tomatoes, cucumbers and peppers. Later that month, Mrs. Whitworth\u2019s class planted eight tomato plants donated by the school librarian, Mrs. Mathews, and her husband.",
+      "source_ids": [
+        "ag1",
+        "ag4"
+      ],
+      "evidence": "The August reports list the tasks and crops and credit the eight donated tomato plants. No reported yield is assigned to any one plant.",
+      "statistics": "Three days, eight tomato plants.",
+      "date_context": "The school reported its final harvest Nov. 19 and its leaf project Nov. 20, 2026. Earlier school reports date to August and October.",
+      "locality": "Pontotoc Middle School garden and Trace State Park, visited by the sixth grade.",
+      "identities": "Pontotoc Middle School sixth-grade agriculture class, teacher Mrs. Whitworth and named park presenters."
+    },
+    {
+      "id": "f3",
+      "statement": "For their leaf booklets, students record each tree\u2019s common and scientific names. They also describe the shape of the leaf and its margin, or outer edge. Whitworth\u2019s class draws on specimens from the school grounds as well as those collected on the sixth-grade science trip.",
+      "source_ids": [
+        "ag8"
+      ],
+      "evidence": "The Nov. 20 update specifies names, shapes, margins and both collection locations.",
+      "statistics": "Sixth grade.",
+      "date_context": "The school reported its final harvest Nov. 19 and its leaf project Nov. 20, 2026. Earlier school reports date to August and October.",
+      "locality": "Pontotoc Middle School garden and Trace State Park, visited by the sixth grade.",
+      "identities": "Pontotoc Middle School sixth-grade agriculture class, teacher Mrs. Whitworth and named park presenters."
+    },
+    {
+      "id": "f4",
+      "statement": "On that trip, students met park manager Josh Massey, Mississippi Museum of Natural Science biologist Deborah Wise and Mississippi Forestry Commission outreach officer Mike Crabb, among other presenters. The school\u2019s October account says they explained how their jobs involve managing outdoor spaces, caring for forests and studying living things.",
+      "source_ids": [
+        "agpark"
+      ],
+      "evidence": "Checked the three named presenters, roles and topics against the school\u2019s October field trip report.",
+      "statistics": "October 2026.",
+      "date_context": "The school reported its final harvest Nov. 19 and its leaf project Nov. 20, 2026. Earlier school reports date to August and October.",
+      "locality": "Pontotoc Middle School garden and Trace State Park, visited by the sixth grade.",
+      "identities": "Pontotoc Middle School sixth-grade agriculture class, teacher Mrs. Whitworth and named park presenters."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc Middle School\u2019s sixth-grade agriculture students filled two tubs with peppers and tomatoes in their final harvest of the season, the school reported Nov. 19. A second report on Nov. 20 described what those students are doing with leaves they collected on campus and at Trace State Park.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The garden work began in August. During the first three days of school, students cleared raised beds and tended tomatoes, cucumbers and peppers. Later that month, Mrs. Whitworth\u2019s class planted eight tomato plants donated by the school librarian, Mrs. Mathews, and her husband.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "For their leaf booklets, students record each tree\u2019s common and scientific names. They also describe the shape of the leaf and its margin, or outer edge. Whitworth\u2019s class draws on specimens from the school grounds as well as those collected on the sixth-grade science trip.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "On that trip, students met park manager Josh Massey, Mississippi Museum of Natural Science biologist Deborah Wise and Mississippi Forestry Commission outreach officer Mike Crabb, among other presenters. The school\u2019s October account says they explained how their jobs involve managing outdoor spaces, caring for forests and studying living things.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-sixth-graders-garden-harvest-trace-state-park-leaves.png",
+    "sha256": "3db3c1a35264534cf6d3ec1bc3624b70514729ee690a2742c3be2b182c07b1eb",
+    "alt_text": "The class planted eight donated tomato plants in August. Its final harvest filled two tubs with peppers and tomatoes. Its leaf booklets use specimens from campus and Trace State Park.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-22T22:17:27.648959+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f3"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 22, 2026 afternoon editorial shift. Publish this identical article after successful authenticated preflight and final review."
+  }
+}
