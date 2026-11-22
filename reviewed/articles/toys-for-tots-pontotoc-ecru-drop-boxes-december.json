@@ -1,0 +1,148 @@
+{
+  "title": "Five Pontotoc County sites collect Toys for Tots donations through Dec. 15",
+  "excerpt": "Four drop boxes are in Pontotoc and one is in Ecru. Families already signed up for toys have a separate pickup window Dec. 20 in Tupelo.",
+  "locality": "Pontotoc and Ecru donation locations. The campaign serves Pontotoc and Union counties and distributes toys in Tupelo.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc-union:toys-for-tots:2026-12-15:collection-distribution"
+  ],
+  "sources": [
+    {
+      "id": "toydrop",
+      "title": "Official toy collection locations and Dec. 15 deadline",
+      "url": "https://pontotoc-ms.toysfortots.org/local-coordinator-sites/lco-sites/donate-toys.aspx?nPreviewInd=0&redirectInd=11",
+      "publisher": "Pontotoc MS Marine Toys for Tots campaign",
+      "role": "event",
+      "verified_at": "2026-11-22T22:09:19.288250+00:00",
+      "verification_url": "https://pontotoc-ms.toysfortots.org/local-coordinator-sites/lco-sites/donate-toys.aspx?nPreviewInd=0&redirectInd=11",
+      "published_at": null
+    },
+    {
+      "id": "toylocal",
+      "title": "Pontotoc campaign dates, pickup instructions and coordinator",
+      "url": "https://pontotoc-ms.toysfortots.org/local-coordinator-sites/lco-sites/default.aspx?nPageID=0&nPreviewInd=0&nRedirectInd=3",
+      "publisher": "Pontotoc MS Marine Toys for Tots campaign",
+      "role": "event",
+      "verified_at": "2026-11-22T22:09:19.288250+00:00",
+      "verification_url": "https://pontotoc-ms.toysfortots.org/local-coordinator-sites/lco-sites/default.aspx?nPageID=0&nPreviewInd=0&nRedirectInd=3",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Four locations in Pontotoc and one in Ecru are accepting new, unwrapped toys through Tuesday, Dec. 15. The local Marine Toys for Tots campaign serves children in Pontotoc and Union counties. Its deadline for families to request toys was Nov. 15.",
+      "source_ids": [
+        "toydrop",
+        "toylocal"
+      ],
+      "evidence": "Counted the four Pontotoc street addresses and the Ecru church on the official list. The campaign homepage gives the service area and separate application and collection dates.",
+      "statistics": "Four in Pontotoc, one in Ecru; Nov. 15 and Dec. 15.",
+      "date_context": "2026 campaign. Applications closed Nov. 15, toys are collected through Tuesday, Dec. 15, and distribution is Sunday, Dec. 20. Times are Central.",
+      "locality": "Pontotoc and Ecru donation locations. The campaign serves Pontotoc and Union counties and distributes toys in Tupelo.",
+      "identities": "Local Marine Toys for Tots campaign, coordinator Katina Tucker, listed host businesses and Ecru Second Baptist Church."
+    },
+    {
+      "id": "f2",
+      "statement": "Two of the boxes are on Highway 15 North in Pontotoc. First Choice Bank has one at 236 Highway 15 North, and Guaranty Bank has one at 1882 Highway 15 North. Donors can also leave toys at Montgomery\u2019s On Main, 17 South Main St., or at Amazing Touch Hair Design, 329 Clark St.",
+      "source_ids": [
+        "toydrop"
+      ],
+      "evidence": "Read store names, street numbers and city against each of the four specific entries. The campaign lists the Highway 15 branch of First Choice.",
+      "statistics": "236 and 1882 Highway 15 North; 17 South Main; 329 Clark.",
+      "date_context": "2026 campaign. Applications closed Nov. 15, toys are collected through Tuesday, Dec. 15, and distribution is Sunday, Dec. 20. Times are Central.",
+      "locality": "Pontotoc and Ecru donation locations. The campaign serves Pontotoc and Union counties and distributes toys in Tupelo.",
+      "identities": "Local Marine Toys for Tots campaign, coordinator Katina Tucker, listed host businesses and Ecru Second Baptist Church."
+    },
+    {
+      "id": "f3",
+      "statement": "In Ecru, the collection box is at Ecru Second Baptist Church, 350 Central Ave. The campaign lists a different location for families picking up toys. Distribution runs from 2 to 5 p.m. Sunday, Dec. 20, at the Tupelo Police Athletic League, 204 Douglas St. in Tupelo. Organizers say toys will be available for pickup only during that window.",
+      "source_ids": [
+        "toydrop",
+        "toylocal"
+      ],
+      "evidence": "The list identifies the Ecru church. The campaign home notice identifies the Tupelo venue, pickup time, street and restriction.",
+      "statistics": "350 Central Ave.; 2\u20135 p.m. Dec. 20; 204 Douglas St.",
+      "date_context": "2026 campaign. Applications closed Nov. 15, toys are collected through Tuesday, Dec. 15, and distribution is Sunday, Dec. 20. Times are Central.",
+      "locality": "Pontotoc and Ecru donation locations. The campaign serves Pontotoc and Union counties and distributes toys in Tupelo.",
+      "identities": "Local Marine Toys for Tots campaign, coordinator Katina Tucker, listed host businesses and Ecru Second Baptist Church."
+    },
+    {
+      "id": "f4",
+      "statement": "Schools, workplaces and community groups can organize toy drives, and the campaign is seeking volunteers to sort and distribute donations. Coordinator Katina Tucker lists pontotoc.ms@toysfortots.org for questions. The local campaign reports that it distributed 2,233 toys and served 737 children in 2025.",
+      "source_ids": [
+        "toylocal"
+      ],
+      "evidence": "The local impact panel explicitly labels the numbers 2025. The page names its coordinator and gives its public campaign inbox.",
+      "statistics": "2,233 toys; 737 children in 2025.",
+      "date_context": "2026 campaign. Applications closed Nov. 15, toys are collected through Tuesday, Dec. 15, and distribution is Sunday, Dec. 20. Times are Central.",
+      "locality": "Pontotoc and Ecru donation locations. The campaign serves Pontotoc and Union counties and distributes toys in Tupelo.",
+      "identities": "Local Marine Toys for Tots campaign, coordinator Katina Tucker, listed host businesses and Ecru Second Baptist Church."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Four locations in Pontotoc and one in Ecru are accepting new, unwrapped toys through Tuesday, Dec. 15. The local Marine Toys for Tots campaign serves children in Pontotoc and Union counties. Its deadline for families to request toys was Nov. 15.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "Two of the boxes are on Highway 15 North in Pontotoc. First Choice Bank has one at 236 Highway 15 North, and Guaranty Bank has one at 1882 Highway 15 North. Donors can also leave toys at Montgomery\u2019s On Main, 17 South Main St., or at Amazing Touch Hair Design, 329 Clark St.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "In Ecru, the collection box is at Ecru Second Baptist Church, 350 Central Ave. The campaign lists a different location for families picking up toys. Distribution runs from 2 to 5 p.m. Sunday, Dec. 20, at the Tupelo Police Athletic League, 204 Douglas St. in Tupelo. Organizers say toys will be available for pickup only during that window.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "Schools, workplaces and community groups can organize toy drives, and the campaign is seeking volunteers to sort and distribute donations. Coordinator Katina Tucker lists pontotoc.ms@toysfortots.org for questions. The local campaign reports that it distributed 2,233 toys and served 737 children in 2025.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/toys-for-tots-pontotoc-ecru-drop-boxes-december.png",
+    "sha256": "e4e2fdce5e34a96984792915df0e237e383044d7d10047d39ed615cf789d1d28",
+    "alt_text": "New, unwrapped toy donations are due December 15. Family pickup is December 20, 2\u20135 p.m., at 204 Douglas Street in Tupelo.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-22T22:09:19.288250+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 22, 2026 afternoon editorial shift. Publish this identical article after successful authenticated preflight and final review."
+  }
+}

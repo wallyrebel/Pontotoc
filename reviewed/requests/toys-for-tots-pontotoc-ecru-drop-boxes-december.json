@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/toys-for-tots-pontotoc-ecru-drop-boxes-december.json",
+  "article_sha256": "1afee502456b135a63ffced5328bb403c2a07b971e5e5ef2d96b2f97d2d03963",
+  "mode": "dry-run",
+  "public_slug": "toys-for-tots-pontotoc-ecru-drop-boxes-december",
+  "seo_review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-22T22:09:19.288250+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}
