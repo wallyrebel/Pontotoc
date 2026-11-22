@@ -1,0 +1,187 @@
+{
+  "title": "Cooking a turkey Thursday? A 12- to 16-pound bird needs three to four days to thaw",
+  "excerpt": "A refrigerator at 40\u00b0F or colder gives a turkey time to thaw safely. USDA\u2019s Thanksgiving Day hotline opens at 7 a.m. Central.",
+  "locality": "Pontotoc County households preparing Thanksgiving meals. The hotline serves callers nationwide.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:thanksgiving:2026-11-26:turkey-thawing-guide-hotline"
+  ],
+  "sources": [
+    {
+      "id": "usdaedge",
+      "title": "USDA\u2019s November 13 Thanksgiving food safety advisory",
+      "url": "https://usda.azureedge.us/about-usda/news/press-releases/2026/11/13/recipe-safe-thanksgiving",
+      "publisher": "U.S. Department of Agriculture",
+      "role": "event",
+      "verified_at": "2026-11-22T15:10:15.435176+00:00",
+      "verification_url": "https://usda.azureedge.us/about-usda/news/press-releases/2026/11/13/recipe-safe-thanksgiving",
+      "published_at": null
+    },
+    {
+      "id": "turkey",
+      "title": "Thawing times for whole turkeys by weight",
+      "url": "https://fieldreport.caes.uga.edu/publications/c1226/food-safety-tips-for-preparing-a-holiday-turkey/",
+      "publisher": "University of Georgia Cooperative Extension",
+      "role": "background",
+      "verified_at": "2026-11-22T15:10:15.435176+00:00",
+      "verification_url": "https://fieldreport.caes.uga.edu/publications/c1226/food-safety-tips-for-preparing-a-holiday-turkey/",
+      "published_at": null
+    },
+    {
+      "id": "ext",
+      "title": "Holiday food safety in a home kitchen",
+      "url": "https://extension.msstate.edu/blogs/extension-for-real-life/holiday-food-safety",
+      "publisher": "Mississippi State University Extension Service",
+      "role": "background",
+      "verified_at": "2026-11-22T15:10:15.435176+00:00",
+      "verification_url": "https://extension.msstate.edu/blogs/extension-for-real-life/holiday-food-safety",
+      "published_at": null
+    },
+    {
+      "id": "office",
+      "title": "Pontotoc County Extension office",
+      "url": "https://extension.msstate.edu/msu-extension-pontotoc-county",
+      "publisher": "Mississippi State University Extension Service",
+      "role": "background",
+      "verified_at": "2026-11-22T15:10:15.435176+00:00",
+      "verification_url": "https://extension.msstate.edu/msu-extension-pontotoc-county",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "If you\u2019re cooking a 12- to 16-pound frozen turkey on Thanksgiving, Sunday is the time to clear a spot in the refrigerator. A bird in that weight range needs about three to four days to thaw, according to University of Georgia Cooperative Extension. Thanksgiving falls on Thursday, Nov. 26.",
+      "source_ids": [
+        "turkey",
+        "usdaedge"
+      ],
+      "evidence": "The size table gives three to four days for 12\u201316 lb. USDA dates Thanksgiving Nov. 26. The edition is Sunday, Nov. 22.",
+      "statistics": "12\u201316 pounds; three to four days; Nov. 22 and Nov. 26.",
+      "date_context": "Morning of Sunday, Nov. 22, ahead of Thanksgiving on Thursday, Nov. 26, 2026. Hotline hours converted from Eastern to Central.",
+      "locality": "Pontotoc County households preparing Thanksgiving meals. The hotline serves callers nationwide.",
+      "identities": "U.S. Department of Agriculture, Mississippi State University Extension and University of Georgia Cooperative Extension."
+    },
+    {
+      "id": "f2",
+      "statement": "Leave the turkey in a container to catch drips and keep the refrigerator at 40\u00b0F or colder. A 16- to 20-pound bird can take four to five days. Once it has thawed in the refrigerator, you can keep it there another one to two days before cooking.",
+      "source_ids": [
+        "turkey",
+        "ext"
+      ],
+      "evidence": "Matched refrigerator temperature, container, second size band and refrigerated holding time against the two university guides.",
+      "statistics": "40\u00b0F; 16\u201320 pounds; four to five days; one to two days.",
+      "date_context": "Morning of Sunday, Nov. 22, ahead of Thanksgiving on Thursday, Nov. 26, 2026. Hotline hours converted from Eastern to Central.",
+      "locality": "Pontotoc County households preparing Thanksgiving meals. The hotline serves callers nationwide.",
+      "identities": "U.S. Department of Agriculture, Mississippi State University Extension and University of Georgia Cooperative Extension."
+    },
+    {
+      "id": "f3",
+      "statement": "For a faster thaw, seal the turkey in a leakproof bag and submerge it in cold water. Allow about 30 minutes per pound and change the water every half hour. A 12-pound turkey takes about six hours this way and needs to go straight into the oven when thawed. Thawing on the kitchen counter is unsafe.",
+      "source_ids": [
+        "turkey",
+        "usdaedge"
+      ],
+      "evidence": "Compared cold-water instructions and immediate cooking rule. Twelve pounds times 30 minutes gives six hours.",
+      "statistics": "30 minutes per pound; every 30 minutes; 12 pounds; six hours.",
+      "date_context": "Morning of Sunday, Nov. 22, ahead of Thanksgiving on Thursday, Nov. 26, 2026. Hotline hours converted from Eastern to Central.",
+      "locality": "Pontotoc County households preparing Thanksgiving meals. The hotline serves callers nationwide.",
+      "identities": "U.S. Department of Agriculture, Mississippi State University Extension and University of Georgia Cooperative Extension."
+    },
+    {
+      "id": "f4",
+      "statement": "Before serving, use a thermometer in the thickest part of the breast and the innermost parts of the thigh and wing. Each should reach at least 165\u00b0F. If the turkey is stuffed, check the center of the stuffing for the same temperature.",
+      "source_ids": [
+        "usdaedge",
+        "turkey"
+      ],
+      "evidence": "Federal advisory identifies the three thermometer locations and the stuffing minimum.",
+      "statistics": "Three locations; 165\u00b0F.",
+      "date_context": "Morning of Sunday, Nov. 22, ahead of Thanksgiving on Thursday, Nov. 26, 2026. Hotline hours converted from Eastern to Central.",
+      "locality": "Pontotoc County households preparing Thanksgiving meals. The hotline serves callers nationwide.",
+      "identities": "U.S. Department of Agriculture, Mississippi State University Extension and University of Georgia Cooperative Extension."
+    },
+    {
+      "id": "f5",
+      "statement": "For questions before the holiday, Mississippi State Extension lists its Pontotoc County office at 662-489-3910. On Thanksgiving Day, the USDA Meat and Poultry Hotline will take calls at 888-674-6854 from 7 a.m. to 1 p.m. Central.",
+      "source_ids": [
+        "office",
+        "usdaedge"
+      ],
+      "evidence": "Verified the local office number and converted USDA\u2019s 8 a.m.\u20132 p.m. Eastern holiday hours to Central.",
+      "statistics": "662-489-3910; 888-674-6854; 7 a.m.\u20131 p.m. Central.",
+      "date_context": "Morning of Sunday, Nov. 22, ahead of Thanksgiving on Thursday, Nov. 26, 2026. Hotline hours converted from Eastern to Central.",
+      "locality": "Pontotoc County households preparing Thanksgiving meals. The hotline serves callers nationwide.",
+      "identities": "U.S. Department of Agriculture, Mississippi State University Extension and University of Georgia Cooperative Extension."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "If you\u2019re cooking a 12- to 16-pound frozen turkey on Thanksgiving, Sunday is the time to clear a spot in the refrigerator. A bird in that weight range needs about three to four days to thaw, according to University of Georgia Cooperative Extension. Thanksgiving falls on Thursday, Nov. 26.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "Leave the turkey in a container to catch drips and keep the refrigerator at 40\u00b0F or colder. A 16- to 20-pound bird can take four to five days. Once it has thawed in the refrigerator, you can keep it there another one to two days before cooking.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "For a faster thaw, seal the turkey in a leakproof bag and submerge it in cold water. Allow about 30 minutes per pound and change the water every half hour. A 12-pound turkey takes about six hours this way and needs to go straight into the oven when thawed. Thawing on the kitchen counter is unsafe.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "Before serving, use a thermometer in the thickest part of the breast and the innermost parts of the thigh and wing. Each should reach at least 165\u00b0F. If the turkey is stuffed, check the center of the stuffing for the same temperature.",
+      "fact_ids": [
+        "f4"
+      ]
+    },
+    {
+      "text": "For questions before the holiday, Mississippi State Extension lists its Pontotoc County office at 662-489-3910. On Thanksgiving Day, the USDA Meat and Poultry Hotline will take calls at 888-674-6854 from 7 a.m. to 1 p.m. Central.",
+      "fact_ids": [
+        "f5"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/thanksgiving-turkey-thawing-times-pontotoc.png",
+    "sha256": "ad5029d2c348dace1980a60e33cf84abfade1337d444014d905780a4d59c296f",
+    "alt_text": "Refrigerator thawing chart. A 12- to 16-pound turkey takes 3\u20134 days, a 16- to 20-pound bird 4\u20135 days, and a 20- to 24-pound bird 5\u20136 days.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-22T15:10:15.435176+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f2",
+      "f5"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 22, 2026 Pontotoc morning editorial shift. Publish the identical reviewed package after authenticated preflight."
+  }
+}
