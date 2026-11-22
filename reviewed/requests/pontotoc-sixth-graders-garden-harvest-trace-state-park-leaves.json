@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-sixth-graders-garden-harvest-trace-state-park-leaves.json",
   "article_sha256": "e9729f195fc5680ab1854bd6dad0217e639973bca2cc301e818fe339723d523e",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-sixth-graders-garden-harvest-trace-state-park-leaves",
   "seo_review": {
     "reviewer": "Pontotoc News afternoon desk",
