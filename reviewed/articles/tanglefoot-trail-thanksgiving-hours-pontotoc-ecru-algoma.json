@@ -1,0 +1,171 @@
+{
+  "title": "Where to park and how far to walk on the Tanglefoot Trail this Thanksgiving in Pontotoc",
+  "excerpt": "The trail district\u2019s regular hours give Pontotoc roughly 6:09 a.m. to 5:17 p.m. on Thanksgiving. The Algoma and Ecru stops are each under seven miles from town.",
+  "locality": "Pontotoc Gateway and the Algoma and Ecru whistle stops in Pontotoc County, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:tanglefoot:2026-11-26:thanksgiving-daylight-access"
+  ],
+  "sources": [
+    {
+      "id": "sun",
+      "title": "November 26 solar times for Pontotoc",
+      "url": "https://aa.usno.navy.mil/api/rstt/oneday?date=2026-11-26&coords=34.25%2C-89.00&tz=-6",
+      "publisher": "U.S. Naval Observatory",
+      "role": "event",
+      "verified_at": "2026-11-22T01:44:48.236274+00:00",
+      "verification_url": "https://aa.usno.navy.mil/api/rstt/oneday?date=2026-11-26&coords=34.25%2C-89.00&tz=-6",
+      "published_at": null
+    },
+    {
+      "id": "trail-rules",
+      "title": "Trail district hours and rules",
+      "url": "https://tanglefoottrail.com/about-us/rules-regulations/",
+      "publisher": "GM&O Rails-to-Trails Recreational District",
+      "role": "background",
+      "verified_at": "2026-11-22T01:44:48.236274+00:00",
+      "verification_url": "https://tanglefoottrail.com/about-us/rules-regulations/",
+      "published_at": null
+    },
+    {
+      "id": "trail-stops",
+      "title": "Trail district directions to parking areas",
+      "url": "https://tanglefoottrail.com/trail-towns-info/directions/",
+      "publisher": "GM&O Rails-to-Trails Recreational District",
+      "role": "background",
+      "verified_at": "2026-11-22T01:44:48.236274+00:00",
+      "verification_url": "https://tanglefoottrail.com/trail-towns-info/directions/",
+      "published_at": null
+    },
+    {
+      "id": "trail-towns",
+      "title": "Trail towns and mile markers",
+      "url": "https://tanglefoottrail.com/trail-towns-info/trail-towns/",
+      "publisher": "GM&O Rails-to-Trails Recreational District",
+      "role": "background",
+      "verified_at": "2026-11-22T01:44:48.236274+00:00",
+      "verification_url": "https://tanglefoottrail.com/trail-towns-info/trail-towns/",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Families taking a Thanksgiving walk or bike ride on the Tanglefoot Trail can start in downtown Pontotoc and head toward either Algoma or Ecru. The trail district\u2019s regular hours work out to about 6:09 a.m. to 5:17 p.m. in Pontotoc on Thursday, Nov. 26. Posted restrictions at an entrance take precedence.",
+      "source_ids": [
+        "trail-rules",
+        "sun",
+        "trail-towns"
+      ],
+      "evidence": "District rule allows 30 minutes before sunrise to 30 minutes after sunset unless otherwise posted. The Naval Observatory gives 06:39 and 16:47 CST for coordinates near downtown Pontotoc.",
+      "statistics": "Nov. 26; 6:09 a.m.\u20135:17 p.m. CST.",
+      "date_context": "Thanksgiving, Thursday, November 26, 2026. All times are local Central Standard Time.",
+      "locality": "Pontotoc Gateway and the Algoma and Ecru whistle stops in Pontotoc County, Mississippi.",
+      "identities": "GM&O Rails-to-Trails Recreational District of North Mississippi and the U.S. Naval Observatory."
+    },
+    {
+      "id": "f2",
+      "statement": "For the downtown gateway, the district directs visitors to park at the Pontotoc Gas System warehouse, 140 W. Reynolds St. The town is at mile 25.8. Heading south, the Algoma Whistle Stop is 6\u00bd miles away at mile 19.3. Going north instead, Ecru is 6.8 miles away at mile 32.6. Those distances are one way.",
+      "source_ids": [
+        "trail-stops",
+        "trail-towns"
+      ],
+      "evidence": "District lists Pontotoc gateway parking and town mile markers. Differences are 25.8 minus 19.3 and 32.6 minus 25.8.",
+      "statistics": "140 W. Reynolds St.; 25.8; 19.3; 32.6; 6.5 and 6.8 miles.",
+      "date_context": "Thanksgiving, Thursday, November 26, 2026. All times are local Central Standard Time.",
+      "locality": "Pontotoc Gateway and the Algoma and Ecru whistle stops in Pontotoc County, Mississippi.",
+      "identities": "GM&O Rails-to-Trails Recreational District of North Mississippi and the U.S. Naval Observatory."
+    },
+    {
+      "id": "f3",
+      "statement": "The whistle stops also give families a place to start closer to home. For Algoma, the district lists 24 Weeks St., with Pontotoc as the mailing city. For Ecru, use 279 S. Railroad Ave. Visitors may enter from public roads and designated access points and should use marked parking areas.",
+      "source_ids": [
+        "trail-stops",
+        "trail-rules"
+      ],
+      "evidence": "Official directions give both street addresses. District rules specify authorized entrances and designated parking.",
+      "statistics": "24 Weeks St.; 279 S. Railroad Ave.",
+      "date_context": "Thanksgiving, Thursday, November 26, 2026. All times are local Central Standard Time.",
+      "locality": "Pontotoc Gateway and the Algoma and Ecru whistle stops in Pontotoc County, Mississippi.",
+      "identities": "GM&O Rails-to-Trails Recreational District of North Mississippi and the U.S. Naval Observatory."
+    },
+    {
+      "id": "f4",
+      "statement": "The trail district sets its hours by the sun seven days a week. The Naval Observatory gives a 6:39 a.m. sunrise and a 4:47 p.m. sunset for Pontotoc on Thanksgiving. Children younger than 12 need an adult with them on district property, and dogs must be leashed and accompanied by their owners.",
+      "source_ids": [
+        "trail-rules",
+        "sun"
+      ],
+      "evidence": "Checked published age, leash and operating-hour rules. Used Thanksgiving rise/set rather than civil twilight, with the Central Standard Time offset.",
+      "statistics": "30 minutes; 6:39 a.m.; 4:47 p.m.; under 12.",
+      "date_context": "Thanksgiving, Thursday, November 26, 2026. All times are local Central Standard Time.",
+      "locality": "Pontotoc Gateway and the Algoma and Ecru whistle stops in Pontotoc County, Mississippi.",
+      "identities": "GM&O Rails-to-Trails Recreational District of North Mississippi and the U.S. Naval Observatory."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Families taking a Thanksgiving walk or bike ride on the Tanglefoot Trail can start in downtown Pontotoc and head toward either Algoma or Ecru. The trail district\u2019s regular hours work out to about 6:09 a.m. to 5:17 p.m. in Pontotoc on Thursday, Nov. 26. Posted restrictions at an entrance take precedence.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "For the downtown gateway, the district directs visitors to park at the Pontotoc Gas System warehouse, 140 W. Reynolds St. The town is at mile 25.8. Heading south, the Algoma Whistle Stop is 6\u00bd miles away at mile 19.3. Going north instead, Ecru is 6.8 miles away at mile 32.6. Those distances are one way.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "The whistle stops also give families a place to start closer to home. For Algoma, the district lists 24 Weeks St., with Pontotoc as the mailing city. For Ecru, use 279 S. Railroad Ave. Visitors may enter from public roads and designated access points and should use marked parking areas.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "The trail district sets its hours by the sun seven days a week. The Naval Observatory gives a 6:39 a.m. sunrise and a 4:47 p.m. sunset for Pontotoc on Thanksgiving. Children younger than 12 need an adult with them on district property, and dogs must be leashed and accompanied by their owners.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/tanglefoot-trail-thanksgiving-hours-pontotoc-ecru-algoma.png",
+    "sha256": "1a48bc0a752a15b070990cc9e9fcd98afda8ddcb19aaa77234dd5a47dee2e42e",
+    "alt_text": "From downtown Pontotoc, Algoma is 6.5 miles south and Ecru is 6.8 miles north. Regular trail hours on Thanksgiving are about 6:09 a.m. to 5:17 p.m.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News evening desk",
+    "reviewed_at": "2026-11-22T01:44:48.236274+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 21 evening editorial shift. Publish the identical reviewed article after authenticated preflight and final review."
+  }
+}

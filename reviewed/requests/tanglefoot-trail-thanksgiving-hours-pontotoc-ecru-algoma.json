@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/tanglefoot-trail-thanksgiving-hours-pontotoc-ecru-algoma.json",
+  "article_sha256": "72a812bc03435d808273d1286ef190738ecdb54fafdb05a5fde6aabca81c8c28",
+  "mode": "dry-run",
+  "public_slug": "tanglefoot-trail-thanksgiving-hours-pontotoc-ecru-algoma",
+  "seo_review": {
+    "reviewer": "Pontotoc News evening desk",
+    "reviewed_at": "2026-11-22T01:44:48.236274+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}
