@@ -1,0 +1,157 @@
+{
+  "title": "Oxford blood donor center adds Monday and Saturday hours for Thanksgiving week",
+  "excerpt": "The Oxford center is open 9 a.m. to 5 p.m. Monday and 9 a.m. to 2:30 p.m. Saturday. Mississippi Blood Services says it especially needs types A, B and O.",
+  "locality": "Oxford Donor Center in neighboring Lafayette County, a regional option for Pontotoc County residents.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:mississippi-blood-services:oxford:2026-11-23:thanksgiving-hours-appeal"
+  ],
+  "sources": [
+    {
+      "id": "blood",
+      "title": "Oxford holiday hours and statewide appeal",
+      "url": "https://msblood.com/blood-donors-urgently-needed-thanksgiving-week/",
+      "publisher": "Mississippi Blood Services",
+      "role": "event",
+      "verified_at": "2026-11-23T15:07:05.978552+00:00",
+      "verification_url": "https://msblood.com/blood-donors-urgently-needed-thanksgiving-week/",
+      "published_at": null
+    },
+    {
+      "id": "platelet",
+      "title": "Monday platelet appointments and Oxford address",
+      "url": "https://msblood.com/platelet-monday/",
+      "publisher": "Mississippi Blood Services",
+      "role": "event",
+      "verified_at": "2026-11-23T15:07:05.978552+00:00",
+      "verification_url": "https://msblood.com/platelet-monday/",
+      "published_at": null
+    },
+    {
+      "id": "address",
+      "url": "https://msblood.com/about/locations/",
+      "verification_url": "https://msblood.com/about/locations/",
+      "role": "background",
+      "title": "Oxford center address and local phone number",
+      "publisher": "Mississippi Blood Services",
+      "published_at": null,
+      "verified_at": "2026-11-23T19:02:20.075372+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc County residents who give blood in Oxford have two extra days to do so this Thanksgiving week. Mississippi Blood Services lists special openings at 2627 West Oxford Loop, Suite C, from 9 a.m. to 5 p.m. Monday, Nov. 23, and from 9 a.m. to 2:30 p.m. Saturday, Nov. 28.",
+      "source_ids": [
+        "blood",
+        "address"
+      ],
+      "evidence": "The official holiday announcement gives both Oxford openings. The location directory independently lists 2627 West Oxford Loop, Suite C.",
+      "statistics": "2627 West Oxford Loop, Suite C. November 23, 9 a.m.\u20135 p.m. November 28, 9 a.m.\u20132:30 p.m.",
+      "date_context": "Thanksgiving week, Nov. 23\u201330, 2026. Times in Oxford are Central.",
+      "locality": "Oxford Donor Center in neighboring Lafayette County, a regional option for Pontotoc County residents.",
+      "identities": "Mississippi Blood Services and its Oxford Donor Center."
+    },
+    {
+      "id": "f2",
+      "statement": "The center also opens Tuesday from 9 a.m. to 5 p.m. Wednesday brings an earlier start and finish, from 7:30 a.m. to 3:30 p.m. It closes for Thanksgiving Day and reopens Friday from 9 a.m. to 5 p.m. The Oxford schedule lists Sunday, Nov. 29, and Monday, Nov. 30, as closed.",
+      "source_ids": [
+        "blood"
+      ],
+      "evidence": "Read the Oxford section of the schedule separately from Flowood, which has different Sunday and Monday hours.",
+      "statistics": "Nov. 24\u201330. Wednesday 7:30 a.m.\u20133:30 p.m.",
+      "date_context": "Thanksgiving week, Nov. 23\u201330, 2026. Times in Oxford are Central.",
+      "locality": "Oxford Donor Center in neighboring Lafayette County, a regional option for Pontotoc County residents.",
+      "identities": "Mississippi Blood Services and its Oxford Donor Center."
+    },
+    {
+      "id": "f3",
+      "statement": "Mississippi Blood Services says types A, B and O are especially needed. The organization puts its daily collection need at about 250 blood products for hospitals across Mississippi. Its separate appeal for Monday platelet donors encourages people to make an appointment in advance.",
+      "source_ids": [
+        "blood",
+        "platelet"
+      ],
+      "evidence": "The 250-product figure is statewide. The holiday appeal names blood types A, B and O. The Monday platelet notice asks donors to schedule ahead.",
+      "statistics": "About 250 blood products per day statewide.",
+      "date_context": "Thanksgiving week, Nov. 23\u201330, 2026. Times in Oxford are Central.",
+      "locality": "Oxford Donor Center in neighboring Lafayette County, a regional option for Pontotoc County residents.",
+      "identities": "Mississippi Blood Services and its Oxford Donor Center."
+    },
+    {
+      "id": "f4",
+      "statement": "Correction, Nov. 23: An earlier version of this story and its graphic misstated the street number. The Oxford center is at 2627 West Oxford Loop, Suite C.",
+      "source_ids": [
+        "blood",
+        "address"
+      ],
+      "evidence": "The earlier reviewed package used 2626. The blood service\u2019s holiday announcement and location directory list 2627.",
+      "statistics": "2627 West Oxford Loop, Suite C. November 23, 9 a.m.\u20135 p.m. November 28, 9 a.m.\u20132:30 p.m.",
+      "date_context": "Thanksgiving week, Nov. 23\u201330, 2026. Times in Oxford are Central.",
+      "locality": "Oxford Donor Center in neighboring Lafayette County, a regional option for Pontotoc County residents.",
+      "identities": "Mississippi Blood Services and its Oxford Donor Center."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc County residents who give blood in Oxford have two extra days to do so this Thanksgiving week. Mississippi Blood Services lists special openings at 2627 West Oxford Loop, Suite C, from 9 a.m. to 5 p.m. Monday, Nov. 23, and from 9 a.m. to 2:30 p.m. Saturday, Nov. 28.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The center also opens Tuesday from 9 a.m. to 5 p.m. Wednesday brings an earlier start and finish, from 7:30 a.m. to 3:30 p.m. It closes for Thanksgiving Day and reopens Friday from 9 a.m. to 5 p.m. The Oxford schedule lists Sunday, Nov. 29, and Monday, Nov. 30, as closed.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Mississippi Blood Services says types A, B and O are especially needed. The organization puts its daily collection need at about 250 blood products for hospitals across Mississippi. Its separate appeal for Monday platelet donors encourages people to make an appointment in advance.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "Correction, Nov. 23: An earlier version of this story and its graphic misstated the street number. The Oxford center is at 2627 West Oxford Loop, Suite C.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/oxford-blood-donor-center-thanksgiving-hours-corrected.png",
+    "sha256": "c813f4e6297d13300e8085ebe29f8115623173428edec00e547e5563fdd16b35",
+    "alt_text": "Oxford blood donor center hours are 9 to 5 Monday, 7:30 to 3:30 Wednesday and 9 to 2:30 Saturday. The center closes on Thanksgiving Day.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News midday correction desk",
+    "reviewed_at": "2026-11-23T19:02:20.075372+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Correct the street address in existing published post 6496 and its featured artwork. Preserve the original URL and article identity."
+  }
+}
