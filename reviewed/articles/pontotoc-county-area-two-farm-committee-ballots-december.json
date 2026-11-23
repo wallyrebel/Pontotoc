@@ -1,0 +1,191 @@
+{
+  "title": "Pontotoc County\u2019s Area 2 farm committee ballots are due Dec. 7",
+  "excerpt": "USDA\u2019s map places the reference points for Ecru, Sherman and Thaxton in Area 2. Farmers can check their own address and request a missing ballot from the county office.",
+  "locality": "USDA Farm Service Agency Local Administrative Area 2 in Pontotoc County, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:fsa:2026-12-07:area-2-county-committee-election"
+  ],
+  "sources": [
+    {
+      "id": "pontotoc-laas",
+      "title": "Pontotoc County\u2019s three area records and election years",
+      "url": "https://services.arcgis.com/LLVEmB8Lsae3Um4s/arcgis/rest/services/Local_Administrative_Areas_view/FeatureServer/1/query?where=OIP_Code%3D63214&outFields=laa_number%2Claa_description%2Claa_election_year%2COIP_Code&returnGeometry=false&f=pjson",
+      "publisher": "USDA Farm Service Agency",
+      "role": "event",
+      "verified_at": "2026-11-23T01:38:52.543991+00:00",
+      "verification_url": "https://services.arcgis.com/LLVEmB8Lsae3Um4s/arcgis/rest/services/Local_Administrative_Areas_view/FeatureServer/1/query?where=OIP_Code%3D63214&outFields=laa_number%2Claa_description%2Claa_election_year%2COIP_Code&returnGeometry=false&f=pjson",
+      "published_at": null
+    },
+    {
+      "id": "fsa-notice",
+      "title": "2026 election notice, eligibility and ballot return rules",
+      "url": "https://www.fsa.usda.gov/news-events/news/11-09-2026/usda-encourages-farmers-ranchers-participate-2026-county-committee",
+      "publisher": "USDA Farm Service Agency",
+      "role": "event",
+      "verified_at": "2026-11-23T01:38:52.543991+00:00",
+      "verification_url": "https://www.fsa.usda.gov/news-events/news/11-09-2026/usda-encourages-farmers-ranchers-participate-2026-county-committee",
+      "published_at": null
+    },
+    {
+      "id": "fsa-voter",
+      "title": "USDA election calendar and address lookup",
+      "url": "https://www.fsa.usda.gov/about-fsa/county-committee-elections",
+      "publisher": "USDA Farm Service Agency",
+      "role": "background",
+      "verified_at": "2026-11-23T01:38:52.543991+00:00",
+      "verification_url": "https://www.fsa.usda.gov/about-fsa/county-committee-elections",
+      "published_at": null
+    },
+    {
+      "id": "map",
+      "title": "Find your local administrative area on the USDA map",
+      "url": "https://usdaonline.maps.arcgis.com/apps/instant/lookup/index.html?appid=c0a64eda87824ce68fe36b5ad622d6ab",
+      "publisher": "USDA Farm Service Agency",
+      "role": "background",
+      "verified_at": "2026-11-23T01:38:52.543991+00:00",
+      "verification_url": "https://usdaonline.maps.arcgis.com/apps/instant/lookup/index.html?appid=c0a64eda87824ce68fe36b5ad622d6ab",
+      "published_at": null
+    },
+    {
+      "id": "census-places",
+      "title": "Mississippi town reference points in the Census Gazetteer",
+      "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_28.txt",
+      "publisher": "U.S. Census Bureau",
+      "role": "background",
+      "verified_at": "2026-11-23T01:38:52.543991+00:00",
+      "verification_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_28.txt",
+      "published_at": null
+    },
+    {
+      "id": "fsa-office",
+      "title": "Find your local Farm Service Agency office",
+      "url": "https://www.fsa.usda.gov/fsa-office-locator",
+      "publisher": "USDA Farm Service Agency",
+      "role": "background",
+      "verified_at": "2026-11-23T01:38:52.543991+00:00",
+      "verification_url": "https://www.fsa.usda.gov/fsa-office-locator",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Eligible producers in Pontotoc County\u2019s Local Administrative Area 2 have until Monday, Dec. 7, to vote for their representative on the Farm Service Agency county committee. A ballot delivered in person must reach the local FSA office by the close of business that day. A ballot sent by mail must carry a postmark dated Dec. 7 or earlier.",
+      "source_ids": [
+        "pontotoc-laas",
+        "fsa-notice"
+      ],
+      "evidence": "The USDA map\u2019s Pontotoc County office code 63214 returns three area records. Only Area 2 is marked with election year 2026. The dated notice distinguishes delivery from the mailed postmark.",
+      "statistics": "Area 2, Dec. 7, 2026.",
+      "date_context": "Ballots mailed in early November 2026. Deadline Monday, Dec. 7, 2026. New member takes office Jan. 1, 2027.",
+      "locality": "USDA Farm Service Agency Local Administrative Area 2 in Pontotoc County, Mississippi.",
+      "identities": "Eligible USDA program participants and cooperating producers in Area 2 and their elected county committee representative."
+    },
+    {
+      "id": "f2",
+      "statement": "The agency\u2019s election map puts the U.S. Census Bureau\u2019s reference points for Ecru, Sherman and Thaxton in Area 2. A town name alone does not tell a farmer which side of a boundary a particular address falls on. The USDA map lets readers enter an address or click the location of their farm to see the area. The county office can confirm it.",
+      "source_ids": [
+        "map",
+        "pontotoc-laas",
+        "census-places",
+        "fsa-voter"
+      ],
+      "evidence": "Used the Census Gazetteer coordinates for each named town to query the location in the same USDA map layer. Each returned area 2, election year 2026, office 63214. No claim that all parcels in any town are eligible.",
+      "statistics": "Three town reference points, Area 2.",
+      "date_context": "Ballots mailed in early November 2026. Deadline Monday, Dec. 7, 2026. New member takes office Jan. 1, 2027.",
+      "locality": "USDA Farm Service Agency Local Administrative Area 2 in Pontotoc County, Mississippi.",
+      "identities": "Eligible USDA program participants and cooperating producers in Area 2 and their elected county committee representative."
+    },
+    {
+      "id": "f3",
+      "statement": "USDA mailed ballots in early November. Producers who live in the area and participate or cooperate in a USDA program can qualify to vote. A farmer who has given FSA information about an operation can count as a cooperating producer even without having received a program payment. Eligible voters who have yet to receive a ballot can ask the county office for one.",
+      "source_ids": [
+        "fsa-notice",
+        "fsa-office",
+        "fsa-voter"
+      ],
+      "evidence": "Read the agency\u2019s definitions, mailing date and replacement instructions. The official office finder is linked for readers.",
+      "statistics": "Early November 2026.",
+      "date_context": "Ballots mailed in early November 2026. Deadline Monday, Dec. 7, 2026. New member takes office Jan. 1, 2027.",
+      "locality": "USDA Farm Service Agency Local Administrative Area 2 in Pontotoc County, Mississippi.",
+      "identities": "Eligible USDA program participants and cooperating producers in Area 2 and their elected county committee representative."
+    },
+    {
+      "id": "f4",
+      "statement": "The person elected takes office Jan. 1, 2027, for a three-year term. County committee members help decide how federal farm programs operate locally, including conservation, commodity price support and disaster recovery.",
+      "source_ids": [
+        "fsa-voter",
+        "fsa-notice"
+      ],
+      "evidence": "The dated federal notice gives the term, start date and categories of program decisions.",
+      "statistics": "Jan. 1, 2027, three-year term.",
+      "date_context": "Ballots mailed in early November 2026. Deadline Monday, Dec. 7, 2026. New member takes office Jan. 1, 2027.",
+      "locality": "USDA Farm Service Agency Local Administrative Area 2 in Pontotoc County, Mississippi.",
+      "identities": "Eligible USDA program participants and cooperating producers in Area 2 and their elected county committee representative."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Eligible producers in Pontotoc County\u2019s Local Administrative Area 2 have until Monday, Dec. 7, to vote for their representative on the Farm Service Agency county committee. A ballot delivered in person must reach the local FSA office by the close of business that day. A ballot sent by mail must carry a postmark dated Dec. 7 or earlier.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The agency\u2019s election map puts the U.S. Census Bureau\u2019s reference points for Ecru, Sherman and Thaxton in Area 2. A town name alone does not tell a farmer which side of a boundary a particular address falls on. The USDA map lets readers enter an address or click the location of their farm to see the area. The county office can confirm it.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "USDA mailed ballots in early November. Producers who live in the area and participate or cooperate in a USDA program can qualify to vote. A farmer who has given FSA information about an operation can count as a cooperating producer even without having received a program payment. Eligible voters who have yet to receive a ballot can ask the county office for one.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "The person elected takes office Jan. 1, 2027, for a three-year term. County committee members help decide how federal farm programs operate locally, including conservation, commodity price support and disaster recovery.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-county-area-two-farm-committee-ballots-december.png",
+    "sha256": "e4d14b610b5fb9b1af03e22ce4b20ea8b019379a60fd42ab89bd399087531cb6",
+    "alt_text": "Pontotoc County Area 2 ballots are due in person by close of business December 7 or by mail with a December 7 postmark. The new term starts January 1, 2027.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News evening desk",
+    "reviewed_at": "2026-11-23T01:38:52.543991+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f2",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 22 supplemental editorial shift. Publish the identical reviewed farm election story after authenticated dry run and final review."
+  }
+}
