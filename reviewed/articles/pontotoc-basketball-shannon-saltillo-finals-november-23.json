@@ -1,0 +1,170 @@
+{
+  "title": "South Pontotoc girls move to 7\u20130, North Pontotoc boys fall by five at Saltillo",
+  "excerpt": "South Pontotoc beat Shannon 63\u201331 for its seventh straight girls basketball win. Saltillo edged North Pontotoc 62\u201357 in boys play.",
+  "locality": "South Pontotoc and North Pontotoc varsity basketball teams in Pontotoc County, Mississippi. Boys game in Saltillo, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:south-girls-basketball:2026-11-23:shannon-final",
+    "ms:pontotoc:north-boys-basketball:2026-11-23:saltillo-final"
+  ],
+  "sources": [
+    {
+      "id": "girls",
+      "title": "November 23 Mississippi girls basketball scoreboard",
+      "url": "https://www.maxpreps.com/ms/basketball/girls/scores/?date=11%2F23%2F2026",
+      "publisher": "MaxPreps",
+      "role": "event",
+      "verified_at": "2026-11-23T22:18:49.083449+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/basketball/girls/scores/?date=11%2F23%2F2026",
+      "published_at": null
+    },
+    {
+      "id": "boys",
+      "title": "November 23 Mississippi boys basketball scoreboard",
+      "url": "https://www.maxpreps.com/ms/basketball/scores/?date=11%2F23%2F2026",
+      "publisher": "MaxPreps",
+      "role": "event",
+      "verified_at": "2026-11-23T22:18:49.083449+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/basketball/scores/?date=11%2F23%2F2026",
+      "published_at": null
+    },
+    {
+      "id": "south",
+      "title": "South Pontotoc girls varsity season results and schedule",
+      "url": "https://www.maxpreps.com/ms/pontotoc/south-pontotoc-cougars/basketball/girls/schedule/",
+      "publisher": "MaxPreps",
+      "role": "background",
+      "verified_at": "2026-11-23T22:18:49.083449+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/pontotoc/south-pontotoc-cougars/basketball/girls/schedule/",
+      "published_at": null
+    },
+    {
+      "id": "north",
+      "title": "North Pontotoc boys varsity season results and schedule",
+      "url": "https://www.maxpreps.com/ms/ecru/north-pontotoc-vikings/basketball/schedule/",
+      "publisher": "MaxPreps",
+      "role": "background",
+      "verified_at": "2026-11-23T22:18:49.083449+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/ecru/north-pontotoc-vikings/basketball/schedule/",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "South Pontotoc\u2019s girls beat Shannon 63\u201331 on Monday to move to 7\u20130. North Pontotoc\u2019s boys fell 62\u201357 at Saltillo. The Vikings are 6\u20133.",
+      "source_ids": [
+        "girls",
+        "boys",
+        "south",
+        "north"
+      ],
+      "evidence": "Both Nov. 23 daily scoreboards marked the games final. Verified the score and record for each local team against the named scorer\u2019s game report and team season log. The games are new results for matchups previewed before tipoff.",
+      "statistics": "South Pontotoc 63, Shannon 31. Saltillo 62, North Pontotoc 57. Records 7\u20130 and 6\u20133.",
+      "date_context": "November 23, 2026 final scores. Earlier results and upcoming November 24 and 30 games are identified separately. Upcoming times Central.",
+      "locality": "South Pontotoc and North Pontotoc varsity basketball teams in Pontotoc County, Mississippi. Boys game in Saltillo, Mississippi.",
+      "identities": "South Pontotoc Cougars girls, Shannon Red Raiders girls, North Pontotoc Vikings boys and Saltillo Tigers boys."
+    },
+    {
+      "id": "f2",
+      "statement": "The 32-point win over Shannon continued a run that stretches back to the Cougars\u2019 season opener against Byhalia. South Pontotoc has won all seven games by at least 20 points. Its closest game so far was Thursday\u2019s 62\u201342 win over Lafayette.",
+      "source_ids": [
+        "south",
+        "girls"
+      ],
+      "evidence": "Checked all seven completed score lines on the South Pontotoc girls season log. Winning margins were 44, 59, 33, 31, 42, 20 and 32.",
+      "statistics": "Seven wins, minimum margin 20, Shannon difference 32, Lafayette result 62\u201342 on Nov. 19.",
+      "date_context": "November 23, 2026 final scores. Earlier results and upcoming November 24 and 30 games are identified separately. Upcoming times Central.",
+      "locality": "South Pontotoc and North Pontotoc varsity basketball teams in Pontotoc County, Mississippi. Boys game in Saltillo, Mississippi.",
+      "identities": "South Pontotoc Cougars girls, Shannon Red Raiders girls, North Pontotoc Vikings boys and Saltillo Tigers boys."
+    },
+    {
+      "id": "f3",
+      "statement": "North Pontotoc has lost its last two games by a combined seven points. Biggersville won by two in Ecru on Friday before Saltillo won by five on Monday. The Vikings had won their previous two road games, at Alcorn Central and Water Valley.",
+      "source_ids": [
+        "north",
+        "boys"
+      ],
+      "evidence": "Read the last four completed North Pontotoc games and cross-checked Monday\u2019s score on the daily scoreboard and the host team\u2019s schedule.",
+      "statistics": "56\u201354 Friday and 62\u201357 Monday, margins 2 and 5.",
+      "date_context": "November 23, 2026 final scores. Earlier results and upcoming November 24 and 30 games are identified separately. Upcoming times Central.",
+      "locality": "South Pontotoc and North Pontotoc varsity basketball teams in Pontotoc County, Mississippi. Boys game in Saltillo, Mississippi.",
+      "identities": "South Pontotoc Cougars girls, Shannon Red Raiders girls, North Pontotoc Vikings boys and Saltillo Tigers boys."
+    },
+    {
+      "id": "f4",
+      "statement": "South Pontotoc\u2019s girls are scheduled to play Mooreville at 4:30 p.m. Tuesday, Nov. 24. North Pontotoc\u2019s boys next play at Hamilton at 7:30 p.m. Monday, Nov. 30.",
+      "source_ids": [
+        "south",
+        "north"
+      ],
+      "evidence": "Verified the next listed opponents, dates and times against the two varsity team schedules.",
+      "statistics": "Nov. 24 at 4:30 p.m. and Nov. 30 at 7:30 p.m., Central.",
+      "date_context": "November 23, 2026 final scores. Earlier results and upcoming November 24 and 30 games are identified separately. Upcoming times Central.",
+      "locality": "South Pontotoc and North Pontotoc varsity basketball teams in Pontotoc County, Mississippi. Boys game in Saltillo, Mississippi.",
+      "identities": "South Pontotoc Cougars girls, Shannon Red Raiders girls, North Pontotoc Vikings boys and Saltillo Tigers boys."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "South Pontotoc\u2019s girls beat Shannon 63\u201331 on Monday to move to 7\u20130. North Pontotoc\u2019s boys fell 62\u201357 at Saltillo. The Vikings are 6\u20133.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The 32-point win over Shannon continued a run that stretches back to the Cougars\u2019 season opener against Byhalia. South Pontotoc has won all seven games by at least 20 points. Its closest game so far was Thursday\u2019s 62\u201342 win over Lafayette.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "North Pontotoc has lost its last two games by a combined seven points. Biggersville won by two in Ecru on Friday before Saltillo won by five on Monday. The Vikings had won their previous two road games, at Alcorn Central and Water Valley.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "South Pontotoc\u2019s girls are scheduled to play Mooreville at 4:30 p.m. Tuesday, Nov. 24. North Pontotoc\u2019s boys next play at Hamilton at 7:30 p.m. Monday, Nov. 30.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-basketball-shannon-saltillo-finals-november-23.png",
+    "sha256": "15025b9ae2c96a4215d52c1a10340bbea382c5dee03db641d69c6fdb6c5598a5",
+    "alt_text": "South Pontotoc girls beat Shannon 63\u201331 to reach 7\u20130. North Pontotoc boys lost 62\u201357 to Saltillo and are 6\u20133.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-23T22:18:49.083449+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "November 23, 2026 scheduled Pontotoc News afternoon edition. Public release authorized after editorial review and authenticated preflight."
+  }
+}
