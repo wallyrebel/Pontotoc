@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/oxford-blood-donor-center-thanksgiving-hours.json",
   "article_sha256": "1ff875c66d5f1ce5cb1316a25786c58b8975885ff50910cec2464a5b6b808364",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "oxford-blood-donor-center-thanksgiving-hours",
   "seo_review": {
     "reviewer": "Pontotoc News morning desk",
