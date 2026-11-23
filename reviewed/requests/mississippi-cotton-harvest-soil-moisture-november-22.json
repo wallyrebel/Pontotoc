@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/mississippi-cotton-harvest-soil-moisture-november-22.json",
   "article_sha256": "123bfbb244b227e9cbbbfcab3f71fe3ba6a7dc9bb7585633b0b6bd182f1f5647",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "mississippi-cotton-harvest-soil-moisture-november-22",
   "seo_review": {
     "reviewer": "Pontotoc News afternoon desk",
