@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-parade-deadline-monday-conflicting-start-times.json",
+  "article_sha256": "3d8729b30af5fc4b6bd3bd8a40b542c76fdc171ca6726dc631f02de3958428ed",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-parade-deadline-monday-conflicting-start-times",
+  "seo_review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-23T15:02:54.337700+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}

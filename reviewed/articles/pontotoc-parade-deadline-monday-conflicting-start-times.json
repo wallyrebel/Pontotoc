@@ -1,0 +1,158 @@
+{
+  "title": "Pontotoc parade entries close Monday. Two Chamber notices give different start times",
+  "excerpt": "The Dec. 7 parade is listed at 6 p.m. on the Chamber\u2019s deadline flyer and at 6:30 p.m. in its registration notice. The printed entry paperwork sets a noon deadline Monday.",
+  "locality": "City of Pontotoc, Mississippi, and the Chamber office at 109 N. Main St.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc-chamber:2026-11-23:deadline-day-parade-notices"
+  ],
+  "sources": [
+    {
+      "id": "early",
+      "title": "Monday deadline flyer showing 6 p.m.",
+      "url": "https://www.facebook.com/1162843435852264/posts/1785012690301999",
+      "publisher": "Pontotoc County Chamber Main Street",
+      "role": "event",
+      "verified_at": "2026-11-23T15:02:54.337700+00:00",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7lo1260by.rss",
+      "published_at": "2026-11-23T13:15:05+00:00"
+    },
+    {
+      "id": "late",
+      "title": "Monday registration notice and online entry link",
+      "url": "https://www.facebook.com/1162843435852264/posts/1785015156968419",
+      "publisher": "Pontotoc County Chamber Main Street",
+      "role": "event",
+      "verified_at": "2026-11-23T15:02:54.337700+00:00",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7lo1260by.rss",
+      "published_at": "2026-11-23T14:15:28+00:00"
+    },
+    {
+      "id": "archives-parade",
+      "title": "Earlier coverage of the printed entry deadline and fees",
+      "url": "https://pontotocnews.com/pontotoc-news/pontotoc-christmas-parade-registration-december-2026/",
+      "publisher": "Pontotoc News",
+      "role": "background",
+      "verified_at": "2026-11-23T15:02:54.337700+00:00",
+      "verification_url": "https://pontotocnews.com/pontotoc-news/pontotoc-christmas-parade-registration-december-2026/",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc Christmas parade entries are due Monday, Nov. 23. Anyone planning to watch or ride in the Dec. 7 parade should check the start time with the Chamber. Its Monday morning deadline flyer says 6 p.m., while the registration notice it posted an hour later says 6:30 p.m.",
+      "source_ids": [
+        "early",
+        "late"
+      ],
+      "evidence": "Read the time on the green deadline flyer and compared it with the form heading in the later original post. Both give Dec. 7 and the Nov. 23 entry deadline.",
+      "statistics": "6 p.m., 6:30 p.m., Dec. 7 and Nov. 23.",
+      "date_context": "The two deadline reminders were posted Monday morning, Nov. 23. Parade day is Monday, Dec. 7, 2026.",
+      "locality": "City of Pontotoc, Mississippi, and the Chamber office at 109 N. Main St.",
+      "identities": "Pontotoc County Chamber Main Street and applicants for the annual Pontotoc Christmas parade."
+    },
+    {
+      "id": "f2",
+      "statement": "The printed entry paperwork sets noon Monday as the deadline. The Chamber\u2019s online form lists Nov. 23 without an hour. The entry rules set the charge at $25 per float, walking group or car club, and $10 per horse.",
+      "source_ids": [
+        "archives-parade",
+        "late"
+      ],
+      "evidence": "The earlier report checked the printed rules. The online form is linked in the later notice and shows the date in its heading.",
+      "statistics": "Noon, $25 and $10.",
+      "date_context": "The two deadline reminders were posted Monday morning, Nov. 23. Parade day is Monday, Dec. 7, 2026.",
+      "locality": "City of Pontotoc, Mississippi, and the Chamber office at 109 N. Main St.",
+      "identities": "Pontotoc County Chamber Main Street and applicants for the annual Pontotoc Christmas parade."
+    },
+    {
+      "id": "f3",
+      "statement": "The theme is \u201cA Very Merry Christmas.\u201d Applicants can follow the Google registration link in the Chamber\u2019s later notice. The form asks for the entry type and a sentence the announcer can read about it. Printed forms go to the Chamber at 109 N. Main St. in Pontotoc.",
+      "source_ids": [
+        "late",
+        "archives-parade"
+      ],
+      "evidence": "Verified theme and online instructions in the Monday post, then checked entry description and office address against the form and earlier reporting.",
+      "statistics": "109 N. Main St.",
+      "date_context": "The two deadline reminders were posted Monday morning, Nov. 23. Parade day is Monday, Dec. 7, 2026.",
+      "locality": "City of Pontotoc, Mississippi, and the Chamber office at 109 N. Main St.",
+      "identities": "Pontotoc County Chamber Main Street and applicants for the annual Pontotoc Christmas parade."
+    },
+    {
+      "id": "f4",
+      "statement": "For a start-time or entry question, the Chamber lists 662-489-5042 and chamber@pontotocchamber.com. Both Monday notices identify the same parade date.",
+      "source_ids": [
+        "early",
+        "late"
+      ],
+      "evidence": "Later organizer post gives the phone and email in its notification. The two posts agree on date.",
+      "statistics": "662-489-5042.",
+      "date_context": "The two deadline reminders were posted Monday morning, Nov. 23. Parade day is Monday, Dec. 7, 2026.",
+      "locality": "City of Pontotoc, Mississippi, and the Chamber office at 109 N. Main St.",
+      "identities": "Pontotoc County Chamber Main Street and applicants for the annual Pontotoc Christmas parade."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc Christmas parade entries are due Monday, Nov. 23. Anyone planning to watch or ride in the Dec. 7 parade should check the start time with the Chamber. Its Monday morning deadline flyer says 6 p.m., while the registration notice it posted an hour later says 6:30 p.m.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The printed entry paperwork sets noon Monday as the deadline. The Chamber\u2019s online form lists Nov. 23 without an hour. The entry rules set the charge at $25 per float, walking group or car club, and $10 per horse.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "The theme is \u201cA Very Merry Christmas.\u201d Applicants can follow the Google registration link in the Chamber\u2019s later notice. The form asks for the entry type and a sentence the announcer can read about it. Printed forms go to the Chamber at 109 N. Main St. in Pontotoc.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "For a start-time or entry question, the Chamber lists 662-489-5042 and chamber@pontotocchamber.com. Both Monday notices identify the same parade date.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-parade-deadline-monday-conflicting-start-times.png",
+    "sha256": "6892392cf029e12700224f921c6406c2f1f9bc9bad2ca2507e3460d53654eb63",
+    "alt_text": "Printed entries are due at noon November 23. Two Chamber notices list 6 p.m. and 6:30 p.m. for the December 7 parade.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-23T15:02:54.337700+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 23 morning editorial shift. Publish this reviewed article after authenticated preflight and confirmation of the identical package."
+  }
+}
