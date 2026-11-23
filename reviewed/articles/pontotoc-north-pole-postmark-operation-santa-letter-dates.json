@@ -1,0 +1,179 @@
+{
+  "title": "North Pole postmark window opens Monday for Pontotoc families mailing holiday letters",
+  "excerpt": "USPS recommends mailing a prepared reply for a North Pole postmark by Dec. 1. Families writing to Operation Santa have a different address and a Dec. 5 postmark deadline.",
+  "locality": "Federal mail services available to Pontotoc, Mississippi, residents, including the local post office on Highway 15 North.",
+  "schema_version": 1,
+  "event_keys": [
+    "us:usps:2026-11-23:north-pole-postmark-window-and-letter-deadlines"
+  ],
+  "sources": [
+    {
+      "id": "northpole",
+      "title": "North Pole postmark instructions and envelope addresses",
+      "url": "https://about.usps.com/holidaynews/letters-from-santa.htm",
+      "publisher": "U.S. Postal Service",
+      "role": "event",
+      "verified_at": "2026-11-23T15:07:05.978552+00:00",
+      "verification_url": "https://about.usps.com/holidaynews/letters-from-santa.htm",
+      "published_at": null
+    },
+    {
+      "id": "bulletin",
+      "title": "2026 Postal Bulletin with the recommended mailing window",
+      "url": "https://about.usps.com/postal-bulletin/2026/pb22714/html/cover.htm",
+      "publisher": "U.S. Postal Service",
+      "role": "background",
+      "verified_at": "2026-11-23T15:07:05.978552+00:00",
+      "verification_url": "https://about.usps.com/postal-bulletin/2026/pb22714/html/cover.htm",
+      "published_at": null
+    },
+    {
+      "id": "operation",
+      "title": "Operation Santa letter address and 2026 postmark deadline",
+      "url": "https://about.usps.com/newsroom/national-releases/2026/0914-usps-operation-santa-program-now-accepting-letters.htm",
+      "publisher": "U.S. Postal Service",
+      "role": "event",
+      "verified_at": "2026-11-23T15:07:05.978552+00:00",
+      "verification_url": "https://about.usps.com/newsroom/national-releases/2026/0914-usps-operation-santa-program-now-accepting-letters.htm",
+      "published_at": "2026-09-14T00:00:00-04:00"
+    },
+    {
+      "id": "adopt",
+      "title": "2026 Operation Santa letter adoption closing time",
+      "url": "https://news.usps.com/2026/11/16/usps-operation-santa-letter-adoption-is-now-open/",
+      "publisher": "U.S. Postal Service",
+      "role": "event",
+      "verified_at": "2026-11-23T15:07:05.978552+00:00",
+      "verification_url": "https://news.usps.com/2026/11/16/usps-operation-santa-letter-adoption-is-now-open/",
+      "published_at": "2026-11-16T05:00:00-05:00"
+    },
+    {
+      "id": "postal-local",
+      "title": "Pontotoc post office location and Thanksgiving closure",
+      "url": "https://pontotocnews.com/pontotoc-news/pontotoc-post-office-thanksgiving-holiday-mailing-dates/",
+      "publisher": "Pontotoc News",
+      "role": "background",
+      "verified_at": "2026-11-23T15:07:05.978552+00:00",
+      "verification_url": "https://pontotocnews.com/pontotoc-news/pontotoc-post-office-thanksgiving-holiday-mailing-dates/",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc families who want a letter returned with a North Pole postmark can start mailing it Monday, Nov. 23. The Postal Service recommends sending it by Tuesday, Dec. 1, to allow time for the letter to go to Anchorage, Alaska, for the postmark and then back to the child. The Pontotoc post office at 305 Highway 15 North will be closed Thanksgiving Day and will reopen Friday.",
+      "source_ids": [
+        "northpole",
+        "bulletin",
+        "postal-local"
+      ],
+      "evidence": "USPS gives the recommended window and purpose. Earlier local coverage identifies the Pontotoc office and holiday counter schedule.",
+      "statistics": "Nov. 23, Dec. 1, 305 Highway 15 North.",
+      "date_context": "Recommended mailing window Nov. 23\u2013Dec. 1, 2026. Operation Santa postmark deadline Dec. 5 and adoption window through Dec. 12.",
+      "locality": "Federal mail services available to Pontotoc, Mississippi, residents, including the local post office on Highway 15 North.",
+      "identities": "U.S. Postal Service, Anchorage postmaster and USPS Operation Santa."
+    },
+    {
+      "id": "f2",
+      "statement": "For this keepsake, a parent or caregiver writes the reply to the child and signs it from Santa. Put the reply and the child\u2019s letter in a stamped envelope addressed to the child, with Santa at the North Pole as the return address. Place that envelope inside a larger one and pay postage on the outer envelope as well.",
+      "source_ids": [
+        "northpole",
+        "bulletin"
+      ],
+      "evidence": "Checked the two envelopes, recipient, sender, signature and postage against the illustrated USPS instructions.",
+      "statistics": "Two envelopes.",
+      "date_context": "Recommended mailing window Nov. 23\u2013Dec. 1, 2026. Operation Santa postmark deadline Dec. 5 and adoption window through Dec. 12.",
+      "locality": "Federal mail services available to Pontotoc, Mississippi, residents, including the local post office on Highway 15 North.",
+      "identities": "U.S. Postal Service, Anchorage postmaster and USPS Operation Santa."
+    },
+    {
+      "id": "f3",
+      "statement": "Address the outer envelope to North Pole Postmark, Postmaster, 4141 Postmark Dr., Anchorage, AK 99530-9998. The postmaster applies the special cancellation to the inner envelope for its return trip.",
+      "source_ids": [
+        "northpole",
+        "bulletin"
+      ],
+      "evidence": "The address is the postmark processing destination in Anchorage. The inner envelope carries the child\u2019s mailing address.",
+      "statistics": "4141 Postmark Dr., ZIP 99530-9998.",
+      "date_context": "Recommended mailing window Nov. 23\u2013Dec. 1, 2026. Operation Santa postmark deadline Dec. 5 and adoption window through Dec. 12.",
+      "locality": "Federal mail services available to Pontotoc, Mississippi, residents, including the local post office on Highway 15 North.",
+      "identities": "U.S. Postal Service, Anchorage postmaster and USPS Operation Santa."
+    },
+    {
+      "id": "f4",
+      "statement": "Families sending a wish list to USPS Operation Santa use a different destination. Address that letter to Santa Claus, 123 Elf Rd., North Pole, 88888, and have it postmarked by Saturday, Dec. 5. Eligible letters may be posted for volunteers to adopt. USPS says adoption and fulfillment are not guaranteed. Approved volunteers can adopt letters until 7 p.m. Central on Saturday, Dec. 12.",
+      "source_ids": [
+        "operation",
+        "adopt"
+      ],
+      "evidence": "USPS gives the separate operation address and postmark deadline. The published adoption cutoff of 8 p.m. Eastern converts to 7 p.m. Central.",
+      "statistics": "123 Elf Rd., 88888, Dec. 5 and 12, 7 p.m. Central.",
+      "date_context": "Recommended mailing window Nov. 23\u2013Dec. 1, 2026. Operation Santa postmark deadline Dec. 5 and adoption window through Dec. 12.",
+      "locality": "Federal mail services available to Pontotoc, Mississippi, residents, including the local post office on Highway 15 North.",
+      "identities": "U.S. Postal Service, Anchorage postmaster and USPS Operation Santa."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc families who want a letter returned with a North Pole postmark can start mailing it Monday, Nov. 23. The Postal Service recommends sending it by Tuesday, Dec. 1, to allow time for the letter to go to Anchorage, Alaska, for the postmark and then back to the child. The Pontotoc post office at 305 Highway 15 North will be closed Thanksgiving Day and will reopen Friday.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "For this keepsake, a parent or caregiver writes the reply to the child and signs it from Santa. Put the reply and the child\u2019s letter in a stamped envelope addressed to the child, with Santa at the North Pole as the return address. Place that envelope inside a larger one and pay postage on the outer envelope as well.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Address the outer envelope to North Pole Postmark, Postmaster, 4141 Postmark Dr., Anchorage, AK 99530-9998. The postmaster applies the special cancellation to the inner envelope for its return trip.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "Families sending a wish list to USPS Operation Santa use a different destination. Address that letter to Santa Claus, 123 Elf Rd., North Pole, 88888, and have it postmarked by Saturday, Dec. 5. Eligible letters may be posted for volunteers to adopt. USPS says adoption and fulfillment are not guaranteed. Approved volunteers can adopt letters until 7 p.m. Central on Saturday, Dec. 12.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-north-pole-postmark-operation-santa-letter-dates.png",
+    "sha256": "9f2ec0bdf5e1643ffdb3657f1fd9f56e1bc28ca83360cb30f235e7ee5ee51c9e",
+    "alt_text": "USPS recommends sending North Pole postmark requests by December 1. Operation Santa wish lists need a December 5 postmark. Adoption closes December 12.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-23T15:07:05.978552+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f4"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 23 morning editorial shift. Publish this reviewed article after authenticated preflight and confirmation of the identical package."
+  }
+}
