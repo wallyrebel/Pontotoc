@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-parade-deadline-monday-conflicting-start-times.json",
   "article_sha256": "3d8729b30af5fc4b6bd3bd8a40b542c76fdc171ca6726dc631f02de3958428ed",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-parade-deadline-monday-conflicting-start-times",
   "seo_review": {
     "reviewer": "Pontotoc News morning desk",
