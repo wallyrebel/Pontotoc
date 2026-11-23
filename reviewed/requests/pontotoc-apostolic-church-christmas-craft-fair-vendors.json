@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-apostolic-church-christmas-craft-fair-vendors.json",
   "article_sha256": "80d331562021811cc4b06de371ed7f02832c67fcb44b71882fecc54b7b03e146",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-apostolic-church-christmas-craft-fair-vendors",
   "seo_review": {
     "reviewer": "Pontotoc News afternoon desk",
