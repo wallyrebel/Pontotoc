@@ -1,0 +1,116 @@
+{
+  "title": "Pontotoc baseball sets Dec. 18 drawing for a freezer stocked with local beef",
+  "excerpt": "The Warrior baseball announcement lists tickets at $20 each or six for $100. The booster group plans to carry the Dec. 18 drawing on Facebook Live.",
+  "locality": "Pontotoc Junior High and Pontotoc High School baseball, Pontotoc, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc-warrior-baseball:2026-12-18:stocked-deep-freeze-raffle"
+  ],
+  "sources": [
+    {
+      "id": "flyer",
+      "title": "Pontotoc Athletics announcement and Warrior baseball raffle flyer",
+      "url": "https://www.facebook.com/1409956404473934/posts/1705103384959233",
+      "publisher": "Pontotoc Athletics",
+      "role": "event",
+      "verified_at": "2026-11-23T15:02:54.337700+00:00",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7kh8MV2fT.rss",
+      "published_at": "2026-11-23T01:14:31+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc Warrior Baseball will draw a winner Friday, Dec. 18, for a new deep freezer stocked with beef from Mississippi Beef Bros. Pontotoc Athletics announced the annual raffle Sunday evening.",
+      "source_ids": [
+        "flyer"
+      ],
+      "evidence": "Caption calls the raffle annual. Flyer identifies the sport, new freezer, beef supplier and Dec. 18 drawing. The supplier logo reads Pontotoc, MS.",
+      "statistics": "Dec. 18, 2026.",
+      "date_context": "Pontotoc Athletics shared the notice on Sunday evening, Nov. 22, Central time. The drawing is Friday, Dec. 18.",
+      "locality": "Pontotoc Junior High and Pontotoc High School baseball, Pontotoc, Mississippi.",
+      "identities": "Pontotoc Warrior Baseball, the baseball booster group and Mississippi Beef Bros."
+    },
+    {
+      "id": "f2",
+      "statement": "Tickets cost $20 each or $100 for six. Six bought individually would cost $120. The baseball program directs people with ticket questions to a Pontotoc Junior High or Pontotoc High School baseball player or coach.",
+      "source_ids": [
+        "flyer"
+      ],
+      "evidence": "Read both prices and the junior high/high school ticket contacts directly from the flyer. Six times $20 is $120.",
+      "statistics": "$20, six for $100, $120.",
+      "date_context": "Pontotoc Athletics shared the notice on Sunday evening, Nov. 22, Central time. The drawing is Friday, Dec. 18.",
+      "locality": "Pontotoc Junior High and Pontotoc High School baseball, Pontotoc, Mississippi.",
+      "identities": "Pontotoc Warrior Baseball, the baseball booster group and Mississippi Beef Bros."
+    },
+    {
+      "id": "f3",
+      "statement": "The flyer says the drawing will be carried on the Pontotoc Baseball Booster Facebook Live. It lists the time as 1:00 without specifying a.m. or p.m. Viewers can check the booster page for the broadcast time.",
+      "source_ids": [
+        "flyer"
+      ],
+      "evidence": "The graphic reads December 18th at 1:00 on the Pontotoc Baseball Booster Facebook Live. No meridiem or separate ticket cutoff is stated.",
+      "statistics": "1:00 as printed.",
+      "date_context": "Pontotoc Athletics shared the notice on Sunday evening, Nov. 22, Central time. The drawing is Friday, Dec. 18.",
+      "locality": "Pontotoc Junior High and Pontotoc High School baseball, Pontotoc, Mississippi.",
+      "identities": "Pontotoc Warrior Baseball, the baseball booster group and Mississippi Beef Bros."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc Warrior Baseball will draw a winner Friday, Dec. 18, for a new deep freezer stocked with beef from Mississippi Beef Bros. Pontotoc Athletics announced the annual raffle Sunday evening.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "Tickets cost $20 each or $100 for six. Six bought individually would cost $120. The baseball program directs people with ticket questions to a Pontotoc Junior High or Pontotoc High School baseball player or coach.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "The flyer says the drawing will be carried on the Pontotoc Baseball Booster Facebook Live. It lists the time as 1:00 without specifying a.m. or p.m. Viewers can check the booster page for the broadcast time.",
+      "fact_ids": [
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-warrior-baseball-stocked-freezer-december-drawing.png",
+    "sha256": "62bf06372490c8437e978c4e49b85b11b28404b27d11207862cbafb5e3661200",
+    "alt_text": "The Pontotoc baseball drawing is December 18. Tickets are $20 each or six for $100.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-23T15:02:54.337700+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f2",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 23 morning editorial shift. Publish this reviewed article after authenticated preflight and confirmation of the identical package."
+  }
+}
