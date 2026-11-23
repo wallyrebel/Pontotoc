@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-thanksgiving-drive-times-wednesday-rain.json",
   "article_sha256": "351a9d8f154fe66b88eb7b3d339e4b1592c4e4261452c88b285ccc5ef7a887cf",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-thanksgiving-drive-times-wednesday-rain",
   "seo_review": {
     "reviewer": "Pontotoc News morning desk",
