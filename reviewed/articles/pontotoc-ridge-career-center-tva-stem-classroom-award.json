@@ -1,0 +1,154 @@
+{
+  "title": "Pontotoc Ridge career center earns TVA classroom STEM award",
+  "excerpt": "Pontotoc Ridge is one of 36 Mississippi entries on TVA\u2019s 2026\u201327 list and the only recipient listed under Pontotoc Electric Power Association.",
+  "locality": "Pontotoc, Mississippi, in the service area of Pontotoc Electric Power Association.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc-ridge-career-technology-center:2026-27:tva-stem-classroom-award"
+  ],
+  "sources": [
+    {
+      "id": "roster",
+      "title": "TVA\u2019s 2026\u201327 STEM award recipients (spreadsheet)",
+      "url": "https://tva-azr-eastus-cdn-ep-tvawcm-prd.azureedge.net/cdn-tvawcma/docs/default-source/tva-stem/2026--2027-tva-stem-award.xlsx?sfvrsn=87e985be_1",
+      "publisher": "Tennessee Valley Authority",
+      "role": "event",
+      "verified_at": "2026-11-23T20:04:00.070457+00:00",
+      "verification_url": "https://tva-azr-eastus-cdn-ep-tvawcm-prd.azureedge.net/cdn-tvawcma/docs/default-source/tva-stem/2026--2027-tva-stem-award.xlsx?sfvrsn=87e985be_1",
+      "published_at": null
+    },
+    {
+      "id": "rules",
+      "title": "STEM classroom award program and funding levels",
+      "url": "https://www.tsin.org/stem-classroom-awards/",
+      "publisher": "Tennessee STEM Innovation Network",
+      "role": "background",
+      "verified_at": "2026-11-23T20:04:00.070457+00:00",
+      "verification_url": "https://www.tsin.org/stem-classroom-awards/",
+      "published_at": null
+    },
+    {
+      "id": "tour",
+      "title": "Pontotoc High School\u2019s account of its students\u2019 career-center visit",
+      "url": "https://phs.pontotoc.school/apps/news/article/2043417",
+      "publisher": "Pontotoc High School",
+      "role": "background",
+      "verified_at": "2026-11-23T20:04:00.070457+00:00",
+      "verification_url": "https://phs.pontotoc.school/apps/news/article/2043417",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc Ridge Career & Technology Center has been selected for a 2026\u201327 STEM classroom award. The center is the only recipient listed under Pontotoc Electric Power Association in the Tennessee Valley Authority\u2019s new roster.",
+      "source_ids": [
+        "roster"
+      ],
+      "evidence": "Matched the center and utility in the same spreadsheet row and checked every entry under the utility.",
+      "statistics": "2026\u201327. One recipient under this utility.",
+      "date_context": "The 2026\u201327 roster was released on November 23, 2026. The high school\u2019s earlier tour is separately dated March 2025.",
+      "locality": "Pontotoc, Mississippi, in the service area of Pontotoc Electric Power Association.",
+      "identities": "Pontotoc Ridge Career & Technology Center, Tennessee Valley Authority, Pontotoc Electric Power Association, Tennessee STEM Innovation Network and Pontotoc High School."
+    },
+    {
+      "id": "f2",
+      "statement": "The list includes 36 Mississippi entries among 334 across the region. It names the schools and the local power companies that serve them. For Pontotoc Ridge, it gives neither a dollar amount nor a description of the project.",
+      "source_ids": [
+        "roster"
+      ],
+      "evidence": "Counted nonempty school rows, excluding the header, and filtered the district column for Mississippi. The three populated columns give district, power company and school.",
+      "statistics": "36 Mississippi entries and 334 regional entries.",
+      "date_context": "The 2026\u201327 roster was released on November 23, 2026. The high school\u2019s earlier tour is separately dated March 2025.",
+      "locality": "Pontotoc, Mississippi, in the service area of Pontotoc Electric Power Association.",
+      "identities": "Pontotoc Ridge Career & Technology Center, Tennessee Valley Authority, Pontotoc Electric Power Association, Tennessee STEM Innovation Network and Pontotoc High School."
+    },
+    {
+      "id": "f3",
+      "statement": "The program funds classroom and school projects in science, technology, engineering and math. Schools could request one of five amounts, from $1,000 to $5,000, according to the Tennessee STEM Innovation Network. TVA sponsors the program with Bicentennial Volunteers Inc., an organization of TVA retirees.",
+      "source_ids": [
+        "rules"
+      ],
+      "evidence": "The program partner identifies both sponsors, the STEM purpose and five request amounts from one thousand dollars to five thousand dollars.",
+      "statistics": "$1,000, $1,500, $2,500, $3,500 or $5,000 could be requested.",
+      "date_context": "The 2026\u201327 roster was released on November 23, 2026. The high school\u2019s earlier tour is separately dated March 2025.",
+      "locality": "Pontotoc, Mississippi, in the service area of Pontotoc Electric Power Association.",
+      "identities": "Pontotoc Ridge Career & Technology Center, Tennessee Valley Authority, Pontotoc Electric Power Association, Tennessee STEM Innovation Network and Pontotoc High School."
+    },
+    {
+      "id": "f4",
+      "statement": "Pontotoc High School uses the center to introduce freshmen to technical careers. In March 2025, the school reported that students toured the center as they considered courses for later in high school. Instructors showed them robotics, information technology, welding and mechanics, among other career pathways.",
+      "source_ids": [
+        "tour"
+      ],
+      "evidence": "The March 7, 2025 school report describes a freshman visit the preceding week, demonstrations and the named program areas. It documents the programs separately from the new award.",
+      "statistics": "March 2025 school account.",
+      "date_context": "The 2026\u201327 roster was released on November 23, 2026. The high school\u2019s earlier tour is separately dated March 2025.",
+      "locality": "Pontotoc, Mississippi, in the service area of Pontotoc Electric Power Association.",
+      "identities": "Pontotoc Ridge Career & Technology Center, Tennessee Valley Authority, Pontotoc Electric Power Association, Tennessee STEM Innovation Network and Pontotoc High School."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc Ridge Career & Technology Center has been selected for a 2026\u201327 STEM classroom award. The center is the only recipient listed under Pontotoc Electric Power Association in the Tennessee Valley Authority\u2019s new roster.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The list includes 36 Mississippi entries among 334 across the region. It names the schools and the local power companies that serve them. For Pontotoc Ridge, it gives neither a dollar amount nor a description of the project.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "The program funds classroom and school projects in science, technology, engineering and math. Schools could request one of five amounts, from $1,000 to $5,000, according to the Tennessee STEM Innovation Network. TVA sponsors the program with Bicentennial Volunteers Inc., an organization of TVA retirees.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "Pontotoc High School uses the center to introduce freshmen to technical careers. In March 2025, the school reported that students toured the center as they considered courses for later in high school. Instructors showed them robotics, information technology, welding and mechanics, among other career pathways.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-ridge-career-center-tva-stem-classroom-award.png",
+    "sha256": "ee45d4a0a276bdf4b2217d31f144b88f503ff29f079c46054885ac262cf48ae1",
+    "alt_text": "Pontotoc Ridge Career & Technology Center is a TVA STEM award recipient. The list includes 36 Mississippi entries and 334 regionwide.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News supplemental desk",
+    "reviewed_at": "2026-11-23T20:04:00.070457+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 23 county supplemental editorial shift for public publication following the authenticated preflight and final package review."
+  }
+}

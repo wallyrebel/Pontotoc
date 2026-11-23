@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-ridge-career-center-tva-stem-classroom-award.json",
+  "article_sha256": "5aef97ab2cac9e167320aae89a7ca1e58e62644fdc94e077401bd65ce76003d8",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-ridge-career-center-tva-stem-classroom-award",
+  "seo_review": {
+    "reviewer": "Pontotoc News supplemental desk",
+    "reviewed_at": "2026-11-23T20:04:00.070457+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}
