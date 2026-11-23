@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-county-area-two-farm-committee-ballots-december.json",
   "article_sha256": "e72e933eb7a79780153b5eadd7890d2d4233560feb21758d71dbb5d65ddd96bb",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-county-area-two-farm-committee-ballots-december",
   "seo_review": {
     "reviewer": "Pontotoc News evening desk",
