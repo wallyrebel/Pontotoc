@@ -5,16 +5,16 @@ import os
 
 import requests
 
-from reviewed_publish import BASE, ROOT, Transport, bind_request, load_article, require
+from reviewed_publish import BASE, ROOT, Transport, load_article, require
 
 SLUG = "oxford-blood-donor-center-thanksgiving-hours"
 POST = "posts/6496"
 
 
 def packages():
-    request = json.loads((ROOT / "reviewed/requests" / (SLUG + ".json")).read_bytes())
-    before = bind_request(request)
-    after = load_article(ROOT / "reviewed/articles" / (SLUG + "-corrected.json"))
+    before = load_article(ROOT / "reviewed/articles" / (SLUG + "-corrected.json"))
+    before.update(public_slug=SLUG, seo_reviewed=True)
+    after = load_article(ROOT / "reviewed/articles" / (SLUG + "-hours.json"))
     require(before["article_id"] == after["article_id"] and before["title"] == after["title"]
             and before["excerpt"] == after["excerpt"], "Correction changed article identity")
     after.update(public_slug=SLUG, seo_reviewed=True)
@@ -32,9 +32,9 @@ def correct(transport, apply):
         return row
 
     def before_matches(row):
-        original, _ = transport.api("GET", "media/6497", params={"context":"edit"})
+        original, _ = transport.api("GET", "media/6508", params={"context":"edit"})
         transport.preflight(before, [row], [original])
-        require(row["featured_media"] == 6497, "Original featured image changed")
+        require(row["featured_media"] == 6508, "Previous featured image changed")
 
     current = post()
     image = after["image"]
@@ -50,15 +50,17 @@ def correct(transport, apply):
         return transport.verify(after, 6496, attachment)
     before_matches(current)
     if not apply:
-        return {"verified_preflight":True, "post_id":6496, "original_media":6497,
+        return {"verified_preflight":True, "post_id":6496, "original_media":6508,
                 "corrected_asset_sha256":image["sha256"]}
     if attachment is None:
         image_path = ROOT / image["path"]
-        attachment, _ = transport.api("POST", "media", data={
-            "slug":slug, "alt_text":image["alt_text"], "caption":image["credit"],
-            "description":"pontotoc-reviewed-media:" + after["article_id"] + ":" + image["sha256"],
-        }, files={"file":(slug + ".png", image_path.read_bytes(), "image/png")})
-        require(attachment.get("slug") == slug, "Uploaded graphic identity changed")
+        try:
+            transport.api("POST", "media", data={
+                "slug":slug, "alt_text":image["alt_text"], "caption":image["credit"],
+                "description":"pontotoc-reviewed-media:" + after["article_id"] + ":" + image["sha256"],
+            }, files={"file":(slug + ".png", image_path.read_bytes(), "image/png")})
+        except requests.ReadTimeout:
+            pass  # WordPress may have finished the upload. Recover only the exact reviewed media.
         attachment = media()
     require(attachment is not None, "Corrected graphic was not found")
     if not attachment.get("alt_text"):
