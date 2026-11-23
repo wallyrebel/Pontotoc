@@ -1,0 +1,189 @@
+{
+  "title": "Two Natchez Trace stops near Pontotoc to visit as Tupelo\u2019s visitor center closes for Thanksgiving",
+  "excerpt": "Tockshish and the Chickasaw Council House marker are 1.5 miles apart on the parkway. The visitor center near Tupelo closes Thanksgiving Day, and southbound travelers face a detour in Attala County.",
+  "locality": "Tockshish and the Chickasaw Council House stop on the Natchez Trace Parkway near Pontotoc. The visitor center is near Tupelo. The road detour is in Attala County.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:natchez-trace:2026-11-26:pontotoc-corridor-holiday-access"
+  ],
+  "sources": [
+    {
+      "id": "nps-hours",
+      "title": "National Park Service holiday hours",
+      "url": "https://www.nps.gov/natr/planyourvisit/hours.htm",
+      "publisher": "National Park Service",
+      "role": "event",
+      "verified_at": "2026-11-23T01:32:00.768577+00:00",
+      "verification_url": "https://www.nps.gov/natr/planyourvisit/hours.htm",
+      "published_at": null
+    },
+    {
+      "id": "nps-road",
+      "title": "November 19 parkway road and site status",
+      "url": "https://www.nps.gov/natr/planyourvisit/road-and-site-status.htm",
+      "publisher": "National Park Service",
+      "role": "event",
+      "verified_at": "2026-11-23T01:32:00.768577+00:00",
+      "verification_url": "https://www.nps.gov/natr/planyourvisit/road-and-site-status.htm",
+      "published_at": null
+    },
+    {
+      "id": "tockshish",
+      "title": "Tockshish and the post riders\u2019 relay station",
+      "url": "https://www.nps.gov/places/tockshish.htm",
+      "publisher": "National Park Service",
+      "role": "background",
+      "verified_at": "2026-11-23T01:32:00.768577+00:00",
+      "verification_url": "https://www.nps.gov/places/tockshish.htm",
+      "published_at": null
+    },
+    {
+      "id": "council",
+      "title": "Chickasaw Council House marker near Pontotoc",
+      "url": "https://www.nps.gov/places/chickasaw-council-house.htm",
+      "publisher": "National Park Service",
+      "role": "background",
+      "verified_at": "2026-11-23T01:32:00.768577+00:00",
+      "verification_url": "https://www.nps.gov/places/chickasaw-council-house.htm",
+      "published_at": null
+    },
+    {
+      "id": "nps-center",
+      "title": "Tupelo visitor center and its facilities",
+      "url": "https://www.nps.gov/places/parkway-visitor-center-milepost-266.htm",
+      "publisher": "National Park Service",
+      "role": "background",
+      "verified_at": "2026-11-23T01:32:00.768577+00:00",
+      "verification_url": "https://www.nps.gov/places/parkway-visitor-center-milepost-266.htm",
+      "published_at": null
+    },
+    {
+      "id": "parkway-detour",
+      "title": "National Park Service notice on the Attala County detour",
+      "url": "https://www.nps.gov/natr/learn/news/new-detour-mp159-to-mp165.htm",
+      "publisher": "National Park Service",
+      "role": "background",
+      "verified_at": "2026-11-23T01:32:00.768577+00:00",
+      "verification_url": "https://www.nps.gov/natr/learn/news/new-detour-mp159-to-mp165.htm",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Thanksgiving visitors can find two outdoor history stops just a mile and a half apart on the Natchez Trace Parkway near Pontotoc. Tockshish is at milepost 249.6 and the Chickasaw Council House marker is at 251.1. Anyone planning to pick up a map or talk with a ranger at the main visitor center near Tupelo should do that on another day. The building closes Thursday, Nov. 26.",
+      "source_ids": [
+        "tockshish",
+        "council",
+        "nps-hours",
+        "nps-center"
+      ],
+      "evidence": "Compared marker mileposts and calculated the separation. NPS explicitly lists Thanksgiving as a visitor center closure.",
+      "statistics": "249.6 to 251.1 is 1.5 miles. Thursday, Nov. 26.",
+      "date_context": "Thanksgiving Day is Thursday, Nov. 26, 2026. The road and site bulletin was updated Nov. 19. Historical dates refer to the original Trace.",
+      "locality": "Tockshish and the Chickasaw Council House stop on the Natchez Trace Parkway near Pontotoc. The visitor center is near Tupelo. The road detour is in Attala County.",
+      "identities": "National Park Service, Natchez Trace Parkway, and the historical Chickasaw community of Pontatock."
+    },
+    {
+      "id": "f2",
+      "statement": "Tockshish tells the story of a settlement that became the second post office between Nashville and Natchez in 1801. Riders carrying the mail changed horses there. The original post office is gone. The park service lists parking and wheelchair access at the interpretive stop.",
+      "source_ids": [
+        "tockshish"
+      ],
+      "evidence": "The place record identifies the post office designation and year, horse changes, and present-day amenities.",
+      "statistics": "1801, second post office.",
+      "date_context": "Thanksgiving Day is Thursday, Nov. 26, 2026. The road and site bulletin was updated Nov. 19. Historical dates refer to the original Trace.",
+      "locality": "Tockshish and the Chickasaw Council House stop on the Natchez Trace Parkway near Pontotoc. The visitor center is near Tupelo. The road detour is in Attala County.",
+      "identities": "National Park Service, Natchez Trace Parkway, and the historical Chickasaw community of Pontatock."
+    },
+    {
+      "id": "f3",
+      "statement": "The Council House marker points west, toward the old trail and the Chickasaw village of Pontatock. Its council house served as the capital of the Chickasaw Nation in the 1820s. Leaders met there to make laws and policy and sign treaties. Visitors will find an interpretive marker at the parkway stop. The council house itself no longer stands.",
+      "source_ids": [
+        "council"
+      ],
+      "evidence": "Distinguished the location of the historical building from the modern roadside marker.",
+      "statistics": "1820s, milepost 251.1.",
+      "date_context": "Thanksgiving Day is Thursday, Nov. 26, 2026. The road and site bulletin was updated Nov. 19. Historical dates refer to the original Trace.",
+      "locality": "Tockshish and the Chickasaw Council House stop on the Natchez Trace Parkway near Pontotoc. The visitor center is near Tupelo. The road detour is in Attala County.",
+      "identities": "National Park Service, Natchez Trace Parkway, and the historical Chickasaw community of Pontatock."
+    },
+    {
+      "id": "f4",
+      "statement": "The visitor center is farther north at milepost 266. Its usual hours are 9 a.m. to 4:30 p.m., and it has maps, a short paved trail nearby and picnic tables. For those driving south toward central Mississippi, the park service\u2019s Nov. 19 update lists a construction closure in Attala County between mileposts 159.5 and 165. The signed detour uses Mississippi 12 and Mississippi 19/35. The park service advises long-distance cyclists to arrange transport around that section.",
+      "source_ids": [
+        "nps-center",
+        "nps-road",
+        "parkway-detour"
+      ],
+      "evidence": "Verified center hours, exact site and amenities separately from the distant Attala County closure. Original road notice explains the cycling restriction.",
+      "statistics": "266, 9 a.m.\u20134:30 p.m., Nov. 19, 159.5\u2013165, highways 12 and 19/35.",
+      "date_context": "Thanksgiving Day is Thursday, Nov. 26, 2026. The road and site bulletin was updated Nov. 19. Historical dates refer to the original Trace.",
+      "locality": "Tockshish and the Chickasaw Council House stop on the Natchez Trace Parkway near Pontotoc. The visitor center is near Tupelo. The road detour is in Attala County.",
+      "identities": "National Park Service, Natchez Trace Parkway, and the historical Chickasaw community of Pontatock."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Thanksgiving visitors can find two outdoor history stops just a mile and a half apart on the Natchez Trace Parkway near Pontotoc. Tockshish is at milepost 249.6 and the Chickasaw Council House marker is at 251.1. Anyone planning to pick up a map or talk with a ranger at the main visitor center near Tupelo should do that on another day. The building closes Thursday, Nov. 26.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "Tockshish tells the story of a settlement that became the second post office between Nashville and Natchez in 1801. Riders carrying the mail changed horses there. The original post office is gone. The park service lists parking and wheelchair access at the interpretive stop.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "The Council House marker points west, toward the old trail and the Chickasaw village of Pontatock. Its council house served as the capital of the Chickasaw Nation in the 1820s. Leaders met there to make laws and policy and sign treaties. Visitors will find an interpretive marker at the parkway stop. The council house itself no longer stands.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "The visitor center is farther north at milepost 266. Its usual hours are 9 a.m. to 4:30 p.m., and it has maps, a short paved trail nearby and picnic tables. For those driving south toward central Mississippi, the park service\u2019s Nov. 19 update lists a construction closure in Attala County between mileposts 159.5 and 165. The signed detour uses Mississippi 12 and Mississippi 19/35. The park service advises long-distance cyclists to arrange transport around that section.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/natchez-trace-pontotoc-thanksgiving-tockshish-tupelo-hours.png",
+    "sha256": "4713de8f60b8b467336c6d02d60a8a1a23cdc18eff94079bf3f43e83bd8f60e6",
+    "alt_text": "Tockshish is at milepost 249.6 and the Chickasaw Council House marker at milepost 251.1. The main visitor center at 266 closes on Thanksgiving.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News evening desk",
+    "reviewed_at": "2026-11-23T01:32:00.768577+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f4"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 22 supplemental edition. Publish this reviewed article after successful authenticated dry run and final review."
+  }
+}
