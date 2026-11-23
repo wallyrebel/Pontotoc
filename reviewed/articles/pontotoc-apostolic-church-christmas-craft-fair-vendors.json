@@ -1,0 +1,129 @@
+{
+  "title": "Pontotoc Apostolic Church seeks vendors for its Dec. 5 Christmas craft fair",
+  "excerpt": "The church is inviting local makers and bakers to its first Christmas craft fair. Vendors can call 662-308-0094 about space, fees and setup.",
+  "locality": "Pontotoc, Mississippi, as given in the event listing. The listing gives no street venue.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:apostolic-church:2026-12-05:first-christmas-craft-fair"
+  ],
+  "sources": [
+    {
+      "id": "flyer",
+      "title": "Pontotoc Apostolic Church\u2019s Christmas Craft Fair flyer",
+      "url": "https://cdn.stayhappening.com/events8/banners/ec4bc0727a8d64e6ace4c5f99f36c151ae77e1ead549bed4ced6a66fd6358858-rimg-w945-h2048-dc181818-gmir?v=1794474213",
+      "publisher": "Pontotoc Apostolic Church, flyer displayed with its event listing",
+      "role": "event",
+      "verified_at": "2026-11-23T22:18:37.484692+00:00",
+      "verification_url": "https://cdn.stayhappening.com/events8/banners/ec4bc0727a8d64e6ace4c5f99f36c151ae77e1ead549bed4ced6a66fd6358858-rimg-w945-h2048-dc181818-gmir?v=1794474213",
+      "published_at": null
+    },
+    {
+      "id": "listing",
+      "title": "December 5 Pontotoc Christmas Craft Fair listing",
+      "url": "https://stayhappening.com/e/christmas-craft-fair-E2IT02Y47S3",
+      "publisher": "StayHappening, listing naming Pontotoc Apostolic Church as host",
+      "role": "event",
+      "verified_at": "2026-11-23T22:18:37.484692+00:00",
+      "verification_url": "https://stayhappening.com/e/christmas-craft-fair-E2IT02Y47S3",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc Apostolic Church is inviting local makers and bakers to reserve space for its first Christmas Craft Fair on Saturday, Dec. 5. The church\u2019s flyer lists 662-308-0094 for information about vendor registration.",
+      "source_ids": [
+        "flyer",
+        "listing"
+      ],
+      "evidence": "Read the church name, December 5 date, vendor instructions and all ten local contact digits on the full-resolution flyer. The event listing identifies this as the first fair and invites arts, crafts and homemade food vendors.",
+      "statistics": "December 5, 2026. Public event contact 662-308-0094.",
+      "date_context": "Saturday, December 5, 2026. The doors and start times are separately attributed to the flyer and listing.",
+      "locality": "Pontotoc, Mississippi, as given in the event listing. The listing gives no street venue.",
+      "identities": "Pontotoc Apostolic Church, hosting its first Christmas Craft Fair in Pontotoc."
+    },
+    {
+      "id": "f2",
+      "statement": "Vendors must pay a fee, and the flyer describes space as limited. Organizers say shoppers can expect handmade gifts, decorations and holiday treats. Children\u2019s activities are also planned.",
+      "source_ids": [
+        "flyer"
+      ],
+      "evidence": "The printed artwork lists a required vendor fee, limited space, artisan gifts and decor, holiday food and activities for children.",
+      "statistics": "No fee amount or current inventory of spaces asserted.",
+      "date_context": "Saturday, December 5, 2026. The doors and start times are separately attributed to the flyer and listing.",
+      "locality": "Pontotoc, Mississippi, as given in the event listing. The listing gives no street venue.",
+      "identities": "Pontotoc Apostolic Church, hosting its first Christmas Craft Fair in Pontotoc."
+    },
+    {
+      "id": "f3",
+      "statement": "Anyone planning to set up a booth or arrive early should check the time and location with the organizer. The church\u2019s flyer says doors open at 8 a.m., while the online listing gives a 10 a.m. start and identifies the venue only as Pontotoc. Vendors can use the same number to ask about the fee and setup time.",
+      "source_ids": [
+        "flyer",
+        "listing"
+      ],
+      "evidence": "The flyer explicitly says doors open at 8 AM. The listing displays Dec. 5 at 10 a.m. UTC\u201306:00 and gives only Pontotoc, Mississippi, for the venue. The flyer gives the event information line.",
+      "statistics": "8 a.m. printed doors and 10 a.m. listed start. No specific vendor setup time or street address given.",
+      "date_context": "Saturday, December 5, 2026. The doors and start times are separately attributed to the flyer and listing.",
+      "locality": "Pontotoc, Mississippi, as given in the event listing. The listing gives no street venue.",
+      "identities": "Pontotoc Apostolic Church, hosting its first Christmas Craft Fair in Pontotoc."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc Apostolic Church is inviting local makers and bakers to reserve space for its first Christmas Craft Fair on Saturday, Dec. 5. The church\u2019s flyer lists 662-308-0094 for information about vendor registration.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "Vendors must pay a fee, and the flyer describes space as limited. Organizers say shoppers can expect handmade gifts, decorations and holiday treats. Children\u2019s activities are also planned.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Anyone planning to set up a booth or arrive early should check the time and location with the organizer. The church\u2019s flyer says doors open at 8 a.m., while the online listing gives a 10 a.m. start and identifies the venue only as Pontotoc. Vendors can use the same number to ask about the fee and setup time.",
+      "fact_ids": [
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-apostolic-church-christmas-craft-fair-vendors.png",
+    "sha256": "5bb44242e92885b4f3f2b5e954fe3510844045439efaa648af6008e278452bdb",
+    "alt_text": "Pontotoc Apostolic Church\u2019s Dec. 5 Christmas Craft Fair requires vendors to register and pay a fee. The event information number is 662-308-0094.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-23T22:18:37.484692+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "November 23, 2026 scheduled Pontotoc News afternoon edition. Public release authorized after editorial review and authenticated preflight."
+  }
+}
