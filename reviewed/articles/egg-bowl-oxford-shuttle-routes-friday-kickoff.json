@@ -1,0 +1,158 @@
+{
+  "title": "Egg Bowl shuttles link Oxford\u2019s Square and Jackson Avenue to campus",
+  "excerpt": "Oxford\u2019s free game-day buses run Friday for the 11 a.m. Egg Bowl. Fans can ride from the downtown parking garage to the Student Union or from the Jackson Avenue Center to Kennon Observatory.",
+  "locality": "Regional reader service for Pontotoc County fans traveling to Oxford, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:oxford:2026-11-27:egg-bowl-game-day-transit"
+  ],
+  "sources": [
+    {
+      "id": "game",
+      "title": "Ole Miss confirms Egg Bowl kickoff, venue and broadcast",
+      "url": "https://olemisssports.com/news/2026/5/12/football-receives-kick-times-tv-assignments-for-lsu-mississippi-state",
+      "publisher": "Ole Miss Athletics",
+      "role": "event",
+      "verified_at": "2026-11-23T22:10:05.837328+00:00",
+      "verification_url": "https://olemisssports.com/news/2026/5/12/football-receives-kick-times-tv-assignments-for-lsu-mississippi-state",
+      "published_at": null
+    },
+    {
+      "id": "shuttle",
+      "title": "Thanksgiving week service and game-day shuttle stops",
+      "url": "https://www.outransit.com/game-day-shuttle",
+      "publisher": "Oxford-University Transit",
+      "role": "event",
+      "verified_at": "2026-11-23T22:10:05.837328+00:00",
+      "verification_url": "https://www.outransit.com/game-day-shuttle",
+      "published_at": null
+    },
+    {
+      "id": "agency",
+      "title": "Bus fares, live tracking and rider information",
+      "url": "https://www.outransit.com/",
+      "publisher": "Oxford-University Transit",
+      "role": "background",
+      "verified_at": "2026-11-23T22:10:05.837328+00:00",
+      "verification_url": "https://www.outransit.com/",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc fans heading to Oxford for Friday\u2019s Egg Bowl can ride a free shuttle from the downtown parking garage to the Ole Miss Student Union. Oxford-University Transit will switch to game-day service Nov. 27, when Ole Miss and Mississippi State kick off at 11 a.m. Central at Vaught-Hemingway Stadium.",
+      "source_ids": [
+        "game",
+        "shuttle",
+        "agency"
+      ],
+      "evidence": "Matched the date-specific holiday service notice with the Downtown Square Shuttle stops, system fare notice and university kickoff announcement.",
+      "statistics": "November 27, 2026 at 11 a.m. Central.",
+      "date_context": "Thanksgiving week service November 25\u201327, 2026. Kickoff November 27 in Central time.",
+      "locality": "Regional reader service for Pontotoc County fans traveling to Oxford, Mississippi.",
+      "identities": "Oxford-University Transit, the University of Mississippi and Mississippi State University."
+    },
+    {
+      "id": "f2",
+      "statement": "Fans coming through the Square can use the Downtown Square Shuttle, which also stops at North Lamar and Adams. A second option, the JAC game-day shuttle, connects the east and west stops at the Jackson Avenue Center with Kennon Observatory on campus.",
+      "source_ids": [
+        "shuttle"
+      ],
+      "evidence": "Both route lists give the named downtown stops, JAC East and West, and Kennon Observatory.",
+      "statistics": "Two distinct routes described.",
+      "date_context": "Thanksgiving week service November 25\u201327, 2026. Kickoff November 27 in Central time.",
+      "locality": "Regional reader service for Pontotoc County fans traveling to Oxford, Mississippi.",
+      "identities": "Oxford-University Transit, the University of Mississippi and Mississippi State University."
+    },
+    {
+      "id": "f3",
+      "statement": "For a trip earlier in the week, the transit agency lists Wednesday service from 6 a.m. to 5:45 p.m. and a Thanksgiving Day closure. Riders can find live bus tracking through the agency\u2019s website or call 662-234-3540 for route information.",
+      "source_ids": [
+        "shuttle",
+        "agency"
+      ],
+      "evidence": "Holiday schedule identifies Wednesday hours, Thursday closure and Friday game-day operations. The homepage lists tracking apps and the public contact number.",
+      "statistics": "November 25 and 26. 6 a.m. to 5:45 p.m. 662-234-3540.",
+      "date_context": "Thanksgiving week service November 25\u201327, 2026. Kickoff November 27 in Central time.",
+      "locality": "Regional reader service for Pontotoc County fans traveling to Oxford, Mississippi.",
+      "identities": "Oxford-University Transit, the University of Mississippi and Mississippi State University."
+    },
+    {
+      "id": "f4",
+      "statement": "For those watching from home, ABC will carry the game live. This is the 123rd meeting in the rivalry, according to Ole Miss Athletics.",
+      "source_ids": [
+        "game"
+      ],
+      "evidence": "University football announcement confirms ABC and 123rd edition.",
+      "statistics": "123rd meeting.",
+      "date_context": "Thanksgiving week service November 25\u201327, 2026. Kickoff November 27 in Central time.",
+      "locality": "Regional reader service for Pontotoc County fans traveling to Oxford, Mississippi.",
+      "identities": "Oxford-University Transit, the University of Mississippi and Mississippi State University."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc fans heading to Oxford for Friday\u2019s Egg Bowl can ride a free shuttle from the downtown parking garage to the Ole Miss Student Union. Oxford-University Transit will switch to game-day service Nov. 27, when Ole Miss and Mississippi State kick off at 11 a.m. Central at Vaught-Hemingway Stadium.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "Fans coming through the Square can use the Downtown Square Shuttle, which also stops at North Lamar and Adams. A second option, the JAC game-day shuttle, connects the east and west stops at the Jackson Avenue Center with Kennon Observatory on campus.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "For a trip earlier in the week, the transit agency lists Wednesday service from 6 a.m. to 5:45 p.m. and a Thanksgiving Day closure. Riders can find live bus tracking through the agency\u2019s website or call 662-234-3540 for route information.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "For those watching from home, ABC will carry the game live. This is the 123rd meeting in the rivalry, according to Ole Miss Athletics.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/egg-bowl-oxford-shuttle-routes-friday-kickoff.png",
+    "sha256": "7fe13b11f73593b44c448c4ce8c445cf1144bac0ef2f850627f7c6877aa155ef",
+    "alt_text": "The downtown garage shuttle serves the Student Union. The Jackson Avenue Center shuttle serves Kennon Observatory. Kickoff is 11 a.m. Central on ABC.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-23T22:10:05.837328+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "November 23, 2026 scheduled Pontotoc News afternoon edition. Public release authorized after editorial review and authenticated preflight."
+  }
+}

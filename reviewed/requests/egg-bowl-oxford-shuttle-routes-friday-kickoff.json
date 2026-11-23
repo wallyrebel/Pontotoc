@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/egg-bowl-oxford-shuttle-routes-friday-kickoff.json",
+  "article_sha256": "259f84b76e4d07eece64f675194972c793d9bba319c1b323a11e8b11c28f10cb",
+  "mode": "dry-run",
+  "public_slug": "egg-bowl-oxford-shuttle-routes-friday-kickoff",
+  "seo_review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-23T22:10:05.837328+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}
