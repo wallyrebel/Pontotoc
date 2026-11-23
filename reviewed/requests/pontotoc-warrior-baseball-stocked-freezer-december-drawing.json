@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-warrior-baseball-stocked-freezer-december-drawing.json",
   "article_sha256": "bdec11484175cbe0e045c42467be9a76c16e29a7d4e9eb5c29c88c465731ce8f",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-warrior-baseball-stocked-freezer-december-drawing",
   "seo_review": {
     "reviewer": "Pontotoc News morning desk",
