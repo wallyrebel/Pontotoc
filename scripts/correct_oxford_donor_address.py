@@ -32,7 +32,8 @@ def correct(transport, apply):
         return row
 
     def before_matches(row):
-        transport.preflight(before, [row], [])
+        original, _ = transport.api("GET", "media/6497", params={"context":"edit"})
+        transport.preflight(before, [row], [original])
         require(row["featured_media"] == 6497, "Original featured image changed")
 
     current = post()
