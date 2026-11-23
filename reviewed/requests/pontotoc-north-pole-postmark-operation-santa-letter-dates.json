@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-north-pole-postmark-operation-santa-letter-dates.json",
   "article_sha256": "c85444a3f35f6a2be3ed303c9f7dff2169780d04b74df5dee3d1205554d3dd90",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-north-pole-postmark-operation-santa-letter-dates",
   "seo_review": {
     "reviewer": "Pontotoc News morning desk",
