@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-basketball-shannon-saltillo-finals-november-23.json",
   "article_sha256": "651512f777a19b040db6ac2c7beab380edf97f4249ba8abae2d483eadcb0d347",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-basketball-shannon-saltillo-finals-november-23",
   "seo_review": {
     "reviewer": "Pontotoc News afternoon desk",
