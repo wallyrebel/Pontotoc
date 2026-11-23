@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-thanksgiving-drive-times-wednesday-rain.json",
+  "article_sha256": "351a9d8f154fe66b88eb7b3d339e4b1592c4e4261452c88b285ccc5ef7a887cf",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-thanksgiving-drive-times-wednesday-rain",
+  "seo_review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-23T15:02:54.337700+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "title": "Leaving Pontotoc for Thanksgiving? Tuesday morning offers a drier start than Wednesday",
+  "excerpt": "AAA\u2019s national outlook favors leaving before 1 p.m. Tuesday. In Pontotoc County, rain is likely after midnight Tuesday night and the chance reaches 90% Wednesday.",
+  "locality": "Pontotoc County, Mississippi, with national holiday traffic estimates identified separately.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:2026-11-23:thanksgiving-road-travel-windows"
+  ],
+  "sources": [
+    {
+      "id": "zone",
+      "title": "Monday morning forecast bulletin for Pontotoc County",
+      "url": "https://api.weather.gov/products/d92dc5ee-a352-492e-bcba-b19d758794f0",
+      "publisher": "National Weather Service Memphis",
+      "role": "event",
+      "verified_at": "2026-11-23T15:02:54.337700+00:00",
+      "verification_url": "https://api.weather.gov/products/d92dc5ee-a352-492e-bcba-b19d758794f0",
+      "published_at": "2026-11-23T12:06:00+00:00"
+    },
+    {
+      "id": "aaa",
+      "title": "Thanksgiving traffic outlook and recommended departure windows",
+      "url": "https://newsroom.aaa.com/2026/11/aaa-thanksgiving-holiday-travel-forecast/",
+      "publisher": "AAA",
+      "role": "event",
+      "verified_at": "2026-11-23T15:02:54.337700+00:00",
+      "verification_url": "https://newsroom.aaa.com/2026/11/aaa-thanksgiving-holiday-travel-forecast/",
+      "published_at": "2026-11-16T00:00:00-05:00"
+    },
+    {
+      "id": "mdot",
+      "title": "Mississippi road conditions, traffic cameras and alerts",
+      "url": "https://www.mdottraffic.com/landing.aspx",
+      "publisher": "Mississippi Department of Transportation",
+      "role": "background",
+      "verified_at": "2026-11-23T15:02:54.337700+00:00",
+      "verification_url": "https://www.mdottraffic.com/landing.aspx",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "For Pontotoc County drivers with a choice of departure days, Tuesday morning offers mostly sunny weather before the Thanksgiving traffic rush. AAA\u2019s national outlook favors leaving before 1 p.m. Tuesday. By Wednesday, the National Weather Service expects showers in Pontotoc County, with a 90% chance of rain.",
+      "source_ids": [
+        "zone",
+        "aaa"
+      ],
+      "evidence": "Tuesday mostly sunny and Wednesday 90% in the Pontotoc county section. AAA\u2019s national table recommends before 1 p.m. Tuesday.",
+      "statistics": "1 p.m. and 90%.",
+      "date_context": "National holiday travel period Nov. 24\u201330. Forecast for Pontotoc County issued Monday morning, Nov. 23, 2026.",
+      "locality": "Pontotoc County, Mississippi, with national holiday traffic estimates identified separately.",
+      "identities": "National Weather Service Memphis, AAA, INRIX and the Mississippi Department of Transportation."
+    },
+    {
+      "id": "f2",
+      "statement": "The county forecast calls for a high in the upper 50s Tuesday. Showers become likely after midnight Tuesday night, with a 70% rain chance. Wednesday\u2019s high should stay in the lower 50s. The chance of showers falls to 50% Wednesday evening, and Thanksgiving Day is forecast to be mostly sunny.",
+      "source_ids": [
+        "zone"
+      ],
+      "evidence": "Read each named period in the same 6:05 a.m. county bulletin. Percentages describe the county forecast.",
+      "statistics": "70%, 50%, upper 50s and lower 50s.",
+      "date_context": "National holiday travel period Nov. 24\u201330. Forecast for Pontotoc County issued Monday morning, Nov. 23, 2026.",
+      "locality": "Pontotoc County, Mississippi, with national holiday traffic estimates identified separately.",
+      "identities": "National Weather Service Memphis, AAA, INRIX and the Mississippi Department of Transportation."
+    },
+    {
+      "id": "f3",
+      "statement": "INRIX, which prepared the traffic estimates for AAA, lists Tuesday from 2 to 8 p.m. and Wednesday from noon to 7 p.m. as the busiest driving windows on those days. For return trips it favors leaving before 11 a.m. Sunday or before 1 p.m. Monday. Those are nationwide planning estimates. Conditions on an individual Mississippi highway can differ.",
+      "source_ids": [
+        "aaa"
+      ],
+      "evidence": "Matched the separate best and worst windows by date against AAA\u2019s INRIX table. No Pontotoc traffic measurement or local delay claim.",
+      "statistics": "2\u20138 p.m., noon\u20137 p.m., before 11 a.m. Sunday and before 1 p.m. Monday.",
+      "date_context": "National holiday travel period Nov. 24\u201330. Forecast for Pontotoc County issued Monday morning, Nov. 23, 2026.",
+      "locality": "Pontotoc County, Mississippi, with national holiday traffic estimates identified separately.",
+      "identities": "National Weather Service Memphis, AAA, INRIX and the Mississippi Department of Transportation."
+    },
+    {
+      "id": "f4",
+      "statement": "For the trip itself, the Mississippi Department of Transportation\u2019s traffic map shows current road conditions and construction zones. Travelers can also look at highway cameras or sign up for traffic alerts for their route.",
+      "source_ids": [
+        "mdot"
+      ],
+      "evidence": "MDOT\u2019s public traffic page lists road conditions, construction, cameras and configurable traffic alerts.",
+      "statistics": "None asserted.",
+      "date_context": "National holiday travel period Nov. 24\u201330. Forecast for Pontotoc County issued Monday morning, Nov. 23, 2026.",
+      "locality": "Pontotoc County, Mississippi, with national holiday traffic estimates identified separately.",
+      "identities": "National Weather Service Memphis, AAA, INRIX and the Mississippi Department of Transportation."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "For Pontotoc County drivers with a choice of departure days, Tuesday morning offers mostly sunny weather before the Thanksgiving traffic rush. AAA\u2019s national outlook favors leaving before 1 p.m. Tuesday. By Wednesday, the National Weather Service expects showers in Pontotoc County, with a 90% chance of rain.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The county forecast calls for a high in the upper 50s Tuesday. Showers become likely after midnight Tuesday night, with a 70% rain chance. Wednesday\u2019s high should stay in the lower 50s. The chance of showers falls to 50% Wednesday evening, and Thanksgiving Day is forecast to be mostly sunny.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "INRIX, which prepared the traffic estimates for AAA, lists Tuesday from 2 to 8 p.m. and Wednesday from noon to 7 p.m. as the busiest driving windows on those days. For return trips it favors leaving before 11 a.m. Sunday or before 1 p.m. Monday. Those are nationwide planning estimates. Conditions on an individual Mississippi highway can differ.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "For the trip itself, the Mississippi Department of Transportation\u2019s traffic map shows current road conditions and construction zones. Travelers can also look at highway cameras or sign up for traffic alerts for their route.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-thanksgiving-drive-times-wednesday-rain.png",
+    "sha256": "0f642efd6c4aadc68eeef6e2727826e61db92eb3b4a41b287477b9ec1cc28583",
+    "alt_text": "Pontotoc County is forecast to be mostly sunny Tuesday with a 90% Wednesday rain chance. The national traffic outlook lists Tuesday\u2019s peak from 2 to 8 p.m.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-23T15:02:54.337700+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 23 morning editorial shift. Publish this reviewed article after authenticated preflight and confirmation of the identical package."
+  }
+}
