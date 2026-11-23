@@ -1,0 +1,156 @@
+{
+  "title": "Mississippi cotton harvest reaches 100% as topsoil dries further",
+  "excerpt": "USDA rated 85% of Mississippi topsoil short or very short of moisture, up from 80% a week earlier. Its Nov. 23 report puts the cotton harvest at 100%.",
+  "locality": "Mississippi statewide estimates with separate local drought context for Pontotoc County, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:usda:2026-11-22:weekly-crop-progress-cotton-soil-moisture"
+  ],
+  "sources": [
+    {
+      "id": "week",
+      "title": "November 23 USDA Crop Progress report (text)",
+      "url": "https://esmis.nal.usda.gov/sites/default/release-files/796158/prog4726.txt",
+      "publisher": "USDA National Agricultural Statistics Service",
+      "role": "event",
+      "verified_at": "2026-11-23T22:10:05.838031+00:00",
+      "verification_url": "https://esmis.nal.usda.gov/sites/default/release-files/796158/prog4726.txt",
+      "published_at": null
+    },
+    {
+      "id": "last",
+      "title": "November 16 USDA Crop Progress report (text)",
+      "url": "https://esmis.nal.usda.gov/sites/default/release-files/796149/prog4626.txt",
+      "publisher": "USDA National Agricultural Statistics Service",
+      "role": "background",
+      "verified_at": "2026-11-23T22:10:05.838031+00:00",
+      "verification_url": "https://esmis.nal.usda.gov/sites/default/release-files/796149/prog4626.txt",
+      "published_at": null
+    },
+    {
+      "id": "county",
+      "title": "November 17 drought figures for Pontotoc County, Mississippi",
+      "url": "https://usdmdataservices.unl.edu/api/CountyStatistics/GetDroughtSeverityStatisticsByAreaPercent?aoi=28115&startdate=11/10/2026&enddate=11/17/2026&statisticsType=1",
+      "publisher": "U.S. Drought Monitor",
+      "role": "background",
+      "verified_at": "2026-11-23T22:10:05.838031+00:00",
+      "verification_url": "https://usdmdataservices.unl.edu/api/CountyStatistics/GetDroughtSeverityStatisticsByAreaPercent?aoi=28115&startdate=11/10/2026&enddate=11/17/2026&statisticsType=1",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Mississippi\u2019s cotton harvest reached 100% in the week ending Sunday, Nov. 22, as soils grew drier. USDA rated 85% of the state\u2019s topsoil short or very short of moisture, up from 80% a week earlier.",
+      "source_ids": [
+        "week",
+        "last"
+      ],
+      "evidence": "Matched the current cotton estimate and added very short and short in the Mississippi topsoil row for both weeks.",
+      "statistics": "100% harvested. Topsoil 51 + 34 = 85% and 42 + 38 = 80%.",
+      "date_context": "USDA reported November 23, 2026 for the week ending November 22, with November 15 comparisons. Local drought data are from November 17.",
+      "locality": "Mississippi statewide estimates with separate local drought context for Pontotoc County, Mississippi.",
+      "identities": "USDA National Agricultural Statistics Service and the U.S. Drought Monitor."
+    },
+    {
+      "id": "f2",
+      "statement": "In Pontotoc County, the U.S. Drought Monitor\u2019s Nov. 17 map put 87.77% of the county\u2019s land in extreme drought or worse, including 22.75% in exceptional drought, its most severe category. USDA\u2019s weekly crop report gives the soil and harvest estimates for Mississippi as a whole.",
+      "source_ids": [
+        "county",
+        "week"
+      ],
+      "evidence": "County cumulative D3 and D4 area in the Nov. 17 row, read separately from the statewide moisture and crop tables.",
+      "statistics": "87.77% of county land D3 or worse, of which 22.75% of total county land is D4.",
+      "date_context": "USDA reported November 23, 2026 for the week ending November 22, with November 15 comparisons. Local drought data are from November 17.",
+      "locality": "Mississippi statewide estimates with separate local drought context for Pontotoc County, Mississippi.",
+      "identities": "USDA National Agricultural Statistics Service and the U.S. Drought Monitor."
+    },
+    {
+      "id": "f3",
+      "statement": "More topsoil fell into the driest category. USDA rated 51% very short, up from 42% a week earlier. Below the surface, 87% of subsoil moisture was rated short or very short, up from 85%. Only 13% of subsoil was rated adequate in the latest report.",
+      "source_ids": [
+        "week",
+        "last"
+      ],
+      "evidence": "Mississippi topsoil very short and all subsoil columns checked in both weekly tables.",
+      "statistics": "Subsoil 59 + 28 = 87%, previously 55 + 30 = 85%. Latest adequate 13%.",
+      "date_context": "USDA reported November 23, 2026 for the week ending November 22, with November 15 comparisons. Local drought data are from November 17.",
+      "locality": "Mississippi statewide estimates with separate local drought context for Pontotoc County, Mississippi.",
+      "identities": "USDA National Agricultural Statistics Service and the U.S. Drought Monitor."
+    },
+    {
+      "id": "f4",
+      "statement": "Cotton harvest had stood at 99% a week earlier. Mississippi was at 98% at the comparable point last year, and its five-year average was 97%. Farmers statewide had an estimated 6.6 days suitable for fieldwork in the latest week, down from 6.8.",
+      "source_ids": [
+        "week"
+      ],
+      "evidence": "Read the Mississippi cotton and fieldwork rows against their column headers.",
+      "statistics": "99%, 98%, 97% for the stated periods. Fieldwork 6.6 and 6.8 days.",
+      "date_context": "USDA reported November 23, 2026 for the week ending November 22, with November 15 comparisons. Local drought data are from November 17.",
+      "locality": "Mississippi statewide estimates with separate local drought context for Pontotoc County, Mississippi.",
+      "identities": "USDA National Agricultural Statistics Service and the U.S. Drought Monitor."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Mississippi\u2019s cotton harvest reached 100% in the week ending Sunday, Nov. 22, as soils grew drier. USDA rated 85% of the state\u2019s topsoil short or very short of moisture, up from 80% a week earlier.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "In Pontotoc County, the U.S. Drought Monitor\u2019s Nov. 17 map put 87.77% of the county\u2019s land in extreme drought or worse, including 22.75% in exceptional drought, its most severe category. USDA\u2019s weekly crop report gives the soil and harvest estimates for Mississippi as a whole.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "More topsoil fell into the driest category. USDA rated 51% very short, up from 42% a week earlier. Below the surface, 87% of subsoil moisture was rated short or very short, up from 85%. Only 13% of subsoil was rated adequate in the latest report.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "Cotton harvest had stood at 99% a week earlier. Mississippi was at 98% at the comparable point last year, and its five-year average was 97%. Farmers statewide had an estimated 6.6 days suitable for fieldwork in the latest week, down from 6.8.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/mississippi-cotton-harvest-soil-moisture-november-22.png",
+    "sha256": "8b03eb06c3bce3097187a81e5860e62e4c5b4663fcf7ca1ff6cf259e8c9918dc",
+    "alt_text": "Mississippi short or very short moisture ratings rose from 80% to 85% for topsoil and from 85% to 87% for subsoil.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-23T22:10:05.838031+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "November 23, 2026 scheduled Pontotoc News afternoon edition. Public release authorized after editorial review and authenticated preflight."
+  }
+}
