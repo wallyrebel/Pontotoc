@@ -13,28 +13,28 @@
       "url": "https://services.arcgis.com/LLVEmB8Lsae3Um4s/arcgis/rest/services/Local_Administrative_Areas_view/FeatureServer/1/query?where=OIP_Code%3D63214&outFields=laa_number%2Claa_description%2Claa_election_year%2COIP_Code&returnGeometry=false&f=pjson",
       "publisher": "USDA Farm Service Agency",
       "role": "event",
-      "verified_at": "2026-11-23T01:38:52.543991+00:00",
+      "verified_at": "2026-11-23T01:54:19.925411+00:00",
       "verification_url": "https://services.arcgis.com/LLVEmB8Lsae3Um4s/arcgis/rest/services/Local_Administrative_Areas_view/FeatureServer/1/query?where=OIP_Code%3D63214&outFields=laa_number%2Claa_description%2Claa_election_year%2COIP_Code&returnGeometry=false&f=pjson",
       "published_at": null
     },
     {
       "id": "fsa-notice",
-      "title": "2026 election notice, eligibility and ballot return rules",
-      "url": "https://www.fsa.usda.gov/news-events/news/11-09-2026/usda-encourages-farmers-ranchers-participate-2026-county-committee",
+      "title": "Nationwide election rules in USDA\u2019s Nov. 17 FSA bulletin",
+      "url": "https://content.govdelivery.com/accounts/USDAFARMERS/bulletins/4325ea4",
       "publisher": "USDA Farm Service Agency",
       "role": "event",
-      "verified_at": "2026-11-23T01:38:52.543991+00:00",
-      "verification_url": "https://www.fsa.usda.gov/news-events/news/11-09-2026/usda-encourages-farmers-ranchers-participate-2026-county-committee",
+      "verified_at": "2026-11-23T01:54:19.925411+00:00",
+      "verification_url": "https://content.govdelivery.com/accounts/USDAFARMERS/bulletins/4325ea4",
       "published_at": null
     },
     {
       "id": "fsa-voter",
-      "title": "USDA election calendar and address lookup",
-      "url": "https://www.fsa.usda.gov/about-fsa/county-committee-elections",
-      "publisher": "USDA Farm Service Agency",
+      "title": "USDA\u2019s December farm program deadlines",
+      "url": "https://www.farmers.gov/working-with-us/program-deadlines",
+      "publisher": "USDA Farmers.gov",
       "role": "background",
-      "verified_at": "2026-11-23T01:38:52.543991+00:00",
-      "verification_url": "https://www.fsa.usda.gov/about-fsa/county-committee-elections",
+      "verified_at": "2026-11-23T01:54:19.925411+00:00",
+      "verification_url": "https://www.farmers.gov/working-with-us/program-deadlines",
       "published_at": null
     },
     {
@@ -43,7 +43,7 @@
       "url": "https://usdaonline.maps.arcgis.com/apps/instant/lookup/index.html?appid=c0a64eda87824ce68fe36b5ad622d6ab",
       "publisher": "USDA Farm Service Agency",
       "role": "background",
-      "verified_at": "2026-11-23T01:38:52.543991+00:00",
+      "verified_at": "2026-11-23T01:54:19.925411+00:00",
       "verification_url": "https://usdaonline.maps.arcgis.com/apps/instant/lookup/index.html?appid=c0a64eda87824ce68fe36b5ad622d6ab",
       "published_at": null
     },
@@ -53,18 +53,18 @@
       "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_28.txt",
       "publisher": "U.S. Census Bureau",
       "role": "background",
-      "verified_at": "2026-11-23T01:38:52.543991+00:00",
+      "verified_at": "2026-11-23T01:54:19.925411+00:00",
       "verification_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_28.txt",
       "published_at": null
     },
     {
       "id": "fsa-office",
-      "title": "Find your local Farm Service Agency office",
-      "url": "https://www.fsa.usda.gov/fsa-office-locator",
-      "publisher": "USDA Farm Service Agency",
+      "title": "Find your local USDA Service Center",
+      "url": "https://www.farmers.gov/contact",
+      "publisher": "USDA Farmers.gov",
       "role": "background",
-      "verified_at": "2026-11-23T01:38:52.543991+00:00",
-      "verification_url": "https://www.fsa.usda.gov/fsa-office-locator",
+      "verified_at": "2026-11-23T01:54:19.925411+00:00",
+      "verification_url": "https://www.farmers.gov/contact",
       "published_at": null
     }
   ],
@@ -78,7 +78,7 @@
       ],
       "evidence": "The USDA map\u2019s Pontotoc County office code 63214 returns three area records. Only Area 2 is marked with election year 2026. The dated notice distinguishes delivery from the mailed postmark.",
       "statistics": "Area 2, Dec. 7, 2026.",
-      "date_context": "Ballots mailed in early November 2026. Deadline Monday, Dec. 7, 2026. New member takes office Jan. 1, 2027.",
+      "date_context": "Ballots mailed in November 2026. Deadline Monday, Dec. 7, 2026. New member takes office Jan. 1, 2027.",
       "locality": "USDA Farm Service Agency Local Administrative Area 2 in Pontotoc County, Mississippi.",
       "identities": "Eligible USDA program participants and cooperating producers in Area 2 and their elected county committee representative."
     },
@@ -89,25 +89,25 @@
         "map",
         "pontotoc-laas",
         "census-places",
-        "fsa-voter"
+        "fsa-notice"
       ],
       "evidence": "Used the Census Gazetteer coordinates for each named town to query the location in the same USDA map layer. Each returned area 2, election year 2026, office 63214. No claim that all parcels in any town are eligible.",
       "statistics": "Three town reference points, Area 2.",
-      "date_context": "Ballots mailed in early November 2026. Deadline Monday, Dec. 7, 2026. New member takes office Jan. 1, 2027.",
+      "date_context": "Ballots mailed in November 2026. Deadline Monday, Dec. 7, 2026. New member takes office Jan. 1, 2027.",
       "locality": "USDA Farm Service Agency Local Administrative Area 2 in Pontotoc County, Mississippi.",
       "identities": "Eligible USDA program participants and cooperating producers in Area 2 and their elected county committee representative."
     },
     {
       "id": "f3",
-      "statement": "USDA mailed ballots in early November. Producers who live in the area and participate or cooperate in a USDA program can qualify to vote. A farmer who has given FSA information about an operation can count as a cooperating producer even without having received a program payment. Eligible voters who have yet to receive a ballot can ask the county office for one.",
+      "statement": "USDA has mailed the ballots. Producers who live in the area and participate or cooperate in a USDA program can qualify to vote. A farmer who has given FSA information about an operation can count as a cooperating producer even without having received a program payment. Eligible voters who have yet to receive a ballot can ask the county office for one.",
       "source_ids": [
         "fsa-notice",
         "fsa-office",
         "fsa-voter"
       ],
-      "evidence": "Read the agency\u2019s definitions, mailing date and replacement instructions. The official office finder is linked for readers.",
-      "statistics": "Early November 2026.",
-      "date_context": "Ballots mailed in early November 2026. Deadline Monday, Dec. 7, 2026. New member takes office Jan. 1, 2027.",
+      "evidence": "Read the agency\u2019s nationwide definitions, notice of mailing and replacement instructions. The official office finder is linked for readers.",
+      "statistics": "November 2026.",
+      "date_context": "Ballots mailed in November 2026. Deadline Monday, Dec. 7, 2026. New member takes office Jan. 1, 2027.",
       "locality": "USDA Farm Service Agency Local Administrative Area 2 in Pontotoc County, Mississippi.",
       "identities": "Eligible USDA program participants and cooperating producers in Area 2 and their elected county committee representative."
     },
@@ -115,12 +115,11 @@
       "id": "f4",
       "statement": "The person elected takes office Jan. 1, 2027, for a three-year term. County committee members help decide how federal farm programs operate locally, including conservation, commodity price support and disaster recovery.",
       "source_ids": [
-        "fsa-voter",
         "fsa-notice"
       ],
-      "evidence": "The dated federal notice gives the term, start date and categories of program decisions.",
+      "evidence": "The USDA\u2019s Nov. 17 bulletin gives the national term, start date and categories of program decisions.",
       "statistics": "Jan. 1, 2027, three-year term.",
-      "date_context": "Ballots mailed in early November 2026. Deadline Monday, Dec. 7, 2026. New member takes office Jan. 1, 2027.",
+      "date_context": "Ballots mailed in November 2026. Deadline Monday, Dec. 7, 2026. New member takes office Jan. 1, 2027.",
       "locality": "USDA Farm Service Agency Local Administrative Area 2 in Pontotoc County, Mississippi.",
       "identities": "Eligible USDA program participants and cooperating producers in Area 2 and their elected county committee representative."
     }
@@ -139,7 +138,7 @@
       ]
     },
     {
-      "text": "USDA mailed ballots in early November. Producers who live in the area and participate or cooperate in a USDA program can qualify to vote. A farmer who has given FSA information about an operation can count as a cooperating producer even without having received a program payment. Eligible voters who have yet to receive a ballot can ask the county office for one.",
+      "text": "USDA has mailed the ballots. Producers who live in the area and participate or cooperate in a USDA program can qualify to vote. A farmer who has given FSA information about an operation can count as a cooperating producer even without having received a program payment. Eligible voters who have yet to receive a ballot can ask the county office for one.",
       "fact_ids": [
         "f3"
       ]
@@ -161,7 +160,7 @@
   },
   "review": {
     "reviewer": "Pontotoc News evening desk",
-    "reviewed_at": "2026-11-23T01:38:52.543991+00:00",
+    "reviewed_at": "2026-11-23T01:54:19.925411+00:00",
     "decision": "publish",
     "checks": {
       "dates": true,
