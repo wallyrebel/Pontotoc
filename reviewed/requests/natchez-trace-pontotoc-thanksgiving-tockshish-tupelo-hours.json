@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/natchez-trace-pontotoc-thanksgiving-tockshish-tupelo-hours.json",
   "article_sha256": "955b17c9de2f5f5a76daefc9a4c30fb17c89c94316474854711df53a877996f3",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "natchez-trace-pontotoc-thanksgiving-tockshish-tupelo-hours",
   "seo_review": {
     "reviewer": "Pontotoc News evening desk",
