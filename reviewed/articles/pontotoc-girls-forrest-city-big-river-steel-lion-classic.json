@@ -13,19 +13,9 @@
       "url": "https://www.facebook.com/1409956404473934/posts/1705821421554096",
       "publisher": "Big River Steel Lion Classic via Pontotoc Athletics",
       "role": "event",
-      "verified_at": "2026-11-24T15:08:09.819254+00:00",
+      "verified_at": "2026-11-24T15:12:28.413362+00:00",
       "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7kh8MV2fT.rss",
       "published_at": "2026-11-23T15:21:12+00:00"
-    },
-    {
-      "id": "school",
-      "title": "December 28 girls basketball calendar entry",
-      "url": "https://www.pontotoc.school/apps/events/2026/12/28/49985139/?id=0",
-      "publisher": "Pontotoc City School District",
-      "role": "background",
-      "verified_at": "2026-11-24T15:08:09.819254+00:00",
-      "verification_url": "https://www.pontotoc.school/apps/events/2026/12/28/49985139/?id=0",
-      "published_at": null
     },
     {
       "id": "opponent",
@@ -33,7 +23,7 @@
       "url": "https://www.maxpreps.com/inter-state/basketball/girls/game/forrest-city-ar-vs-pontotoc-ms/12-28-2026/?c=730cd471-842a-425b-b6e3-f144bef1f77a",
       "publisher": "MaxPreps",
       "role": "background",
-      "verified_at": "2026-11-24T15:08:09.819254+00:00",
+      "verified_at": "2026-11-24T15:12:28.413362+00:00",
       "verification_url": "https://www.maxpreps.com/inter-state/basketball/girls/game/forrest-city-ar-vs-pontotoc-ms/12-28-2026/?c=730cd471-842a-425b-b6e3-f144bef1f77a",
       "published_at": null
     }
@@ -44,7 +34,6 @@
       "statement": "Pontotoc\u2019s girls will open the Big River Steel Lion Classic against Forrest City of Arkansas at 2:30 p.m. Monday, Dec. 28. The Warriors drew game four in the eight-team girls bracket the tournament organizer released and Pontotoc Athletics shared Monday.",
       "source_ids": [
         "bracket",
-        "school",
         "opponent"
       ],
       "evidence": "Read each of the eight teams in the girls image. Game 4 names Forrest City and Pontotoc. The Arkansas opponent\u2019s game schedule matches the start.",
@@ -108,7 +97,7 @@
   },
   "review": {
     "reviewer": "Pontotoc News morning desk",
-    "reviewed_at": "2026-11-24T15:08:09.819254+00:00",
+    "reviewed_at": "2026-11-24T15:12:28.413362+00:00",
     "decision": "publish",
     "checks": {
       "dates": true,

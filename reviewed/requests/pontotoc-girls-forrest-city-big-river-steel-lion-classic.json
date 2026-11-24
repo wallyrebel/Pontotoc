@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-girls-forrest-city-big-river-steel-lion-classic.json",
-  "article_sha256": "c3c919a538f66f82aa7653722847db0ddcbee790af0249c6485506b244978b59",
+  "article_sha256": "09dee4bef3e8fdf077432506e1a88b3964bd0fd0a326c5a56d568c4af3615f38",
   "mode": "dry-run",
   "public_slug": "pontotoc-girls-forrest-city-big-river-steel-lion-classic",
   "seo_review": {
     "reviewer": "Pontotoc News morning desk",
-    "reviewed_at": "2026-11-24T15:08:09.819254+00:00",
+    "reviewed_at": "2026-11-24T15:12:28.413362+00:00",
     "checks": {
       "meaningful_headline": true,
       "accurate_concise_description": true,
