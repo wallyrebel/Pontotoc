@@ -1,0 +1,178 @@
+{
+  "title": "Tuesday is the last full day to register free for Mississippi\u2019s Row Crop Short Course",
+  "excerpt": "MSU\u2019s Dec. 7\u20139 course in Starkville includes three lunches and two dinners. Later registration costs $40. A separate Dec. 1 timber tax webinar is online.",
+  "locality": "Agricultural programs available to Pontotoc County, Mississippi growers and forest landowners. Course in Starkville, webinar online.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:msu-extension:2026-12-07:row-crop-short-course",
+    "ms:msu-extension:2026-12-01:forest-taxation-webinar"
+  ],
+  "sources": [
+    {
+      "id": "registration-news",
+      "title": "MSU announcement of the early price and meal plan",
+      "url": "https://extension.msstate.edu/news/feature-story/2026/msu-annual-row-crop-short-course-dec-7-9",
+      "publisher": "Mississippi State University Extension",
+      "role": "event",
+      "verified_at": "2026-11-24T15:13:33.477821+00:00",
+      "verification_url": "https://extension.msstate.edu/news/feature-story/2026/msu-annual-row-crop-short-course-dec-7-9",
+      "published_at": null
+    },
+    {
+      "id": "cropform",
+      "title": "Register for the Row Crop Short Course",
+      "url": "https://reg.extension.msstate.edu/reg/event_page.aspx?ek=0081-0004-4d185bb5722541a1a534b5cc4fbc0f54",
+      "publisher": "Mississippi State University Extension",
+      "role": "event",
+      "verified_at": "2026-11-24T15:13:33.477821+00:00",
+      "verification_url": "https://reg.extension.msstate.edu/reg/event_page.aspx?ek=0081-0004-4d185bb5722541a1a534b5cc4fbc0f54",
+      "published_at": null
+    },
+    {
+      "id": "row-course",
+      "title": "Course dates, address and topics",
+      "url": "https://extension.msstate.edu/events/2026/2026-row-crop-short-course",
+      "publisher": "Mississippi State University Extension",
+      "role": "background",
+      "verified_at": "2026-11-24T15:13:33.477821+00:00",
+      "verification_url": "https://extension.msstate.edu/events/2026/2026-row-crop-short-course",
+      "published_at": null
+    },
+    {
+      "id": "forestform",
+      "title": "Register for the Dec. 1 forest taxation webinar",
+      "url": "https://reg.extension.msstate.edu/reg/event_page.aspx?ek=0081-0004-85f30a892d8e4ca68c12a6d49b7ec593",
+      "publisher": "Mississippi State University Extension",
+      "role": "event",
+      "verified_at": "2026-11-24T15:13:33.477821+00:00",
+      "verification_url": "https://reg.extension.msstate.edu/reg/event_page.aspx?ek=0081-0004-85f30a892d8e4ca68c12a6d49b7ec593",
+      "published_at": null
+    },
+    {
+      "id": "county-office",
+      "title": "Pontotoc County Extension office and agricultural staff",
+      "url": "https://extension.msstate.edu/msu-extension-pontotoc-county",
+      "publisher": "Mississippi State University Extension",
+      "role": "background",
+      "verified_at": "2026-11-24T15:13:33.477821+00:00",
+      "verification_url": "https://extension.msstate.edu/msu-extension-pontotoc-county",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc County farmers planning to attend Mississippi State\u2019s Row Crop Short Course can still sign up free Tuesday, Nov. 24. The university asks growers to register before Nov. 25 for the free rate. Later registration, including at the door, costs $40. Either rate includes three lunches and two evening meals.",
+      "source_ids": [
+        "registration-news",
+        "cropform"
+      ],
+      "evidence": "University news release says free before Nov. 25, $40 afterward. Registrar lists lunch each day, Monday and Tuesday evening meals and the at-door price.",
+      "statistics": "Nov. 24 is Tuesday. Three lunches and two evening meals. $40 late registration.",
+      "date_context": "Reporting Nov. 24, 2026. Course pre-registration before Nov. 25. Events Dec. 1 and Dec. 7\u20139.",
+      "locality": "Agricultural programs available to Pontotoc County, Mississippi growers and forest landowners. Course in Starkville, webinar online.",
+      "identities": "Mississippi State University Extension, Mary-Margaret Fancher, Steven Tucker and University of Georgia instructor Yanshu Li."
+    },
+    {
+      "id": "f2",
+      "statement": "The course runs Dec. 7\u20139 at The Mill, 600 Russell St. in Starkville. Specialists will cover weed control, crop disease, insects and soil fertility. Farmers can use the Extension registration portal linked below or call Mary-Margaret Fancher at 662-325-2311 with questions.",
+      "source_ids": [
+        "row-course",
+        "cropform"
+      ],
+      "evidence": "Checked program subjects, street address and dates against the event calendar and the contact against the registrar.",
+      "statistics": "Dec. 7\u20139, 600 Russell St., 662-325-2311.",
+      "date_context": "Reporting Nov. 24, 2026. Course pre-registration before Nov. 25. Events Dec. 1 and Dec. 7\u20139.",
+      "locality": "Agricultural programs available to Pontotoc County, Mississippi growers and forest landowners. Course in Starkville, webinar online.",
+      "identities": "Mississippi State University Extension, Mary-Margaret Fancher, Steven Tucker and University of Georgia instructor Yanshu Li."
+    },
+    {
+      "id": "f3",
+      "statement": "For local questions, the Pontotoc County Extension office lists Steven Tucker as an agriculture and natural resources agent. The office is at 402 C.J. Hardin Jr. Drive in Pontotoc and can be reached at 662-489-3910.",
+      "source_ids": [
+        "county-office"
+      ],
+      "evidence": "Checked the county office directory for its address, main telephone and Tucker\u2019s agriculture and natural resources responsibilities.",
+      "statistics": "402 C.J. Hardin Jr. Drive and 662-489-3910.",
+      "date_context": "Reporting Nov. 24, 2026. Course pre-registration before Nov. 25. Events Dec. 1 and Dec. 7\u20139.",
+      "locality": "Agricultural programs available to Pontotoc County, Mississippi growers and forest landowners. Course in Starkville, webinar online.",
+      "identities": "Mississippi State University Extension, Mary-Margaret Fancher, Steven Tucker and University of Georgia instructor Yanshu Li."
+    },
+    {
+      "id": "f4",
+      "statement": "The forest taxation webinar runs from noon to 1 p.m. Central on Tuesday, Dec. 1. Yanshu Li of the University of Georgia will discuss timber taxes, casualty losses, conservation easements and income from carbon credits. The webinar has its own registration form.",
+      "source_ids": [
+        "forestform"
+      ],
+      "evidence": "The event portal names the instructor, lists each topic, gives a one-hour Central session and offers registration.",
+      "statistics": "Noon to 1 p.m., Dec. 1.",
+      "date_context": "Reporting Nov. 24, 2026. Course pre-registration before Nov. 25. Events Dec. 1 and Dec. 7\u20139.",
+      "locality": "Agricultural programs available to Pontotoc County, Mississippi growers and forest landowners. Course in Starkville, webinar online.",
+      "identities": "Mississippi State University Extension, Mary-Margaret Fancher, Steven Tucker and University of Georgia instructor Yanshu Li."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc County farmers planning to attend Mississippi State\u2019s Row Crop Short Course can still sign up free Tuesday, Nov. 24. The university asks growers to register before Nov. 25 for the free rate. Later registration, including at the door, costs $40. Either rate includes three lunches and two evening meals.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The course runs Dec. 7\u20139 at The Mill, 600 Russell St. in Starkville. Specialists will cover weed control, crop disease, insects and soil fertility. Farmers can use the Extension registration portal linked below or call Mary-Margaret Fancher at 662-325-2311 with questions.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "For local questions, the Pontotoc County Extension office lists Steven Tucker as an agriculture and natural resources agent. The office is at 402 C.J. Hardin Jr. Drive in Pontotoc and can be reached at 662-489-3910.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "The forest taxation webinar runs from noon to 1 p.m. Central on Tuesday, Dec. 1. Yanshu Li of the University of Georgia will discuss timber taxes, casualty losses, conservation easements and income from carbon credits. The webinar has its own registration form.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/mississippi-row-crop-short-course-free-registration-november.png",
+    "sha256": "78d18d159b2156edec72ee4329aafeafc7540bf741726c4eab822842c9afc37d",
+    "alt_text": "Row Crop Short Course registration is free before Nov. 25. Later registration is $40. Both include three lunches and two dinners.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-24T15:13:33.477821+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f4"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "November 24 scheduled Pontotoc News morning shift. Publish the reviewed package after an authenticated dry run."
+  }
+}
