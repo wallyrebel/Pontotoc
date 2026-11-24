@@ -1,0 +1,138 @@
+{
+  "title": "Pontotoc girls draw Forrest City in December\u2019s Big River Steel Lion Classic",
+  "excerpt": "Pontotoc opens Dec. 28 at 2:30 p.m. Its result decides whether the Warriors play at 1 p.m. or 7 p.m. the next day.",
+  "locality": "Pontotoc High School girls, Pontotoc, Mississippi, playing away.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:girls-basketball:2026-12-28:big-river-steel-lion-classic-bracket"
+  ],
+  "sources": [
+    {
+      "id": "bracket",
+      "title": "Tournament organizer\u2019s girls bracket, shared by Pontotoc Athletics",
+      "url": "https://www.facebook.com/1409956404473934/posts/1705821421554096",
+      "publisher": "Big River Steel Lion Classic via Pontotoc Athletics",
+      "role": "event",
+      "verified_at": "2026-11-24T15:08:09.819254+00:00",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7kh8MV2fT.rss",
+      "published_at": "2026-11-23T15:21:12+00:00"
+    },
+    {
+      "id": "school",
+      "title": "December 28 girls basketball calendar entry",
+      "url": "https://www.pontotoc.school/apps/events/2026/12/28/49985139/?id=0",
+      "publisher": "Pontotoc City School District",
+      "role": "background",
+      "verified_at": "2026-11-24T15:08:09.819254+00:00",
+      "verification_url": "https://www.pontotoc.school/apps/events/2026/12/28/49985139/?id=0",
+      "published_at": null
+    },
+    {
+      "id": "opponent",
+      "title": "Forrest City\u2013Pontotoc girls tournament listing",
+      "url": "https://www.maxpreps.com/inter-state/basketball/girls/game/forrest-city-ar-vs-pontotoc-ms/12-28-2026/?c=730cd471-842a-425b-b6e3-f144bef1f77a",
+      "publisher": "MaxPreps",
+      "role": "background",
+      "verified_at": "2026-11-24T15:08:09.819254+00:00",
+      "verification_url": "https://www.maxpreps.com/inter-state/basketball/girls/game/forrest-city-ar-vs-pontotoc-ms/12-28-2026/?c=730cd471-842a-425b-b6e3-f144bef1f77a",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc\u2019s girls will open the Big River Steel Lion Classic against Forrest City of Arkansas at 2:30 p.m. Monday, Dec. 28. The Warriors drew game four in the eight-team girls bracket the tournament organizer released and Pontotoc Athletics shared Monday.",
+      "source_ids": [
+        "bracket",
+        "school",
+        "opponent"
+      ],
+      "evidence": "Read each of the eight teams in the girls image. Game 4 names Forrest City and Pontotoc. The Arkansas opponent\u2019s game schedule matches the start.",
+      "statistics": "Eight teams. Game 4, 2:30 p.m., Dec. 28.",
+      "date_context": "Bracket shared Monday, Nov. 23, 2026 for Dec. 28\u201330. Schedule times Central.",
+      "locality": "Pontotoc High School girls, Pontotoc, Mississippi, playing away.",
+      "identities": "Pontotoc Warriors, Forrest City, Manila and Yazoo City girls varsity basketball teams."
+    },
+    {
+      "id": "f2",
+      "statement": "The first game determines when Pontotoc plays Tuesday, Dec. 29. A win sends the Warriors to a 7 p.m. semifinal against the winner of Manila and Yazoo City. A loss puts Pontotoc in the 1 p.m. game against the loser of that same matchup. Manila and Yazoo City play at 8:30 p.m. on opening night.",
+      "source_ids": [
+        "bracket"
+      ],
+      "evidence": "Traced G4 and G8 to games 15 and 11 on the girls graphic. Game 8 is Manila\u2013Yazoo City.",
+      "statistics": "1 p.m. or 7 p.m. Dec. 29. Game 8 starts at 8:30 p.m. Dec. 28.",
+      "date_context": "Bracket shared Monday, Nov. 23, 2026 for Dec. 28\u201330. Schedule times Central.",
+      "locality": "Pontotoc High School girls, Pontotoc, Mississippi, playing away.",
+      "identities": "Pontotoc Warriors, Forrest City, Manila and Yazoo City girls varsity basketball teams."
+    },
+    {
+      "id": "f3",
+      "statement": "All eight teams have a game Wednesday, Dec. 30. Seventh place is decided at 10 a.m., fifth place at 1 p.m. and third place at 4 p.m. The girls championship starts at 7 p.m.",
+      "source_ids": [
+        "bracket"
+      ],
+      "evidence": "Read the four placement games from the girls bracket, including the championship in G23.",
+      "statistics": "Dec. 30 at 10 a.m., 1 p.m., 4 p.m. and 7 p.m.",
+      "date_context": "Bracket shared Monday, Nov. 23, 2026 for Dec. 28\u201330. Schedule times Central.",
+      "locality": "Pontotoc High School girls, Pontotoc, Mississippi, playing away.",
+      "identities": "Pontotoc Warriors, Forrest City, Manila and Yazoo City girls varsity basketball teams."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc\u2019s girls will open the Big River Steel Lion Classic against Forrest City of Arkansas at 2:30 p.m. Monday, Dec. 28. The Warriors drew game four in the eight-team girls bracket the tournament organizer released and Pontotoc Athletics shared Monday.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The first game determines when Pontotoc plays Tuesday, Dec. 29. A win sends the Warriors to a 7 p.m. semifinal against the winner of Manila and Yazoo City. A loss puts Pontotoc in the 1 p.m. game against the loser of that same matchup. Manila and Yazoo City play at 8:30 p.m. on opening night.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "All eight teams have a game Wednesday, Dec. 30. Seventh place is decided at 10 a.m., fifth place at 1 p.m. and third place at 4 p.m. The girls championship starts at 7 p.m.",
+      "fact_ids": [
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-girls-forrest-city-big-river-steel-lion-classic.png",
+    "sha256": "9a6245c1c9191adbbfa908e836eef8ebe0aa7acd3397ecf122d788dcaf738331",
+    "alt_text": "Pontotoc plays Forrest City at 2:30 p.m. Dec. 28. On Dec. 29 Pontotoc plays at 7 p.m. after a win or 1 p.m. after a loss.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-24T15:08:09.819254+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "November 24 scheduled Pontotoc News morning shift. Publish the reviewed package after an authenticated dry run."
+  }
+}
