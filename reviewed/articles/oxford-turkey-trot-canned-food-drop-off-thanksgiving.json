@@ -1,0 +1,129 @@
+{
+  "title": "Oxford Turkey Trot takes canned goods Tuesday afternoon and again Thanksgiving morning",
+  "excerpt": "The Ole Miss trail walk is free. Ten cans earn a T-shirt while supplies last, and donations go to Grove Grocery and the Oxford Food Pantry.",
+  "locality": "Nearby Thanksgiving event in Oxford, Mississippi, for Pontotoc County readers traveling to Lafayette County.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:oxford:2026-11-26:ole-miss-thanksgiving-turkey-trot-food-drive"
+  ],
+  "sources": [
+    {
+      "id": "trotofficial",
+      "title": "Official Thanksgiving Turkey Trot times, donation windows and accessibility contact",
+      "url": "https://eventcalendar.olemiss.edu/event/11th-annual-turkey-trot-thanksgiving-fun-runwalk",
+      "publisher": "University of Mississippi",
+      "role": "event",
+      "verified_at": "2026-11-24T15:11:16.515413+00:00",
+      "verification_url": "https://eventcalendar.olemiss.edu/event/11th-annual-turkey-trot-thanksgiving-fun-runwalk",
+      "published_at": null
+    },
+    {
+      "id": "donations",
+      "title": "Who Grove Grocery serves and how to donate",
+      "url": "https://olemiss.edu/grovegrocery/",
+      "publisher": "University of Mississippi",
+      "role": "background",
+      "verified_at": "2026-11-24T15:11:16.515413+00:00",
+      "verification_url": "https://olemiss.edu/grovegrocery/",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Tuesday afternoon is the last advance drop-off for people bringing canned goods to the University of Mississippi\u2019s Thanksgiving Turkey Trot in Oxford. Donors can take 10 cans to the South Campus Recreation Center lobby from 3:45 to 6:15 p.m. Nov. 24 and pick up an event T-shirt while supplies last.",
+      "source_ids": [
+        "trotofficial"
+      ],
+      "evidence": "Official event lists Nov. 23\u201324 in the lobby, its last advance window before Thanksgiving; ten canned goods for a shirt while supplies last.",
+      "statistics": "10 cans, Nov. 24, 3:45\u20136:15 p.m.",
+      "date_context": "Tuesday, Nov. 24, 2026 early collection and Thursday, Nov. 26 walk. All times Central.",
+      "locality": "Nearby Thanksgiving event in Oxford, Mississippi, for Pontotoc County readers traveling to Lafayette County.",
+      "identities": "University of Mississippi Campus Recreation, Grove Grocery, Oxford Food Pantry."
+    },
+    {
+      "id": "f2",
+      "statement": "The run and walk is free, and participants choose their own distance on the South Campus Rail Trail. The event runs from 8:30 to 10:30 a.m. Thursday, Nov. 26, at 980 Whirlpool Drive. Anyone who misses the Tuesday drop-off can bring cans to the trailhead at 8:30 Thursday morning. Coffee and light refreshments will be available there.",
+      "source_ids": [
+        "trotofficial"
+      ],
+      "evidence": "University calendar lists cost, time, address, choose-your-distance format, refreshments and a holiday drop-off at the trailhead.",
+      "statistics": "8:30\u201310:30 a.m. Nov. 26. 980 Whirlpool Drive.",
+      "date_context": "Tuesday, Nov. 24, 2026 early collection and Thursday, Nov. 26 walk. All times Central.",
+      "locality": "Nearby Thanksgiving event in Oxford, Mississippi, for Pontotoc County readers traveling to Lafayette County.",
+      "identities": "University of Mississippi Campus Recreation, Grove Grocery, Oxford Food Pantry."
+    },
+    {
+      "id": "f3",
+      "statement": "The food goes to Grove Grocery and the Oxford Food Pantry. Grove Grocery serves the university community from Kinard Hall on Rebel Drive. For accessibility arrangements for the walk, Ole Miss Campus Recreation lists 662-915-4079 and campusrec@olemiss.edu.",
+      "source_ids": [
+        "trotofficial",
+        "donations"
+      ],
+      "evidence": "Event names both recipients and accessibility contact. Grove Grocery lists its on-campus location and directs non-university residents to Oxford pantries.",
+      "statistics": "662-915-4079.",
+      "date_context": "Tuesday, Nov. 24, 2026 early collection and Thursday, Nov. 26 walk. All times Central.",
+      "locality": "Nearby Thanksgiving event in Oxford, Mississippi, for Pontotoc County readers traveling to Lafayette County.",
+      "identities": "University of Mississippi Campus Recreation, Grove Grocery, Oxford Food Pantry."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Tuesday afternoon is the last advance drop-off for people bringing canned goods to the University of Mississippi\u2019s Thanksgiving Turkey Trot in Oxford. Donors can take 10 cans to the South Campus Recreation Center lobby from 3:45 to 6:15 p.m. Nov. 24 and pick up an event T-shirt while supplies last.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The run and walk is free, and participants choose their own distance on the South Campus Rail Trail. The event runs from 8:30 to 10:30 a.m. Thursday, Nov. 26, at 980 Whirlpool Drive. Anyone who misses the Tuesday drop-off can bring cans to the trailhead at 8:30 Thursday morning. Coffee and light refreshments will be available there.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "The food goes to Grove Grocery and the Oxford Food Pantry. Grove Grocery serves the university community from Kinard Hall on Rebel Drive. For accessibility arrangements for the walk, Ole Miss Campus Recreation lists 662-915-4079 and campusrec@olemiss.edu.",
+      "fact_ids": [
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/oxford-turkey-trot-canned-food-drop-off-thanksgiving.png",
+    "sha256": "571e257fc60e23926759fae89874f4a4122c354d34fb0727dd748bd7dce66437",
+    "alt_text": "Bring cans Tuesday from 3:45 to 6:15 p.m. or at 8:30 a.m. Thursday. The free Oxford walk uses the South Campus Rail Trail at 980 Whirlpool Drive.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-24T15:11:16.515413+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "November 24 scheduled Pontotoc News morning shift. Publish the reviewed package after an authenticated dry run."
+  }
+}

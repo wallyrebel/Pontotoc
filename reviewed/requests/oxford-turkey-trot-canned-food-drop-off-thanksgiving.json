@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/oxford-turkey-trot-canned-food-drop-off-thanksgiving.json",
+  "article_sha256": "b914cf574ab70259780ebca8316b03f96e2f1b8e037a751b47ef675693e0d0c4",
+  "mode": "dry-run",
+  "public_slug": "oxford-turkey-trot-canned-food-drop-off-thanksgiving",
+  "seo_review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-24T15:11:16.515413+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}
