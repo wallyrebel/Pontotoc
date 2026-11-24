@@ -1,0 +1,145 @@
+{
+  "title": "Flu-like illness falls to 7.2% of clinic visits in Pontotoc\u2019s health district",
+  "excerpt": "For the week ending Nov. 14, the northeast district\u2019s share of visits for flu-like symptoms fell from 7.9% to 7.2%. Mississippi\u2019s statewide share rose to 4.1%.",
+  "locality": "MSDH District II in Northeast Mississippi includes Pontotoc County. Counts of patients seen in the story refer to Mississippi statewide.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:msdh:2026-11-14:district-ii-influenza-like-illness-week-45"
+  ],
+  "sources": [
+    {
+      "id": "weekly",
+      "title": "Mississippi respiratory surveillance report for Nov. 8\u201314 (PDF)",
+      "url": "https://msdh.ms.gov/resources/media/Respiratory%20Report%202026%20week%2045.pdf",
+      "publisher": "Mississippi State Department of Health",
+      "role": "event",
+      "verified_at": "2026-11-24T22:22:49.972822+00:00",
+      "verification_url": "https://msdh.ms.gov/resources/media/Respiratory%20Report%202026%20week%2045.pdf",
+      "published_at": null
+    },
+    {
+      "id": "map",
+      "title": "Mississippi public health district map (PDF)",
+      "url": "https://mchbtvis.hrsa.gov/Narratives/FileView/ShowFile?AppFormUniqueId=9ab25daf-40e6-43cb-9308-eb25e4ea2d0e&dataId=803533",
+      "publisher": "Mississippi State Department of Health",
+      "role": "background",
+      "verified_at": "2026-11-24T22:22:49.972822+00:00",
+      "verification_url": "https://mchbtvis.hrsa.gov/Narratives/FileView/ShowFile?AppFormUniqueId=9ab25daf-40e6-43cb-9308-eb25e4ea2d0e&dataId=803533",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Flu-like symptoms accounted for 7.2% of visits to participating clinics in the Northeast Mississippi health district that includes Pontotoc County during the week ending Nov. 14. That share fell from 7.9% the week before, even as the statewide share rose from 3.5% to 4.1%, according to the Mississippi State Department of Health.",
+      "source_ids": [
+        "weekly",
+        "map"
+      ],
+      "evidence": "Page 3, table 2 compares District II and statewide outpatient rates for weeks 44 and 45. The MSDH map places Pontotoc County in District II.",
+      "statistics": "District II 7.9% to 7.2%. State 3.5% to 4.1%.",
+      "date_context": "Week of Nov. 8\u201314, 2026, compared with Nov. 1\u20137, 2026.",
+      "locality": "MSDH District II in Northeast Mississippi includes Pontotoc County. Counts of patients seen in the story refer to Mississippi statewide.",
+      "identities": "Mississippi State Department of Health and participating outpatient providers."
+    },
+    {
+      "id": "f2",
+      "statement": "The northeast recorded the second-highest share among Mississippi\u2019s nine districts. Only District III, in the Delta, reported a higher figure, at 15.1%. The state publishes one figure for the northeast district, which also includes Lee, Union and eight other counties. The report gives no separate rate for Pontotoc County.",
+      "source_ids": [
+        "weekly",
+        "map"
+      ],
+      "evidence": "Compared every row of page 3, table 2. The map identifies the counties in District II and locates District III in the Delta.",
+      "statistics": "Nine districts. District III 15.1%. Eleven counties in District II, including Pontotoc.",
+      "date_context": "Week of Nov. 8\u201314, 2026, compared with Nov. 1\u20137, 2026.",
+      "locality": "MSDH District II in Northeast Mississippi includes Pontotoc County. Counts of patients seen in the story refer to Mississippi statewide.",
+      "identities": "Mississippi State Department of Health and participating outpatient providers."
+    },
+    {
+      "id": "f3",
+      "statement": "Across Mississippi, participating providers reported 721 patients with flu-like symptoms among 17,446 seen Nov. 8\u201314. A week earlier they reported 607 among 17,322. The reporting network varies from week to week. The department received 62 provider reports for the latest week and 60 for the previous one.",
+      "source_ids": [
+        "weekly"
+      ],
+      "evidence": "Page 3, table 1 lists numbers of reports, patients seen and patients with qualifying symptoms in each week.",
+      "statistics": "721 of 17,446, with 62 reports. Previously 607 of 17,322, with 60 reports.",
+      "date_context": "Week of Nov. 8\u201314, 2026, compared with Nov. 1\u20137, 2026.",
+      "locality": "MSDH District II in Northeast Mississippi includes Pontotoc County. Counts of patients seen in the story refer to Mississippi statewide.",
+      "identities": "Mississippi State Department of Health and participating outpatient providers."
+    },
+    {
+      "id": "f4",
+      "statement": "Clinics count a patient in this measure when they record a fever of at least 100 degrees Fahrenheit along with a cough or sore throat. A positive flu test is not required. The department tracks those visits to see how illness changes over time and may revise the figures as more providers report.",
+      "source_ids": [
+        "weekly"
+      ],
+      "evidence": "Page 1 defines the symptom measure, describes a separate laboratory sample program, and explains provisional reporting.",
+      "statistics": "Fever threshold 100 degrees Fahrenheit.",
+      "date_context": "Week of Nov. 8\u201314, 2026, compared with Nov. 1\u20137, 2026.",
+      "locality": "MSDH District II in Northeast Mississippi includes Pontotoc County. Counts of patients seen in the story refer to Mississippi statewide.",
+      "identities": "Mississippi State Department of Health and participating outpatient providers."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Flu-like symptoms accounted for 7.2% of visits to participating clinics in the Northeast Mississippi health district that includes Pontotoc County during the week ending Nov. 14. That share fell from 7.9% the week before, even as the statewide share rose from 3.5% to 4.1%, according to the Mississippi State Department of Health.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The northeast recorded the second-highest share among Mississippi\u2019s nine districts. Only District III, in the Delta, reported a higher figure, at 15.1%. The state publishes one figure for the northeast district, which also includes Lee, Union and eight other counties. The report gives no separate rate for Pontotoc County.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Across Mississippi, participating providers reported 721 patients with flu-like symptoms among 17,446 seen Nov. 8\u201314. A week earlier they reported 607 among 17,322. The reporting network varies from week to week. The department received 62 provider reports for the latest week and 60 for the previous one.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "Clinics count a patient in this measure when they record a fever of at least 100 degrees Fahrenheit along with a cough or sore throat. A positive flu test is not required. The department tracks those visits to see how illness changes over time and may revise the figures as more providers report.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-health-district-flu-like-visits-november-14.png",
+    "sha256": "f8b5bf43a2ff518de58d19631670eb062591a72749970c00aedad9c976c2747e",
+    "alt_text": "Flu-like symptoms accounted for 7.2% of visits at reporting northeast clinics, down from 7.9% the prior week. The statewide share was 4.1%.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-24T22:22:49.972822+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "November 24, 2026, 4 p.m. editorial shift. Publish after final review and authenticated preflight."
+  }
+}
