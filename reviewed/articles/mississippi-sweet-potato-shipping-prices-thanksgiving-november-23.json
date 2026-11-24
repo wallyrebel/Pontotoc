@@ -1,0 +1,144 @@
+{
+  "title": "Mississippi No. 1 sweet potatoes bring mostly $22 to $24 a carton ahead of Thanksgiving",
+  "excerpt": "USDA\u2019s Nov. 23 report puts most 40-pound cartons of No. 1 orange sweet potatoes at 55 to 60 cents a pound before freight. No. 2 cartons brought less.",
+  "locality": "Mississippi shipping points, with Louisiana comparison and Pontotoc County agricultural research context.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:usda:2026-11-23:mississippi-sweet-potato-shipping-point-prices"
+  ],
+  "sources": [
+    {
+      "id": "market",
+      "title": "USDA\u2019s weekly Thomasville shipping-point price report (latest issue)",
+      "url": "https://www.ams.usda.gov/mnreports/th_fv120.pdf",
+      "publisher": "USDA Agricultural Marketing Service",
+      "role": "event",
+      "verified_at": "2026-11-24T20:21:47.119278+00:00",
+      "verification_url": "https://www.ams.usda.gov/mnreports/th_fv120.pdf",
+      "published_at": "2026-11-23T21:16:10+00:00"
+    },
+    {
+      "id": "station",
+      "title": "Mississippi State on Pontotoc\u2019s role in regional sweet potato production",
+      "url": "https://www.msstate.edu/newsroom/article/2026/11/keeping-thanksgiving-sweet-msus-mafes-pontotoc-experiment-station-receives",
+      "publisher": "Mississippi State University",
+      "role": "background",
+      "verified_at": "2026-11-24T20:21:47.119278+00:00",
+      "verification_url": "https://www.msstate.edu/newsroom/article/2026/11/keeping-thanksgiving-sweet-msus-mafes-pontotoc-experiment-station-receives",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Mississippi\u2019s U.S. No. 1 orange sweet potatoes sold mostly for $22 to $24 per 40-pound carton at shipping points as Thanksgiving week began. That works out to 55 to 60 cents a pound before freight. The U.S. Department of Agriculture described demand as fairly good and the market as about steady in its Nov. 23 report.",
+      "source_ids": [
+        "market"
+      ],
+      "evidence": "Read the Mississippi block, orange types, U.S. One, in the dated Nov. 23 report. Divided the endpoints of the most common range by 40.",
+      "statistics": "40 pounds. $22\u2013$24 divided by 40 equals $0.55\u2013$0.60 per pound.",
+      "date_context": "November 23, 2026 shipping-point report for the 2026 season.",
+      "locality": "Mississippi shipping points, with Louisiana comparison and Pontotoc County agricultural research context.",
+      "identities": "USDA Agricultural Marketing Service and Mississippi State University\u2019s Pontotoc Ridge-Flatwoods Branch."
+    },
+    {
+      "id": "f2",
+      "statement": "Grade made a difference of several dollars a box. Mississippi U.S. No. 2 sweet potatoes sold mostly for $13.50 to $15 per 40 pounds. Jumbo sweet potatoes without a grade mark brought mostly $14 to $15.50 for the same weight. The full reported range for No. 1 cartons was $21 to $25.50.",
+      "source_ids": [
+        "market"
+      ],
+      "evidence": "Checked U.S. Two, ungraded jumbo and U.S. One separately. The two lower ranges are the most common prices. The last range is the full reported No. 1 spread.",
+      "statistics": "$13.50\u2013$15, $14\u2013$15.50 and $21\u2013$25.50 per 40-pound carton.",
+      "date_context": "November 23, 2026 shipping-point report for the 2026 season.",
+      "locality": "Mississippi shipping points, with Louisiana comparison and Pontotoc County agricultural research context.",
+      "identities": "USDA Agricultural Marketing Service and Mississippi State University\u2019s Pontotoc Ridge-Flatwoods Branch."
+    },
+    {
+      "id": "f3",
+      "statement": "Louisiana\u2019s No. 1 orange sweet potatoes brought $23.50 to $24 a carton, near the top of the usual Mississippi range. USDA tracks open-market sales by the first handlers of the crop. The prices describe what the boxes brought at the shipping point, before transportation to market. Grocery-store prices and individual Pontotoc County farm sales are outside the scope of the report.",
+      "source_ids": [
+        "market"
+      ],
+      "evidence": "The Louisiana block lists a 40-pound U.S. One pack. The methodology defines first-handler sales and exclusion of freight on shipping-point-basis quotes.",
+      "statistics": "Louisiana $23.50\u2013$24 per 40 pounds.",
+      "date_context": "November 23, 2026 shipping-point report for the 2026 season.",
+      "locality": "Mississippi shipping points, with Louisiana comparison and Pontotoc County agricultural research context.",
+      "identities": "USDA Agricultural Marketing Service and Mississippi State University\u2019s Pontotoc Ridge-Flatwoods Branch."
+    },
+    {
+      "id": "f4",
+      "statement": "Pontotoc County\u2019s role in that market starts before there is a crop to sell. Mississippi State\u2019s Pontotoc Ridge-Flatwoods Branch produces virus-free plant material and slips for sweet potato growers across the Southeast. The university identifies it as one of six sweet potato clean-seed centers in the country.",
+      "source_ids": [
+        "station"
+      ],
+      "evidence": "The university identifies the Pontotoc station, its growers, slips and tissue cultures, and the six-center count.",
+      "statistics": "One of six centers nationwide.",
+      "date_context": "November 23, 2026 shipping-point report for the 2026 season.",
+      "locality": "Mississippi shipping points, with Louisiana comparison and Pontotoc County agricultural research context.",
+      "identities": "USDA Agricultural Marketing Service and Mississippi State University\u2019s Pontotoc Ridge-Flatwoods Branch."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Mississippi\u2019s U.S. No. 1 orange sweet potatoes sold mostly for $22 to $24 per 40-pound carton at shipping points as Thanksgiving week began. That works out to 55 to 60 cents a pound before freight. The U.S. Department of Agriculture described demand as fairly good and the market as about steady in its Nov. 23 report.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "Grade made a difference of several dollars a box. Mississippi U.S. No. 2 sweet potatoes sold mostly for $13.50 to $15 per 40 pounds. Jumbo sweet potatoes without a grade mark brought mostly $14 to $15.50 for the same weight. The full reported range for No. 1 cartons was $21 to $25.50.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Louisiana\u2019s No. 1 orange sweet potatoes brought $23.50 to $24 a carton, near the top of the usual Mississippi range. USDA tracks open-market sales by the first handlers of the crop. The prices describe what the boxes brought at the shipping point, before transportation to market. Grocery-store prices and individual Pontotoc County farm sales are outside the scope of the report.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "Pontotoc County\u2019s role in that market starts before there is a crop to sell. Mississippi State\u2019s Pontotoc Ridge-Flatwoods Branch produces virus-free plant material and slips for sweet potato growers across the Southeast. The university identifies it as one of six sweet potato clean-seed centers in the country.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/mississippi-sweet-potato-shipping-prices-thanksgiving-november-23.png",
+    "sha256": "363563580a9f57e199b35ad4dca22d9b9ce29913f890b7841cd67b2f6eb78dff",
+    "alt_text": "Typical Mississippi prices per 40-pound carton on Nov. 23 ranged from $22 to $24 for No. 1, $13.50 to $15 for No. 2, and $14 to $15.50 for ungraded jumbos.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-24T20:21:47.119278+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "November 24, 2026 authorized afternoon edition. Publish after final editorial review and verified authenticated preflight."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/mississippi-sweet-potato-shipping-prices-thanksgiving-november-23.json",
+  "article_sha256": "8de432ef7218df02e5d8304167f44121fe3f6e9570ec7768b66297cb66094c01",
+  "mode": "dry-run",
+  "public_slug": "mississippi-sweet-potato-shipping-prices-thanksgiving-november-23",
+  "seo_review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-24T20:21:47.119278+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}
