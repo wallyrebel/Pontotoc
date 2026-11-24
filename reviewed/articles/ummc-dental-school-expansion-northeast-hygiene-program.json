@@ -1,0 +1,157 @@
+{
+  "title": "UMMC adds six seats to Mississippi\u2019s only dental school",
+  "excerpt": "UMMC\u2019s incoming dentistry class grew from 40 to 46. Prospective dentists can look for preview-day details in January. Northeast lists May 1 for dental hygiene applications.",
+  "locality": "Statewide dental education access for Pontotoc County readers, with a separate dental hygiene option in Booneville.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:ummc:2026-11-23:dental-class-of-2030-expansion"
+  ],
+  "sources": [
+    {
+      "id": "dental",
+      "title": "UMMC reports the expanded dental school class and plans for the clinic",
+      "url": "https://www.umc.edu/news/News_Articles/2026/11/denistry-class-size.html",
+      "publisher": "University of Mississippi Medical Center",
+      "role": "event",
+      "verified_at": "2026-11-24T15:38:14.922357+00:00",
+      "verification_url": "https://www.umc.edu/news/News_Articles/2026/11/denistry-class-size.html",
+      "published_at": null
+    },
+    {
+      "id": "clinic",
+      "title": "How to apply for dental school admission",
+      "url": "https://www.umc.edu/sod/Students/Prospective%20Students/How%20to%20Apply.html",
+      "publisher": "University of Mississippi Medical Center",
+      "role": "background",
+      "verified_at": "2026-11-24T15:38:14.922357+00:00",
+      "verification_url": "https://www.umc.edu/sod/Students/Prospective%20Students/How%20to%20Apply.html",
+      "published_at": null
+    },
+    {
+      "id": "nemcc",
+      "title": "Dental hygiene degree and fall 2027 application",
+      "url": "https://nemcc.edu/health-sciences/programs/dental-hygiene/index.html",
+      "publisher": "Northeast Mississippi Community College",
+      "role": "background",
+      "verified_at": "2026-11-24T15:38:14.922357+00:00",
+      "verification_url": "https://nemcc.edu/health-sciences/programs/dental-hygiene/index.html",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Mississippi\u2019s only dental school has expanded its entering class from 40 students to 46. The University of Mississippi Medical Center said Monday that two members of the class of 2030 are from Arkansas, the first out-of-state students it has admitted. The school will consider Arkansas applicants one year at a time.",
+      "source_ids": [
+        "dental"
+      ],
+      "evidence": "The Nov. 23 announcement identifies the only dental school, previous/current class sizes, two Arkansas residents and the year-to-year approach.",
+      "statistics": "40 to 46, two students, class of 2030.",
+      "date_context": "UMMC announcement Nov. 23, 2026. Class of 2030. January preview-day announcement and a separate May 1 deadline for Northeast fall 2027.",
+      "locality": "Statewide dental education access for Pontotoc County readers, with a separate dental hygiene option in Booneville.",
+      "identities": "University of Mississippi Medical Center, Dean Pia Chatterjee Kirk and Northeast Mississippi Community College."
+    },
+    {
+      "id": "f2",
+      "statement": "A new clinical building under construction in Jackson could eventually give the school room for 50 students per class, according to Dean Pia Chatterjee Kirk. Plans include a clinic for dental residents and private practice space. UMMC is also considering admitting more dental hygiene students once clinical operations free up space in its existing building.",
+      "source_ids": [
+        "dental"
+      ],
+      "evidence": "The dean describes capacity after construction and a potential hygiene expansion. Both are future plans.",
+      "statistics": "Capacity up to 50 per class.",
+      "date_context": "UMMC announcement Nov. 23, 2026. Class of 2030. January preview-day announcement and a separate May 1 deadline for Northeast fall 2027.",
+      "locality": "Statewide dental education access for Pontotoc County readers, with a separate dental hygiene option in Booneville.",
+      "identities": "University of Mississippi Medical Center, Dean Pia Chatterjee Kirk and Northeast Mississippi Community College."
+    },
+    {
+      "id": "f3",
+      "statement": "Pontotoc-area students considering a Doctor of Dental Medicine degree can watch for UMMC to announce preview days in January. Prospective students can meet admissions directors at those events. UMMC directs applicants to submit transcripts and recommendations through the national dental school application service.",
+      "source_ids": [
+        "dental",
+        "clinic"
+      ],
+      "evidence": "UMMC says preview days will be announced in January. Verified how materials reach the admissions office.",
+      "statistics": "January announcement.",
+      "date_context": "UMMC announcement Nov. 23, 2026. Class of 2030. January preview-day announcement and a separate May 1 deadline for Northeast fall 2027.",
+      "locality": "Statewide dental education access for Pontotoc County readers, with a separate dental hygiene option in Booneville.",
+      "identities": "University of Mississippi Medical Center, Dean Pia Chatterjee Kirk and Northeast Mississippi Community College."
+    },
+    {
+      "id": "f4",
+      "statement": "For students interested in becoming dental hygienists, Northeast Mississippi Community College in Booneville has posted a May 1 deadline for its fall 2027 application. The college lists its application and program director\u2019s contact information on its dental hygiene page.",
+      "source_ids": [
+        "nemcc"
+      ],
+      "evidence": "Northeast identifies the Dental Hygiene AAS, director, Fall 2027 Application and May 1 deadline.",
+      "statistics": "May 1 for fall 2027 entry.",
+      "date_context": "UMMC announcement Nov. 23, 2026. Class of 2030. January preview-day announcement and a separate May 1 deadline for Northeast fall 2027.",
+      "locality": "Statewide dental education access for Pontotoc County readers, with a separate dental hygiene option in Booneville.",
+      "identities": "University of Mississippi Medical Center, Dean Pia Chatterjee Kirk and Northeast Mississippi Community College."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Mississippi\u2019s only dental school has expanded its entering class from 40 students to 46. The University of Mississippi Medical Center said Monday that two members of the class of 2030 are from Arkansas, the first out-of-state students it has admitted. The school will consider Arkansas applicants one year at a time.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "A new clinical building under construction in Jackson could eventually give the school room for 50 students per class, according to Dean Pia Chatterjee Kirk. Plans include a clinic for dental residents and private practice space. UMMC is also considering admitting more dental hygiene students once clinical operations free up space in its existing building.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Pontotoc-area students considering a Doctor of Dental Medicine degree can watch for UMMC to announce preview days in January. Prospective students can meet admissions directors at those events. UMMC directs applicants to submit transcripts and recommendations through the national dental school application service.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "For students interested in becoming dental hygienists, Northeast Mississippi Community College in Booneville has posted a May 1 deadline for its fall 2027 application. The college lists its application and program director\u2019s contact information on its dental hygiene page.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/ummc-dental-school-expansion-northeast-hygiene-program.png",
+    "sha256": "c2f6268c978a66e36809875448569c17a4c690521d8e4c40c2aff618b8daa7c0",
+    "alt_text": "UMMC grew its dental class to 46 from 40. Northeast lists May 1 as the application deadline for fall 2027 dental hygiene.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-24T15:38:14.922357+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f4"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f3",
+      "f4"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "November 24 scheduled Pontotoc News morning shift. Publish the reviewed package after an authenticated dry run."
+  }
+}
