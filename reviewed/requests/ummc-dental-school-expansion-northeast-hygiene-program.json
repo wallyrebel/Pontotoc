@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/ummc-dental-school-expansion-northeast-hygiene-program.json",
   "article_sha256": "ea44594135a2eb87920fe229ad92dc8d879c663e983c15636c7bf803b82ff136",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "ummc-dental-school-expansion-northeast-hygiene-program",
   "seo_review": {
     "reviewer": "Pontotoc News morning desk",
