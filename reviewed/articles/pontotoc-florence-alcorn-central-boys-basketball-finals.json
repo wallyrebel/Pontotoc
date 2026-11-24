@@ -1,0 +1,220 @@
+{
+  "title": "Pontotoc beats Florence 68\u201353 as South Pontotoc\u2019s four-game streak ends",
+  "excerpt": "Pontotoc takes a 4\u20131 record into Tuesday\u2019s Baldwyn game. South Pontotoc faces Mooreville after Alcorn Central pulled away in the fourth quarter.",
+  "locality": "Pontotoc County, Mississippi boys varsity teams at tournaments in Booneville and New Albany, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:boys-basketball:2026-11-23:florence-final",
+    "ms:south-pontotoc:boys-basketball:2026-11-23:alcorn-central-final"
+  ],
+  "sources": [
+    {
+      "id": "florencerecap",
+      "title": "Nov. 23 final and records, Pontotoc vs. Florence",
+      "url": "https://www.maxpreps.com/news/HTkaLk9g6Euicfo1r0rIug/basketball-recap-pontotoc-extends-winning-streak-to-three.htm",
+      "publisher": "MaxPreps",
+      "role": "event",
+      "verified_at": "2026-11-24T15:38:14.922357+00:00",
+      "verification_url": "https://www.maxpreps.com/news/HTkaLk9g6Euicfo1r0rIug/basketball-recap-pontotoc-extends-winning-streak-to-three.htm",
+      "published_at": null
+    },
+    {
+      "id": "southrecap",
+      "title": "Nov. 23 final and records, South Pontotoc vs. Alcorn Central",
+      "url": "https://www.maxpreps.com/news/0AJWxkM2ZEu96zeO3ytosQ/basketball-recap-south-pontotocs-four-game-winning-streak-comes-to-an-end.htm",
+      "publisher": "MaxPreps",
+      "role": "event",
+      "verified_at": "2026-11-24T15:38:14.922357+00:00",
+      "verification_url": "https://www.maxpreps.com/news/0AJWxkM2ZEu96zeO3ytosQ/basketball-recap-south-pontotocs-four-game-winning-streak-comes-to-an-end.htm",
+      "published_at": null
+    },
+    {
+      "id": "nmsn-south",
+      "title": "New Albany Thanksgiving Tournament final",
+      "url": "https://www.watchnmsn.com/games/mp-90b397ca-b081-4b4f-9b23-f4e124916611",
+      "publisher": "North Mississippi Sports Network",
+      "role": "event",
+      "verified_at": "2026-11-24T15:38:14.922357+00:00",
+      "verification_url": "https://www.watchnmsn.com/games/mp-90b397ca-b081-4b4f-9b23-f4e124916611",
+      "published_at": null
+    },
+    {
+      "id": "regional",
+      "title": "Verified quarter scoring in Alcorn Central\u2019s Nov. 23 final",
+      "url": "https://alcornsportsms.com/2026/11/23/alcorn-central-holds-south-pontotoc-to-five-in-the-fourth-for-a-48-41-win/",
+      "publisher": "Alcorn County Sports",
+      "role": "event",
+      "verified_at": "2026-11-24T15:38:14.922357+00:00",
+      "verification_url": "https://alcornsportsms.com/2026/11/23/alcorn-central-holds-south-pontotoc-to-five-in-the-fourth-for-a-48-41-win/",
+      "published_at": null
+    },
+    {
+      "id": "boys",
+      "title": "Pontotoc boys varsity results and upcoming games",
+      "url": "https://www.maxpreps.com/ms/pontotoc/pontotoc-warriors/basketball/schedule/",
+      "publisher": "MaxPreps",
+      "role": "background",
+      "verified_at": "2026-11-24T15:38:14.922357+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/pontotoc/pontotoc-warriors/basketball/schedule/",
+      "published_at": null
+    },
+    {
+      "id": "southlog",
+      "title": "South Pontotoc boys varsity results and upcoming games",
+      "url": "https://www.maxpreps.com/ms/pontotoc/south-pontotoc-cougars/basketball/schedule/",
+      "publisher": "MaxPreps",
+      "role": "background",
+      "verified_at": "2026-11-24T15:38:14.922357+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/pontotoc/south-pontotoc-cougars/basketball/schedule/",
+      "published_at": null
+    },
+    {
+      "id": "booneville",
+      "title": "Pontotoc\u2019s Booneville tournament schedule",
+      "url": "https://pontotocnews.com/pontotoc-news/baldwyn-pontotoc-boys-booneville-tuesday-tipoff/",
+      "publisher": "Pontotoc News",
+      "role": "background",
+      "verified_at": "2026-11-24T15:38:14.922357+00:00",
+      "verification_url": "https://pontotocnews.com/pontotoc-news/baldwyn-pontotoc-boys-booneville-tuesday-tipoff/",
+      "published_at": null
+    },
+    {
+      "id": "newalbany",
+      "title": "New Albany and Booneville tournament venues",
+      "url": "https://pontotocnews.com/pontotoc-news/south-pontotoc-mooreville-florence-thanksgiving-basketball/",
+      "publisher": "Pontotoc News",
+      "role": "background",
+      "verified_at": "2026-11-24T15:38:14.922357+00:00",
+      "verification_url": "https://pontotocnews.com/pontotoc-news/south-pontotoc-mooreville-florence-thanksgiving-basketball/",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc\u2019s boys beat Florence of Alabama 68\u201353 in Booneville on Monday, their third straight win since a loss to DeSoto Central. South Pontotoc\u2019s four-game winning streak ended in New Albany, where Alcorn Central broke a fourth-quarter tie to beat the Cougars 48\u201341.",
+      "source_ids": [
+        "florencerecap",
+        "southrecap",
+        "nmsn-south",
+        "regional",
+        "boys",
+        "booneville"
+      ],
+      "evidence": "Two Nov. 23 postgame reports, separate schedule lines and the New Albany game report. Teams entered the fourth tied 36\u201336. Booneville site confirmed by the Pontotoc Athletics holiday schedule.",
+      "statistics": "68\u201353, third straight win, four-game streak, 48\u201341.",
+      "date_context": "Games Monday, Nov. 23, 2026. Upcoming games Tuesday, Nov. 24. All times Central.",
+      "locality": "Pontotoc County, Mississippi boys varsity teams at tournaments in Booneville and New Albany, Mississippi.",
+      "identities": "Pontotoc Warriors, Florence Falcons of Alabama, South Pontotoc Cougars, Alcorn Central Golden Bears, Baldwyn and Mooreville."
+    },
+    {
+      "id": "f2",
+      "statement": "The Warriors are 4\u20131. They matched their highest point total of the season against Florence, six days after scoring 68 against Louisville. Between those games they won 59\u201354 at Tupelo. Florence left the tournament matchup at 3\u20132.",
+      "source_ids": [
+        "boys",
+        "florencerecap"
+      ],
+      "evidence": "Read five completed Pontotoc finals. Their Nov. 17 and 23 scores shared the season high. The postgame report gives both teams\u2019 records.",
+      "statistics": "4\u20131, two 68-point games, 59\u201354, 3\u20132.",
+      "date_context": "Games Monday, Nov. 23, 2026. Upcoming games Tuesday, Nov. 24. All times Central.",
+      "locality": "Pontotoc County, Mississippi boys varsity teams at tournaments in Booneville and New Albany, Mississippi.",
+      "identities": "Pontotoc Warriors, Florence Falcons of Alabama, South Pontotoc Cougars, Alcorn Central Golden Bears, Baldwyn and Mooreville."
+    },
+    {
+      "id": "f3",
+      "statement": "South Pontotoc took a 20\u201318 lead into halftime after holding Alcorn Central to four points in the second quarter. The Golden Bears drew even at 36 in the third, then outscored the Cougars 12\u20135 in the fourth. South Pontotoc stands at 4\u20133 after opening the season with two losses and winning its next four.",
+      "source_ids": [
+        "regional",
+        "southlog",
+        "southrecap"
+      ],
+      "evidence": "Read both quarter lines and checked the seven completed South Pontotoc games in sequence.",
+      "statistics": "20\u201318, 36\u201336, 12\u20135, 4\u20133.",
+      "date_context": "Games Monday, Nov. 23, 2026. Upcoming games Tuesday, Nov. 24. All times Central.",
+      "locality": "Pontotoc County, Mississippi boys varsity teams at tournaments in Booneville and New Albany, Mississippi.",
+      "identities": "Pontotoc Warriors, Florence Falcons of Alabama, South Pontotoc Cougars, Alcorn Central Golden Bears, Baldwyn and Mooreville."
+    },
+    {
+      "id": "f4",
+      "statement": "Both county teams are back on the schedule Tuesday. Pontotoc plays Baldwyn at 3 p.m. in Booneville. South Pontotoc meets Mooreville at 5:45 p.m. in New Albany.",
+      "source_ids": [
+        "boys",
+        "southlog",
+        "southrecap",
+        "nmsn-south",
+        "booneville",
+        "newalbany"
+      ],
+      "evidence": "Both schedules list the Nov. 24 opponents and Central times. The Pontotoc Athletics holiday schedule identifies the Booneville site and South\u2019s published tournament preview lists New Albany.",
+      "statistics": "Nov. 24 at 3 p.m. and 5:45 p.m. Central.",
+      "date_context": "Games Monday, Nov. 23, 2026. Upcoming games Tuesday, Nov. 24. All times Central.",
+      "locality": "Pontotoc County, Mississippi boys varsity teams at tournaments in Booneville and New Albany, Mississippi.",
+      "identities": "Pontotoc Warriors, Florence Falcons of Alabama, South Pontotoc Cougars, Alcorn Central Golden Bears, Baldwyn and Mooreville."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc\u2019s boys beat Florence of Alabama 68\u201353 in Booneville on Monday, their third straight win since a loss to DeSoto Central. South Pontotoc\u2019s four-game winning streak ended in New Albany, where Alcorn Central broke a fourth-quarter tie to beat the Cougars 48\u201341.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The Warriors are 4\u20131. They matched their highest point total of the season against Florence, six days after scoring 68 against Louisville. Between those games they won 59\u201354 at Tupelo. Florence left the tournament matchup at 3\u20132.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "South Pontotoc took a 20\u201318 lead into halftime after holding Alcorn Central to four points in the second quarter. The Golden Bears drew even at 36 in the third, then outscored the Cougars 12\u20135 in the fourth. South Pontotoc stands at 4\u20133 after opening the season with two losses and winning its next four.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "Both county teams are back on the schedule Tuesday. Pontotoc plays Baldwyn at 3 p.m. in Booneville. South Pontotoc meets Mooreville at 5:45 p.m. in New Albany.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-florence-alcorn-central-boys-basketball-finals.png",
+    "sha256": "8a4badada172ab20902cebbdacffa08c28f039db2ce8119d82b3ed23a95a5118",
+    "alt_text": "Pontotoc beat Florence 68\u201353. Alcorn Central beat South Pontotoc 48\u201341. On Tuesday Pontotoc plays Baldwyn and South Pontotoc plays Mooreville.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-24T15:38:14.922357+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f3",
+      "f4"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "November 24 scheduled Pontotoc News morning shift. Publish the reviewed package after an authenticated dry run."
+  }
+}

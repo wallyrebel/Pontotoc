@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-florence-alcorn-central-boys-basketball-finals.json",
+  "article_sha256": "105b055f8bef52a7de4fef3b6303f0957b6afbc6a64ef17a13325d74ec746891",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-florence-alcorn-central-boys-basketball-finals",
+  "seo_review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-24T15:38:14.922357+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}
