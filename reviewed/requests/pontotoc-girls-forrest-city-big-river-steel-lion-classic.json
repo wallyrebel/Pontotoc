@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-girls-forrest-city-big-river-steel-lion-classic.json",
   "article_sha256": "09dee4bef3e8fdf077432506e1a88b3964bd0fd0a326c5a56d568c4af3615f38",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-girls-forrest-city-big-river-steel-lion-classic",
   "seo_review": {
     "reviewer": "Pontotoc News morning desk",
