@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-boys-baldwyn-final-booneville-thanksgiving-2026.json",
   "article_sha256": "db16328f38b3c85c1828de0bc8faed65099a8b36131f01c86245508c04541969",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-boys-baldwyn-final-booneville-thanksgiving-2026",
   "seo_review": {
     "reviewer": "Pontotoc News afternoon desk",
