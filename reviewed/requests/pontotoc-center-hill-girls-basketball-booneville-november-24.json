@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-center-hill-girls-basketball-booneville-november-24.json",
+  "article_sha256": "faa919542e53aa2eac5e19534ffb29059b9b953752385371c17b87578b2b6fc6",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-center-hill-girls-basketball-booneville-november-24",
+  "seo_review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-24T22:10:52.206261+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}

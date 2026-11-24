@@ -1,0 +1,181 @@
+{
+  "title": "Pontotoc girls hold Center Hill to seven points for third straight win",
+  "excerpt": "Pontotoc won 66\u20137 at the Booneville Thanksgiving Tournament to improve to 5\u20131. The Warriors host Houston on Dec. 1.",
+  "locality": "Pontotoc High School girls varsity at the Booneville Thanksgiving Tournament in Booneville, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:girls-basketball:2026-11-24:center-hill-final"
+  ],
+  "sources": [
+    {
+      "id": "final",
+      "title": "Pontotoc\u2013Center Hill final score",
+      "url": "https://www.maxpreps.com/ms/basketball/girls/game/center-hill-olive-branch-vs-pontotoc/11-24-2026/?c=b08a6022-03b0-4ed0-bbe9-a0223de039cc",
+      "publisher": "MaxPreps game scorebook",
+      "role": "event",
+      "verified_at": "2026-11-24T22:10:52.206261+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/basketball/girls/game/center-hill-olive-branch-vs-pontotoc/11-24-2026/?c=b08a6022-03b0-4ed0-bbe9-a0223de039cc",
+      "published_at": null
+    },
+    {
+      "id": "season",
+      "title": "Pontotoc girls varsity results",
+      "url": "https://www.maxpreps.com/ms/pontotoc/pontotoc-warriors/basketball/girls/schedule/",
+      "publisher": "Pontotoc varsity schedule on MaxPreps",
+      "role": "background",
+      "verified_at": "2026-11-24T22:10:52.206261+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/pontotoc/pontotoc-warriors/basketball/girls/schedule/",
+      "published_at": null
+    },
+    {
+      "id": "center",
+      "title": "Center Hill girls varsity results",
+      "url": "https://www.maxpreps.com/ms/olive-branch/center-hill-mustangs/basketball/girls/schedule/",
+      "publisher": "Center Hill varsity schedule on MaxPreps",
+      "role": "background",
+      "verified_at": "2026-11-24T22:10:52.206261+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/olive-branch/center-hill-mustangs/basketball/girls/schedule/",
+      "published_at": null
+    },
+    {
+      "id": "flyer",
+      "title": "Pontotoc Athletics Thanksgiving tournament flyer",
+      "url": "https://www.facebook.com/1409956404473934/posts/1702417851894453",
+      "publisher": "Pontotoc Athletics",
+      "role": "background",
+      "verified_at": "2026-11-24T22:10:52.206261+00:00",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7kh8MV2fT.rss",
+      "published_at": "2026-11-20T16:42:01+00:00"
+    },
+    {
+      "id": "next",
+      "title": "Houston at Pontotoc game listing",
+      "url": "https://www.maxpreps.com/ms/basketball/girls/game/houston-vs-pontotoc/12-1-2026/?c=fee3b8d0-68dc-4903-b78f-64c8a11ad251",
+      "publisher": "MaxPreps varsity game schedule",
+      "role": "background",
+      "verified_at": "2026-11-24T22:10:52.206261+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/basketball/girls/game/houston-vs-pontotoc/12-1-2026/?c=fee3b8d0-68dc-4903-b78f-64c8a11ad251",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc\u2019s girls held Center Hill to seven points Tuesday in Booneville, winning 66\u20137 for their third straight victory. The Warriors improved to 5\u20131. It was their highest point total of the season and the second time they held an opponent under 20.",
+      "source_ids": [
+        "final",
+        "season",
+        "center",
+        "flyer"
+      ],
+      "evidence": "Final entered by K. Heard matches both school schedules. The original Pontotoc Athletics graphic shows Center Hill at the Booneville Thanksgiving Tournament. Compared all six completed results.",
+      "statistics": "66\u20137, third consecutive win, 5\u20131 through six games.",
+      "date_context": "Tuesday, November 24, 2026. Next game Tuesday, Dec. 1, at 6 p.m. Central.",
+      "locality": "Pontotoc High School girls varsity at the Booneville Thanksgiving Tournament in Booneville, Mississippi.",
+      "identities": "Pontotoc Warriors and Center Hill Mustangs girls varsity basketball teams. Houston is Pontotoc\u2019s next opponent."
+    },
+    {
+      "id": "f2",
+      "statement": "The Warriors had last held a team under 20 on Nov. 10, when they beat DeSoto Central 53\u201319. Their previous scoring high was 60 against Lake Cormorant in the opener. Tuesday\u2019s 59-point margin was their widest of the season.",
+      "source_ids": [
+        "final",
+        "season"
+      ],
+      "evidence": "Compared season opener, DeSoto Central score and subsequent results with Tuesday\u2019s game.",
+      "statistics": "66 minus 7 equals 59. Previous season high 60.",
+      "date_context": "Tuesday, November 24, 2026. Next game Tuesday, Dec. 1, at 6 p.m. Central.",
+      "locality": "Pontotoc High School girls varsity at the Booneville Thanksgiving Tournament in Booneville, Mississippi.",
+      "identities": "Pontotoc Warriors and Center Hill Mustangs girls varsity basketball teams. Houston is Pontotoc\u2019s next opponent."
+    },
+    {
+      "id": "f3",
+      "statement": "Pontotoc started this winning streak with a six-point victory over Louisville after falling 55\u201351 to Decatur. The Warriors then won at Tupelo 57\u201340. Center Hill entered Tuesday\u2019s game after a 58\u201325 loss to Booneville on Monday and is now 3\u20134.",
+      "source_ids": [
+        "season",
+        "center",
+        "final"
+      ],
+      "evidence": "Confirmed the sequence of wins and losses and Center Hill\u2019s record on its completed matchup.",
+      "statistics": "59\u201353 vs. Louisville, 55\u201351 loss to Decatur, 57\u201340 at Tupelo, 58\u201325 Booneville over Center Hill.",
+      "date_context": "Tuesday, November 24, 2026. Next game Tuesday, Dec. 1, at 6 p.m. Central.",
+      "locality": "Pontotoc High School girls varsity at the Booneville Thanksgiving Tournament in Booneville, Mississippi.",
+      "identities": "Pontotoc Warriors and Center Hill Mustangs girls varsity basketball teams. Houston is Pontotoc\u2019s next opponent."
+    },
+    {
+      "id": "f4",
+      "statement": "The Warriors return home to play Houston at 6 p.m. Tuesday, Dec. 1. Houston was 5\u20130 when the Booneville tournament game ended.",
+      "source_ids": [
+        "next",
+        "season"
+      ],
+      "evidence": "Dec. 1 matchup lists Houston at Pontotoc at 6 p.m. Central and Houston at 5\u20130 as of this report.",
+      "statistics": "Dec. 1, 6 p.m. Central. 5\u20130 Houston.",
+      "date_context": "Tuesday, November 24, 2026. Next game Tuesday, Dec. 1, at 6 p.m. Central.",
+      "locality": "Pontotoc High School girls varsity at the Booneville Thanksgiving Tournament in Booneville, Mississippi.",
+      "identities": "Pontotoc Warriors and Center Hill Mustangs girls varsity basketball teams. Houston is Pontotoc\u2019s next opponent."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc\u2019s girls held Center Hill to seven points Tuesday in Booneville, winning 66\u20137 for their third straight victory. The Warriors improved to 5\u20131. It was their highest point total of the season and the second time they held an opponent under 20.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The Warriors had last held a team under 20 on Nov. 10, when they beat DeSoto Central 53\u201319. Their previous scoring high was 60 against Lake Cormorant in the opener. Tuesday\u2019s 59-point margin was their widest of the season.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Pontotoc started this winning streak with a six-point victory over Louisville after falling 55\u201351 to Decatur. The Warriors then won at Tupelo 57\u201340. Center Hill entered Tuesday\u2019s game after a 58\u201325 loss to Booneville on Monday and is now 3\u20134.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "The Warriors return home to play Houston at 6 p.m. Tuesday, Dec. 1. Houston was 5\u20130 when the Booneville tournament game ended.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-center-hill-girls-basketball-booneville-november-24.png",
+    "sha256": "f81a082a0d50fb6fa131cfde9963776b190bb25f8b6a8539beeb40e52d0a6b8d",
+    "alt_text": "Final score at Booneville on Nov. 24. Pontotoc 66, Center Hill 7. The Warriors are 5\u20131.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-24T22:10:52.206261+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f4"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "November 24, 2026, 4 p.m. editorial shift. Publish after final review and authenticated preflight."
+  }
+}
