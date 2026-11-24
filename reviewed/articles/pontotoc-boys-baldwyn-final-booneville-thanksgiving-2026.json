@@ -1,0 +1,182 @@
+{
+  "title": "Pontotoc boys beat Baldwyn 73\u201341 for fourth straight win",
+  "excerpt": "The Warriors scored a season-high 73 points to finish 2\u20130 at the Booneville Thanksgiving Tournament. They face Grissom on Friday in Corinth.",
+  "locality": "Pontotoc High School boys varsity basketball at the Booneville Thanksgiving Tournament in Booneville, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:boys-basketball:2026-11-24:baldwyn-final"
+  ],
+  "sources": [
+    {
+      "id": "game",
+      "title": "Baldwyn\u2013Pontotoc boys final",
+      "url": "https://www.maxpreps.com/ms/basketball/game/baldwyn-vs-pontotoc/11-24-2026/?c=4819c8d1-e835-447f-adf0-09e223cba127",
+      "publisher": "MaxPreps varsity game record",
+      "role": "event",
+      "verified_at": "2026-11-24T22:32:18.308871+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/basketball/game/baldwyn-vs-pontotoc/11-24-2026/?c=4819c8d1-e835-447f-adf0-09e223cba127",
+      "published_at": null
+    },
+    {
+      "id": "season",
+      "title": "Pontotoc boys season results",
+      "url": "https://www.maxpreps.com/ms/pontotoc/pontotoc-warriors/basketball/schedule/",
+      "publisher": "MaxPreps varsity team records",
+      "role": "background",
+      "verified_at": "2026-11-24T22:32:18.308871+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/pontotoc/pontotoc-warriors/basketball/schedule/",
+      "published_at": null
+    },
+    {
+      "id": "opponent",
+      "title": "Baldwyn boys season results",
+      "url": "https://www.maxpreps.com/ms/baldwyn/baldwyn-bearcats/basketball/schedule/",
+      "publisher": "MaxPreps varsity team records",
+      "role": "background",
+      "verified_at": "2026-11-24T22:32:18.308871+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/baldwyn/baldwyn-bearcats/basketball/schedule/",
+      "published_at": null
+    },
+    {
+      "id": "flyer",
+      "title": "Pontotoc Athletics holiday tournament schedule",
+      "url": "https://www.facebook.com/1409956404473934/posts/1702417851894453",
+      "publisher": "Pontotoc Athletics",
+      "role": "background",
+      "verified_at": "2026-11-24T22:32:18.308871+00:00",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7kh8MV2fT.rss",
+      "published_at": "2026-11-20T16:42:01+00:00"
+    },
+    {
+      "id": "next",
+      "title": "Friday\u2019s Pontotoc\u2013Grissom game listing",
+      "url": "https://www.maxpreps.com/inter-state/basketball/game/grissom-huntsville-al-vs-pontotoc-ms/11-27-2026/?c=e5562aab-4494-4de0-8172-3657cf27cfba",
+      "publisher": "MaxPreps varsity game record",
+      "role": "background",
+      "verified_at": "2026-11-24T22:32:18.308871+00:00",
+      "verification_url": "https://www.maxpreps.com/inter-state/basketball/game/grissom-huntsville-al-vs-pontotoc-ms/11-27-2026/?c=e5562aab-4494-4de0-8172-3657cf27cfba",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc\u2019s boys beat Baldwyn 73\u201341 Tuesday to finish the Booneville Thanksgiving Tournament with two wins in as many days. The Warriors scored their most points in six games this season and left Booneville with a 5\u20131 record.",
+      "source_ids": [
+        "game",
+        "season",
+        "flyer"
+      ],
+      "evidence": "The completed game record names both teams and gives the final and overall records. The school flyer lists Florence on Monday and Baldwyn on Tuesday in Booneville. Compared Pontotoc\u2019s first five scores with the final.",
+      "statistics": "73\u201341 on Nov. 24. Pontotoc 5\u20131. Previous scoring high 68.",
+      "date_context": "Final on Tuesday, Nov. 24, 2026. Next game Friday, Nov. 27, Central time.",
+      "locality": "Pontotoc High School boys varsity basketball at the Booneville Thanksgiving Tournament in Booneville, Mississippi.",
+      "identities": "Pontotoc Warriors and Baldwyn Bearcats. Grissom of Huntsville, Alabama, is Pontotoc\u2019s next scheduled opponent."
+    },
+    {
+      "id": "f2",
+      "statement": "The 32-point win extended Pontotoc\u2019s winning streak to four. It began with a 68\u201334 home win over Louisville, followed by a 59\u201354 road win at Tupelo. The Warriors opened the Booneville tournament Monday by beating Florence of Alabama 68\u201353.",
+      "source_ids": [
+        "game",
+        "season",
+        "flyer"
+      ],
+      "evidence": "The Pontotoc team schedule lists the Louisville, Tupelo and Florence finals and the school identifies the two tournament games. Tuesday\u2019s margin is 73 minus 41.",
+      "statistics": "Four straight wins. Louisville 68\u201334, Tupelo 59\u201354, Florence 68\u201353.",
+      "date_context": "Final on Tuesday, Nov. 24, 2026. Next game Friday, Nov. 27, Central time.",
+      "locality": "Pontotoc High School boys varsity basketball at the Booneville Thanksgiving Tournament in Booneville, Mississippi.",
+      "identities": "Pontotoc Warriors and Baldwyn Bearcats. Grissom of Huntsville, Alabama, is Pontotoc\u2019s next scheduled opponent."
+    },
+    {
+      "id": "f3",
+      "statement": "Baldwyn had won its opener by 34 points the night before, beating Thrasher 58\u201324. Tuesday\u2019s loss evened the Bearcats\u2019 record at 1\u20131. They are scheduled for a rematch at Thrasher on Dec. 3.",
+      "source_ids": [
+        "opponent",
+        "game"
+      ],
+      "evidence": "Baldwyn\u2019s schedule lists the completed Nov. 23 and Nov. 24 games and the Dec. 3 road date.",
+      "statistics": "58\u201324 on Nov. 23. Baldwyn 1\u20131 after Nov. 24.",
+      "date_context": "Final on Tuesday, Nov. 24, 2026. Next game Friday, Nov. 27, Central time.",
+      "locality": "Pontotoc High School boys varsity basketball at the Booneville Thanksgiving Tournament in Booneville, Mississippi.",
+      "identities": "Pontotoc Warriors and Baldwyn Bearcats. Grissom of Huntsville, Alabama, is Pontotoc\u2019s next scheduled opponent."
+    },
+    {
+      "id": "f4",
+      "statement": "Pontotoc\u2019s next opponent is Grissom of Huntsville, Alabama. The teams are scheduled for 11:30 a.m. Friday, Nov. 27, at the Lighthouse Classic in Corinth. The Warriors return home to face Houston on Tuesday, Dec. 1, at 7:15 p.m.",
+      "source_ids": [
+        "next",
+        "season",
+        "flyer"
+      ],
+      "evidence": "Friday\u2019s listing names the Lighthouse Classic and specifies Central time. The school holiday artwork identifies Corinth and the varsity schedule shows the home game against Houston.",
+      "statistics": "Nov. 27, 11:30 a.m. Central. Dec. 1, 7:15 p.m. Central.",
+      "date_context": "Final on Tuesday, Nov. 24, 2026. Next game Friday, Nov. 27, Central time.",
+      "locality": "Pontotoc High School boys varsity basketball at the Booneville Thanksgiving Tournament in Booneville, Mississippi.",
+      "identities": "Pontotoc Warriors and Baldwyn Bearcats. Grissom of Huntsville, Alabama, is Pontotoc\u2019s next scheduled opponent."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc\u2019s boys beat Baldwyn 73\u201341 Tuesday to finish the Booneville Thanksgiving Tournament with two wins in as many days. The Warriors scored their most points in six games this season and left Booneville with a 5\u20131 record.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The 32-point win extended Pontotoc\u2019s winning streak to four. It began with a 68\u201334 home win over Louisville, followed by a 59\u201354 road win at Tupelo. The Warriors opened the Booneville tournament Monday by beating Florence of Alabama 68\u201353.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Baldwyn had won its opener by 34 points the night before, beating Thrasher 58\u201324. Tuesday\u2019s loss evened the Bearcats\u2019 record at 1\u20131. They are scheduled for a rematch at Thrasher on Dec. 3.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "Pontotoc\u2019s next opponent is Grissom of Huntsville, Alabama. The teams are scheduled for 11:30 a.m. Friday, Nov. 27, at the Lighthouse Classic in Corinth. The Warriors return home to face Houston on Tuesday, Dec. 1, at 7:15 p.m.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-boys-baldwyn-final-booneville-thanksgiving-2026.png",
+    "sha256": "027a2fa3eb83ef9a47b99d8c236512bf23876ff20205dd1a2ba934c63b89740a",
+    "alt_text": "Pontotoc beat Baldwyn 73 to 41 in Booneville for its fourth straight win. The Warriors are 5\u20131 and play Grissom on Friday.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-24T22:32:18.308871+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f4"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "November 24, 2026, 4 p.m. editorial shift. Publish after final review and authenticated preflight."
+  }
+}
