@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-county-october-unemployment-rate-rises.json",
+  "article_sha256": "bfd813046a1eecf9941b08b3d36467301f2fd6d13ae99fb67b1c04d3027c066f",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-county-october-unemployment-rate-rises",
+  "seo_review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-24T15:18:00.863626+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}

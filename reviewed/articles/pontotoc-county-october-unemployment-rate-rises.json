@@ -1,0 +1,139 @@
+{
+  "title": "Pontotoc County unemployment rises to 3.8% in October",
+  "excerpt": "Pontotoc\u2019s jobless rate rose for the second straight month and was above the statewide rate of 3.6%. The county\u2019s October labor force numbered 11,833.",
+  "locality": "Pontotoc County and adjacent Chickasaw, Lee, Union and Lafayette counties in Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:mdes:pontotoc-county:2026-10:county-labor-force-estimates"
+  ],
+  "sources": [
+    {
+      "id": "rates",
+      "title": "MDES county and state monthly unemployment rates, 1990 onward (PDF)",
+      "url": "https://mdes.ms.gov/media/8735/urate.pdf",
+      "publisher": "Mississippi Department of Employment Security",
+      "role": "event",
+      "verified_at": "2026-11-24T15:18:00.863626+00:00",
+      "verification_url": "https://mdes.ms.gov/media/8735/urate.pdf",
+      "published_at": null
+    },
+    {
+      "id": "map",
+      "title": "October county unemployment map and statewide comparison (PDF)",
+      "url": "https://mdes.ms.gov/media/8654/uratesmapbw.pdf",
+      "publisher": "Mississippi Department of Employment Security",
+      "role": "event",
+      "verified_at": "2026-11-24T15:18:00.863626+00:00",
+      "verification_url": "https://mdes.ms.gov/media/8654/uratesmapbw.pdf",
+      "published_at": null
+    },
+    {
+      "id": "force",
+      "title": "October civilian labor force by county (PDF)",
+      "url": "https://mdes.ms.gov/media/8591/clfmap.pdf",
+      "publisher": "Mississippi Department of Employment Security",
+      "role": "event",
+      "verified_at": "2026-11-24T15:18:00.863626+00:00",
+      "verification_url": "https://mdes.ms.gov/media/8591/clfmap.pdf",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc County\u2019s unemployment rate rose to 3.8% in October, up from 3.4% in September. The Mississippi Department of Employment Security\u2019s monthly county figures show a second straight increase after August\u2019s 3.2%.",
+      "source_ids": [
+        "rates",
+        "map"
+      ],
+      "evidence": "Read the Pontotoc 2026 row across August, September and October in the county series. The October map independently lists Pontotoc at 3.8%.",
+      "statistics": "3.2% in August, 3.4% in September, 3.8% in October.",
+      "date_context": "October 2026 county estimates, checked Nov. 24, 2026. September and August 2026 figures used for comparison. Rates are not seasonally adjusted.",
+      "locality": "Pontotoc County and adjacent Chickasaw, Lee, Union and Lafayette counties in Mississippi.",
+      "identities": "Mississippi Department of Employment Security, resident civilian labor force."
+    },
+    {
+      "id": "f2",
+      "statement": "The county\u2019s rate ran two-tenths of a percentage point above Mississippi\u2019s 3.6%. The figures in that comparison are both unadjusted for seasonal changes. The state\u2019s October labor force map lists 11,833 Pontotoc County residents in the civilian labor force, which includes employed people and those counted as unemployed.",
+      "source_ids": [
+        "map",
+        "force"
+      ],
+      "evidence": "Verified the map month, Mississippi and Pontotoc rates, the map note on seasonal adjustment and the civilian labor force label directly under Pontotoc. Cross-checked against the preliminary October residence-based table.",
+      "statistics": "3.8% less 3.6% equals 0.2 percentage points. County labor force 11,833.",
+      "date_context": "October 2026 county estimates, checked Nov. 24, 2026. September and August 2026 figures used for comparison. Rates are not seasonally adjusted.",
+      "locality": "Pontotoc County and adjacent Chickasaw, Lee, Union and Lafayette counties in Mississippi.",
+      "identities": "Mississippi Department of Employment Security, resident civilian labor force."
+    },
+    {
+      "id": "f3",
+      "statement": "Neighboring counties fell on both sides of Pontotoc\u2019s rate. Chickasaw County recorded 4.4%, while Lee County was at 3.4%, Union County at 3.1% and Lafayette County at 3.0%. All four figures are for October.",
+      "source_ids": [
+        "map",
+        "rates"
+      ],
+      "evidence": "County map and October 2026 rows for each named county checked against the printed statewide county ranking.",
+      "statistics": "Chickasaw 4.4%, Lee 3.4%, Union 3.1%, Lafayette 3.0%.",
+      "date_context": "October 2026 county estimates, checked Nov. 24, 2026. September and August 2026 figures used for comparison. Rates are not seasonally adjusted.",
+      "locality": "Pontotoc County and adjacent Chickasaw, Lee, Union and Lafayette counties in Mississippi.",
+      "identities": "Mississippi Department of Employment Security, resident civilian labor force."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc County\u2019s unemployment rate rose to 3.8% in October, up from 3.4% in September. The Mississippi Department of Employment Security\u2019s monthly county figures show a second straight increase after August\u2019s 3.2%.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The county\u2019s rate ran two-tenths of a percentage point above Mississippi\u2019s 3.6%. The figures in that comparison are both unadjusted for seasonal changes. The state\u2019s October labor force map lists 11,833 Pontotoc County residents in the civilian labor force, which includes employed people and those counted as unemployed.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Neighboring counties fell on both sides of Pontotoc\u2019s rate. Chickasaw County recorded 4.4%, while Lee County was at 3.4%, Union County at 3.1% and Lafayette County at 3.0%. All four figures are for October.",
+      "fact_ids": [
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-county-october-unemployment-rate-rises.png",
+    "sha256": "ae0ef3204f8a60a957016787681dc3f48f88bbdc79d9d329beaa1832fd1f66cf",
+    "alt_text": "Pontotoc County unemployment increased from 3.2% in August to 3.4% in September and 3.8% in October 2026.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-24T15:18:00.863626+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "November 24 scheduled Pontotoc News morning shift. Publish the reviewed package after an authenticated dry run."
+  }
+}
