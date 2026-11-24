@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-wednesday-rain-mdot-thanksgiving-lane-closure-pause.json",
   "article_sha256": "ff2140fc5047764743e5506ec5fd54fc095952e8a7c08194af19ac189a2af552",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-wednesday-rain-mdot-thanksgiving-lane-closure-pause",
   "seo_review": {
     "reviewer": "Pontotoc News afternoon desk",
