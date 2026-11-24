@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-health-district-flu-like-visits-november-14.json",
   "article_sha256": "00c678a9b8f49644f4483ef09cbdbf3e4aae0554f82bbf7288110d1ec9214aeb",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-health-district-flu-like-visits-november-14",
   "seo_review": {
     "reviewer": "Pontotoc News afternoon desk",
