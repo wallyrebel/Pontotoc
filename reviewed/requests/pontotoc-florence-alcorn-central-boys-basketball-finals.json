@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-florence-alcorn-central-boys-basketball-finals.json",
   "article_sha256": "105b055f8bef52a7de4fef3b6303f0957b6afbc6a64ef17a13325d74ec746891",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-florence-alcorn-central-boys-basketball-finals",
   "seo_review": {
     "reviewer": "Pontotoc News morning desk",
