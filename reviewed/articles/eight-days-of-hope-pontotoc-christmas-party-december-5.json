@@ -1,0 +1,145 @@
+{
+  "title": "Eight Days of Hope opens its Pontotoc headquarters for a free Dec. 5 Christmas party",
+  "excerpt": "The Dec. 5 party at 142 Kings Highway offers equipment rides, lunch and cookie decorating. A second event with the same name is downtown on Dec. 10.",
+  "locality": "Pontotoc, Mississippi, at the Eight Days of Hope national headquarters. Separate Chamber event in downtown Pontotoc.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:eight-days-of-hope:2026-12-05:community-christmas-party"
+  ],
+  "sources": [
+    {
+      "id": "host",
+      "title": "Eight Days of Hope party program, admission and address",
+      "url": "https://eightdaysofhope.com/2026-weekend-of-hope/",
+      "publisher": "Eight Days of Hope",
+      "role": "event",
+      "verified_at": "2026-11-24T01:40:59.338165+00:00",
+      "verification_url": "https://eightdaysofhope.com/2026-weekend-of-hope/",
+      "published_at": null
+    },
+    {
+      "id": "chamber",
+      "title": "Pontotoc County Chamber December community calendar",
+      "url": "https://pontotocchamber.com/event-page-in-progress/",
+      "publisher": "Pontotoc County Chamber Main Street",
+      "role": "background",
+      "verified_at": "2026-11-24T01:40:59.338165+00:00",
+      "verification_url": "https://pontotocchamber.com/event-page-in-progress/",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc families can climb aboard equipment, decorate cookies and stay for lunch at Eight Days of Hope on Saturday, Dec. 5. The free Christmas party runs from 10 a.m. to 3 p.m. at the organization\u2019s national headquarters, 142 Kings Highway in Pontotoc. Families can come without registering.",
+      "source_ids": [
+        "host"
+      ],
+      "evidence": "Host lists the headquarters address, equipment rides, cookie decorating, lunch, free admission and no RSVP.",
+      "statistics": "Dec. 5, 2026, 10 a.m. to 3 p.m. Central. 142 Kings Highway.",
+      "date_context": "December 3, 5 and 10, 2026. All times Central.",
+      "locality": "Pontotoc, Mississippi, at the Eight Days of Hope national headquarters. Separate Chamber event in downtown Pontotoc.",
+      "identities": "Eight Days of Hope and Pontotoc County Chamber Main Street."
+    },
+    {
+      "id": "f2",
+      "statement": "The program also includes a touch-a-truck activity, bounce houses, crafts and a hot chocolate bar. Eight Days of Hope describes the invitation to Northeast Mississippi families as a thank-you to its neighbors.",
+      "source_ids": [
+        "host"
+      ],
+      "evidence": "Activities checked against the organizer\u2019s community invitation.",
+      "statistics": "No count or attendance estimate reported.",
+      "date_context": "December 3, 5 and 10, 2026. All times Central.",
+      "locality": "Pontotoc, Mississippi, at the Eight Days of Hope national headquarters. Separate Chamber event in downtown Pontotoc.",
+      "identities": "Eight Days of Hope and Pontotoc County Chamber Main Street."
+    },
+    {
+      "id": "f3",
+      "statement": "Two Pontotoc events use the name Merry Little Christmas Party. The Dec. 5 gathering is the one on Kings Highway. The Pontotoc County Chamber calendar lists the other for Thursday, Dec. 10, from 5 to 7 p.m. downtown.",
+      "source_ids": [
+        "host",
+        "chamber"
+      ],
+      "evidence": "Compared both organizers\u2019 titles, dates, hours and locations to distinguish the two parties.",
+      "statistics": "Dec. 5 and Dec. 10, 2026. Downtown event 5\u20137 p.m.",
+      "date_context": "December 3, 5 and 10, 2026. All times Central.",
+      "locality": "Pontotoc, Mississippi, at the Eight Days of Hope national headquarters. Separate Chamber event in downtown Pontotoc.",
+      "identities": "Eight Days of Hope and Pontotoc County Chamber Main Street."
+    },
+    {
+      "id": "f4",
+      "statement": "The Saturday party is part of Eight Days of Hope\u2019s fourth annual Weekend of Hope. Its ticketed gala takes place two nights earlier, Thursday, Dec. 3, at 6 p.m. at Huntington Bank Arena in Tupelo. The organizer lists the west tower doors for gala guests.",
+      "source_ids": [
+        "host"
+      ],
+      "evidence": "Gala listing specifies time, venue, entrance and ticket link. Organizer identifies fourth annual weekend.",
+      "statistics": "Fourth annual. Dec. 3 at 6 p.m. Central.",
+      "date_context": "December 3, 5 and 10, 2026. All times Central.",
+      "locality": "Pontotoc, Mississippi, at the Eight Days of Hope national headquarters. Separate Chamber event in downtown Pontotoc.",
+      "identities": "Eight Days of Hope and Pontotoc County Chamber Main Street."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc families can climb aboard equipment, decorate cookies and stay for lunch at Eight Days of Hope on Saturday, Dec. 5. The free Christmas party runs from 10 a.m. to 3 p.m. at the organization\u2019s national headquarters, 142 Kings Highway in Pontotoc. Families can come without registering.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The program also includes a touch-a-truck activity, bounce houses, crafts and a hot chocolate bar. Eight Days of Hope describes the invitation to Northeast Mississippi families as a thank-you to its neighbors.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Two Pontotoc events use the name Merry Little Christmas Party. The Dec. 5 gathering is the one on Kings Highway. The Pontotoc County Chamber calendar lists the other for Thursday, Dec. 10, from 5 to 7 p.m. downtown.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "The Saturday party is part of Eight Days of Hope\u2019s fourth annual Weekend of Hope. Its ticketed gala takes place two nights earlier, Thursday, Dec. 3, at 6 p.m. at Huntington Bank Arena in Tupelo. The organizer lists the west tower doors for gala guests.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/eight-days-of-hope-pontotoc-christmas-party-december-5.png",
+    "sha256": "2ea56026ad69a8adb3fd59d302ae2fefe8161cd90b2056587113f8ec8b46ba59",
+    "alt_text": "Eight Days of Hope hosts families Dec. 5 from 10 a.m. to 3 p.m. at 142 Kings Highway. The downtown party is Dec. 10 from 5 to 7 p.m.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News evening desk",
+    "reviewed_at": "2026-11-24T01:40:59.338165+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "November 23, 2026 evening supplemental edition. Publish after verified editorial review and authenticated preflight."
+  }
+}
