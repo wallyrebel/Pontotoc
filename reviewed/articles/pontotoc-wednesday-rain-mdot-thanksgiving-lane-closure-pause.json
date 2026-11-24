@@ -1,0 +1,158 @@
+{
+  "title": "MDOT pauses lane closures Wednesday afternoon as rain moves into Pontotoc County",
+  "excerpt": "Wednesday\u2019s rain chance is near 100% in Pontotoc County. Most new highway lane closures pause Wednesday afternoon through Monday morning.",
+  "locality": "Pontotoc County, Mississippi, in NWS zone MSZ015. MDOT closure policy applies statewide.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:mdot:2026-11-25:thanksgiving-lane-closure-pause",
+    "ms:pontotoc:nws:2026-11-24:afternoon-holiday-travel-forecast"
+  ],
+  "sources": [
+    {
+      "id": "mdot",
+      "title": "MDOT\u2019s Thanksgiving lane closure announcement",
+      "url": "https://mdot.ms.gov/portal/news_release_view/2894",
+      "publisher": "Mississippi Department of Transportation",
+      "role": "event",
+      "verified_at": "2026-11-24T22:06:16.307711+00:00",
+      "verification_url": "https://mdot.ms.gov/portal/news_release_view/2894",
+      "published_at": null
+    },
+    {
+      "id": "nws",
+      "title": "Tuesday afternoon forecast bulletin for Pontotoc County",
+      "url": "https://api.weather.gov/products/9b385abe-6b5e-4c0e-905f-e0810828494e",
+      "publisher": "National Weather Service Memphis",
+      "role": "event",
+      "verified_at": "2026-11-24T22:06:16.307711+00:00",
+      "verification_url": "https://api.weather.gov/products/9b385abe-6b5e-4c0e-905f-e0810828494e",
+      "published_at": "2026-11-24T21:06:00+00:00"
+    },
+    {
+      "id": "map",
+      "title": "MDOT Traffic road conditions and cameras",
+      "url": "https://www.mdottraffic.com/landing.aspx",
+      "publisher": "Mississippi Department of Transportation",
+      "role": "background",
+      "verified_at": "2026-11-24T22:06:16.307711+00:00",
+      "verification_url": "https://www.mdottraffic.com/landing.aspx",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Mississippi highway crews will pause nonemergency lane closures Wednesday afternoon, just as Pontotoc County heads into its wettest travel day of Thanksgiving week. The pause runs through Monday morning, Nov. 30. Drivers can still encounter lanes that were already closed for safety, including at work sites where crews have gone home.",
+      "source_ids": [
+        "mdot",
+        "nws"
+      ],
+      "evidence": "MDOT gives statewide start and end periods and explains continuing protective closures. NWS local bulletin gives Wednesday the highest rain probability through the holiday weekend.",
+      "statistics": "Nov. 25 afternoon through Nov. 30 morning, 2026.",
+      "date_context": "Tuesday afternoon, Nov. 24, through Monday morning, Nov. 30, 2026, Central time.",
+      "locality": "Pontotoc County, Mississippi, in NWS zone MSZ015. MDOT closure policy applies statewide.",
+      "identities": "Mississippi Department of Transportation and National Weather Service Memphis."
+    },
+    {
+      "id": "f2",
+      "statement": "For travelers leaving Pontotoc early, the rain could arrive before the work stops. The National Weather Service\u2019s 3:05 p.m. Tuesday forecast gives the county a 70% chance of rain after midnight and a near-100% chance Wednesday. The daytime high is expected to reach only the lower 50s. The rain chance falls to 50% Wednesday evening.",
+      "source_ids": [
+        "nws"
+      ],
+      "evidence": "Read MSZ015 in Tuesday afternoon\u2019s bulletin. The 70% chance is for Tuesday night, with rain likely after midnight. Wednesday-night rain is concentrated in the evening.",
+      "statistics": "3:05 p.m. Central, Nov. 24. 70%, near 100%, 50%.",
+      "date_context": "Tuesday afternoon, Nov. 24, through Monday morning, Nov. 30, 2026, Central time.",
+      "locality": "Pontotoc County, Mississippi, in NWS zone MSZ015. MDOT closure policy applies statewide.",
+      "identities": "Mississippi Department of Transportation and National Weather Service Memphis."
+    },
+    {
+      "id": "f3",
+      "statement": "Thanksgiving Day should turn mostly sunny after a cloudy morning, but northwest winds could gust to 25 mph. The forecast high is in the mid-40s, followed by a low around 30 Thursday night. Friday is expected to be sunny with a high in the mid-50s. For the return trip Sunday, the weather service puts the chance of showers at 50%.",
+      "source_ids": [
+        "nws"
+      ],
+      "evidence": "County-specific Thanksgiving through Sunday outlook in the Nov. 24 forecast.",
+      "statistics": "Nov. 26\u201329. Gusts to 25 mph. Sunday 50%.",
+      "date_context": "Tuesday afternoon, Nov. 24, through Monday morning, Nov. 30, 2026, Central time.",
+      "locality": "Pontotoc County, Mississippi, in NWS zone MSZ015. MDOT closure policy applies statewide.",
+      "identities": "Mississippi Department of Transportation and National Weather Service Memphis."
+    },
+    {
+      "id": "f4",
+      "statement": "MDOT asks drivers to treat any remaining lane closures as active work zones. Before leaving, drivers can check their route on the free MDOT Traffic app or the agency\u2019s traffic map for current conditions and cameras.",
+      "source_ids": [
+        "mdot",
+        "map"
+      ],
+      "evidence": "Agency identifies the travel information service and asks drivers to observe continuing work-zone restrictions.",
+      "statistics": "No individual highway closure or reopening time asserted.",
+      "date_context": "Tuesday afternoon, Nov. 24, through Monday morning, Nov. 30, 2026, Central time.",
+      "locality": "Pontotoc County, Mississippi, in NWS zone MSZ015. MDOT closure policy applies statewide.",
+      "identities": "Mississippi Department of Transportation and National Weather Service Memphis."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Mississippi highway crews will pause nonemergency lane closures Wednesday afternoon, just as Pontotoc County heads into its wettest travel day of Thanksgiving week. The pause runs through Monday morning, Nov. 30. Drivers can still encounter lanes that were already closed for safety, including at work sites where crews have gone home.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "For travelers leaving Pontotoc early, the rain could arrive before the work stops. The National Weather Service\u2019s 3:05 p.m. Tuesday forecast gives the county a 70% chance of rain after midnight and a near-100% chance Wednesday. The daytime high is expected to reach only the lower 50s. The rain chance falls to 50% Wednesday evening.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Thanksgiving Day should turn mostly sunny after a cloudy morning, but northwest winds could gust to 25 mph. The forecast high is in the mid-40s, followed by a low around 30 Thursday night. Friday is expected to be sunny with a high in the mid-50s. For the return trip Sunday, the weather service puts the chance of showers at 50%.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "MDOT asks drivers to treat any remaining lane closures as active work zones. Before leaving, drivers can check their route on the free MDOT Traffic app or the agency\u2019s traffic map for current conditions and cameras.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-wednesday-rain-mdot-thanksgiving-lane-closure-pause.png",
+    "sha256": "0c28cef44edbb01cd40d8a24f5f926cb50c35753f323c3bb8b1ea1a824341c04",
+    "alt_text": "Pontotoc County has a near-100% rain chance Wednesday. Nonemergency lane closures pause from Wednesday afternoon to Monday morning. Thursday gusts could reach 25 mph.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-24T22:06:16.307711+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "November 24, 2026, 4 p.m. editorial shift. Publish after final review and authenticated preflight."
+  }
+}
