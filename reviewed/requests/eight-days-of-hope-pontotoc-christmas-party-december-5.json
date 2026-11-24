@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/eight-days-of-hope-pontotoc-christmas-party-december-5.json",
   "article_sha256": "0f6be54c868c2b567f9331d45cca54ff83c596b34a9332fc57733d6e37247895",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "eight-days-of-hope-pontotoc-christmas-party-december-5",
   "seo_review": {
     "reviewer": "Pontotoc News evening desk",
