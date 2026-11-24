@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/mississippi-row-crop-short-course-free-registration-november.json",
   "article_sha256": "79fd250d58f0b39af45212b94073b156cea3775c193b91754c415aaf3e9ff91e",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "mississippi-row-crop-short-course-free-registration-november",
   "seo_review": {
     "reviewer": "Pontotoc News morning desk",
