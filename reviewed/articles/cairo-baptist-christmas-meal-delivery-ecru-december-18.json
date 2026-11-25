@@ -1,0 +1,127 @@
+{
+  "title": "Cairo Baptist Church in Ecru takes requests for free Dec. 18 meals",
+  "excerpt": "Names are due by 5 p.m. Dec. 14 for free holiday meals. Cairo Baptist will offer pickup at the church and start deliveries at 3 p.m. Dec. 18.",
+  "locality": "Cairo Baptist Church, Ecru, Pontotoc County, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:ecru:cairo-baptist:2026-12-18:holiday-meal-delivery"
+  ],
+  "sources": [
+    {
+      "id": "flyer",
+      "title": "Cairo Baptist Church meal announcement shared by the Town of Ecru",
+      "url": "https://www.facebook.com/1204361708550928/posts/1474375294882900",
+      "publisher": "Town of Ecru",
+      "role": "event",
+      "verified_at": "2026-11-25T01:44:01.964555+00:00",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7mX75E8w6.rss",
+      "published_at": "2026-11-24T16:24:17+00:00"
+    },
+    {
+      "id": "directory",
+      "title": "Pontotoc Chamber church directory",
+      "url": "https://pontotocchamber.com/relocation/",
+      "publisher": "Pontotoc County Chamber of Commerce",
+      "role": "background",
+      "verified_at": "2026-11-25T01:44:01.964555+00:00",
+      "verification_url": "https://pontotocchamber.com/relocation/",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Cairo Baptist Church in Ecru is taking names for free holiday meals for people in need. The church will start delivering plates at 3 p.m. Friday, Dec. 18. People may also pick up a plate at the church, according to the event flyer shared Tuesday by the Town of Ecru.",
+      "source_ids": [
+        "flyer"
+      ],
+      "evidence": "Read the offer, date, delivery start and pickup option directly from the church flyer.",
+      "statistics": "Dec. 18 at 3 p.m.",
+      "date_context": "Monday, Dec. 14, and Friday, Dec. 18, 2026. All times Central.",
+      "locality": "Cairo Baptist Church, Ecru, Pontotoc County, Mississippi.",
+      "identities": "Cairo Baptist Church, the Town of Ecru and the church\u2019s publicly designated event contact."
+    },
+    {
+      "id": "f2",
+      "statement": "The deadline to submit a name is 5 p.m. Monday, Dec. 14, four days before delivery. The church lists Wendy Fine as the contact for the meal. Requests can be made by calling or texting 662-253-2649.",
+      "source_ids": [
+        "flyer"
+      ],
+      "evidence": "The church\u2019s public event contact and deadline appear on the lower left and lower right of the flyer.",
+      "statistics": "5 p.m. Dec. 14. Event contact 662-253-2649.",
+      "date_context": "Monday, Dec. 14, and Friday, Dec. 18, 2026. All times Central.",
+      "locality": "Cairo Baptist Church, Ecru, Pontotoc County, Mississippi.",
+      "identities": "Cairo Baptist Church, the Town of Ecru and the church\u2019s publicly designated event contact."
+    },
+    {
+      "id": "f3",
+      "statement": "For those choosing pickup, the Pontotoc County Chamber of Commerce\u2019s church directory lists Cairo Baptist at 2610 Cairo Road in Ecru. The church\u2019s announcement gives no delivery boundary, so anyone requesting a plate outside Ecru can check their address with the event contact.",
+      "source_ids": [
+        "directory",
+        "flyer"
+      ],
+      "evidence": "Chamber directory confirms the church street address. The full event graphic specifies no delivery radius.",
+      "statistics": "2610 Cairo Road, Ecru.",
+      "date_context": "Monday, Dec. 14, and Friday, Dec. 18, 2026. All times Central.",
+      "locality": "Cairo Baptist Church, Ecru, Pontotoc County, Mississippi.",
+      "identities": "Cairo Baptist Church, the Town of Ecru and the church\u2019s publicly designated event contact."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Cairo Baptist Church in Ecru is taking names for free holiday meals for people in need. The church will start delivering plates at 3 p.m. Friday, Dec. 18. People may also pick up a plate at the church, according to the event flyer shared Tuesday by the Town of Ecru.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The deadline to submit a name is 5 p.m. Monday, Dec. 14, four days before delivery. The church lists Wendy Fine as the contact for the meal. Requests can be made by calling or texting 662-253-2649.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "For those choosing pickup, the Pontotoc County Chamber of Commerce\u2019s church directory lists Cairo Baptist at 2610 Cairo Road in Ecru. The church\u2019s announcement gives no delivery boundary, so anyone requesting a plate outside Ecru can check their address with the event contact.",
+      "fact_ids": [
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/cairo-baptist-christmas-meal-delivery-ecru-december-18.png",
+    "sha256": "e45a2e553b15d45f89d1478d69cdbd2bf2b6b938a3934d7c1c5f7078d8817e36",
+    "alt_text": "Submit names by 5 p.m. Dec. 14. Cairo Baptist Church begins delivering meals at 3 p.m. Dec. 18, with pickup at 2610 Cairo Road in Ecru.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News evening desk",
+    "reviewed_at": "2026-11-25T01:44:01.964555+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "November 24, 2026 evening edition authorized reviewed publication."
+  }
+}
