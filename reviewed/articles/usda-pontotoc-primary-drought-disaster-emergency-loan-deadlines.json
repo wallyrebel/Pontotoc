@@ -1,0 +1,158 @@
+{
+  "title": "USDA names Pontotoc a primary drought disaster county. Two loan deadlines apply.",
+  "excerpt": "Farmers have until July 6, 2027, under the Nov. 23 designation. Dec. 7, 2026, remains the deadline under the April designation.",
+  "locality": "Pontotoc County, Mississippi, and the Pontotoc USDA Service Center.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:usda-fsa:2026-11-23:s6465-primary-drought-designation",
+    "ms:pontotoc:usda-fsa:2026-12-07:april-22-drought-loan-deadline"
+  ],
+  "sources": [
+    {
+      "id": "nov",
+      "title": "Nov. 23 disaster designation S6465 and eligible counties",
+      "url": "https://www.fsa.usda.gov/news-events/news/11-23-2026/usda-designates-six-mississippi-counties-natural-disaster-areas",
+      "publisher": "USDA Farm Service Agency",
+      "role": "event",
+      "verified_at": "2026-11-25T15:27:03.750534+00:00",
+      "verification_url": "https://www.fsa.usda.gov/news-events/news/11-23-2026/usda-designates-six-mississippi-counties-natural-disaster-areas",
+      "published_at": null
+    },
+    {
+      "id": "apr",
+      "title": "April 22 Mississippi drought designation and its filing deadline",
+      "url": "https://www.fsa.usda.gov/news-events/news/04-22-2026/usda-designates-21-mississippi-counties-natural-disaster-areas-due-0",
+      "publisher": "USDA Farm Service Agency",
+      "role": "event",
+      "verified_at": "2026-11-25T15:27:03.750534+00:00",
+      "verification_url": "https://www.fsa.usda.gov/news-events/news/04-22-2026/usda-designates-21-mississippi-counties-natural-disaster-areas-due-0",
+      "published_at": null
+    },
+    {
+      "id": "office",
+      "title": "Find the Pontotoc Farm Service Agency office by state and county",
+      "url": "https://www.farmers.gov/working-with-us/service-center-locator?fips=28115&state=MS&stateCode=28&cntyCode=115",
+      "publisher": "USDA Farmers.gov",
+      "role": "background",
+      "verified_at": "2026-11-25T15:27:03.750534+00:00",
+      "verification_url": "https://www.farmers.gov/working-with-us/service-center-locator?fips=28115&state=MS&stateCode=28&cntyCode=115",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc County farmers who suffered drought losses have a new window to apply for federal emergency loans. The U.S. Department of Agriculture named Pontotoc a primary disaster county on Nov. 23. Applications under that designation, S6465, are due July 6, 2027.",
+      "source_ids": [
+        "nov"
+      ],
+      "evidence": "The agency lists Pontotoc as a primary county and gives July 6, 2027 for S6465.",
+      "statistics": "Nov. 23, 2026, July 6, 2027.",
+      "date_context": "USDA notices April 22 and Nov. 23, 2026. Filing deadlines Dec. 7, 2026 and July 6, 2027.",
+      "locality": "Pontotoc County, Mississippi, and the Pontotoc USDA Service Center.",
+      "identities": "USDA Farm Service Agency, Pontotoc County and the five other primary Mississippi counties in S6465."
+    },
+    {
+      "id": "f2",
+      "statement": "The July deadline is separate from a Dec. 7, 2026, deadline that applies to an earlier drought designation. USDA\u2019s April 22 notice included Pontotoc as a neighbor of a designated county. Its November notice lists Pontotoc alongside Chickasaw, Clay, Lee, Monroe and Union as the six primary counties. Producers can ask the Farm Service Agency which designation covers their losses.",
+      "source_ids": [
+        "nov",
+        "apr"
+      ],
+      "evidence": "Read the primary and contiguous lists and application deadlines in both releases. The April PDF corroborates the December cutoff.",
+      "statistics": "Two deadlines, six primary counties under the Nov. 23 notice.",
+      "date_context": "USDA notices April 22 and Nov. 23, 2026. Filing deadlines Dec. 7, 2026 and July 6, 2027.",
+      "locality": "Pontotoc County, Mississippi, and the Pontotoc USDA Service Center.",
+      "identities": "USDA Farm Service Agency, Pontotoc County and the five other primary Mississippi counties in S6465."
+    },
+    {
+      "id": "f3",
+      "statement": "The loans can help farms replace essential equipment or livestock, reorganize operations or refinance certain debts. The Farm Service Agency weighs the extent of the losses, what the borrower can offer as collateral and the ability to repay when reviewing an application.",
+      "source_ids": [
+        "nov"
+      ],
+      "evidence": "The agency specifies eligible recovery uses and three review factors. No loan approval, interest rate or maximum award is promised.",
+      "statistics": "None asserted.",
+      "date_context": "USDA notices April 22 and Nov. 23, 2026. Filing deadlines Dec. 7, 2026 and July 6, 2027.",
+      "locality": "Pontotoc County, Mississippi, and the Pontotoc USDA Service Center.",
+      "identities": "USDA Farm Service Agency, Pontotoc County and the five other primary Mississippi counties in S6465."
+    },
+    {
+      "id": "f4",
+      "statement": "The Pontotoc Farm Service Agency office is at 190 Highway 15 S. in Pontotoc. The USDA service center directory lists 662-489-3563 for that office. Farmers can call there about filing a notice of loss and the deadline for their circumstances.",
+      "source_ids": [
+        "office",
+        "nov"
+      ],
+      "evidence": "Selected Mississippi, then Pontotoc, then Go in the official directory. The FSA result gives the physical address and phone. The release refers notice-of-loss questions to the local service center.",
+      "statistics": "190 Highway 15 S., 662-489-3563.",
+      "date_context": "USDA notices April 22 and Nov. 23, 2026. Filing deadlines Dec. 7, 2026 and July 6, 2027.",
+      "locality": "Pontotoc County, Mississippi, and the Pontotoc USDA Service Center.",
+      "identities": "USDA Farm Service Agency, Pontotoc County and the five other primary Mississippi counties in S6465."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc County farmers who suffered drought losses have a new window to apply for federal emergency loans. The U.S. Department of Agriculture named Pontotoc a primary disaster county on Nov. 23. Applications under that designation, S6465, are due July 6, 2027.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The July deadline is separate from a Dec. 7, 2026, deadline that applies to an earlier drought designation. USDA\u2019s April 22 notice included Pontotoc as a neighbor of a designated county. Its November notice lists Pontotoc alongside Chickasaw, Clay, Lee, Monroe and Union as the six primary counties. Producers can ask the Farm Service Agency which designation covers their losses.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "The loans can help farms replace essential equipment or livestock, reorganize operations or refinance certain debts. The Farm Service Agency weighs the extent of the losses, what the borrower can offer as collateral and the ability to repay when reviewing an application.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "The Pontotoc Farm Service Agency office is at 190 Highway 15 S. in Pontotoc. The USDA service center directory lists 662-489-3563 for that office. Farmers can call there about filing a notice of loss and the deadline for their circumstances.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/usda-pontotoc-primary-drought-disaster-emergency-loan-deadlines.png",
+    "sha256": "9f1be20fc0f7029d977cf010f07987980f7e62fe2ab5a06dd9b47b80f7faa774",
+    "alt_text": "The April designation deadline is Dec. 7, 2026. The Nov. 23 designation deadline is July 6, 2027. Call Pontotoc FSA at 662-489-3563.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-25T15:27:03.750534+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 25 morning Pontotoc News edition. Publish the reviewed facts after an authenticated dry run."
+  }
+}

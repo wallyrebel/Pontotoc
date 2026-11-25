@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/usda-pontotoc-primary-drought-disaster-emergency-loan-deadlines.json",
+  "article_sha256": "5754d9e0e4f24c9a18e286396886764a7bac3a5a84729f14b5f1280d0a30e298",
+  "mode": "dry-run",
+  "public_slug": "usda-pontotoc-primary-drought-disaster-emergency-loan-deadlines",
+  "seo_review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-25T15:27:03.750534+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}
