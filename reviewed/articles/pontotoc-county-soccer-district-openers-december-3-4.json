@@ -1,0 +1,281 @@
+{
+  "title": "North Pontotoc hosts New Albany and Pontotoc travels to Lafayette to open district soccer",
+  "excerpt": "Two district doubleheaders are set for Dec. 3. South Pontotoc gets its turn at home against Ripley on Dec. 4.",
+  "locality": "Pontotoc County, Mississippi, including Ecru, Pontotoc and South Pontotoc. Lafayette hosts in Oxford.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:2026-12-03:district-soccer-lafayette",
+    "ms:north-pontotoc:2026-12-03:district-soccer-new-albany",
+    "ms:south-pontotoc:2026-12-04:district-soccer-ripley"
+  ],
+  "sources": [
+    {
+      "id": "0g",
+      "title": "Pontotoc at Lafayette girls match",
+      "url": "https://www.maxpreps.com/ms/soccer/girls/match/lafayette-oxford-vs-pontotoc/12-3-2026/?c=a363a913-e63f-48dd-9b53-90d049af3a47",
+      "publisher": "MaxPreps varsity match sheet",
+      "role": "event",
+      "verified_at": "2026-11-25T22:11:51.999235+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/soccer/girls/match/lafayette-oxford-vs-pontotoc/12-3-2026/?c=a363a913-e63f-48dd-9b53-90d049af3a47",
+      "published_at": null
+    },
+    {
+      "id": "0b",
+      "title": "Pontotoc at Lafayette boys match",
+      "url": "https://www.maxpreps.com/ms/soccer/match/lafayette-oxford-vs-pontotoc/12-3-2026/?c=55c8570a-4ed1-4293-9592-de732ca37880",
+      "publisher": "MaxPreps varsity match sheet",
+      "role": "event",
+      "verified_at": "2026-11-25T22:11:51.999235+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/soccer/match/lafayette-oxford-vs-pontotoc/12-3-2026/?c=55c8570a-4ed1-4293-9592-de732ca37880",
+      "published_at": null
+    },
+    {
+      "id": "1g",
+      "title": "New Albany at North Pontotoc girls match",
+      "url": "https://www.maxpreps.com/ms/soccer/girls/match/new-albany-vs-north-pontotoc-ecru/12-3-2026/?c=8e066f77-8ed6-46d4-bb00-00ad80710274",
+      "publisher": "MaxPreps varsity match sheet",
+      "role": "event",
+      "verified_at": "2026-11-25T22:11:51.999235+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/soccer/girls/match/new-albany-vs-north-pontotoc-ecru/12-3-2026/?c=8e066f77-8ed6-46d4-bb00-00ad80710274",
+      "published_at": null
+    },
+    {
+      "id": "1b",
+      "title": "New Albany at North Pontotoc boys match",
+      "url": "https://www.maxpreps.com/ms/soccer/match/new-albany-vs-north-pontotoc-ecru/12-3-2026/?c=9803714e-010d-4882-bef2-e1203d7aa4cc",
+      "publisher": "MaxPreps varsity match sheet",
+      "role": "event",
+      "verified_at": "2026-11-25T22:11:51.999235+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/soccer/match/new-albany-vs-north-pontotoc-ecru/12-3-2026/?c=9803714e-010d-4882-bef2-e1203d7aa4cc",
+      "published_at": null
+    },
+    {
+      "id": "2g",
+      "title": "Ripley at South Pontotoc girls match",
+      "url": "https://www.maxpreps.com/ms/soccer/girls/match/ripley-vs-south-pontotoc/12-4-2026/?c=e79871c3-65cb-48a2-8629-f2c50cf7b52f",
+      "publisher": "MaxPreps varsity match sheet",
+      "role": "event",
+      "verified_at": "2026-11-25T22:11:51.999235+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/soccer/girls/match/ripley-vs-south-pontotoc/12-4-2026/?c=e79871c3-65cb-48a2-8629-f2c50cf7b52f",
+      "published_at": null
+    },
+    {
+      "id": "2b",
+      "title": "Ripley at South Pontotoc boys match",
+      "url": "https://www.maxpreps.com/ms/soccer/match/ripley-vs-south-pontotoc/12-4-2026/?c=6c514522-fde7-47a3-ac06-570232cc5433",
+      "publisher": "MaxPreps varsity match sheet",
+      "role": "event",
+      "verified_at": "2026-11-25T22:11:51.999235+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/soccer/match/ripley-vs-south-pontotoc/12-4-2026/?c=6c514522-fde7-47a3-ac06-570232cc5433",
+      "published_at": null
+    },
+    {
+      "id": "v",
+      "title": "North Pontotoc boys results",
+      "url": "https://www.maxpreps.com/ms/ecru/north-pontotoc-vikings/soccer/winter/schedule/",
+      "publisher": "MaxPreps varsity schedule",
+      "role": "background",
+      "verified_at": "2026-11-25T22:11:51.999235+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/ecru/north-pontotoc-vikings/soccer/winter/schedule/",
+      "published_at": null
+    },
+    {
+      "id": "dogs",
+      "title": "New Albany boys results",
+      "url": "https://www.maxpreps.com/ms/new-albany/new-albany-bulldogs/soccer/winter/schedule/",
+      "publisher": "MaxPreps varsity schedule",
+      "role": "background",
+      "verified_at": "2026-11-25T22:11:51.999235+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/new-albany/new-albany-bulldogs/soccer/winter/schedule/",
+      "published_at": null
+    },
+    {
+      "id": "pw",
+      "title": "Pontotoc girls results",
+      "url": "https://www.maxpreps.com/ms/pontotoc/pontotoc-warriors/soccer/girls/winter/schedule/",
+      "publisher": "MaxPreps varsity schedule",
+      "role": "background",
+      "verified_at": "2026-11-25T22:11:51.999235+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/pontotoc/pontotoc-warriors/soccer/girls/winter/schedule/",
+      "published_at": null
+    },
+    {
+      "id": "pb",
+      "title": "Pontotoc boys results",
+      "url": "https://www.maxpreps.com/ms/pontotoc/pontotoc-warriors/soccer/winter/schedule/",
+      "publisher": "MaxPreps varsity schedule",
+      "role": "background",
+      "verified_at": "2026-11-25T22:11:51.999235+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/pontotoc/pontotoc-warriors/soccer/winter/schedule/",
+      "published_at": null
+    },
+    {
+      "id": "laf",
+      "title": "Lafayette girls results",
+      "url": "https://www.maxpreps.com/ms/oxford/lafayette-commodores/soccer/girls/winter/schedule/",
+      "publisher": "MaxPreps varsity schedule",
+      "role": "background",
+      "verified_at": "2026-11-25T22:11:51.999235+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/oxford/lafayette-commodores/soccer/girls/winter/schedule/",
+      "published_at": null
+    },
+    {
+      "id": "sc",
+      "title": "South Pontotoc boys schedule",
+      "url": "https://www.maxpreps.com/ms/pontotoc/south-pontotoc-cougars/soccer/winter/schedule/",
+      "publisher": "MaxPreps varsity schedule",
+      "role": "background",
+      "verified_at": "2026-11-25T22:11:51.999235+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/pontotoc/south-pontotoc-cougars/soccer/winter/schedule/",
+      "published_at": null
+    },
+    {
+      "id": "sg",
+      "title": "South Pontotoc girls schedule",
+      "url": "https://www.maxpreps.com/ms/pontotoc/south-pontotoc-cougars/soccer/girls/winter/schedule/",
+      "publisher": "MaxPreps varsity schedule",
+      "role": "background",
+      "verified_at": "2026-11-25T22:11:51.999235+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/pontotoc/south-pontotoc-cougars/soccer/girls/winter/schedule/",
+      "published_at": null
+    },
+    {
+      "id": "rip",
+      "title": "Ripley boys results",
+      "url": "https://www.maxpreps.com/ms/ripley/ripley-tigers/soccer/winter/schedule/",
+      "publisher": "MaxPreps varsity schedule",
+      "role": "background",
+      "verified_at": "2026-11-25T22:11:51.999235+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/ripley/ripley-tigers/soccer/winter/schedule/",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "North Pontotoc and Pontotoc open district soccer on the same evening, but families following the boys teams will need two different kickoff times. Thursday, Dec. 3, the Warriors play at Lafayette at 7 p.m. and the Vikings host New Albany in Ecru at 8 p.m. Both girls games begin at 5 p.m. South Pontotoc opens its district schedule at home the next night against Ripley.",
+      "source_ids": [
+        "0g",
+        "0b",
+        "1g",
+        "1b",
+        "2g",
+        "2b"
+      ],
+      "evidence": "All six dated fixtures cross-checked with both sides\u2019 season schedules. Asterisks mark district games.",
+      "statistics": "Dec. 3: girls 5, boys 7 at Lafayette and 8 at North. Dec. 4 at South.",
+      "date_context": "December 3 and 4, 2026. All kickoff times Central. Records through November 25.",
+      "locality": "Pontotoc County, Mississippi, including Ecru, Pontotoc and South Pontotoc. Lafayette hosts in Oxford.",
+      "identities": "Pontotoc, North Pontotoc, South Pontotoc, Lafayette, New Albany and Ripley varsity soccer teams."
+    },
+    {
+      "id": "f2",
+      "statement": "The boys game in Ecru pairs two teams that shut out Mooreville by at least seven goals. North Pontotoc beat Mooreville 7\u20130 on Nov. 17. New Albany won 8\u20130 in its opener on Oct. 27. The Vikings won all five games on their results sheet before Thanksgiving, scoring 35 goals. The Bulldogs closed their November schedule with a 3\u20132 win over Clinton.",
+      "source_ids": [
+        "v",
+        "dogs",
+        "1b"
+      ],
+      "evidence": "Sum of North goals: 8+9+8+3+7=35. Compared Mooreville scores and Clinton result.",
+      "statistics": "Five wins, 35 goals. Mooreville scores 7\u20130 and 8\u20130. Clinton 3\u20132.",
+      "date_context": "December 3 and 4, 2026. All kickoff times Central. Records through November 25.",
+      "locality": "Pontotoc County, Mississippi, including Ecru, Pontotoc and South Pontotoc. Lafayette hosts in Oxford.",
+      "identities": "Pontotoc, North Pontotoc, South Pontotoc, Lafayette, New Albany and Ripley varsity soccer teams."
+    },
+    {
+      "id": "f3",
+      "statement": "At Lafayette, Pontotoc\u2019s girls bring back-to-back 7\u20130 wins over Grenada and Strayhorn. Lafayette has two seven-goal shutouts of its own this month, against Booneville and Hancock. Southaven gives the teams another point of comparison. Pontotoc won that matchup 2\u20130 and Lafayette won 4\u20130. The Warrior boys also shut out Grenada and Strayhorn, scoring nine goals across the two games.",
+      "source_ids": [
+        "pw",
+        "pb",
+        "laf",
+        "0g",
+        "0b"
+      ],
+      "evidence": "Compared each team\u2019s dated results against the listed opponents. Pontotoc boys won 6\u20130 and 3\u20130.",
+      "statistics": "Two 7\u20130 wins each, 2\u20130 and 4\u20130 versus Southaven, nine boys goals.",
+      "date_context": "December 3 and 4, 2026. All kickoff times Central. Records through November 25.",
+      "locality": "Pontotoc County, Mississippi, including Ecru, Pontotoc and South Pontotoc. Lafayette hosts in Oxford.",
+      "identities": "Pontotoc, North Pontotoc, South Pontotoc, Lafayette, New Albany and Ripley varsity soccer teams."
+    },
+    {
+      "id": "f4",
+      "statement": "South Pontotoc\u2019s girls play Ripley at 5 p.m. Friday, Dec. 4, and the boys follow at 7. Fans can see the Cougars twice at home that week. New Hope visits Tuesday, Dec. 1, at the same times. Ripley\u2019s boys beat Saltillo 4\u20130 in their most recent reported game and are scheduled to start district play at Byhalia on Nov. 30, four days before visiting the Cougars.",
+      "source_ids": [
+        "2g",
+        "2b",
+        "sc",
+        "sg",
+        "rip"
+      ],
+      "evidence": "Cross-checked New Hope and Ripley home dates and Ripley\u2019s latest game and upcoming Byhalia fixture.",
+      "statistics": "Dec. 1 and 4, 5 and 7 p.m. Ripley 4\u20130 vs. Saltillo.",
+      "date_context": "December 3 and 4, 2026. All kickoff times Central. Records through November 25.",
+      "locality": "Pontotoc County, Mississippi, including Ecru, Pontotoc and South Pontotoc. Lafayette hosts in Oxford.",
+      "identities": "Pontotoc, North Pontotoc, South Pontotoc, Lafayette, New Albany and Ripley varsity soccer teams."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "North Pontotoc and Pontotoc open district soccer on the same evening, but families following the boys teams will need two different kickoff times. Thursday, Dec. 3, the Warriors play at Lafayette at 7 p.m. and the Vikings host New Albany in Ecru at 8 p.m. Both girls games begin at 5 p.m. South Pontotoc opens its district schedule at home the next night against Ripley.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The boys game in Ecru pairs two teams that shut out Mooreville by at least seven goals. North Pontotoc beat Mooreville 7\u20130 on Nov. 17. New Albany won 8\u20130 in its opener on Oct. 27. The Vikings won all five games on their results sheet before Thanksgiving, scoring 35 goals. The Bulldogs closed their November schedule with a 3\u20132 win over Clinton.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "At Lafayette, Pontotoc\u2019s girls bring back-to-back 7\u20130 wins over Grenada and Strayhorn. Lafayette has two seven-goal shutouts of its own this month, against Booneville and Hancock. Southaven gives the teams another point of comparison. Pontotoc won that matchup 2\u20130 and Lafayette won 4\u20130. The Warrior boys also shut out Grenada and Strayhorn, scoring nine goals across the two games.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "South Pontotoc\u2019s girls play Ripley at 5 p.m. Friday, Dec. 4, and the boys follow at 7. Fans can see the Cougars twice at home that week. New Hope visits Tuesday, Dec. 1, at the same times. Ripley\u2019s boys beat Saltillo 4\u20130 in their most recent reported game and are scheduled to start district play at Byhalia on Nov. 30, four days before visiting the Cougars.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-county-soccer-district-openers-december-3-4.png",
+    "sha256": "c2489472f371ce3af7cc6b93986c494b9e7abf146a5a3b759c7b7a1a34d153da",
+    "alt_text": "North Pontotoc hosts New Albany at 5 and 8 on Dec. 3. Pontotoc plays at Lafayette at 5 and 7 on Dec. 3. South Pontotoc hosts Ripley at 5 and 7 on Dec. 4.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-25T22:11:51.999235+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f4"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 25 afternoon Pontotoc News editorial shift. Publish identical reviewed copy after authenticated preflight."
+  }
+}

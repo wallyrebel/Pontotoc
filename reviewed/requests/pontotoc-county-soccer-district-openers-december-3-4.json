@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-county-soccer-district-openers-december-3-4.json",
+  "article_sha256": "314850ee3fae236cbcc7756581f211b161070e93a729509075d2423244ac009b",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-county-soccer-district-openers-december-3-4",
+  "seo_review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-25T22:11:51.999235+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}
