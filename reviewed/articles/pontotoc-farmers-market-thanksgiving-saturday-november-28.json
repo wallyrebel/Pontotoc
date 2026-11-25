@@ -1,0 +1,129 @@
+{
+  "title": "Pontotoc Farmers Market opens Saturday after Thanksgiving, 8 a.m. to noon",
+  "excerpt": "The Nov. 28 market will be at 25 W. Jefferson St. in downtown Pontotoc. The market says its produce comes from farms within 40 miles.",
+  "locality": "Downtown Pontotoc, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:farmers-market:2026-11-28:thanksgiving-saturday-market"
+  ],
+  "sources": [
+    {
+      "id": "notice",
+      "title": "Nov. 28 market flyer shared by the Town of Ecru",
+      "url": "https://www.facebook.com/1204361708550928/posts/1474369601550136",
+      "publisher": "Town of Ecru",
+      "role": "event",
+      "verified_at": "2026-11-25T01:44:01.964555+00:00",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7mX75E8w6.rss",
+      "published_at": "2026-11-24T16:18:16+00:00"
+    },
+    {
+      "id": "market",
+      "title": "Pontotoc Farmers Market location and grower information",
+      "url": "https://pontotocfarmersmarket.com/",
+      "publisher": "Pontotoc Farmers Market",
+      "role": "background",
+      "verified_at": "2026-11-25T01:44:01.964555+00:00",
+      "verification_url": "https://pontotocfarmersmarket.com/",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "The Pontotoc Farmers Market will open on its regular Saturday morning after Thanksgiving. The Nov. 28 market runs from 8 a.m. to noon at 25 W. Jefferson St. in downtown Pontotoc, according to the market flyer shared Tuesday by the Town of Ecru.",
+      "source_ids": [
+        "notice",
+        "market"
+      ],
+      "evidence": "Read date, hours, downtown site and street number from the event flyer. Market organizer confirms street address.",
+      "statistics": "8 a.m. to noon, Saturday, Nov. 28, 2026.",
+      "date_context": "Saturday, Nov. 28, 2026, Central time.",
+      "locality": "Downtown Pontotoc, Mississippi.",
+      "identities": "Pontotoc Farmers Market and the Town of Ecru."
+    },
+    {
+      "id": "f2",
+      "statement": "Shoppers can find the market one block off Court Square, behind First Choice Bank. The market also lists a site on Main Street in Ecru, but the holiday-weekend flyer directs visitors to the Jefferson Street location in Pontotoc.",
+      "source_ids": [
+        "market",
+        "notice"
+      ],
+      "evidence": "The operator distinguishes its two locations. The event flyer specifies downtown Pontotoc.",
+      "statistics": "25 W. Jefferson St., one block off Court Square.",
+      "date_context": "Saturday, Nov. 28, 2026, Central time.",
+      "locality": "Downtown Pontotoc, Mississippi.",
+      "identities": "Pontotoc Farmers Market and the Town of Ecru."
+    },
+    {
+      "id": "f3",
+      "statement": "The announcement highlights local produce, food and gifts. The market says growers bring produce from within 40 miles and that much of it is harvested in Pontotoc. Its food producers also draw on local farms for ingredients when available.",
+      "source_ids": [
+        "market",
+        "notice"
+      ],
+      "evidence": "The event announcement identifies food, gifts and produce. The organizer describes grower radius and food sourcing.",
+      "statistics": "40-mile produce radius. No vendor attendance asserted.",
+      "date_context": "Saturday, Nov. 28, 2026, Central time.",
+      "locality": "Downtown Pontotoc, Mississippi.",
+      "identities": "Pontotoc Farmers Market and the Town of Ecru."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "The Pontotoc Farmers Market will open on its regular Saturday morning after Thanksgiving. The Nov. 28 market runs from 8 a.m. to noon at 25 W. Jefferson St. in downtown Pontotoc, according to the market flyer shared Tuesday by the Town of Ecru.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "Shoppers can find the market one block off Court Square, behind First Choice Bank. The market also lists a site on Main Street in Ecru, but the holiday-weekend flyer directs visitors to the Jefferson Street location in Pontotoc.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "The announcement highlights local produce, food and gifts. The market says growers bring produce from within 40 miles and that much of it is harvested in Pontotoc. Its food producers also draw on local farms for ingredients when available.",
+      "fact_ids": [
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-farmers-market-thanksgiving-saturday-november-28.png",
+    "sha256": "842887e12107ccf41a4bd7c98acd82f9a51878b4027e06445c63bd3cddddec38",
+    "alt_text": "The Pontotoc Farmers Market will open Saturday, Nov. 28, from 8 a.m. to noon at 25 W. Jefferson St. in downtown Pontotoc.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News evening desk",
+    "reviewed_at": "2026-11-25T01:44:01.964555+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "November 24, 2026 evening edition authorized reviewed publication."
+  }
+}

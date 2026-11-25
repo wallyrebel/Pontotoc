@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-farmers-market-thanksgiving-saturday-november-28.json",
+  "article_sha256": "f89c5f9aaa78155c33df23f54ed0976316bd2e5818febb9c57626d70633fa2bc",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-farmers-market-thanksgiving-saturday-november-28",
+  "seo_review": {
+    "reviewer": "Pontotoc News evening desk",
+    "reviewed_at": "2026-11-25T01:44:01.964555+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}
