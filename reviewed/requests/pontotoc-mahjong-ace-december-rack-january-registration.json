@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-mahjong-ace-december-rack-january-registration.json",
   "article_sha256": "788c1063bf3deec7aba5f01e710563a6e3ff13a56e5bd54e0aecee01b67edf0e",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-mahjong-ace-december-rack-january-registration",
   "seo_review": {
     "reviewer": "Pontotoc News afternoon desk",
