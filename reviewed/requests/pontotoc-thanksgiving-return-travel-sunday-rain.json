@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-thanksgiving-return-travel-sunday-rain.json",
   "article_sha256": "ed5d91bb2687aad223fca9741aba0cd22af9ce89ad65150b5d1af3df5cb18c1e",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-thanksgiving-return-travel-sunday-rain",
   "seo_review": {
     "reviewer": "Pontotoc News afternoon desk",
