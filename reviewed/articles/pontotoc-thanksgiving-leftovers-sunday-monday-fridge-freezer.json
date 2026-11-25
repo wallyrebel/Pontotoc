@@ -1,0 +1,170 @@
+{
+  "title": "Wednesday\u2019s holiday leftovers have a different deadline from Thursday\u2019s turkey",
+  "excerpt": "For food promptly refrigerated, Sunday is the fourth day after a Thanksgiving Eve meal. Monday is the fourth day after Thanksgiving dinner.",
+  "locality": "Pontotoc County, Mississippi. National food storage guidance with local Thanksgiving Eve context.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:2026-11-25:thanksgiving-eve-and-day-leftovers"
+  ],
+  "sources": [
+    {
+      "id": "dates",
+      "title": "This year\u2019s Thanksgiving leftover dates and storage guidance",
+      "url": "https://www.extension.iastate.edu/iowa/talking-turkey-food-safe-thanksgiving-freezer-leftovers",
+      "publisher": "Iowa State University Extension and Outreach",
+      "role": "event",
+      "verified_at": "2026-11-25T22:11:51.999235+00:00",
+      "verification_url": "https://www.extension.iastate.edu/iowa/talking-turkey-food-safe-thanksgiving-freezer-leftovers",
+      "published_at": null
+    },
+    {
+      "id": "ms",
+      "title": "How to store and reheat leftovers",
+      "url": "https://extension.msstate.edu/blogs/extension-for-real-life/leftover-food-safety",
+      "publisher": "Mississippi State University Extension Service",
+      "role": "background",
+      "verified_at": "2026-11-25T22:11:51.999235+00:00",
+      "verification_url": "https://extension.msstate.edu/blogs/extension-for-real-life/leftover-food-safety",
+      "published_at": null
+    },
+    {
+      "id": "fsis",
+      "title": "Federal Thanksgiving food safety bulletin",
+      "url": "https://content.govdelivery.com/accounts/USFSIS/bulletins/432aad3",
+      "publisher": "USDA Food Safety and Inspection Service",
+      "role": "background",
+      "verified_at": "2026-11-25T22:11:51.999235+00:00",
+      "verification_url": "https://content.govdelivery.com/accounts/USFSIS/bulletins/432aad3",
+      "published_at": null
+    },
+    {
+      "id": "dinner",
+      "title": "Good Shepherd\u2019s Thanksgiving Eve dinner in Pontotoc",
+      "url": "https://www.wcbi.com/midday-pontotoc-thanksgiving-community-dinner-11-24-26/",
+      "publisher": "WCBI interview with Pastor Robert Fleming Jr.",
+      "role": "background",
+      "verified_at": "2026-11-25T22:11:51.999235+00:00",
+      "verification_url": "https://www.wcbi.com/midday-pontotoc-thanksgiving-community-dinner-11-24-26/",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Good Shepherd serves its community dinner Wednesday evening in Pontotoc. If you take a plate home from a holiday meal, ask when it was cooked. For food cooked Wednesday, Nov. 25, and promptly refrigerated, Sunday, Nov. 29, marks four days. For Thursday\u2019s turkey, that point comes Monday, Nov. 30. Eat or freeze the leftovers within that window.",
+      "source_ids": [
+        "dates",
+        "ms",
+        "fsis",
+        "dinner"
+      ],
+      "evidence": "Applied the federal maximum four-day window separately to Wednesday and Thursday cooking dates. Local Wednesday dinner confirmed by the pastor.",
+      "statistics": "Nov. 25 to 29 and Nov. 26 to 30 are four days each.",
+      "date_context": "Wednesday Nov. 25 through Monday Nov. 30, 2026.",
+      "locality": "Pontotoc County, Mississippi. National food storage guidance with local Thanksgiving Eve context.",
+      "identities": "USDA Food Safety and Inspection Service, Mississippi State University Extension, Iowa State University Extension and Good Shepherd CME Church."
+    },
+    {
+      "id": "f2",
+      "statement": "Start with the time the food spent on the table. USDA says to refrigerate perishable leftovers within two hours. Cut turkey off the bone and divide large quantities among shallow, covered containers. Store the meat separately from stuffing and gravy so it can chill quickly. Keep the refrigerator at 40\u00b0F or colder.",
+      "source_ids": [
+        "dates",
+        "fsis"
+      ],
+      "evidence": "Dated Extension article specifies two hours after cooking, chilling temperature, separating turkey, stuffing and gravy, and using shallow containers.",
+      "statistics": "Two hours, 40\u00b0F.",
+      "date_context": "Wednesday Nov. 25 through Monday Nov. 30, 2026.",
+      "locality": "Pontotoc County, Mississippi. National food storage guidance with local Thanksgiving Eve context.",
+      "identities": "USDA Food Safety and Inspection Service, Mississippi State University Extension, Iowa State University Extension and Good Shepherd CME Church."
+    },
+    {
+      "id": "f3",
+      "statement": "If you already know you will have more than the family can eat by the weekend, freeze part of the meal now. Mississippi State Extension recommends sealed containers and says frozen leftovers have the best flavor and texture within three to four months. Labeling a container with the day the meal was cooked makes it easier to keep Wednesday\u2019s food separate from Thursday\u2019s.",
+      "source_ids": [
+        "dates",
+        "ms"
+      ],
+      "evidence": "Extension distinguishes quality in frozen storage from safe refrigerator holding time. Label is a practical way to track the two dates.",
+      "statistics": "Three to four months for frozen quality.",
+      "date_context": "Wednesday Nov. 25 through Monday Nov. 30, 2026.",
+      "locality": "Pontotoc County, Mississippi. National food storage guidance with local Thanksgiving Eve context.",
+      "identities": "USDA Food Safety and Inspection Service, Mississippi State University Extension, Iowa State University Extension and Good Shepherd CME Church."
+    },
+    {
+      "id": "f4",
+      "statement": "When you reheat a portion, use a food thermometer to check that it reaches 165\u00b0F. Bring soups, sauces and gravy to a boil. If a perishable dish has already sat at room temperature for more than two hours, discard it.",
+      "source_ids": [
+        "dates",
+        "ms",
+        "fsis"
+      ],
+      "evidence": "Verified reheating temperature, boiling guidance and room-temperature limit against the university and federal guidance.",
+      "statistics": "165\u00b0F and two hours.",
+      "date_context": "Wednesday Nov. 25 through Monday Nov. 30, 2026.",
+      "locality": "Pontotoc County, Mississippi. National food storage guidance with local Thanksgiving Eve context.",
+      "identities": "USDA Food Safety and Inspection Service, Mississippi State University Extension, Iowa State University Extension and Good Shepherd CME Church."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Good Shepherd serves its community dinner Wednesday evening in Pontotoc. If you take a plate home from a holiday meal, ask when it was cooked. For food cooked Wednesday, Nov. 25, and promptly refrigerated, Sunday, Nov. 29, marks four days. For Thursday\u2019s turkey, that point comes Monday, Nov. 30. Eat or freeze the leftovers within that window.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "Start with the time the food spent on the table. USDA says to refrigerate perishable leftovers within two hours. Cut turkey off the bone and divide large quantities among shallow, covered containers. Store the meat separately from stuffing and gravy so it can chill quickly. Keep the refrigerator at 40\u00b0F or colder.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "If you already know you will have more than the family can eat by the weekend, freeze part of the meal now. Mississippi State Extension recommends sealed containers and says frozen leftovers have the best flavor and texture within three to four months. Labeling a container with the day the meal was cooked makes it easier to keep Wednesday\u2019s food separate from Thursday\u2019s.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "When you reheat a portion, use a food thermometer to check that it reaches 165\u00b0F. Bring soups, sauces and gravy to a boil. If a perishable dish has already sat at room temperature for more than two hours, discard it.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-thanksgiving-leftovers-sunday-monday-fridge-freezer.png",
+    "sha256": "3d3d1387391bf6bcc3ae75768b13e1b8a01d734c52f03e99d6f974db947ffef1",
+    "alt_text": "Promptly refrigerated leftovers from Wednesday should be eaten or frozen by Sunday. For Thursday\u2019s meal, the deadline is Monday. Reheat to 165 degrees Fahrenheit.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-25T22:11:51.999235+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 25 afternoon Pontotoc News editorial shift. Publish identical reviewed copy after authenticated preflight."
+  }
+}
