@@ -1,0 +1,150 @@
+{
+  "title": "Pontotoc city schools set Dec. 1 deadline for items for December board meeting",
+  "excerpt": "The public meeting is scheduled for Dec. 10 at 12:30 p.m. The district has separate forms for field trips, donations, fundraisers and certain purchases.",
+  "locality": "Pontotoc City School District, Pontotoc, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc-city-schools:2026-12-01:december-board-items",
+    "ms:pontotoc-city-schools:2026-12-10:regular-board-meeting"
+  ],
+  "sources": [
+    {
+      "id": "deadline",
+      "title": "Dec. 1 deadline on the city district calendar",
+      "url": "https://www.pontotoc.school/apps/events/2026/12/1/49974196/?id=0",
+      "publisher": "Pontotoc City School District",
+      "role": "event",
+      "verified_at": "2026-11-25T15:06:53.673860+00:00",
+      "verification_url": "https://www.pontotoc.school/apps/events/2026/12/1/49974196/?id=0",
+      "published_at": null
+    },
+    {
+      "id": "meeting",
+      "title": "Dec. 10 school board meeting listing",
+      "url": "https://www.pontotoc.school/apps/events/2026/12/10/48551898/?id=0",
+      "publisher": "Pontotoc City School District",
+      "role": "event",
+      "verified_at": "2026-11-25T15:06:53.673860+00:00",
+      "verification_url": "https://www.pontotoc.school/apps/events/2026/12/10/48551898/?id=0",
+      "published_at": null
+    },
+    {
+      "id": "forms",
+      "title": "City school board request forms",
+      "url": "https://www.pontotoc.school/apps/pages/index.jsp?uREC_ID=2107734&type=d&pREC_ID=2517821",
+      "publisher": "Pontotoc City School District",
+      "role": "background",
+      "verified_at": "2026-11-25T15:06:53.673860+00:00",
+      "verification_url": "https://www.pontotoc.school/apps/pages/index.jsp?uREC_ID=2107734&type=d&pREC_ID=2517821",
+      "published_at": null
+    },
+    {
+      "id": "minutes",
+      "title": "School board meeting location and public agenda information",
+      "url": "https://www.pontotoc.school/apps/pages/index.jsp?uREC_ID=2107734&type=d&pREC_ID=2147978",
+      "publisher": "Pontotoc City School District",
+      "role": "background",
+      "verified_at": "2026-11-25T15:06:53.673860+00:00",
+      "verification_url": "https://www.pontotoc.school/apps/pages/index.jsp?uREC_ID=2107734&type=d&pREC_ID=2147978",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc City School District lists Tuesday, Dec. 1, as the deadline for items for its December school board meeting. The board meets Thursday, Dec. 10, from 12:30 to 1:30 p.m., according to the district calendar.",
+      "source_ids": [
+        "deadline",
+        "meeting"
+      ],
+      "evidence": "Verified the two dated district listings, for the city district rather than the separate county district.",
+      "statistics": "Dec. 1 and Dec. 10, 12:30\u20131:30 p.m.",
+      "date_context": "Dec. 1 deadline and Dec. 10 meeting, 2026. Times Central.",
+      "locality": "Pontotoc City School District, Pontotoc, Mississippi.",
+      "identities": "Pontotoc City School District board."
+    },
+    {
+      "id": "f2",
+      "statement": "The district provides four separate request forms. They cover field trips, acceptance of donations, fundraisers and purchases from $5,000 to $75,000. A school submitting a fundraiser and a school seeking approval for a field trip can go to the same board forms page and choose the form for their request.",
+      "source_ids": [
+        "forms"
+      ],
+      "evidence": "Official board forms page lists four named forms with distinct Google Form links.",
+      "statistics": "Four forms. Purchases from $5,000 to $75,000.",
+      "date_context": "Dec. 1 deadline and Dec. 10 meeting, 2026. Times Central.",
+      "locality": "Pontotoc City School District, Pontotoc, Mississippi.",
+      "identities": "Pontotoc City School District board."
+    },
+    {
+      "id": "f3",
+      "statement": "School board meetings are open to the public. The district lists 172 N. College St. as the board\u2019s usual meeting place and links to its meeting calendar and agendas from the board website. For a question about a request or to confirm the December meeting location before traveling, the city district\u2019s central office lists 662-489-3336.",
+      "source_ids": [
+        "minutes",
+        "meeting"
+      ],
+      "evidence": "Read usual venue, public access and contact on district board site. Dated event gives time but no separate venue or specific agenda.",
+      "statistics": "172 N. College St., 662-489-3336.",
+      "date_context": "Dec. 1 deadline and Dec. 10 meeting, 2026. Times Central.",
+      "locality": "Pontotoc City School District, Pontotoc, Mississippi.",
+      "identities": "Pontotoc City School District board."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc City School District lists Tuesday, Dec. 1, as the deadline for items for its December school board meeting. The board meets Thursday, Dec. 10, from 12:30 to 1:30 p.m., according to the district calendar.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The district provides four separate request forms. They cover field trips, acceptance of donations, fundraisers and purchases from $5,000 to $75,000. A school submitting a fundraiser and a school seeking approval for a field trip can go to the same board forms page and choose the form for their request.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "School board meetings are open to the public. The district lists 172 N. College St. as the board\u2019s usual meeting place and links to its meeting calendar and agendas from the board website. For a question about a request or to confirm the December meeting location before traveling, the city district\u2019s central office lists 662-489-3336.",
+      "fact_ids": [
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-city-school-board-december-items-deadline.png",
+    "sha256": "f7c325692fbf8adf67597507bde8315dc08d0953b89ca288e200272815fd3494",
+    "alt_text": "Pontotoc city school board items are due Dec. 1. The board meeting is Dec. 10 from 12:30 to 1:30 p.m.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-25T15:06:53.673860+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 25 morning Pontotoc News edition. Publish the reviewed facts after an authenticated dry run."
+  }
+}
