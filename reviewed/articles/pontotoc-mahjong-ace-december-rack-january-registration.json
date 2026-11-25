@@ -1,0 +1,138 @@
+{
+  "title": "Pontotoc\u2019s 16-seat Mahjong on Main moves to Ace & Co. on Dec. 1",
+  "excerpt": "The following game is Jan. 5 at The Rack. Registration for that game opens Dec. 2, one day after the December session.",
+  "locality": "Pontotoc, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:2026-12-01:mahjong-on-main-ace",
+    "ms:pontotoc:2026-12-02:mahjong-january-registration"
+  ],
+  "sources": [
+    {
+      "id": "fly",
+      "title": "Mahjong on Main registration dates and hosts",
+      "url": "https://pontotocchamber.com/wp-content/uploads/2026/10/Mahjong-flyer-2026-724x1024.jpg",
+      "publisher": "Pontotoc County Chamber of Commerce and Main Street Association",
+      "role": "event",
+      "verified_at": "2026-11-25T19:56:05.208210+00:00",
+      "verification_url": "https://pontotocchamber.com/wp-content/uploads/2026/10/Mahjong-flyer-2026-724x1024.jpg",
+      "published_at": null
+    },
+    {
+      "id": "cal",
+      "title": "Chamber community events calendar",
+      "url": "https://pontotocchamber.com/event-page-in-progress/",
+      "publisher": "Pontotoc County Chamber of Commerce and Main Street Association",
+      "role": "background",
+      "verified_at": "2026-11-25T19:56:05.208210+00:00",
+      "verification_url": "https://pontotocchamber.com/event-page-in-progress/",
+      "published_at": null
+    },
+    {
+      "id": "shop",
+      "title": "Ace & Co store address and phone",
+      "url": "https://shopaceandco.myshopify.com/",
+      "publisher": "Ace & Co",
+      "role": "background",
+      "verified_at": "2026-11-25T19:56:05.208210+00:00",
+      "verification_url": "https://shopaceandco.myshopify.com/",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Ace & Co. hosts Pontotoc\u2019s next Mahjong on Main game Tuesday, Dec. 1. The Chamber\u2019s registration flyer gives the session 16 spots. One day later, on Wednesday, Dec. 2, registration opens for the next game, Jan. 5 at The Rack.",
+      "source_ids": [
+        "fly",
+        "cal"
+      ],
+      "evidence": "Visually checked the December and January panels of the dated organizer calendar.",
+      "statistics": "16 spots, Dec. 1\u20132, Jan. 5.",
+      "date_context": "Dec. 1\u20132, 2026, and Jan. 5, 2027.",
+      "locality": "Pontotoc, Mississippi.",
+      "identities": "Pontotoc County Chamber of Commerce and Main Street Association"
+    },
+    {
+      "id": "f2",
+      "statement": "The December host is at 11 W. Marion St. in Pontotoc. Registration opened Nov. 9. The flyer gives the seat limit but does not list how many seats remain or a starting time. Anyone planning to go can check with Ace & Co. at 662-419-3232.",
+      "source_ids": [
+        "fly",
+        "shop"
+      ],
+      "evidence": "Verified address and public telephone on store site. No remaining capacity or hour stated by organizer.",
+      "statistics": "Nov. 9, street number 11, 662-419-3232.",
+      "date_context": "Dec. 1\u20132, 2026, and Jan. 5, 2027.",
+      "locality": "Pontotoc, Mississippi.",
+      "identities": "Pontotoc County Chamber of Commerce and Main Street Association"
+    },
+    {
+      "id": "f3",
+      "statement": "For players who miss the January session, the calendar also lists a Feb. 2 game at The Carousel. Its registration opens Jan. 6. The Chamber gives each of those sessions the same 16-player limit as the December game.",
+      "source_ids": [
+        "fly"
+      ],
+      "evidence": "Read the January and February panels. No walk-in availability inferred.",
+      "statistics": "Jan. 6, Feb. 2 and 16 spots.",
+      "date_context": "Dec. 1\u20132, 2026, and Jan. 5, 2027.",
+      "locality": "Pontotoc, Mississippi.",
+      "identities": "Pontotoc County Chamber of Commerce and Main Street Association"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Ace & Co. hosts Pontotoc\u2019s next Mahjong on Main game Tuesday, Dec. 1. The Chamber\u2019s registration flyer gives the session 16 spots. One day later, on Wednesday, Dec. 2, registration opens for the next game, Jan. 5 at The Rack.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The December host is at 11 W. Marion St. in Pontotoc. Registration opened Nov. 9. The flyer gives the seat limit but does not list how many seats remain or a starting time. Anyone planning to go can check with Ace & Co. at 662-419-3232.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "For players who miss the January session, the calendar also lists a Feb. 2 game at The Carousel. Its registration opens Jan. 6. The Chamber gives each of those sessions the same 16-player limit as the December game.",
+      "fact_ids": [
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-mahjong-ace-december-rack-january-registration.png",
+    "sha256": "6bf1084231bf0ee48a51e6516bc7f4ee654891e3c892be061fc9e4057d6f4192",
+    "alt_text": "Dec. 1 game at Ace & Co. Registration opens Dec. 2 for the Jan. 5 game at The Rack. Each session has 16 spots.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-25T19:56:05.208210+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized Nov. 25 supplemental editorial shift. Reviewed local reporting for publication."
+  }
+}

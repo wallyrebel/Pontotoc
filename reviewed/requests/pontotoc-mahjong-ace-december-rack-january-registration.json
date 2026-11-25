@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-mahjong-ace-december-rack-january-registration.json",
+  "article_sha256": "788c1063bf3deec7aba5f01e710563a6e3ff13a56e5bd54e0aecee01b67edf0e",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-mahjong-ace-december-rack-january-registration",
+  "seo_review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-25T19:56:05.208210+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}
