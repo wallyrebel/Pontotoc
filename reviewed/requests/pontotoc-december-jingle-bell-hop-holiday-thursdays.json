@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-december-jingle-bell-hop-holiday-thursdays.json",
+  "article_sha256": "ec4af2f01ec74c3875676735e7ae2dbe0f842a89cf1be1bcdea95683316d9050",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-december-jingle-bell-hop-holiday-thursdays",
+  "seo_review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-25T19:56:05.208210+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}

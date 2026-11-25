@@ -1,0 +1,154 @@
+{
+  "title": "Jingle Bell Hop opens three Thursday evenings of holiday events in Pontotoc",
+  "excerpt": "The Dec. 3 and Dec. 17 events begin at 4 p.m. The downtown Christmas party on Dec. 10 starts at 5 p.m.",
+  "locality": "Pontotoc, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:2026-12-03:jingle-bell-hop",
+    "ms:pontotoc:2026-12-10:downtown-christmas-party",
+    "ms:pontotoc:2026-12-17:mistletoe-madness"
+  ],
+  "sources": [
+    {
+      "id": "hop",
+      "title": "Jingle Bell Hop flyer",
+      "url": "https://pontotocchamber.com/wp-content/uploads/2026/10/Modern-Illustrative-Christmas-Market-Event-Flyer-663x1024.jpg",
+      "publisher": "Pontotoc County Chamber of Commerce and Main Street Association",
+      "role": "event",
+      "verified_at": "2026-11-25T19:56:05.208210+00:00",
+      "verification_url": "https://pontotocchamber.com/wp-content/uploads/2026/10/Modern-Illustrative-Christmas-Market-Event-Flyer-663x1024.jpg",
+      "published_at": null
+    },
+    {
+      "id": "party",
+      "title": "Merry Little Christmas Party flyer",
+      "url": "https://pontotocchamber.com/wp-content/uploads/2026/10/Merry-Little-Christmas-Party-2026-732x1024.jpg",
+      "publisher": "Pontotoc County Chamber of Commerce and Main Street Association",
+      "role": "event",
+      "verified_at": "2026-11-25T19:56:05.208210+00:00",
+      "verification_url": "https://pontotocchamber.com/wp-content/uploads/2026/10/Merry-Little-Christmas-Party-2026-732x1024.jpg",
+      "published_at": null
+    },
+    {
+      "id": "mistletoe",
+      "title": "Mistletoe Madness flyer",
+      "url": "https://pontotocchamber.com/wp-content/uploads/2026/10/mistletoe-madness-flyer-2026-768x1024.jpg",
+      "publisher": "Pontotoc County Chamber of Commerce and Main Street Association",
+      "role": "event",
+      "verified_at": "2026-11-25T19:56:05.208210+00:00",
+      "verification_url": "https://pontotocchamber.com/wp-content/uploads/2026/10/mistletoe-madness-flyer-2026-768x1024.jpg",
+      "published_at": null
+    },
+    {
+      "id": "cal",
+      "title": "Chamber December calendar and contact information",
+      "url": "https://pontotocchamber.com/event-page-in-progress/",
+      "publisher": "Pontotoc County Chamber of Commerce and Main Street Association",
+      "role": "background",
+      "verified_at": "2026-11-25T19:56:05.208210+00:00",
+      "verification_url": "https://pontotocchamber.com/event-page-in-progress/",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc\u2019s Jingle Bell Hop runs from 4 to 7 p.m. Thursday, Dec. 3. It opens a run of three Thursday evenings on the Pontotoc County Chamber calendar. Each ends at 7 p.m., but the downtown Christmas party in the middle starts an hour later than the other two.",
+      "source_ids": [
+        "hop",
+        "party",
+        "mistletoe",
+        "cal"
+      ],
+      "evidence": "Read each dated flyer alongside its entry in the 2026 Chamber calendar.",
+      "statistics": "Dec. 3, 4\u20137 p.m. All three end at 7.",
+      "date_context": "Dec. 3, 10 and 17, 2026, Central time.",
+      "locality": "Pontotoc, Mississippi.",
+      "identities": "Pontotoc County Chamber of Commerce and Main Street Association"
+    },
+    {
+      "id": "f2",
+      "statement": "The Merry Little Christmas Party takes place downtown Thursday, Dec. 10, from 5 to 7 p.m. The Chamber lists it three days after Pontotoc\u2019s annual Christmas parade, which is scheduled for Monday, Dec. 7.",
+      "source_ids": [
+        "party",
+        "cal"
+      ],
+      "evidence": "Dec. 10 downtown location and hours on the party flyer. Separately dated parade confirmed on the organizer calendar.",
+      "statistics": "Dec. 7 and 10, 5\u20137 p.m.",
+      "date_context": "Dec. 3, 10 and 17, 2026, Central time.",
+      "locality": "Pontotoc, Mississippi.",
+      "identities": "Pontotoc County Chamber of Commerce and Main Street Association"
+    },
+    {
+      "id": "f3",
+      "statement": "Mistletoe Madness brings back the 4 p.m. start on Thursday, Dec. 17. Its flyer advertises free gift wrapping with a purchase that evening. For questions about which shops are taking part, the Chamber lists 662-489-5042.",
+      "source_ids": [
+        "mistletoe",
+        "cal"
+      ],
+      "evidence": "The Dec. 17 flyer ties wrapping to a purchase. Public Chamber number on calendar.",
+      "statistics": "Dec. 17, 4\u20137 p.m., 662-489-5042.",
+      "date_context": "Dec. 3, 10 and 17, 2026, Central time.",
+      "locality": "Pontotoc, Mississippi.",
+      "identities": "Pontotoc County Chamber of Commerce and Main Street Association"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc\u2019s Jingle Bell Hop runs from 4 to 7 p.m. Thursday, Dec. 3. It opens a run of three Thursday evenings on the Pontotoc County Chamber calendar. Each ends at 7 p.m., but the downtown Christmas party in the middle starts an hour later than the other two.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The Merry Little Christmas Party takes place downtown Thursday, Dec. 10, from 5 to 7 p.m. The Chamber lists it three days after Pontotoc\u2019s annual Christmas parade, which is scheduled for Monday, Dec. 7.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Mistletoe Madness brings back the 4 p.m. start on Thursday, Dec. 17. Its flyer advertises free gift wrapping with a purchase that evening. For questions about which shops are taking part, the Chamber lists 662-489-5042.",
+      "fact_ids": [
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-december-jingle-bell-hop-holiday-thursdays.png",
+    "sha256": "6cc55e2419e8534fbf640d2c3dcf6f39b7289d206fcc80aa111e85fd4c8fb4ea",
+    "alt_text": "Jingle Bell Hop Dec. 3 from 4 to 7, downtown Christmas party Dec. 10 from 5 to 7 and Mistletoe Madness Dec. 17 from 4 to 7 p.m.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-25T19:56:05.208210+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized Nov. 25 supplemental editorial shift. Reviewed local reporting for publication."
+  }
+}
