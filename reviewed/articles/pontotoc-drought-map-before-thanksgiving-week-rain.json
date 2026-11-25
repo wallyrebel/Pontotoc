@@ -1,0 +1,169 @@
+{
+  "title": "New drought map keeps all of Pontotoc County in severe drought or worse",
+  "excerpt": "The Nov. 24 map predates Wednesday\u2019s rain. Exceptional drought still covers 22.75% of Pontotoc County, while extreme drought expanded statewide.",
+  "locality": "Pontotoc County, Mississippi, compared with Mississippi statewide.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:usdm:2026-11-24:county-drought-assessment"
+  ],
+  "sources": [
+    {
+      "id": "drought",
+      "title": "County drought figures for Nov. 17 and 24 (CSV)",
+      "url": "https://usdmdataservices.unl.edu/api/CountyStatistics/GetDroughtSeverityStatisticsByAreaPercent?aoi=28115&startdate=11/17/2026&enddate=11/24/2026&statisticsType=1",
+      "publisher": "U.S. Drought Monitor",
+      "role": "event",
+      "verified_at": "2026-11-25T15:03:14.057969+00:00",
+      "verification_url": "https://usdmdataservices.unl.edu/api/CountyStatistics/GetDroughtSeverityStatisticsByAreaPercent?aoi=28115&startdate=11/17/2026&enddate=11/24/2026&statisticsType=1",
+      "published_at": null
+    },
+    {
+      "id": "map",
+      "title": "Mississippi drought map published Nov. 25 (PNG)",
+      "url": "https://droughtmonitor.unl.edu/data/png/20261124/20261124_ms_text.png",
+      "publisher": "U.S. Drought Monitor",
+      "role": "event",
+      "verified_at": "2026-11-25T15:03:14.057969+00:00",
+      "verification_url": "https://droughtmonitor.unl.edu/data/png/20261124/20261124_ms_text.png",
+      "published_at": null
+    },
+    {
+      "id": "state",
+      "title": "Mississippi statewide figures for Nov. 17 and 24 (CSV)",
+      "url": "https://usdmdataservices.unl.edu/api/StateStatistics/GetDroughtSeverityStatisticsByAreaPercent?aoi=28&startdate=11/17/2026&enddate=11/24/2026&statisticsType=1",
+      "publisher": "U.S. Drought Monitor",
+      "role": "event",
+      "verified_at": "2026-11-25T15:03:14.057969+00:00",
+      "verification_url": "https://usdmdataservices.unl.edu/api/StateStatistics/GetDroughtSeverityStatisticsByAreaPercent?aoi=28&startdate=11/17/2026&enddate=11/24/2026&statisticsType=1",
+      "published_at": null
+    },
+    {
+      "id": "forecast",
+      "title": "Wednesday morning forecast for Pontotoc County under MSZ015",
+      "url": "https://api.weather.gov/products/3d08584c-40e1-4366-96f9-36a2763d9e6f",
+      "publisher": "National Weather Service Memphis",
+      "role": "event",
+      "verified_at": "2026-11-25T15:03:14.057969+00:00",
+      "verification_url": "https://api.weather.gov/products/3d08584c-40e1-4366-96f9-36a2763d9e6f",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "The rain forecast for Wednesday falls outside the time covered by the new U.S. Drought Monitor map. The assessment released Wednesday still places all of Pontotoc County in severe drought or worse, with 22.75% in exceptional drought. The map describes conditions at 6 a.m. Central on Tuesday, Nov. 24.",
+      "source_ids": [
+        "drought",
+        "map",
+        "forecast"
+      ],
+      "evidence": "County row 28115, map date, cutoff in legend and Wednesday county forecast.",
+      "statistics": "100% D2 or worse, 22.75% D4.",
+      "date_context": "Nov. 17 and 24 assessments. Latest map released Nov. 25. Forecast Nov. 25\u201326.",
+      "locality": "Pontotoc County, Mississippi, compared with Mississippi statewide.",
+      "identities": "U.S. Drought Monitor and National Weather Service Memphis."
+    },
+    {
+      "id": "f2",
+      "statement": "The county\u2019s figures match last week\u2019s at every level. Extreme drought or worse covers 87.77% of the county. That includes the land in exceptional drought, the most intense category. The other 12.23% of the county is in severe drought.",
+      "source_ids": [
+        "drought",
+        "map"
+      ],
+      "evidence": "Both county rows show identical cumulative percentages. Subtract D3 or worse from all county land to isolate D2.",
+      "statistics": "100 minus 87.77 equals 12.23.",
+      "date_context": "Nov. 17 and 24 assessments. Latest map released Nov. 25. Forecast Nov. 25\u201326.",
+      "locality": "Pontotoc County, Mississippi, compared with Mississippi statewide.",
+      "identities": "U.S. Drought Monitor and National Weather Service Memphis."
+    },
+    {
+      "id": "f3",
+      "statement": "The statewide picture did change. Extreme drought or worse spread from 53.56% of Mississippi on Nov. 17 to 66.91% on Nov. 24, an increase of 13.35 percentage points. The share in exceptional drought held at 27.75% statewide.",
+      "source_ids": [
+        "state",
+        "map"
+      ],
+      "evidence": "Mississippi FIPS 28, D3 and D4 cumulative land-area percentages on both dates.",
+      "statistics": "66.91 minus 53.56 equals 13.35 percentage points.",
+      "date_context": "Nov. 17 and 24 assessments. Latest map released Nov. 25. Forecast Nov. 25\u201326.",
+      "locality": "Pontotoc County, Mississippi, compared with Mississippi statewide.",
+      "identities": "U.S. Drought Monitor and National Weather Service Memphis."
+    },
+    {
+      "id": "f4",
+      "statement": "The National Weather Service\u2019s Wednesday morning forecast for Pontotoc County put the day\u2019s rain chance near 100% and the evening and overnight chance at 90%, with most nighttime rain expected in the evening. For Thanksgiving Day, forecasters expect mostly cloudy skies, highs in the mid-40s and west winds gusting up to 30 mph. The effect of this rain on the drought will have to wait for a later assessment.",
+      "source_ids": [
+        "forecast",
+        "map"
+      ],
+      "evidence": "MSZ015 Pontotoc 6:05 a.m. Central Nov. 25 forecast and weekly map cutoff.",
+      "statistics": "Near 100%, 90%, mid-40s, gusts to 30 mph.",
+      "date_context": "Nov. 17 and 24 assessments. Latest map released Nov. 25. Forecast Nov. 25\u201326.",
+      "locality": "Pontotoc County, Mississippi, compared with Mississippi statewide.",
+      "identities": "U.S. Drought Monitor and National Weather Service Memphis."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "The rain forecast for Wednesday falls outside the time covered by the new U.S. Drought Monitor map. The assessment released Wednesday still places all of Pontotoc County in severe drought or worse, with 22.75% in exceptional drought. The map describes conditions at 6 a.m. Central on Tuesday, Nov. 24.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The county\u2019s figures match last week\u2019s at every level. Extreme drought or worse covers 87.77% of the county. That includes the land in exceptional drought, the most intense category. The other 12.23% of the county is in severe drought.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "The statewide picture did change. Extreme drought or worse spread from 53.56% of Mississippi on Nov. 17 to 66.91% on Nov. 24, an increase of 13.35 percentage points. The share in exceptional drought held at 27.75% statewide.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "The National Weather Service\u2019s Wednesday morning forecast for Pontotoc County put the day\u2019s rain chance near 100% and the evening and overnight chance at 90%, with most nighttime rain expected in the evening. For Thanksgiving Day, forecasters expect mostly cloudy skies, highs in the mid-40s and west winds gusting up to 30 mph. The effect of this rain on the drought will have to wait for a later assessment.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-drought-map-before-thanksgiving-week-rain.png",
+    "sha256": "be544f0b521ed35ffbfb7e1ff8d4a48c5cd02076e203bd1d2f7a685f7c576435",
+    "alt_text": "Pontotoc County on Nov. 24 had 100% in severe drought or worse, 87.77% in extreme drought or worse and 22.75% in exceptional drought.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-25T15:03:14.057969+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 25 morning Pontotoc News edition. Publish the reviewed facts after an authenticated dry run."
+  }
+}
