@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-thanksgiving-leftovers-sunday-monday-fridge-freezer.json",
   "article_sha256": "5feceb13025e1c0e6e6c2856d8611edd9ed5be3bf9c4ab5fc58c0bd159b38d33",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-thanksgiving-leftovers-sunday-monday-fridge-freezer",
   "seo_review": {
     "reviewer": "Pontotoc News afternoon desk",
