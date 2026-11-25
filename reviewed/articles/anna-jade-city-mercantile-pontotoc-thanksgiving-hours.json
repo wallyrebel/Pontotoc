@@ -1,0 +1,151 @@
+{
+  "title": "Two Pontotoc shops confirm 7\u201311 p.m. hours on Thanksgiving night",
+  "excerpt": "Anna Jade Boutique and City Mercantile posted their Thursday hours. Anna Jade also lists daytime hours for Wednesday, Friday and Saturday.",
+  "locality": "Pontotoc, Mississippi, Thanksgiving week.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:2026-11-26:anna-jade-holiday-hours",
+    "ms:pontotoc:2026-11-26:city-mercantile-thanksgiving-hours"
+  ],
+  "sources": [
+    {
+      "id": "anna",
+      "title": "Anna Jade Boutique\u2019s Thanksgiving week hours",
+      "url": "https://www.facebook.com/1162843435852264/posts/1792378082898793",
+      "publisher": "Pontotoc County Chamber Main Street, sharing the merchant\u2019s announcement",
+      "role": "event",
+      "verified_at": "2026-11-25T15:03:14.057969+00:00",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7lo1260by.rss",
+      "published_at": "2026-11-25T03:19:33+00:00"
+    },
+    {
+      "id": "merc",
+      "title": "City Mercantile\u2019s Thanksgiving-night announcement",
+      "url": "https://www.facebook.com/1162843435852264/posts/1792377786232156",
+      "publisher": "Pontotoc County Chamber Main Street, sharing the merchant\u2019s announcement",
+      "role": "event",
+      "verified_at": "2026-11-25T15:03:14.057969+00:00",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7lo1260by.rss",
+      "published_at": "2026-11-25T03:19:06+00:00"
+    },
+    {
+      "id": "location",
+      "title": "Anna Jade Boutique on Main Street",
+      "url": "https://shopannajade.com/pages/about-us",
+      "publisher": "Anna Jade Boutique",
+      "role": "background",
+      "verified_at": "2026-11-25T15:03:14.057969+00:00",
+      "verification_url": "https://shopannajade.com/pages/about-us",
+      "published_at": null
+    },
+    {
+      "id": "chamber",
+      "title": "Chamber calendar for Feast Then Fashion",
+      "url": "https://pontotocchamber.com/event-page-in-progress/",
+      "publisher": "Pontotoc County Chamber Main Street",
+      "role": "background",
+      "verified_at": "2026-11-25T15:03:14.057969+00:00",
+      "verification_url": "https://pontotocchamber.com/event-page-in-progress/",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Anna Jade Boutique and City Mercantile will both open from 7 to 11 p.m. on Thanksgiving in Pontotoc. The two stores posted the same four-hour window for Thursday, Nov. 26, when local retailers take part in the Chamber\u2019s Feast Then Fashion shopping night.",
+      "source_ids": [
+        "anna",
+        "merc",
+        "chamber"
+      ],
+      "evidence": "Read both merchants\u2019 graphics. The Chamber calendar identifies Nov. 26 and says hours vary by store.",
+      "statistics": "7\u201311 p.m. Central on Nov. 26.",
+      "date_context": "Announcements shared Tuesday night Nov. 24 Central for Nov. 25\u201328, 2026.",
+      "locality": "Pontotoc, Mississippi, Thanksgiving week.",
+      "identities": "Anna Jade Boutique, City Mercantile and Pontotoc County Chamber Main Street."
+    },
+    {
+      "id": "f2",
+      "statement": "For shoppers running errands before the holiday, Anna Jade\u2019s Wednesday hours are 10 a.m. to 3 p.m. The Main Street boutique will also open from 10 a.m. to 3 p.m. on Friday, Nov. 27, and from 10 a.m. to 4 p.m. on Saturday, Nov. 28.",
+      "source_ids": [
+        "anna",
+        "location"
+      ],
+      "evidence": "Read Wednesday, Friday and Saturday from the holiday graphic. The shop identifies its location on Main Street in Pontotoc.",
+      "statistics": "Nov. 25 and 27, 10\u20133. Nov. 28, 10\u20134.",
+      "date_context": "Announcements shared Tuesday night Nov. 24 Central for Nov. 25\u201328, 2026.",
+      "locality": "Pontotoc, Mississippi, Thanksgiving week.",
+      "identities": "Anna Jade Boutique, City Mercantile and Pontotoc County Chamber Main Street."
+    },
+    {
+      "id": "f3",
+      "statement": "City Mercantile\u2019s announcement puts its Black Friday event on Thursday night. The store lists cider sampling and gift bags for the first 15 people in line. Other Pontotoc shops set their own hours for Feast Then Fashion, so the two confirmed openings are a guide to those stores only.",
+      "source_ids": [
+        "merc",
+        "chamber"
+      ],
+      "evidence": "City Mercantile flyer specifies Thanksgiving night, cider sampling and first 15 in line. The Chamber says individual hours vary.",
+      "statistics": "First 15 people.",
+      "date_context": "Announcements shared Tuesday night Nov. 24 Central for Nov. 25\u201328, 2026.",
+      "locality": "Pontotoc, Mississippi, Thanksgiving week.",
+      "identities": "Anna Jade Boutique, City Mercantile and Pontotoc County Chamber Main Street."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Anna Jade Boutique and City Mercantile will both open from 7 to 11 p.m. on Thanksgiving in Pontotoc. The two stores posted the same four-hour window for Thursday, Nov. 26, when local retailers take part in the Chamber\u2019s Feast Then Fashion shopping night.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "For shoppers running errands before the holiday, Anna Jade\u2019s Wednesday hours are 10 a.m. to 3 p.m. The Main Street boutique will also open from 10 a.m. to 3 p.m. on Friday, Nov. 27, and from 10 a.m. to 4 p.m. on Saturday, Nov. 28.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "City Mercantile\u2019s announcement puts its Black Friday event on Thursday night. The store lists cider sampling and gift bags for the first 15 people in line. Other Pontotoc shops set their own hours for Feast Then Fashion, so the two confirmed openings are a guide to those stores only.",
+      "fact_ids": [
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/anna-jade-city-mercantile-pontotoc-thanksgiving-hours.png",
+    "sha256": "fbf5c80fba9d4189ebdb3cf112e375a32f0ba5378f60fb4565c2b9c12491e1ce",
+    "alt_text": "Anna Jade Boutique and City Mercantile each open from 7 to 11 p.m. Thanksgiving night. Hours vary at other Pontotoc stores.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-25T15:03:14.057969+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 25 morning Pontotoc News edition. Publish the reviewed facts after an authenticated dry run."
+  }
+}
