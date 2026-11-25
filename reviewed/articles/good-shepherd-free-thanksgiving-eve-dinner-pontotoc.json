@@ -1,0 +1,128 @@
+{
+  "title": "Good Shepherd serves free Thanksgiving dinner Wednesday evening in Pontotoc",
+  "excerpt": "Everyone is welcome from 4:30 to 7:30 p.m. Nov. 25 at 184 W. Bolton St. The church also has limited delivery capacity.",
+  "locality": "Good Shepherd Church of God in Christ, Pontotoc, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:good-shepherd:2026-11-25:thanksgiving-community-dinner"
+  ],
+  "sources": [
+    {
+      "id": "interview",
+      "title": "Pastor Robert Fleming Jr.\u2019s Nov. 24 interview about the community dinner",
+      "url": "https://www.wcbi.com/midday-pontotoc-thanksgiving-community-dinner-11-24-26/",
+      "publisher": "WCBI Midday",
+      "role": "event",
+      "verified_at": "2026-11-25T15:06:53.673860+00:00",
+      "verification_url": "https://www.wcbi.com/midday-pontotoc-thanksgiving-community-dinner-11-24-26/",
+      "published_at": null
+    },
+    {
+      "id": "directory",
+      "title": "Pontotoc Chamber\u2019s local church directory",
+      "url": "https://pontotocchamber.com/relocation/",
+      "publisher": "Pontotoc County Chamber of Commerce",
+      "role": "background",
+      "verified_at": "2026-11-25T15:06:53.673860+00:00",
+      "verification_url": "https://pontotocchamber.com/relocation/",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Good Shepherd Church of God in Christ will serve a free Thanksgiving dinner from 4:30 to 7:30 p.m. Wednesday, Nov. 25, at 184 W. Bolton St. in Pontotoc. People of all ages are welcome, Pastor Robert Fleming Jr. said Tuesday in an interview on WCBI\u2019s Midday.",
+      "source_ids": [
+        "interview",
+        "directory"
+      ],
+      "evidence": "The host and pastor repeat Wednesday, Nov. 25 and the three-hour window. The Chamber directory confirms the street number and spelling.",
+      "statistics": "4:30\u20137:30 p.m., 184 W. Bolton St.",
+      "date_context": "Tuesday Nov. 24 interview for Wednesday Nov. 25, 2026. Times Central.",
+      "locality": "Good Shepherd Church of God in Christ, Pontotoc, Mississippi.",
+      "identities": "Good Shepherd Church of God in Christ, Pastor Robert Fleming Jr. and WCBI Midday."
+    },
+    {
+      "id": "f2",
+      "statement": "Fleming said the dinner grew out of seeing people struggle to get enough food at a time of year often associated with big meals. The church wanted to serve people beyond its own congregation and give neighbors a place to eat together. He invited attendees to bring friends and family.",
+      "source_ids": [
+        "interview"
+      ],
+      "evidence": "Fleming describes food insecurity and service outside the church walls, and invites families. Paraphrased from the interview.",
+      "statistics": "None asserted.",
+      "date_context": "Tuesday Nov. 24 interview for Wednesday Nov. 25, 2026. Times Central.",
+      "locality": "Good Shepherd Church of God in Christ, Pontotoc, Mississippi.",
+      "identities": "Good Shepherd Church of God in Christ, Pastor Robert Fleming Jr. and WCBI Midday."
+    },
+    {
+      "id": "f3",
+      "statement": "The church also has limited capacity to deliver meals in the community, Fleming said. Anyone who needs to ask about delivery can reach Good Shepherd at 662-489-2205, the number listed in the Pontotoc Chamber\u2019s directory. The meal at the church is open to everyone.",
+      "source_ids": [
+        "interview",
+        "directory"
+      ],
+      "evidence": "Fleming confirms limited delivery. The local Chamber lists the public church phone. No delivery guarantee, radius or sign-up deadline is asserted.",
+      "statistics": "662-489-2205.",
+      "date_context": "Tuesday Nov. 24 interview for Wednesday Nov. 25, 2026. Times Central.",
+      "locality": "Good Shepherd Church of God in Christ, Pontotoc, Mississippi.",
+      "identities": "Good Shepherd Church of God in Christ, Pastor Robert Fleming Jr. and WCBI Midday."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Good Shepherd Church of God in Christ will serve a free Thanksgiving dinner from 4:30 to 7:30 p.m. Wednesday, Nov. 25, at 184 W. Bolton St. in Pontotoc. People of all ages are welcome, Pastor Robert Fleming Jr. said Tuesday in an interview on WCBI\u2019s Midday.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "Fleming said the dinner grew out of seeing people struggle to get enough food at a time of year often associated with big meals. The church wanted to serve people beyond its own congregation and give neighbors a place to eat together. He invited attendees to bring friends and family.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "The church also has limited capacity to deliver meals in the community, Fleming said. Anyone who needs to ask about delivery can reach Good Shepherd at 662-489-2205, the number listed in the Pontotoc Chamber\u2019s directory. The meal at the church is open to everyone.",
+      "fact_ids": [
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/good-shepherd-free-thanksgiving-eve-dinner-pontotoc.png",
+    "sha256": "c460c17c2d300168cf31c6959c146c495a03e79234a078d1a75c45de639c9de8",
+    "alt_text": "Free dinner for all ages at Good Shepherd, 184 W. Bolton St. in Pontotoc, from 4:30 to 7:30 p.m. Wednesday, Nov. 25.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-25T15:06:53.673860+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 25 morning Pontotoc News edition. Publish the reviewed facts after an authenticated dry run."
+  }
+}
