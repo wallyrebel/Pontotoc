@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/good-shepherd-free-thanksgiving-eve-dinner-pontotoc.json",
   "article_sha256": "52129a4c1910b1af444ff17fb013043f4dc5a405bb0ae0b8f5d72c60315f8d74",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "good-shepherd-free-thanksgiving-eve-dinner-pontotoc",
   "seo_review": {
     "reviewer": "Pontotoc News morning desk",
