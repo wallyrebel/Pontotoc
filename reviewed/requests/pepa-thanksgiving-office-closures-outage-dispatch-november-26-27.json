@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pepa-thanksgiving-office-closures-outage-dispatch-november-26-27.json",
+  "article_sha256": "389a719c4ac408babc1c0e335abee7239449b2564a0cca18114f418e090a5c6f",
+  "mode": "dry-run",
+  "public_slug": "pepa-thanksgiving-office-closures-outage-dispatch-november-26-27",
+  "seo_review": {
+    "reviewer": "Pontotoc News evening desk",
+    "reviewed_at": "2026-11-25T01:44:01.964555+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}

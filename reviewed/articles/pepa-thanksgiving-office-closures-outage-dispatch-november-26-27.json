@@ -1,0 +1,127 @@
+{
+  "title": "PEPA offices close for Thanksgiving. Here\u2019s how to report an outage.",
+  "excerpt": "Pontotoc Electric offices will close Nov. 26 and 27. The holiday dispatcher can take outage calls for Pontotoc at 662-489-6711 and Bruce at 662-983-2727.",
+  "locality": "Pontotoc Electric Power Association offices serving Pontotoc and Bruce, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:pepa:2026-11-26:thanksgiving-office-closure-dispatch"
+  ],
+  "sources": [
+    {
+      "id": "notice",
+      "title": "PEPA\u2019s Thanksgiving closure and dispatch notice",
+      "url": "https://www.facebook.com/1527354935929168/posts/1844832134181445",
+      "publisher": "Pontotoc Electric Power Association",
+      "role": "event",
+      "verified_at": "2026-11-25T01:44:01.964555+00:00",
+      "verification_url": "https://fetchrss.com/feed/1vcaujD2G3c21vh7nECOb1qN.rss",
+      "published_at": "2026-11-24T15:50:02+00:00"
+    },
+    {
+      "id": "outages",
+      "title": "PEPA\u2019s outage reporting instructions and map",
+      "url": "https://pepa.com/outages/",
+      "publisher": "Pontotoc Electric Power Association",
+      "role": "background",
+      "verified_at": "2026-11-25T01:44:01.964555+00:00",
+      "verification_url": "https://pepa.com/outages/",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc Electric Power Association will close its offices Thursday and Friday, Nov. 26 and 27, for Thanksgiving. Members who lose electricity during the closure can still reach a dispatcher. The holiday number for Pontotoc is 662-489-6711. In Bruce, call 662-983-2727.",
+      "source_ids": [
+        "notice",
+        "outages"
+      ],
+      "evidence": "Read the date pair on the holiday graphic and both numbers in PEPA\u2019s accompanying notice. Cross-checked the numbers on PEPA\u2019s outage page.",
+      "statistics": "Nov. 26\u201327. Pontotoc 662-489-6711, Bruce 662-983-2727.",
+      "date_context": "Thursday and Friday, Nov. 26\u201327, 2026.",
+      "locality": "Pontotoc Electric Power Association offices serving Pontotoc and Bruce, Mississippi.",
+      "identities": "Pontotoc Electric Power Association and its member households."
+    },
+    {
+      "id": "f2",
+      "statement": "The Pontotoc number in the holiday notice is PEPA\u2019s after-hours line. The regular Pontotoc office number is 662-489-3211. Bruce uses the same number for dispatch that PEPA lists for the local office. The association says operators take trouble calls around the clock.",
+      "source_ids": [
+        "notice",
+        "outages"
+      ],
+      "evidence": "Compare the ordinary office and after-hours contact entries against the holiday notice.",
+      "statistics": "Regular Pontotoc office 662-489-3211. Dispatch available 24 hours a day.",
+      "date_context": "Thursday and Friday, Nov. 26\u201327, 2026.",
+      "locality": "Pontotoc Electric Power Association offices serving Pontotoc and Bruce, Mississippi.",
+      "identities": "Pontotoc Electric Power Association and its member households."
+    },
+    {
+      "id": "f3",
+      "statement": "PEPA asks members to report an outage at their own address, even if neighbors have also lost service. Once a member reports it, another call about the same location can tie up a line or create a second ticket. Call again if there is an emergency. The association also links to its public outage map from its outage information page.",
+      "source_ids": [
+        "outages"
+      ],
+      "evidence": "The public FAQ addresses neighboring outages, repeat calls and the customer map.",
+      "statistics": "No number of current outages asserted.",
+      "date_context": "Thursday and Friday, Nov. 26\u201327, 2026.",
+      "locality": "Pontotoc Electric Power Association offices serving Pontotoc and Bruce, Mississippi.",
+      "identities": "Pontotoc Electric Power Association and its member households."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc Electric Power Association will close its offices Thursday and Friday, Nov. 26 and 27, for Thanksgiving. Members who lose electricity during the closure can still reach a dispatcher. The holiday number for Pontotoc is 662-489-6711. In Bruce, call 662-983-2727.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The Pontotoc number in the holiday notice is PEPA\u2019s after-hours line. The regular Pontotoc office number is 662-489-3211. Bruce uses the same number for dispatch that PEPA lists for the local office. The association says operators take trouble calls around the clock.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "PEPA asks members to report an outage at their own address, even if neighbors have also lost service. Once a member reports it, another call about the same location can tie up a line or create a second ticket. Call again if there is an emergency. The association also links to its public outage map from its outage information page.",
+      "fact_ids": [
+        "f3"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pepa-thanksgiving-office-closures-outage-dispatch-november-26-27.png",
+    "sha256": "e4faa8dbf3f23c08564d182804c2cfab6a53e35314e3acd73d4688168fd7fc7d",
+    "alt_text": "PEPA offices are closed Nov. 26 and 27. Call 662-489-6711 for Pontotoc dispatch or 662-983-2727 for Bruce dispatch.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News evening desk",
+    "reviewed_at": "2026-11-25T01:44:01.964555+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "November 24, 2026 evening edition authorized reviewed publication."
+  }
+}
