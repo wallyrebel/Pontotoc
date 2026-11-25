@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/south-pontotoc-girls-eighth-win-mooreville-boys-final.json",
+  "article_sha256": "eccc895ffb32aed20f4749326e9c1f0b4f9dd1768090348b228cd80fa7183a4a",
+  "mode": "dry-run",
+  "public_slug": "south-pontotoc-girls-eighth-win-mooreville-boys-final",
+  "seo_review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-25T15:10:07.036799+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}

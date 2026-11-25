@@ -1,0 +1,184 @@
+{
+  "title": "South Pontotoc girls win their closest game yet to reach 8\u20130",
+  "excerpt": "The girls beat Mooreville 60\u201351. Mooreville won the boys game 47\u201320. Both South Pontotoc teams host Oxford on Dec. 1.",
+  "locality": "South Pontotoc High School, Pontotoc County, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:south-girls-basketball:2026-11-24:mooreville-final",
+    "ms:pontotoc:south-boys-basketball:2026-11-24:mooreville-final"
+  ],
+  "sources": [
+    {
+      "id": "girls",
+      "title": "Postgame report on South Pontotoc\u2019s eighth girls win",
+      "url": "https://www.maxpreps.com/news/q9PVhclG3km4F9oPug8Xvg/basketball-recap-south-pontotoc-beats-mooreville-for-its-eighth-straight-victory.htm",
+      "publisher": "MaxPreps",
+      "role": "event",
+      "verified_at": "2026-11-25T15:10:07.036799+00:00",
+      "verification_url": "https://www.maxpreps.com/news/q9PVhclG3km4F9oPug8Xvg/basketball-recap-south-pontotoc-beats-mooreville-for-its-eighth-straight-victory.htm",
+      "published_at": null
+    },
+    {
+      "id": "boys",
+      "title": "Postgame report on the South Pontotoc\u2013Mooreville boys final",
+      "url": "https://www.maxpreps.com/news/peAIRjooXk-rT0jWaqB2aA/basketball-recap-tough-loss-for-south-pontotoc.htm",
+      "publisher": "MaxPreps",
+      "role": "event",
+      "verified_at": "2026-11-25T15:10:07.036799+00:00",
+      "verification_url": "https://www.maxpreps.com/news/peAIRjooXk-rT0jWaqB2aA/basketball-recap-tough-loss-for-south-pontotoc.htm",
+      "published_at": null
+    },
+    {
+      "id": "gseason",
+      "title": "South Pontotoc girls season results and upcoming games",
+      "url": "https://www.maxpreps.com/ms/pontotoc/south-pontotoc-cougars/basketball/girls/schedule/",
+      "publisher": "MaxPreps varsity schedule",
+      "role": "background",
+      "verified_at": "2026-11-25T15:10:07.036799+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/pontotoc/south-pontotoc-cougars/basketball/girls/schedule/",
+      "published_at": null
+    },
+    {
+      "id": "bseason",
+      "title": "South Pontotoc boys season results and upcoming games",
+      "url": "https://www.maxpreps.com/ms/pontotoc/south-pontotoc-cougars/basketball/schedule/",
+      "publisher": "MaxPreps varsity schedule",
+      "role": "background",
+      "verified_at": "2026-11-25T15:10:07.036799+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/pontotoc/south-pontotoc-cougars/basketball/schedule/",
+      "published_at": null
+    },
+    {
+      "id": "last",
+      "title": "South Pontotoc girls results for 2025\u201326",
+      "url": "https://www.maxpreps.com/ms/pontotoc/south-pontotoc-cougars/basketball/girls/25-26/schedule/",
+      "publisher": "MaxPreps varsity schedule",
+      "role": "background",
+      "verified_at": "2026-11-25T15:10:07.036799+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/pontotoc/south-pontotoc-cougars/basketball/girls/25-26/schedule/",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "South Pontotoc\u2019s girls had won each of their first seven basketball games by at least 20 points. Mooreville cut that margin to nine Tuesday, but the Cougars won 60\u201351 to reach 8\u20130. Mooreville won the boys game 47\u201320, leaving South Pontotoc\u2019s boys at 4\u20134 heading into the Thanksgiving break.",
+      "source_ids": [
+        "girls",
+        "boys",
+        "gseason",
+        "bseason"
+      ],
+      "evidence": "Read both postgame reports and confirmed both finals on completed scorebooks. Calculated point margins from the seven preceding girls results.",
+      "statistics": "60\u201351, 47\u201320, 8\u20130, 4\u20134. Previous closest girls win 62\u201342.",
+      "date_context": "Nov. 24 completed varsity games. Next home games Dec. 1 and 4, 2026. Prior February game in the 2025\u201326 season.",
+      "locality": "South Pontotoc High School, Pontotoc County, Mississippi.",
+      "identities": "South Pontotoc Cougars and Mooreville Troopers girls and boys varsity teams."
+    },
+    {
+      "id": "f2",
+      "statement": "Mooreville scored more against the South Pontotoc girls than any team had this season. The previous high was Lafayette\u2019s 42 in a 62\u201342 loss on Nov. 19. The Cougars also reversed the result from their last meeting with Mooreville, which had beaten them 58\u201343 on Feb. 16.",
+      "source_ids": [
+        "girls",
+        "gseason",
+        "last"
+      ],
+      "evidence": "Read all eight finals and matched the February result in the prior season schedule.",
+      "statistics": "51 against, previous high 42, 58\u201343 on Feb. 16.",
+      "date_context": "Nov. 24 completed varsity games. Next home games Dec. 1 and 4, 2026. Prior February game in the 2025\u201326 season.",
+      "locality": "South Pontotoc High School, Pontotoc County, Mississippi.",
+      "identities": "South Pontotoc Cougars and Mooreville Troopers girls and boys varsity teams."
+    },
+    {
+      "id": "f3",
+      "statement": "The South Pontotoc boys went into the week on a four-game winning streak. Alcorn Central ended it Monday, 48\u201341, and Mooreville held the Cougars to their fewest points of the season Tuesday. Their previous low was 36 in a Nov. 7 loss to Caledonia.",
+      "source_ids": [
+        "boys",
+        "bseason"
+      ],
+      "evidence": "Read the eight completed varsity finals, including the four consecutive victories between the Caledonia and Alcorn Central games.",
+      "statistics": "Four straight wins, 48\u201341, 20 points, previous low 36.",
+      "date_context": "Nov. 24 completed varsity games. Next home games Dec. 1 and 4, 2026. Prior February game in the 2025\u201326 season.",
+      "locality": "South Pontotoc High School, Pontotoc County, Mississippi.",
+      "identities": "South Pontotoc Cougars and Mooreville Troopers girls and boys varsity teams."
+    },
+    {
+      "id": "f4",
+      "statement": "Both South Pontotoc teams return home Tuesday, Dec. 1, to face Oxford. The girls tip off at 6 p.m. and the boys follow at 7:30 p.m. East Webster then visits South Pontotoc on Friday, Dec. 4, with the same start times.",
+      "source_ids": [
+        "girls",
+        "boys",
+        "gseason",
+        "bseason"
+      ],
+      "evidence": "Confirmed home dates and both times in the girls and boys season schedules.",
+      "statistics": "Dec. 1 and Dec. 4 at 6 and 7:30 p.m. Central.",
+      "date_context": "Nov. 24 completed varsity games. Next home games Dec. 1 and 4, 2026. Prior February game in the 2025\u201326 season.",
+      "locality": "South Pontotoc High School, Pontotoc County, Mississippi.",
+      "identities": "South Pontotoc Cougars and Mooreville Troopers girls and boys varsity teams."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "South Pontotoc\u2019s girls had won each of their first seven basketball games by at least 20 points. Mooreville cut that margin to nine Tuesday, but the Cougars won 60\u201351 to reach 8\u20130. Mooreville won the boys game 47\u201320, leaving South Pontotoc\u2019s boys at 4\u20134 heading into the Thanksgiving break.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "Mooreville scored more against the South Pontotoc girls than any team had this season. The previous high was Lafayette\u2019s 42 in a 62\u201342 loss on Nov. 19. The Cougars also reversed the result from their last meeting with Mooreville, which had beaten them 58\u201343 on Feb. 16.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "The South Pontotoc boys went into the week on a four-game winning streak. Alcorn Central ended it Monday, 48\u201341, and Mooreville held the Cougars to their fewest points of the season Tuesday. Their previous low was 36 in a Nov. 7 loss to Caledonia.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "Both South Pontotoc teams return home Tuesday, Dec. 1, to face Oxford. The girls tip off at 6 p.m. and the boys follow at 7:30 p.m. East Webster then visits South Pontotoc on Friday, Dec. 4, with the same start times.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/south-pontotoc-girls-eighth-win-mooreville-boys-final.png",
+    "sha256": "10692e5ca6a1788b206ae8f161d22ff97d9fe85f7579f2ac2abbd806e74212ea",
+    "alt_text": "South Pontotoc girls won 60\u201351 to reach 8\u20130. Mooreville boys won 47\u201320. South Pontotoc hosts Oxford on Dec. 1.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-25T15:10:07.036799+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f4"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 25 morning Pontotoc News edition. Publish the reviewed facts after an authenticated dry run."
+  }
+}
