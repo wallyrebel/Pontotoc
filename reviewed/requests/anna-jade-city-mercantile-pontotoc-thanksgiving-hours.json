@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/anna-jade-city-mercantile-pontotoc-thanksgiving-hours.json",
   "article_sha256": "2dd592730298393ef61eb8926bfc4a36407a6b93ca88ff9e31f364703cfbfa96",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "anna-jade-city-mercantile-pontotoc-thanksgiving-hours",
   "seo_review": {
     "reviewer": "Pontotoc News morning desk",
