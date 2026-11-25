@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-drought-map-before-thanksgiving-week-rain.json",
   "article_sha256": "3532503a58a8b2b117bae55bbdb10e6d0d13bc3dc549378a58b984adbc7db585",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-drought-map-before-thanksgiving-week-rain",
   "seo_review": {
     "reviewer": "Pontotoc News morning desk",
