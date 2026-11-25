@@ -1,0 +1,146 @@
+{
+  "title": "Friday and Saturday look dry in Pontotoc County before rain returns for the trip home",
+  "excerpt": "Saturday is forecast to reach the mid-60s. The chance of rain rises to 70% Sunday, with thunderstorms possible.",
+  "locality": "Pontotoc County, Mississippi, zone MSZ015.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:nws:2026-11-25-1505:thanksgiving-return-travel"
+  ],
+  "sources": [
+    {
+      "id": "zone",
+      "title": "Wednesday afternoon county forecast (Pontotoc is MSZ015)",
+      "url": "https://api.weather.gov/products/ae9dc3cc-2d5a-4884-9911-5c337ec89f44",
+      "publisher": "National Weather Service Memphis",
+      "role": "event",
+      "verified_at": "2026-11-25T22:06:50.696139+00:00",
+      "verification_url": "https://api.weather.gov/products/ae9dc3cc-2d5a-4884-9911-5c337ec89f44",
+      "published_at": "2026-11-25T21:06:00+00:00"
+    },
+    {
+      "id": "discussion",
+      "title": "Forecasters\u2019 account of the weekend rain system",
+      "url": "https://api.weather.gov/products/376813e0-286d-4785-8ad3-8f10482aa74e",
+      "publisher": "National Weather Service Memphis",
+      "role": "event",
+      "verified_at": "2026-11-25T22:06:50.696139+00:00",
+      "verification_url": "https://api.weather.gov/products/376813e0-286d-4785-8ad3-8f10482aa74e",
+      "published_at": "2026-11-25T19:24:00+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc County travelers choosing when to head home after Thanksgiving have two sunny days ahead before the next chance of rain. The National Weather Service in Memphis expects highs in the mid-50s Friday and mid-60s Saturday. Its 3:05 p.m. Wednesday county forecast puts Sunday\u2019s rain chance at 70%.",
+      "source_ids": [
+        "zone"
+      ],
+      "evidence": "Read the dated MSZ015 block for Friday, Saturday and Sunday.",
+      "statistics": "Mid-50s, mid-60s and 70%.",
+      "date_context": "Nov. 25 afternoon forecast for Thanksgiving Nov. 26 through Sunday Nov. 29, 2026. Times Central.",
+      "locality": "Pontotoc County, Mississippi, zone MSZ015.",
+      "identities": "National Weather Service Memphis, Pontotoc County."
+    },
+    {
+      "id": "f2",
+      "statement": "The change is expected after midnight Saturday night, when the chance of showers reaches 30%. Sunday morning has the better chance of showers and a chance of thunderstorms. By afternoon, forecasters expect partial sunshine, with showers still possible and a smaller chance of thunderstorms. Sunday should be breezy, with a high in the upper 60s.",
+      "source_ids": [
+        "zone",
+        "discussion"
+      ],
+      "evidence": "County timing, temperatures and probabilities. The area discussion places the next system late Saturday night into Sunday.",
+      "statistics": "30% Saturday night, upper 60s Sunday.",
+      "date_context": "Nov. 25 afternoon forecast for Thanksgiving Nov. 26 through Sunday Nov. 29, 2026. Times Central.",
+      "locality": "Pontotoc County, Mississippi, zone MSZ015.",
+      "identities": "National Weather Service Memphis, Pontotoc County."
+    },
+    {
+      "id": "f3",
+      "statement": "For people traveling sooner, Thanksgiving itself will be colder. The county forecast calls for clouds, a high in the mid-40s and northwest winds of 15 to 20 mph with gusts up to 30 mph. There is a 20% chance of afternoon rain. Thursday night\u2019s low is around 30, and gusts could still reach 30 mph that evening.",
+      "source_ids": [
+        "zone"
+      ],
+      "evidence": "Read Thanksgiving Day and Thursday Night in the Pontotoc block.",
+      "statistics": "15\u201320 mph, gusts to 30 mph, 20% chance of rain, low around 30.",
+      "date_context": "Nov. 25 afternoon forecast for Thanksgiving Nov. 26 through Sunday Nov. 29, 2026. Times Central.",
+      "locality": "Pontotoc County, Mississippi, zone MSZ015.",
+      "identities": "National Weather Service Memphis, Pontotoc County."
+    },
+    {
+      "id": "f4",
+      "statement": "Rain is expected in Pontotoc County through Wednesday evening, then becomes less likely after midnight. The coldest part of the night is forecast to reach the lower 30s. Friday night also looks cold, with clear skies and a low around 30 before Saturday\u2019s warmup.",
+      "source_ids": [
+        "zone"
+      ],
+      "evidence": "Read Wednesday night and Friday night in the same bulletin.",
+      "statistics": "Lower 30s Wednesday night, around 30 Friday night.",
+      "date_context": "Nov. 25 afternoon forecast for Thanksgiving Nov. 26 through Sunday Nov. 29, 2026. Times Central.",
+      "locality": "Pontotoc County, Mississippi, zone MSZ015.",
+      "identities": "National Weather Service Memphis, Pontotoc County."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc County travelers choosing when to head home after Thanksgiving have two sunny days ahead before the next chance of rain. The National Weather Service in Memphis expects highs in the mid-50s Friday and mid-60s Saturday. Its 3:05 p.m. Wednesday county forecast puts Sunday\u2019s rain chance at 70%.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The change is expected after midnight Saturday night, when the chance of showers reaches 30%. Sunday morning has the better chance of showers and a chance of thunderstorms. By afternoon, forecasters expect partial sunshine, with showers still possible and a smaller chance of thunderstorms. Sunday should be breezy, with a high in the upper 60s.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "For people traveling sooner, Thanksgiving itself will be colder. The county forecast calls for clouds, a high in the mid-40s and northwest winds of 15 to 20 mph with gusts up to 30 mph. There is a 20% chance of afternoon rain. Thursday night\u2019s low is around 30, and gusts could still reach 30 mph that evening.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "Rain is expected in Pontotoc County through Wednesday evening, then becomes less likely after midnight. The coldest part of the night is forecast to reach the lower 30s. Friday night also looks cold, with clear skies and a low around 30 before Saturday\u2019s warmup.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-thanksgiving-return-travel-sunday-rain.png",
+    "sha256": "9cd4334ce3012724213067563237940c68e38ce84a1c1dca682b941607f9c9aa",
+    "alt_text": "Pontotoc County forecast. Friday sunny, mid-50s. Saturday sunny, mid-60s. Sunday has a 70% chance of rain.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-25T22:06:50.696139+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 25 afternoon Pontotoc News editorial shift. Publish identical reviewed copy after authenticated preflight."
+  }
+}
