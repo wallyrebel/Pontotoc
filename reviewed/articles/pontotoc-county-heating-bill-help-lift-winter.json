@@ -1,0 +1,168 @@
+{
+  "title": "Where Pontotoc County households can get help with winter heating bills",
+  "excerpt": "Applications start online. LIFT\u2019s Highway 15 office handles the local appointment, and eligible households receive a credit through their energy provider.",
+  "locality": "Pontotoc County, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:fy2027:liheap-heating-bill-assistance"
+  ],
+  "sources": [
+    {
+      "id": "energy",
+      "title": "How to apply for Mississippi energy assistance",
+      "url": "https://www.mdhs.ms.gov/community/liheap/",
+      "publisher": "Mississippi Department of Human Services",
+      "role": "event",
+      "verified_at": "2026-11-26T01:36:30.388261+00:00",
+      "verification_url": "https://www.mdhs.ms.gov/community/liheap/",
+      "published_at": null
+    },
+    {
+      "id": "offices",
+      "title": "State directory of local Community Services offices",
+      "url": "https://www.mdhs.ms.gov/contact/",
+      "publisher": "Mississippi Department of Human Services",
+      "role": "background",
+      "verified_at": "2026-11-26T01:36:30.388261+00:00",
+      "verification_url": "https://www.mdhs.ms.gov/contact/",
+      "published_at": null
+    },
+    {
+      "id": "agency",
+      "title": "LIFT programs and counties served",
+      "url": "https://msacaa.org/agency/lift-incorporated/",
+      "publisher": "Mississippi Association of Community Action Agencies",
+      "role": "background",
+      "verified_at": "2026-11-26T01:36:30.388261+00:00",
+      "verification_url": "https://msacaa.org/agency/lift-incorporated/",
+      "published_at": null
+    },
+    {
+      "id": "award",
+      "title": "Federal heating assistance award to Mississippi for fiscal 2027",
+      "url": "https://taggs.hhs.gov/Detail/AwardDetail?arg_AwardNum=2701MSLIEA&arg_ProgOfficeCode=31",
+      "publisher": "U.S. Department of Health and Human Services",
+      "role": "background",
+      "verified_at": "2026-11-26T01:36:30.388261+00:00",
+      "verification_url": "https://taggs.hhs.gov/Detail/AwardDetail?arg_AwardNum=2701MSLIEA&arg_ProgOfficeCode=31",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc County residents who need help paying for heat this winter can start an application online and finish it with LIFT, the community action agency serving the county. Its Pontotoc office is at 1597 Highway 15 North. The local number for questions about energy assistance or an appointment is 662-489-7329.",
+      "source_ids": [
+        "energy",
+        "offices",
+        "agency"
+      ],
+      "evidence": "State Community Services directory lists LIFT\u2019s Pontotoc street address and number. The association lists Pontotoc in its service area. MDHS identifies the two-stage application process.",
+      "statistics": "1597 Highway 15 North; 662-489-7329.",
+      "date_context": "Winter 2026\u201327 service information checked Nov. 25, 2026. Federal fiscal 2027 award dated Oct. 9, 2026.",
+      "locality": "Pontotoc County, Mississippi.",
+      "identities": "LIFT, Inc.; Mississippi Department of Human Services; U.S. Department of Health and Human Services."
+    },
+    {
+      "id": "f2",
+      "statement": "On the Access MS portal, select \u201cCommunity Services\u201d to start the Low-Income Home Energy Assistance Program pre-application. Watch for a letter or email giving the date of the in-person appointment and listing the documents to bring. The state says to keep the appointment even if some paperwork is missing. The agency can give applicants time to supply it afterward.",
+      "source_ids": [
+        "energy"
+      ],
+      "evidence": "MDHS application steps 1, 2 and 4 identify the portal selection, notices, in-person review and missing-document guidance.",
+      "statistics": "None asserted.",
+      "date_context": "Winter 2026\u201327 service information checked Nov. 25, 2026. Federal fiscal 2027 award dated Oct. 9, 2026.",
+      "locality": "Pontotoc County, Mississippi.",
+      "identities": "LIFT, Inc.; Mississippi Department of Human Services; U.S. Department of Health and Human Services."
+    },
+    {
+      "id": "f3",
+      "statement": "The state gives priority to households with an older adult, a person with a disability or a child age 5 or younger. It says those applicants should expect an appointment within 30 business days of applying. For other households, the stated window is 45 days. The appointment notice comes before a decision on assistance.",
+      "source_ids": [
+        "energy"
+      ],
+      "evidence": "MDHS gives 30 business days and 45 days respectively, and distinguishes the appointment notice from subsequent approval or denial.",
+      "statistics": "Child age 5 or younger; 30 business days; 45 days.",
+      "date_context": "Winter 2026\u201327 service information checked Nov. 25, 2026. Federal fiscal 2027 award dated Oct. 9, 2026.",
+      "locality": "Pontotoc County, Mississippi.",
+      "identities": "LIFT, Inc.; Mississippi Department of Human Services; U.S. Department of Health and Human Services."
+    },
+    {
+      "id": "f4",
+      "statement": "Assistance can cover heat from sources including electricity, natural gas, propane and wood. When an application is approved, the agency pays the energy provider directly and the household sees a credit on its bill. Federal records show an Oct. 9 award of $31,855,822 to Mississippi for the program statewide. Local assistance depends on funds being available.",
+      "source_ids": [
+        "energy",
+        "award"
+      ],
+      "evidence": "MDHS lists eligible heat sources, direct vendor payments and limited funds. HHS award 2701MSLIEA was issued to the Mississippi Department of Human Services on Oct. 9.",
+      "statistics": "State award $31,855,822.",
+      "date_context": "Winter 2026\u201327 service information checked Nov. 25, 2026. Federal fiscal 2027 award dated Oct. 9, 2026.",
+      "locality": "Pontotoc County, Mississippi.",
+      "identities": "LIFT, Inc.; Mississippi Department of Human Services; U.S. Department of Health and Human Services."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc County residents who need help paying for heat this winter can start an application online and finish it with LIFT, the community action agency serving the county. Its Pontotoc office is at 1597 Highway 15 North. The local number for questions about energy assistance or an appointment is 662-489-7329.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "On the Access MS portal, select \u201cCommunity Services\u201d to start the Low-Income Home Energy Assistance Program pre-application. Watch for a letter or email giving the date of the in-person appointment and listing the documents to bring. The state says to keep the appointment even if some paperwork is missing. The agency can give applicants time to supply it afterward.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "The state gives priority to households with an older adult, a person with a disability or a child age 5 or younger. It says those applicants should expect an appointment within 30 business days of applying. For other households, the stated window is 45 days. The appointment notice comes before a decision on assistance.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "Assistance can cover heat from sources including electricity, natural gas, propane and wood. When an application is approved, the agency pays the energy provider directly and the household sees a credit on its bill. Federal records show an Oct. 9 award of $31,855,822 to Mississippi for the program statewide. Local assistance depends on funds being available.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-county-heating-bill-help-lift-winter.png",
+    "sha256": "744cc24d8564884e2d6fc9b6aa07d0f42c442b6fc03ebe24eb04889fb90b7283",
+    "alt_text": "LIFT\u2019s Pontotoc office for heating assistance is at 1597 Highway 15 North. Call 662-489-7329.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News evening desk",
+    "reviewed_at": "2026-11-26T01:36:30.388261+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f4"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized Nov. 25 evening editorial shift, for live publication after authenticated verification."
+  }
+}
