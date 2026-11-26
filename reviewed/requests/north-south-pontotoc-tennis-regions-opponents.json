@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/north-south-pontotoc-tennis-regions-opponents.json",
   "article_sha256": "edb6eab28892cb4c713e85618e4673c27f8e344970213898b93dd091f310c18a",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "north-south-pontotoc-tennis-regions-opponents",
   "seo_review": {
     "reviewer": "Pontotoc News supplemental desk",
