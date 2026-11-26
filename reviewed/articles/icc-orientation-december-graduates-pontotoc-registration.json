@@ -1,0 +1,170 @@
+{
+  "title": "Pontotoc students graduating in December have until Monday to sign up for ICC orientation",
+  "excerpt": "ICC\u2019s sign-up form lists a 1 p.m. session in Tupelo on Dec. 2 and another in Fulton on Dec. 3. Students starting in January can choose either campus.",
+  "locality": "Pontotoc County is in Itawamba Community College\u2019s supporting district. Sessions are in Tupelo and Fulton, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:icc:2026-11-30:december-graduate-orientation-registration"
+  ],
+  "sources": [
+    {
+      "id": "icc-release",
+      "title": "ICC\u2019s announcement for December graduates",
+      "url": "https://www.iccms.edu/news/icc-opens-registration-for-december-2026-graduate-orientation",
+      "publisher": "Itawamba Community College",
+      "role": "event",
+      "verified_at": "2026-11-26T15:25:43.003476+00:00",
+      "verification_url": "https://www.iccms.edu/news/icc-opens-registration-for-december-2026-graduate-orientation",
+      "published_at": null
+    },
+    {
+      "id": "icc-signup",
+      "title": "Register and see available dates and locations",
+      "url": "https://www.iccms.edu/Admissions/Orientation-at-ICC/Orientation-Registration",
+      "publisher": "Itawamba Community College",
+      "role": "event",
+      "verified_at": "2026-11-26T15:25:43.003476+00:00",
+      "verification_url": "https://www.iccms.edu/Admissions/Orientation-at-ICC/Orientation-Registration",
+      "published_at": null
+    },
+    {
+      "id": "icc-register",
+      "title": "Orientation requirements and contact information",
+      "url": "https://www.iccms.edu/Orientation",
+      "publisher": "Itawamba Community College",
+      "role": "background",
+      "verified_at": "2026-11-26T15:25:43.003476+00:00",
+      "verification_url": "https://www.iccms.edu/Orientation",
+      "published_at": null
+    },
+    {
+      "id": "icc-district",
+      "title": "ICC\u2019s five-county supporting district",
+      "url": "https://www.iccms.edu/Portals/0/Docs/Information/HR/EmployeeHandbook.pdf",
+      "publisher": "Itawamba Community College",
+      "role": "background",
+      "verified_at": "2026-11-26T15:25:43.003476+00:00",
+      "verification_url": "https://www.iccms.edu/Portals/0/Docs/Information/HR/EmployeeHandbook.pdf",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc County high school seniors who graduate in December and plan to start at Itawamba Community College in January have through Monday, Nov. 30, to register for orientation. The college requires these incoming students to attend one session. Pontotoc is one of the five counties in ICC\u2019s district.",
+      "source_ids": [
+        "icc-signup",
+        "icc-release",
+        "icc-district"
+      ],
+      "evidence": "Both live registration rows show the registration period ending 11/30/2026. The dated college notice describes who must attend. The handbook lists the five counties.",
+      "statistics": "Nov. 30; one session; five counties.",
+      "date_context": "ICC notice dated Nov. 4, 2026. Live registration reviewed Nov. 26. Sign-up through Nov. 30 and sessions Dec. 2 and 3.",
+      "locality": "Pontotoc County is in Itawamba Community College\u2019s supporting district. Sessions are in Tupelo and Fulton, Mississippi.",
+      "identities": "Itawamba Community College and high school seniors graduating in December who plan to enroll in spring 2027."
+    },
+    {
+      "id": "f2",
+      "statement": "The live registration form offers two choices. The Tupelo session is Wednesday, Dec. 2, at 1 p.m. in the Academic and Student Center, 2176 South Eason Blvd. The Fulton session is Thursday, Dec. 3, at 1 p.m. in the W.O. Benjamin Fine Arts Center on the campus at 602 West Hill Street. Students may choose whichever session works for them, even if they will take classes on the other campus.",
+      "source_ids": [
+        "icc-signup",
+        "icc-release",
+        "icc-register"
+      ],
+      "evidence": "Checked the rendered Upcoming Orientation Dates table, rows for Tupelo and Fulton, against the Nov. 4 announcement. Campus addresses are in the college footer.",
+      "statistics": "Dec. 2 and 3; both 1 p.m.; 2176 South Eason Blvd. and 602 West Hill Street.",
+      "date_context": "ICC notice dated Nov. 4, 2026. Live registration reviewed Nov. 26. Sign-up through Nov. 30 and sessions Dec. 2 and 3.",
+      "locality": "Pontotoc County is in Itawamba Community College\u2019s supporting district. Sessions are in Tupelo and Fulton, Mississippi.",
+      "identities": "Itawamba Community College and high school seniors graduating in December who plan to enroll in spring 2027."
+    },
+    {
+      "id": "f3",
+      "statement": "Students need to apply for admission before signing up. ICC offers orientation free of charge and encourages students to send in their ACT scores ahead of time. Parents or guardians may attend. Students can build their spring class schedule and get their student ID photo taken during the visit.",
+      "source_ids": [
+        "icc-register",
+        "icc-release"
+      ],
+      "evidence": "Orientation instructions distinguish the admission requirement from the recommendation about scores and identify the activities offered.",
+      "statistics": "No fee.",
+      "date_context": "ICC notice dated Nov. 4, 2026. Live registration reviewed Nov. 26. Sign-up through Nov. 30 and sessions Dec. 2 and 3.",
+      "locality": "Pontotoc County is in Itawamba Community College\u2019s supporting district. Sessions are in Tupelo and Fulton, Mississippi.",
+      "identities": "Itawamba Community College and high school seniors graduating in December who plan to enroll in spring 2027."
+    },
+    {
+      "id": "f4",
+      "statement": "Families can use the college\u2019s registration form linked below to choose a campus. ICC sends a confirmation email with a code students can use to change their registration. Questions about a session can go to orientation@iccms.edu.",
+      "source_ids": [
+        "icc-signup",
+        "icc-register"
+      ],
+      "evidence": "Registration page explains the confirmation-code process. The orientation office publishes its email for questions.",
+      "statistics": "None asserted.",
+      "date_context": "ICC notice dated Nov. 4, 2026. Live registration reviewed Nov. 26. Sign-up through Nov. 30 and sessions Dec. 2 and 3.",
+      "locality": "Pontotoc County is in Itawamba Community College\u2019s supporting district. Sessions are in Tupelo and Fulton, Mississippi.",
+      "identities": "Itawamba Community College and high school seniors graduating in December who plan to enroll in spring 2027."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc County high school seniors who graduate in December and plan to start at Itawamba Community College in January have through Monday, Nov. 30, to register for orientation. The college requires these incoming students to attend one session. Pontotoc is one of the five counties in ICC\u2019s district.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The live registration form offers two choices. The Tupelo session is Wednesday, Dec. 2, at 1 p.m. in the Academic and Student Center, 2176 South Eason Blvd. The Fulton session is Thursday, Dec. 3, at 1 p.m. in the W.O. Benjamin Fine Arts Center on the campus at 602 West Hill Street. Students may choose whichever session works for them, even if they will take classes on the other campus.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Students need to apply for admission before signing up. ICC offers orientation free of charge and encourages students to send in their ACT scores ahead of time. Parents or guardians may attend. Students can build their spring class schedule and get their student ID photo taken during the visit.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "Families can use the college\u2019s registration form linked below to choose a campus. ICC sends a confirmation email with a code students can use to change their registration. Questions about a session can go to orientation@iccms.edu.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/icc-orientation-december-graduates-pontotoc-registration.png",
+    "sha256": "d5e3725546c120b3d5fac6065f6dda4ad272d8417c90b3184dae30a8de91c1e0",
+    "alt_text": "Register by Nov. 30 for ICC orientation in Tupelo on Dec. 2 or Fulton on Dec. 3. Both sessions start at 1 p.m.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-26T15:25:43.003476+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized Pontotoc News morning shift for November 26, 2026. Publish the reviewed package after authenticated preflight."
+  }
+}
