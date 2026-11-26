@@ -1,0 +1,170 @@
+{
+  "title": "Five days remain after Thanksgiving for free Medicare drug-plan help in Pontotoc",
+  "excerpt": "Three Rivers lists hours, a South Main Street location and two things to bring before the Dec. 7 enrollment deadline.",
+  "locality": "Pontotoc, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:three-rivers:2026-12-07:local-part-d-counseling-hours"
+  ],
+  "sources": [
+    {
+      "id": "listing",
+      "title": "Three Rivers\u2019 county counseling sites and hours (PDF)",
+      "url": "https://trpdd.com/wp-content/uploads/2026-Medicare-Part-D-Counseling-2026-10-15.pdf",
+      "publisher": "Three Rivers Planning and Development District",
+      "role": "event",
+      "verified_at": "2026-11-26T22:08:15.251762+00:00",
+      "verification_url": "https://trpdd.com/wp-content/uploads/2026-Medicare-Part-D-Counseling-2026-10-15.pdf",
+      "published_at": null
+    },
+    {
+      "id": "agency",
+      "title": "Free Medicare Part D counseling for the 2026 enrollment period",
+      "url": "https://trpdd.com/area-on-aging/",
+      "publisher": "Three Rivers Area Agency on Aging",
+      "role": "event",
+      "verified_at": "2026-11-26T22:08:15.251762+00:00",
+      "verification_url": "https://trpdd.com/area-on-aging/",
+      "published_at": null
+    },
+    {
+      "id": "comparison",
+      "title": "How Medicare compares plans and prescription drug costs",
+      "url": "https://www.medicare.gov/basics/get-started-with-medicare/get-more-coverage/joining-a-plan",
+      "publisher": "Medicare",
+      "role": "background",
+      "verified_at": "2026-11-26T22:08:15.251762+00:00",
+      "verification_url": "https://www.medicare.gov/basics/get-started-with-medicare/get-more-coverage/joining-a-plan",
+      "published_at": null
+    },
+    {
+      "id": "dates",
+      "title": "Medicare open enrollment and effective dates",
+      "url": "https://www.medicare.gov/health-drug-plans/open-enrollment",
+      "publisher": "Medicare",
+      "role": "background",
+      "verified_at": "2026-11-26T22:08:15.251762+00:00",
+      "verification_url": "https://www.medicare.gov/health-drug-plans/open-enrollment",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc residents who want help comparing Medicare prescription drug plans have five weekdays left on the local counseling schedule after Thanksgiving. Three Rivers offers free help at 75 S. Main St. in Pontotoc. Its county listing gives 662-489-2415 as the number to call before making the trip.",
+      "source_ids": [
+        "listing",
+        "agency"
+      ],
+      "evidence": "Visually verified the Pontotoc row and the general hours above it. Counted the remaining Monday\u2013Thursday dates through December 7.",
+      "statistics": "Five weekdays. Address and telephone transcribed from county row.",
+      "date_context": "2026 open enrollment for changes effective January 1, 2027.",
+      "locality": "Pontotoc, Mississippi.",
+      "identities": "Three Rivers Area Agency on Aging and Medicare."
+    },
+    {
+      "id": "f2",
+      "statement": "The posted hours are 8 a.m. to 4:30 p.m. Monday through Thursday. That leaves Nov. 30 and Dec. 1, 2 and 3, followed by one final Monday, Dec. 7. Bring your Medicare card and a list of the prescription drugs you take. Three Rivers says its counselors have no affiliation with an insurance company.",
+      "source_ids": [
+        "listing",
+        "agency"
+      ],
+      "evidence": "The 2026 notice specifies the hours, what to bring and independence from insurers. Pontotoc has no day-specific exception.",
+      "statistics": "Checked weekdays against the 2026 calendar.",
+      "date_context": "2026 open enrollment for changes effective January 1, 2027.",
+      "locality": "Pontotoc, Mississippi.",
+      "identities": "Three Rivers Area Agency on Aging and Medicare."
+    },
+    {
+      "id": "f3",
+      "statement": "The medication list can help answer a practical question about next year\u2019s coverage. Medicare\u2019s comparison tool uses the prescriptions you enter to estimate what each plan would cost you by the month and by the year. Medicare recommends including every prescription you take regularly to get the most accurate estimate.",
+      "source_ids": [
+        "comparison"
+      ],
+      "evidence": "Medicare describes how a complete list of regularly used prescriptions informs estimates.",
+      "statistics": "None asserted.",
+      "date_context": "2026 open enrollment for changes effective January 1, 2027.",
+      "locality": "Pontotoc, Mississippi.",
+      "identities": "Three Rivers Area Agency on Aging and Medicare."
+    },
+    {
+      "id": "f4",
+      "statement": "Anyone who decides to change plans during open enrollment must get the request to the plan by Dec. 7 for the new coverage to start Jan. 1, 2027. The South Main Street office lists 4:30 p.m. as the end of its counseling day on that final Monday.",
+      "source_ids": [
+        "dates",
+        "listing",
+        "agency"
+      ],
+      "evidence": "Federal deadline and effective date distinguish the plan\u2019s receipt of a request from the local counseling hours.",
+      "statistics": "December 7, January 1 and 4:30 p.m.",
+      "date_context": "2026 open enrollment for changes effective January 1, 2027.",
+      "locality": "Pontotoc, Mississippi.",
+      "identities": "Three Rivers Area Agency on Aging and Medicare."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc residents who want help comparing Medicare prescription drug plans have five weekdays left on the local counseling schedule after Thanksgiving. Three Rivers offers free help at 75 S. Main St. in Pontotoc. Its county listing gives 662-489-2415 as the number to call before making the trip.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The posted hours are 8 a.m. to 4:30 p.m. Monday through Thursday. That leaves Nov. 30 and Dec. 1, 2 and 3, followed by one final Monday, Dec. 7. Bring your Medicare card and a list of the prescription drugs you take. Three Rivers says its counselors have no affiliation with an insurance company.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "The medication list can help answer a practical question about next year\u2019s coverage. Medicare\u2019s comparison tool uses the prescriptions you enter to estimate what each plan would cost you by the month and by the year. Medicare recommends including every prescription you take regularly to get the most accurate estimate.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "Anyone who decides to change plans during open enrollment must get the request to the plan by Dec. 7 for the new coverage to start Jan. 1, 2027. The South Main Street office lists 4:30 p.m. as the end of its counseling day on that final Monday.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-medicare-drug-plan-counseling-hours-south-main.png",
+    "sha256": "8dd9857e9ec715b8790115627001e35a24a700aa81da916839c6b50cb3b33804",
+    "alt_text": "Three Rivers lists Medicare counseling from 8 a.m. to 4:30 p.m. on Nov. 30, Dec. 1\u20133 and Dec. 7 at 75 S. Main St. in Pontotoc.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-26T22:08:15.251762+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f4"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 26 afternoon editorial shift. Publish the reviewed article after successful authenticated preflight."
+  }
+}
