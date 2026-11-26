@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-channing-lane-blue-mountain-wesleyan-road-win.json",
   "article_sha256": "5a6a533c06da0ea9f885f26f5854b58eb127b7a8010bd3f18437577f4b963716",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-channing-lane-blue-mountain-wesleyan-road-win",
   "seo_review": {
     "reviewer": "Pontotoc News morning desk",
