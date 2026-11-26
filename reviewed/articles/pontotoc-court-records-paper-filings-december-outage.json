@@ -1,0 +1,170 @@
+{
+  "title": "Pontotoc court records go offline Dec. 23. Here\u2019s where to file on paper",
+  "excerpt": "Pontotoc County\u2019s chancery and circuit clerks will accept paper filings during regular office hours while the state moves court records into new judicial districts.",
+  "locality": "Pontotoc County chancery and circuit courts in Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:2026-12-23:mec-trial-court-records-shutdown"
+  ],
+  "sources": [
+    {
+      "id": "memo",
+      "title": "State judiciary\u2019s notice to chancery and circuit clerks",
+      "url": "https://www.harrisoncountymschanceryclerk.gov/downloads/news/MEC%20Shutdown%20Notice%2011122026.pdf",
+      "publisher": "Mississippi Administrative Office of Courts",
+      "role": "event",
+      "verified_at": "2026-11-26T15:24:24.428459+00:00",
+      "verification_url": "https://www.harrisoncountymschanceryclerk.gov/downloads/news/MEC%20Shutdown%20Notice%2011122026.pdf",
+      "published_at": null
+    },
+    {
+      "id": "order",
+      "title": "Supreme Court order governing filings during the outage",
+      "url": "https://www.harrisoncountymschanceryclerk.gov/downloads/news/MSSC%20ADMINISTRATIVE%20ORDER%20-%202026-AD-00001-SCT%20-%20JUDICIAL%20REDISTRICTING.pdf",
+      "publisher": "Mississippi Supreme Court",
+      "role": "event",
+      "verified_at": "2026-11-26T15:24:24.428459+00:00",
+      "verification_url": "https://www.harrisoncountymschanceryclerk.gov/downloads/news/MSSC%20ADMINISTRATIVE%20ORDER%20-%202026-AD-00001-SCT%20-%20JUDICIAL%20REDISTRICTING.pdf",
+      "published_at": null
+    },
+    {
+      "id": "countyofficials",
+      "title": "Pontotoc County clerk contacts",
+      "url": "https://www.sos.ms.gov/sites/default/files/publications/County%20Offices%20and%20Directory_2026.pdf",
+      "publisher": "Mississippi Secretary of State",
+      "role": "background",
+      "verified_at": "2026-11-26T15:24:24.428459+00:00",
+      "verification_url": "https://www.sos.ms.gov/sites/default/files/publications/County%20Offices%20and%20Directory_2026.pdf",
+      "published_at": null
+    },
+    {
+      "id": "court-directory",
+      "title": "State directory of electronic trial courts",
+      "url": "https://courts.ms.gov/mec/MEC%20Chancery%20and%20Circuit%20Court%20Directory.pdf",
+      "publisher": "Mississippi judiciary",
+      "role": "background",
+      "verified_at": "2026-11-26T15:24:24.428459+00:00",
+      "verification_url": "https://courts.ms.gov/mec/MEC%20Chancery%20and%20Circuit%20Court%20Directory.pdf",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "People who need a Pontotoc County chancery or circuit court record before the end of December have until 5 p.m. Wednesday, Dec. 23, to retrieve it electronically. The state judiciary says the shutdown will take out both online access and the public terminals at the courthouse. Clerks will also lose access to the electronic records.",
+      "source_ids": [
+        "memo",
+        "court-directory"
+      ],
+      "evidence": "State notice identifies both methods of public access and all affected trial courts. State directory names Pontotoc.",
+      "statistics": "5 p.m. Central on Dec. 23.",
+      "date_context": "Administrative order Nov. 4 and notice Nov. 12, 2026. Planned outage Dec. 23, 2026, into Jan. 4, 2027.",
+      "locality": "Pontotoc County chancery and circuit courts in Mississippi.",
+      "identities": "Mississippi Supreme Court, Mississippi Administrative Office of Courts and Pontotoc County clerks."
+    },
+    {
+      "id": "f2",
+      "statement": "The state Supreme Court\u2019s Nov. 4 order calls for paper filings at the appropriate clerk\u2019s office during its regular business hours. The four business days the state identifies during the outage are Monday, Dec. 28, through Thursday, Dec. 31. Clerks will stamp documents when they arrive and use that filing date when they enter them in the system later.",
+      "source_ids": [
+        "order",
+        "memo"
+      ],
+      "evidence": "Temporary filing procedure in court order and four business days in the notice to clerks.",
+      "statistics": "Nov. 4; Dec. 28 through 31.",
+      "date_context": "Administrative order Nov. 4 and notice Nov. 12, 2026. Planned outage Dec. 23, 2026, into Jan. 4, 2027.",
+      "locality": "Pontotoc County chancery and circuit courts in Mississippi.",
+      "identities": "Mississippi Supreme Court, Mississippi Administrative Office of Courts and Pontotoc County clerks."
+    },
+    {
+      "id": "f3",
+      "statement": "For questions about a local filing or office hours, the Pontotoc County circuit clerk\u2019s number is 662-489-3908. The chancery clerk can be reached at 662-489-3900. Those are the numbers in the Mississippi secretary of state\u2019s county directory.",
+      "source_ids": [
+        "countyofficials"
+      ],
+      "evidence": "Pontotoc County entry, circuit and chancery clerk lines.",
+      "statistics": "662-489-3908 and 662-489-3900.",
+      "date_context": "Administrative order Nov. 4 and notice Nov. 12, 2026. Planned outage Dec. 23, 2026, into Jan. 4, 2027.",
+      "locality": "Pontotoc County chancery and circuit courts in Mississippi.",
+      "identities": "Mississippi Supreme Court, Mississippi Administrative Office of Courts and Pontotoc County clerks."
+    },
+    {
+      "id": "f4",
+      "statement": "The outage gives the state time to move cases, documents and users into judicial districts that take effect Jan. 1. The planned restart is 8 a.m. Monday, Jan. 4. The Supreme Court order says the outage ends when the Administrative Office of Courts announces service has returned at mec.ms.gov. Electronic filing in the appellate courts will remain available.",
+      "source_ids": [
+        "memo",
+        "order"
+      ],
+      "evidence": "State memo describes migration; order specifies official restoration announcement and appellate availability.",
+      "statistics": "Jan. 1 and 8 a.m. Central Jan. 4.",
+      "date_context": "Administrative order Nov. 4 and notice Nov. 12, 2026. Planned outage Dec. 23, 2026, into Jan. 4, 2027.",
+      "locality": "Pontotoc County chancery and circuit courts in Mississippi.",
+      "identities": "Mississippi Supreme Court, Mississippi Administrative Office of Courts and Pontotoc County clerks."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "People who need a Pontotoc County chancery or circuit court record before the end of December have until 5 p.m. Wednesday, Dec. 23, to retrieve it electronically. The state judiciary says the shutdown will take out both online access and the public terminals at the courthouse. Clerks will also lose access to the electronic records.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The state Supreme Court\u2019s Nov. 4 order calls for paper filings at the appropriate clerk\u2019s office during its regular business hours. The four business days the state identifies during the outage are Monday, Dec. 28, through Thursday, Dec. 31. Clerks will stamp documents when they arrive and use that filing date when they enter them in the system later.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "For questions about a local filing or office hours, the Pontotoc County circuit clerk\u2019s number is 662-489-3908. The chancery clerk can be reached at 662-489-3900. Those are the numbers in the Mississippi secretary of state\u2019s county directory.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "The outage gives the state time to move cases, documents and users into judicial districts that take effect Jan. 1. The planned restart is 8 a.m. Monday, Jan. 4. The Supreme Court order says the outage ends when the Administrative Office of Courts announces service has returned at mec.ms.gov. Electronic filing in the appellate courts will remain available.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-court-records-paper-filings-december-outage.png",
+    "sha256": "0f187e39c3730cfa31a60a72c14e2de800143804ee0637838d33907802dd8662",
+    "alt_text": "Trial court records go offline at 5 p.m. Dec. 23, with paper filing Dec. 28\u201331 and a planned Jan. 4 restart.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-26T15:24:24.428459+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f4"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized Pontotoc News morning shift for November 26, 2026. Publish the reviewed package after authenticated preflight."
+  }
+}

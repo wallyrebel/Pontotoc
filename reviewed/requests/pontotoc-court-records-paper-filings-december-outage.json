@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-court-records-paper-filings-december-outage.json",
+  "article_sha256": "94df5fdcf93bb29d27a349aa7cd3cb9af4648898ddbb88d16b88090273b622ab",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-court-records-paper-filings-december-outage",
+  "seo_review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-26T15:24:24.428459+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}
