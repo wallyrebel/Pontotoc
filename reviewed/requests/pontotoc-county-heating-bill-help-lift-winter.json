@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-county-heating-bill-help-lift-winter.json",
   "article_sha256": "0a12f7fa457895df083e069fe61a6b0164760f20d30e4c470386e519e87ad2a3",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-county-heating-bill-help-lift-winter",
   "seo_review": {
     "reviewer": "Pontotoc News evening desk",
