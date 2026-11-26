@@ -1,0 +1,158 @@
+{
+  "title": "FEMA approves more than $3.9 million for North East Power fiber repairs",
+  "excerpt": "Thaxton and Toccopola share a broadband link that NE SPARC crews worked on after the winter storm. The new federal award covers armored cable repairs.",
+  "locality": "Pontotoc County, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:2026-11-23:north-east-power-armored-fiber-public-assistance"
+  ],
+  "sources": [
+    {
+      "id": "award",
+      "title": "November 23 FEMA project awards in Mississippi",
+      "url": "https://www.msema.org/news/fema-approves-more-51-million-mississippi",
+      "publisher": "Mississippi Emergency Management Agency",
+      "role": "event",
+      "verified_at": "2026-11-26T22:06:30.524267+00:00",
+      "verification_url": "https://www.msema.org/news/fema-approves-more-51-million-mississippi",
+      "published_at": null
+    },
+    {
+      "id": "repairs",
+      "title": "NE SPARC winter storm repair log",
+      "url": "https://status.nesparc.com/issues/2026-01-26-ice-storm01/",
+      "publisher": "NE SPARC",
+      "role": "background",
+      "verified_at": "2026-11-26T22:06:30.524267+00:00",
+      "verification_url": "https://status.nesparc.com/issues/2026-01-26-ice-storm01/",
+      "published_at": null
+    },
+    {
+      "id": "network",
+      "title": "The cooperative and its fiber service area",
+      "url": "https://www.nesparc.com/about-us/who-we-are/",
+      "publisher": "NE SPARC",
+      "role": "background",
+      "verified_at": "2026-11-26T22:06:30.524267+00:00",
+      "verification_url": "https://www.nesparc.com/about-us/who-we-are/",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "FEMA approved more than $3.9 million to repair armored fiber-optic cables for the electric cooperative whose broadband network serves Thaxton and Toccopola. The Nov. 23 award names the cooperative as the recipient. The notice gives one amount for the project without breaking it down by county or identifying individual stretches of cable.",
+      "source_ids": [
+        "award",
+        "repairs",
+        "network"
+      ],
+      "evidence": "The state reproduced the federal award notice. The utility identifies the parent and both local service areas.",
+      "statistics": "More than $3.9 million.",
+      "date_context": "November 23, 2026 award. Repair log entries February 7\u20138, 2026.",
+      "locality": "Pontotoc County, Mississippi.",
+      "identities": "North East Mississippi Electric Power Association, NE SPARC and FEMA."
+    },
+    {
+      "id": "f2",
+      "statement": "Residents in both communities share a connection through the Lafayette Springs substation. On Feb. 7, NE SPARC warned that splicing a cut cable on Highway 6 would interrupt internet service for subscribers connected there. The notice also named Delay, Hurricane and the east end of Toccopola Road. Crews planned to reconnect the line serving most customers first, then finish the section serving people west of Bethel Church Road.",
+      "source_ids": [
+        "repairs"
+      ],
+      "evidence": "The February 7 entry names locations, interruption and planned order of splicing.",
+      "statistics": "February 7.",
+      "date_context": "November 23, 2026 award. Repair log entries February 7\u20138, 2026.",
+      "locality": "Pontotoc County, Mississippi.",
+      "identities": "North East Mississippi Electric Power Association, NE SPARC and FEMA."
+    },
+    {
+      "id": "f3",
+      "statement": "The next morning, NE SPARC reported that all of its main transport lines were working again. Crews were still repairing the branches off those lines and the connections to individual customers. By spring 2022, the subsidiary of North East Mississippi Electric Power Association had extended internet access to parts of Pontotoc and Union counties beyond the cooperative\u2019s electric service territory.",
+      "source_ids": [
+        "repairs",
+        "network"
+      ],
+      "evidence": "February 8 systemwide update and subsidiary history of its service footprint.",
+      "statistics": "February 8, 2026 and spring 2022.",
+      "date_context": "November 23, 2026 award. Repair log entries February 7\u20138, 2026.",
+      "locality": "Pontotoc County, Mississippi.",
+      "identities": "North East Mississippi Electric Power Association, NE SPARC and FEMA."
+    },
+    {
+      "id": "f4",
+      "statement": "The award comes through FEMA\u2019s Public Assistance program, which reimburses disaster recovery work through the state. The same announcement listed separate fiber repairs for the Alcorn County and Tishomingo County electric associations. Each of those awards is in addition to the North East Power amount.",
+      "source_ids": [
+        "award"
+      ],
+      "evidence": "The state release lists each recipient and describes how federal reimbursement works.",
+      "statistics": "Three separate fiber awards in the notice.",
+      "date_context": "November 23, 2026 award. Repair log entries February 7\u20138, 2026.",
+      "locality": "Pontotoc County, Mississippi.",
+      "identities": "North East Mississippi Electric Power Association, NE SPARC and FEMA."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "FEMA approved more than $3.9 million to repair armored fiber-optic cables for the electric cooperative whose broadband network serves Thaxton and Toccopola. The Nov. 23 award names the cooperative as the recipient. The notice gives one amount for the project without breaking it down by county or identifying individual stretches of cable.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "Residents in both communities share a connection through the Lafayette Springs substation. On Feb. 7, NE SPARC warned that splicing a cut cable on Highway 6 would interrupt internet service for subscribers connected there. The notice also named Delay, Hurricane and the east end of Toccopola Road. Crews planned to reconnect the line serving most customers first, then finish the section serving people west of Bethel Church Road.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "The next morning, NE SPARC reported that all of its main transport lines were working again. Crews were still repairing the branches off those lines and the connections to individual customers. By spring 2022, the subsidiary of North East Mississippi Electric Power Association had extended internet access to parts of Pontotoc and Union counties beyond the cooperative\u2019s electric service territory.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "The award comes through FEMA\u2019s Public Assistance program, which reimburses disaster recovery work through the state. The same announcement listed separate fiber repairs for the Alcorn County and Tishomingo County electric associations. Each of those awards is in addition to the North East Power amount.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/north-east-power-fema-fiber-repairs-thaxton-toccopola.png",
+    "sha256": "bb5e858b26fb35bbf37bdc6e55561a7b5d62b3e41c95e991b9204587a1f8d606",
+    "alt_text": "FEMA approved more than $3.9 million for armored fiber-optic cable repairs at North East Power.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-26T22:06:30.524267+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f3"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 26 afternoon editorial shift. Publish the reviewed article after successful authenticated preflight."
+  }
+}
