@@ -1,0 +1,170 @@
+{
+  "title": "North and South Pontotoc each add two tennis opponents in the 2027\u201329 realignment",
+  "excerpt": "Clarksdale and Senatobia join North Pontotoc\u2019s region. Houston and Louisville join South Pontotoc\u2019s. The Warriors keep all five of their Class 5A opponents.",
+  "locality": "Pontotoc County, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:2026-11-04:mhsaa-tennis-region-opponents-2027-29"
+  ],
+  "sources": [
+    {
+      "id": "tennis-next",
+      "title": "MHSAA tennis regions for 2027\u201329",
+      "url": "https://championship-manager-seven.vercel.app/api/embed/e3ee83d5a06539cbe6c2e8416fd1c84d",
+      "publisher": "Mississippi High School Activities Association",
+      "role": "event",
+      "verified_at": "2026-11-26T19:34:18.274895+00:00",
+      "verification_url": "https://championship-manager-seven.vercel.app/api/embed/e3ee83d5a06539cbe6c2e8416fd1c84d",
+      "published_at": null
+    },
+    {
+      "id": "tennis-prior",
+      "title": "Current MHSAA tennis regions for 2025\u201327",
+      "url": "https://www.misshsaa.com/2024/11/20/2025-27-tennis-regions/",
+      "publisher": "Mississippi High School Activities Association",
+      "role": "background",
+      "verified_at": "2026-11-26T19:34:18.274895+00:00",
+      "verification_url": "https://www.misshsaa.com/2024/11/20/2025-27-tennis-regions/",
+      "published_at": null
+    },
+    {
+      "id": "pont-title",
+      "title": "Pontotoc wins the 2026 Class 5A championship",
+      "url": "https://www.misshsaa.com/2026/04/20/pontotoc-wins-2026-class-5a-tennis-championship/",
+      "publisher": "Mississippi High School Activities Association",
+      "role": "background",
+      "verified_at": "2026-11-26T19:34:18.274895+00:00",
+      "verification_url": "https://www.misshsaa.com/2026/04/20/pontotoc-wins-2026-class-5a-tennis-championship/",
+      "published_at": null
+    },
+    {
+      "id": "new-title",
+      "title": "New Albany wins the 2026 Class 4A championship",
+      "url": "https://www.misshsaa.com/2026/04/20/new-albany-wins-2026-class-4a-tennis-championship/",
+      "publisher": "Mississippi High School Activities Association",
+      "role": "background",
+      "verified_at": "2026-11-26T19:34:18.274895+00:00",
+      "verification_url": "https://www.misshsaa.com/2026/04/20/new-albany-wins-2026-class-4a-tennis-championship/",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "North and South Pontotoc will each pick up two new region opponents in tennis when the Mississippi High School Activities Association\u2019s 2027\u201329 alignment takes effect. North Pontotoc adds Clarksdale and Senatobia. South Pontotoc adds Houston and Louisville. The schools will stay in separate Class 4A regions.",
+      "source_ids": [
+        "tennis-next",
+        "tennis-prior"
+      ],
+      "evidence": "Compared both MHSAA tennis membership lists school by school.",
+      "statistics": "Two new opponents each.",
+      "date_context": "Spring 2027 uses 2025\u201327 regions. New list covers school years 2027\u201328 and 2028\u201329.",
+      "locality": "Pontotoc County, Mississippi.",
+      "identities": "Pontotoc, North Pontotoc and South Pontotoc varsity tennis."
+    },
+    {
+      "id": "f2",
+      "statement": "For North Pontotoc, New Albany is the one familiar team in a four-school Region 2. The Vikings and Bulldogs currently share Region 1 with Corinth, Ripley and Tishomingo County. Clarksdale and Senatobia come from the current Region 3. New Albany won the Class 4A team championship in April.",
+      "source_ids": [
+        "tennis-next",
+        "tennis-prior",
+        "new-title"
+      ],
+      "evidence": "Region 1 and Region 3 in the current cycle compared with Region 2 in the next. April state title announcement.",
+      "statistics": "Four teams in new Region 2.",
+      "date_context": "Spring 2027 uses 2025\u201327 regions. New list covers school years 2027\u201328 and 2028\u201329.",
+      "locality": "Pontotoc County, Mississippi.",
+      "identities": "Pontotoc, North Pontotoc and South Pontotoc varsity tennis."
+    },
+    {
+      "id": "f3",
+      "statement": "South Pontotoc keeps Amory and Shannon as it moves from Region 2 to Region 4. Houston and Louisville take the spots that Itawamba Agricultural and Mooreville occupied alongside the Cougars in the current alignment. South Pontotoc will still have four region opponents.",
+      "source_ids": [
+        "tennis-next",
+        "tennis-prior"
+      ],
+      "evidence": "Both Class 4A membership lists identify the schools assigned with South Pontotoc.",
+      "statistics": "Five teams including South Pontotoc.",
+      "date_context": "Spring 2027 uses 2025\u201327 regions. New list covers school years 2027\u201328 and 2028\u201329.",
+      "locality": "Pontotoc County, Mississippi.",
+      "identities": "Pontotoc, North Pontotoc and South Pontotoc varsity tennis."
+    },
+    {
+      "id": "f4",
+      "statement": "Pontotoc High School\u2019s Warriors, who won the Class 5A state title in April, keep all five region opponents. Caledonia, Columbus, Lafayette, New Hope and West Point appear with Pontotoc in Region 1 on both lists. Families following tennis this school year will still see the 2025\u201327 alignment in effect for spring 2027.",
+      "source_ids": [
+        "tennis-next",
+        "tennis-prior",
+        "pont-title"
+      ],
+      "evidence": "Class 5A Region 1 is identical in both lists. MHSAA identifies the April 2026 state champion.",
+      "statistics": "Five region opponents.",
+      "date_context": "Spring 2027 uses 2025\u201327 regions. New list covers school years 2027\u201328 and 2028\u201329.",
+      "locality": "Pontotoc County, Mississippi.",
+      "identities": "Pontotoc, North Pontotoc and South Pontotoc varsity tennis."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "North and South Pontotoc will each pick up two new region opponents in tennis when the Mississippi High School Activities Association\u2019s 2027\u201329 alignment takes effect. North Pontotoc adds Clarksdale and Senatobia. South Pontotoc adds Houston and Louisville. The schools will stay in separate Class 4A regions.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "For North Pontotoc, New Albany is the one familiar team in a four-school Region 2. The Vikings and Bulldogs currently share Region 1 with Corinth, Ripley and Tishomingo County. Clarksdale and Senatobia come from the current Region 3. New Albany won the Class 4A team championship in April.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "South Pontotoc keeps Amory and Shannon as it moves from Region 2 to Region 4. Houston and Louisville take the spots that Itawamba Agricultural and Mooreville occupied alongside the Cougars in the current alignment. South Pontotoc will still have four region opponents.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "Pontotoc High School\u2019s Warriors, who won the Class 5A state title in April, keep all five region opponents. Caledonia, Columbus, Lafayette, New Hope and West Point appear with Pontotoc in Region 1 on both lists. Families following tennis this school year will still see the 2025\u201327 alignment in effect for spring 2027.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/north-south-pontotoc-tennis-regions-opponents.png",
+    "sha256": "b6941fccfc66f9f99a32ffa097a918af21421704dae1bb8c33b1bfa40d6a6bb4",
+    "alt_text": "North Pontotoc moves to Class 4A Region 2, South Pontotoc moves to Region 4 and Pontotoc stays in Class 5A Region 1.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News supplemental desk",
+    "reviewed_at": "2026-11-26T19:34:18.274895+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f4"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 26 supplemental Pontotoc News shift. Publish the digest-bound article after successful authenticated preflight and final review."
+  }
+}
