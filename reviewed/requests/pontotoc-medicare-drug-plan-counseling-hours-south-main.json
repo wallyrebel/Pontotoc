@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-medicare-drug-plan-counseling-hours-south-main.json",
   "article_sha256": "13d5c775706ad073611456dcea284b78f504e8394d48c912610f872c9067183a",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-medicare-drug-plan-counseling-hours-south-main",
   "seo_review": {
     "reviewer": "Pontotoc News afternoon desk",
