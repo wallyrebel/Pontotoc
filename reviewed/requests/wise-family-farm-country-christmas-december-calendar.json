@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/wise-family-farm-country-christmas-december-calendar.json",
   "article_sha256": "c2fe3f7187a54279a7fbccb230cd8e4dddd9781908c3f462676ae96d6750dd77",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "wise-family-farm-country-christmas-december-calendar",
   "seo_review": {
     "reviewer": "Pontotoc News afternoon desk",
