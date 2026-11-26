@@ -1,0 +1,173 @@
+{
+  "title": "Wise Family Farm sets 12 Country Christmas nights in its 100th year",
+  "excerpt": "The Shady Grove farm opens Dec. 4. Its calendar includes seven nights leading up to Christmas, with children 5 and younger admitted free.",
+  "locality": "Shady Grove, Pontotoc County, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:wise-family-farm:2026-12-04:country-christmas"
+  ],
+  "sources": [
+    {
+      "id": "calendar",
+      "title": "Wise Family Farm\u2019s December 2026 calendar image",
+      "url": "https://www.wisefamilyfarm.com/wp-content/uploads/2026/11/country-christmas.jpg",
+      "publisher": "Wise Family Farm",
+      "role": "event",
+      "verified_at": "2026-11-26T22:08:15.257236+00:00",
+      "verification_url": "https://www.wisefamilyfarm.com/wp-content/uploads/2026/11/country-christmas.jpg",
+      "published_at": null
+    },
+    {
+      "id": "event",
+      "title": "Country Christmas 2026 activities, address and visitor information",
+      "url": "https://www.wisefamilyfarm.com/plan/country-christmas/",
+      "publisher": "Wise Family Farm",
+      "role": "event",
+      "verified_at": "2026-11-26T22:08:15.257236+00:00",
+      "verification_url": "https://www.wisefamilyfarm.com/plan/country-christmas/",
+      "published_at": null
+    },
+    {
+      "id": "tickets",
+      "title": "2026 general admission terms and online price",
+      "url": "https://wisefamilyfarm.ticketsauce.com/e/country-christmas-2026/tickets",
+      "publisher": "Wise Family Farm Ticketing",
+      "role": "event",
+      "verified_at": "2026-11-26T22:08:15.257236+00:00",
+      "verification_url": "https://wisefamilyfarm.ticketsauce.com/e/country-christmas-2026/tickets",
+      "published_at": null
+    },
+    {
+      "id": "history",
+      "title": "History of the Shady Grove farm",
+      "url": "https://www.wisefamilyfarm.com/about-us/",
+      "publisher": "Wise Family Farm",
+      "role": "background",
+      "verified_at": "2026-11-26T22:08:15.257236+00:00",
+      "verification_url": "https://www.wisefamilyfarm.com/about-us/",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "A century after the Wise family settled on 80 acres in Shady Grove, the farm is opening its Christmas light trail for 12 evenings in December. The first is Friday, Dec. 4, from 5 to 9 p.m. at 291 Shady Grove Road in Pontotoc. The farm\u2019s 2026 calendar marks each open night, including Christmas Eve and the Saturday after Christmas.",
+      "source_ids": [
+        "calendar",
+        "event",
+        "tickets",
+        "history"
+      ],
+      "evidence": "Visually inspected the December 2026 calendar. The 2026 ticket page confirms the opening time and address. The family history dates the farm to 1926.",
+      "statistics": "Twelve dates, 5 to 9 p.m., 80 acres, 100 years.",
+      "date_context": "December 4\u201326, 2026 on twelve designated dates. Farm established 1926.",
+      "locality": "Shady Grove, Pontotoc County, Mississippi.",
+      "identities": "Wise Family Farm, Monroe and Carrie Belle Dowdy Wise."
+    },
+    {
+      "id": "f2",
+      "statement": "For the first two weekends, the gates open Friday and Saturday, Dec. 4\u20135 and Dec. 11\u201312. The longest run is seven evenings in a row, Friday, Dec. 18, through Thursday, Dec. 24. The calendar shows the farm closed on Christmas Day. Saturday, Dec. 26, is the last evening listed.",
+      "source_ids": [
+        "calendar",
+        "tickets"
+      ],
+      "evidence": "Counted dated OPEN markers by row. The December 25 cell explicitly says closed. Ticketing confirms last date.",
+      "statistics": "2 + 2 + 7 + 1 dates.",
+      "date_context": "December 4\u201326, 2026 on twelve designated dates. Farm established 1926.",
+      "locality": "Shady Grove, Pontotoc County, Mississippi.",
+      "identities": "Wise Family Farm, Monroe and Carrie Belle Dowdy Wise."
+    },
+    {
+      "id": "f3",
+      "statement": "The farm lists admission at $9.99, and its 2026 ticket office displays $11.35 online, including $1.36 in fees. One ticket covers any single open evening and includes a s\u2019mores kit. Children age 5 and younger get in free. Visitors can walk the lighted maze and Nativity trail, see the barnyard animals or stop at a campfire.",
+      "source_ids": [
+        "event",
+        "tickets"
+      ],
+      "evidence": "Current-year ticket details specify the total, fees, single-evening admission, included kit and age cutoff. Farm lists trails and activities.",
+      "statistics": "$9.99 + $1.36 = $11.35. Children 5 and under free.",
+      "date_context": "December 4\u201326, 2026 on twelve designated dates. Farm established 1926.",
+      "locality": "Shady Grove, Pontotoc County, Mississippi.",
+      "identities": "Wise Family Farm, Monroe and Carrie Belle Dowdy Wise."
+    },
+    {
+      "id": "f4",
+      "statement": "Monroe and Carrie Belle Dowdy Wise settled about five miles east of Ecru in 1926. They raised six children on the farm, which supplied the family with vegetables, meat and dairy products. The third generation now runs the property. The farm lists 662-538-8990 for visitors to call or text with questions.",
+      "source_ids": [
+        "history",
+        "event"
+      ],
+      "evidence": "Family account names founders, children, location and current generation. Public farm site gives the visitor phone number.",
+      "statistics": "1926, five miles, six children and third generation.",
+      "date_context": "December 4\u201326, 2026 on twelve designated dates. Farm established 1926.",
+      "locality": "Shady Grove, Pontotoc County, Mississippi.",
+      "identities": "Wise Family Farm, Monroe and Carrie Belle Dowdy Wise."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "A century after the Wise family settled on 80 acres in Shady Grove, the farm is opening its Christmas light trail for 12 evenings in December. The first is Friday, Dec. 4, from 5 to 9 p.m. at 291 Shady Grove Road in Pontotoc. The farm\u2019s 2026 calendar marks each open night, including Christmas Eve and the Saturday after Christmas.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "For the first two weekends, the gates open Friday and Saturday, Dec. 4\u20135 and Dec. 11\u201312. The longest run is seven evenings in a row, Friday, Dec. 18, through Thursday, Dec. 24. The calendar shows the farm closed on Christmas Day. Saturday, Dec. 26, is the last evening listed.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "The farm lists admission at $9.99, and its 2026 ticket office displays $11.35 online, including $1.36 in fees. One ticket covers any single open evening and includes a s\u2019mores kit. Children age 5 and younger get in free. Visitors can walk the lighted maze and Nativity trail, see the barnyard animals or stop at a campfire.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "Monroe and Carrie Belle Dowdy Wise settled about five miles east of Ecru in 1926. They raised six children on the farm, which supplied the family with vegetables, meat and dairy products. The third generation now runs the property. The farm lists 662-538-8990 for visitors to call or text with questions.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/wise-family-farm-country-christmas-december-calendar.png",
+    "sha256": "d45512696927a1c880bec532015087894014c6a4cf6c6f15b7f3e54adae21fbe",
+    "alt_text": "Wise Family Farm is open 5 to 9 p.m. Dec. 4\u20135, 11\u201312, 18\u201324 and 26 for Country Christmas.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-26T22:08:15.257236+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2",
+      "f4"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 26 afternoon editorial shift. Publish the reviewed article after successful authenticated preflight."
+  }
+}
