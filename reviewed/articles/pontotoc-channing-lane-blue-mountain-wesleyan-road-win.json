@@ -1,0 +1,170 @@
+{
+  "title": "Pontotoc\u2019s Channing Lane sparks nine points on four steals in Blue Mountain\u2019s road win",
+  "excerpt": "Blue Mountain scored within four seconds of each of Lane\u2019s steals in a 91\u201352 win at Wesleyan. She scored one of the baskets and assisted on two others.",
+  "locality": "Channing Lane\u2019s hometown is Pontotoc, Mississippi. The Nov. 21 game was played in Macon, Georgia.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:2026-11-21:channing-lane-wesleyan-road-win"
+  ],
+  "sources": [
+    {
+      "id": "lane-wesleyan",
+      "title": "Wesleyan game box score and play-by-play",
+      "url": "https://bmcusports.com/sports/womens-basketball/stats/2026-27/wesleyan-college/boxscore/5885",
+      "publisher": "Blue Mountain athletics",
+      "role": "event",
+      "verified_at": "2026-11-26T15:24:24.428459+00:00",
+      "verification_url": "https://bmcusports.com/sports/womens-basketball/stats/2026-27/wesleyan-college/boxscore/5885",
+      "published_at": null
+    },
+    {
+      "id": "lane-central",
+      "title": "Central Baptist game box score",
+      "url": "https://bmcusports.com/sports/womens-basketball/stats/2026-27/central-baptist-college/boxscore/5884",
+      "publisher": "Blue Mountain athletics",
+      "role": "background",
+      "verified_at": "2026-11-26T15:24:24.428459+00:00",
+      "verification_url": "https://bmcusports.com/sports/womens-basketball/stats/2026-27/central-baptist-college/boxscore/5884",
+      "published_at": null
+    },
+    {
+      "id": "lane-bio",
+      "title": "Channing Lane\u2019s player profile",
+      "url": "https://bmcusports.com/sports/womens-basketball/roster/channing-lane/4459",
+      "publisher": "Blue Mountain athletics",
+      "role": "background",
+      "verified_at": "2026-11-26T15:24:24.428459+00:00",
+      "verification_url": "https://bmcusports.com/sports/womens-basketball/roster/channing-lane/4459",
+      "published_at": null
+    },
+    {
+      "id": "blue-games",
+      "title": "Women\u2019s basketball schedule",
+      "url": "https://bmcusports.com/sports/womens-basketball/schedule",
+      "publisher": "Blue Mountain athletics",
+      "role": "background",
+      "verified_at": "2026-11-26T15:24:24.428459+00:00",
+      "verification_url": "https://bmcusports.com/sports/womens-basketball/schedule",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Four seconds separated Channing Lane\u2019s first steal from the basket she helped create Saturday in Macon, Georgia. The sophomore guard from Pontotoc took the ball away with 8:27 left in the first quarter and set up Lena Taylor for a layup. That put Blue Mountain ahead 8\u20131 on the way to a 91\u201352 win over Wesleyan.",
+      "source_ids": [
+        "lane-wesleyan",
+        "lane-bio",
+        "blue-games"
+      ],
+      "evidence": "First-quarter play sequence, final line score, schedule venue and player biography.",
+      "statistics": "8:27 and 8:23 in the first; 8\u20131 and 91\u201352.",
+      "date_context": "Blue Mountain\u2019s games on Nov. 17 and 21, 2026, and its Dec. 3 home schedule.",
+      "locality": "Channing Lane\u2019s hometown is Pontotoc, Mississippi. The Nov. 21 game was played in Macon, Georgia.",
+      "identities": "Channing Lane and Lena Taylor of Blue Mountain; Wesleyan College and Central Baptist College."
+    },
+    {
+      "id": "f2",
+      "statement": "Three of her steals were followed by layups. The exception came midway through the second quarter, when Isabella Aversa made a three-pointer three seconds after Lane took the ball away. Early in the third quarter, Lane finished the play herself. She came up with a steal at 8:49 and made a layup two seconds later for a 55\u201331 lead. Later that quarter, she stole the ball at 4:11 and fed Dominique Collins for a layup at 4:09. Blue Mountain had scored nine points within four seconds of Lane\u2019s four steals. She finished with four assists and four rebounds in 24 minutes.",
+      "source_ids": [
+        "lane-wesleyan"
+      ],
+      "evidence": "Followed each of the four steals to the ensuing basket. Lane is credited with assists on the Taylor and Collins layups.",
+      "statistics": "2 + 3 + 2 + 2 = 9 points. Elapsed seconds were 4, 3, 2 and 2. Played 24 minutes.",
+      "date_context": "Blue Mountain\u2019s games on Nov. 17 and 21, 2026, and its Dec. 3 home schedule.",
+      "locality": "Channing Lane\u2019s hometown is Pontotoc, Mississippi. The Nov. 21 game was played in Macon, Georgia.",
+      "identities": "Channing Lane and Lena Taylor of Blue Mountain; Wesleyan College and Central Baptist College."
+    },
+    {
+      "id": "f3",
+      "statement": "It was the second straight win in which Lane set up four baskets. In a 78\u201366 home win over Central Baptist on Nov. 17, she also scored 10 points. Across the two wins she made all six of her free throws, four against Central Baptist and two at Wesleyan.",
+      "source_ids": [
+        "lane-central",
+        "lane-wesleyan",
+        "blue-games"
+      ],
+      "evidence": "Compared the assists, points and free-throw columns of both official box scores and checked the schedule.",
+      "statistics": "Four assists in each; 10 points on Nov. 17; 4-for-4 and 2-for-2 at the line.",
+      "date_context": "Blue Mountain\u2019s games on Nov. 17 and 21, 2026, and its Dec. 3 home schedule.",
+      "locality": "Channing Lane\u2019s hometown is Pontotoc, Mississippi. The Nov. 21 game was played in Macon, Georgia.",
+      "identities": "Channing Lane and Lena Taylor of Blue Mountain; Wesleyan College and Central Baptist College."
+    },
+    {
+      "id": "f4",
+      "statement": "Blue Mountain takes a 7\u20131 record into its next game, at home against Point University on Thursday, Dec. 3. Tipoff is set for 5:30 p.m. The Wesleyan win evened Blue Mountain\u2019s conference record at 1\u20131.",
+      "source_ids": [
+        "lane-wesleyan",
+        "blue-games"
+      ],
+      "evidence": "Records row and first scheduled game after Wesleyan.",
+      "statistics": "7\u20131 overall, 1\u20131 in conference; 5:30 p.m. Dec. 3.",
+      "date_context": "Blue Mountain\u2019s games on Nov. 17 and 21, 2026, and its Dec. 3 home schedule.",
+      "locality": "Channing Lane\u2019s hometown is Pontotoc, Mississippi. The Nov. 21 game was played in Macon, Georgia.",
+      "identities": "Channing Lane and Lena Taylor of Blue Mountain; Wesleyan College and Central Baptist College."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Four seconds separated Channing Lane\u2019s first steal from the basket she helped create Saturday in Macon, Georgia. The sophomore guard from Pontotoc took the ball away with 8:27 left in the first quarter and set up Lena Taylor for a layup. That put Blue Mountain ahead 8\u20131 on the way to a 91\u201352 win over Wesleyan.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "Three of her steals were followed by layups. The exception came midway through the second quarter, when Isabella Aversa made a three-pointer three seconds after Lane took the ball away. Early in the third quarter, Lane finished the play herself. She came up with a steal at 8:49 and made a layup two seconds later for a 55\u201331 lead. Later that quarter, she stole the ball at 4:11 and fed Dominique Collins for a layup at 4:09. Blue Mountain had scored nine points within four seconds of Lane\u2019s four steals. She finished with four assists and four rebounds in 24 minutes.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "It was the second straight win in which Lane set up four baskets. In a 78\u201366 home win over Central Baptist on Nov. 17, she also scored 10 points. Across the two wins she made all six of her free throws, four against Central Baptist and two at Wesleyan.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "Blue Mountain takes a 7\u20131 record into its next game, at home against Point University on Thursday, Dec. 3. Tipoff is set for 5:30 p.m. The Wesleyan win evened Blue Mountain\u2019s conference record at 1\u20131.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-channing-lane-blue-mountain-wesleyan-road-win.png",
+    "sha256": "ee33018f4afc9a1b69ab07f582c8e51489e9af86dba6b255317fc05fa42354e7",
+    "alt_text": "Blue Mountain scored nine points on the four shots after Channing Lane\u2019s steals. The longest wait for a basket was four seconds.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-26T15:24:24.428459+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized Pontotoc News morning shift for November 26, 2026. Publish the reviewed package after authenticated preflight."
+  }
+}
