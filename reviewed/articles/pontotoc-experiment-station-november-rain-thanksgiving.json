@@ -1,0 +1,157 @@
+{
+  "title": "Pontotoc rain gauge records 1.85 inches Wednesday, more than the previous 24 days combined",
+  "excerpt": "Wednesday brought the Pontotoc Experiment Station\u2019s November total to 3.20 inches. Just over half an inch fell in two morning hours.",
+  "locality": "Pontotoc Experiment Station in Pontotoc County, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:2026-11-25:experiment-station-daily-rainfall"
+  ],
+  "sources": [
+    {
+      "id": "daily",
+      "title": "Pontotoc Experiment Station daily measurements",
+      "url": "https://deltaweather.extension.msstate.edu/30-days-daily-table/DREC-2023",
+      "publisher": "Mississippi State University Extension",
+      "role": "event",
+      "verified_at": "2026-11-26T15:15:21.280869+00:00",
+      "verification_url": "https://deltaweather.extension.msstate.edu/30-days-daily-table/DREC-2023",
+      "published_at": null
+    },
+    {
+      "id": "hourly",
+      "title": "Hourly measurements at the same gauge",
+      "url": "https://deltaweather.extension.msstate.edu/7-days-hourly-table/DREC-2023",
+      "publisher": "Mississippi State University Extension",
+      "role": "background",
+      "verified_at": "2026-11-26T15:15:21.280869+00:00",
+      "verification_url": "https://deltaweather.extension.msstate.edu/7-days-hourly-table/DREC-2023",
+      "published_at": null
+    },
+    {
+      "id": "station",
+      "title": "Station location and reporting tools",
+      "url": "https://deltaweather.extension.msstate.edu/pontotoc-exp-stn",
+      "publisher": "Mississippi State University Extension",
+      "role": "background",
+      "verified_at": "2026-11-26T15:15:21.280869+00:00",
+      "verification_url": "https://deltaweather.extension.msstate.edu/pontotoc-exp-stn",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Wednesday brought more rain to the Pontotoc Experiment Station in one day than the gauge had collected in the first 24 days of November. Mississippi State University Extension recorded 1.85 inches on Nov. 25, bringing the station\u2019s total to 3.20 inches through Wednesday.",
+      "source_ids": [
+        "daily"
+      ],
+      "evidence": "Sum of 25 daily rainfall entries in the inch column. The Nov. 25 entry is 1.85.",
+      "statistics": "1.85 plus 1.35 equals 3.20 inches.",
+      "date_context": "Daily measurements for Nov. 1\u201325, 2026. Hourly observations for Wednesday, Nov. 25.",
+      "locality": "Pontotoc Experiment Station in Pontotoc County, Mississippi.",
+      "identities": "Mississippi State University Extension, Delta Agricultural Weather Center."
+    },
+    {
+      "id": "f2",
+      "statement": "Before Wednesday, the biggest daily reading this month was 0.80 inches on Nov. 1. The gauge recorded 0.24 inches on Monday, Nov. 23, and zero on Tuesday. The whole stretch from Nov. 1 through Tuesday added up to 1.35 inches.",
+      "source_ids": [
+        "daily"
+      ],
+      "evidence": "Compared daily rainfall for Nov. 1 through Nov. 24.",
+      "statistics": "0.80, 0.24, zero and 1.35 inches.",
+      "date_context": "Daily measurements for Nov. 1\u201325, 2026. Hourly observations for Wednesday, Nov. 25.",
+      "locality": "Pontotoc Experiment Station in Pontotoc County, Mississippi.",
+      "identities": "Mississippi State University Extension, Delta Agricultural Weather Center."
+    },
+    {
+      "id": "f3",
+      "statement": "Just over half an inch came in two morning hours. The station\u2019s 7 a.m. entry showed 0.27 inches, followed by 0.25 inches at 8 a.m. The hourly table also shows rain through the afternoon and into Wednesday evening.",
+      "source_ids": [
+        "hourly"
+      ],
+      "evidence": "Checked the time and precipitation column for the Nov. 25 readings.",
+      "statistics": "0.27 plus 0.25 equals 0.52 inches.",
+      "date_context": "Daily measurements for Nov. 1\u201325, 2026. Hourly observations for Wednesday, Nov. 25.",
+      "locality": "Pontotoc Experiment Station in Pontotoc County, Mississippi.",
+      "identities": "Mississippi State University Extension, Delta Agricultural Weather Center."
+    },
+    {
+      "id": "f4",
+      "statement": "The readings come from one gauge south of the city of Pontotoc. Rainfall elsewhere in the county can differ. The Delta Agricultural Weather Center publishes both the daily totals and the hourly readings for the station.",
+      "source_ids": [
+        "station",
+        "daily",
+        "hourly"
+      ],
+      "evidence": "Station coordinates and reporting links identify the observation site; all figures are station measurements.",
+      "statistics": "One station.",
+      "date_context": "Daily measurements for Nov. 1\u201325, 2026. Hourly observations for Wednesday, Nov. 25.",
+      "locality": "Pontotoc Experiment Station in Pontotoc County, Mississippi.",
+      "identities": "Mississippi State University Extension, Delta Agricultural Weather Center."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Wednesday brought more rain to the Pontotoc Experiment Station in one day than the gauge had collected in the first 24 days of November. Mississippi State University Extension recorded 1.85 inches on Nov. 25, bringing the station\u2019s total to 3.20 inches through Wednesday.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "Before Wednesday, the biggest daily reading this month was 0.80 inches on Nov. 1. The gauge recorded 0.24 inches on Monday, Nov. 23, and zero on Tuesday. The whole stretch from Nov. 1 through Tuesday added up to 1.35 inches.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Just over half an inch came in two morning hours. The station\u2019s 7 a.m. entry showed 0.27 inches, followed by 0.25 inches at 8 a.m. The hourly table also shows rain through the afternoon and into Wednesday evening.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "The readings come from one gauge south of the city of Pontotoc. Rainfall elsewhere in the county can differ. The Delta Agricultural Weather Center publishes both the daily totals and the hourly readings for the station.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-experiment-station-november-rain-thanksgiving.png",
+    "sha256": "006cf492bf1fe518679bb988445f630cce54bee2f67b468c1d83eb369422d3c1",
+    "alt_text": "Rainfall at Pontotoc Experiment Station totaled 1.35 inches Nov. 1\u201324 and 1.85 inches on Nov. 25.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-26T15:15:21.280869+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized Pontotoc News morning shift for November 26, 2026. Publish the reviewed package after authenticated preflight."
+  }
+}

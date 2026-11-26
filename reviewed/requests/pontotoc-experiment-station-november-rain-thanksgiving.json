@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-experiment-station-november-rain-thanksgiving.json",
+  "article_sha256": "eb7016926017a014c45473c44060f7395fd321d813e140615e568dd29c1bca9e",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-experiment-station-november-rain-thanksgiving",
+  "seo_review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-26T15:15:21.280869+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}
