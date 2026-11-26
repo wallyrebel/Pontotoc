@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-experiment-station-november-rain-thanksgiving.json",
   "article_sha256": "eb7016926017a014c45473c44060f7395fd321d813e140615e568dd29c1bca9e",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-experiment-station-november-rain-thanksgiving",
   "seo_review": {
     "reviewer": "Pontotoc News morning desk",
