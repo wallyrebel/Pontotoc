@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/icc-orientation-december-graduates-pontotoc-registration.json",
   "article_sha256": "a353488ca878991123a53a640106fe3730bf4491dd909a8b6ee4b56a604506b6",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "icc-orientation-december-graduates-pontotoc-registration",
   "seo_review": {
     "reviewer": "Pontotoc News morning desk",
