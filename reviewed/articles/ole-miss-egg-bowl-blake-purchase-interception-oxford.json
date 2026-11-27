@@ -1,0 +1,158 @@
+{
+  "title": "Blake Purchase\u2019s 58-yard interception return helps Ole Miss pull away in 41\u201317 Egg Bowl win",
+  "excerpt": "Mississippi State pulled within three early in the fourth quarter. Purchase returned an interception to the 1, setting up the first of three straight Ole Miss touchdowns.",
+  "locality": "Statewide Mississippi football coverage from Oxford for Pontotoc readers.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:ole-miss:mississippi-state:2026-11-27:egg-bowl-final"
+  ],
+  "sources": [
+    {
+      "id": "ole-box",
+      "title": "Ole Miss scoring summary, statistics and play-by-play",
+      "url": "https://olemisssports.com/sports/football/stats/2026/mississippi-state/boxscore/14821",
+      "publisher": "Ole Miss Athletics",
+      "role": "event",
+      "verified_at": "2026-11-27T22:02:55.750483+00:00",
+      "verification_url": "https://olemisssports.com/sports/football/stats/2026/mississippi-state/boxscore/14821",
+      "published_at": null
+    },
+    {
+      "id": "msu-box",
+      "title": "Mississippi State game record",
+      "url": "https://hailstate.com/sports/football/stats/2026/ole-miss/boxscore/27565",
+      "publisher": "Mississippi State Athletics",
+      "role": "event",
+      "verified_at": "2026-11-27T22:02:55.750483+00:00",
+      "verification_url": "https://hailstate.com/sports/football/stats/2026/ole-miss/boxscore/27565",
+      "published_at": null
+    },
+    {
+      "id": "ole-notes",
+      "title": "Ole Miss postgame notes and series history",
+      "url": "https://olemisssports.com/news/2026/11/27/football-postgame-notes-vs-mississippi-state",
+      "publisher": "Ole Miss Athletics",
+      "role": "event",
+      "verified_at": "2026-11-27T22:02:55.750483+00:00",
+      "verification_url": "https://olemisssports.com/news/2026/11/27/football-postgame-notes-vs-mississippi-state",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Mississippi State was driving for a chance to retake the lead in Oxford when Blake Purchase intercepted a pass at the Ole Miss 41 and returned it 58 yards to the Bulldogs\u2019 1. One snap later, Trinidad Chambliss scored. A three-point game became a 27\u201317 Ole Miss lead with 10:30 left, and the Rebels went on to win Friday\u2019s Egg Bowl 41\u201317.",
+      "source_ids": [
+        "ole-box",
+        "msu-box"
+      ],
+      "evidence": "Both schools record the interception, field position, 58-yard return and ensuing one-yard run. The score was 20\u201317 before the turnover.",
+      "statistics": "58 yards, one yard, 10:30, 27\u201317, final 41\u201317.",
+      "date_context": "Friday, November 27, 2026, in Oxford, Mississippi.",
+      "locality": "Statewide Mississippi football coverage from Oxford for Pontotoc readers.",
+      "identities": "Ole Miss and Mississippi State football programs."
+    },
+    {
+      "id": "f2",
+      "statement": "The Bulldogs had taken a 10\u20136 lead into halftime. Fluff Bothwell scored on a 16-yard run in the second quarter, and Kyle Ferrie added a 42-yard field goal with 1:48 left in the half. Ole Miss had two Lucas Carneiro field goals and had yet to reach the end zone.",
+      "source_ids": [
+        "ole-box",
+        "msu-box"
+      ],
+      "evidence": "First-half scoring sequence in both box scores.",
+      "statistics": "16-yard run, 42-yard kick, 1:48 left, 10\u20136.",
+      "date_context": "Friday, November 27, 2026, in Oxford, Mississippi.",
+      "locality": "Statewide Mississippi football coverage from Oxford for Pontotoc readers.",
+      "identities": "Ole Miss and Mississippi State football programs."
+    },
+    {
+      "id": "f3",
+      "statement": "Ole Miss scored five touchdowns after the break. Chambliss found Horatio Fields from six yards out on the opening drive of the third quarter, and Joshua Dye ran in from the 4 for a 20\u201310 lead. Bothwell answered with a 12-yard touchdown catch five seconds into the fourth. That brought State within three before Purchase\u2019s return set up the first of three unanswered Ole Miss touchdowns.",
+      "source_ids": [
+        "ole-box",
+        "msu-box"
+      ],
+      "evidence": "Five second-half touchdown drives, opening 75-yard drive, fourth-quarter scoring at 14:55, 10:30, 6:16 and 1:57.",
+      "statistics": "Five touchdowns after halftime, three straight to finish.",
+      "date_context": "Friday, November 27, 2026, in Oxford, Mississippi.",
+      "locality": "Statewide Mississippi football coverage from Oxford for Pontotoc readers.",
+      "identities": "Ole Miss and Mississippi State football programs."
+    },
+    {
+      "id": "f4",
+      "statement": "Chambliss threw a 21-yard touchdown pass to Michael Smith, and Dye scored his second rushing touchdown with 1:57 left. Chambliss finished with 237 passing yards, two touchdown passes and a touchdown run. Ole Miss has now won four straight against Mississippi State, its first four-game winning streak in the series since 1983\u201386.",
+      "source_ids": [
+        "ole-box",
+        "ole-notes"
+      ],
+      "evidence": "Scoring summary and university postgame notes establish the player totals and previous four-year streak.",
+      "statistics": "21 yards, 1:57, 237 passing yards, four straight wins.",
+      "date_context": "Friday, November 27, 2026, in Oxford, Mississippi.",
+      "locality": "Statewide Mississippi football coverage from Oxford for Pontotoc readers.",
+      "identities": "Ole Miss and Mississippi State football programs."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Mississippi State was driving for a chance to retake the lead in Oxford when Blake Purchase intercepted a pass at the Ole Miss 41 and returned it 58 yards to the Bulldogs\u2019 1. One snap later, Trinidad Chambliss scored. A three-point game became a 27\u201317 Ole Miss lead with 10:30 left, and the Rebels went on to win Friday\u2019s Egg Bowl 41\u201317.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The Bulldogs had taken a 10\u20136 lead into halftime. Fluff Bothwell scored on a 16-yard run in the second quarter, and Kyle Ferrie added a 42-yard field goal with 1:48 left in the half. Ole Miss had two Lucas Carneiro field goals and had yet to reach the end zone.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Ole Miss scored five touchdowns after the break. Chambliss found Horatio Fields from six yards out on the opening drive of the third quarter, and Joshua Dye ran in from the 4 for a 20\u201310 lead. Bothwell answered with a 12-yard touchdown catch five seconds into the fourth. That brought State within three before Purchase\u2019s return set up the first of three unanswered Ole Miss touchdowns.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "Chambliss threw a 21-yard touchdown pass to Michael Smith, and Dye scored his second rushing touchdown with 1:57 left. Chambliss finished with 237 passing yards, two touchdown passes and a touchdown run. Ole Miss has now won four straight against Mississippi State, its first four-game winning streak in the series since 1983\u201386.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/ole-miss-egg-bowl-blake-purchase-interception-oxford.png",
+    "sha256": "4b38dccc83c6a1961e81a99409381aefbe083389801608cf1e1718a05ea8bed5",
+    "alt_text": "Mississippi State trailed 20\u201317 early in the fourth. Ole Miss scored the last three touchdowns to win 41\u201317.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-27T22:02:55.750483+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 27 afternoon edition. Publish the exact reviewed package after authenticated preflight."
+  }
+}
