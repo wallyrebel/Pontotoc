@@ -9,22 +9,22 @@
   "sources": [
     {
       "id": "newb",
-      "title": "2027\u201329 boys bowling assignments",
-      "url": "https://www.misshsaa.com/2026/11/04/2027-29-boys-bowling-regions/",
+      "title": "2027\u201329 boys bowling assignments by class and region",
+      "url": "https://championship-manager-seven.vercel.app/api/embed/269d52b0433ebe2da03c52f7faebad48",
       "publisher": "Mississippi High School Activities Association",
       "role": "event",
       "verified_at": "2026-11-27T15:19:31.678404+00:00",
-      "verification_url": "https://www.misshsaa.com/2026/11/04/2027-29-boys-bowling-regions/",
+      "verification_url": "https://championship-manager-seven.vercel.app/api/embed/269d52b0433ebe2da03c52f7faebad48",
       "published_at": "2026-11-04T23:07:52Z"
     },
     {
       "id": "newg",
-      "title": "2027\u201329 girls bowling assignments",
-      "url": "https://www.misshsaa.com/2026/11/04/2027-29-girls-bowling-regions/",
+      "title": "2027\u201329 girls bowling assignments by class and region",
+      "url": "https://championship-manager-seven.vercel.app/api/embed/e04ac8f915683779b17859457beed859",
       "publisher": "Mississippi High School Activities Association",
       "role": "event",
       "verified_at": "2026-11-27T15:19:31.678404+00:00",
-      "verification_url": "https://www.misshsaa.com/2026/11/04/2027-29-girls-bowling-regions/",
+      "verification_url": "https://championship-manager-seven.vercel.app/api/embed/e04ac8f915683779b17859457beed859",
       "published_at": "2026-11-04T23:07:00Z"
     },
     {
@@ -157,7 +157,7 @@
   },
   "review": {
     "reviewer": "Pontotoc News morning desk",
-    "reviewed_at": "2026-11-27T15:19:31.678404+00:00",
+    "reviewed_at": "2026-11-27T15:25:53.884848+00:00",
     "decision": "publish",
     "checks": {
       "dates": true,
