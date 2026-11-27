@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-cut-christmas-tree-water-stand-size.json",
+  "article_sha256": "4849eb82c8b7f32a1406d437fd10cfcb73e50cbd6872ffd69a43d994ad69675f",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-cut-christmas-tree-water-stand-size",
+  "seo_review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-27T22:07:20.410452+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}

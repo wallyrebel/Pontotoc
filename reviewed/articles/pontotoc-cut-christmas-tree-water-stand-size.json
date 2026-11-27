@@ -1,0 +1,179 @@
+{
+  "title": "Putting up a Christmas tree this weekend? A four-inch trunk needs a gallon-size stand",
+  "excerpt": "Mississippi\u2019s tree guide gives a simple sizing rule. A fresh tree can drink enough in its first days to need more than one refill a day.",
+  "locality": "Consumer service for households in Pontotoc County, Mississippi, where Carnes Farms sells Christmas trees.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:2026-11-27:cut-christmas-tree-stand-sizing-and-watering"
+  ],
+  "sources": [
+    {
+      "id": "tree-assoc",
+      "title": "Genuine MS guide to caring for a fresh-cut tree",
+      "url": "https://www.mschristmastrees.com/care/",
+      "publisher": "Mississippi Department of Agriculture and Commerce",
+      "role": "event",
+      "verified_at": "2026-11-27T22:07:20.410452+00:00",
+      "verification_url": "https://www.mschristmastrees.com/care/",
+      "published_at": null
+    },
+    {
+      "id": "nfpa",
+      "title": "Holiday fire safety, reviewed Nov. 18",
+      "url": "https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/holiday/",
+      "publisher": "U.S. Fire Administration",
+      "role": "background",
+      "verified_at": "2026-11-27T22:07:20.410452+00:00",
+      "verification_url": "https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/holiday/",
+      "published_at": null
+    },
+    {
+      "id": "tree-care",
+      "title": "How to care for a real Christmas tree",
+      "url": "https://extension.msstate.edu/blogs/extension-for-real-life/how-care-for-real-christmas-tree",
+      "publisher": "Mississippi State University Extension",
+      "role": "background",
+      "verified_at": "2026-11-27T22:07:20.410452+00:00",
+      "verification_url": "https://extension.msstate.edu/blogs/extension-for-real-life/how-care-for-real-christmas-tree",
+      "published_at": null
+    },
+    {
+      "id": "tree-research",
+      "title": "Mississippi State\u2019s November guide, Keeping It Fresh",
+      "url": "https://alumnusmagazine.com/2026/11/making-christmas-trees-a-little-greener/",
+      "publisher": "Mississippi State University",
+      "role": "background",
+      "verified_at": "2026-11-27T22:07:20.410452+00:00",
+      "verification_url": "https://alumnusmagazine.com/2026/11/making-christmas-trees-a-little-greener/",
+      "published_at": null
+    },
+    {
+      "id": "carnes",
+      "title": "Carnes Farms in Pontotoc",
+      "url": "https://genuinems.com/directory/carnes-farms/",
+      "publisher": "Mississippi Department of Agriculture and Commerce",
+      "role": "background",
+      "verified_at": "2026-11-27T22:07:20.410452+00:00",
+      "verification_url": "https://genuinems.com/directory/carnes-farms/",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "For families bringing a Christmas tree home from Carnes Farms in Pontotoc or another grower this weekend, the first measurement to take is across the cut end of the trunk. Christmas is four weeks from Friday, and that measurement helps determine how much water the stand should hold. Mississippi\u2019s Genuine MS tree guide calls for a quart of water capacity for each inch of diameter. A four-inch trunk needs a stand that holds at least a gallon.",
+      "source_ids": [
+        "tree-assoc",
+        "tree-research",
+        "carnes"
+      ],
+      "evidence": "Genuine MS identifies Carnes Farms as a Pontotoc Christmas tree grower. State agriculture guide and university article both specify one quart per inch of diameter. Four quarts equal one gallon. November 27 to December 25 is 28 days.",
+      "statistics": "4 weeks, 1 quart per inch, 1 gallon for a 4-inch trunk.",
+      "date_context": "November 27 through Christmas Day 2026. Federal holiday safety guidance reviewed November 18.",
+      "locality": "Consumer service for households in Pontotoc County, Mississippi, where Carnes Farms sells Christmas trees.",
+      "identities": "Mississippi Department of Agriculture and Commerce, Mississippi State University Extension and U.S. Fire Administration."
+    },
+    {
+      "id": "f2",
+      "statement": "Give the trunk a fresh, straight cut and put it in water right away. If the tree comes home before the stand is ready, the state agriculture guide recommends keeping it in a bucket of water in the meantime. Use plain tap water in the stand. Mississippi State says drilling holes in the base does nothing to help the tree take up water.",
+      "source_ids": [
+        "tree-assoc",
+        "tree-research"
+      ],
+      "evidence": "Genuine MS describes temporary bucket storage. The university specifies a straight cut, immediate water, plain tap water and no benefit from drilling holes.",
+      "statistics": "None asserted.",
+      "date_context": "November 27 through Christmas Day 2026. Federal holiday safety guidance reviewed November 18.",
+      "locality": "Consumer service for households in Pontotoc County, Mississippi, where Carnes Farms sells Christmas trees.",
+      "identities": "Mississippi Department of Agriculture and Commerce, Mississippi State University Extension and U.S. Fire Administration."
+    },
+    {
+      "id": "f3",
+      "statement": "The height of the water matters as much as the size of the stand. Keep the cut end submerged and check it several times a day, especially just after bringing the tree home. Mississippi State Extension says a tree can take up as much as two gallons in a day during those first few days. A gallon-size stand may need more than one fill.",
+      "source_ids": [
+        "tree-care",
+        "tree-research"
+      ],
+      "evidence": "Extension gives up to two gallons per day, especially in the first few days, and recommends several level checks. The university guide says keep water over the trunk base.",
+      "statistics": "Up to 2 gallons per day.",
+      "date_context": "November 27 through Christmas Day 2026. Federal holiday safety guidance reviewed November 18.",
+      "locality": "Consumer service for households in Pontotoc County, Mississippi, where Carnes Farms sells Christmas trees.",
+      "identities": "Mississippi Department of Agriculture and Commerce, Mississippi State University Extension and U.S. Fire Administration."
+    },
+    {
+      "id": "f4",
+      "statement": "Before stringing the lights, leave at least three feet between the tree and fireplaces, radiators, heat vents or space heaters. Keep a clear path to the door. Mississippi State Extension recommends checking used light strings for damaged wires and unplugging them before bed or before leaving home. The U.S. Fire Administration advises taking a dry tree out of the house.",
+      "source_ids": [
+        "nfpa",
+        "tree-care"
+      ],
+      "evidence": "USFA specifies 3 feet, clear exits and removing a dry tree. Extension advises inspecting wires and unplugging before leaving or sleeping.",
+      "statistics": "At least 3 feet from heat sources.",
+      "date_context": "November 27 through Christmas Day 2026. Federal holiday safety guidance reviewed November 18.",
+      "locality": "Consumer service for households in Pontotoc County, Mississippi, where Carnes Farms sells Christmas trees.",
+      "identities": "Mississippi Department of Agriculture and Commerce, Mississippi State University Extension and U.S. Fire Administration."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "For families bringing a Christmas tree home from Carnes Farms in Pontotoc or another grower this weekend, the first measurement to take is across the cut end of the trunk. Christmas is four weeks from Friday, and that measurement helps determine how much water the stand should hold. Mississippi\u2019s Genuine MS tree guide calls for a quart of water capacity for each inch of diameter. A four-inch trunk needs a stand that holds at least a gallon.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "Give the trunk a fresh, straight cut and put it in water right away. If the tree comes home before the stand is ready, the state agriculture guide recommends keeping it in a bucket of water in the meantime. Use plain tap water in the stand. Mississippi State says drilling holes in the base does nothing to help the tree take up water.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "The height of the water matters as much as the size of the stand. Keep the cut end submerged and check it several times a day, especially just after bringing the tree home. Mississippi State Extension says a tree can take up as much as two gallons in a day during those first few days. A gallon-size stand may need more than one fill.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "Before stringing the lights, leave at least three feet between the tree and fireplaces, radiators, heat vents or space heaters. Keep a clear path to the door. Mississippi State Extension recommends checking used light strings for damaged wires and unplugging them before bed or before leaving home. The U.S. Fire Administration advises taking a dry tree out of the house.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-cut-christmas-tree-water-stand-size.png",
+    "sha256": "c3528dfe4385f4ee42b0827c498384f2f753bf1165a19ef9203abc55678d7f00",
+    "alt_text": "At a quart per inch of trunk diameter, a three-inch trunk needs three quarts of water capacity, a four-inch trunk needs a gallon and a six-inch trunk needs a gallon and a half.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-27T22:07:20.410452+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 27 afternoon edition. Publish the exact reviewed package after authenticated preflight."
+  }
+}
