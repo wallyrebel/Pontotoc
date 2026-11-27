@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-county-bowling-region-opponents-2027.json",
   "article_sha256": "4a545205d68c354fe6f98e0d258b93ac168ae3804a5602ebff4553e37b7ad7af",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-county-bowling-region-opponents-2027",
   "seo_review": {
     "reviewer": "Pontotoc News morning desk",
