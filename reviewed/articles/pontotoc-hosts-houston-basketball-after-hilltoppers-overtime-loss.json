@@ -1,0 +1,227 @@
+{
+  "title": "Pontotoc hosts Houston in a basketball doubleheader after Hilltoppers\u2019 first boys loss",
+  "excerpt": "The girls play at 6 p.m. Tuesday and the boys at 7:15. Houston brings two teams that beat North Pontotoc, and its boys are coming off a 57\u201351 overtime loss.",
+  "locality": "Pontotoc High School in Pontotoc, Mississippi, and North Pontotoc High School in Ecru.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:2026-12-01:houston-boys-basketball-home",
+    "ms:pontotoc:2026-12-01:houston-girls-basketball-home"
+  ],
+  "sources": [
+    {
+      "id": "tuesb-game",
+      "title": "Houston at Pontotoc, boys game listing",
+      "url": "https://www.maxpreps.com/ms/basketball/game/houston-vs-pontotoc/12-1-2026/?c=4e3a05a9-5dce-4f75-8899-c784224c75a6",
+      "publisher": "MaxPreps",
+      "role": "event",
+      "verified_at": "2026-11-27T22:07:20.410452+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/basketball/game/houston-vs-pontotoc/12-1-2026/?c=4e3a05a9-5dce-4f75-8899-c784224c75a6",
+      "published_at": null
+    },
+    {
+      "id": "tuesg-game",
+      "title": "Houston at Pontotoc, girls game listing",
+      "url": "https://www.maxpreps.com/ms/basketball/girls/game/houston-vs-pontotoc/12-1-2026/?c=fee3b8d0-68dc-4903-b78f-64c8a11ad251",
+      "publisher": "MaxPreps",
+      "role": "event",
+      "verified_at": "2026-11-27T22:07:20.410452+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/basketball/girls/game/houston-vs-pontotoc/12-1-2026/?c=fee3b8d0-68dc-4903-b78f-64c8a11ad251",
+      "published_at": null
+    },
+    {
+      "id": "warriorboys",
+      "title": "Pontotoc boys varsity schedule",
+      "url": "https://www.pontotocathletics.com/sport/basketball/boys/",
+      "publisher": "Pontotoc Athletics",
+      "role": "background",
+      "verified_at": "2026-11-27T22:07:20.410452+00:00",
+      "verification_url": "https://www.pontotocathletics.com/sport/basketball/boys/",
+      "published_at": null
+    },
+    {
+      "id": "warriorgirls",
+      "title": "Pontotoc girls varsity schedule",
+      "url": "https://www.pontotocathletics.com/sport/basketball/girls/",
+      "publisher": "Pontotoc Athletics",
+      "role": "background",
+      "verified_at": "2026-11-27T22:07:20.410452+00:00",
+      "verification_url": "https://www.pontotocathletics.com/sport/basketball/girls/",
+      "published_at": null
+    },
+    {
+      "id": "jackson-game",
+      "title": "Houston\u2013Jackson Prep overtime game sheet",
+      "url": "https://www.maxpreps.com/ms/basketball/game/houston-vs-jackson-prep/11-24-2026/?c=a6ea3da0-774e-4fd3-b12b-9ecd784b5dde",
+      "publisher": "MaxPreps",
+      "role": "background",
+      "verified_at": "2026-11-27T22:07:20.410452+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/basketball/game/houston-vs-jackson-prep/11-24-2026/?c=a6ea3da0-774e-4fd3-b12b-9ecd784b5dde",
+      "published_at": null
+    },
+    {
+      "id": "northb-game",
+      "title": "North Pontotoc\u2013Houston boys game sheet",
+      "url": "https://www.maxpreps.com/ms/basketball/game/houston-vs-north-pontotoc-ecru/11-13-2026/?c=1d36a9a5-d93f-485a-bf2f-aeec475d5944",
+      "publisher": "MaxPreps",
+      "role": "background",
+      "verified_at": "2026-11-27T22:07:20.410452+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/basketball/game/houston-vs-north-pontotoc-ecru/11-13-2026/?c=1d36a9a5-d93f-485a-bf2f-aeec475d5944",
+      "published_at": null
+    },
+    {
+      "id": "northg-game",
+      "title": "North Pontotoc\u2013Houston girls game sheet",
+      "url": "https://www.maxpreps.com/ms/basketball/girls/game/houston-vs-north-pontotoc-ecru/11-13-2026/?c=344ca23d-a2b0-477d-8123-b6f32751ef94",
+      "publisher": "MaxPreps",
+      "role": "background",
+      "verified_at": "2026-11-27T22:07:20.410452+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/basketball/girls/game/houston-vs-north-pontotoc-ecru/11-13-2026/?c=344ca23d-a2b0-477d-8123-b6f32751ef94",
+      "published_at": null
+    },
+    {
+      "id": "houstongirls",
+      "title": "Houston girls results and schedule",
+      "url": "https://www.maxpreps.com/ms/houston/houston-hilltoppers/basketball/girls/schedule/",
+      "publisher": "MaxPreps",
+      "role": "background",
+      "verified_at": "2026-11-27T22:07:20.410452+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/houston/houston-hilltoppers/basketball/girls/schedule/",
+      "published_at": null
+    },
+    {
+      "id": "houstonboys",
+      "title": "Houston boys results and schedule",
+      "url": "https://www.maxpreps.com/ms/houston/houston-hilltoppers/basketball/schedule/",
+      "publisher": "MaxPreps",
+      "role": "background",
+      "verified_at": "2026-11-27T22:07:20.410452+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/houston/houston-hilltoppers/basketball/schedule/",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "It took overtime for anyone to beat Houston\u2019s boys this season. Pontotoc gets the next chance. On Tuesday, Dec. 1, the Hilltoppers play the Warriors at 7:15 p.m. at Pontotoc High School. The girls open the doubleheader at 6 p.m. Both Houston teams have already beaten North Pontotoc this month.",
+      "source_ids": [
+        "warriorboys",
+        "warriorgirls",
+        "tuesb-game",
+        "tuesg-game",
+        "houstonboys",
+        "northb-game",
+        "northg-game"
+      ],
+      "evidence": "Both school schedules list the December 1 varsity games. Houston won its first five boys games before losing to Jackson Prep in overtime. Both North Pontotoc game sheets report Houston wins.",
+      "statistics": "6 and 7:15 p.m. First loss in six boys games.",
+      "date_context": "December 1, 2026, game times Central. November 13 and November 24 results and November 28 schedule.",
+      "locality": "Pontotoc High School in Pontotoc, Mississippi, and North Pontotoc High School in Ecru.",
+      "identities": "Pontotoc Warriors, Houston Hilltoppers, North Pontotoc Vikings and Jackson Prep."
+    },
+    {
+      "id": "f2",
+      "statement": "Before facing Jackson Prep, the Hilltoppers had scored at least 67 in each of their five wins, including 81 against Bayou Academy on Monday. A day later they led Jackson Prep 40\u201339 after three quarters. Regulation ended at 47\u201347, and Jackson Prep scored 10 of the 14 points in overtime to win 57\u201351.",
+      "source_ids": [
+        "jackson-game",
+        "houstonboys"
+      ],
+      "evidence": "Quarter totals from the dated game record agree with the final and both team schedules. Houston scores in first five games were 89, 67, 81, 83 and 81.",
+      "statistics": "40\u201339, 47\u201347, 10\u20134 in overtime, final 57\u201351.",
+      "date_context": "December 1, 2026, game times Central. November 13 and November 24 results and November 28 schedule.",
+      "locality": "Pontotoc High School in Pontotoc, Mississippi, and North Pontotoc High School in Ecru.",
+      "identities": "Pontotoc Warriors, Houston Hilltoppers, North Pontotoc Vikings and Jackson Prep."
+    },
+    {
+      "id": "f3",
+      "statement": "Pontotoc County fans saw Houston\u2019s girls pull away in the second half against North Pontotoc on Nov. 13. Houston led 30\u201320 at halftime, scored 22 points in the third and held the Vikings to two in the fourth to win 69\u201333. Houston\u2019s boys won 67\u201334 on the same night.",
+      "source_ids": [
+        "northg-game",
+        "northb-game"
+      ],
+      "evidence": "Girls sheet gives Houston 18, 12, 22, 17 and North Pontotoc 10, 10, 11, 2. Both teams\u2019 schedules corroborate both finals.",
+      "statistics": "30\u201320 at half. Girls 69\u201333, boys 67\u201334.",
+      "date_context": "December 1, 2026, game times Central. November 13 and November 24 results and November 28 schedule.",
+      "locality": "Pontotoc High School in Pontotoc, Mississippi, and North Pontotoc High School in Ecru.",
+      "identities": "Pontotoc Warriors, Houston Hilltoppers, North Pontotoc Vikings and Jackson Prep."
+    },
+    {
+      "id": "f4",
+      "statement": "The two Houston teams have different routes to Tuesday\u2019s games. Jackson Prep was the boys\u2019 last scheduled opponent before Pontotoc. The girls, who won their first five games, are scheduled to visit Northeast Lauderdale at 5 p.m. Saturday, Nov. 28. They then have two days between that game and their visit to the Warriors.",
+      "source_ids": [
+        "houstongirls",
+        "houstonboys",
+        "tuesg-game"
+      ],
+      "evidence": "Both girls schedules show the November 28 Northeast Lauderdale game, then Houston visits Pontotoc December 1. No intervening boys fixture on the schedule.",
+      "statistics": "First five wins. Saturday 5 p.m., Tuesday 6 p.m.",
+      "date_context": "December 1, 2026, game times Central. November 13 and November 24 results and November 28 schedule.",
+      "locality": "Pontotoc High School in Pontotoc, Mississippi, and North Pontotoc High School in Ecru.",
+      "identities": "Pontotoc Warriors, Houston Hilltoppers, North Pontotoc Vikings and Jackson Prep."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "It took overtime for anyone to beat Houston\u2019s boys this season. Pontotoc gets the next chance. On Tuesday, Dec. 1, the Hilltoppers play the Warriors at 7:15 p.m. at Pontotoc High School. The girls open the doubleheader at 6 p.m. Both Houston teams have already beaten North Pontotoc this month.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "Before facing Jackson Prep, the Hilltoppers had scored at least 67 in each of their five wins, including 81 against Bayou Academy on Monday. A day later they led Jackson Prep 40\u201339 after three quarters. Regulation ended at 47\u201347, and Jackson Prep scored 10 of the 14 points in overtime to win 57\u201351.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Pontotoc County fans saw Houston\u2019s girls pull away in the second half against North Pontotoc on Nov. 13. Houston led 30\u201320 at halftime, scored 22 points in the third and held the Vikings to two in the fourth to win 69\u201333. Houston\u2019s boys won 67\u201334 on the same night.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "The two Houston teams have different routes to Tuesday\u2019s games. Jackson Prep was the boys\u2019 last scheduled opponent before Pontotoc. The girls, who won their first five games, are scheduled to visit Northeast Lauderdale at 5 p.m. Saturday, Nov. 28. They then have two days between that game and their visit to the Warriors.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-hosts-houston-basketball-after-hilltoppers-overtime-loss.png",
+    "sha256": "f36d3f02651136b1ec19ea7dbca35147e0612de0de05ab3cc62c0f72826ee2b6",
+    "alt_text": "Tuesday\u2019s home basketball doubleheader against Houston starts with the girls at 6 p.m. and the boys at 7:15 p.m.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-27T22:07:20.410452+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 27 afternoon edition. Publish the exact reviewed package after authenticated preflight."
+  }
+}

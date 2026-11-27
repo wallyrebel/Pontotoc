@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-hosts-houston-basketball-after-hilltoppers-overtime-loss.json",
+  "article_sha256": "746d543e221ca7145004982bf64cd28456ff195a4415d3853cd3a978a8545250",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-hosts-houston-basketball-after-hilltoppers-overtime-loss",
+  "seo_review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-27T22:07:20.410452+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}
