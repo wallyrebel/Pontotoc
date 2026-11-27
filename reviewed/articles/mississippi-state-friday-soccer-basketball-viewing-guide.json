@@ -1,0 +1,159 @@
+{
+  "title": "Mississippi State plays for a Sweet 16 soccer spot before its men face Penn State",
+  "excerpt": "Friday\u2019s soccer rematch with Notre Dame starts at 5 p.m. Central on ESPN+. The Bulldogs\u2019 basketball finale in the Bahamas tips at 6:31 p.m. on SEC Network.",
+  "locality": "Statewide Mississippi sports coverage for Pontotoc readers. Soccer in South Bend, Indiana, and basketball in the Bahamas.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:mississippi-state:2026-11-27:ncaa-soccer-second-round-notre-dame",
+    "ms:mississippi-state:2026-11-27:mens-basketball-atlantis-penn-state"
+  ],
+  "sources": [
+    {
+      "id": "soccer",
+      "title": "Mississippi State\u2019s NCAA second-round soccer preview",
+      "url": "https://hailstate.com/news/2026/11/26/soccer-bulldogs-postseason-run-continues-at-no-6-notre-dame",
+      "publisher": "Mississippi State Athletics",
+      "role": "event",
+      "verified_at": "2026-11-27T15:12:58.634052+00:00",
+      "verification_url": "https://hailstate.com/news/2026/11/26/soccer-bulldogs-postseason-run-continues-at-no-6-notre-dame",
+      "published_at": null
+    },
+    {
+      "id": "irish",
+      "title": "Notre Dame\u2019s second-round match preview",
+      "url": "https://fightingirish.com/news/2026/11/26/preview-4-irish-host-mississippi-state-for-ncaa-second-round",
+      "publisher": "Notre Dame Athletics",
+      "role": "background",
+      "verified_at": "2026-11-27T15:12:58.634052+00:00",
+      "verification_url": "https://fightingirish.com/news/2026/11/26/preview-4-irish-host-mississippi-state-for-ncaa-second-round",
+      "published_at": null
+    },
+    {
+      "id": "bb",
+      "title": "Mississippi State\u2019s Battle 4 Atlantis finale preview",
+      "url": "https://hailstate.com/news/2026/11/26/mens-basketball-mens-hoops-wraps-battle-4-atlantis-versus-penn-state",
+      "publisher": "Mississippi State Athletics",
+      "role": "event",
+      "verified_at": "2026-11-27T15:12:58.634052+00:00",
+      "verification_url": "https://hailstate.com/news/2026/11/26/mens-basketball-mens-hoops-wraps-battle-4-atlantis-versus-penn-state",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Mississippi State fans in Pontotoc can follow two teams Friday evening. The women\u2019s soccer team plays for a place in the NCAA tournament\u2019s last 16 at 5 p.m. Central on ESPN+. At 6:31 p.m. Central, the men\u2019s basketball team tips off against Penn State on SEC Network in its final game in the Bahamas.",
+      "source_ids": [
+        "bb",
+        "soccer"
+      ],
+      "evidence": "The two athletics previews list the opponents, broadcasts, stakes and kickoff or tipoff in Central time.",
+      "statistics": "5 p.m. and 6:31 p.m. Friday, November 27.",
+      "date_context": "Friday November 27, 2026, Central time. Prior NCAA meeting in 2024.",
+      "locality": "Statewide Mississippi sports coverage for Pontotoc readers. Soccer in South Bend, Indiana, and basketball in the Bahamas.",
+      "identities": "Mississippi State, Notre Dame and Penn State."
+    },
+    {
+      "id": "f2",
+      "statement": "In South Bend, Mississippi State will face a Notre Dame team that knocked it out of the 2024 tournament with a 2\u20130 win in Starkville. Kara Harris is the only current Bulldog who played in that match. Eight players on the Irish roster appeared in it. A Mississippi State victory would send the program to the Sweet 16 for the third time.",
+      "source_ids": [
+        "soccer",
+        "irish"
+      ],
+      "evidence": "Mississippi State recounts the score and returning participants. Both schools identify the second-round rematch.",
+      "statistics": "2\u20130 in 2024, one returning Bulldog, eight returning Irish players.",
+      "date_context": "Friday November 27, 2026, Central time. Prior NCAA meeting in 2024.",
+      "locality": "Statewide Mississippi sports coverage for Pontotoc readers. Soccer in South Bend, Indiana, and basketball in the Bahamas.",
+      "identities": "Mississippi State, Notre Dame and Penn State."
+    },
+    {
+      "id": "f3",
+      "statement": "The Bulldogs have held every ranked opponent they have faced this season scoreless. Against Notre Dame, keeping the ball out of their net for the opening eight minutes and 34 seconds would extend their shutout streak to 500 minutes. At the other end of the field, Chiara Tappe has scored Mississippi State\u2019s last three goals.",
+      "source_ids": [
+        "soccer"
+      ],
+      "evidence": "The team identifies the remaining 8:34, the season shutouts against ranked opponents and Tappe\u2019s last three scores.",
+      "statistics": "500 minutes, eight minutes and 34 seconds, three goals.",
+      "date_context": "Friday November 27, 2026, Central time. Prior NCAA meeting in 2024.",
+      "locality": "Statewide Mississippi sports coverage for Pontotoc readers. Soccer in South Bend, Indiana, and basketball in the Bahamas.",
+      "identities": "Mississippi State, Notre Dame and Penn State."
+    },
+    {
+      "id": "f4",
+      "statement": "On the basketball court at Imperial Arena on Paradise Island, both teams start the night 5\u20132 and both are trying to leave the Battle 4 Atlantis with a win. Mississippi State lost 78\u201371 to Wake Forest on Wednesday. Penn State lost 83\u201370 to Memphis that day. The SEC Network broadcast is separate from the soccer stream on ESPN+.",
+      "source_ids": [
+        "bb",
+        "soccer"
+      ],
+      "evidence": "The basketball preview names both records, prior results, arena, date and SEC Network. The soccer release lists ESPN+.",
+      "statistics": "Both 5\u20132. Scores 78\u201371 and 83\u201370.",
+      "date_context": "Friday November 27, 2026, Central time. Prior NCAA meeting in 2024.",
+      "locality": "Statewide Mississippi sports coverage for Pontotoc readers. Soccer in South Bend, Indiana, and basketball in the Bahamas.",
+      "identities": "Mississippi State, Notre Dame and Penn State."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Mississippi State fans in Pontotoc can follow two teams Friday evening. The women\u2019s soccer team plays for a place in the NCAA tournament\u2019s last 16 at 5 p.m. Central on ESPN+. At 6:31 p.m. Central, the men\u2019s basketball team tips off against Penn State on SEC Network in its final game in the Bahamas.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "In South Bend, Mississippi State will face a Notre Dame team that knocked it out of the 2024 tournament with a 2\u20130 win in Starkville. Kara Harris is the only current Bulldog who played in that match. Eight players on the Irish roster appeared in it. A Mississippi State victory would send the program to the Sweet 16 for the third time.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "The Bulldogs have held every ranked opponent they have faced this season scoreless. Against Notre Dame, keeping the ball out of their net for the opening eight minutes and 34 seconds would extend their shutout streak to 500 minutes. At the other end of the field, Chiara Tappe has scored Mississippi State\u2019s last three goals.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "On the basketball court at Imperial Arena on Paradise Island, both teams start the night 5\u20132 and both are trying to leave the Battle 4 Atlantis with a win. Mississippi State lost 78\u201371 to Wake Forest on Wednesday. Penn State lost 83\u201370 to Memphis that day. The SEC Network broadcast is separate from the soccer stream on ESPN+.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/mississippi-state-friday-soccer-basketball-viewing-guide.png",
+    "sha256": "51fe834e7c7bdac8acfb3d559c736c679ea8da45ec252ae0604a9ab4c17a618a",
+    "alt_text": "Mississippi State plays Notre Dame in NCAA soccer at 5 p.m. Central and Penn State in basketball at 6:31 p.m. Central.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-27T15:12:58.634052+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f4"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 27 Pontotoc morning editorial shift. Publish this exact package after authenticated preflight."
+  }
+}
