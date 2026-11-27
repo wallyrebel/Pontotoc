@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/ole-miss-egg-bowl-blake-purchase-interception-oxford.json",
   "article_sha256": "030936a14cf84b7407d72dcdc16704d75d6cfc51b63dea6aaf6fe15ff799d22e",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "ole-miss-egg-bowl-blake-purchase-interception-oxford",
   "seo_review": {
     "reviewer": "Pontotoc News afternoon desk",
