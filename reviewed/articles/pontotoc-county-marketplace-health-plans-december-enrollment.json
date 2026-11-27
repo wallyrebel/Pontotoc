@@ -1,0 +1,200 @@
+{
+  "title": "Three insurers offer 43 Marketplace health plans in Pontotoc County for 2027",
+  "excerpt": "Dec. 15 is the enrollment deadline for Jan. 1 coverage. Federal records show 16 Silver plans in Pontotoc County, and a Tupelo counselor offers free application help.",
+  "locality": "Pontotoc County, Mississippi, FIPS 28115. The counseling office cited is in Tupelo, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:2026-11-16:2027-individual-marketplace-county-plan-options"
+  ],
+  "sources": [
+    {
+      "id": "health-dataset",
+      "title": "2027 individual medical plan data by county, updated Nov. 16",
+      "url": "https://data.healthcare.gov/dataset/41dc577b-fb49-4281-82d7-864390197812",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "role": "event",
+      "verified_at": "2026-11-27T22:15:08.502800+00:00",
+      "verification_url": "https://data.healthcare.gov/dataset/41dc577b-fb49-4281-82d7-864390197812",
+      "published_at": null
+    },
+    {
+      "id": "health-index",
+      "title": "Download the federal plan file and see how to read the premium examples",
+      "url": "https://www.healthcare.gov/health-plan-information/",
+      "publisher": "HealthCare.gov",
+      "role": "background",
+      "verified_at": "2026-11-27T22:15:08.502800+00:00",
+      "verification_url": "https://www.healthcare.gov/health-plan-information/",
+      "published_at": null
+    },
+    {
+      "id": "health-dates",
+      "title": "Enrollment deadlines and coverage start dates",
+      "url": "https://www.healthcare.gov/quick-guide/dates-and-deadlines/",
+      "publisher": "HealthCare.gov",
+      "role": "background",
+      "verified_at": "2026-11-27T22:15:08.502800+00:00",
+      "verification_url": "https://www.healthcare.gov/quick-guide/dates-and-deadlines/",
+      "published_at": null
+    },
+    {
+      "id": "health-cms",
+      "title": "2027 federal Marketplace enrollment period",
+      "url": "https://www.cms.gov/newsroom/fact-sheets/plan-year-2027-marketplace-plans-prices-fact-sheet-0",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "role": "background",
+      "verified_at": "2026-11-27T22:15:08.502800+00:00",
+      "verification_url": "https://www.cms.gov/newsroom/fact-sheets/plan-year-2027-marketplace-plans-prices-fact-sheet-0",
+      "published_at": null
+    },
+    {
+      "id": "health-help",
+      "title": "Free application assistance from Access Family Health in Tupelo",
+      "url": "https://www.accessfhs.com/resources",
+      "publisher": "Access Family Health",
+      "role": "background",
+      "verified_at": "2026-11-27T22:15:08.502800+00:00",
+      "verification_url": "https://www.accessfhs.com/resources",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc County residents shopping for individual health insurance on HealthCare.gov have 43 medical plans to choose from for 2027. Three insurers offer them, according to a county-by-county federal listing updated Nov. 16. For coverage to start Jan. 1, the deadline to enroll or change plans is Tuesday, Dec. 15. The first premium must also be paid.",
+      "source_ids": [
+        "health-dataset",
+        "health-index",
+        "health-dates",
+        "health-cms"
+      ],
+      "evidence": "In the federal Individual Market Medical file, Mississippi county FIPS 28115 has 43 unique standard-component plan IDs and three issuer names. HealthCare.gov gives the effective date and payment condition.",
+      "statistics": "43 unique plans, three insurers, December 15 for January 1.",
+      "date_context": "2027 plan year. Dataset updated November 16, 2026. December 15 deadline for coverage beginning January 1, 2027.",
+      "locality": "Pontotoc County, Mississippi, FIPS 28115. The counseling office cited is in Tupelo, Mississippi.",
+      "identities": "CMS, HealthCare.gov, Access Family Health, Ambetter Health, UnitedHealthcare and Oscar Health Plan."
+    },
+    {
+      "id": "f2",
+      "statement": "Ambetter Health lists 19 plans in the county, UnitedHealthcare lists 15 and Oscar Health Plan lists nine. Shoppers comparing plans by metal level will find 16 Silver plans and 12 Gold. The other 15 are Bronze options, including 12 that the federal file labels Expanded Bronze.",
+      "source_ids": [
+        "health-dataset",
+        "health-index"
+      ],
+      "evidence": "Counts of unique IDs within issuer and metal level. Bronze has three, Expanded Bronze 12, Silver 16 and Gold 12.",
+      "statistics": "19 + 15 + 9 = 43. 16 + 12 + 3 + 12 = 43.",
+      "date_context": "2027 plan year. Dataset updated November 16, 2026. December 15 deadline for coverage beginning January 1, 2027.",
+      "locality": "Pontotoc County, Mississippi, FIPS 28115. The counseling office cited is in Tupelo, Mississippi.",
+      "identities": "CMS, HealthCare.gov, Access Family Health, Ambetter Health, UnitedHealthcare and Oscar Health Plan."
+    },
+    {
+      "id": "f3",
+      "statement": "For one 40-year-old adult, the lowest monthly premium listed for Pontotoc County is $704.97 for an Expanded Bronze plan. The lowest Silver premium for the same example is $804.45 a month. These are prices before any premium tax credit. Household size and income can affect the price an applicant sees after completing the Marketplace application.",
+      "source_ids": [
+        "health-dataset",
+        "health-index"
+      ],
+      "evidence": "Minimum of Premium Adult Individual Age 40 for Pontotoc is $704.97, Oscar Bronze Simple. The Silver minimum is $804.45, Ambetter Streamlined Silver. HealthCare.gov explains the published rates exclude tax credits.",
+      "statistics": "Age 40, $704.97 and $804.45 monthly before credits.",
+      "date_context": "2027 plan year. Dataset updated November 16, 2026. December 15 deadline for coverage beginning January 1, 2027.",
+      "locality": "Pontotoc County, Mississippi, FIPS 28115. The counseling office cited is in Tupelo, Mississippi.",
+      "identities": "CMS, HealthCare.gov, Access Family Health, Ambetter Health, UnitedHealthcare and Oscar Health Plan."
+    },
+    {
+      "id": "f4",
+      "statement": "Free application help is available in Tupelo. Access Family Health lists certified application counselor Dot Marie Buck at 662-690-8007, extension 6292. The office is at 499 Gloster Creek Village, Suite D1. Its listed hours are 8 a.m. to 4:45 p.m. Monday through Thursday and 8 a.m. to 12:30 p.m. Friday.",
+      "source_ids": [
+        "health-help"
+      ],
+      "evidence": "Provider directory lists Buck under Tupelo Counselor, free assistance, contact number, extension, office and hours.",
+      "statistics": "Extension 6292, Suite D1, Monday\u2013Thursday 8\u20134:45, Friday 8\u201312:30.",
+      "date_context": "2027 plan year. Dataset updated November 16, 2026. December 15 deadline for coverage beginning January 1, 2027.",
+      "locality": "Pontotoc County, Mississippi, FIPS 28115. The counseling office cited is in Tupelo, Mississippi.",
+      "identities": "CMS, HealthCare.gov, Access Family Health, Ambetter Health, UnitedHealthcare and Oscar Health Plan."
+    },
+    {
+      "id": "f5",
+      "statement": "People who miss the Dec. 15 date can still enroll during open enrollment. For those who select or change plans from Dec. 16 through Jan. 15 and pay the first premium, HealthCare.gov lists Feb. 1 as the coverage start date.",
+      "source_ids": [
+        "health-dates",
+        "health-cms"
+      ],
+      "evidence": "The federal dates page gives February 1 for December 16\u2013January 15 enrollment if the first premium is paid. CMS confirms the January 15, 2027 end of open enrollment.",
+      "statistics": "December 16, 2026 through January 15, 2027 for February 1 coverage.",
+      "date_context": "2027 plan year. Dataset updated November 16, 2026. December 15 deadline for coverage beginning January 1, 2027.",
+      "locality": "Pontotoc County, Mississippi, FIPS 28115. The counseling office cited is in Tupelo, Mississippi.",
+      "identities": "CMS, HealthCare.gov, Access Family Health, Ambetter Health, UnitedHealthcare and Oscar Health Plan."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc County residents shopping for individual health insurance on HealthCare.gov have 43 medical plans to choose from for 2027. Three insurers offer them, according to a county-by-county federal listing updated Nov. 16. For coverage to start Jan. 1, the deadline to enroll or change plans is Tuesday, Dec. 15. The first premium must also be paid.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "Ambetter Health lists 19 plans in the county, UnitedHealthcare lists 15 and Oscar Health Plan lists nine. Shoppers comparing plans by metal level will find 16 Silver plans and 12 Gold. The other 15 are Bronze options, including 12 that the federal file labels Expanded Bronze.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "For one 40-year-old adult, the lowest monthly premium listed for Pontotoc County is $704.97 for an Expanded Bronze plan. The lowest Silver premium for the same example is $804.45 a month. These are prices before any premium tax credit. Household size and income can affect the price an applicant sees after completing the Marketplace application.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "Free application help is available in Tupelo. Access Family Health lists certified application counselor Dot Marie Buck at 662-690-8007, extension 6292. The office is at 499 Gloster Creek Village, Suite D1. Its listed hours are 8 a.m. to 4:45 p.m. Monday through Thursday and 8 a.m. to 12:30 p.m. Friday.",
+      "fact_ids": [
+        "f4"
+      ]
+    },
+    {
+      "text": "People who miss the Dec. 15 date can still enroll during open enrollment. For those who select or change plans from Dec. 16 through Jan. 15 and pay the first premium, HealthCare.gov lists Feb. 1 as the coverage start date.",
+      "fact_ids": [
+        "f5"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-county-marketplace-health-plans-december-enrollment.png",
+    "sha256": "4f3e0891accf9928615df6e9b045264c244b013d8cf045af47342c46750dbfb6",
+    "alt_text": "Pontotoc County has 43 individual Marketplace medical plans for 2027. Ambetter Health offers 19, UnitedHealthcare 15 and Oscar Health Plan nine.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News afternoon desk",
+    "reviewed_at": "2026-11-27T22:15:08.502800+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f4"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 27 afternoon edition. Publish the exact reviewed package after authenticated preflight."
+  }
+}
