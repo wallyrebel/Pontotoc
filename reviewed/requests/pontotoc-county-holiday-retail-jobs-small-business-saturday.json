@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-county-holiday-retail-jobs-small-business-saturday.json",
   "article_sha256": "cf39d7da0c0c020715f6ab08ff6e16b143f0d595079611b5a37a79376f463cd8",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-county-holiday-retail-jobs-small-business-saturday",
   "seo_review": {
     "reviewer": "Pontotoc News morning desk",
