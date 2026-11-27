@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-county-christmas-tree-harvest-msu-crop-report.json",
   "article_sha256": "64459675977373a03bc347bbbba817fa9525cd75c0fc9c1726f50449e406df9f",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-county-christmas-tree-harvest-msu-crop-report",
   "seo_review": {
     "reviewer": "Pontotoc News evening desk",
