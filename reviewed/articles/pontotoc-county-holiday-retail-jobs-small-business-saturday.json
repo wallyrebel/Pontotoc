@@ -1,0 +1,168 @@
+{
+  "title": "Pontotoc County retailers accounted for one in nine private jobs last December",
+  "excerpt": "Going into Small Business Saturday, federal payroll records show 1,134 retail jobs last December, up 20 from the same month a year earlier.",
+  "locality": "Pontotoc County, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:2026-11-28:holiday-retail-employment-county-payroll-comparison"
+  ],
+  "sources": [
+    {
+      "id": "q425",
+      "title": "Pontotoc County fourth quarter 2025 jobs by industry (CSV)",
+      "url": "https://data.bls.gov/cew/data/api/2025/4/area/28115.csv",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "role": "event",
+      "verified_at": "2026-11-27T15:06:42.012952+00:00",
+      "verification_url": "https://data.bls.gov/cew/data/api/2025/4/area/28115.csv",
+      "published_at": null
+    },
+    {
+      "id": "q424",
+      "title": "Fourth quarter 2024 comparison for Pontotoc County (CSV)",
+      "url": "https://data.bls.gov/cew/data/api/2024/4/area/28115.csv",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "role": "background",
+      "verified_at": "2026-11-27T15:06:42.012952+00:00",
+      "verification_url": "https://data.bls.gov/cew/data/api/2024/4/area/28115.csv",
+      "published_at": null
+    },
+    {
+      "id": "q1",
+      "title": "First quarter 2026 Pontotoc County employment (CSV)",
+      "url": "https://data.bls.gov/cew/data/api/2026/1/area/28115.csv",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "role": "background",
+      "verified_at": "2026-11-27T15:06:42.012952+00:00",
+      "verification_url": "https://data.bls.gov/cew/data/api/2026/1/area/28115.csv",
+      "published_at": null
+    },
+    {
+      "id": "sba",
+      "title": "November 28 Small Business Saturday announcement",
+      "url": "https://legacy.sba.gov/article/2026/11/19/sba-encourages-americans-shop-smallr-small-business-saturdayr-november-28",
+      "publisher": "U.S. Small Business Administration",
+      "role": "event",
+      "verified_at": "2026-11-27T15:06:42.012952+00:00",
+      "verification_url": "https://legacy.sba.gov/article/2026/11/19/sba-encourages-americans-shop-smallr-small-business-saturdayr-november-28",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Retailers in Pontotoc County carried 1,134 jobs on their payrolls last December, about one in nine of the county\u2019s private-sector jobs. As shoppers head into Small Business Saturday on Nov. 28, federal employment records show how much work the retail trade accounted for during the last holiday season.",
+      "source_ids": [
+        "q425",
+        "sba"
+      ],
+      "evidence": "December retail employment 1,134 vs. 10,134 private jobs. SBA gives November 28 for the 2026 observance.",
+      "statistics": "11.2% of private payroll jobs in December 2025.",
+      "date_context": "November 28, 2026 observance. Payrolls from late 2024, late 2025 and early 2026.",
+      "locality": "Pontotoc County, Mississippi.",
+      "identities": "Bureau of Labor Statistics and U.S. Small Business Administration."
+    },
+    {
+      "id": "f2",
+      "statement": "The local retail job count barely moved between October and November 2025. It went from 1,127 to 1,123, then climbed by 11 in December. The same months a year earlier had 1,108, 1,112 and 1,114 jobs. That left December 2025 with 20 more retail jobs than December 2024.",
+      "source_ids": [
+        "q425",
+        "q424"
+      ],
+      "evidence": "Private ownership, NAICS 44\u201345, monthly employment columns 1 through 3 in each fourth-quarter county file.",
+      "statistics": "October to November fell by 4, November to December rose by 11. December year-over-year increase 20.",
+      "date_context": "November 28, 2026 observance. Payrolls from late 2024, late 2025 and early 2026.",
+      "locality": "Pontotoc County, Mississippi.",
+      "identities": "Bureau of Labor Statistics and U.S. Small Business Administration."
+    },
+    {
+      "id": "f3",
+      "statement": "The Bureau of Labor Statistics counted 107 private retail establishments in the county in the final quarter of 2025, one more than a year earlier. Average weekly pay across those retail jobs rose from $562 to $628 over the same period. The figures cover retail workplaces of all sizes, including chains. They do not give a separate count of independently owned shops.",
+      "source_ids": [
+        "q425",
+        "q424"
+      ],
+      "evidence": "County industry rows list quarterly establishments and average weekly wages, with size code zero for all sizes.",
+      "statistics": "106 to 107 establishments and $562 to $628 in weekly wages.",
+      "date_context": "November 28, 2026 observance. Payrolls from late 2024, late 2025 and early 2026.",
+      "locality": "Pontotoc County, Mississippi.",
+      "identities": "Bureau of Labor Statistics and U.S. Small Business Administration."
+    },
+    {
+      "id": "f4",
+      "statement": "Retail payrolls stayed close to the December level in January, when the county recorded 1,132 jobs. They fell to 1,110 in February and reached 1,121 in March. These are counts of jobs at Pontotoc County workplaces. They give readers a baseline for the shopping season, but do not measure sales or how many workers stores hired for this November.",
+      "source_ids": [
+        "q1",
+        "q425"
+      ],
+      "evidence": "January through March 2026 values in the county retail row, compared with December 2025.",
+      "statistics": "1,132, 1,110 and 1,121 jobs.",
+      "date_context": "November 28, 2026 observance. Payrolls from late 2024, late 2025 and early 2026.",
+      "locality": "Pontotoc County, Mississippi.",
+      "identities": "Bureau of Labor Statistics and U.S. Small Business Administration."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Retailers in Pontotoc County carried 1,134 jobs on their payrolls last December, about one in nine of the county\u2019s private-sector jobs. As shoppers head into Small Business Saturday on Nov. 28, federal employment records show how much work the retail trade accounted for during the last holiday season.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The local retail job count barely moved between October and November 2025. It went from 1,127 to 1,123, then climbed by 11 in December. The same months a year earlier had 1,108, 1,112 and 1,114 jobs. That left December 2025 with 20 more retail jobs than December 2024.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "The Bureau of Labor Statistics counted 107 private retail establishments in the county in the final quarter of 2025, one more than a year earlier. Average weekly pay across those retail jobs rose from $562 to $628 over the same period. The figures cover retail workplaces of all sizes, including chains. They do not give a separate count of independently owned shops.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "Retail payrolls stayed close to the December level in January, when the county recorded 1,132 jobs. They fell to 1,110 in February and reached 1,121 in March. These are counts of jobs at Pontotoc County workplaces. They give readers a baseline for the shopping season, but do not measure sales or how many workers stores hired for this November.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-county-holiday-retail-jobs-small-business-saturday.png",
+    "sha256": "187a1a59b03ef429b6c8a71f1906c2acf2cacdaf1c261d6d7435d885e078009c",
+    "alt_text": "Pontotoc County retail payrolls counted 1,127 jobs in October, 1,123 in November and 1,134 in December 2025.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-27T15:06:42.012952+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 27 Pontotoc morning editorial shift. Publish this exact package after authenticated preflight."
+  }
+}
