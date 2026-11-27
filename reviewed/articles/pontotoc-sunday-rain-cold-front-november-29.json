@@ -1,0 +1,169 @@
+{
+  "title": "Pontotoc County\u2019s Sunday rain chance rises to near 100% as a cold front approaches",
+  "excerpt": "Showers are likely before dawn Sunday. Afternoon temperatures should fall into the mid-50s as winds turn west.",
+  "locality": "Pontotoc County, Mississippi, and the city of Pontotoc.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:2026-11-27:midday-forecast-november-29-cold-front"
+  ],
+  "sources": [
+    {
+      "id": "zone",
+      "title": "Friday midday county forecast (Pontotoc is MSZ015)",
+      "url": "https://api.weather.gov/products/3b3995a8-6421-4554-98d6-ed4d7aa25e39",
+      "publisher": "National Weather Service Memphis",
+      "role": "event",
+      "verified_at": "2026-11-27T19:41:01.858171+00:00",
+      "verification_url": "https://api.weather.gov/products/3b3995a8-6421-4554-98d6-ed4d7aa25e39",
+      "published_at": "2026-11-27T18:27:00+00:00"
+    },
+    {
+      "id": "afd",
+      "title": "Friday midday discussion of the cold front",
+      "url": "https://api.weather.gov/products/b573664e-08e9-4b68-b61d-60875833e122",
+      "publisher": "National Weather Service Memphis",
+      "role": "event",
+      "verified_at": "2026-11-27T19:41:01.858171+00:00",
+      "verification_url": "https://api.weather.gov/products/b573664e-08e9-4b68-b61d-60875833e122",
+      "published_at": "2026-11-27T18:21:00+00:00"
+    },
+    {
+      "id": "town",
+      "title": "Forecast for the city of Pontotoc",
+      "url": "https://api.weather.gov/gridpoints/MEG/82,28/forecast",
+      "publisher": "National Weather Service Memphis",
+      "role": "background",
+      "verified_at": "2026-11-27T19:41:01.858171+00:00",
+      "verification_url": "https://api.weather.gov/gridpoints/MEG/82,28/forecast",
+      "published_at": null
+    },
+    {
+      "id": "previous",
+      "title": "Wednesday\u2019s local forecast for the return trip",
+      "url": "https://pontotocnews.com/pontotoc-news/pontotoc-thanksgiving-return-travel-sunday-rain/",
+      "publisher": "Pontotoc News",
+      "role": "background",
+      "verified_at": "2026-11-27T19:41:01.858171+00:00",
+      "verification_url": "https://pontotocnews.com/pontotoc-news/pontotoc-thanksgiving-return-travel-sunday-rain/",
+      "published_at": "2026-11-25T22:12:43Z"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "The National Weather Service now puts the chance of Sunday rain in Pontotoc County near 100%, up from 70% in Wednesday\u2019s forecast. For travelers heading home after Thanksgiving, the Friday update narrows the wettest part of the weekend to early Sunday. Saturday still looks sunny, with a high in the mid-60s.",
+      "source_ids": [
+        "zone",
+        "previous"
+      ],
+      "evidence": "Friday midday MSZ015 bulletin and the county forecast reported Wednesday.",
+      "statistics": "Sunday rain chance changed from 70% to near 100%.",
+      "date_context": "Forecast issued Friday, November 27 for November 28\u201330, 2026, Central time.",
+      "locality": "Pontotoc County, Mississippi, and the city of Pontotoc.",
+      "identities": "National Weather Service Memphis."
+    },
+    {
+      "id": "f2",
+      "statement": "The first showers are likely after midnight Saturday night. The forecast for the city of Pontotoc places their likely arrival after 4 a.m. Sunday. Across the county, the overnight rain chance has doubled from 30% to 60%. South winds could gust to 25 mph before daybreak.",
+      "source_ids": [
+        "zone",
+        "town",
+        "previous"
+      ],
+      "evidence": "County forecast gives a 60% chance and gusts to 25 mph. Point forecast specifies after 4 a.m. Earlier forecast gave 30%.",
+      "statistics": "30% to 60%, 4 a.m., 25 mph.",
+      "date_context": "Forecast issued Friday, November 27 for November 28\u201330, 2026, Central time.",
+      "locality": "Pontotoc County, Mississippi, and the city of Pontotoc.",
+      "identities": "National Weather Service Memphis."
+    },
+    {
+      "id": "f3",
+      "statement": "Sunday morning brings a slight chance of thunderstorms along with the showers. By afternoon, forecasters expect some sun and a chance of lingering showers. The day\u2019s high should reach the mid-60s, but the temperature is expected to fall into the mid-50s during the afternoon as winds of 15 to 20 mph turn from south to west.",
+      "source_ids": [
+        "zone"
+      ],
+      "evidence": "Pontotoc County Sunday forecast differentiates morning and afternoon and specifies the wind change.",
+      "statistics": "Mid-60s to mid-50s, winds 15 to 20 mph.",
+      "date_context": "Forecast issued Friday, November 27 for November 28\u201330, 2026, Central time.",
+      "locality": "Pontotoc County, Mississippi, and the city of Pontotoc.",
+      "identities": "National Weather Service Memphis."
+    },
+    {
+      "id": "f4",
+      "statement": "Forecasters in Memphis expect the cold front to bring an average of less than two-tenths of an inch of rain across the region. They put the likelihood of strong or severe thunderstorms low because the air ahead of the front is expected to be only weakly unstable. Sunday night in Pontotoc County should turn mostly clear and much colder, with lows in the lower 30s. Monday\u2019s forecast calls for sunshine and a high in the mid-50s.",
+      "source_ids": [
+        "afd",
+        "zone"
+      ],
+      "evidence": " regional discussion gives average rainfall and low confidence in strong to severe storms, county bulletin gives Sunday night and Monday.",
+      "statistics": "Regional average below 0.2 inch, county lows in the lower 30s, Monday highs in the mid-50s.",
+      "date_context": "Forecast issued Friday, November 27 for November 28\u201330, 2026, Central time.",
+      "locality": "Pontotoc County, Mississippi, and the city of Pontotoc.",
+      "identities": "National Weather Service Memphis."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "The National Weather Service now puts the chance of Sunday rain in Pontotoc County near 100%, up from 70% in Wednesday\u2019s forecast. For travelers heading home after Thanksgiving, the Friday update narrows the wettest part of the weekend to early Sunday. Saturday still looks sunny, with a high in the mid-60s.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The first showers are likely after midnight Saturday night. The forecast for the city of Pontotoc places their likely arrival after 4 a.m. Sunday. Across the county, the overnight rain chance has doubled from 30% to 60%. South winds could gust to 25 mph before daybreak.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Sunday morning brings a slight chance of thunderstorms along with the showers. By afternoon, forecasters expect some sun and a chance of lingering showers. The day\u2019s high should reach the mid-60s, but the temperature is expected to fall into the mid-50s during the afternoon as winds of 15 to 20 mph turn from south to west.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "Forecasters in Memphis expect the cold front to bring an average of less than two-tenths of an inch of rain across the region. They put the likelihood of strong or severe thunderstorms low because the air ahead of the front is expected to be only weakly unstable. Sunday night in Pontotoc County should turn mostly clear and much colder, with lows in the lower 30s. Monday\u2019s forecast calls for sunshine and a high in the mid-50s.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-sunday-rain-cold-front-november-29.png",
+    "sha256": "31526c853836b8fe1f4580a9e0f94657f65d3c94ad8d07a232eb78586431fae2",
+    "alt_text": "Pontotoc County forecast calls for a sunny Saturday, a 60% chance of rain Saturday night and a near 100% chance Sunday.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News supplemental desk",
+    "reviewed_at": "2026-11-27T19:41:01.858171+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f4"
+    ],
+    "excerpt_fact_ids": [
+      "f2",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 27 supplemental editorial shift. Publish the reviewed article after authenticated preflight."
+  }
+}
