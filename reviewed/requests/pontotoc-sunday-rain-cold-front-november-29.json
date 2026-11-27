@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/pontotoc-sunday-rain-cold-front-november-29.json",
   "article_sha256": "dfb22a0f73dce45fcaa661822500deee76418e5a29df31892910a4bc3c95caf3",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "pontotoc-sunday-rain-cold-front-november-29",
   "seo_review": {
     "reviewer": "Pontotoc News supplemental desk",
