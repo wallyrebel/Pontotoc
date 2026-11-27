@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/north-mississippi-pecan-harvest-pontotoc-county-growers.json",
   "article_sha256": "7ec623bf95b5ce7e8bf68409a024d2dc8a23276f485469d1f20de10cefe6ad44",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "north-mississippi-pecan-harvest-pontotoc-county-growers",
   "seo_review": {
     "reviewer": "Pontotoc News morning desk",
