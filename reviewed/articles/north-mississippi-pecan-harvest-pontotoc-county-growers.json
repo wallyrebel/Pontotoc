@@ -1,0 +1,172 @@
+{
+  "title": "North Mississippi pecan growers expect a fair harvest at best",
+  "excerpt": "Two Pontotoc County farms reported pecans in the last federal farm census. This fall, MSU Extension estimates retail prices of $13 to $17 a pound.",
+  "locality": "Pontotoc County, north Mississippi and statewide pecan markets.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:north-mississippi:2026-11-16:pecan-harvest-outlook-pontotoc"
+  ],
+  "sources": [
+    {
+      "id": "crop",
+      "title": "November 16 Mississippi pecan harvest report",
+      "url": "https://extension.msstate.edu/news/crop-report/2026/weather-extremes-affect-pecan-quality-quantity",
+      "publisher": "Mississippi State University Extension Service",
+      "role": "event",
+      "verified_at": "2026-11-27T15:12:59.050268+00:00",
+      "verification_url": "https://extension.msstate.edu/news/crop-report/2026/weather-extremes-affect-pecan-quality-quantity",
+      "published_at": "2026-11-16T20:16:00Z"
+    },
+    {
+      "id": "census",
+      "title": "Mississippi Census of Agriculture, Table 31, pages 15 and 17 of the PDF",
+      "url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Mississippi/st28_2_031_031.pdf",
+      "publisher": "USDA National Agricultural Statistics Service",
+      "role": "background",
+      "verified_at": "2026-11-27T15:12:59.050268+00:00",
+      "verification_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Mississippi/st28_2_031_031.pdf",
+      "published_at": null
+    },
+    {
+      "id": "directory",
+      "title": "Where to buy Mississippi-grown pecans",
+      "url": "https://mspecans.org/buy-ms-pecans/",
+      "publisher": "Mississippi Pecan Growers Association",
+      "role": "background",
+      "verified_at": "2026-11-27T15:12:59.050268+00:00",
+      "verification_url": "https://mspecans.org/buy-ms-pecans/",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "North Mississippi pecan growers are reporting a weaker harvest than their counterparts in the southern part of the state. James Callahan, president of the Mississippi Pecan Growers Association, told Mississippi State University Extension that growers he had spoken with in the north expected a fair crop at best. Those he spoke with in the south expected a good one.",
+      "source_ids": [
+        "crop"
+      ],
+      "evidence": "Callahan compares reports from growers in the two parts of Mississippi in the November 16 crop update.",
+      "statistics": "Regional outlook, with no county yield estimate.",
+      "date_context": "November 2026 harvest outlook with 2017 and 2022 census context.",
+      "locality": "Pontotoc County, north Mississippi and statewide pecan markets.",
+      "identities": "Mississippi State University Extension, USDA and the Mississippi Pecan Growers Association."
+    },
+    {
+      "id": "f2",
+      "statement": "Pontotoc County has a small place in that harvest. Two farms reported pecan trees in the county in the 2022 Census of Agriculture, the same count as in 2017. In both years, two farms reported bearing-age trees in the native and seedling category. USDA withheld the acreage. The census counts farms, so it gives no measure of pecans gathered from backyard trees this fall.",
+      "source_ids": [
+        "census"
+      ],
+      "evidence": "County rows in the all-pecans and native-and-seedling tables have two farms and suppressed acreage in both census years.",
+      "statistics": "Two farms in each of 2017 and 2022.",
+      "date_context": "November 2026 harvest outlook with 2017 and 2022 census context.",
+      "locality": "Pontotoc County, north Mississippi and statewide pecan markets.",
+      "identities": "Mississippi State University Extension, USDA and the Mississippi Pecan Growers Association."
+    },
+    {
+      "id": "f3",
+      "statement": "For holiday bakers, Extension agricultural economist Elizabeth Canales Medina estimated retail prices of $13 to $17 a pound, depending on quality and variety. Her wholesale estimates were about $4 a pound for in-shell pecans and $6 for shelled nuts. Actual prices at an individual store or farm may differ.",
+      "source_ids": [
+        "crop"
+      ],
+      "evidence": "Extension distinguishes the economist\u2019s predicted retail range from the two wholesale estimates.",
+      "statistics": "$13\u2013$17 retail per pound, about $4 in-shell and $6 shelled wholesale.",
+      "date_context": "November 2026 harvest outlook with 2017 and 2022 census context.",
+      "locality": "Pontotoc County, north Mississippi and statewide pecan markets.",
+      "identities": "Mississippi State University Extension, USDA and the Mississippi Pecan Growers Association."
+    },
+    {
+      "id": "f4",
+      "statement": "Callahan, who grows pecans in Coahoma County, said heat and a lack of rain after June stressed his trees. Extension specialist Eric Stafne said late-summer drought can also affect the following crop. The buds that can bear fruit next year begin forming in late summer and early fall.",
+      "source_ids": [
+        "crop"
+      ],
+      "evidence": "Callahan describes conditions at his orchard. Stafne explains when fruiting buds form and how water stress affects them.",
+      "statistics": "After June, late summer and early fall.",
+      "date_context": "November 2026 harvest outlook with 2017 and 2022 census context.",
+      "locality": "Pontotoc County, north Mississippi and statewide pecan markets.",
+      "identities": "Mississippi State University Extension, USDA and the Mississippi Pecan Growers Association."
+    },
+    {
+      "id": "f5",
+      "statement": "For readers looking to buy directly, the growers association lists Moon Lake Pecans in Oxford. Its directory entry lists in-shell, cracked and shelled nuts, online ordering and sales at farmers markets in Oxford and Tupelo. The entry gives no dates for those markets, so check with the grower before making a trip.",
+      "source_ids": [
+        "directory"
+      ],
+      "evidence": "Producer directory lists Oxford address, product forms, online sales and cities including Tupelo, with no specific market dates.",
+      "statistics": "No holiday market date asserted.",
+      "date_context": "November 2026 harvest outlook with 2017 and 2022 census context.",
+      "locality": "Pontotoc County, north Mississippi and statewide pecan markets.",
+      "identities": "Mississippi State University Extension, USDA and the Mississippi Pecan Growers Association."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "North Mississippi pecan growers are reporting a weaker harvest than their counterparts in the southern part of the state. James Callahan, president of the Mississippi Pecan Growers Association, told Mississippi State University Extension that growers he had spoken with in the north expected a fair crop at best. Those he spoke with in the south expected a good one.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "Pontotoc County has a small place in that harvest. Two farms reported pecan trees in the county in the 2022 Census of Agriculture, the same count as in 2017. In both years, two farms reported bearing-age trees in the native and seedling category. USDA withheld the acreage. The census counts farms, so it gives no measure of pecans gathered from backyard trees this fall.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "For holiday bakers, Extension agricultural economist Elizabeth Canales Medina estimated retail prices of $13 to $17 a pound, depending on quality and variety. Her wholesale estimates were about $4 a pound for in-shell pecans and $6 for shelled nuts. Actual prices at an individual store or farm may differ.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "Callahan, who grows pecans in Coahoma County, said heat and a lack of rain after June stressed his trees. Extension specialist Eric Stafne said late-summer drought can also affect the following crop. The buds that can bear fruit next year begin forming in late summer and early fall.",
+      "fact_ids": [
+        "f4"
+      ]
+    },
+    {
+      "text": "For readers looking to buy directly, the growers association lists Moon Lake Pecans in Oxford. Its directory entry lists in-shell, cracked and shelled nuts, online ordering and sales at farmers markets in Oxford and Tupelo. The entry gives no dates for those markets, so check with the grower before making a trip.",
+      "fact_ids": [
+        "f5"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/north-mississippi-pecan-harvest-pontotoc-county-growers.png",
+    "sha256": "ffaeda7316bbcc98b99fbdfd4c5e77fe3a02e5cfc604b49e2ea50314986e08e1",
+    "alt_text": "MSU Extension estimates retail pecans at $13 to $17 a pound and wholesale pecans at about $4 in-shell and $6 shelled.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-27T15:12:59.050268+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f2",
+      "f3"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 27 Pontotoc morning editorial shift. Publish this exact package after authenticated preflight."
+  }
+}
