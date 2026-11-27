@@ -1,0 +1,168 @@
+{
+  "title": "Pontotoc County farms cut nearly 15% of Mississippi\u2019s Christmas trees in the last census",
+  "excerpt": "Six local farms reported cutting 1,650 trees in 2022. Mississippi State\u2019s new crop report explains why reaching six feet can take three to five years.",
+  "locality": "Pontotoc County, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:2026-11-24:msu-christmas-tree-crop-county-census"
+  ],
+  "sources": [
+    {
+      "id": "crop",
+      "title": "November 24 Mississippi Christmas tree crop report",
+      "url": "https://extension.msstate.edu/news/crop-report/2026/christmas-trees-are-strong-ms-ag-niche",
+      "publisher": "Mississippi State University Extension Service",
+      "role": "event",
+      "verified_at": "2026-11-27T01:33:49.988349+00:00",
+      "verification_url": "https://extension.msstate.edu/news/crop-report/2026/christmas-trees-are-strong-ms-ag-niche",
+      "published_at": null
+    },
+    {
+      "id": "census",
+      "title": "USDA Table 35, cultivated Christmas trees by county (PDF)",
+      "url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Mississippi/st28_2_035_035.pdf",
+      "publisher": "USDA National Agricultural Statistics Service",
+      "role": "background",
+      "verified_at": "2026-11-27T01:33:49.988349+00:00",
+      "verification_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Mississippi/st28_2_035_035.pdf",
+      "published_at": null
+    },
+    {
+      "id": "research",
+      "title": "MSU research on the challenges of growing Christmas trees in the South",
+      "url": "https://alumnusmagazine.com/2026/11/making-christmas-trees-a-little-greener/",
+      "publisher": "Mississippi State University",
+      "role": "background",
+      "verified_at": "2026-11-27T01:33:49.988349+00:00",
+      "verification_url": "https://alumnusmagazine.com/2026/11/making-christmas-trees-a-little-greener/",
+      "published_at": null
+    },
+    {
+      "id": "carnes",
+      "title": "Carnes Farms in Pontotoc",
+      "url": "https://genuinems.com/directory/carnes-farms/",
+      "publisher": "Genuine Mississippi",
+      "role": "background",
+      "verified_at": "2026-11-27T01:33:49.988349+00:00",
+      "verification_url": "https://genuinems.com/directory/carnes-farms/",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Six Pontotoc County farms cut 1,650 Christmas trees in 2022, nearly 15% of the 11,175 that Mississippi growers reported cutting that year. Those figures come from the USDA Census of Agriculture that Mississippi State University Extension used in its Nov. 24 look at this season\u2019s crop. They show how much one small group of farms contributed when the last census was taken.",
+      "source_ids": [
+        "crop",
+        "census"
+      ],
+      "evidence": "Visually compared the Pontotoc and Mississippi rows of USDA table 35. MSU dates the census in its crop report.",
+      "statistics": "1,650 divided by 11,175 is 14.77%. Six county farms reported cutting trees.",
+      "date_context": "November 24, 2026 crop report. County and state harvest figures describe 2022.",
+      "locality": "Pontotoc County, Mississippi.",
+      "identities": "USDA NASS, Mississippi State University and Carnes Farms."
+    },
+    {
+      "id": "f2",
+      "statement": "The county had 12 acres in Christmas tree production that year. Across Mississippi, 102 farms had trees growing on 547 acres, but only 54 farms reported cutting any. Raising a tree to a height of six feet can take three to five years, MSU forester Joshua Granger told Extension. The species, the growing conditions and how the trees are managed all affect that timetable.",
+      "source_ids": [
+        "crop",
+        "census"
+      ],
+      "evidence": "County and state acreage, operations growing vs. cutting, and the six-foot estimate were checked separately.",
+      "statistics": "12 county acres. Statewide 102 farms growing, 54 cutting, 547 acres. Three to five years.",
+      "date_context": "November 24, 2026 crop report. County and state harvest figures describe 2022.",
+      "locality": "Pontotoc County, Mississippi.",
+      "identities": "USDA NASS, Mississippi State University and Carnes Farms."
+    },
+    {
+      "id": "f3",
+      "statement": "At Carnes Farms on Hurt-Wood Road in Pontotoc, the family traces its business back to building wood crafts in the garage. Christmas trees came later. Across the state, growers who plant trees for a future December face a problem that can be hard to diagnose in the field. Browning needles can signal drought, disease or ordinary dieback.",
+      "source_ids": [
+        "carnes",
+        "research"
+      ],
+      "evidence": "The farm describes its beginnings in the state directory. In MSU\u2019s research report Joby Czarnecki identifies three possible reasons for browning.",
+      "statistics": "None asserted.",
+      "date_context": "November 24, 2026 crop report. County and state harvest figures describe 2022.",
+      "locality": "Pontotoc County, Mississippi.",
+      "identities": "USDA NASS, Mississippi State University and Carnes Farms."
+    },
+    {
+      "id": "f4",
+      "statement": "A three-year USDA research project led by MSU\u2019s Joby Czarnecki aims to help growers distinguish those causes and decide when a treatment is worth applying. Another part of the project looks at where different species grow best. For a farmer choosing seedlings now, matching a tree\u2019s water needs to the site is a decision that will still matter several Christmases from now.",
+      "source_ids": [
+        "research",
+        "crop"
+      ],
+      "evidence": "MSU describes the three-year project and the species and site work. Crop report supplies the growing horizon.",
+      "statistics": "Three years.",
+      "date_context": "November 24, 2026 crop report. County and state harvest figures describe 2022.",
+      "locality": "Pontotoc County, Mississippi.",
+      "identities": "USDA NASS, Mississippi State University and Carnes Farms."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Six Pontotoc County farms cut 1,650 Christmas trees in 2022, nearly 15% of the 11,175 that Mississippi growers reported cutting that year. Those figures come from the USDA Census of Agriculture that Mississippi State University Extension used in its Nov. 24 look at this season\u2019s crop. They show how much one small group of farms contributed when the last census was taken.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "The county had 12 acres in Christmas tree production that year. Across Mississippi, 102 farms had trees growing on 547 acres, but only 54 farms reported cutting any. Raising a tree to a height of six feet can take three to five years, MSU forester Joshua Granger told Extension. The species, the growing conditions and how the trees are managed all affect that timetable.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "At Carnes Farms on Hurt-Wood Road in Pontotoc, the family traces its business back to building wood crafts in the garage. Christmas trees came later. Across the state, growers who plant trees for a future December face a problem that can be hard to diagnose in the field. Browning needles can signal drought, disease or ordinary dieback.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "A three-year USDA research project led by MSU\u2019s Joby Czarnecki aims to help growers distinguish those causes and decide when a treatment is worth applying. Another part of the project looks at where different species grow best. For a farmer choosing seedlings now, matching a tree\u2019s water needs to the site is a decision that will still matter several Christmases from now.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-county-christmas-tree-harvest-msu-crop-report.png",
+    "sha256": "cef6f9e0e285d494f81a3a7aa8b935a1a98fd804399596523f4e6b616d3a5510",
+    "alt_text": "In 2022 six Pontotoc County farms cut 1,650 Christmas trees. Mississippi growers cut 11,175.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News evening desk",
+    "reviewed_at": "2026-11-27T01:33:49.988349+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "November 26 evening shift. Publish the same reviewed package after authenticated preflight."
+  }
+}
