@@ -1,0 +1,187 @@
+{
+  "title": "North Pontotoc bowling picks up five new region opponents while Pontotoc adds Lake Cormorant",
+  "excerpt": "Four Union County schools join North Pontotoc\u2019s bowling region in 2027\u201328. This winter\u2019s Jan. 18 regional tournament still uses the current alignment.",
+  "locality": "Pontotoc High School and North Pontotoc High School, Pontotoc County, Mississippi.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:2026-11-04:mhsaa-boys-girls-bowling-2027-29-assignments"
+  ],
+  "sources": [
+    {
+      "id": "newb",
+      "title": "2027\u201329 boys bowling assignments",
+      "url": "https://www.misshsaa.com/2026/11/04/2027-29-boys-bowling-regions/",
+      "publisher": "Mississippi High School Activities Association",
+      "role": "event",
+      "verified_at": "2026-11-27T15:19:31.678404+00:00",
+      "verification_url": "https://www.misshsaa.com/2026/11/04/2027-29-boys-bowling-regions/",
+      "published_at": "2026-11-04T23:07:52Z"
+    },
+    {
+      "id": "newg",
+      "title": "2027\u201329 girls bowling assignments",
+      "url": "https://www.misshsaa.com/2026/11/04/2027-29-girls-bowling-regions/",
+      "publisher": "Mississippi High School Activities Association",
+      "role": "event",
+      "verified_at": "2026-11-27T15:19:31.678404+00:00",
+      "verification_url": "https://www.misshsaa.com/2026/11/04/2027-29-girls-bowling-regions/",
+      "published_at": "2026-11-04T23:07:00Z"
+    },
+    {
+      "id": "oldb",
+      "title": "2025\u201327 boys bowling assignments",
+      "url": "https://www.misshsaa.com/2024/11/20/2025-27-boys-bowling-regions/",
+      "publisher": "Mississippi High School Activities Association",
+      "role": "background",
+      "verified_at": "2026-11-27T15:19:31.678404+00:00",
+      "verification_url": "https://www.misshsaa.com/2024/11/20/2025-27-boys-bowling-regions/",
+      "published_at": "2024-11-21T00:31:15Z"
+    },
+    {
+      "id": "oldg",
+      "title": "2025\u201327 girls bowling assignments",
+      "url": "https://www.misshsaa.com/2024/11/20/2025-27-girls-bowling-regions/",
+      "publisher": "Mississippi High School Activities Association",
+      "role": "background",
+      "verified_at": "2026-11-27T15:19:31.678404+00:00",
+      "verification_url": "https://www.misshsaa.com/2024/11/20/2025-27-girls-bowling-regions/",
+      "published_at": "2024-11-21T00:36:18Z"
+    },
+    {
+      "id": "cal",
+      "title": "January 2027 region tournament date",
+      "url": "https://www.misshsaa.com/events/bowling-region-tournament-7/",
+      "publisher": "Mississippi High School Activities Association",
+      "role": "background",
+      "verified_at": "2026-11-27T15:19:31.678404+00:00",
+      "verification_url": "https://www.misshsaa.com/events/bowling-region-tournament-7/",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "North Pontotoc\u2019s bowlers will have five new region opponents in the 2027\u201328 school year, including four programs in neighboring Union County. Pontotoc High will add just one opponent, Lake Cormorant. The Mississippi High School Activities Association\u2019s new assignments list the same opponents for the boys and girls at each school.",
+      "source_ids": [
+        "newb",
+        "newg",
+        "oldb",
+        "oldg"
+      ],
+      "evidence": "Compared the two local schools in both cycles of the official boys and girls region lists.",
+      "statistics": "Five new opponents for North Pontotoc, one for Pontotoc.",
+      "date_context": "November 4, 2026 regional assignments, 2026\u201327 winter tournament and 2027\u201329 alignment.",
+      "locality": "Pontotoc High School and North Pontotoc High School, Pontotoc County, Mississippi.",
+      "identities": "MHSAA boys and girls bowling programs at Pontotoc and North Pontotoc."
+    },
+    {
+      "id": "f2",
+      "statement": "For North Pontotoc, the number on the region stays the same. The Vikings remain in Class I Region 2 with Choctaw Central and Nettleton. East Union, Myrtle, New Albany, West Union and Velma Jackson round out the new eight-school field. That gives North Pontotoc as many region opponents as it has this winter, even as most of the names change.",
+      "source_ids": [
+        "newb",
+        "newg",
+        "oldb",
+        "oldg"
+      ],
+      "evidence": "All four rosters have eight in the relevant Class I Region 2. Three schools appear in both cycles, including North Pontotoc.",
+      "statistics": "Eight schools, seven opponents in each cycle.",
+      "date_context": "November 4, 2026 regional assignments, 2026\u201327 winter tournament and 2027\u201329 alignment.",
+      "locality": "Pontotoc High School and North Pontotoc High School, Pontotoc County, Mississippi.",
+      "identities": "MHSAA boys and girls bowling programs at Pontotoc and North Pontotoc."
+    },
+    {
+      "id": "f3",
+      "statement": "Five schools will leave North Pontotoc\u2019s group after this season. Itawamba Agricultural, Mantachie and Tremont shift to Region 1. Nanih Waiya and Union are also on the Vikings\u2019 current list and do not appear in their next Region 2. East Union, one of the five newcomers, is a separate school from Union.",
+      "source_ids": [
+        "newb",
+        "newg",
+        "oldb",
+        "oldg"
+      ],
+      "evidence": "Compared the outgoing Class I Region 2 roster with the new Class I Regions 1 and 2 and checked the Union schools by full name.",
+      "statistics": "Five outgoing opponents, with three assigned to Region 1.",
+      "date_context": "November 4, 2026 regional assignments, 2026\u201327 winter tournament and 2027\u201329 alignment.",
+      "locality": "Pontotoc High School and North Pontotoc High School, Pontotoc County, Mississippi.",
+      "identities": "MHSAA boys and girls bowling programs at Pontotoc and North Pontotoc."
+    },
+    {
+      "id": "f4",
+      "statement": "Pontotoc has more continuity in Class II Region 1. Center Hill, Cleveland Central, Lafayette, Olive Branch and South Panola all stay in the Warriors\u2019 group. Lake Cormorant brings it from six schools to seven. For families following either local team this winter, the association lists Jan. 18, 2027, for the regional tournament. This season still uses the 2025\u201327 assignments.",
+      "source_ids": [
+        "newb",
+        "newg",
+        "oldb",
+        "oldg",
+        "cal"
+      ],
+      "evidence": "Current and next Class II Region 1 assignments agree across both sexes. The association calendar lists the date for the current winter.",
+      "statistics": "Six schools becoming seven, January 18, 2027.",
+      "date_context": "November 4, 2026 regional assignments, 2026\u201327 winter tournament and 2027\u201329 alignment.",
+      "locality": "Pontotoc High School and North Pontotoc High School, Pontotoc County, Mississippi.",
+      "identities": "MHSAA boys and girls bowling programs at Pontotoc and North Pontotoc."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "North Pontotoc\u2019s bowlers will have five new region opponents in the 2027\u201328 school year, including four programs in neighboring Union County. Pontotoc High will add just one opponent, Lake Cormorant. The Mississippi High School Activities Association\u2019s new assignments list the same opponents for the boys and girls at each school.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "For North Pontotoc, the number on the region stays the same. The Vikings remain in Class I Region 2 with Choctaw Central and Nettleton. East Union, Myrtle, New Albany, West Union and Velma Jackson round out the new eight-school field. That gives North Pontotoc as many region opponents as it has this winter, even as most of the names change.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Five schools will leave North Pontotoc\u2019s group after this season. Itawamba Agricultural, Mantachie and Tremont shift to Region 1. Nanih Waiya and Union are also on the Vikings\u2019 current list and do not appear in their next Region 2. East Union, one of the five newcomers, is a separate school from Union.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "Pontotoc has more continuity in Class II Region 1. Center Hill, Cleveland Central, Lafayette, Olive Branch and South Panola all stay in the Warriors\u2019 group. Lake Cormorant brings it from six schools to seven. For families following either local team this winter, the association lists Jan. 18, 2027, for the regional tournament. This season still uses the 2025\u201327 assignments.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-county-bowling-region-opponents-2027.png",
+    "sha256": "3fdbee4c567b2b476c1a35c757a5ebb46898c3e0f8b4e3347d621097e867fdb0",
+    "alt_text": "North Pontotoc gains five new region opponents and Pontotoc adds one for the 2027\u201328 bowling season.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News morning desk",
+    "reviewed_at": "2026-11-27T15:19:31.678404+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f2",
+      "f4"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 27 Pontotoc morning editorial shift. Publish this exact package after authenticated preflight."
+  }
+}
