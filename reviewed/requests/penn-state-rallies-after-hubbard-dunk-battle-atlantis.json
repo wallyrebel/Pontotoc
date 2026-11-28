@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/penn-state-rallies-after-hubbard-dunk-battle-atlantis.json",
   "article_sha256": "fd48f5358222968d7c129ff52d1051189b22ae395e09521462b032559ce7038f",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "penn-state-rallies-after-hubbard-dunk-battle-atlantis",
   "seo_review": {
     "reviewer": "Pontotoc News evening recovery desk",
