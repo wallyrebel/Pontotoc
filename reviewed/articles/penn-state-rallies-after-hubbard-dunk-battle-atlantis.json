@@ -1,0 +1,171 @@
+{
+  "title": "Penn State closes on a 14\u20134 run after Hubbard\u2019s dunk puts Mississippi State up five",
+  "excerpt": "Penn State beat the Bulldogs 68\u201363 in the Bahamas. Mississippi State returns to Starkville to play Georgia Tech on Wednesday.",
+  "locality": "Starkville, Mississippi, and Paradise Island, Bahamas.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:mississippi-state:2026-11-27:penn-state-battle-4-atlantis-final"
+  ],
+  "sources": [
+    {
+      "id": "box",
+      "title": "Official final box score and play-by-play",
+      "url": "https://hailstate.com/sports/mens-basketball/stats/2026-27/penn-state/boxscore/27754",
+      "publisher": "Mississippi State Athletics",
+      "role": "event",
+      "verified_at": "2026-11-28T04:06:56.435898+00:00",
+      "verification_url": "https://hailstate.com/sports/mens-basketball/stats/2026-27/penn-state/boxscore/27754",
+      "published_at": null
+    },
+    {
+      "id": "book",
+      "title": "Official game book, including both halves and final free throws",
+      "url": "https://gopsusports.com/documents/2747d0d0-ec3f-43d1-9fa4-d95106fb9b3f.pdf",
+      "publisher": "Penn State Athletics",
+      "role": "event",
+      "verified_at": "2026-11-28T04:06:56.435898+00:00",
+      "verification_url": "https://gopsusports.com/documents/2747d0d0-ec3f-43d1-9fa4-d95106fb9b3f.pdf",
+      "published_at": null
+    },
+    {
+      "id": "recap",
+      "title": "Penn State\u2019s postgame report and program record",
+      "url": "https://gopsusports.com/news/2026/11/27/penn-state-rallies-to-defeat-mississippi-state-68-63-juric-sets-consecutive-double-doubles-record",
+      "publisher": "Penn State Athletics",
+      "role": "event",
+      "verified_at": "2026-11-28T04:06:56.435898+00:00",
+      "verification_url": "https://gopsusports.com/news/2026/11/27/penn-state-rallies-to-defeat-mississippi-state-68-63-juric-sets-consecutive-double-doubles-record",
+      "published_at": null
+    },
+    {
+      "id": "schedule",
+      "title": "Mississippi State season schedule",
+      "url": "https://hailstate.com/sports/mens-basketball/schedule",
+      "publisher": "Mississippi State Athletics",
+      "role": "background",
+      "verified_at": "2026-11-28T04:06:56.435898+00:00",
+      "verification_url": "https://hailstate.com/sports/mens-basketball/schedule",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "With 6:34 left Friday night, Josh Hubbard took the ball away from Penn State\u2019s Dasonte Bowen. Four seconds later, Hubbard dunked to put Mississippi State ahead 59\u201354. It was the Bulldogs\u2019 last field goal. Penn State scored 14 of the last 18 points to win 68\u201363 in the Battle 4 Atlantis finale on Paradise Island in the Bahamas.",
+      "source_ids": [
+        "box",
+        "book",
+        "recap"
+      ],
+      "evidence": "Both official scorebooks show the steal, dunk, final score and scoring sequence.",
+      "statistics": "6:34, 6:30, 59\u201354 and a 14\u20134 finish for a 68\u201363 final.",
+      "date_context": "November 27, 2026 final and December 2, 2026 next game.",
+      "locality": "Starkville, Mississippi, and Paradise Island, Bahamas.",
+      "identities": "Mississippi State Bulldogs and Penn State Nittany Lions men\u2019s basketball teams."
+    },
+    {
+      "id": "f2",
+      "statement": "Mississippi State took a 36\u201329 lead into halftime and led by as many as 16 in the second half. Penn State caught the Bulldogs at 54 on a basket by Bowen. State scored the next five points, capped by Hubbard\u2019s dunk. Brant Byers answered with a three for Penn State, and Bowen tied the game again before Byers put the Nittany Lions ahead at the foul line.",
+      "source_ids": [
+        "box",
+        "book",
+        "recap"
+      ],
+      "evidence": "First-half line, largest lead and the second-half scoring sequence.",
+      "statistics": "Seven-point halftime lead, largest lead 16, ties at 54 and 59.",
+      "date_context": "November 27, 2026 final and December 2, 2026 next game.",
+      "locality": "Starkville, Mississippi, and Paradise Island, Bahamas.",
+      "identities": "Mississippi State Bulldogs and Penn State Nittany Lions men\u2019s basketball teams."
+    },
+    {
+      "id": "f3",
+      "statement": "The score was 66\u201361 with eight seconds left. Kimani Hamilton hit two free throws for Mississippi State to cut the gap to three. Byers made both of his free throws with six seconds to go, and Bowen stole the ball on the Bulldogs\u2019 final possession. Penn State won the second half 39\u201327.",
+      "source_ids": [
+        "box",
+        "book"
+      ],
+      "evidence": "Official play-by-play identifies both shooters and the final turnover. Original scorebooks agree on the second-half totals.",
+      "statistics": "66\u201361 before the final four free throws, 39\u201327 in the second half.",
+      "date_context": "November 27, 2026 final and December 2, 2026 next game.",
+      "locality": "Starkville, Mississippi, and Paradise Island, Bahamas.",
+      "identities": "Mississippi State Bulldogs and Penn State Nittany Lions men\u2019s basketball teams."
+    },
+    {
+      "id": "f4",
+      "statement": "Hubbard finished with 12 points on 4-of-15 shooting. Bowen led Penn State with 18, and Ivan Juri\u0107 scored 15 points and pulled down 17 rebounds. It was Juri\u0107\u2019s eighth straight double-double, breaking the Penn State record set by John Amaechi in 1994\u201395. The Bulldogs leave the Bahamas at 5\u20133. They return to Humphrey Coliseum in Starkville to face Georgia Tech on Wednesday, Dec. 2, at 8:15 p.m. Central.",
+      "source_ids": [
+        "box",
+        "recap",
+        "schedule"
+      ],
+      "evidence": "Player lines, Penn State historical record, Mississippi State record and next home game.",
+      "statistics": "12, 18 and 15 points, 17 rebounds, eight straight double-doubles, 5\u20133, 8:15 p.m.",
+      "date_context": "November 27, 2026 final and December 2, 2026 next game.",
+      "locality": "Starkville, Mississippi, and Paradise Island, Bahamas.",
+      "identities": "Mississippi State Bulldogs and Penn State Nittany Lions men\u2019s basketball teams."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "With 6:34 left Friday night, Josh Hubbard took the ball away from Penn State\u2019s Dasonte Bowen. Four seconds later, Hubbard dunked to put Mississippi State ahead 59\u201354. It was the Bulldogs\u2019 last field goal. Penn State scored 14 of the last 18 points to win 68\u201363 in the Battle 4 Atlantis finale on Paradise Island in the Bahamas.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "Mississippi State took a 36\u201329 lead into halftime and led by as many as 16 in the second half. Penn State caught the Bulldogs at 54 on a basket by Bowen. State scored the next five points, capped by Hubbard\u2019s dunk. Brant Byers answered with a three for Penn State, and Bowen tied the game again before Byers put the Nittany Lions ahead at the foul line.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "The score was 66\u201361 with eight seconds left. Kimani Hamilton hit two free throws for Mississippi State to cut the gap to three. Byers made both of his free throws with six seconds to go, and Bowen stole the ball on the Bulldogs\u2019 final possession. Penn State won the second half 39\u201327.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "Hubbard finished with 12 points on 4-of-15 shooting. Bowen led Penn State with 18, and Ivan Juri\u0107 scored 15 points and pulled down 17 rebounds. It was Juri\u0107\u2019s eighth straight double-double, breaking the Penn State record set by John Amaechi in 1994\u201395. The Bulldogs leave the Bahamas at 5\u20133. They return to Humphrey Coliseum in Starkville to face Georgia Tech on Wednesday, Dec. 2, at 8:15 p.m. Central.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/penn-state-rallies-after-hubbard-dunk-battle-atlantis.png",
+    "sha256": "b54213f1004f4d3c35249d75a95a94fb22ca07cc523a2ded9c0dd07a13ddf466",
+    "alt_text": "Mississippi State led 59\u201354 after Josh Hubbard\u2019s dunk. Penn State scored 14 of the final 18 points to win 68\u201363.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News evening recovery desk",
+    "reviewed_at": "2026-11-28T04:06:56.435898+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f4"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "November 27 evening recovery shift. The official box, game book and play-by-play support the final over the preliminary athletics recap."
+  }
+}
