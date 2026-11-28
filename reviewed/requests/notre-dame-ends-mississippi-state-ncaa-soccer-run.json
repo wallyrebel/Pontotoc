@@ -2,7 +2,7 @@
   "schema_version": 2,
   "article_path": "reviewed/articles/notre-dame-ends-mississippi-state-ncaa-soccer-run.json",
   "article_sha256": "627d2e151f182d97b6dc40c40f91944e6247972a37ed584600408121c6b41ac8",
-  "mode": "dry-run",
+  "mode": "publish",
   "public_slug": "notre-dame-ends-mississippi-state-ncaa-soccer-run",
   "seo_review": {
     "reviewer": "Pontotoc News evening supplemental desk",
