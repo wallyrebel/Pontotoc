@@ -1,0 +1,189 @@
+{
+  "title": "Notre Dame scores in the fifth minute to end Mississippi State\u2019s shutout streak and NCAA run",
+  "excerpt": "Bristol Kersh ended the Bulldogs\u2019 shutout streak at 495 minutes, 39 seconds. Mississippi State put eight shots on target after halftime in the 4\u20130 loss.",
+  "locality": "Starkville, Mississippi, and South Bend, Indiana.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:mississippi-state:2026-11-27:notre-dame-ncaa-soccer-final"
+  ],
+  "sources": [
+    {
+      "id": "box",
+      "title": "Official scoring summary, play-by-play and player statistics",
+      "url": "https://hailstate.com/sports/womens-soccer/stats/2026/-6-notre-dame/boxscore/28144",
+      "publisher": "Mississippi State Athletics",
+      "role": "event",
+      "verified_at": "2026-11-28T01:40:37.643942+00:00",
+      "verification_url": "https://hailstate.com/sports/womens-soccer/stats/2026/-6-notre-dame/boxscore/28144",
+      "published_at": null
+    },
+    {
+      "id": "schedule",
+      "title": "Mississippi State season results",
+      "url": "https://hailstate.com/sports/womens-soccer/schedule",
+      "publisher": "Mississippi State Athletics",
+      "role": "background",
+      "verified_at": "2026-11-28T01:40:37.643942+00:00",
+      "verification_url": "https://hailstate.com/sports/womens-soccer/schedule",
+      "published_at": null
+    },
+    {
+      "id": "advance",
+      "title": "Mississippi State\u2019s pregame shutout records",
+      "url": "https://hailstate.com/news/2026/11/26/soccer-bulldogs-postseason-run-continues-at-no-6-notre-dame",
+      "publisher": "Mississippi State Athletics",
+      "role": "background",
+      "verified_at": "2026-11-28T01:40:37.643942+00:00",
+      "verification_url": "https://hailstate.com/news/2026/11/26/soccer-bulldogs-postseason-run-continues-at-no-6-notre-dame",
+      "published_at": null
+    },
+    {
+      "id": "host",
+      "title": "Notre Dame\u2019s second-round tournament preview",
+      "url": "https://fightingirish.com/news/2026/11/26/preview-4-irish-host-mississippi-state-for-ncaa-second-round",
+      "publisher": "Notre Dame Athletics",
+      "role": "background",
+      "verified_at": "2026-11-28T01:40:37.643942+00:00",
+      "verification_url": "https://fightingirish.com/news/2026/11/26/preview-4-irish-host-mississippi-state-for-ncaa-second-round",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Bristol Kersh scored 4 minutes, 13 seconds into Friday\u2019s NCAA tournament game at Notre Dame, ending a Mississippi State shutout streak that dated to Oct. 15. The Irish went on to win 4\u20130 in South Bend, Indiana, knocking the Bulldogs out in the second round. Mississippi State finishes the season 10\u20133\u20137.",
+      "source_ids": [
+        "box",
+        "schedule",
+        "advance",
+        "host"
+      ],
+      "evidence": "Friday final, team records and first scoring play at Alumni Stadium. The pregame account dates the streak.",
+      "statistics": "4:13, 4\u20130, 10\u20133\u20137.",
+      "date_context": "November 27, 2026, NCAA tournament second round.",
+      "locality": "Starkville, Mississippi, and South Bend, Indiana.",
+      "identities": "Mississippi State Bulldogs and Notre Dame Fighting Irish women\u2019s soccer teams."
+    },
+    {
+      "id": "f2",
+      "statement": "Mississippi State goalkeeper Jenny Harrison stopped a shot by Kersh at 3:47. Twenty-six seconds later, Kersh put the Irish ahead with an unassisted goal. The Bulldogs had entered the night 8:34 short of 500 consecutive scoreless minutes. Kersh stopped the clock on that streak at 495 minutes, 39 seconds.",
+      "source_ids": [
+        "box",
+        "advance"
+      ],
+      "evidence": "Opening play-by-play and the time remaining to 500 minutes given in the advance.",
+      "statistics": "500:00 minus 8:34 plus 4:13 equals 495:39.",
+      "date_context": "November 27, 2026, NCAA tournament second round.",
+      "locality": "Starkville, Mississippi, and South Bend, Indiana.",
+      "identities": "Mississippi State Bulldogs and Notre Dame Fighting Irish women\u2019s soccer teams."
+    },
+    {
+      "id": "f3",
+      "statement": "Morgan Roy doubled the lead at 17:12, with Grace Restovich and Lily Joseph credited with assists. Restovich set up another goal 11 minutes into the second half, this time for Izzy Engle, who scored her 12th of the season. Charlie Codd made it 4\u20130 with an unassisted goal at 65:38.",
+      "source_ids": [
+        "box"
+      ],
+      "evidence": "Four scorers and the assists and season totals listed for each goal.",
+      "statistics": "17:12, 56:00 and 65:38.",
+      "date_context": "November 27, 2026, NCAA tournament second round.",
+      "locality": "Starkville, Mississippi, and South Bend, Indiana.",
+      "identities": "Mississippi State Bulldogs and Notre Dame Fighting Irish women\u2019s soccer teams."
+    },
+    {
+      "id": "f4",
+      "statement": "The Bulldogs took 16 of their 22 shots after halftime. Eight of those second-half attempts reached the goal, and Notre Dame saved all eight. At the other end, Harrison made 11 saves before Sarah Wommack came on and added one. Notre Dame put 16 of its 28 attempts on target.",
+      "source_ids": [
+        "box"
+      ],
+      "evidence": "Team totals by half and both Mississippi State goalkeepers\u2019 individual lines.",
+      "statistics": "16 of 22 shots after halftime, eight second-half saves by Notre Dame, 11 and one by the Mississippi State keepers.",
+      "date_context": "November 27, 2026, NCAA tournament second round.",
+      "locality": "Starkville, Mississippi, and South Bend, Indiana.",
+      "identities": "Mississippi State Bulldogs and Notre Dame Fighting Irish women\u2019s soccer teams."
+    },
+    {
+      "id": "f5",
+      "statement": "It was the first time in six games that an opponent had scored on Mississippi State during play. The Bulldogs had held Auburn, LSU, Alabama, Texas and Samford scoreless. Texas advanced on penalty kicks after a 0\u20130 draw in the SEC tournament. A 2\u20130 win over Samford in Starkville took State through the opening round of the NCAA tournament.",
+      "source_ids": [
+        "schedule",
+        "advance"
+      ],
+      "evidence": "Last five results before Friday, including how Texas advanced.",
+      "statistics": "Five consecutive shutouts, 0\u20130 against Texas and 2\u20130 against Samford.",
+      "date_context": "November 27, 2026, NCAA tournament second round.",
+      "locality": "Starkville, Mississippi, and South Bend, Indiana.",
+      "identities": "Mississippi State Bulldogs and Notre Dame Fighting Irish women\u2019s soccer teams."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Bristol Kersh scored 4 minutes, 13 seconds into Friday\u2019s NCAA tournament game at Notre Dame, ending a Mississippi State shutout streak that dated to Oct. 15. The Irish went on to win 4\u20130 in South Bend, Indiana, knocking the Bulldogs out in the second round. Mississippi State finishes the season 10\u20133\u20137.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "Mississippi State goalkeeper Jenny Harrison stopped a shot by Kersh at 3:47. Twenty-six seconds later, Kersh put the Irish ahead with an unassisted goal. The Bulldogs had entered the night 8:34 short of 500 consecutive scoreless minutes. Kersh stopped the clock on that streak at 495 minutes, 39 seconds.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Morgan Roy doubled the lead at 17:12, with Grace Restovich and Lily Joseph credited with assists. Restovich set up another goal 11 minutes into the second half, this time for Izzy Engle, who scored her 12th of the season. Charlie Codd made it 4\u20130 with an unassisted goal at 65:38.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "The Bulldogs took 16 of their 22 shots after halftime. Eight of those second-half attempts reached the goal, and Notre Dame saved all eight. At the other end, Harrison made 11 saves before Sarah Wommack came on and added one. Notre Dame put 16 of its 28 attempts on target.",
+      "fact_ids": [
+        "f4"
+      ]
+    },
+    {
+      "text": "It was the first time in six games that an opponent had scored on Mississippi State during play. The Bulldogs had held Auburn, LSU, Alabama, Texas and Samford scoreless. Texas advanced on penalty kicks after a 0\u20130 draw in the SEC tournament. A 2\u20130 win over Samford in Starkville took State through the opening round of the NCAA tournament.",
+      "fact_ids": [
+        "f5"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/notre-dame-ends-mississippi-state-ncaa-soccer-run.png",
+    "sha256": "9470be43ba6923709bf3029ee0d3f73bfbfe0386edf533e10dae107bf2082524",
+    "alt_text": "Notre Dame beat Mississippi State 4\u20130. The Irish had 16 shots on target and the Bulldogs had nine.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News evening supplemental desk",
+    "reviewed_at": "2026-11-28T01:40:37.643942+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1",
+      "f2"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f2",
+      "f4"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "Authorized November 27 evening supplemental editorial shift. Publish the reviewed article after authenticated preflight."
+  }
+}
