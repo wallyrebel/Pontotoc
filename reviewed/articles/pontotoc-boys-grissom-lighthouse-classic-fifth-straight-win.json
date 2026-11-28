@@ -1,0 +1,216 @@
+{
+  "title": "Pontotoc boys beat Grissom 57\u201349 for fifth straight win",
+  "excerpt": "The Warriors won three games in five days and held all five opponents in their winning streak under 55 points. Houston visits Tuesday.",
+  "locality": "Pontotoc and Corinth, Mississippi. Grissom High School is in Huntsville, Alabama.",
+  "schema_version": 1,
+  "event_keys": [
+    "ms:pontotoc:2026-11-27:grissom-boys-lighthouse-classic-final"
+  ],
+  "sources": [
+    {
+      "id": "broadcast",
+      "title": "Pontotoc\u2013Grissom replay and final scoreboard",
+      "url": "https://www.ballertv.com/streams/pontotoc-ms-vs-grissom-al-20261127172613-cl3mnw2n",
+      "publisher": "BallerTV",
+      "role": "event",
+      "verified_at": "2026-11-28T01:47:53.309919+00:00",
+      "verification_url": "https://www.ballertv.com/streams/pontotoc-ms-vs-grissom-al-20261127172613-cl3mnw2n",
+      "published_at": null
+    },
+    {
+      "id": "host",
+      "title": "Lighthouse Classic broadcast information",
+      "url": "https://lighthouseclassic.com/watch-us/",
+      "publisher": "Lighthouse Classic",
+      "role": "background",
+      "verified_at": "2026-11-28T01:47:53.309919+00:00",
+      "verification_url": "https://lighthouseclassic.com/watch-us/",
+      "published_at": null
+    },
+    {
+      "id": "team",
+      "title": "Pontotoc boys\u2019 season results",
+      "url": "https://www.maxpreps.com/ms/pontotoc/pontotoc-warriors/basketball/schedule/",
+      "publisher": "MaxPreps",
+      "role": "background",
+      "verified_at": "2026-11-28T01:47:53.309919+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/pontotoc/pontotoc-warriors/basketball/schedule/",
+      "published_at": null
+    },
+    {
+      "id": "grissom",
+      "title": "Grissom boys\u2019 schedule",
+      "url": "https://www.maxpreps.com/al/huntsville/grissom-tigers/basketball/schedule/",
+      "publisher": "MaxPreps",
+      "role": "background",
+      "verified_at": "2026-11-28T01:47:53.309919+00:00",
+      "verification_url": "https://www.maxpreps.com/al/huntsville/grissom-tigers/basketball/schedule/",
+      "published_at": null
+    },
+    {
+      "id": "florence",
+      "title": "Florence\u2013Pontotoc game sheet",
+      "url": "https://www.maxpreps.com/inter-state/basketball/game/florence-al-vs-pontotoc-ms/11-23-2026/?c=77cd264b-58b2-42de-be99-7fd996a1b7e4",
+      "publisher": "MaxPreps",
+      "role": "background",
+      "verified_at": "2026-11-28T01:47:53.309919+00:00",
+      "verification_url": "https://www.maxpreps.com/inter-state/basketball/game/florence-al-vs-pontotoc-ms/11-23-2026/?c=77cd264b-58b2-42de-be99-7fd996a1b7e4",
+      "published_at": null
+    },
+    {
+      "id": "baldwyn",
+      "title": "Baldwyn\u2013Pontotoc game sheet",
+      "url": "https://www.maxpreps.com/ms/basketball/game/baldwyn-vs-pontotoc/11-24-2026/?c=4819c8d1-e835-447f-adf0-09e223cba127",
+      "publisher": "MaxPreps",
+      "role": "background",
+      "verified_at": "2026-11-28T01:47:53.309919+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/basketball/game/baldwyn-vs-pontotoc/11-24-2026/?c=4819c8d1-e835-447f-adf0-09e223cba127",
+      "published_at": null
+    },
+    {
+      "id": "houston",
+      "title": "Houston boys\u2019 schedule and results",
+      "url": "https://www.maxpreps.com/ms/houston/houston-hilltoppers/basketball/schedule/",
+      "publisher": "MaxPreps",
+      "role": "background",
+      "verified_at": "2026-11-28T01:47:53.309919+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/houston/houston-hilltoppers/basketball/schedule/",
+      "published_at": null
+    },
+    {
+      "id": "next",
+      "title": "Houston at Pontotoc matchup",
+      "url": "https://www.maxpreps.com/ms/basketball/game/houston-vs-pontotoc/12-1-2026/?c=4e3a05a9-5dce-4f75-8899-c784224c75a6",
+      "publisher": "MaxPreps",
+      "role": "background",
+      "verified_at": "2026-11-28T01:47:53.309919+00:00",
+      "verification_url": "https://www.maxpreps.com/ms/basketball/game/houston-vs-pontotoc/12-1-2026/?c=4e3a05a9-5dce-4f75-8899-c784224c75a6",
+      "published_at": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Pontotoc\u2019s boys beat Grissom of Huntsville, Alabama, 57\u201349 on Friday at Corinth High School for their fifth straight win. BallerTV, the Lighthouse Classic\u2019s broadcast partner, posted the final on its game replay. The Warriors finished Thanksgiving week with three wins in five days and improved to 6\u20131.",
+      "source_ids": [
+        "broadcast",
+        "host",
+        "team",
+        "grissom"
+      ],
+      "evidence": "Broadcaster\u2019s dated court scoreboard labels 57 and 49 final, in Pontotoc\u2013Grissom order. Both schools list the same game. Six prior results include five wins.",
+      "statistics": "57\u201349, fifth in a row, 6\u20131 overall.",
+      "date_context": "November 17\u201327, 2026 results and December 1, 2026 upcoming game, Central time.",
+      "locality": "Pontotoc and Corinth, Mississippi. Grissom High School is in Huntsville, Alabama.",
+      "identities": "Pontotoc Warriors, Grissom Tigers and Houston Hilltoppers boys\u2019 varsity basketball teams."
+    },
+    {
+      "id": "f2",
+      "statement": "Two of those wins came against Alabama schools. Pontotoc beat Florence 68\u201353 on Monday, then put up 73 points in a 32-point win over Baldwyn on Tuesday. Grissom held the Warriors to their lowest point total of the week, but Pontotoc held the Tigers under 50 to complete the sweep.",
+      "source_ids": [
+        "broadcast",
+        "team",
+        "florence",
+        "baldwyn"
+      ],
+      "evidence": "Both dated game sheets, opposing schedules and the Friday replay give these totals. Florence is the Alabama team.",
+      "statistics": "68\u201353, 73\u201341 and 57\u201349.",
+      "date_context": "November 17\u201327, 2026 results and December 1, 2026 upcoming game, Central time.",
+      "locality": "Pontotoc and Corinth, Mississippi. Grissom High School is in Huntsville, Alabama.",
+      "identities": "Pontotoc Warriors, Grissom Tigers and Houston Hilltoppers boys\u2019 varsity basketball teams."
+    },
+    {
+      "id": "f3",
+      "statement": "Defense has held up throughout the streak. Louisville scored 34, Tupelo 54, Florence 53, Baldwyn 41 and Grissom 49. That comes to 46.2 points allowed per game. The only closer finish in that stretch came at Tupelo on Nov. 19, when the Warriors won 59\u201354.",
+      "source_ids": [
+        "broadcast",
+        "team",
+        "florence",
+        "baldwyn"
+      ],
+      "evidence": "Chronological finals, each checked against its dated record. Tupelo was a five-point game and Friday was an eight-point game.",
+      "statistics": "231 points allowed in five wins, or 46.2 per game.",
+      "date_context": "November 17\u201327, 2026 results and December 1, 2026 upcoming game, Central time.",
+      "locality": "Pontotoc and Corinth, Mississippi. Grissom High School is in Huntsville, Alabama.",
+      "identities": "Pontotoc Warriors, Grissom Tigers and Houston Hilltoppers boys\u2019 varsity basketball teams."
+    },
+    {
+      "id": "f4",
+      "statement": "Houston brings a different scoring test to Pontotoc on Tuesday, Dec. 1. The Hilltoppers averaged 75.3 points in their first six games, reaching 80 four times. The boys\u2019 game is set for 7:15 p.m. at Pontotoc.",
+      "source_ids": [
+        "houston",
+        "next",
+        "team"
+      ],
+      "evidence": "Houston\u2019s six posted scores total 452. Both calendars agree on the date, time and home team.",
+      "statistics": "89, 67, 81, 83, 81 and 51 points. Four games at or above 80.",
+      "date_context": "November 17\u201327, 2026 results and December 1, 2026 upcoming game, Central time.",
+      "locality": "Pontotoc and Corinth, Mississippi. Grissom High School is in Huntsville, Alabama.",
+      "identities": "Pontotoc Warriors, Grissom Tigers and Houston Hilltoppers boys\u2019 varsity basketball teams."
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Pontotoc\u2019s boys beat Grissom of Huntsville, Alabama, 57\u201349 on Friday at Corinth High School for their fifth straight win. BallerTV, the Lighthouse Classic\u2019s broadcast partner, posted the final on its game replay. The Warriors finished Thanksgiving week with three wins in five days and improved to 6\u20131.",
+      "fact_ids": [
+        "f1"
+      ]
+    },
+    {
+      "text": "Two of those wins came against Alabama schools. Pontotoc beat Florence 68\u201353 on Monday, then put up 73 points in a 32-point win over Baldwyn on Tuesday. Grissom held the Warriors to their lowest point total of the week, but Pontotoc held the Tigers under 50 to complete the sweep.",
+      "fact_ids": [
+        "f2"
+      ]
+    },
+    {
+      "text": "Defense has held up throughout the streak. Louisville scored 34, Tupelo 54, Florence 53, Baldwyn 41 and Grissom 49. That comes to 46.2 points allowed per game. The only closer finish in that stretch came at Tupelo on Nov. 19, when the Warriors won 59\u201354.",
+      "fact_ids": [
+        "f3"
+      ]
+    },
+    {
+      "text": "Houston brings a different scoring test to Pontotoc on Tuesday, Dec. 1. The Hilltoppers averaged 75.3 points in their first six games, reaching 80 four times. The boys\u2019 game is set for 7:15 p.m. at Pontotoc.",
+      "fact_ids": [
+        "f4"
+      ]
+    }
+  ],
+  "image": {
+    "path": "reviewed/assets/pontotoc-boys-grissom-lighthouse-classic-fifth-straight-win.png",
+    "sha256": "b685e64866286c068daf60b2acfcf5f3335463f4430237f9e89cea7adc2ea1a4",
+    "alt_text": "Pontotoc beat Florence 68\u201353 on Monday, Baldwyn 73\u201341 on Tuesday and Grissom 57\u201349 on Friday.",
+    "credit": "Pontotoc News original graphic",
+    "rights": "owned",
+    "rights_reference": "Original typeset data graphic by the Pontotoc News desk. No third-party photograph, artwork or logo."
+  },
+  "review": {
+    "reviewer": "Pontotoc News evening supplemental desk",
+    "reviewed_at": "2026-11-28T01:47:53.309919+00:00",
+    "decision": "publish",
+    "checks": {
+      "dates": true,
+      "locality": true,
+      "identities": true,
+      "statistics": true,
+      "source_support": true,
+      "coherent_prose": true,
+      "no_invented_quotes_or_context": true,
+      "public_facts_only": true,
+      "no_allegations_or_private_sensitive_material": true,
+      "image_rights": true
+    },
+    "headline_fact_ids": [
+      "f1"
+    ],
+    "excerpt_fact_ids": [
+      "f1",
+      "f3",
+      "f4"
+    ]
+  },
+  "submission": {
+    "kind": "assistant_review",
+    "publish_intent": true,
+    "reference": "November 27 evening supplemental editorial shift. Verify the broadcaster\u2019s final against the school records again at the next shift."
+  }
+}

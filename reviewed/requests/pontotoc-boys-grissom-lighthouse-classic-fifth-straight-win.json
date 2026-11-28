@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "article_path": "reviewed/articles/pontotoc-boys-grissom-lighthouse-classic-fifth-straight-win.json",
+  "article_sha256": "9761f0fc88c255236b53378612b62cd221efbe74b777155691db47fc4848ee55",
+  "mode": "dry-run",
+  "public_slug": "pontotoc-boys-grissom-lighthouse-classic-fifth-straight-win",
+  "seo_review": {
+    "reviewer": "Pontotoc News evening supplemental desk",
+    "reviewed_at": "2026-11-28T01:47:53.309919+00:00",
+    "checks": {
+      "meaningful_headline": true,
+      "accurate_concise_description": true,
+      "relevant_accessible_alt": true,
+      "descriptive_slug": true,
+      "no_keyword_stuffing": true,
+      "canonical_and_source_links": true
+    }
+  }
+}
